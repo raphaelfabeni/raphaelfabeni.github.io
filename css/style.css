@@ -26,11 +26,11 @@ a:hover {
 
 .box,
 .box * {
-	-webkit-transition: all 0.4s ease;
-	-moz-transition: all 0.4s ease;
-	-o-transition: all 0.4s ease;
-	-ms-transition: all 0.4s ease;
-	transition: all 0.4s ease;
+	-webkit-transition: all 0.2s ease;
+	-moz-transition: all 0.2s ease;
+	-o-transition: all 0.2s ease;
+	-ms-transition: all 0.2s ease;
+	transition: all 0.2s ease;
 }
 
 /* ==========================================================================
@@ -110,9 +110,15 @@ header {
 	border-radius:10px;
 }
 
+/* polyfill IE7/8 BG */
+
+.ie7 .box,
+.ie8 .box {
+	background:transparent url(../img/bg-box.png) repeat;
+}
+
 #works {
 	left:0;
-	/*bottom:-160px;*/
 }
 
 #contact {
@@ -142,11 +148,7 @@ header {
 
 .icon {
 	position: absolute;
-	right:20px;
-	top:10px;
-}
 
-#works .icon {
 	-webkit-transform:scale(0.55);
 	-moz-transform:scale(0.55);
 	-o-transform:scale(0.55);
@@ -156,6 +158,16 @@ header {
 	opacity: 0;
 	-moz-opacity: 0;
 	filter:alpha(opacity=0);
+}
+
+#works .icon {
+	right:20px;
+	top:10px;
+}
+
+#contact .icon {
+	bottom:0;
+	left:0;
 }
 
 .list {
@@ -179,14 +191,33 @@ header {
 	color: #FF6000;
 }
 
+/* Social networks */
+
+.social-networks {
+	overflow: hidden;
+	padding:10px 0 10px 10px;
+}
+
+.social-networks li {
+	float:left;
+	margin-right:10px;
+}
+
 /* Animation box
 ========================================================================== */
 
-#works:hover {
-	bottom:0;
+.box:hover .title {
+	font-size:18px;
+	color:#666;
+	margin-top:4px;
 }
 
-#works.box:hover .icon {
+.box:hover .phrase {
+	font-size:22px;
+	color:#10b1b2;
+}
+
+.box:hover .icon {
 	-webkit-transform:scale(1);
 	-moz-transform:scale(1);
 	-o-transform:scale(1);
@@ -198,13 +229,15 @@ header {
 	filter:alpha(opacity=100);
 }
 
-.box:hover .title {
-	font-size:18px;
-	color:#666;
-	margin-top:4px;
+#contact.box:hover .icon {
+	bottom:80%;
+	left:70%;
 }
 
-.box:hover .phrase {
-	font-size:22px;
-	color:#10b1b2;
+.box .icon {
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	transition: all 0.5s ease;
 }

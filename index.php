@@ -22,6 +22,7 @@
   		<p class="description">Hi, my name is <span class="big">Raphael Fabeni</span> and I'm a <span class="medium">webdesigner</span> borned in São Paulo who loves web, electronic music and travel.</p>
   		<p class="description">Currently, I'm working full time at <a href="http://www.a2comunicacao.com.br" target="blank">A2 Comunicação</a> as a front-end developer. I'm focusing on HTML5, CSS3, jQuery and Mobile.</p>
   	</section>
+    <!-- works -->
     <nav id="works" class="box">
       <figure class="icon">
         <img src="img/works.png" alt="Recent works">
@@ -45,6 +46,7 @@
           </a></li>
       </ul>
     </nav>
+    <!-- contact -->
     <section id="contact" class="box">
      <figure class="icon">
         <img src="img/contact.png" alt="Contact">
@@ -57,8 +59,15 @@
             <p>contato@raphaelfabeni.com.br</p>
             <p>rapha.fabeni@gmail.com</p>
         </address>
+        <aside id="social">
+            <ul class="social-networks">
+                <li class="twitter"><a href="#"><img src="img/twitter.png" alt="Twitter"></a></li>
+                <li class="facebook"><a href="#"><img src="img/facebook.png" alt="Facebook"></a></li>
+                <li class="google"><a href="#"><img src="img/google.png" alt="Google"></a></li>
+                <li class="linkedin"><a href="#"><img src="img/linkedin.png" alt="Linkedin"></a></li>
+            </ul>
+        </aside>
     </section>
-  	
   </div>
 
 <?php include('/in/scripts.php');?>
