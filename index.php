@@ -11,8 +11,11 @@
   <?php include('/in/estilos.php');?>
 </head>
 <body>
-  <div role="main">
-  	<header>
+<div role="main">
+	<div class="alert">
+		<p>You're using a browser which does not support all new features. Try Chrome or Firefox!</p>
+	</div>
+	<header>
   		<hgroup>
   			<h1>RaphaelFabeni</h1>
   			<h2>webdesigner</h2>
@@ -23,7 +26,7 @@
   		<p class="description">Currently, I'm working full time at <a href="http://www.a2comunicacao.com.br" target="blank">A2 Comunicação</a> as a front-end developer. I'm focusing on HTML5, CSS3, jQuery and Mobile.</p>
   	</section>
     <!-- works -->
-    <nav id="works" class="box">
+    <nav id="works" class="box overlay">
       <figure class="icon">
         <img src="img/works.png" alt="Recent works">
       </figure>
@@ -47,7 +50,7 @@
       </ul>
     </nav>
     <!-- contact -->
-    <section id="contact" class="box">
+    <section id="contact" class="box overlay">
      <figure class="icon">
         <img src="img/contact.png" alt="Contact">
      </figure>
@@ -68,7 +71,12 @@
             </ul>
         </aside>
     </section>
-  </div>
+    <!-- button -->
+    <div class="button">
+        <a href="#" class="btn"><span>Don’t push the button!</span></a>
+    </div>
+
+</div>
 
 <?php include('/in/scripts.php');?>
 <script>
