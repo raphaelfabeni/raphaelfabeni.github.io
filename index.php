@@ -7,14 +7,15 @@
   <meta charset="utf-8">
 
   <title>Raphael Fabeni | Webdesigner</title>
-  <?php include('/in/meta.php');?>
-  <?php include('/in/estilos.php');?>
+  <?php include('in/meta.php');?>
+  <?php include('in/estilos.php');?>
 </head>
 <body>
 <div role="main">
-	<div class="alert">
+	<!-- <div class="alert">
 		<p>You're using a browser which does not support all new features. Try Chrome or Firefox!</p>
-	</div>
+    <a href="#" class="close">X</a>
+	</div> -->
 	<header>
   		<hgroup>
   			<h1>RaphaelFabeni</h1>
@@ -64,10 +65,11 @@
         </address>
         <aside id="social">
             <ul class="social-networks">
-                <li class="twitter"><a href="#"><img src="img/twitter.png" alt="Twitter"></a></li>
-                <li class="facebook"><a href="#"><img src="img/facebook.png" alt="Facebook"></a></li>
-                <li class="google"><a href="#"><img src="img/google.png" alt="Google"></a></li>
-                <li class="linkedin"><a href="#"><img src="img/linkedin.png" alt="Linkedin"></a></li>
+                <li class="twitter"><a href="http://twitter.com/raphaelfabeni" target="blank"><img src="img/twitter.png" alt="Twitter"></a></li>
+                <li class="facebook"><a href="https://www.facebook.com/raphaelfabeni" target="blank"><img src="img/facebook.png" alt="Facebook"></a></li>
+                <li class="google"><a href="https://plus.google.com/u/0/112810314072395481148/posts" target="blank"><img src="img/google.png" alt="Google"></a></li>
+                <li class="linkedin"><a href="http://br.linkedin.com/in/raphaelfabeni" target="blank"><img src="img/linkedin.png" alt="Linkedin"></a></li>
+                <li class="curriculum"><a href="/Raphael_Fabeni.pdf" target="blank"><img src="img/cv.png" alt="Curriculum Vitae"></a></li>
             </ul>
         </aside>
     </section>
@@ -78,21 +80,6 @@
 
 </div>
 
-<?php include('/in/scripts.php');?>
-<script>
-Modernizr.load({
-     test: Modernizr.borderradius,
-     nope: [
-         'js/PIE.js'
-     ],
-     complete: function() {
-        if (window.PIE) {
-          $('.box').each(function() {
-              PIE.attach(this);
-          });
-        }
-     }
- });
-</script>
+<?php include('in/scripts.php');?>
 </body>
 </html>

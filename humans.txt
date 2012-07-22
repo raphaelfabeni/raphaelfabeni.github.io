@@ -4,34 +4,29 @@
 
 
 
+
 /* TEAM */
 
-<your title>: <your name>
-  
+Webdeveloper: Raphael Fabeni
+
 Site:
-  
-Twitter:
-  
+ http://www.raphaelfabeni.com.br
+
+Twitter: 
+@raphaelfabeni
 Location:
 
-
-
-/* THANKS */
-
-Names (& URL):
+ São Paulo, SP, Brazil
 
 
 
 /* SITE */
-  
+ 
+
 Standards: HTML5, CSS3
-  
+
 Components: Modernizr, jQuery
   
-Software:
-
-
-
 
 
 [Credit for this page: http://humanstxt.org/]

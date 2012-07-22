@@ -1,3 +1,17 @@
+Modernizr.load({
+     test: Modernizr.borderradius,
+     nope: [
+         'js/PIE.js'
+     ],
+     complete: function() {
+        if (window.PIE) {
+          $('.box').each(function() {
+              PIE.attach(this);
+          });
+        }
+     }
+ });
+
 $(document).ready(function() {
 	// social networks
 	var socialItem = $('#social li');
@@ -41,11 +55,30 @@ $(document).ready(function() {
 
 	//IE
 	if ($.browser.msie) {
-		alert('aeee');
+		function alertBrowser() {
+			$('<div>', {
+				"class": "alert"
+			}).appendTo('body');
+			$('<p>', {
+				"text": "You're using a browser which does not support all new features. Try Chrome or Firefox!"
+			}).appendTo('.alert');
+			$('<a>', {
+				"text": "X",
+				"class": "close"
+			}).appendTo('.alert');
+		}
+
+		alertBrowser();
+
+		$('.close').click(function(event){
+			event.preventDefault();
+			$(this).closest('.alert').fadeOut('slow', function() {
+				$(this).remove();
+			});
+		});
+		
     if(parseInt($.browser.version) == 8){
-         alert('8');
     } else if (parseInt($.browser.version) == 7){
-         alert('7');
     }
 }
 

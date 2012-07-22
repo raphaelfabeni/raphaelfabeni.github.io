@@ -336,6 +336,7 @@ header {
 	display: none;
 	animation:cityMove 20s linear 1s infinite;
 	-webkit-animation:cityMove 20s linear 1s infinite;
+	-moz-animation:cityMove 20s linear 1s infinite;
 }
 
 /* animation city */
@@ -350,23 +351,40 @@ header {
 	50% { background-position:right top; }
 	100% { background-position:left top; }
 }
+@-moz-keyframes cityMove {
+	0% { background-position:left top; }
+	50% { background-position:right top; }
+	100% { background-position:left top; }
+}
 
 /* Alert */
 .alert {
 	position:absolute;
-	top:0;
+	top:10px;
 	left:30%;
-	background: #FFF6BF;
 	border: 1px solid #FFD324;
 	margin: 0 auto;
-	padding: 5px;
+	padding: 5px 15px 5px 25px;
 	text-align: center;
-	width: 550px;
+	background: #FFF6BF url(../img/alert.png) 5px center no-repeat;
 }
 .alert p {
 	margin:0;
+	float:left;
 	color: #514721;
 	font-size: 12px;
-	padding-left:15px;
-	background: transparent url(../img/alert.png) left center no-repeat;
+	line-height:22px;
+}
+
+a.close {
+	float:right;
+	margin:3px 0 0 15px;
+	color:#bf9c11;
+	font-weight:bold;
+	font-size:12px;
+	cursor: pointer;
+}
+
+.close:hover {
+	color:#846b0a;
 }
