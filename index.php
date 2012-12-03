@@ -11,6 +11,7 @@
   <?php include('in/estilos.php');?>
 </head>
 <body>
+  <div class="city"></div>
 <div role="main">
 	<!-- <div class="alert">
 		<p>You're using a browser which does not support all new features. Try Chrome or Firefox!</p>
@@ -37,6 +38,9 @@
      </div>
       <ul class="list">
         <li>
+          <a target="blank" href="http://www.copa2014.sp.gov.br/">copa2014.sp.gov.br</a>
+        </li>
+        <li>
           <a target="blank" href="http://www.a2fotografia.com.br">a2fotografia.com.br</a>
         </li>
         <li>
@@ -45,9 +49,6 @@
         <li>
           <a target="blank" href="http://www.eletros.org.br">eletros.org.br</a>
         </li>
-        <li>
-          <a target="blank" href="http://www.fundosocial.sp.gov.br">fundosocial.sp.gov.br
-          </a></li>
       </ul>
     </nav>
     <!-- contact -->
@@ -69,6 +70,7 @@
                 <li class="facebook"><a href="https://www.facebook.com/raphaelfabeni" target="blank"><img src="img/facebook.png" alt="Facebook"></a></li>
                 <li class="google"><a href="https://plus.google.com/u/0/112810314072395481148/posts" target="blank"><img src="img/google.png" alt="Google"></a></li>
                 <li class="linkedin"><a href="http://br.linkedin.com/in/raphaelfabeni" target="blank"><img src="img/linkedin.png" alt="Linkedin"></a></li>
+                <li class="github"><a href="https://github.com/raphaelfabeni" target="blank"><img src="img/github.png" alt="GitHub"></a></li>
                 <li class="curriculum"><a href="/Raphael_Fabeni.pdf" target="blank"><img src="img/cv.png" alt="Curriculum Vitae"></a></li>
             </ul>
         </aside>

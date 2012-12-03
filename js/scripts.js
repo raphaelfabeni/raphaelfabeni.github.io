@@ -27,16 +27,15 @@ $(document).ready(function() {
 
 	//city
 	function callCity() {
-		$('<div></div>', {
-				"class": 'city'
-			}).prependTo( $('body') );
-		$('.city').fadeIn('slow');
+		$('.city').animate({
+			opacity: 1
+		}, 'slow');
 	}
 
 	function destroyCity() {
-		$('.city').fadeOut('slow', function() {
-    		$(this).remove();
-  		});
+		$('.city').animate({
+			opacity: 0
+		}, 'slow');
 	}
 
 	var botao = $('.button .btn');
