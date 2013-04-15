@@ -392,3 +392,18 @@ a.close {
 .close:hover {
 	color:#846b0a;
 }
+
+#cssawards{
+  position:fixed;
+  top:0px;
+  left:0px;
+  z-index:555;
+  }
+  #cssawards a{
+  width:160px;
+  height:165px;
+  text-indent:-8000px;
+  display:block;
+  background:url(/img/cssa-brand-nominated.png)
+  no-repeat;
+  }

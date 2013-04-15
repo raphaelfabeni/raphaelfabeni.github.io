@@ -11,6 +11,10 @@
   <?php include('in/estilos.php');?>
 </head>
 <body>
+<div id="cssawards">
+  <a href="http://cssawards.net/nominee/portfolio-raphael-fabeni/" target="_blank">http://cssawards.net/nominee/portfolio-raphael-fabeni/</a>
+</div>
+                            
   <div class="city"></div>
 <div role="main">
 	<!-- <div class="alert">
@@ -37,6 +41,9 @@
          <span class="phrase">something what I did..</span>
      </div>
       <ul class="list">
+        <li>
+          <a target="blank" href="https://developer.mozilla.org/en-US/demos/detail/pikachu-css3">Pikachu CSS3 | Lab</a>
+        </li>
         <li>
           <a target="blank" href="http://www.copa2014.sp.gov.br/">copa2014.sp.gov.br</a>
         </li>
