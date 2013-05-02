@@ -1,0 +1,79 @@
+/* ==========================================================================
+   Icones
+   ========================================================================== */
+
+   [class^="ico-"], [class*=" ico-"] {
+      background-image: url("../img/sprite.png");
+      background-repeat: no-repeat;
+      display: inline-block;
+      line-height: 20px;
+      margin-top: 1px;
+      vertical-align: text-top;
+   }
+
+   .ico-logo {
+      background-position: -13px -33px;
+      width: 38px;
+      height: 33px;
+   }
+
+   .ico-works {
+      background-position: -81px -23px;
+      width: 69px;
+      height: 87px;
+   }
+
+   .ico-contact {
+      background-position: -169px -45px;
+      width: 85px;
+      height: 57px;
+   }
+
+   .ico-twitter {
+      background-position: -275px -8px;
+      width: 35px;
+      height: 34px;
+   }
+
+   .ico-facebook {
+      background-position: -275px -51px;
+      width: 36px;
+      height: 34px;
+   }
+
+   .ico-google {
+      background-position: -317px -9px;
+      width: 36px;
+      height: 36px;
+   }
+
+   .ico-linkedin {
+      background-position: -320px -50px;
+      width: 35px;
+      height: 35px;
+   }
+
+   .ico-github {
+      background-position: -360px -8px;
+      width: 36px;
+      height: 36px;
+   }
+
+   .ico-slideshare {
+      background-position: -362px -50px;
+      width: 36px;
+      height: 36px;
+   }
+
+   .ico-pdf {
+      background-position: -406px -9px;
+      width: 31px;
+      height: 34px;
+   }
+
+   /* Telas retina (CSS aplicado a dispositivos com tela de alta resolução)
+      ========================================================================== */
+
+      @media (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi) { 
+         [class^="ico-"], [class*=" ico-"] { background-size: 0 0; }
+      }

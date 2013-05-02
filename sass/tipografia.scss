@@ -1,0 +1,105 @@
+/* ==========================================================================
+   Tipografia
+   ========================================================================== */
+
+   @font-face {
+      font-family: 'VolkswagenBold';
+      src: url('../sass/font/volkswagen_bold-webfont.eot');
+      src: url('../sass/font/volkswagen_bold-webfont.eot?#iefix') format('embedded-opentype'),
+      url('../sass/font/volkswagen_bold-webfont.woff') format('woff'),
+      url('../sass/font/volkswagen_bold-webfont.ttf') format('truetype'),
+      url('../sass/font/volkswagen_bold-webfont.svg#VolkswagenBold') format('svg');
+      font-weight: normal;
+      font-style: normal;
+
+   }
+
+   @font-face {
+      font-family: 'VolkswagenRegular';
+      src: url('../sass/font/volkswagen_regular-webfont.eot');
+      src: url('../sass/font/volkswagen_regular-webfont.eot?#iefix') format('embedded-opentype'),
+      url('../sass/font/volkswagen_regular-webfont.woff') format('woff'),
+      url('../sass/font/volkswagen_regular-webfont.ttf') format('truetype'),
+      url('../sass/font/volkswagen_regular-webfont.svg#VolkswagenRegular') format('svg');
+      font-weight: normal;
+      font-style: normal;
+   }
+
+   body {
+      -webkit-text-size-adjust: none;
+      -ms-text-size-adjust:none;
+   }
+
+   /* Titulos
+      ========================================================================== */
+      h1 { 
+         margin:0;
+         color:#fff;
+         text-transform:lowercase;
+         letter-spacing: 0em;
+         font-size:24px;
+         line-height:22px;
+      }
+
+      h1 > i {
+         vertical-align: middle;
+         margin: 0 5px 0 0;
+      }
+
+      h2 {
+         margin: 0;
+         text-align: right;
+         line-height: 0px;
+         font-size: 12px;
+         color: #c5c5c5;
+         font-size: 14px;
+      }
+
+      h3 {
+         font-size:28px;
+         margin:0;
+      }
+
+   /* Textos
+      ========================================================================== */
+
+      p {
+         color: #666666;
+         font-size: 14px;
+         line-height: 20px;
+         margin: 0 0 15px;
+         text-align: left;
+      }
+
+   /* Links
+      ========================================================================== */
+      a { 
+         text-decoration: none;
+         color: #10b1b2;
+         @include transition(all, 0.5s, ease);
+      }
+
+
+      a:hover { color:#ff6000; }
+
+      /* Listas
+         ========================================================================== */
+         .list {
+            border-top:dotted 1px #666;
+            clear: both;
+            padding: 10px 0 0 10px;
+            margin: 0;
+         }
+
+         .list a,
+         .list p {
+            color: #c5c5c5;
+            font-size: 20px;
+         }
+
+         .list p {
+            margin: 0 0 5px 0;
+            font-style: normal;
+         }
+
+         .list a:hover { color: #FF6000; }
