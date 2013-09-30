@@ -16,10 +16,6 @@
 
    <div class="city"></div>
    
-<!--    <div class="alert">
-      <p>You're using a browser which does not support all new features. Try Chrome or Firefox!</p>
-      <a href="#" class="close">X</a>
-   </div> -->
    <div role="main">
       <header>
          <hgroup>
@@ -36,9 +32,15 @@
          <i class="icon ico-works"></i>
          <div class="hold-title">
             <h3 class="title">Works</h3>
-            <span class="phrase">something what I did..</span>
+            <span class="phrase">something taht I made...</span>
          </div>
          <ul class="list">
+            <li>
+               <a target="blank" href="http://www.educacao.sp.gov.br/creche-escola/">Educação | Creche Escola</a>
+            </li>
+            <li>
+               <a target="blank" href="http://raphaelfabeni.github.io/wp-samples/">WP Samples | Lab</a>
+            </li>
             <li>
                <a target="blank" href="https://developer.mozilla.org/en-US/demos/detail/pikachu-css3">Pikachu CSS3 | Lab</a>
             </li>
@@ -47,9 +49,6 @@
             </li>
             <li>
                <a target="blank" href="http://www.a2fotografia.com.br">a2fotografia.com.br</a>
-            </li>
-            <li>
-               <a target="blank" href="http://www.idort.com.br">idort.com.br</a>
             </li>
             <li>
                <a target="blank" href="http://www.eletros.org.br">eletros.org.br</a>
