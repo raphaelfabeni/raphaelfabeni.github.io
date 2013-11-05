@@ -36,22 +36,22 @@
          </div>
          <ul class="list">
             <li>
+               <a target="blank" href="https://developer.mozilla.org/pt-BR/demos/detail/compass-css3/launch">Compass CSS3 | Lab</a>
+            </li>
+            <li>
                <a target="blank" href="http://www.educacao.sp.gov.br/creche-escola/">Educação | Creche Escola</a>
             </li>
             <li>
                <a target="blank" href="http://raphaelfabeni.github.io/wp-samples/">WP Samples | Lab</a>
             </li>
             <li>
-               <a target="blank" href="https://developer.mozilla.org/en-US/demos/detail/pikachu-css3">Pikachu CSS3 | Lab</a>
+               <a target="blank" href="https://developer.mozilla.org/en-US/demos/detail/pikachu-css3/launch">Pikachu CSS3 | Lab</a>
             </li>
             <li>
-               <a target="blank" href="http://www.copa2014.sp.gov.br/">copa2014.sp.gov.br</a>
+               <a target="blank" href="http://www.educacao.sp.gov.br/escoladafamilia/">Educação | Escola da Família</a>
             </li>
             <li>
                <a target="blank" href="http://www.a2fotografia.com.br">a2fotografia.com.br</a>
-            </li>
-            <li>
-               <a target="blank" href="http://www.eletros.org.br">eletros.org.br</a>
             </li>
          </ul>
       </section>
