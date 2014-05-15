@@ -1,0 +1,79 @@
+/*  ==========================================================================
+    Typography
+    ========================================================================== */
+
+    /*  Font-face
+        ========================================================================== */
+        @font-face {
+            font-family: 'Ubuntu';
+            font-style: normal;
+            font-weight: 300;
+            src: local('Ubuntu Light'), local('Ubuntu-Light'), url(http://themes.googleusercontent.com/static/fonts/ubuntu/v5/_aijTyevf54tkVDLy-dlnD8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
+        }
+
+        @font-face {
+            font-family: 'Ubuntu';
+            font-style: normal;
+            font-weight: 400;
+            src: local('Ubuntu'), url(http://themes.googleusercontent.com/static/fonts/ubuntu/v5/_xyN3apAT_yRRDeqB3sPRg.woff) format('woff');
+        }
+
+    body {
+        -webkit-text-size-adjust: none;
+        -ms-text-size-adjust:none;
+        font-family: 'Ubuntu';
+   }
+
+    /*  Titulos
+        ========================================================================== */
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            font-weight: 400;
+            color: $color-secondary;
+        }
+
+        .title,
+        .subtitle {
+            text-align: center;
+            text-shadow: 1px 1px 1px #000;
+        }
+
+        .title {
+            letter-spacing: -1px;
+            font-size: 40px;
+            line-height: 40px;
+            color: darken($color-secondary, 5%);
+        }
+
+        .subtitle {
+            font-size: 24px;
+            line-height: 24px;
+        }
+
+    /*  Textos
+        ========================================================================== */
+
+        p {
+            color: #fff;
+            font-size: 32px;
+            line-height: 40px;
+            margin: 0 0 15px;
+            text-align: left;
+            font-weight: 300;
+            text-shadow: 1px 1px 1px #000;
+        }
+
+
+    /*  Links
+        ========================================================================== */
+        a {
+            color: lighten($purple, 40%);
+            text-decoration: none;
+        }
+
+        a:hover { text-decoration: underline; }

@@ -1,0 +1,64 @@
+/*  ==========================================================================
+    Layout
+    ========================================================================== */
+
+    @media only screen {
+
+        body {
+            background-color: $color-primary;
+        }
+
+        /*  Social
+            ========================================================================== */
+            .social {
+                display: block;
+                padding: 20px 0;
+                margin: 0;
+                list-style-type: none;
+            }
+
+            .social li { display: inline-block; }
+            .social li + li { margin-left: 20px; }
+
+            .social li a {
+                font-size: 46px;
+                line-height: 46px;
+                @include transition(all .25s ease);
+            }
+
+            .social .twitter:hover { color: #55acee; }
+            .social .facebook:hover { color: #44609d; }
+            .social .github:hover { color: #bbbbbb; }
+            .social .google:hover { color: #dd4b39; }
+            .social .linkedin:hover { color: #1c87bd; }
+
+    }
+
+
+    /*
+     * CSS for devices with resolution bigger than breakpoint
+     */
+
+    @media only screen and (min-width: $breakpoint) {
+
+        /*  Start animations
+            ========================================================================== */
+            .title { @include animation(fadeIn 1.25s ease both); }
+            .subtitle { @include animation(fadeInLeft 1s 0.75s ease both); }
+
+            .thumb {
+                backface-visibility: visible;
+                @include animation(flipInY 2s 1.5s ease both);
+            }
+
+            p:first-child { @include animation(fadeIn 1.5s 2.5s ease both); }
+            p:nth-child(2) { @include animation(fadeIn 1.5s 4.5s ease both); }
+            p:nth-child(3) { @include animation(fadeIn 1.5s 7.5s ease both); }
+            p:nth-child(4) { @include animation(fadeIn 1.5s 10s ease both); }
+
+            .social li:first-child { @include animation(fadeInDown 1.25s 11s ease both); }
+            .social li:nth-child(2) { @include animation(fadeInUp 1.25s 11.5s ease both); }
+            .social li:nth-child(3) { @include animation(fadeInDown 1.25s 12s ease both); }
+            .social li:nth-child(4) { @include animation(fadeInUp 1.25s 12.5s ease both); }
+            .social li:nth-child(5) { @include animation(fadeInDown 1.25s 13s ease both); }
+    }
