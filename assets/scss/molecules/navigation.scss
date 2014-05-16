@@ -9,12 +9,12 @@
             .header {
                 padding: 20px 0 50px;
             }
-
+            
             /*  Thumb
                 ========================================================================== */
                 .thumb {
                     margin: 0 auto;
-                    width: 250px;
+                    width: 200px;
                     @include border-radius(50%);
                     overflow: hidden;
                     border: solid 8px darken($purple, 3%);

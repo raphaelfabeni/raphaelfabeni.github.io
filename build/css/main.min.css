@@ -578,6 +578,7 @@ body:after {
   font-weight: normal;
   font-style: normal;
 }
+
 .fa {
   display: inline-block;
   font-family: FontAwesome;
@@ -676,6 +677,7 @@ body:after {
     -moz-transform: rotate(359deg);
   }
 }
+
 @-webkit-keyframes spin {
   0% {
     -webkit-transform: rotate(0deg);
@@ -685,6 +687,7 @@ body:after {
     -webkit-transform: rotate(359deg);
   }
 }
+
 @-o-keyframes spin {
   0% {
     -o-transform: rotate(0deg);
@@ -694,6 +697,7 @@ body:after {
     -o-transform: rotate(359deg);
   }
 }
+
 @-ms-keyframes spin {
   0% {
     -ms-transform: rotate(0deg);
@@ -703,6 +707,7 @@ body:after {
     -ms-transform: rotate(359deg);
   }
 }
+
 @keyframes spin {
   0% {
     transform: rotate(0deg);
@@ -712,6 +717,7 @@ body:after {
     transform: rotate(359deg);
   }
 }
+
 .fa-rotate-90 {
   filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
   -webkit-transform: rotate(90deg);
@@ -2315,12 +2321,14 @@ body:after {
   font-weight: 300;
   src: local("Ubuntu Light"), local("Ubuntu-Light"), url(http://themes.googleusercontent.com/static/fonts/ubuntu/v5/_aijTyevf54tkVDLy-dlnD8E0i7KZn-EPnyo3HZu7kw.woff) format("woff");
 }
+
 @font-face {
   font-family: 'Ubuntu';
   font-style: normal;
   font-weight: 400;
   src: local("Ubuntu"), url(http://themes.googleusercontent.com/static/fonts/ubuntu/v5/_xyN3apAT_yRRDeqB3sPRg.woff) format("woff");
 }
+
 body {
   -webkit-text-size-adjust: none;
   -ms-text-size-adjust: none;
@@ -2361,8 +2369,8 @@ h6 {
     ========================================================================== */
 p {
   color: #fff;
-  font-size: 32px;
-  line-height: 40px;
+  font-size: 24px;
+  line-height: 32px;
   margin: 0 0 15px;
   text-align: left;
   font-weight: 300;
@@ -2396,7 +2404,7 @@ a:hover {
       ========================================================================== */
   .thumb {
     margin: 0 auto;
-    width: 250px;
+    width: 200px;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     border-radius: 50%;
@@ -2458,6 +2466,7 @@ a:hover {
     opacity: 1;
   }
 }
+
 @-webkit-keyframes flipInY {
   0% {
     -webkit-transform: perspective(400px) rotateY(90deg);
@@ -2477,6 +2486,7 @@ a:hover {
     opacity: 1;
   }
 }
+
 @-ms-keyframes flipInY {
   0% {
     -ms-transform: perspective(400px) rotateY(90deg);
@@ -2496,6 +2506,7 @@ a:hover {
     opacity: 1;
   }
 }
+
 @keyframes flipInY {
   0% {
     transform: perspective(400px) rotateY(90deg);
@@ -2515,6 +2526,7 @@ a:hover {
     opacity: 1;
   }
 }
+
 /* Fade in left
     ========================================================================== */
 @-webkit-keyframes fadeInLeft {
@@ -2528,6 +2540,7 @@ a:hover {
     -webkit-transform: translateX(0);
   }
 }
+
 @-moz-keyframes fadeInLeft {
   0% {
     opacity: 0;
@@ -2539,6 +2552,7 @@ a:hover {
     -moz-transform: translateX(0);
   }
 }
+
 @-o-keyframes fadeInLeft {
   0% {
     opacity: 0;
@@ -2550,6 +2564,7 @@ a:hover {
     -o-transform: translateX(0);
   }
 }
+
 @-ms-keyframes fadeInLeft {
   0% {
     opacity: 0;
@@ -2561,6 +2576,7 @@ a:hover {
     -o-transform: translateX(0);
   }
 }
+
 @keyframes fadeInLeft {
   0% {
     opacity: 0;
@@ -2572,6 +2588,7 @@ a:hover {
     transform: translateX(0);
   }
 }
+
 /* Fade in
     ========================================================================== */
 @-webkit-keyframes fadeIn {
@@ -2583,6 +2600,7 @@ a:hover {
     opacity: 1;
   }
 }
+
 @-moz-keyframes fadeIn {
   0% {
     opacity: 0;
@@ -2592,6 +2610,7 @@ a:hover {
     opacity: 1;
   }
 }
+
 @-o-keyframes fadeIn {
   0% {
     opacity: 0;
@@ -2601,6 +2620,7 @@ a:hover {
     opacity: 1;
   }
 }
+
 @-ms-keyframes fadeIn {
   0% {
     opacity: 0;
@@ -2610,6 +2630,7 @@ a:hover {
     opacity: 1;
   }
 }
+
 @keyframes fadeIn {
   0% {
     opacity: 0;
@@ -2619,6 +2640,7 @@ a:hover {
     opacity: 1;
   }
 }
+
 /*  Fade in up
     ========================================================================== */
 @-moz-keyframes fadeInUp {
@@ -2632,6 +2654,7 @@ a:hover {
     -moz-transform: translateY(0);
   }
 }
+
 @-webkit-keyframes fadeInUp {
   0% {
     opacity: 0;
@@ -2643,6 +2666,7 @@ a:hover {
     -webkit-transform: translateY(0);
   }
 }
+
 @-ms-keyframes fadeInUp {
   0% {
     opacity: 0;
@@ -2654,6 +2678,7 @@ a:hover {
     -ms-transform: translateY(0);
   }
 }
+
 @keyframes fadeInUp {
   0% {
     opacity: 0;
@@ -2665,6 +2690,7 @@ a:hover {
     transform: translateY(0);
   }
 }
+
 /*  Fade in down
     ========================================================================== */
 @-moz-keyframes fadeInDown {
@@ -2678,6 +2704,7 @@ a:hover {
     -moz-transform: translateY(0);
   }
 }
+
 @-webkit-keyframes fadeInDown {
   0% {
     opacity: 0;
@@ -2689,6 +2716,7 @@ a:hover {
     -webkit-transform: translateY(0);
   }
 }
+
 @-ms-keyframes fadeInDown {
   0% {
     opacity: 0;
@@ -2700,6 +2728,7 @@ a:hover {
     -ms-transform: translateY(0);
   }
 }
+
 @keyframes fadeInDown {
   0% {
     opacity: 0;
@@ -2711,6 +2740,7 @@ a:hover {
     transform: translateY(0);
   }
 }
+
 /*  ==========================================================================
     Layout
     ========================================================================== */
@@ -2737,8 +2767,8 @@ a:hover {
   }
 
   .social li a {
-    font-size: 46px;
-    line-height: 46px;
+    font-size: 38px;
+    line-height: 38px;
     -webkit-transition: all 0.25s ease;
     -moz-transition: all 0.25s ease;
     -o-transition: all 0.25s ease;
@@ -2806,67 +2836,67 @@ a:hover {
   }
 
   p:nth-child(2) {
-    -webkit-animation: fadeIn 1.5s 4.5s ease both;
-    -moz-animation: fadeIn 1.5s 4.5s ease both;
-    -ms-animation: fadeIn 1.5s 4.5s ease both;
-    -o-animation: fadeIn 1.5s 4.5s ease both;
-    animation: fadeIn 1.5s 4.5s ease both;
+    -webkit-animation: fadeIn 1.5s 3.25s ease both;
+    -moz-animation: fadeIn 1.5s 3.25s ease both;
+    -ms-animation: fadeIn 1.5s 3.25s ease both;
+    -o-animation: fadeIn 1.5s 3.25s ease both;
+    animation: fadeIn 1.5s 3.25s ease both;
   }
 
   p:nth-child(3) {
-    -webkit-animation: fadeIn 1.5s 7.5s ease both;
-    -moz-animation: fadeIn 1.5s 7.5s ease both;
-    -ms-animation: fadeIn 1.5s 7.5s ease both;
-    -o-animation: fadeIn 1.5s 7.5s ease both;
-    animation: fadeIn 1.5s 7.5s ease both;
+    -webkit-animation: fadeIn 1.5s 4s ease both;
+    -moz-animation: fadeIn 1.5s 4s ease both;
+    -ms-animation: fadeIn 1.5s 4s ease both;
+    -o-animation: fadeIn 1.5s 4s ease both;
+    animation: fadeIn 1.5s 4s ease both;
   }
 
   p:nth-child(4) {
-    -webkit-animation: fadeIn 1.5s 10s ease both;
-    -moz-animation: fadeIn 1.5s 10s ease both;
-    -ms-animation: fadeIn 1.5s 10s ease both;
-    -o-animation: fadeIn 1.5s 10s ease both;
-    animation: fadeIn 1.5s 10s ease both;
+    -webkit-animation: fadeIn 1.5s 4.75s ease both;
+    -moz-animation: fadeIn 1.5s 4.75s ease both;
+    -ms-animation: fadeIn 1.5s 4.75s ease both;
+    -o-animation: fadeIn 1.5s 4.75s ease both;
+    animation: fadeIn 1.5s 4.75s ease both;
   }
 
   .social li:first-child {
-    -webkit-animation: fadeInDown 1.25s 11s ease both;
-    -moz-animation: fadeInDown 1.25s 11s ease both;
-    -ms-animation: fadeInDown 1.25s 11s ease both;
-    -o-animation: fadeInDown 1.25s 11s ease both;
-    animation: fadeInDown 1.25s 11s ease both;
+    -webkit-animation: fadeInDown 1.25s 5.5s ease both;
+    -moz-animation: fadeInDown 1.25s 5.5s ease both;
+    -ms-animation: fadeInDown 1.25s 5.5s ease both;
+    -o-animation: fadeInDown 1.25s 5.5s ease both;
+    animation: fadeInDown 1.25s 5.5s ease both;
   }
 
   .social li:nth-child(2) {
-    -webkit-animation: fadeInUp 1.25s 11.5s ease both;
-    -moz-animation: fadeInUp 1.25s 11.5s ease both;
-    -ms-animation: fadeInUp 1.25s 11.5s ease both;
-    -o-animation: fadeInUp 1.25s 11.5s ease both;
-    animation: fadeInUp 1.25s 11.5s ease both;
+    -webkit-animation: fadeInUp 1.25s 6.25s ease both;
+    -moz-animation: fadeInUp 1.25s 6.25s ease both;
+    -ms-animation: fadeInUp 1.25s 6.25s ease both;
+    -o-animation: fadeInUp 1.25s 6.25s ease both;
+    animation: fadeInUp 1.25s 6.25s ease both;
   }
 
   .social li:nth-child(3) {
-    -webkit-animation: fadeInDown 1.25s 12s ease both;
-    -moz-animation: fadeInDown 1.25s 12s ease both;
-    -ms-animation: fadeInDown 1.25s 12s ease both;
-    -o-animation: fadeInDown 1.25s 12s ease both;
-    animation: fadeInDown 1.25s 12s ease both;
+    -webkit-animation: fadeInDown 1.25s 7s ease both;
+    -moz-animation: fadeInDown 1.25s 7s ease both;
+    -ms-animation: fadeInDown 1.25s 7s ease both;
+    -o-animation: fadeInDown 1.25s 7s ease both;
+    animation: fadeInDown 1.25s 7s ease both;
   }
 
   .social li:nth-child(4) {
-    -webkit-animation: fadeInUp 1.25s 12.5s ease both;
-    -moz-animation: fadeInUp 1.25s 12.5s ease both;
-    -ms-animation: fadeInUp 1.25s 12.5s ease both;
-    -o-animation: fadeInUp 1.25s 12.5s ease both;
-    animation: fadeInUp 1.25s 12.5s ease both;
+    -webkit-animation: fadeInUp 1.25s 7.75s ease both;
+    -moz-animation: fadeInUp 1.25s 7.75s ease both;
+    -ms-animation: fadeInUp 1.25s 7.75s ease both;
+    -o-animation: fadeInUp 1.25s 7.75s ease both;
+    animation: fadeInUp 1.25s 7.75s ease both;
   }
 
   .social li:nth-child(5) {
-    -webkit-animation: fadeInDown 1.25s 13s ease both;
-    -moz-animation: fadeInDown 1.25s 13s ease both;
-    -ms-animation: fadeInDown 1.25s 13s ease both;
-    -o-animation: fadeInDown 1.25s 13s ease both;
-    animation: fadeInDown 1.25s 13s ease both;
+    -webkit-animation: fadeInDown 1.25s 8.5s ease both;
+    -moz-animation: fadeInDown 1.25s 8.5s ease both;
+    -ms-animation: fadeInDown 1.25s 8.5s ease both;
+    -o-animation: fadeInDown 1.25s 8.5s ease both;
+    animation: fadeInDown 1.25s 8.5s ease both;
   }
 }
 /*  ==========================================================================
@@ -2921,7 +2951,8 @@ a:hover {
 
   @page {
     margin: 0.5cm;
-  }
+}
+
   p {
     orphans: 3;
     widows: 3;
