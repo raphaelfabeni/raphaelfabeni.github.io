@@ -2790,14 +2790,22 @@ a:hover {
 
   .thumb {
     backface-visibility: visible;
-    -webkit-animation: flipInY 2s 1.5s ease both;
-    -moz-animation: flipInY 2s 1.5s ease both;
-    -ms-animation: flipInY 2s 1.5s ease both;
-    -o-animation: flipInY 2s 1.5s ease both;
-    animation: flipInY 2s 1.5s ease both;
+    -webkit-animation: flipInY 2s 1.25s ease both;
+    -moz-animation: flipInY 2s 1.25s ease both;
+    -ms-animation: flipInY 2s 1.25s ease both;
+    -o-animation: flipInY 2s 1.25s ease both;
+    animation: flipInY 2s 1.25s ease both;
   }
 
   p:first-child {
+    -webkit-animation: fadeIn 1.5s 2s ease both;
+    -moz-animation: fadeIn 1.5s 2s ease both;
+    -ms-animation: fadeIn 1.5s 2s ease both;
+    -o-animation: fadeIn 1.5s 2s ease both;
+    animation: fadeIn 1.5s 2s ease both;
+  }
+
+  p:nth-child(2) {
     -webkit-animation: fadeIn 1.5s 2.5s ease both;
     -moz-animation: fadeIn 1.5s 2.5s ease both;
     -ms-animation: fadeIn 1.5s 2.5s ease both;
@@ -2805,68 +2813,60 @@ a:hover {
     animation: fadeIn 1.5s 2.5s ease both;
   }
 
-  p:nth-child(2) {
-    -webkit-animation: fadeIn 1.5s 4.5s ease both;
-    -moz-animation: fadeIn 1.5s 4.5s ease both;
-    -ms-animation: fadeIn 1.5s 4.5s ease both;
-    -o-animation: fadeIn 1.5s 4.5s ease both;
-    animation: fadeIn 1.5s 4.5s ease both;
-  }
-
   p:nth-child(3) {
-    -webkit-animation: fadeIn 1.5s 7.5s ease both;
-    -moz-animation: fadeIn 1.5s 7.5s ease both;
-    -ms-animation: fadeIn 1.5s 7.5s ease both;
-    -o-animation: fadeIn 1.5s 7.5s ease both;
-    animation: fadeIn 1.5s 7.5s ease both;
+    -webkit-animation: fadeIn 1.5s 3s ease both;
+    -moz-animation: fadeIn 1.5s 3s ease both;
+    -ms-animation: fadeIn 1.5s 3s ease both;
+    -o-animation: fadeIn 1.5s 3s ease both;
+    animation: fadeIn 1.5s 3s ease both;
   }
 
   p:nth-child(4) {
-    -webkit-animation: fadeIn 1.5s 10s ease both;
-    -moz-animation: fadeIn 1.5s 10s ease both;
-    -ms-animation: fadeIn 1.5s 10s ease both;
-    -o-animation: fadeIn 1.5s 10s ease both;
-    animation: fadeIn 1.5s 10s ease both;
+    -webkit-animation: fadeIn 1.5s 3.5s ease both;
+    -moz-animation: fadeIn 1.5s 3.5s ease both;
+    -ms-animation: fadeIn 1.5s 3.5s ease both;
+    -o-animation: fadeIn 1.5s 3.5s ease both;
+    animation: fadeIn 1.5s 3.5s ease both;
   }
 
   .social li:first-child {
-    -webkit-animation: fadeInDown 1.25s 11s ease both;
-    -moz-animation: fadeInDown 1.25s 11s ease both;
-    -ms-animation: fadeInDown 1.25s 11s ease both;
-    -o-animation: fadeInDown 1.25s 11s ease both;
-    animation: fadeInDown 1.25s 11s ease both;
+    -webkit-animation: fadeInDown 1.25s 4s ease both;
+    -moz-animation: fadeInDown 1.25s 4s ease both;
+    -ms-animation: fadeInDown 1.25s 4s ease both;
+    -o-animation: fadeInDown 1.25s 4s ease both;
+    animation: fadeInDown 1.25s 4s ease both;
   }
 
   .social li:nth-child(2) {
-    -webkit-animation: fadeInUp 1.25s 11.5s ease both;
-    -moz-animation: fadeInUp 1.25s 11.5s ease both;
-    -ms-animation: fadeInUp 1.25s 11.5s ease both;
-    -o-animation: fadeInUp 1.25s 11.5s ease both;
-    animation: fadeInUp 1.25s 11.5s ease both;
+    -webkit-animation: fadeInUp 1.25s 4.25s ease both;
+    -moz-animation: fadeInUp 1.25s 4.25s ease both;
+    -ms-animation: fadeInUp 1.25s 4.25s ease both;
+    -o-animation: fadeInUp 1.25s 4.25s ease both;
+    animation: fadeInUp 1.25s 4.25s ease both;
   }
 
   .social li:nth-child(3) {
-    -webkit-animation: fadeInDown 1.25s 12s ease both;
-    -moz-animation: fadeInDown 1.25s 12s ease both;
-    -ms-animation: fadeInDown 1.25s 12s ease both;
-    -o-animation: fadeInDown 1.25s 12s ease both;
-    animation: fadeInDown 1.25s 12s ease both;
+    -webkit-animation: fadeInDown 1.25s 4.5s ease both;
+    -moz-animation: fadeInDown 1.25s 4.5s ease both;
+    -ms-animation: fadeInDown 1.25s 4.5s ease both;
+    -o-animation: fadeInDown 1.25s 4.5s ease both;
+    animation: fadeInDown 1.25s 4.5s ease both;
   }
 
   .social li:nth-child(4) {
-    -webkit-animation: fadeInUp 1.25s 12.5s ease both;
-    -moz-animation: fadeInUp 1.25s 12.5s ease both;
-    -ms-animation: fadeInUp 1.25s 12.5s ease both;
-    -o-animation: fadeInUp 1.25s 12.5s ease both;
-    animation: fadeInUp 1.25s 12.5s ease both;
+    -webkit-animation: fadeInUp 1.25s 4.75s ease both;
+    -moz-animation: fadeInUp 1.25s 4.75s ease both;
+    -ms-animation: fadeInUp 1.25s 4.75s ease both;
+    -o-animation: fadeInUp 1.25s 4.75s ease both;
+    animation: fadeInUp 1.25s 4.75s ease both;
   }
 
   .social li:nth-child(5) {
-    -webkit-animation: fadeInDown 1.25s 13s ease both;
-    -moz-animation: fadeInDown 1.25s 13s ease both;
-    -ms-animation: fadeInDown 1.25s 13s ease both;
-    -o-animation: fadeInDown 1.25s 13s ease both;
-    animation: fadeInDown 1.25s 13s ease both;
+    -webkit-animation: fadeInDown 1.25s 5s ease both;
+    -moz-animation: fadeInDown 1.25s 5s ease both;
+    -ms-animation: fadeInDown 1.25s 5s ease both;
+    -o-animation: fadeInDown 1.25s 5s ease both;
+    animation: fadeInDown 1.25s 5s ease both;
   }
 }
 /*  ==========================================================================

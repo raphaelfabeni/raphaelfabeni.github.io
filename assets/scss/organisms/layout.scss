@@ -48,17 +48,17 @@
 
             .thumb {
                 backface-visibility: visible;
-                @include animation(flipInY 2s 1.5s ease both);
+                @include animation(flipInY 2s 1.25s ease both);
             }
 
-            p:first-child { @include animation(fadeIn 1.5s 2.5s ease both); }
-            p:nth-child(2) { @include animation(fadeIn 1.5s 4.5s ease both); }
-            p:nth-child(3) { @include animation(fadeIn 1.5s 7.5s ease both); }
-            p:nth-child(4) { @include animation(fadeIn 1.5s 10s ease both); }
+            p:first-child { @include animation(fadeIn 1.5s 2s ease both); }
+            p:nth-child(2) { @include animation(fadeIn 1.5s 2.5s ease both); }
+            p:nth-child(3) { @include animation(fadeIn 1.5s 3s ease both); }
+            p:nth-child(4) { @include animation(fadeIn 1.5s 3.5s ease both); }
 
-            .social li:first-child { @include animation(fadeInDown 1.25s 11s ease both); }
-            .social li:nth-child(2) { @include animation(fadeInUp 1.25s 11.5s ease both); }
-            .social li:nth-child(3) { @include animation(fadeInDown 1.25s 12s ease both); }
-            .social li:nth-child(4) { @include animation(fadeInUp 1.25s 12.5s ease both); }
-            .social li:nth-child(5) { @include animation(fadeInDown 1.25s 13s ease both); }
+            .social li:first-child { @include animation(fadeInDown 1.25s 4s ease both); }
+            .social li:nth-child(2) { @include animation(fadeInUp 1.25s 4.25s ease both); }
+            .social li:nth-child(3) { @include animation(fadeInDown 1.25s 4.5s ease both); }
+            .social li:nth-child(4) { @include animation(fadeInUp 1.25s 4.75s ease both); }
+            .social li:nth-child(5) { @include animation(fadeInDown 1.25s 5s ease both); }
     }
