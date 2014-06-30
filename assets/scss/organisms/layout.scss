@@ -21,8 +21,8 @@
             .social li + li { margin-left: 20px; }
 
             .social li a {
-                font-size: 46px;
-                line-height: 46px;
+                font-size: 38px;
+                line-height: 38px;
                 @include transition(all .25s ease);
             }
 
@@ -31,7 +31,6 @@
             .social .github:hover { color: #bbbbbb; }
             .social .google:hover { color: #dd4b39; }
             .social .linkedin:hover { color: #1c87bd; }
-
     }
 
 
@@ -50,7 +49,7 @@
                 backface-visibility: visible;
                 @include animation(flipInY 2s 1.25s ease both);
             }
-
+            
             p:first-child { @include animation(fadeIn 1.5s 2s ease both); }
             p:nth-child(2) { @include animation(fadeIn 1.5s 2.5s ease both); }
             p:nth-child(3) { @include animation(fadeIn 1.5s 3s ease both); }
