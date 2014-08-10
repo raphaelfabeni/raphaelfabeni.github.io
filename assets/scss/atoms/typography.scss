@@ -55,6 +55,26 @@
             line-height: 24px;
         }
 
+        .main-talks .title { margin-top: 40px; }
+
+        .main-talks .subtitle {
+            font-size: 32px;
+            line-height: 40px;
+            margin-bottom: 10px;
+        }
+
+        .main-talks .subtitle,
+        .main-talks .title { color: #fff; }
+
+        .title-separator {
+            border-top: solid 1px darken($purple, 7%);
+            padding-top: 15px;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+
     /*  Textos
         ========================================================================== */
 
@@ -72,8 +92,23 @@
     /*  Links
         ========================================================================== */
         a {
+            @include transition(all .25s ease);
             color: lighten($purple, 40%);
             text-decoration: none;
         }
 
-        a:hover { text-decoration: underline; }
+        a:hover,
+        a:focus {
+            text-decoration: underline;
+            color: $pink;
+        }
+
+        .talk a { border-bottom: solid 1px; }
+
+        .talk a:hover,
+        .talk a:focus {
+            border-bottom-color: $pink;
+            text-decoration: none;
+            padding-right: 5px;
+            padding-left: 5px;
+        }

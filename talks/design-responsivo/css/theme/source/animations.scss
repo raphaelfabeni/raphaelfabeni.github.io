@@ -1,0 +1,14 @@
+/* ==========================================================================
+   Animations
+   ========================================================================== */
+
+   /*   Mobile First
+        ========================================================================== */
+        .mobile-first.animated .imac { @include animation(moveImac 3s ease 1s both); }
+        .mobile-first.animated .iphone { @include animation(moveIphone 3s ease 1s both); }
+        .mobile-first.animated .ipad { @include animation(moveIpad 3s ease 1s both); }
+
+
+    /*  Cover
+        ========================================================================== */
+        .reveal .slide-intro h1 { @include animation(pulse 5s ease infinite alternate both); }

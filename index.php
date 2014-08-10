@@ -6,17 +6,18 @@
 <head>
     <meta charset="utf-8">
     <title>Raphael Fabeni | Front-end Developer</title>
+    <meta name="description" content="A brazilian front-end developer who loves the web, electronic music and travels." >
     <?php include('build/in/meta.php'); ?>
     <?php include('build/in/estilos.php'); ?>
 </head>
-<body>
+<body id="hold" class="default">
     <!-- Header -->
     <?php include('build/in/header.php'); ?>
 
-    <main role="main" class="main container">
+    <main role="main" class="main container main-index">
         <p>Hi! My name is Raphael Fabeni and I'm a brazilian front-end developer passionated for the web, electronic music and travels.</p>
 
-        <p>Currently, I'm working full time at <a id="a2" href="http://www.a2comunicacao.com.br" target="_blank" data-link="A2">A2 Comunicação</a> and also as a freelancer. I'm colaborator at <a id="tableless" href="http://tableless.com.br/author/raphael-fabeni/" target="_blank" data-link="Tableless">Tableless</a> (a brazilian blog about web development and design) and <a id="culturizeit" href="http://www.culturizeit.com" target="_blank" data-link="Culturize It">Culturize It</a> (a blog related to brazilian culture).</p>
+        <p>Currently, I'm working full time at <a id="a2" href="http://www.a2comunicacao.com.br" target="_blank" data-link="A2">A2 Comunicação</a> and also as a freelancer. I'm colaborator at <a id="tableless" href="http://tableless.com.br/author/raphael-fabeni/" target="_blank" data-link="Tableless">Tableless</a> (a brazilian blog about web development and design) and <a id="culturizeit" href="http://www.culturizeit.com" target="_blank" data-link="Culturize It">Culturize It</a> (a blog related to brazilian culture). I'm also one of the organizers of <a href="http://www.meetup.com/CSS-SP/" target="_blank">CSS Meetup</a> of São Paulo and recently I started to give some <a id="talks" href="https://speakerdeck.com/raphaelfabeni" target="_blank">talks</a>, not only in events about internet and technology but also inside of the company that I've worked.</p>
 
         <p>HTML5, CSS3, JavaScript, usability, UX, wireframes, soccer, cold tea and a lot of water are part of my day. In my free time, I like to read (technical and biography books) and go out to dinner.</p>
 
@@ -48,42 +49,17 @@
                     <i class="fa fa-linkedin"></i>
                 </a>
             </li>
+            <li>
+                <a id="codepen" class="codepen" target="_blank" href="http://br.linkedin.com/in/raphaelfabenihttp://codepen.io/raphaelfabeni/" data-link="CodePen">
+                    <i class="fa fa-codepen"></i>
+                </a>
+            </li>
         </ul>
 
     </main>
 
-    <!-- Footer -->
-    <?php// include('build/in/footer.php') ;?>
+    <button id="color" class="btn">I don't like this color.</button>
 
-    <script>
-    // GA (buttons)
-    (function () {
-        var a2 = document.getElementById('a2');
-        var tableless = document.getElementById('tableless');
-        var culturizeit = document.getElementById('culturizeit');
-        var twitter = document.getElementById('twitter');
-        var facebook = document.getElementById('facebook');
-        var github = document.getElementById('github');
-        var google = document.getElementById('google');
-        var linkedin = document.getElementById('linkedin');
-
-        var btnArray = [a2, tableless, culturizeit, twitter, facebook, github, google, linkedin];
-
-        for (var i = 0; i < btnArray.length; i++) {
-            if( btnArray[i] ) {
-                addListener(btnArray[i], 'click', function() {
-                    var which = this.dataset.link;
-                    console.log(which);
-                    ga('send', 'event', 'Links Externos', which);
-                });
-            }
-        };
-
-        function addListener(element, type, callback) {
-            if (element.addEventListener) element.addEventListener(type, callback);
-            else if (element.attachEvent) element.attachEvent('on' + type, callback);
-        }
-    })();
-    </script>
+    <script src="build/js/scripts.min.js"></script>
 </body>
 </html>

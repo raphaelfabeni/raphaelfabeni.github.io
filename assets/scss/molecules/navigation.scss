@@ -6,9 +6,12 @@
 
         /*  Header
             ========================================================================== */
-            .header {
-                padding: 20px 0 50px;
-            }
+            .header { padding: 20px 0 50px; }
+
+            .header .title a { color: $pink; }
+
+            .header .title a:hover,
+            .header .title a:focus { text-decoration: none; }
             
             /*  Thumb
                 ========================================================================== */
@@ -37,14 +40,14 @@
 
             /*  Title
                 ========================================================================== */
-                .title,
-                .subtitle {
+                .header .title,
+                .header .subtitle {
                     position: absolute;
                     left: 20px;
                 }
 
-                .title { top: 0px; }
-                .subtitle { top: 55px; }
+                .header .title { top: 0px; }
+                .header .subtitle { top: 55px; }
 
         /*  Footer
             ========================================================================== */

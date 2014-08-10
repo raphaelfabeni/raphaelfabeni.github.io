@@ -1,44 +1,23 @@
-module.exports = function(grunt) {
+"use strict";
 
-    var gruntConfig = {
-        pkg: grunt.file.readJSON('package.json'),
+module.exports = function( grunt ) {
 
-        globalConfig: {
-            files: [
-                '*.php',
-                '*.html',
-                'build/in/*.php'
-            ],
+    grunt.initConfig({
 
-            // Projects assets and build paths for .css and .scss files
-            dev_css: 'assets/scss',
-            build_css: 'build/css',
+        // Config variable paths
+        config: {
 
-            // Projects assets and build paths for .js files
-            dev_js: 'assets/js',
-            build_js: 'build/js',
+            // Project paths
+            dev: 'assets/',
+            build: 'build/',
 
-            // Projects assets and build paths for img files
-            dev_img: 'assets/img',
-            build_img: 'build/img'
+            // Styleguide paths
+            style_dev: 'styleguide/lib/assets/',
+            style_build: 'styleguide/lib/build/'
         },
 
-        // -- Image min --------------------------------------------------------------
-        imagemin: {
-            dynamic: {
-                files: [{
-                    expand: true,
-                    cwd: '<%= globalConfig.dev_img %>',
-                    src:['*.{jpg,gif}'],
-                    dest: '<%= globalConfig.build_img %>',
-                }],
-                options: {
-                    cache: false
-                }
-            }
-        },
+        // IMAGES _____________________________________________________________________
 
-        // -- SVG min -------------------------------------------------------------------
         svgmin: {
             options: {
                 plugins: [{
@@ -54,238 +33,182 @@ module.exports = function(grunt) {
             dist: {
                 files: [{
                     expand: true,
-                    cwd: '<%= globalConfig.dev_img %>',
+                    cwd: '<%= config.dev %>img',
                     src: ['*.svg'],
-                    dest: '<%= globalConfig.build_img %>',
+                    dest: '<%= config.build %>img',
                     ext: '.svg'
                 }]
             }
         },
 
-        // -- SVG 2 PNG ----------------------------------------------------------------
         svg2png: {
             all: {
                 files: [{
-                    src: ['<%= globalConfig.dev_img %>/*.svg'],
-                    dest: '<%= globalConfig.build_img %>'
+                    cwd: '<%= config.dev %>img/',
+                    src: ['*.svg'],
+                    dest: '<%= config.build %>img/'
                 }]
             }
         },
 
-        // -- Copy img config -----------------------------------------------------------
-        copy: {
-            main: {
+        imagemin: {
+            dynamic: {
                 files: [{
                     expand: true,
-                    flatten: true,
-                    src: ['<%= globalConfig.dev_img %>/*.png'],
-                    dest: '<%= globalConfig.build_img %>',
-                    filter: 'isFile'
+                    cwd: '<%= config.dev %>img/',
+                    src: ['*.{png,jpg,gif}'],
+                    dest: '<%= config.build %>img'
                 }]
             }
         },
 
-        // -- Concat config ----------------------------------------------------------
-        concat: {
+        // SASS _______________________________________________________________________
+        sass: {
+
+            // Dev
+            dev: {
+                options: {
+                    style: 'compressed',
+                    noCache: true
+                },
+                files: {
+                    '<%= config.build %>css/main.min.css': 
+                    '<%= config.dev %>scss/main.scss'
+                }
+            },
+
+        },
+
+        // UGLIFY _____________________________________________________________________
+        uglify: {
 
             // Project files
             dev: {
-                src: [
-                    'components/jquery/jquery.js', // jQuery Lib
-                    '<%= globalConfig.dev_js %>/scripts.js' // Project scripts
-                ],
-                dest: '<%= globalConfig.build_js %>/all.js',
+                files: {
+                    '<%= config.build %>js/scripts.min.js': 
+                    ['<%= config.dev %>js/ga.js',
+                    '<%= config.dev %>js/scripts.js']
+                }
             },
-
-            // Styleguide files
-            styleguide: {
-                src: [
-                    'components/jquery/jquery.js', // jQuery Lib
-                    '<%= globalConfig.dev_style_js %>/scripts.js', // Styleguide scripts
-                    '<%= globalConfig.dev_style_js %>/rainbow-custom.min.js' // Pretty code
-                ],
-                dest: '<%= globalConfig.build_style_js %>/all.js',
-            }
-
-        },
-
-        // -- Uglify config ----------------------------------------------------------
-        uglify: {
 
             // Start files
             modernizr: {
                 src: 'components/modernizr/modernizr.js',
-                dest: '<%= globalConfig.build_js %>/libs/modernizr.min.js'
+                dest: '<%= config.build %>js/libs/modernizr.min.js'
+            },
+
+            jquery: {
+                src: 'components/jquery/jquery.min.js',
+                dest: '<%= config.build %>js/libs/jquery.min.js'
             },
 
             respond: {
                 src: 'components/respond/dest/respond.min.js',
-                dest: '<%= globalConfig.build_js %>/libs/respond.min.js'
-            },
-
-            // Project files
-            dev: {
-                src: '<%= globalConfig.build_js %>/all.js',
-                dest: '<%= globalConfig.build_js %>/all.min.js'
+                dest: '<%= config.build %>js/libs/respond.min.js'
             }
-
         },
 
-        // -- JShint config ----------------------------------------------------------
+        // JSHINT _____________________________________________________________________
         jshint: {
 
-            //Project files
-            dev: ['<%= globalConfig.dev_js %>/scripts.js'],
+            // Project files
+            dev: ['<%= config.dev %>js/scripts.js'],
                 options: {
                     globals: {
                         jQuery: true,
-                        console: true,
-                        module: true
+                        reporter: require('jshint-stylish')
                 }
             }
 
         },
 
-        // -- SASS config ------------------------------------------------------------
-        sass : {
 
-            // Project files
-            dev : {
-                options : {
-                    style : 'expanded',
-                    noCache: true
-                },
-                files : {
-                    '<%= globalConfig.build_css %>/main.min.css' : '<%= globalConfig.dev_css %>/main.scss'
-                }
-            }
-
-        },
-
-        // -- Browser sync config ----------------------------------------------------
-        browser_sync: {
-            files: {
-                src : [
-                    '<%= globalConfig.files %>',
-                    '<%= globalConfig.files.build_css %>/*.css'
-                ]
-            },
-            options: {
-                watchTask: true,
-                proxy: {
-                    host: "local.portfolio"
-                },
-                ghostMode: {
-                    clicks: true,
-                    scroll: true,
-                    links: true,
-                    forms: true
-                }
-            }
-        },
-
-        // -- Watch config -----------------------------------------------------------
+        // WATCH ______________________________________________________________________
         watch: {
 
-            // -- Livereload config --------------------------------------------------
+            // PROJECT TASKS
+
+            // Run SASS task for .scss files
+            sass_dev: {
+                files: [
+                    '<%= config.dev %>scss/**/*.scss',
+                    '<%= config.dev %>scss/*.scss'
+                ],
+                tasks: ['sass:dev'],
+            },
+
+            // Run Uglify task when scripts are modified
+            scripts_dev: {
+                files: ['<%= config.dev %>js/scripts.js'],
+                tasks: ['jshint:dev', 'uglify:dev'],
+            },
+
+            svg: {
+                files: ['<%= config.dev %>img/*.svg'],
+                tasks: ['svgmin', 'svg2png']
+            },
+
+            images: {
+                files: ['<%= config.dev %>img/*.{png,jpg,gif}'],
+                tasks: ['imagemin']
+            },
+
+            // Update :)
             livereload: {
                 options: { livereload: true },
                 files: [
-                    '<%= globalConfig.files %>',
-                    '<%= globalConfig.build_css %>/*.css'
-                ]
-            },
-
-            // -- Images config -------------------------------------------------------
-            images: {
-                files: [
-                    '<%= globalConfig.dev_img %>/*.gif',
-                    '<%= globalConfig.dev_img %>/*.jpg'
+                    // Project files
+                    '<%= config.build %>css/main.min.css',
+                    '<%= config.build %>js/scripts.min.js',
+                    '<%= config.build %>img/*.{png,jpg,gif,svg}'
                 ],
-                tasks: ['imagemin'],
-                options: {
-                    spawn: false,
-                    livereload: true
-                }
             },
+        },
 
-            copy: {
-                files: [
-                    '<%= globalConfig.dev_img %>/*.png'
-                ],
-                tasks: ['copy'],
-                options: {
-                    spawn: false,
-                    livereload: true
-                }
-            },
-
-            // -- SVG config ----------------------------------------------------------
-            svg: {
-                files: ['<%= globalConfig.dev_img %>/*.svg'],
-                tasks: ['svgmin', 'svg2png'],
-                options: {
-                    spawn: false,
-                    livereload: true
-                }
-            },
-
-            // -- Project files config (CSS and JS) ------------------------------------
-            scripts_dev: {
-                files: ['<%= concat.dev.src %>'],
-                tasks: ['jshint:dev', 'concat:dev', 'uglify:dev'],
-                options: {
-                    spawn: false,
-                    livereload: true
+        // SYNC _______________________________________________________________________
+        browserSync: {
+            dev: {
+                bsFiles: {
+                    src : '<%= config.build %>css/main.min.css'
                 },
-            },
-
-            css_dev: {
-                files: [
-                    '<%= globalConfig.dev_css %>/*.scss',
-                    '<%= globalConfig.dev_css %>/**/*.scss'
-                ],
-                tasks: ['sass:dev']
+                options: {
+                    watchTask: true,
+                    proxy: "local.a2boilerplate"
+                }
             }
-
         }
 
-    };
+    });
 
-    grunt.initConfig(gruntConfig);
-
-    // Grunt plugins
-    grunt.loadNpmTasks('grunt-contrib-concat');
+    // Load plugins
+    grunt.loadNpmTasks('grunt-contrib-sass');
+    grunt.loadNpmTasks('grunt-contrib-watch');
     grunt.loadNpmTasks('grunt-contrib-uglify');
     grunt.loadNpmTasks('grunt-contrib-jshint');
-    grunt.loadNpmTasks('grunt-contrib-sass');
-    grunt.loadNpmTasks('grunt-contrib-imagemin');
     grunt.loadNpmTasks('grunt-svgmin');
     grunt.loadNpmTasks('grunt-svg2png');
-    grunt.loadNpmTasks('grunt-contrib-copy');
-    grunt.loadNpmTasks('grunt-contrib-watch');
     grunt.loadNpmTasks('grunt-browser-sync');
+    grunt.loadNpmTasks('grunt-contrib-imagemin');
 
-    grunt.registerTask('default', ['browser_sync', 'watch', 'concat', 'uglify', 'jshint', 'sass', 'imagemin', 'svgmin', 'svg2png', 'copy'] );
+    // Grunt tasks
 
-    // Watch task
-    grunt.registerTask( 'w', [ 'watch' ] );
+    // Init
+    grunt.registerTask( 'init', [ 'uglify:modernizr', 'uglify:jquery', 'uglify:respond' ] );
 
-    // Start
-    grunt.registerTask( 'init', [ 'uglify:modernizr', 'uglify:respond' ] );
-
-    // CSS task
+    // CSS
     grunt.registerTask( 'css', [ 'sass' ] );
 
-    // JS task
-    grunt.registerTask( 'js', [ 'concat', 'uglify', 'jshint' ] );
+    // JS
+    grunt.registerTask( 'js', [ 'jshint', 'uglify' ] );
 
-    // Compress images task
-    grunt.registerTask( 'images', [ 'svgmin', 'svg2png', 'copy', 'imagemin' ] );
+    // Images
+    //grunt.registerTask( 'images', [ 'svgmin', 'svg2png' ] );
+    grunt.registerTask( 'images', [ 'imagemin' ] );
 
-    // Browser sync task
-    grunt.registerTask( 'sync', [ 'browser_sync', 'watch' ] );
+    // Watch
+    grunt.registerTask( 'live', [ 'watch' ] );
 
-    // Start taks
-    grunt.registerTask( 'init', [ 'uglify:modernizr', 'uglify:respond' ] );
+    // Sync
+    grunt.registerTask('sync', ["browserSync", "watch"]);
+
 };

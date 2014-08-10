@@ -1,0 +1,524 @@
+<!doctype html>
+<html>
+<head>
+   <meta charset="utf-8">
+   <meta name="description" content="Colóquio de introdução das propriedades transition e animation do CSS3">
+   <meta name="author" content="Raphael Fabeni">
+   <meta name="apple-mobile-web-app-capable" content="yes" />
+   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+   <link rel="icon" href="http://www.raphaelfabeni.com.br/favicon.ico">
+   <title>Animation e Transition | CSS3</title>
+   <link rel="stylesheet" href="css/reveal.min.css">
+   <link rel="stylesheet" href="css/theme/default.css">
+   <link rel="stylesheet" href="css/style.css">
+   <!-- highlight -->
+   <link rel="stylesheet" href="plugin/highlight/styles/rainbow.css">
+   <!--modernizr -->
+   <script src="lib/js/modernizr-2.5.3.min.js"></script>
+</head>
+<body>
+   <div class="reveal">
+      <!-- slides -->
+      <div class="slides">
+
+         <!-- titulo -->
+         <section>
+            <h1>Animation e Transition</h1>
+            <h3>CSS3</h3>
+         </section>
+
+         <!-- transition -->
+         <section>
+            <section id="transition">
+               <h2>Transition</h2>
+            </section>
+            <section id="definicao-transition">
+               <blockquote cite="http://www.w3schools.com/">
+                  Adiciona um efeito quando o navegador troca de um estilo para outro, sem usar Flash ou animaçoes em JavaScript.
+               </blockquote>
+            </section>       
+         </section>
+         <!-- exemplos -->
+         <section>
+            <section id="o-que-ja-fizemos">
+               <h2>O que já fizemos e exemplos</h2>
+            </section>
+            <section id="projetos-transition">
+               <div class="thumb-list">
+                  <figure>
+                     <a target="blank" href="http://www.eletros.org.br/"><img src="img/eletros.jpg" height="300" width="300" alt="Thumb do site da Eletros"></a>
+                  </figure>
+                  <figure>
+                     <a target="blank" href="http://www.iculturademocratica.com.br/"><img src="img/icd.jpg" height="300" width="300" alt="Thumb do site do ICD"></a>
+                  </figure>
+                  <figure>
+                     <a target="blank" href="http://www.idort.com.br/"><img src="img/idort.jpg" height="300" width="300" alt="Thumb do site do IDORT"></a>
+                  </figure>
+                  <figure>
+                     <a target="blank" href="http://www.enciclopediaf1.com.br/"><img src="img/enciclopedia.jpg" height="300" width="300" alt="Thumb da Enciclopédia da F1"></a>
+                  </figure>
+                  <figure>
+                     <a target="blank" href="http://tucano.org.br/"><img src="img/diretorio.jpg" height="300" width="300" alt="Thumb do site do Diretório Estadual do PSDB"></a>
+                  </figure>
+                  <figure>
+                     <a target="blank" href="http://www.raphaelfabeni.com.br/"><img src="img/portfolio.jpg" height="300" width="300" alt="Thumb do portfolio do Raphael Fabeni"></a>
+                  </figure>
+               </div>
+            </section>
+         </section>
+         <!-- como usa -->
+         <section>
+            <section id="como-faz">
+               <h2>Como faz essa joça?</h2>
+            </section>
+            <section id="propriedades">
+               <p>São quatro propriedades:</p>
+               <table class="example-table">
+                  <tr>
+                     <td class="fragment"><i>transition-property</i></td>
+                     <td class="fragment"><small>Especifica o nome da propriedade CSS a qual a transição vai ser aplicada.</small></td>
+                  </tr>
+                  <tr>
+                     <td class="fragment"><i>transition-duration</i></td>
+                     <td class="fragment"><small>Duração do efeito.</small></td>
+                  </tr>
+                  <tr>
+                     <td class="fragment"><i>transition-timing-function</i></td>
+                     <td class="fragment"><small>Forma como a transição progride no tempo.</small></td>
+                  </tr>
+                  <tr>
+                     <td class="fragment"><i>transition-delay</i></td>
+                     <td class="fragment"><small>Define a partir de quanto tempo (em segundos) o efeito vai iniciar (Padrão é 0).</small></td>
+                  </tr>
+               </table>
+            </section>
+            <section id="resumo">
+               <h3>Resumindo</h3>
+               <pre><code>
+               div {
+                  transition-property: width;
+                  transition-duration: 1s;
+                  transition-timing-function: linear;
+                  transition-delay: 2s;
+               }
+               </code></pre>
+            </section>
+            <section id="prefixo">
+               <h3>Prefixando a galera</h3>
+               <pre><code class="big">                  
+               div {            
+                  -webkit-transition-property: width;
+                  -webkit-transition-duration: 1s;
+                  -webkit-transition-timing-function: linear;
+                  -webkit-transition-delay: 2s;
+                  
+                     -moz-transition-property: width;
+                     -moz-transition-duration: 1s;
+                     -moz-transition-timing-function: linear;
+                     -moz-transition-delay: 2s;
+                                
+                       -o-transition-property: width;
+                       -o-transition-duration: 1s;
+                       -o-transition-timing-function: linear;
+                       -o-transition-delay: 2s;
+                       
+                      -ms-transition-property: width;
+                      -ms-transition-duration: 1s;
+                      -ms-transition-timing-function: linear;
+                      -ms-transition-delay: 2s;
+
+                          transition-property: width;
+                          transition-duration: 1s;
+                          transition-timing-function: linear;
+                          transition-delay: 2s;
+               }
+               </code></pre>
+            </section>
+            <section id="entendeu">
+               <h3>Capiche?</h3>
+               <img src="img/cachorro.gif" height="240" width="320" alt="cachorro confuso Cachorro confuso" />
+            </section>
+            <section id="preguica">
+               <h3>Dá pra escrever menos? Tenho preguiça..</h3>
+               <img src="img/preguica.gif" height="195" width="500" alt="Preguiça de escrever">
+            </section>
+            <section id="simplificando">
+               <h3>Simplificando</h3>
+               <p>
+                  <span class="fragment">transition:</span>
+                  <span class="fragment"><i>&lsaquo;property&rsaquo;</i></span>
+                  <span class="fragment"><i>&lsaquo;duration&rsaquo;</i></span>
+                  <span class="fragment"><i>&lsaquo;timing-function&rsaquo;</i></span>
+                  <span class="fragment"><i>&lsaquo;delay&rsaquo;</i></span>
+               </p>
+               <pre class="fragment">
+                  <code>
+                  div {
+                     transition: width 1s linear 2s;
+                  }
+                  </code>
+               </pre>
+            </section>
+            <section id="prefixando">
+               <h3>Prefixando...</h3>
+               <pre><code>
+                  div {
+                     -webkit-transition: width 1s linear 2s;
+                        -moz-transition: width 1s linear 2s;
+                          -o-transition: width 1s linear 2s;
+                         -ms-transition: width 1s linear 2s;
+                             transition: width 1s linear 2s;
+                  }
+               </code></pre>
+               <img class="fragment" src="img/chuck-norris-approves.gif" height="251" width="387" alt="Chuck Norris aprova">
+            </section>
+            <section id="mais-propriedades">
+               <h3>Mais de uma propriedade, tem como?</h3>
+               <pre class="fragment"><code>
+            div {
+               -webkit-transition: width 2s linear, height 3s linear;
+                  -moz-transition: width 2s linear, height 3s linear;
+                    -o-transition: width 2s linear, height 3s linear;
+                   -ms-transition: width 2s linear, height 3s linear;
+                       transition: width 2s linear, height 3s linear;   
+            }
+               </code></pre>
+            </section>
+            <section id="prefixando-de-novo">
+               <h3>Nossos amigos prefixos..</h3>
+               <pre class="fragment"><code>
+            div {
+               -webkit-transition: width 2s linear, height 3s linear;
+                  -moz-transition: width 2s linear, height 3s linear;
+                    -o-transition: width 2s linear, height 3s linear;
+                   -ms-transition: width 2s linear, height 3s linear;
+                       transition: width 2s linear, height 3s linear;   
+            }
+               </code></pre>
+            </section>
+         </section>
+         <section id="transition-exemplo">
+            <pre class="codepen" data-height="300" data-type="result" data-href="Dwjgd" data-user="raphaelfabeni" data-safe="true">
+               <code></code>
+               <a href="http://codepen.io/raphaelfabeni/pen/Dwjgd">Check out this Pen!</a>
+            </pre>
+            <script async src="http://codepen.io/assets/embed/ei.js"></script>
+         </section>
+         <!-- suporte -->
+         <section>
+            <section id="transition-suporte">
+               <h2>Suporte</h2>
+            </section>
+            <section id="transition-navegadores">
+               <figure>
+                  <img src="img/transition-suporte.jpg" height="163" width="784" alt="Suporte da propriedade Transition">
+               </figure>
+            </section>
+         </section>
+         <!-- animacao -->
+         <section>
+            <section id="animation">
+               <h2>Animation</h2>
+            </section>
+            <section id="definicao-animation">
+               <blockquote cite="http://www.w3schools.com/">
+                  Com as animações em CSS3, podemos criar animações que podem substituir imagens animadas e animações em Flash ou JavaScript em várias páginas.
+               </blockquote>
+            </section>
+         </section>
+         <!-- exemplos -->
+         <section>
+            <section id="exemplos-animation">
+               <h3>Exemplos</h3>
+            </section>
+            <section id="projetos-animation">
+               <div class="thumb-list">
+                  <figure>
+                     <a target="blank" href="http://www.raphaelfabeni.com.br/"><img src="img/portfolio.jpg" height="300" width="300" alt="Thumb do portfolio do Raphael Fabeni"></a>
+                  </figure>
+                  <figure>
+                     <a target="blank" href="https://developer.mozilla.org/pt-BR/demos/detail/pikachu-css3/launch"><img src="img/pikachu.jpg" height="300" width="300" alt="Thumb do projeto de animação do Pikachu"></a>
+                  </figure>
+               </div>
+            </section>
+         </section>
+         <!-- como faz -->
+         <section>
+            <section id="como-faz-isso">
+               <h3>Eaí, faz como?</h3>
+            </section>
+            <section id="regra-dos-keyframes">
+               <h3>A Regra dos Keyframes</h3>
+               <p class="fragment">É aonde as animações são criadas.</p>
+               <p class="fragment">Cada um contém uma propriedade CSS e a animação se encarrega de mudar de um keyframe para outro.</p>
+               <pre class="fragment"><code>
+               @keyframes aegaroto {
+                  from {background: red;}
+                  to {background: yellow;}
+               }
+               </code></pre>
+            </section>
+            <section id="sem-prefixos">
+               <h3>O bom é que esse não tem prefixo né...</h3>
+               <img src="img/malandro.gif" alt="Pegadinha do Malandro" class="fragment">
+            </section>
+            <section id="prefixos-de-novo-2">
+               <pre><code class="big">
+               @keyframes aegaroto {
+                  from { background: red; }
+                  to { background: yellow; }
+               }
+
+               @-moz-keyframes aegaroto {
+                  from { background: red; }
+                  to { background: yellow; }
+               }
+
+               @-webkit-keyframes aegaroto {
+                  from { background: red; }
+                  to { background: yellow; }
+               }
+
+               @-ms-keyframes aegaroto {
+                  from { background: red; }
+                  to { background: yellow; }
+               }
+
+               @-o-keyframes aegaroto {
+                  from { background: red; }
+                  to { background: yellow; }
+               }
+               </code></pre>
+            </section>
+            <section id="keyframes-megazord">
+               <h3>Keyframes Modo <i>Megazord</i></h3>
+               <pre><code>
+               @keyframes aegaroto {
+                  0%   { background: red; }
+                  25%  { background: yellow; }
+                  50%  { background: blue; }
+                  100% { background: green; }
+               }
+               </code></pre>
+            </section>
+            <section id="prefixando-de-novo-3">
+               <pre><code class="big">
+               @keyframes aegaroto {
+                  0%   { background: red; }
+                  25%  { background: yellow; }
+                  50%  { background: blue; }
+                  100% { background: green; }
+               }
+               @-moz-keyframes aegaroto {
+                  0%   { background: red; }
+                  25%  { background: yellow; }
+                  50%  { background: blue; }
+                  100% { background: green; }
+               }
+               @-webkit-keyframes aegaroto {
+                  0%   { background: red; }
+                  25%  { background: yellow; }
+                  50%  { background: blue; }
+                  100% { background: green; }
+               }
+               @-ms-keyframes aegaroto {
+                  0%   { background: red; }
+                  25%  { background: yellow; }
+                  50%  { background: blue; }
+                  100% { background: green; }
+               }
+               @-o-keyframes aegaroto {
+                  0%   { background: red; }
+                  25%  { background: yellow; }
+                  50%  { background: blue; }
+                  100% { background: green; }
+               }
+               </code></pre>
+            </section>
+            <section id="continuando-a-magica">
+               <h3>Continuando a mágica...</h3>
+               <p class="fragment">Com os <i>keyframes</i> criados precisamos vinculá-los a algum seletor, senão a animação não acontece.</p>
+               <p class="fragment">Pra isso precisamos de duas coisas:</p>
+               <ul>
+                  <li class="fragment">O nome da animação (igual ao especificado na chamada dos keyframes)</li>
+                  <li class="fragment">A duração da animação (se não for declarada, a animação não se inicia pois o valor padrão é 0)</li>
+               </ul>
+            </section>
+            <section id="snippet-animation">
+               <pre><code>
+               div {
+                  -webkit-animation: aegaroto 5s;                  
+                     -moz-animation: aegaroto 5s;
+                       -o-animation: aegaroto 5s;
+                      -ms-animation: aegaroto 5s;
+                          animation: aegaroto 5s;
+               }
+               </code></pre>
+            </section>
+            <section id="propriedades-animation">
+               <h3>As propriedades</h3>
+               <table class="example-table">
+                  <tr>
+                     <td class="fragment"><i>animation-name</i></td>
+                     <td class="fragment"><small>Nome da animação especificada nos <i>@keyframes</i>.</small></td>
+                  </tr> 
+                  <tr>
+                     <td class="fragment"><i>animation-duration</i></td>
+                     <td class="fragment"><small>Quanto tempo durará um ciclo da animação (Padrão é 0).</small></td>
+                  </tr>
+                  <tr>
+                     <td class="fragment"><i>animation-timing-function</i></td>
+                     <td class="fragment"><small>Como a animação vai avançar durante um ciclo (Padrão é <i>ease</i>).</small></td>
+                  </tr> 
+                  <tr>
+                     <td class="fragment"><i>animation-delay</i></td>
+                     <td class="fragment"><small>Determina quando a animação se inicia (Padrão é 0).</small></td>
+                  </tr>
+                  <tr>
+                     <td class="fragment"><i>animation-iteration-count</i></td>
+                     <td class="fragment"><small>Número de vezes que a animação vai se repetir (Padrão é 1).</small></td>
+                  </tr>
+                  <tr>
+                     <td class="fragment"><i>animation-direction</i></td>
+                     <td class="fragment"><small>Se ao final da animação, ela deve reiniciar seu fluxo normalmente, ou voltar no sentido inverso (Padrão é normal).</small></td>
+                  </tr>
+                  <tr>
+                     <td class="fragment"><i>animation-play-state</i></td>
+                     <td class="fragment"><small>Se a animação está rodando ou pausada (Padrão é <i>running</i>).</small></td>
+                  </tr>
+               </table>
+            </section>
+            <section id="css-animation">
+               <h3>Ufa....</h3>
+               <pre class="fragment"><code class="big">
+               div {
+                  animation-name: aegaroto;
+                  animation-duration: 5s;
+                  animation-timing-function: linear;
+                  animation-delay: 2s;
+                  animation-iteration-count: infinite;
+                  animation-direction: alternate;
+                  animation-play-state: running;
+               }
+               </code></pre>
+            </section>
+            <section id="css-animation-prefixos">
+               <pre><code class="big">
+               div {
+                  animation-name: aegaroto;
+                  animation-duration: 5s;
+                  animation-timing-function: linear;
+                  animation-delay: 2s;
+                  animation-iteration-count: infinite;
+                  animation-direction: alternate;
+                  animation-play-state: running;
+
+                  -moz-animation-name: aegaroto;
+                  -moz-animation-duration: 5s;
+                  -moz-animation-timing-function: linear;
+                  -moz-animation-delay: 2s;
+                  -moz-animation-iteration-count: infinite;
+                  -moz-animation-direction: alternate;
+                  -moz-animation-play-state: running;
+                  
+                  -webkit-animation-name: aegaroto;
+                  -webkit-animation-duration: 5s;
+                  -webkit-animation-timing-function: linear;
+                  -webkit-animation-delay: 2s;
+                  -webkit-animation-iteration-count: infinite;
+                  -webkit-animation-direction: alternate;
+                  -webkit-animation-play-state: running;
+
+                  -o-animation-name: aegaroto;
+                  -o-animation-duration: 5s;
+                  -o-animation-timing-function: linear;
+                  -o-animation-delay: 2s;
+                  -o-animation-iteration-count: infinite;
+                  -o-animation-direction: alternate;
+                  -o-animation-play-state: running;
+
+                  -ms-animation-name: aegaroto;
+                  -ms-animation-duration: 5s;
+                  -ms-animation-timing-function: linear;
+                  -ms-animation-delay: 2s;
+                  -ms-animation-iteration-count: infinite;
+                  -ms-animation-direction: alternate;
+                  -ms-animation-play-state: running; 
+               }
+               </code></pre>
+            </section>
+            <section id="da-pra-simplificar">
+               <h3>Dá pra simplificar isso daí não?</h3>
+               <p>
+                  <span class="fragment">animation:</span>
+                  <span class="fragment"><i>&lsaquo;name&rsaquo;</i></span>
+                  <span class="fragment"><i>&lsaquo;duration&rsaquo;</i></span>
+                  <span class="fragment"><i>&lsaquo;timing-function&rsaquo;</i></span>
+                  <span class="fragment"><i>&lsaquo;delay&rsaquo;</i></span>
+                  <span class="fragment"><i>&lsaquo;iteration-count&rsaquo;</i></span>
+                  <span class="fragment"><i>&lsaquo;direction&rsaquo;</i></span>
+                  <span class="fragment"><i>&lsaquo;play-state&rsaquo;</i></span>
+               </p>
+               <pre class="fragment"><code>
+               div {
+                  animation: aegaroto 5s linear 2s infinite alternate;
+               }           
+               </code></pre>
+            </section>
+            <section id="ah-os-prefixos">
+               <h3>Ahhh os prefixos...</h3>               
+               <pre><code class="big">
+      div {                  
+         -webkit-animation: aegaroto 5s linear 2s infinite alternate;
+            -moz-animation: aegaroto 5s linear 2s infinite alternate;
+             -ms-animation: aegaroto 5s linear 2s infinite alternate;
+              -o-animation: aegaroto 5s linear 2s infinite alternate;
+                 animation: aegaroto 5s linear 2s infinite alternate;
+      }
+               </code></pre>
+            </section>            
+         </section>
+         <section id="animation-exemplo">
+               <pre class="codepen" data-height="300" data-type="result" data-href="olBfE" data-user="raphaelfabeni" data-safe="true"><code></code><a href="http://codepen.io/raphaelfabeni/pen/olBfE">Check out this Pen!</a></pre>
+<script async src="http://codepen.io/assets/embed/ei.js"></script>
+            </section>
+         <!-- suporte -->
+         <section>
+            <section id="animation-suporte">
+               <h2>Suporte</h2>
+            </section>
+            <section id="animation-navegadores">
+               <figure>
+                  <img src="img/animation-suport.jpg" height="163" width="784" alt="Suporte da propriedade Animation do CSS3">
+               </figure>
+            </section>
+         </section>
+         <section id="obrigado">
+            <figure><img src="img/aplausos.gif" height="225" width="300" alt="Galera aplaudindo"></figure>
+         </section>                
+         
+
+      </div>
+</div>
+<script src="lib/js/head.min.js"></script>
+<script src="js/reveal.min.js"></script>
+<script>
+Reveal.initialize({
+   center: true,
+   progress: true,
+   overview: true,
+   controls: true,
+   history: true,
+   dependencies: [
+   { src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+   { src: 'plugin/markdown/showdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+   { src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+   { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+   { src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+   { src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+   ]
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,219 @@
+/**
+ * Custom theme: GDE
+ *
+ */
+
+
+// Default mixins and settings -----------------
+@import "../template/mixins";
+@import "../template/settings";
+// ---------------------------------------------
+
+@import "font-awesome";
+@import "animations-key";
+@import "animations";
+
+
+/* Typography
+   ========================================================================== */
+	@font-face {
+		font-family: 'AllerBold';
+		src: url('../../lib/font/aller_bd-webfont.eot');
+		src: url('../../lib/font/aller_bd-webfont.eot?#iefix') format('eot'),
+		   url('../../lib/font/aller_bd-webfont.woff') format('woff'),
+		   url('../../lib/font/aller_bd-webfont.ttf') format('truetype'),
+		   url('../../lib/font/aller_bd-webfont.svg#webfonti8hol64m') format('svg');
+		font-weight: normal;
+		font-style: normal;
+	}
+
+	@font-face {
+		font-family: 'AllerRegular';
+		src: url('../../lib/font/aller_rg-webfont.eot');
+		src: url('../../lib/font/aller_rg-webfont.eot?#iefix') format('eot'),
+		   url('../../lib/font/aller_rg-webfont.woff') format('woff'),
+		   url('../../lib/font/aller_rg-webfont.ttf') format('truetype'),
+		   url('../../lib/font/aller_rg-webfont.svg#webfontGBXJYuuM') format('svg');
+		font-weight: normal;
+		font-style: normal;
+	}
+
+// Override theme settings (see ../template/settings.scss)
+$heading1TextShadow: 
+	0 1px 0 #cc4b00,
+	0 2px 0 #c94a00,
+	0 3px 0 #ba4400,
+	0 4px 0 #ba4400,
+	0 5px 0 #ab3f00,
+	0 6px 1px rgba(0,0,0,.1),
+	0 0 5px rgba(0,0,0,.1),
+	0 1px 3px rgba(0,0,0,.3),
+	0 3px 5px rgba(0,0,0,.2),
+	0 5px 10px rgba(0,0,0,.25),
+	0 20px 20px rgba(0,0,0,.15);
+
+// Background generator
+@mixin bodyBackground() {
+	@include radial-gradient( rgba(200,200,200,1), rgba(255,255,255,1) );
+}
+
+
+/* Definitions
+   ========================================================================== */
+   $headingFont: 'AllerBold';
+   $mainFont: Georgia,"Times New Roman",serif;
+   $mainColor: #666;
+   $headingColor: #fe7325;
+   $linkColor: #ff5c00;
+	$linkColorHover: lighten( $linkColor, 20% );
+	$selectionBackgroundColor: $headingColor;
+	$selectionColor: #fff;
+
+// Theme template ------------------------------
+@import "../template/theme";
+// ---------------------------------------------
+
+/* Custom CSS
+   ========================================================================== */
+   .block { display: block; }
+   .reveal h1.big { font-size: 6em; }
+   .reveal h1.big small { line-height: 1.9em; }
+
+   .reveal .subtitle {
+   	color: #666;
+   	letter-spacing: -1px;
+   }
+
+   .slide-intro .subtitle { font-size: 1.5em; }
+
+   .reveal blockquote {
+		background: none repeat scroll 0 0 rgba(255, 255, 255, 0.7);    
+   }
+
+   .reveal section .none img,
+   .reveal pre.none {
+   	border: 0;
+   	box-shadow: none;
+   	background: none;
+   }
+
+   .figure-modules {
+   	position: relative;
+   	text-align: center;
+   }
+
+   .figure-modules img + img {
+   	position: absolute;
+   	top: 0;
+   	left: 50%;
+   	margin-left: -214px;
+   }
+	
+	.slide-center { text-align: center; }
+   .slide-center figure { display: inline-block; }
+
+   .reveal pre.code-big {
+   	font-size: 16px;
+   	width: 96%;
+   	margin: 0;
+   }
+
+   .reveal pre.code-big code { max-height: 100%; }
+
+   .reveal .full img {
+   	max-width: 100%;
+   	max-height: 100%;
+      margin: 0;
+   }
+
+   .reveal .kid {
+      position: absolute;
+      width: 320px;
+      height: 240px;
+      left: 50%;
+      top: 50%;
+      margin: -120px 0 0 -160px;
+      -webkit-box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 1);
+              box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 1);
+   }
+
+   .reveal .kid img { margin: 0; }
+
+   .workflow i {
+      font-size: 96px;
+      line-height: 96px;
+      margin: 0 4px;
+   }
+
+   .workflow-big i {
+      font-size: 132px;
+      line-height: 132px;
+      margin: 0 5px;
+   }
+
+   .workflow .arrow {
+      font-size: 32px;
+      color: #bbb;
+      vertical-align: super;
+   }
+
+   .reveal .hold-workflow {
+      margin: 15px 0;
+      display: block;
+   }
+
+   .old-workflow .icon-red,
+   .workflow-mobile .icon-red { color: red; }
+   .new-workflow .icon-green { color: green; }
+
+   /* Animation Key
+      ========================================================================== */
+      @-webkit-keyframes moveBg {
+         0% { background-position: top center; }
+         100% { background-position: bottom center; }
+      }
+
+      @-moz-keyframes moveBg {
+         0% { background-position: top center; }
+         100% { background-position: bottom center; }
+      }
+
+      @-o-keyframes moveBg {
+         0% { background-position: top center; }
+         100% { background-position: bottom center; }
+      }
+
+      @-ms-keyframes moveBg {
+         0% { background-position: top center; }
+         100% { background-position: bottom center; }
+      }
+
+      @keyframes moveBg {
+         0% { background-position: top center; }
+         100% { background-position: bottom center; }
+      }
+
+
+      .bg-animation .reveal .slide-background.present {
+         @include animation(moveBg 5s linear 1s both);
+      }
+
+   /* Fragment | Transition options
+      ========================================================================== */
+      @mixin duration($time) {
+      	-webkit-transition-duration: $time;
+      	   -moz-transition-duration: $time;
+      	     -o-transition-duration: $time;
+      	    -ms-transition-duration: $time;
+      			  transition-duration: $time;
+      }
+
+      .reveal .slides section .fragment {
+      	@include duration(1s);
+      }
+
+      .reveal .slides section[data-transition="fade"],
+      .reveal.fade .slides section,
+      .reveal.fade .slides > section > section {
+      	@include duration(1s);
+      }

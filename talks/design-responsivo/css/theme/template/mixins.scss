@@ -1,0 +1,58 @@
+@mixin vertical-gradient( $top, $bottom ) {
+	background: $top;
+	background: -moz-linear-gradient( top, $top 0%, $bottom 100% );
+	background: -webkit-gradient( linear, left top, left bottom, color-stop(0%,$top), color-stop(100%,$bottom) );
+	background: -webkit-linear-gradient( top, $top 0%, $bottom 100% );
+	background: -o-linear-gradient( top, $top 0%, $bottom 100% );
+	background: -ms-linear-gradient( top, $top 0%, $bottom 100% );
+	background: linear-gradient( top, $top 0%, $bottom 100% );
+}
+
+@mixin horizontal-gradient( $top, $bottom ) {
+	background: $top;
+	background: -moz-linear-gradient( left, $top 0%, $bottom 100% );
+	background: -webkit-gradient( linear, left top, right top, color-stop(0%,$top), color-stop(100%,$bottom) );
+	background: -webkit-linear-gradient( left, $top 0%, $bottom 100% );
+	background: -o-linear-gradient( left, $top 0%, $bottom 100% );
+	background: -ms-linear-gradient( left, $top 0%, $bottom 100% );
+	background: linear-gradient( left, $top 0%, $bottom 100% );
+}
+
+@mixin radial-gradient( $outer, $inner, $type: circle ) {
+	background: $outer;
+	background: -moz-radial-gradient( center, $type cover,  $inner 0%, $outer 100% );
+	background: -webkit-gradient( radial, center center, 0px, center center, 100%, color-stop(0%,$inner), color-stop(100%,$outer) );
+	background: -webkit-radial-gradient( center, $type cover,  $inner 0%, $outer 100% );
+	background: -o-radial-gradient( center, $type cover,  $inner 0%, $outer 100% );
+	background: -ms-radial-gradient( center, $type cover,  $inner 0%, $outer 100% );
+	background: radial-gradient( center, $type cover,  $inner 0%, $outer 100% );
+}
+
+@mixin animation($parameters) {
+   -webkit-animation: $parameters;
+      -moz-animation: $parameters;
+       -ms-animation: $parameters;
+        -o-animation: $parameters;
+           animation: $parameters;
+}
+
+@mixin transition($parameters) {
+   -webkit-transition: $parameters;
+      -moz-transition: $parameters;
+        -o-transition: $parameters;
+       -ms-transition: $parameters;
+           transition: $parameters;
+}
+
+@mixin border-radius($parameters) {
+	-webkit-border-radius: $parameters;
+			  border-radius: $parameters;
+}
+
+@mixin transform($parameters) {
+    -webkit-transform: $parameters;
+       -moz-transform: $parameters;
+         -o-transform: $parameters;
+        -ms-transform: $parameters;
+            transform: $parameters;
+}

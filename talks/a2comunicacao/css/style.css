@@ -1,0 +1,81 @@
+figure.none img {
+   border: none;
+   box-shadow: none;
+   background-color: transparent;
+}
+
+.pull-left { float: left; }
+.pull-right { float: right; }
+
+figure.inline { display: inline; }
+
+.reveal .grafico {
+   width: 100%;
+   height: 600px;
+   display: block;
+   position: relative;
+}
+
+.reveal .grafico.half {
+   width: 49%;
+   float: left;
+}
+
+.reveal .title-graph {
+   text-align: center;
+   font-size: 14px;
+   font-weight: bold;
+   color: #fff;
+}
+
+.reveal .highcharts-tooltip table { color: #fff; }
+
+.reveal .highcharts-tooltip table td { font-size: 14px; }
+
+.hold-scripts,
+.hold-images { position: relative; }
+
+.hold-scripts .hover,
+.hold-images .hover { position: absolute; }
+
+.hold-scripts .hover-01 {
+   left: 194px;
+   top: 83px;
+}
+
+.hold-scripts .hover-02 {
+   left: 386px;
+   top: 293px;
+}
+
+.hold-scripts .hover-03 {
+   bottom: 44px;
+   left: 192px;
+}
+
+.hold-images .hover-01 {
+   left: 194px;
+   top: 0;
+}
+
+.hold-images .hover-02 {
+   left: 192px;
+   top: 281px;
+}
+
+.hold-images .hover-03 {
+   bottom: 8px;
+   left: 192px;
+}
+
+.reveal .image-big {
+   overflow-y: scroll;
+   max-height: 700px;
+}
+
+.reveal .image-big img { max-height: none; }
+
+
+.reveal .block {
+   max-height: none!important;
+}

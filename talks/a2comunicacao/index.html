@@ -1,0 +1,324 @@
+<!doctype html>
+<html>
+<head>
+   <meta charset="utf-8">
+   <meta name="description" content="Colóquio sobre os estudos a respeito do desenvolvimento do site da A2 Comunicação utilizando WordPress e A2siteBox.">
+   <meta name="author" content="Raphael Fabeni">
+   <meta name="apple-mobile-web-app-capable" content="yes" />
+   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+   <link rel="icon" href="http://www.raphaelfabeni.com.br/favicon.ico">
+   <title>A2 Comunicação | Website</title>
+   <link rel="stylesheet" href="css/reveal.min.css">
+   <link rel="stylesheet" href="css/theme/default.css">
+   <link rel="stylesheet" href="css/style.css">
+   <!-- highlight -->
+   <link rel="stylesheet" href="plugin/highlight/styles/rainbow.css">
+   <!--modernizr -->
+   <script src="lib/js/modernizr-2.5.3.min.js"></script>
+</head>
+<body>
+   <div class="reveal">
+      <!-- slides -->
+      <div class="slides">
+
+         <!-- Titulo -->
+         <section>
+            <h1>A2 Comunicação</h1>
+            <h2><small>O antes e o depois</small></h2>
+         </section>
+         <!-- Intro -->
+         <section>
+            <section id="WP-e-A2siteBox">
+               <figure class="no-bg no-border">
+                  <img src="img/plataformas.png" alt="Wordpress e A2 siteBox">
+               </figure>
+            </section>
+
+            <section id="site-A2">
+               <figure class="none">
+                  <img src="img/print-depois.jpg" alt="Print site da A2 Comunicação">
+               </figure>
+            </section>
+         </section>
+
+         <!-- Mudanças-->
+         <section>
+            <section id="o-que-mudou">
+               <h2>O que mudou...</h2>
+            </section>
+
+            <section id="sprite">
+               <figure class="none">
+                  <img src="img/sprite.png" alt="Sprite">
+               </figure>
+            </section>
+
+            <section id="sprite-bgs">
+               <figure class="none">
+                  <img src="img/bgs.jpg" alt="Sprite BGs">
+               </figure>
+            </section>
+
+            <section id="mobile-first">
+               <h2>Mobile First</h2>
+            </section>
+
+            <section id="conceito-mobile-first">
+               <figure class="none inline">
+                  <img src="img/celular.png" alt="Celular" class="fragment">
+               </figure>
+               <figure class="none inline">
+                  <img src="img/score_arrow.png" alt="Seta" class="fragment">
+               </figure>
+               <figure class="none inline">
+                  <img src="img/pc.png" alt="PC" class="fragment">
+               </figure>
+            </section>
+
+            <section id="versao-mobile">
+               <figure class="none image-big">
+                  <img src="img/print-mobile.jpg" alt="Print da versão Mobile">
+               </figure>
+            </section>
+
+            <section id="scripts">
+               <p>Scripts chamado apenas na versão <i class="fragment highlight-green">desktop</i></p>
+            </section>
+            <section id="visualizacao-scripts">
+               <figure class="none hold-scripts">
+                  <img src="img/scripts-01.jpg" alt="Script - Mobile First" class="hover hover-01 fragment roll-in">
+                  <img src="img/scripts-02.jpg" alt="Script - Mobile First" class="hover hover-02 fragment roll-in">
+                  <img src="img/scripts-03.jpg" alt="Script - Mobile First" class="hover hover-03 fragment roll-in">
+                  <img src="img/a2-black.jpg" alt="A2 - Máscara">
+               </figure>
+            </section>
+
+            <section id="imagens">
+               <p>Imagens carregadas apenas na versão <i class="fragment highlight-green">desktop</i></p>
+            </section>
+            <section id="visualizacao-imagens">
+               <figure class="none hold-images">
+                  <img src="img/images-01.jpg" alt="Images - Mobile First" class="hover hover-01 fragment roll-in">
+                  <img src="img/images-02.jpg" alt="Images - Mobile First" class="hover hover-02 fragment roll-in">
+                  <img src="img/images-03.jpg" alt="Images - Mobile First" class="hover hover-03 fragment roll-in">
+                  <img src="img/a2-black.jpg" alt="A2 - Máscara">
+               </figure>
+            </section>
+
+            <section id="responsivo">
+               <h2>Responsivo</h2>
+            </section>
+
+            <section id="menu">
+               <figure class="fragment inline">
+                  <img src="img/mobile.jpg" alt="Versão Mobile">
+               </figure>
+               <figure class="fragment inline">
+                  <img src="img/mobile_menu.jpg" alt="Versão Mobile">
+               </figure>
+            </section>
+
+         </section>
+
+         <!-- Perfomance -->
+         <section>
+            <section id="perfomance">
+               <h2>Perfomance e Números</h2>
+            </section>
+
+            <!-- YSlow -->
+            <section id="YSlow">
+               <h2>YSlow</h2>
+               <figure class="none">
+                  <img src="img/yslow.png" alt="YSlow">
+               </figure>
+            </section>
+
+            <!-- Grade -->
+            <section id="YSlow-grade">
+               <h2>Grade</h2>
+               <figure class="none fragment inline">
+                  <img src="img/score_before.png" alt="Score Site A2 Comunicação antes">
+               </figure>
+               <figure class="none fragment inline">
+                  <img src="img/score_arrow.png" alt="Seta">
+               </figure>
+               <figure class="none fragment inline">
+                  <img src="img/score_after.png" alt="Score Site A2 Comunicação depos">
+               </figure>
+            </section>
+
+            <section id="YSlow-grade-comparativo">
+               <figure class="frament inline">
+                  <img src="img/yslow_before.jpg" alt="YSlow antes">
+               </figure>
+
+               <figure class="frament inline">
+                  <img src="img/yslow_after.jpg" alt="YSlow antes">
+               </figure>
+            </section>
+
+            <!-- Score -->
+            <section id="YSlow-score">
+               <h2>Score</h2>
+            </section>
+
+            <section data-state="score" id="YSlow-score-comparativo">
+               <div id="score" class="grafico"></div>
+            </section>
+
+            <!-- Requests -->
+            <section id="YSlow-requisicoes">
+               <h2>Requisições</h2>
+            </section>
+
+            <section data-state="requests" id="YSlow-requisicoes-comparativo">
+               <div id="requests" class="grafico"></div>
+            </section>
+
+            <!-- Peso -->
+            <section id="YSlow-peso">
+               <h2>Peso</h2>
+            </section>
+
+            <section data-state="weight" id="YSlow-peso-comparativo">
+               <div id="weight" class="grafico"></div>
+            </section>
+
+            <!-- Estatísticas -->
+            <section id="YSlow-estatisticas">
+               <h2>Estatísticas</h2>
+            </section>
+
+            <section data-state="statistics" id="YSlow-estatisticas-comparativo">
+               <div id="statistics" class="grafico half"></div>
+               <div id="statistics2" class="grafico half"></div>
+            </section>
+
+            <section data-state="comparative" id="comparativo">
+               <div id="comparative" class="grafico"></div>
+            </section>
+
+            <section data-state="comparative2" id="comparativo2">
+               <div id="comparative2" class="grafico"></div>
+            </section>
+
+            <!-- Page Speed -->
+            <section id="page-speed">
+               <h2>Page Speed</h2>
+               <figure class="none">
+                  <img src="img/pagespeed.png" alt="Page Speed">
+               </figure>
+            </section>
+
+            <section data-state="pagespeed" id="page-speed-comparativo">
+               <div id="pagespeed" class="grafico"></div>
+            </section>
+
+         </section>
+
+         <!-- Proximos passos -->
+         <section>
+
+            <section id="proximos-passos">
+               <h2>Próximos passos</h2>
+            </section>
+
+            <section id="zepto-js">
+               <h2>Zepto JS</h2>
+               <h3 class="fragment">Suporte eventos touch</h3>
+               <h3 class="fragment">Bem mais leve <span class="block fragment highlight-green">9.7k</span></h3>
+            </section>
+
+            <section id="verificacao-mobile">
+               <h2>Verificação Mobile</h2>
+               <h3 class="fragment">Mobile redirect (PHP)</h3>
+               <h3 class="fragment">Verificação Largura / Classe (JS/Ajax)</h3>
+            </section>
+
+            <section id="verificacao-php">
+               <pre><code>
+                  &lt;?php
+                     require_once 'in/Mobile_Detect.php';
+                     $detect = new Mobile_Detect();
+
+                     //Verificacao tablets e mobile
+                     $isMobile = $detect->isMobile();
+                     $isTablet = $detect->isTablet();
+                  ?&gt;
+               </code></pre>
+            </section>
+
+            <section id="verificacao-js">
+               <pre><code>
+                  if( screen.width > 767 ) {
+                     // Compartilhe Post
+                     $.ajax({
+                        type: 'GET',
+                        url: '/web/themes/a2/in/compartilhe.php',
+                        dataType: 'html',
+                        success: function(data) {
+                           $('.result-info').append(data);
+                           //verifica();
+                        }
+                     });
+                  }
+               </code></pre>
+            </section>
+
+            <section id="verificacao-modernizr">
+               <pre><code>
+               if (Modernizr.touch){
+                  if (screen.width <= 767) {
+                     $('body').addClass('phone');
+                  }
+               } else {
+
+               }
+
+               // verificando classe body (deslocamento do menu diferente)
+               if( $('body').hasClass('phone') ) {
+
+               } else {
+
+               }
+               </code></pre>
+            </section>
+
+            <section id="imagens-retina">
+               <h2>Imagens - <span class="fragment highlight-green">Retina</span> e <span class="fragment highlight-green">Baixa resolução</span></h2>
+               <h3 class="fragment">Imagens retina: Sprite</h3>
+               <h3 class="fragment">Servir imagens de baixa qualidade para dispositivos móveis</h3>
+
+            </section>
+
+         </section>
+
+         <section id="obrigado"><h2>...</h2></section>
+
+
+      </div>
+</div>
+<script src="lib/js/head.min.js"></script>
+<script src="js/reveal.min.js"></script>
+<script>
+Reveal.initialize({
+   center: true,
+   progress: true,
+   overview: true,
+   history: true,
+   dependencies: [
+   { src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+   { src: 'plugin/markdown/showdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+   { src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+   { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+   { src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+   { src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+   ]
+});
+</script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<script src="js/chart2/highcharts.js"></script>
+<script src="js/graficos.js"></script>
+</body>
+</html>

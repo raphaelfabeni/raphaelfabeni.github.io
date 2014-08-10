@@ -1,12 +1,39 @@
+
 /*  ==========================================================================
     Layout
     ========================================================================== */
+    @mixin button($color, $text: #fff) {
+        background-color: darken($color, 3%);
+        color: $text;
+
+        &:hover,
+        &:focus { background-color: darken($color, 4%); }
+    }
 
     @media only screen {
 
         body {
             background-color: $color-primary;
         }
+
+        /*  Button
+            ========================================================================== */
+            .btn {
+                border: none;
+                width: 300px;
+                margin: 0 auto;
+                display: block;
+                padding: 8px 0;
+                @include transition(all .25s ease);
+                @include button($purple);
+            }
+
+            .btn:hover { @include transform(scale(1.1)); }
+
+        /*  Talks
+            ========================================================================== */
+            .main-talks,
+            .main-talks p { text-align: center; }
 
         /*  Social
             ========================================================================== */
@@ -24,6 +51,7 @@
                 font-size: 38px;
                 line-height: 38px;
                 @include transition(all .25s ease);
+                color: lighten($purple, 40%);
             }
 
             .social .twitter:hover { color: #55acee; }
@@ -42,22 +70,25 @@
 
         /*  Start animations
             ========================================================================== */
-            .title { @include animation(fadeIn 1.25s ease both); }
-            .subtitle { @include animation(fadeInLeft 1s 0.75s ease both); }
+            .header .title { @include animation(fadeIn 1.25s ease both); }
+            .header .subtitle { @include animation(fadeInLeft 1s 0.75s ease both); }
 
             .thumb {
                 backface-visibility: visible;
                 @include animation(flipInY 2s 1.25s ease both);
             }
             
-            p:first-child { @include animation(fadeIn 1.5s 2s ease both); }
-            p:nth-child(2) { @include animation(fadeIn 1.5s 2.5s ease both); }
-            p:nth-child(3) { @include animation(fadeIn 1.5s 3s ease both); }
-            p:nth-child(4) { @include animation(fadeIn 1.5s 3.5s ease both); }
+            .main-index p:first-child { @include animation(fadeIn 1.5s 2s ease both); }
+            .main-index p:nth-child(2) { @include animation(fadeIn 1.5s 2.5s ease both); }
+            .main-index p:nth-child(3) { @include animation(fadeIn 1.5s 3s ease both); }
+            .main-index p:nth-child(4) { @include animation(fadeIn 1.5s 3.5s ease both); }
 
             .social li:first-child { @include animation(fadeInDown 1.25s 4s ease both); }
             .social li:nth-child(2) { @include animation(fadeInUp 1.25s 4.25s ease both); }
             .social li:nth-child(3) { @include animation(fadeInDown 1.25s 4.5s ease both); }
             .social li:nth-child(4) { @include animation(fadeInUp 1.25s 4.75s ease both); }
             .social li:nth-child(5) { @include animation(fadeInDown 1.25s 5s ease both); }
+            .social li:nth-child(6) { @include animation(fadeInUp 1.25s 5.25s ease both); }
+
+            .btn { @include animation(fadeIn 1s 5.5s ease both); }
     }

@@ -1,0 +1,50 @@
+/*  General
+    ========================================================================== */
+    body,
+    .thumb,
+    .title a,
+    .subtitle {
+        @include transition(all .5s ease);
+    }
+
+/*  Gray
+    ========================================================================== */
+    .gray { background-color: #333; }
+    
+    .gray .header .title a,
+    .gray .header .subtitle { color: $orange; }
+
+    .gray .thumb { border-color: darken($orange, 10%); }
+
+    .gray .social li a,
+    .gray a { color: lighten(#333, 40%); }
+
+    .gray .btn { @include button(#333); }
+
+/*  Brown
+    ========================================================================== */
+    .brown { background-color: $brown; }
+    
+    .brown .header .title a,
+    .brown .header .subtitle { color: darken($yellow, 15%); }
+
+    .brown .thumb { border-color: darken($yellow, 20%); }
+
+    .brown .social li a,
+    .brown a { color: lighten($brown, 40%); }
+
+    .brown .btn { @include button($brown); }
+
+/*  Blue
+    ========================================================================== */
+    .blue { background-color: darken($blue, 35%); }
+    
+    .blue .header .title a,
+    .blue .header .subtitle { color: #FF0055; }
+
+    .blue .thumb { border-color: darken(#FF0055, 10%); }
+
+    .blue .social li a,
+    .blue a { color: $blue; }
+
+    .blue .btn { @include button($blue); }
