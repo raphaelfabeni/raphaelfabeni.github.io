@@ -5,13 +5,15 @@
     var culturizeit = document.getElementById('culturizeit');
     var twitter = document.getElementById('twitter');
     var talks = document.getElementById('talks');
+    var meetup = document.getElementById('meetup');
     var facebook = document.getElementById('facebook');
     var github = document.getElementById('github');
     var google = document.getElementById('google');
     var linkedin = document.getElementById('linkedin');
     var codepen = document.getElementById('codepen');
+    var color = document.getElementById('color');
 
-    var btnArray = [a2, tableless, culturizeit, twitter, talks, facebook, github, google, linkedin, codepen];
+    var btnArray = [a2, tableless, culturizeit, twitter, talks, meetup, facebook, github, google, linkedin, codepen, color];
 
     for (var i = 0; i < btnArray.length; i++) {
         if( btnArray[i] ) {

@@ -30,7 +30,6 @@ var changeColor = {
 
     randNum: function(arr, excludeColor){
         var randColor = Math.floor( Math.random() * arr.length );
-        console.log(arr[randColor], excludeColor);
         if( arr[randColor] == excludeColor ) {
             return this.randNum( arr, excludeColor );
         } else {
