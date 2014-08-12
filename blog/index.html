@@ -13,7 +13,7 @@ language: pt-br
         </h1>
     <p class="date text-center">{{ post.date | date: "%-d/%m/%Y" }}</p>
     <p class="short text-center">{{ post.description }}</p>
-    <a href="{{ post.url }}" class="btn"><i class="fa fa-angle-double-right"></i>Ver post</a>
+    <a href="{{ post.url }}#disqus_thread" class="btn"><i class="fa fa-angle-double-right"></i>Ver post</a>
     </article>
     {% endfor %}
 </section>

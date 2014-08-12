@@ -103,6 +103,14 @@
             }
 
             .post-content figure { margin-bottom: 15px; }
+
+        /*  Disqus
+            ========================================================================== */
+            .main-disqus {
+                margin: 20px 0;
+                padding: 15px;
+                background-color: #fff;
+            }
     }
 
 
@@ -135,4 +143,10 @@
             .main-index .social li:nth-child(6) { @include animation(fadeInUp 1.25s 5.25s ease both); }
 
             .main-index .btn { @include animation(fadeIn 1s 5.5s ease both); }
+
+            .btn-color {
+                position: fixed;
+                right: 20px;
+                top: 20px;
+            }
     }

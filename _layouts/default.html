@@ -6,11 +6,11 @@
 
 {% include head.html %}
 
-<body id="hold" class="{% if page.class %}class="{{ page.class }}"{% endif %} {% if page.path contains '_posts' %}main-posts{% endif %} default">
+<body id="hold" class="{% if page.class %}class="{{ page.class }}"{% endif %} default">
 
     {% include header.html %}
 
-    <main role="main" class="main container">
+    <main role="main" class="main {% if page.path contains '_posts' %}main-posts{% endif %} container">
         {{ content }}
     </main>
 
