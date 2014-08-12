@@ -2,7 +2,7 @@
 title: Raphael Fabeni
 email: contato@raphaelfabeni.com.br
 description: "A brazilian front-end developer who loves the web, electronic music and travels."
-baseurl: "/portfolio/"
+baseurl: "/"
 url: "http://raphaelfabeni.com.br"
 exclude: ['node_modules', 'Gruntfile.js', 'package.json']
 
