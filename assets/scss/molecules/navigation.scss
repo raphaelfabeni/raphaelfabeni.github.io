@@ -12,6 +12,17 @@
 
             .header .title a:hover,
             .header .title a:focus { text-decoration: none; }
+
+            .nav-main {
+                width: 100%;
+                text-align: center;
+            }
+
+            .nav-link {
+                font-size: 18px;
+                padding: 2px 5px;
+                display: block;
+            }
             
             /*  Thumb
                 ========================================================================== */
@@ -41,13 +52,19 @@
             /*  Title
                 ========================================================================== */
                 .header .title,
-                .header .subtitle {
+                .header .subtitle,
+                .nav-main {
                     position: absolute;
                     left: 20px;
                 }
 
                 .header .title { top: 0px; }
                 .header .subtitle { top: 55px; }
+
+                .nav-main {
+                    top: 120px;
+                    width: auto;
+                }
 
         /*  Footer
             ========================================================================== */

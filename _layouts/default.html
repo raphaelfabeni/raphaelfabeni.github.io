@@ -1,0 +1,28 @@
+<!doctype html>
+<!--[if IE 7]>    <html class="no-js ie7" lang="en">     <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8" lang="en">     <![endif]-->
+<!--[if IE 9]>    <html class="no-js ie9" lang="en">     <![endif]-->
+<html lang="{{ page.language }}">
+
+{% include head.html %}
+
+<body id="hold" class="{% if page.class %}class="{{ page.class }}"{% endif %} {% if page.path contains '_posts' %}main-posts{% endif %} default">
+
+    {% include header.html %}
+
+    <main role="main" class="main container">
+        {{ content }}
+    </main>
+
+    {% if page.language == "pt-br" %}
+        <button id="color" class="btn btn-color" data-link="Color">Não curti essa cor.</button>
+    {% else %}
+        <button id="color" class="btn btn-color" data-link="Color">I don't like this color.</button>
+    {% endif %}
+
+    <script src="{{ site.baseurl }}build/js/scripts.min.js"></script>
+
+    {% include footer.html %}
+
+</body>
+</html>

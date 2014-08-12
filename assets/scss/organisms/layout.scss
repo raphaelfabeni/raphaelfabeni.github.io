@@ -20,12 +20,17 @@
             ========================================================================== */
             .btn {
                 border: none;
+                display: inline-block;
+                padding: 15px 25px;
+                @include transition(all .25s ease);
+                @include button($purple);
+                text-align: center;
+            }
+
+            .btn-color {
                 width: 300px;
                 margin: 0 auto;
                 display: block;
-                padding: 8px 0;
-                @include transition(all .25s ease);
-                @include button($purple);
             }
 
             .btn:hover { @include transform(scale(1.1)); }
@@ -59,6 +64,45 @@
             .social .github:hover { color: #bbbbbb; }
             .social .google:hover { color: #dd4b39; }
             .social .linkedin:hover { color: #1c87bd; }
+
+        /*  Blog
+            ========================================================================== */
+            figure { margin: 0; }
+            .post {
+                padding: 30px 0;
+                text-align: center;
+            }
+
+            .post-content {
+                padding-bottom: 20px;
+                margin-bottom: 25px;
+            }
+
+            .post-content,
+            .post { border-bottom: solid 1px darken($purple, 7%); }
+
+            .post .title,
+            .post-content .title { margin: 0 0 10px; }
+            .post-content .subtitle {
+                font-size: 28px;
+                line-height: 38px;
+            }
+
+            .short { font-size: 18px; }
+            .rss { padding: 35px 0; }
+
+            .post-content .date {
+                margin-bottom: 25px;
+                text-align: center;
+            }
+
+            .post-content p {
+                font-size: 18px;
+                line-height: 28px;
+                text-align: justify;
+            }
+
+            .post-content figure { margin-bottom: 15px; }
     }
 
 
@@ -70,10 +114,10 @@
 
         /*  Start animations
             ========================================================================== */
-            .header .title { @include animation(fadeIn 1.25s ease both); }
-            .header .subtitle { @include animation(fadeInLeft 1s 0.75s ease both); }
+            .main-index .header .title { @include animation(fadeIn 1.25s ease both); }
+            .main-index .header .subtitle { @include animation(fadeInLeft 1s 0.75s ease both); }
 
-            .thumb {
+            .main-index .thumb {
                 backface-visibility: visible;
                 @include animation(flipInY 2s 1.25s ease both);
             }
@@ -83,12 +127,12 @@
             .main-index p:nth-child(3) { @include animation(fadeIn 1.5s 3s ease both); }
             .main-index p:nth-child(4) { @include animation(fadeIn 1.5s 3.5s ease both); }
 
-            .social li:first-child { @include animation(fadeInDown 1.25s 4s ease both); }
-            .social li:nth-child(2) { @include animation(fadeInUp 1.25s 4.25s ease both); }
-            .social li:nth-child(3) { @include animation(fadeInDown 1.25s 4.5s ease both); }
-            .social li:nth-child(4) { @include animation(fadeInUp 1.25s 4.75s ease both); }
-            .social li:nth-child(5) { @include animation(fadeInDown 1.25s 5s ease both); }
-            .social li:nth-child(6) { @include animation(fadeInUp 1.25s 5.25s ease both); }
+            .main-index .social li:first-child { @include animation(fadeInDown 1.25s 4s ease both); }
+            .main-index .social li:nth-child(2) { @include animation(fadeInUp 1.25s 4.25s ease both); }
+            .main-index .social li:nth-child(3) { @include animation(fadeInDown 1.25s 4.5s ease both); }
+            .main-index .social li:nth-child(4) { @include animation(fadeInUp 1.25s 4.75s ease both); }
+            .main-index .social li:nth-child(5) { @include animation(fadeInDown 1.25s 5s ease both); }
+            .main-index .social li:nth-child(6) { @include animation(fadeInUp 1.25s 5.25s ease both); }
 
-            .btn { @include animation(fadeIn 1s 5.5s ease both); }
+            .main-index .btn { @include animation(fadeIn 1s 5.5s ease both); }
     }

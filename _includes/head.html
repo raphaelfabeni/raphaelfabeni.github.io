@@ -1,0 +1,27 @@
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="{{ site.description }}">
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+
+    <link rel="icon" href="{{ site.baseurl }}favicon.ico">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="{{ site.baseurl }}build/css/main.min.css">
+    
+    <!-- Modernizr -->
+    <script src="{{ site.baseurl }}build/js/libs/modernizr.min.js"></script>
+
+    <script type="text/javascript">
+    (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+    function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+    e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+    e.src='//www.google-analytics.com/analytics.js';
+    r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+    ga('create','UA-16831060-1');ga('send','pageview');
+    </script>
+
+</head>

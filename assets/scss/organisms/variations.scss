@@ -12,7 +12,9 @@
     .gray { background-color: #333; }
     
     .gray .header .title a,
-    .gray .header .subtitle { color: $orange; }
+    .gray .header .subtitle,
+    .gray a:hover,
+    .gray a:focus { color: $orange; }
 
     .gray .thumb { border-color: darken($orange, 10%); }
 
@@ -26,7 +28,9 @@
     .brown { background-color: $brown; }
     
     .brown .header .title a,
-    .brown .header .subtitle { color: darken($yellow, 15%); }
+    .brown .header .subtitle,
+    .brown a:hover,
+    .brown a:focus { color: darken($yellow, 15%); }
 
     .brown .thumb { border-color: darken($yellow, 20%); }
 
@@ -40,11 +44,13 @@
     .blue { background-color: darken($blue, 35%); }
     
     .blue .header .title a,
-    .blue .header .subtitle { color: #FF0055; }
+    .blue .header .subtitle,
+    .blue a:hover,
+    .blue a:focus { color: #FF0055; }
 
     .blue .thumb { border-color: darken(#FF0055, 10%); }
 
     .blue .social li a,
     .blue a { color: $blue; }
 
-    .blue .btn { @include button($blue); }
+    .blue .btn { @include button(darken($blue, 35%)); }

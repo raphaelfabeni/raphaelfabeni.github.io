@@ -51,17 +51,6 @@ module.exports = function( grunt ) {
             }
         },
 
-        imagemin: {
-            dynamic: {
-                files: [{
-                    expand: true,
-                    cwd: '<%= config.dev %>img/',
-                    src: ['*.{png,jpg,gif}'],
-                    dest: '<%= config.build %>img'
-                }]
-            }
-        },
-
         // SASS _______________________________________________________________________
         sass: {
 
@@ -148,11 +137,6 @@ module.exports = function( grunt ) {
                 tasks: ['svgmin', 'svg2png']
             },
 
-            images: {
-                files: ['<%= config.dev %>img/*.{png,jpg,gif}'],
-                tasks: ['imagemin']
-            },
-
             // Update :)
             livereload: {
                 options: { livereload: true },
@@ -163,19 +147,6 @@ module.exports = function( grunt ) {
                     '<%= config.build %>img/*.{png,jpg,gif,svg}'
                 ],
             },
-        },
-
-        // SYNC _______________________________________________________________________
-        browserSync: {
-            dev: {
-                bsFiles: {
-                    src : '<%= config.build %>css/main.min.css'
-                },
-                options: {
-                    watchTask: true,
-                    proxy: "local.a2boilerplate"
-                }
-            }
         }
 
     });
@@ -187,8 +158,6 @@ module.exports = function( grunt ) {
     grunt.loadNpmTasks('grunt-contrib-jshint');
     grunt.loadNpmTasks('grunt-svgmin');
     grunt.loadNpmTasks('grunt-svg2png');
-    grunt.loadNpmTasks('grunt-browser-sync');
-    grunt.loadNpmTasks('grunt-contrib-imagemin');
 
     // Grunt tasks
 
@@ -201,14 +170,7 @@ module.exports = function( grunt ) {
     // JS
     grunt.registerTask( 'js', [ 'jshint', 'uglify' ] );
 
-    // Images
-    //grunt.registerTask( 'images', [ 'svgmin', 'svg2png' ] );
-    grunt.registerTask( 'images', [ 'imagemin' ] );
-
     // Watch
     grunt.registerTask( 'live', [ 'watch' ] );
-
-    // Sync
-    grunt.registerTask('sync', ["browserSync", "watch"]);
 
 };

@@ -55,25 +55,6 @@
             line-height: 24px;
         }
 
-        .main-talks .title { margin-top: 40px; }
-
-        .main-talks .subtitle {
-            font-size: 32px;
-            line-height: 40px;
-            margin-bottom: 10px;
-        }
-
-        .main-talks .subtitle,
-        .main-talks .title { color: #fff; }
-
-        .title-separator {
-            border-top: solid 1px darken($purple, 7%);
-            padding-top: 15px;
-            max-width: 600px;
-            margin-left: auto;
-            margin-right: auto;
-        }
-
 
     /*  Textos
         ========================================================================== */
@@ -81,11 +62,16 @@
         p {
             color: #fff;
             font-size: 24px;
-            line-height: 32px;
+            line-height: 34px;
             margin: 0 0 15px;
             text-align: left;
             font-weight: 300;
             text-shadow: 1px 1px 1px #000;
+        }
+
+        .date {
+            font-size: 14px;
+            color: #888;
         }
 
 
