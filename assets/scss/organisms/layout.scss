@@ -124,10 +124,11 @@
             ========================================================================== */
             .main-index .header .title { @include animation(fadeIn 1.25s ease both); }
             .main-index .header .subtitle { @include animation(fadeInLeft 1s 0.75s ease both); }
+            .main-index .nav-main { @include animation(fadeIn 1s 1s ease both); }
 
             .main-index .thumb {
                 backface-visibility: visible;
-                @include animation(flipInY 2s 1.25s ease both);
+                @include animation(flipInY 2s 1.5s ease both);
             }
             
             .main-index p:first-child { @include animation(fadeIn 1.5s 2s ease both); }
@@ -142,7 +143,7 @@
             .main-index .social li:nth-child(5) { @include animation(fadeInDown 1.25s 5s ease both); }
             .main-index .social li:nth-child(6) { @include animation(fadeInUp 1.25s 5.25s ease both); }
 
-            .main-index .btn { @include animation(fadeIn 1s 5.5s ease both); }
+            .main-index .btn { @include animation(fadeIn 1s 1.25s ease both); }
 
             .btn-color {
                 position: fixed;

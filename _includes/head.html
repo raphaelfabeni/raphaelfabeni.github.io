@@ -9,7 +9,7 @@
     <meta property="og:title" content="{% if page.title %}{{ page.title }} &mdash;{% endif %} {{ site.name }}"/>
     <meta property="og:site_name" content="Raphael Fabeni"/>
     <meta property="og:url" content="{{ site.url }}{% if page.url != '/index.html' %}{{ page.url }}{% endif %}"/>
-    <meta property="og:type" content="{% if page.layout == 'post' %}article{% else %}blog{% endif %}"/>
+    <meta property="og:type" content="{% if page.layout == 'post' %}article{% else %}website{% endif %}"/>
     <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}"/>
 
     <link rel="canonical" href="{{ site.url }}{{ page.url }}">
