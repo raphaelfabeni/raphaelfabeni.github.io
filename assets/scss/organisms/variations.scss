@@ -28,6 +28,27 @@
     .gray .post-content,
     .gray .post { border-color: darken(#333, 7%); }
 
+/*  Dark gray
+    ========================================================================== */
+    .dark-gray { background-color: #222; }
+    
+    .dark-gray .header .title a,
+    .dark-gray .header .subtitle,
+    .dark-gray .title,
+    .dark-gray .subtitle,
+    .dark-gray a:hover,
+    .dark-gray a:focus { color: #10b1b2; }
+
+    .dark-gray .thumb { border-color: darken(#10b1b2, 10%); }
+
+    .dark-gray .social li a,
+    .dark-gray a { color: lighten(#222, 40%); }
+
+    .dark-gray .btn { @include button(#222); }
+
+    .dark-gray .post-content,
+    .dark-gray .post { border-color: darken(#222, 7%); }
+
 /*  Brown
     ========================================================================== */
     .brown { background-color: $brown; }

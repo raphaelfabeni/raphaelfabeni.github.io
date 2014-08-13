@@ -6,11 +6,11 @@
     <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" />
 
     <!-- Facebook -->
-    <meta property="og:title" content="{% if page.title %}{{ page.title }} &mdash;{% endif %} {{ site.name }}"/>
+    <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}"/>
+    <meta property="og:title" content="{{ page.title }}{% if page.path contains '_posts' %} - Blog | Raphael Fabeni{% endif %}"/>
     <meta property="og:site_name" content="Raphael Fabeni"/>
     <meta property="og:url" content="{{ site.url }}{% if page.url != '/index.html' %}{{ page.url }}{% endif %}"/>
-    <meta property="og:type" content="{% if page.layout == 'post' %}article{% else %}website{% endif %}"/>
-    <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}"/>
+    <meta property="og:type" content="{% if page.path contains '_posts' %}article{% else %}website{% endif %}"/>
 
     <link rel="canonical" href="{{ site.url }}{{ page.url }}">
     <link rel="icon" href="{{ site.baseurl }}favicon.ico">
@@ -29,5 +29,4 @@
     r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
     ga('create','UA-16831060-1');ga('send','pageview');
     </script>
-
 </head>

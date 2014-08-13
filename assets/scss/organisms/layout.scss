@@ -3,11 +3,15 @@
     Layout
     ========================================================================== */
     @mixin button($color, $text: #fff) {
-        background-color: darken($color, 3%);
+        background-color: darken($color, 5%);
         color: $text;
+        //@include box-shadow(0px 5px 0 0 darken($color, 8%));
+        @include box-shadow(0 6px 0 0 darken($color, 9%));
 
         &:hover,
-        &:focus { background-color: darken($color, 4%); }
+        &:focus {background-color: darken($color, 7%); }
+
+        &:active { @include box-shadow(0 2px 0 0 darken($color, 9%)); }
     }
 
     @media only screen {
@@ -22,9 +26,14 @@
                 border: none;
                 display: inline-block;
                 padding: 15px 25px;
-                @include transition(all .25s ease);
+                @include transition(all 0.2s ease-in-out 0s);
                 @include button($purple);
                 text-align: center;
+                text-shadow: 1px 1px 1px #000;
+            }
+
+            .btn:active {
+                @include transform(translate(0px, 4px));
             }
 
             .btn-color {
@@ -33,7 +42,13 @@
                 display: block;
             }
 
-            .btn:hover { @include transform(scale(1.1)); }
+            .btn:hover,
+            .btn:hover,
+            .btn:active {
+                //@include transform(scale(1.1));
+                outline-color: transparent;
+                outline-style: none;
+            }
 
         /*  Talks
             ========================================================================== */

@@ -4,7 +4,7 @@
 
     /*  Transition
         ========================================================================== */
-        @mixin transition($parameters) {
+        @mixin transition($parameters...) {
             -webkit-transition: $parameters;
                -moz-transition: $parameters;
                  -o-transition: $parameters;
@@ -50,7 +50,7 @@
 
     /*  Box shadow
         ========================================================================== */
-        @mixin box-shadow($parameters) {
+        @mixin box-shadow($parameters...) {
             -webkit-box-shadow: $parameters;
                     box-shadow: $parameters;
         }

@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "Como nasceu o Meetup CSS SP!"
-description: "O nascimento do filho CSS!"
-date: 2014-08-10
+description: "Como surgiu a idéia de encontrar a galera de desenvolvimento e falar sobre CSS!"
+date: 2014-08-15
 categories: jekyll update
 ---
 
