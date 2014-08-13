@@ -3,7 +3,7 @@ layout: post
 title:  "Como nasceu o Meetup CSS SP!"
 description: "Como surgiu a idéia de encontrar a galera de desenvolvimento e falar sobre CSS!"
 date: 2014-08-15
-categories: jekyll update
+image: 'meetup-css-bem-vindos.jpg'
 ---
 
 Semana passada rolou o primeiro meetup de CSS SP. Há algum tempo atrás o [Fellpe Fialho](https://twitter.com/lfeh) teve a idéia e entrei no barco para ajudar na organização. Não sabíamos o alcance e nem se valeria a pena um meetup de CSS mas resolvemos arriscar.
