@@ -6,7 +6,7 @@ date: 2014-08-15
 image: 'meetup-css-bem-vindos.jpg'
 ---
 
-Semana passada rolou o primeiro meetup de CSS SP. Há algum tempo atrás o [Fellpe Fialho](https://twitter.com/lfeh) teve a idéia e entrei no barco para ajudar na organização. Não sabíamos o alcance e nem se valeria a pena um meetup de CSS mas resolvemos arriscar.
+Semana passada rolou o primeiro meetup de CSS SP. Há algum tempo atrás o [Felipe Fialho](https://twitter.com/lfeh) teve a idéia e entrei no barco para ajudar na organização. Não sabíamos o alcance e nem se valeria a pena um meetup de CSS mas resolvemos arriscar.
 
 Criamos o grupo no site do meetup e começamos a divulgar. No começo, confesso que a entrada da galera foi meio tímida e por um momento pensei que não daria certo. **Ainda bem** que estava errado. De repente, começou a aparecer gente e mais gente. Decidimos então que era hora de procurar o local.
 
