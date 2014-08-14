@@ -8,7 +8,7 @@
             ========================================================================== */
             .header { padding: 20px 0 50px; }
 
-            .header .title a { color: $pink; }
+            .header .title a { color: $color-secondary; }
 
             .header .title a:hover,
             .header .title a:focus { text-decoration: none; }
@@ -23,6 +23,19 @@
                 padding: 2px 5px;
                 display: block;
             }
+
+            .header .social {
+                width: 100%;
+                text-align: center;
+                padding: 30px 0 0;
+            }
+
+            .header .social li a {
+                font-size: 28px;
+                line-height: 28px;
+            }
+
+            .header .social li + li { margin-left: 15px; }
             
             /*  Thumb
                 ========================================================================== */
@@ -31,12 +44,22 @@
                     width: 200px;
                     @include border-radius(50%);
                     overflow: hidden;
-                    border: solid 8px darken($purple, 3%);
+                    border: solid 8px darken($color-primary, 3%);
                 }
 
-        /*  Footer
+        /*  Breadcrumbs
             ========================================================================== */
-            
+            .breadcrumbs {
+                text-align: center;
+                color: #eee;
+                font-size: 16px;
+                padding: 15px 10px;
+                margin-bottom: 25px;
+            }
+
+            .breadcrumbs > div {
+                display: inline-block;
+            }
 
     }
 
@@ -53,17 +76,23 @@
                 ========================================================================== */
                 .header .title,
                 .header .subtitle,
-                .nav-main {
-                    position: absolute;
+                .nav-main,
+                .header .social {
+                    position: fixed;
                     left: 20px;
                 }
 
                 .header .title { top: 0px; }
                 .header .subtitle { top: 55px; }
 
-                .nav-main {
-                    top: 120px;
+                .header .social {
+                    top: 85px;
                     width: auto;
+                }
+
+                .nav-main {
+                    width: auto;
+                    top: 120px;
                 }
 
         /*  Footer

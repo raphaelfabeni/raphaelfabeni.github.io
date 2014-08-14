@@ -1,8 +1,9 @@
 ---
 layout: post
 title:  "Como nasceu o Meetup CSS SP!"
-description: "Como surgiu a idéia de encontrar a galera de desenvolvimento e falar sobre CSS!"
-date: 2014-08-15
+description: "Como surgiu a idéia de reunir a galera de desenvolvimento e falar sobre CSS!"
+type: Post
+date: 2014-08-14
 image: 'meetup-css-bem-vindos.jpg'
 ---
 
@@ -18,24 +19,28 @@ O próximo passo era buscar algum auxílio para o coffee break. Apesar de muitas
 
 <h2 class="subtitle">A Estréia</h2>
 
-<figure class="text-center">
-    <img src="{{ site.baseurl}}build/img/posts/meetup-css-bem-vindos.jpg" alt="Imagem de capa de mensagem de boas vindas para o primeiro Meetup CSS SP">
+<figure class="text-center loading">
+    <a class="hover" href="https://speakerdeck.com/raphaelfabeni/bem-vindos-ao-meetp-css" target="_blank"><img src="{{ site.baseurl}}build/img/posts/meetup-css-bem-vindos.jpg" alt="Imagem de capa de mensagem de boas vindas para o primeiro Meetup CSS SP"></a>
+</figure>
+
+<figure class="loading">
+    <script async class="speakerdeck-embed" data-id="9bd9c1d0019c013285b92abb871a81a5" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
 </figure>
 
 Tinha chegado o grande dia! O coffee e o local estavam fechados! No entanto, logo as 7 da manhã toca meu celular: *"Sr Raphael? Já chegamos aqui com a encomenda do senhor!"* Sim! Eles haviam confundido o horário e entregado errado. Passado o susto, conversei com o pessoal da padaria e remarquei a entrega para noite.
 
 A Digital Garden tem um esoaço fantástico. A única coisa que não nos ajudou foi o tempo. Mas, estamos em São Paulo e pra variar não podemos depender dele. Precisamos de última hora, mudar toda organização para o espaço interno. Admito que ficou apertado, mas mesmo assim achei que foi bem bacana para a primeira versão.
 
-<figure class="text-center">
+<figure class="text-center loading">
     <img src="{{ site.baseurl}}build/img/posts/meetup-css-01.jpg" alt="Imagem mostra discussão no primeiro Meetup CSS SP">
 </figure>
 
-<figure class="text-center">
+<figure class="text-center loading">
     <img src="{{ site.baseurl}}build/img/posts/meetup-css-02.jpg" alt="Imagem mostra discussão no primeiro Meetup CSS SP">
 </figure>
 
-No geral acho que foi positivo, com elogios de pessoas que considero referência na área como [Suissa](https://twitter.com/osuissa), [Zeno Rocha](https://twitter.com/zenorocha), [Lucas Mazza](https://twitter.com/lucasmazza) entre outros, o Meetup me fez fazer várias novas amizades.
+No geral acho que foi positivo, com elogios de pessoas que considero referência na área como [Suissa](https://twitter.com/osuissa), [Zeno Rocha](https://twitter.com/zenorocha), [Lucas Mazza](https://twitter.com/lucasmazza), [Yuri Camara](https://twitter.com/ycamara), [Tanure](https://twitter.com/tanure) entre outros, o Meetup me fez fazer várias novas amizades.
 
-Que venham os próximos!
+Quem se interessar, tem o [repositório com todas as informações sobre o Meetup](https://github.com/raphaelfabeni/css-sp) (links, fotos, etc).Que venham os próximos!
 
 Obs. Agradeço ao Suissa pela talk de última hora e que foi muito bacana.

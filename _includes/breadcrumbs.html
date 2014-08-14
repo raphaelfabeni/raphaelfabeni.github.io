@@ -1,0 +1,31 @@
+<div class="breadcrumbs">
+   <div itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
+      <a href="/" itemprop="url">
+         <span itemprop="title"><i class="fa fa-home"></i></span>
+      </a> ›
+   </div>
+   {% if page.type == 'Archive' %}
+   <div itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
+      <span itemprop="title">Blog</span>
+   </div>
+   {% elsif page.type == 'Post' %}
+   <div itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
+      <a href="/blog" itemprop="url">
+         <span itemprop="title">Blog</span>
+      </a> ›
+   </div>
+   <div itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
+      <span itemprop="title">{{ page.title }}</span>
+   </div>
+   {% endif %}
+   <!-- <div itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
+      <a href="#" itemprop="url">
+         <span itemprop="title">Página Interna</span>
+      </a> ›
+   </div>
+   <div itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
+      <a href="#" itemprop="url" class="active">
+         <span itemprop="title">Página Ativa</span>
+      </a>
+   </div> -->
+</div>

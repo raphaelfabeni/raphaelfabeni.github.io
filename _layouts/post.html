@@ -12,8 +12,19 @@ language: pt-br
     {{ content }}
 </article>
 
+<div class="share">
+    <div class="share-item share-facebook">
+        <div id="fb-root"></div>
+        <div class="fb-like" data-send="false" data-layout="button" data-width="70" data-show-faces="false"></div>
+    </div>
+    <div class="share-item share-twitter">
+        <a href="https://twitter.com/share" class="twitter-share-button" data-count="none">Tweet</a>
+    </div>
+    <div class="share-item share-google">
+        <div class="g-plusone" data-size="medium" data-count="false"></div>
+    </div>
+</div>
+
 <a href="{{ site.baseurl }}blog"><i class="fa fa-angle-double-left"></i> Ver todos os posts</a>
 
 <a rel="author" class="sr-only" href="https://plus.google.com/u/0/+RaphaelFabeni">Raphael Fabeni</a>
-
-{% include disqus.html %}

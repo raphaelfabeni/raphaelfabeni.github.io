@@ -17,6 +17,7 @@
     @media only screen {
 
         body {
+            overflow-x: hidden;
             background-color: $color-primary;
         }
 
@@ -27,7 +28,7 @@
                 display: inline-block;
                 padding: 15px 25px;
                 @include transition(all 0.2s ease-in-out 0s);
-                @include button($purple);
+                @include button($color-primary);
                 text-align: center;
                 text-shadow: 1px 1px 1px #000;
             }
@@ -71,7 +72,7 @@
                 font-size: 38px;
                 line-height: 38px;
                 @include transition(all .25s ease);
-                color: lighten($purple, 40%);
+                color: lighten($color-primary, 40%);
             }
 
             .social .twitter:hover { color: #55acee; }
@@ -79,6 +80,7 @@
             .social .github:hover { color: #bbbbbb; }
             .social .google:hover { color: #dd4b39; }
             .social .linkedin:hover { color: #1c87bd; }
+            .social .codepen:hover { color: #fff; }
 
         /*  Blog
             ========================================================================== */
@@ -94,7 +96,7 @@
             }
 
             .post-content,
-            .post { border-bottom: solid 1px darken($purple, 7%); }
+            .post { border-bottom: solid 1px darken($color-primary, 7%); }
 
             .post .title,
             .post-content .title { margin: 0 0 10px; }
@@ -117,15 +119,83 @@
                 text-align: justify;
             }
 
-            .post-content figure { margin-bottom: 15px; }
+            .post-content figure { margin: 0 0 15px 0; }
+
+            /*
+             * Loading
+             */
+            @-webkit-keyframes rotation {
+                from { -webkit-transform: rotate(0deg); }
+                to { -webkit-transform: rotate(359deg); }
+            }
+
+            @-moz-keyframes rotation {
+                from { -moz-transform: rotate(0deg); }
+                to { -moz-transform: rotate(359deg); }
+            }
+
+            @-o-keyframes rotation {
+                from { -o-transform: rotate(0deg); }
+                to { -o-transform: rotate(359deg); }
+            }
+
+            @-ms-keyframes rotation {
+                from { -ms-transform: rotate(0deg); }
+                to { -ms-transform: rotate(359deg); }
+            }
+
+            @keyframes rotation {
+                from { transform: rotate(0deg); }
+                to  {transform: rotate(359deg); }
+            }
+
+            .loading {
+                position: relative;
+                min-height: 50px;
+            }
+
+            .loading:before {
+                height: 20px;
+                width: 20px;
+                position: absolute;
+                content: '';
+                left: 50%;
+                top: 50%;
+                margin: -10px 0 0 -10px;
+                border: solid 4px #666;
+                @include border-radius(100%);
+                border-top-color: transparent;
+                @include animation(rotation 0.6s infinite linear);
+                z-index: 0;
+            }
+
+            .loading > * {
+                position: relative;
+                z-index: 1;
+            }
 
         /*  Disqus
             ========================================================================== */
             .main-disqus {
-                margin: 20px 0;
+                margin: 40px 0 0;
                 padding: 15px;
                 background-color: #fff;
             }
+
+            .main-disqus > div {
+                width: 100%;
+                margin: 0 auto;
+                max-width: 980px;
+            }
+
+        /*  Share
+            ========================================================================== */
+            .share {
+                height: 30px;
+                margin-bottom: 20px;
+            }
+            .share-item { float: left; }
+            .share-item + .share-item { margin-left: 35px; }
     }
 
 

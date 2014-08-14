@@ -6,10 +6,13 @@
 
 {% include head.html %}
 
-<body id="hold" class="{% if page.class %}{{ page.class }}{% endif %} dark-gray">
+<body id="hold" class="{% if page.class %}{{ page.class }}{% endif %} default">
 
     {% include header.html %}
-
+    
+    {% if page.type != 'Home' %}
+    {% include breadcrumbs.html %}
+    {% endif %}
     <main role="main" class="main {% if page.path contains '_posts' %}main-posts{% endif %} container">
         {{ content }}
     </main>
@@ -20,9 +23,11 @@
         <button id="color" class="btn btn-color" data-link="Color">I don't like this color.</button>
     {% endif %}
 
-    <script src="{{ site.baseurl }}build/js/scripts.min.js"></script>
+    {% if page.path contains '_posts' %}
+    {% include disqus.html %}
+    {% endif %}
 
-    {% include footer.html %}
+    <script src="{{ site.baseurl }}build/js/scripts.min.js"></script>
 
 </body>
 </html>

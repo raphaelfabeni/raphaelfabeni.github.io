@@ -76,7 +76,8 @@ module.exports = function( grunt ) {
                 files: {
                     '<%= config.build %>js/scripts.min.js': 
                     ['<%= config.dev %>js/ga.js',
-                    '<%= config.dev %>js/scripts.js']
+                    '<%= config.dev %>js/scripts.js',
+                    '<%= config.dev %>js/social.js']
                 }
             },
 

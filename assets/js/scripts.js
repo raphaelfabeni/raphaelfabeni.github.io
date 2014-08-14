@@ -1,11 +1,8 @@
-// jQuery(document).ready(function($) {
-// });
-
 var changeColor = {
     config: {
         btn: document.getElementById('color'),
         theBody: document.getElementById('hold'),
-        colors: ['default', 'gray', 'brown', 'blue']
+        colors: ['default', 'gray', 'brown', 'blue', 'purple']
     },
 
     init: function() {

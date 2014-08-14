@@ -79,21 +79,21 @@
         ========================================================================== */
         a {
             @include transition(all .25s ease);
-            color: lighten($purple, 40%);
+            color: lighten($color-primary, 40%);
             text-decoration: none;
         }
 
         a:hover,
         a:focus {
             text-decoration: underline;
-            color: $pink;
+            color: $color-secondary;
         }
 
         .talk a { border-bottom: solid 1px; }
 
         .talk a:hover,
         .talk a:focus {
-            border-bottom-color: $pink;
+            border-bottom-color: $color-secondary;
             text-decoration: none;
             padding-right: 5px;
             padding-left: 5px;

@@ -28,26 +28,26 @@
     .gray .post-content,
     .gray .post { border-color: darken(#333, 7%); }
 
-/*  Dark gray
+/*  Purple
     ========================================================================== */
-    .dark-gray { background-color: #222; }
+    .purple { background-color: $purple; }
     
-    .dark-gray .header .title a,
-    .dark-gray .header .subtitle,
-    .dark-gray .title,
-    .dark-gray .subtitle,
-    .dark-gray a:hover,
-    .dark-gray a:focus { color: #10b1b2; }
+    .purple .header .title a,
+    .purple .header .subtitle,
+    .purple .title,
+    .purple .subtitle,
+    .purple a:hover,
+    .purple a:focus { color: $pink; }
 
-    .dark-gray .thumb { border-color: darken(#10b1b2, 10%); }
+    .purple .thumb { border-color: darken($pink, 10%); }
 
-    .dark-gray .social li a,
-    .dark-gray a { color: lighten(#222, 40%); }
+    .purple .social li a,
+    .purple a { color: lighten($purple, 40%); }
 
-    .dark-gray .btn { @include button(#222); }
+    .purple .btn { @include button($purple); }
 
-    .dark-gray .post-content,
-    .dark-gray .post { border-color: darken(#222, 7%); }
+    .purple .post-content,
+    .purple .post { border-color: darken($purple, 7%); }
 
 /*  Brown
     ========================================================================== */

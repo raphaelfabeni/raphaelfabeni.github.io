@@ -6,6 +6,8 @@
     <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" />
 
     <!-- Facebook -->
+    <meta property="fb:app_id" content="588516207935765" />
+    <meta property="fb:admins" content="100000808831074" />
     <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" />
     <meta property="og:title" content="{{ page.title }}{% if page.path contains '_posts' %} - Blog | Raphael Fabeni{% endif %}" />
     <meta property="og:site_name" content="Raphael Fabeni" />
@@ -18,7 +20,7 @@
     {% endif %}
 
     <link rel="canonical" href="{{ site.url }}{{ page.url }}">
-    <link rel="shortcut icon" href="{{ site.baseurl }}favicon.ico" type="image/x-icon" />>
+    <link rel="shortcut icon" href="{{ site.baseurl }}favicon.ico" type="image/x-icon" />
 
     <!-- CSS -->
     <link rel="stylesheet" href="{{ site.baseurl }}build/css/main.min.css">
