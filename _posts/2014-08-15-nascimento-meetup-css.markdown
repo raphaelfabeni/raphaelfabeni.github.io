@@ -15,7 +15,7 @@ Queríamos um lugar legal e que pudesse comportar um número um pouco maior de p
 
 Agora era hora de divulgar. Nesse momento tínhamos por volta de 60 pessoas inscritas. O lugar tinha dois espaços: um externo bem grande e um interno menor. Apostamos no externo e fechamos em 30 pessoas.
 
-O próximo passo era buscar algum auxílio para o coffee break. Apesar de muitas pessoas me dizerem que não era obrigatório, eu achava bacana ter algo no primeiro encontro. Por isso estava disposto até em pagar do bolso, nem que fossem algumas pizzas e refrigerantes. Mas aí que venho a notícia boa: graças a ajuda de dois amigos: o grande [Elvis Detona](https://twitter.com/elvisdetona) e o cara das *arias* [Deivid Marques](https://twitter.com/deividmarques), o [PayPal](https://twitter.com/br_paypaldev) entrou no meio e nos patrocinou.
+O próximo passo era buscar algum auxílio para o coffee break. Apesar de muitas pessoas me dizerem que não era obrigatório, eu achava bacana ter algo no primeiro encontro. Por isso estava disposto até em pagar do bolso, nem que fossem algumas pizzas e refrigerantes. Mas aí que venho a notícia boa: graças a ajuda de dois amigos: o grande [Elvis Detona](https://twitter.com/elvisdetona) e o cara das *arias* [Deivid Marques](https://twitter.com/deividmarques), o [PayPal](https://twitter.com/br_paypaldev) entrou no meio e nos patrocinou (um imenso obrigado ao [Jeff Prestes](https://twitter.com/jeffprestes)).
 
 <h2 class="subtitle">A Estréia</h2>
 
