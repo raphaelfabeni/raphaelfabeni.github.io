@@ -16,6 +16,7 @@
             .nav-main {
                 width: 100%;
                 text-align: center;
+                margin-bottom: 20px;
             }
 
             .nav-link {
@@ -27,7 +28,7 @@
             .header .social {
                 width: 100%;
                 text-align: center;
-                padding: 30px 0 0;
+                padding: 20px 0 20px;
             }
 
             .header .social li a {
@@ -78,9 +79,14 @@
                 .header .subtitle,
                 .nav-main,
                 .header .social {
-                    position: fixed;
+                    position: absolute;
                     left: 20px;
                 }
+
+                .header-home .title,
+                .header-home .subtitle,
+                .header-home .nav-main,
+                .header-home .socia { position: absolute; }
 
                 .header .title { top: 0px; }
                 .header .subtitle { top: 55px; }
@@ -88,11 +94,13 @@
                 .header .social {
                     top: 85px;
                     width: auto;
+                    padding-bottom: 0;
                 }
 
                 .nav-main {
                     width: auto;
                     top: 120px;
+                    margin-bottom: 0;
                 }
 
         /*  Footer

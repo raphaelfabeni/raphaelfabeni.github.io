@@ -231,8 +231,10 @@
             .main-index .btn { @include animation(fadeIn 1s 1.25s ease both); }
 
             .btn-color {
-                position: fixed;
+                position: absolute;
                 right: 20px;
                 top: 20px;
             }
+
+            .header-home .btn-color { position: absolute; }
     }

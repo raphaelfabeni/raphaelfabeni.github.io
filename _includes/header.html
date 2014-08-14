@@ -1,5 +1,5 @@
 <a href="#conteudo" class="sr-only go-content" tabindex="1" accesskey="1">Ir para conteúdo</a>
-<header class="header" role="banner">
+<header class="header {% if page.type == 'Home' %}header-home{% endif %}" role="banner">
     <figure class="thumb">
         <a href="/"><img src="{{ site.baseurl }}build/img/raphael-fabeni.jpg" alt="Raphael Fabeni visto de frente sorrindo para a foto"></a>
     </figure>
@@ -15,5 +15,11 @@
     <nav class="nav-main">
         <a class="nav-link" href="{{ site.baseurl }}blog"><i class="fa fa-pencil"></i> Blog{% if page.language == "en" %} (portuguese){% endif %}</a>
     </nav>
+    {% endif %}
+
+    {% if page.language == "pt-br" %}
+        <button id="color" class="btn btn-color" data-link="Color">Não curti essa cor.</button>
+    {% else %}
+        <button id="color" class="btn btn-color" data-link="Color">I don't like this color.</button>
     {% endif %}
 </header>

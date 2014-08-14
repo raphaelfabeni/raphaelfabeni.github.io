@@ -17,12 +17,6 @@
         {{ content }}
     </main>
 
-    {% if page.language == "pt-br" %}
-        <button id="color" class="btn btn-color" data-link="Color">Não curti essa cor.</button>
-    {% else %}
-        <button id="color" class="btn btn-color" data-link="Color">I don't like this color.</button>
-    {% endif %}
-
     {% if page.path contains '_posts' %}
     {% include disqus.html %}
     {% endif %}
