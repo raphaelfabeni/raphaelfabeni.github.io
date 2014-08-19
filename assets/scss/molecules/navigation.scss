@@ -37,6 +37,16 @@
             }
 
             .header .social li + li { margin-left: 15px; }
+
+            /*  Main
+                ========================================================================== */
+                .main-menu {
+                    margin: 0;
+                    list-style-type: none;
+                    padding: 0;
+                }
+
+                .main-menu li + li { margin-top: 10px; }
             
             /*  Thumb
                 ========================================================================== */
@@ -97,11 +107,15 @@
                     padding-bottom: 0;
                 }
 
-                .nav-main {
-                    width: auto;
-                    top: 120px;
-                    margin-bottom: 0;
-                }
+                /*  Menu
+                    ========================================================================== */
+                    .nav-main {
+                        width: auto;
+                        top: 175px;
+                        margin-bottom: 0;
+                        text-align: left;
+                    }
+
 
         /*  Footer
             ========================================================================== */

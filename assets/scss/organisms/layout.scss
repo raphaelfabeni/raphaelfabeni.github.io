@@ -51,11 +51,6 @@
                 outline-style: none;
             }
 
-        /*  Talks
-            ========================================================================== */
-            .main-talks,
-            .main-talks p { text-align: center; }
-
         /*  Social
             ========================================================================== */
             .social {
@@ -200,6 +195,10 @@
             .share iframe {
                 max-width: none;
             }
+
+        /*  Projects
+            ========================================================================== */
+            .github-box-wrap { margin-bottom: 20px; }
     }
 
 
@@ -208,6 +207,15 @@
      */
 
     @media only screen and (min-width: $breakpoint) {
+
+        /*  Share
+            ========================================================================== */
+            .share {
+                display: block;
+                width: 245px;
+                margin-left: auto;
+                margin-right: auto;
+            }
 
         /*  Start animations
             ========================================================================== */

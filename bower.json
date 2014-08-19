@@ -7,8 +7,11 @@
     "node_modules"
   ],
   "dependencies": {
-    "jquery": "~1.9.1",
+    "jquery": "~2.0.1",
     "modernizr": "~2.7.1",
     "respond": "~1.4.2"
+  },
+  "devDependencies": {
+    "jquery-github": "~0.3.4"
   }
 }

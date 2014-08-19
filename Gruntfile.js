@@ -81,19 +81,30 @@ module.exports = function( grunt ) {
                 }
             },
 
+            projects: {
+                files: {
+                    '<%= config.build %>js/projects.min.js': 
+                    ['<%= config.dev %>js/ga.js',
+                    '<%= config.dev %>js/scripts.js',
+                    'bower_components/jquery-github/dist/jquery.github.min.js',
+                    '<%= config.dev %>js/projects.js',
+                    '<%= config.dev %>js/social.js']
+                }
+            },
+
             // Start files
             modernizr: {
-                src: 'components/modernizr/modernizr.js',
+                src: 'bower_components/modernizr/modernizr.js',
                 dest: '<%= config.build %>js/libs/modernizr.min.js'
             },
 
             jquery: {
-                src: 'components/jquery/jquery.min.js',
+                src: 'bower_components/jquery/jquery.min.js',
                 dest: '<%= config.build %>js/libs/jquery.min.js'
             },
 
             respond: {
-                src: 'components/respond/dest/respond.min.js',
+                src: 'bower_components/respond/dest/respond.min.js',
                 dest: '<%= config.build %>js/libs/respond.min.js'
             }
         },
@@ -102,14 +113,16 @@ module.exports = function( grunt ) {
         jshint: {
 
             // Project files
-            dev: ['<%= config.dev %>js/scripts.js'],
+            dev: [
+                '<%= config.dev %>js/scripts.js',
+                '<%= config.dev %>js/projects.js'
+            ],
                 options: {
                     globals: {
                         jQuery: true,
                         reporter: require('jshint-stylish')
                 }
-            }
-
+            },
         },
 
 
@@ -130,7 +143,12 @@ module.exports = function( grunt ) {
             // Run Uglify task when scripts are modified
             scripts_dev: {
                 files: ['<%= config.dev %>js/scripts.js'],
-                tasks: ['jshint:dev', 'uglify:dev'],
+                tasks: ['jshint', 'uglify'],
+            },
+
+            scripts_projects: {
+                files: ['<%= config.dev %>js/projects.js'],
+                tasks: ['jshint', 'uglify:projects'],
             },
 
             svg: {
@@ -145,6 +163,7 @@ module.exports = function( grunt ) {
                     // Project files
                     '<%= config.build %>css/main.min.css',
                     '<%= config.build %>js/scripts.min.js',
+                    '<%= config.build %>js/projects.min.js',
                     '<%= config.build %>img/*.{png,jpg,gif,svg}'
                 ],
             },

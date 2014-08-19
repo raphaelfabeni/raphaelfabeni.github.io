@@ -5,17 +5,20 @@
     </figure>
     <h1 class="title"><a class="hover" href="/">Raphael Fabeni</a></h1>
     <h2 class="subtitle">Front-end developer</h2>
-    {% if page.type == 'Archive' %}
-    {% include social.html %}
-    {% elsif page.type == 'Post' %}
-    {% include social.html %}
+    {% if page.type != 'Home' %}
+    {% include social.html %}}
     {% endif %}
     
-    {% if page.type == 'Home' %}
     <nav class="nav-main">
-        <a class="nav-link" href="{{ site.baseurl }}blog"><i class="fa fa-pencil"></i> Blog{% if page.language == "en" %} (portuguese){% endif %}</a>
+        <ul class="main-menu">
+            <li>
+                <a class="nav-link" href="{{ site.baseurl }}blog"><i class="fa fa-pencil"></i> Blog{% if page.language == "en" %} (portuguese){% endif %}</a>
+            </li>
+            <li>
+                <a class="nav-link" href="{{ site.baseurl }}projects"><i class="fa fa-coffee"></i> Projects</a>
+            </li>
+        </ul>
     </nav>
-    {% endif %}
 
     {% if page.language == "pt-br" %}
         <button id="color" class="btn btn-color" data-link="Color">Não curti essa cor.</button>
