@@ -4,7 +4,6 @@ $(document).on('ready', function() {
     progressBar = $('progress'),
     max, value;
 
-    /* Set the max scrollable area */
     max = docHeight - winHeight;
     progressBar.attr('max', max);
 

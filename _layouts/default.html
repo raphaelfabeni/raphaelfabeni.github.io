@@ -13,7 +13,7 @@
     {% if page.type != 'Home' %}
     {% include breadcrumbs.html %}
     {% endif %}
-    <main role="main" class="main {% if page.path contains '_posts' %}main-posts{% endif %} container">
+    <main role="main" class="main {% if page.type == 'Post' %}main-posts{% endif %} container">
         {{ content }}
     </main>
 

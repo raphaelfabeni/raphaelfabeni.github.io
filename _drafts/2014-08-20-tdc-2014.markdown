@@ -1,0 +1,24 @@
+---
+layout: post
+title:  "TDC 2014: The Developers Conference!"
+description: "TDC 2014: A primeira vez a gente nunca esquece!!"
+type: Post
+date: 2014-08-20
+image: 'meetup-css-bem-vindos.jpg'
+---
+
+No começo desse mês rolou o The Developers Conference 2014 aqui em São Paulo. Como sempre, o evento foi muito bacana; estrutura, organização muito bons. Mas esse ano, pelo menos pra mim, ele teve um gostinho especial: palestrei pela primeira vez em um evento de porte tão grande como o TDC.
+
+O tema da palestra foi CSS3 em conjunto com SASS e como utilizar hoje nos seus projetos/aplicações. Se tiver interessado, [segue o link da palestra](https://speakerdeck.com/raphaelfabeni/keep-calm-and-lets-play-css3).
+
+Falando do evento especificamente, apareci por lá em 2 dias: nas trilhas de Front-End e Web. Em ambos os dias a coordenação estava sob o cuidado do [Paulo Fernandes](https://twitter.com/paulofernandesj) e acho que só tenho elogios. Imagino que não seja fácil organizar algo desse tipo e em ambos os dias gostei muito do conteúdo das palestras.
+
+Teve o [Lucas Mazza](https://twitter.com/lucasmazza) falando de como podemos ir nos desapegando do Photoshop; o [Deivid Marques](https://twitter.com/deividmarques) falou de aria e acessibilidade; o [Zeno Rocha](https://twitter.com/zenorocha) mostrou a fantástica lib _tracking JS_; o [Shankar Cabus](https://twitter.com/ShankarCabus) fez uma das palestras mais engraçadas que já vi e mostrou o poder do Front-End; o [Suissa](https://twitter.com/osuissa) falou de Atomic Design; [Ciro Nunes](https://twitter.com/cironunesdev) falando de componentes em Angular e por aí vai. Só gente que é muito boa com palestras bem bacanas.
+
+Mas, não só por palestrar que achei o TDC especial. Ele me mostrou o quão a comunidade é bacana. O quanto pode ser proveitoso você compartilhar suas experiências, sejam coisas que deram certo ou não. E, que sempre tem alguém que pode te ajudar.
+
+No geral, só tenho pontos positivos em relação ao evento: ótimo conteúdo, boa estrutura e claro, fiquei nervoso bacana mas consegui palestrar e conheci muita gente boa da área.
+
+<figure class="loading">
+    <script class="speakerdeck-embed" data-id="f7eeb1e0fe7e0131686a0a1a6d90c60b" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+</figure>
