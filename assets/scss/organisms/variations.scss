@@ -28,6 +28,8 @@
     .gray .post-content,
     .gray .post { border-color: darken(#333, 7%); }
 
+    .gray progress { @include progress($orange); }
+
 /*  Purple
     ========================================================================== */
     .purple { background-color: $purple; }
@@ -48,6 +50,8 @@
 
     .purple .post-content,
     .purple .post { border-color: darken($purple, 7%); }
+
+    .purple progress { @include progress($pink); }
 
 /*  Brown
     ========================================================================== */
@@ -70,6 +74,8 @@
     .brown .post-content,
     .brown .post { border-color: darken($brown, 7%); }
 
+    .brown progress { @include progress($yellow); }
+
 /*  Blue
     ========================================================================== */
     .blue { background-color: darken($blue, 35%); }
@@ -90,3 +96,5 @@
 
     .blue .post-content,
     .blue .post { border-color: darken($blue, 40%); }
+
+    .blue progress { @include progress($blue); }

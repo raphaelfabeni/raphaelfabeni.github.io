@@ -22,8 +22,11 @@
     {% endif %}
     
     {% if page.type == 'Projects' %}
-    <script src="{{ site.baseurl }}build/js/libs/jquery.min.js"></script>
-    <script src="{{ site.baseurl }}build/js/projects.min.js"></script>
+        <script src="{{ site.baseurl }}build/js/libs/jquery.min.js"></script>
+        <script src="{{ site.baseurl }}build/js/projects.min.js"></script>
+    {% elsif page.type == 'Post' %}
+        <script src="{{ site.baseurl }}build/js/libs/jquery.min.js"></script>
+        <script src="{{ site.baseurl }}build/js/archive.min.js"></script>
     {% else %}
     <script src="{{ site.baseurl }}build/js/scripts.min.js"></script>
     {% endif %}

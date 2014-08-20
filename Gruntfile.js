@@ -81,6 +81,17 @@ module.exports = function( grunt ) {
                 }
             },
 
+            // Project files
+            blog: {
+                files: {
+                    '<%= config.build %>js/archive.min.js': 
+                    ['<%= config.dev %>js/ga.js',
+                    '<%= config.dev %>js/archive.js',
+                    '<%= config.dev %>js/scripts.js',
+                    '<%= config.dev %>js/social.js']
+                }
+            },
+
             projects: {
                 files: {
                     '<%= config.build %>js/projects.min.js': 
@@ -115,7 +126,8 @@ module.exports = function( grunt ) {
             // Project files
             dev: [
                 '<%= config.dev %>js/scripts.js',
-                '<%= config.dev %>js/projects.js'
+                '<%= config.dev %>js/projects.js',
+                '<%= config.dev %>js/archive.js'
             ],
                 options: {
                     globals: {
@@ -151,6 +163,11 @@ module.exports = function( grunt ) {
                 tasks: ['jshint', 'uglify:projects'],
             },
 
+            scripts_blog: {
+                files: ['<%= config.dev %>js/archive.js'],
+                tasks: ['jshint', 'uglify:blog'],
+            },
+
             svg: {
                 files: ['<%= config.dev %>img/*.svg'],
                 tasks: ['svgmin', 'svg2png']
@@ -164,6 +181,7 @@ module.exports = function( grunt ) {
                     '<%= config.build %>css/main.min.css',
                     '<%= config.build %>js/scripts.min.js',
                     '<%= config.build %>js/projects.min.js',
+                    '<%= config.build %>js/archive.min.js',
                     '<%= config.build %>img/*.{png,jpg,gif,svg}'
                 ],
             },

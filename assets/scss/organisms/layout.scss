@@ -14,12 +14,43 @@
         &:active { @include box-shadow(0 2px 0 0 darken($color, 9%)); }
     }
 
+    @mixin progress($color) {
+        color: lighten($color, 10%);
+
+        &::-webkit-progress-value { background-color: lighten($color, 10%); }
+        &::-moz-progress-bar { background-color: lighten($color, 10%); }
+    }
+
     @media only screen {
 
         body {
             overflow-x: hidden;
             background-color: $color-primary;
         }
+
+        /*  Progress
+            ========================================================================== */
+            progress {
+                z-index: 9999;
+                position: fixed;
+                left: 0;
+                top: 0;
+                width: 100%;
+                height: 8px;
+                -webkit-appearance: none;
+                   -moz-appearance: none;
+                        appearance: none;
+                border: none;
+                background-color: transparent;
+                //color: lighten($color-secondary, 10%);
+                @include transition(all .25s ease);
+                @include box-shadow(0 1px 11px 0 rgba(0,0,0,.7));
+
+                @include progress($color-secondary);
+            }
+
+            progress::-webkit-progress-bar { background-color: transparent; }
+
 
         /*  Button
             ========================================================================== */
@@ -246,6 +277,8 @@
                 position: absolute;
                 right: 20px;
                 top: 20px;
+                width: auto;
+                position: fixed;
             }
 
             .header-home .btn-color { position: absolute; }
