@@ -17,8 +17,8 @@
         {{ content }}
     </main>
 
-    {% if page.path contains '_posts' %}
-    {% include disqus.html %}
+    {% if page.type == 'Post' %}
+        {% include disqus.html %}
     {% endif %}
     
     {% if page.type == 'Projects' %}
