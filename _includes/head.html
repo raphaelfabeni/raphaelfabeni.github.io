@@ -11,7 +11,7 @@
     <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" />
     <meta property="og:title" content="{{ page.title }}{% if page.path contains '_posts' %} - Blog | Raphael Fabeni{% endif %}" />
     <meta property="og:site_name" content="Raphael Fabeni" />
-    <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
+    <meta property="og:url" content="{{ site.url }}{{ page.url }}/" />
     <meta property="og:type" content="{% if page.path contains '_posts' %}article{% else %}website{% endif %}" />
     <meta property="og:image" content="{{ site.url }}/build/img/{% if page.image %}posts/{{ page.image }}{% else %}raphael-fabeni.jpg{% endif %}" />
     {% if page.path contains '_posts' %}
