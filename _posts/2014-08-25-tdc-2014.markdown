@@ -23,7 +23,7 @@ Falando do evento especificamente, apareci por lá em 2 dias: nas trilhas de Fro
 
 Teve o [Lucas Mazza](https://twitter.com/lucasmazza) falando de como podemos ir nos desapegando do Photoshop; o [Deivid Marques](https://twitter.com/deividmarques) falou de aria e acessibilidade; o [Zeno Rocha](https://twitter.com/zenorocha) mostrou a fantástica lib _tracking JS_; o [Shankar Cabus](https://twitter.com/ShankarCabus) fez uma das palestras mais engraçadas que já vi e mostrou o poder do Front-End; o [Suissa](https://twitter.com/osuissa) falou de Atomic Design; [Ciro Nunes](https://twitter.com/cironunesdev) falando de componentes em Angular e por aí vai. Só gente que é muito boa com palestras bem bacanas.
 
-Mas, não só por palestrar que achei o TDC especial. Ele me mostrou o quão interagir com a comunidade é bacana. O quanto pode ser proveitoso você compartilhar suas experiências, sejam coisas que deram certo ou não. E, que sempre tem alguém que pode te ajudar.
+Mas, não só por palestrar que achei o TDC especial. Ele me mostrou o quão interagir com a comunidade é legal e quanto pode ser proveitoso você compartilhar suas experiências, sejam coisas que deram certo ou não. E, que sempre tem alguém que pode te ajudar.
 
 <figure class="text-center loading">
     <img src="{{ site.baseurl}}build/img/posts/raphaelfabeni-tdc-2014-2.jpg" alt="Imagem mostra encerramento do TDC 2014">
