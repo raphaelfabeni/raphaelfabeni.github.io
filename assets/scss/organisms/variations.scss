@@ -15,6 +15,12 @@
     .gray .header .subtitle,
     .gray .title,
     .gray .subtitle,
+    .gray h1,
+    .gray h2,
+    .gray h3,
+    .gray h4,
+    .gray h5,
+    .gray h6,
     .gray a:hover,
     .gray a:focus { color: $orange; }
 
@@ -30,6 +36,11 @@
 
     .gray progress { @include progress($orange); }
 
+    .gray figcaption {
+        background-color: darken(#333, 6%);
+        text-shadow: 1px 1px 0 darken(#333, 15%);
+    }
+
 /*  Purple
     ========================================================================== */
     .purple { background-color: $purple; }
@@ -38,6 +49,12 @@
     .purple .header .subtitle,
     .purple .title,
     .purple .subtitle,
+    .purple h1,
+    .purple h2,
+    .purple h3,
+    .purple h4,
+    .purple h5,
+    .purple h6,
     .purple a:hover,
     .purple a:focus { color: $pink; }
 
@@ -53,6 +70,11 @@
 
     .purple progress { @include progress($pink); }
 
+    .purple figcaption {
+        background-color: darken($purple, 6%);
+        text-shadow: 1px 1px 0 darken($purple, 15%);
+    }
+
 /*  Brown
     ========================================================================== */
     .brown { background-color: $brown; }
@@ -61,6 +83,12 @@
     .brown .header .subtitle,
     .brown .title,
     .brown .subtitle,
+    .brown h1,
+    .brown h2,
+    .brown h3,
+    .brown h4,
+    .brown h5,
+    .brown h6,
     .brown a:hover,
     .brown a:focus { color: darken($yellow, 15%); }
 
@@ -76,6 +104,11 @@
 
     .brown progress { @include progress($yellow); }
 
+    .brown figcaption {
+        background-color: darken($brown, 6%);
+        text-shadow: 1px 1px 0 darken($brown, 15%);
+    }
+
 /*  Blue
     ========================================================================== */
     .blue { background-color: darken($blue, 35%); }
@@ -84,6 +117,12 @@
     .blue .header .subtitle,
     .blue .title,
     .blue .subtitle,
+    .blue h1,
+    .blue h2,
+    .blue h3,
+    .blue h4,
+    .blue h5,
+    .blue h6,
     .blue a:hover,
     .blue a:focus { color: #FF0055; }
 
@@ -98,3 +137,8 @@
     .blue .post { border-color: darken($blue, 40%); }
 
     .blue progress { @include progress($blue); }
+
+    .blue figcaption {
+        background-color: darken($blue, 46%);
+        text-shadow: 1px 1px 0 darken($blue, 15%);
+    }

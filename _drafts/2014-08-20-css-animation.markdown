@@ -14,3 +14,9 @@ Uma das coisas que mais gosto no CSS3, é o __animation__.  Com essa propriedade
 <h2 class="subtitle">Começando com os keyframes</h2>
 
 Antes de qualquer coisa...
+
+{% highlight css %}
+.teste {
+    border: solid 1px red;
+}
+{% endhighlight  %}

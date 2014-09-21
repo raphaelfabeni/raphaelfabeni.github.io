@@ -51,7 +51,6 @@
 
             progress::-webkit-progress-bar { background-color: transparent; }
 
-
         /*  Button
             ========================================================================== */
             .btn {
@@ -111,6 +110,13 @@
         /*  Blog
             ========================================================================== */
             figure { margin: 0; }
+            figcaption {
+                padding: 10px;
+                background-color: darken($color_primary, 6%);
+                color: #fff;
+                text-shadow: 1px 1px 0 darken($color_primary, 20%);
+            }
+
             .post {
                 padding: 30px 0;
                 text-align: center;
@@ -126,9 +132,18 @@
 
             .post .title,
             .post-content .title { margin: 0 0 10px; }
-            .post-content .subtitle {
+
+            .post-content .subtitle,
+            .post-content h2 {
                 font-size: 28px;
                 line-height: 38px;
+            }
+
+            .post-content h2,
+            .post-content h3,
+            .post-content h4 {
+                text-align: center;
+                padding-top: 12px;
             }
 
             .short { font-size: 18px; }
@@ -274,12 +289,18 @@
 
             .main-index .btn { @include animation(fadeIn 1s 1.25s ease both); }
 
+        /*  Header btn
+            ========================================================================== */
             .btn-color {
                 position: absolute;
                 right: 20px;
                 top: 20px;
                 width: auto;
             }
+    }
 
-            .header-home .btn-color { position: absolute; }
+    @media only screen and (min-width: 1300px) {
+
+        .btn-color { position: fixed; }
+
     }
