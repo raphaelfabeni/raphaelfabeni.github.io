@@ -10,7 +10,7 @@ exclude: ['node_modules', 'Gruntfile.js', 'package.json']
 # Build settings
 markdown: kramdown
 permalink: pretty
-highlighter: rouge
+highlighter: pygments
 
 source:      .
 destination: ./_site

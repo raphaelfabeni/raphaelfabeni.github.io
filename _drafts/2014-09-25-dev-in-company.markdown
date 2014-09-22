@@ -7,7 +7,7 @@ date: 2014-09-25
 image: 'dev-in-company-organizacao.jpg'
 ---
 
-Esse final de semana rolou o <a href="http://devincompany.org">Dev in Company</a> lá em Belo Horizonte. A idéia do evento em si é muito bacana, e propõe um ótimo ambiente para fazer novas amizades na área, trocar experiências e claro, compartilhar de conhecimento (o bom e velho <i>networkin)</i>. A organização fica por conta do <a href="http://betomuniz.com/" target="_blank">Beto Muniz</a>, <a href="https://www.linkedin.com/in/lurimendes" target="_blank">Luiz Mendes</a>, <a href="https://www.linkedin.com/in/paulasfaria" target="_blank">Paula Faria</a> e <a href="http://rmdias.com/" target="_blank">Rodolfo Dias</a>.
+Esse final de semana rolou o <a href="http://devincompany.org">Dev in Company</a> lá em Belo Horizonte. A idéia do evento em si é muito bacana, e propõe um ótimo ambiente para fazer novas amizades na área, trocar experiências e claro, compartilhar de conhecimento (o bom e velho <i>networkin)</i>. A organização fica por conta do <a href="http://betomuniz.com/" target="_blank">Beto Muniz</a>, <a href="https://www.linkedin.com/in/lurimendes" target="_blank">Luiz Augusto</a>, <a href="https://www.linkedin.com/in/paulasfaria" target="_blank">Paula Faria</a> e <a href="http://rmdias.com/" target="_blank">Rodolfo Dias</a>.
 
 ## O convite
 
@@ -41,20 +41,20 @@ A última palestra foi do <a href="http://pliab.com/">François</a>, um desenvol
 
 ## Resumindo
 
+<figure class="text-center loading">
+    <img src="{{ site.baseurl}}build/img/posts/dev-in-company-organizacao-palestrantes.jpg" alt="Luiz Augusto, Rodolfo Dias, Raphael Fabeni e Paula Faria no evento Dev in Company">
+    <figcaption>Galera da organização e que palestrou no evento: Luiz Augusto, Lucas Estevão, eu, Rodolfo Dias, François, Paula Faria e Ruy Adorno</figcaption>
+</figure>
+
 O evento e a viagem em si foram bem legais! Valeu super a pena! Hotel bom, evento legal e galera gente fina. Quase que ia me esquecendo, o <b>almoço foi por conta do evento</b> a base de <i>cerveja</i>, <i>refrigerante</i> e <i>pizza</i>. E no final, rolaram uns sorteios de livros e camisetas. 
 
 Depois do evento ainda havia uma missão: acabar com as cervejas restantes! Apesar de não beber, fiquei um tempo lá com o pessoal mas tive que ir embora para pegar o vôo de volta pra São Paulo.
-
-<figure class="text-center loading">
-    <img src="{{ site.baseurl}}build/img/posts/dev-in-company-organizacao-palestrantes.jpg" alt="Luiz Mendes, Rodolfo Dias, Raphael Fabeni e Paula Faria no evento Dev in Company">
-    <figcaption>Galera da organização e que palestrou no evento: Luiz Mendes, Lucas Estevão, eu, Rodolfo Dias, François, Paula Faria e Ruy Adorno</figcaption>
-</figure>
 
 ### Agradecimento
 
 Deixo aqui meu <b>Muito Obrigado!</b> para a galera da organização do <b>Dev in Company</b> por toda a força e parabenizá-los pelo evento! Espero poder conseguir acompanhar os próximos.
 
 <figure class="text-center loading">
-    <img src="{{ site.baseurl}}build/img/posts/dev-in-company-organizacao.jpg" alt="Luiz Mendes, Rodolfo Dias, Raphael Fabeni e Paula Faria no evento Dev in Company">
-    <figcaption>Eu e o pessoal da organização do Dev in Company: Luiz Mendes, Rodolfo Dias e Paula Faria</figcaption>
+    <img src="{{ site.baseurl}}build/img/posts/dev-in-company-organizacao.jpg" alt="Luiz Augusto, Rodolfo Dias, Raphael Fabeni e Paula Faria no evento Dev in Company">
+    <figcaption>Eu e o pessoal da organização do Dev in Company: Luiz Augusto, Rodolfo Dias e Paula Faria</figcaption>
 </figure>
