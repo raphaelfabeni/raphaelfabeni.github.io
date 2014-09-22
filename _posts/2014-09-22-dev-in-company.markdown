@@ -3,21 +3,21 @@ layout: post
 title:  "Dev in Company"
 description: "Um resumo de como foi o evento Dev in Company lá em BH!"
 type: Post
-date: 2014-09-25
+date: 2014-09-22
 image: 'dev-in-company-organizacao.jpg'
 ---
 
-Esse final de semana rolou o <a href="http://devincompany.org">Dev in Company</a> lá em Belo Horizonte. A idéia do evento em si é muito bacana, e propõe um ótimo ambiente para fazer novas amizades na área, trocar experiências e claro, compartilhar de conhecimento (o bom e velho <i>networkin)</i>. A organização fica por conta do <a href="http://betomuniz.com/" target="_blank">Beto Muniz</a>, <a href="https://www.linkedin.com/in/lurimendes" target="_blank">Luiz Augusto</a>, <a href="https://www.linkedin.com/in/paulasfaria" target="_blank">Paula Faria</a> e <a href="http://rmdias.com/" target="_blank">Rodolfo Dias</a>.
+Esse final de semana (dia 20) rolou o <a href="http://devincompany.org">Dev in Company</a> lá em Belo Horizonte. A idéia do evento em si é muito bacana, e propõe um ótimo ambiente para fazer novas amizades na área, trocar experiências e claro, compartilhar conhecimento (o bom e velho <i>networking)</i>. A organização fica por conta do <a href="http://betomuniz.com/" target="_blank">Beto Muniz</a>, <a href="https://www.linkedin.com/in/lurimendes" target="_blank">Luiz Augusto</a>, <a href="https://www.linkedin.com/in/paulasfaria" target="_blank">Paula Faria</a> e <a href="http://rmdias.com/" target="_blank">Rodolfo Dias</a>.
 
 ## O convite
 
 Quando apareceu o convite para palestrar, não minto que fiquei bastante empolgado. Já tinha ido pra Belo Horizonte para o <a href="http://frontinbh.com.br/" target="_blank">Front in BH</a> como ouvinte, mas seria a primeira vez que sairia de SP para palestrar.
 
-Destaco aqui a preocupação da organização com todos os detalhes para o evento, inclusive, rolou até um <i>hangout</i> entre os possíveis palestrantes e a organização para eles entenderem quais seriam os temas e darem dicas de qual linha seguir de acordo com <i>feedback</i> das edições anteriores, ou seja, <b>preocupação total</b> em fechar um evento com conteúdo de qualidade e que atendesse ao que o pessoal esperava.
+Destaco aqui a preocupação da organização com <b>todos</b> os detalhes para o evento, inclusive, rolou até um <i>hangout</i> entre os possíveis palestrantes e a organização para eles entenderem quais seriam os temas e darem dicas de qual linha seguir de acordo com <i>feedback</i> das edições anteriores, ou seja, <b>preocupação total</b> em fechar um evento com conteúdo de qualidade e que atendesse ao que o pessoal esperava.
 
 ## A ida
 
-Sai de São Paulo um dia antes, na sexta-feira (19 de setembro) e cheguei em Belo Horizonte na parte da noite. Do aeroporto segui direto para o <a href="http://atlanticahotels.com.br/hotel/belo-horizonte/quality-hotel-afonso-pena" target="_blank">hotel</a> que indicação do Rodolfo da organização do evento. Por sinal, <b>#ficaadica</b> para quem precisar de hotel em Belo Horizonte. Recomendo pra caramba.
+Sai de São Paulo um dia antes, na sexta-feira (19 de setembro) e cheguei em Belo Horizonte na parte da noite. Do aeroporto segui direto para o <a href="http://atlanticahotels.com.br/hotel/belo-horizonte/quality-hotel-afonso-pena" target="_blank">hotel</a> que foi indicação do Rodolfo da organização do evento. Por sinal, <b>#ficaadica</b> para quem precisar de hotel em Belo Horizonte. Recomendo pra caramba.
 
 <figure class="text-center loading">
     <img src="{{ site.baseurl}}build/img/posts/hotel-belo-horizonte.jpg" alt="Imagem um quarto do Hotel Quality em Belo Horizonte">
@@ -50,7 +50,7 @@ O evento e a viagem em si foram bem legais! Valeu super a pena! Hotel bom, event
 
 Depois do evento ainda havia uma missão: acabar com as cervejas restantes! Apesar de não beber, fiquei um tempo lá com o pessoal mas tive que ir embora para pegar o vôo de volta pra São Paulo.
 
-### Agradecimento
+### Agradecimentos
 
 Deixo aqui meu <b>Muito Obrigado!</b> para a galera da organização do <b>Dev in Company</b> por toda a força e parabenizá-los pelo evento! Espero poder conseguir acompanhar os próximos.
 
