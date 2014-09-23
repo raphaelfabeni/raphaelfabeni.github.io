@@ -7,7 +7,7 @@ date: 2014-09-22
 image: 'dev-in-company-organizacao.jpg'
 ---
 
-Esse final de semana (dia 20) rolou o <a href="http://devincompany.org">Dev in Company</a> lá em Belo Horizonte. A idéia do evento em si é muito bacana, e propõe um ótimo ambiente para fazer novas amizades na área, trocar experiências e claro, compartilhar conhecimento (o bom e velho <i>networking)</i>. A organização fica por conta do <a href="http://betomuniz.com/" target="_blank">Beto Muniz</a>, <a href="https://www.linkedin.com/in/lurimendes" target="_blank">Luiz Augusto</a>, <a href="https://www.linkedin.com/in/paulasfaria" target="_blank">Paula Faria</a> e <a href="http://rmdias.com/" target="_blank">Rodolfo Dias</a>.
+Esse final de semana (dia 20) rolou o <a href="http://devincompany.org">Dev in Company</a> lá em Belo Horizonte. A idéia do evento é muito legal, e propõe um ótimo ambiente para fazer novas amizades na área, trocar experiências e claro, compartilhar conhecimento (o bom e velho <i>networking)</i>. A organização fica por conta do <a href="http://betomuniz.com/" target="_blank">Beto Muniz</a>, <a href="https://www.linkedin.com/in/lurimendes" target="_blank">Luiz Augusto</a>, <a href="https://www.linkedin.com/in/paulasfaria" target="_blank">Paula Faria</a> e <a href="http://rmdias.com/" target="_blank">Rodolfo Dias</a>.
 
 ## O convite
 
@@ -25,7 +25,7 @@ Sai de São Paulo um dia antes, na sexta-feira (19 de setembro) e cheguei em Bel
 
 ## As Palestras
 
-Na abertura do evento tivemos uma talk da <a href="https://www.linkedin.com/pub/shannon-sullivan/10/973/518">Shannon Sullivan</a> sobre o <a href="http://appbase.io/" target="_blank">AppBase</a>. É uma plataforma que parece ser bem bacana para criar apps <i>realtime</i> em JavaScript.
+Na abertura do evento tivemos uma talk da <a href="https://www.linkedin.com/pub/shannon-sullivan/10/973/518">Shannon Sullivan</a> sobre o <a href="http://appbase.io/" target="_blank">AppBase</a>. É uma plataforma que parece ser ótima para criar apps <i>realtime</i> em JavaScript.
 
 Depois foi a minha vez \o/. Falei um pouco sobre <b>CSS3</b> com a ajuda de <b>SASS</b> e como usar isso nos projetos hoje. Pra quem interessar, <a href="https://speakerdeck.com/raphaelfabeni/keep-calm-and-lets-play-css3">aqui segue o link da talk</a>.
 
@@ -35,9 +35,9 @@ Depois foi a minha vez \o/. Falei um pouco sobre <b>CSS3</b> com a ajuda de <b>S
 
 Logo em seguida o <a href="https://twitter.com/lucasdsbh" target="_blank">Lucas Estevão</a> falou sobre Design Responsivo. Foi praticamente uma aula. Ele falou de literalmente tudo: passando por conceitos, técnicas e exemplos. Gostei bastante da talk e confesso que apesar de já saber um pouco sobre o tema, o Lucas abordou de uma forma tão legal e completa, que deu pra relembrar vários conceitos além de aprender várias coisas novas. O cara manja muito e mostrou que <b>Design Responsivo não é só encolher os elementos pra caber na tela</b>. 
 
-O <a href="https://twitter.com/ruyadorno" target="_blank">Ruy Adorno</a> apresentou uma talk com o tema <i>"O Diário de um Desenvolvedor Front-End"</i> e apontou temas bem bacanas como formação, projetos <i>open-source</i> e mercado de trabalho. Com certeza foi a palestra mais interativa que teve e sinceramente nem vi o tempo passar de tão entretido que fiquei com o assunto. Bem bacana.
+O <a href="https://twitter.com/ruyadorno" target="_blank">Ruy Adorno</a> apresentou uma talk com o tema <i>"O Diário de um Desenvolvedor Front-End"</i> e apontou temas importantes como formação, projetos <i>open-source</i> e mercado de trabalho. Com certeza foi a palestra mais interativa que teve e sinceramente nem vi o tempo passar de tão entretido que fiquei com o assunto.
 
-A última palestra foi do <a href="http://pliab.com/">François</a>, um desenvolvedor francês que apresentou a talk <i>"An overview of web-documentaries</i>. No geral, o tema em si, de como poder contar histórias através da web, é algo que acho muito bacana, por isso achei a palestra bem boa.
+A última palestra foi do <a href="http://pliab.com/">François</a>, um desenvolvedor francês que apresentou a talk <i>"An overview of web-documentaries</i>. No geral, o tema de como poder contar histórias através da web, é algo que acho muito bacana, por isso achei a palestra muito boa.
 
 ## Resumindo
 
