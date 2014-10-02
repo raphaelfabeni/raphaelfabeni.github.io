@@ -4,7 +4,7 @@ title:  "Meetup CSS #02"
 description: "Um resumo do segundo encontro do Meetup CSS!"
 type: Post
 date: 2014-10-02
-image: 'meetup-02-abertura.jpg'
+image: 'meetup-02-share.jpg'
 ---
 
 <figure class="text-center loading">
