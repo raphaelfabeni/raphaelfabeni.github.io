@@ -42,7 +42,7 @@ Temos um <a href="https://github.com/raphaelfabeni/css-sp">repositório no GitHu
 
 A nossa idéia é que o meetup seja <a href="https://speakerdeck.com/raphaelfabeni/bem-vindos-ao-meetp-css?slide=3">legal para todo mundo</a> e que realmente possa ajudar a galera. Por isso, criamos uma pesquisa rápida (dura menos que 5 minutos) para tentarmos pegar um <i>feedback</i> do que <b>já rolou</b> e sobre o que <b>ainda vai rolar</b>.
 
-b tiver interesse, você pode <a href="http://goo.gl/forms/09D1xYWF9e">acessar a pesquisa por aqui</a>.
+Você pode <a href="http://goo.gl/forms/09D1xYWF9e">acessar a pesquisa por aqui</a>.
 
 ## Streaming
 
