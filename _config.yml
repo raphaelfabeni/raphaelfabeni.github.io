@@ -11,7 +11,7 @@ exclude: ['node_modules', 'Gruntfile.js', 'package.json']
 markdown: kramdown
 permalink: pretty
 highlighter: pygments
-pygments: true
+#pygments: true
 # highlighter: pygments
 
 source:      .
