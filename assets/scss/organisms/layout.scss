@@ -219,8 +219,24 @@
             /*  Syntax
                 ========================================================================== */
                 .highlight {
+                    margin-bottom: 20px;
                     padding: 10px 20px;
                     @include box-shadow(0px 0px 50px 0 rgba(0,0,0,.3) inset);
+                }
+
+                code {
+                    background-color: rgba(0, 0, 0, .5);
+                    color: #f92672;
+                }
+
+                .highlight pre {
+                    color: #eee;
+                    word-wrap: break-word;
+                }
+
+                .highlight code {
+                    background-color: transparent;
+                    color: inherit;
                 }
 
         /*  Disqus
