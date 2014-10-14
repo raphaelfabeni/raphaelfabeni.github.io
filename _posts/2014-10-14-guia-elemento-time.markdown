@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Um guia para o elemento time"
-description: "Você conhece o elemento time? Conheça os segredos dessa tag e comece a usá-la"
+description: "Você já ouviu falar no elemento time? Conheça os segredos dessa tag e comece a usá-la"
 type: Post
 date: 2014-10-14
 image: 'guia-elemento-time.jpg'
