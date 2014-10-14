@@ -225,12 +225,17 @@
                 }
 
                 code {
-                    background-color: rgba(0, 0, 0, .5);
+                    background-color: rgba(0, 0, 0, .3);
                     color: #f92672;
+                    padding: 2px 5px;
                 }
 
                 .highlight pre {
                     color: #eee;
+                    white-space: pre-wrap;
+                    white-space: -moz-pre-wrap;
+                    white-space: -pre-wrap;
+                    white-space: -o-pre-wrap;
                     word-wrap: break-word;
                 }
 
@@ -238,6 +243,12 @@
                     background-color: transparent;
                     color: inherit;
                 }
+
+                /* Adjustments for code inside text */
+                p code { font-size: 16px; }
+                code { font-size: 14px; }
+
+                h2 code { font-size: 26px; }
 
         /*  Disqus
             ========================================================================== */
