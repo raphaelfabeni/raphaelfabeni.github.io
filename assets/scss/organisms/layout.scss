@@ -173,6 +173,15 @@
                 margin-left: 15px;
             }
 
+            .post-content figure.thumb-left,
+            .post-content figure.thumb-right { display: table; }
+
+            .post-content figure.thumb-left figcaption,
+            .post-content figure.thumb-right figcaption {
+                caption-side: bottom;
+                display: table-caption;
+            }
+
             /*
              * Loading
              */
