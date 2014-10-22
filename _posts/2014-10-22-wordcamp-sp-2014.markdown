@@ -29,6 +29,7 @@ As palestras rolavam simultaneamente em dois locais diferentes: um <b>auditório
 
 <figure class="thumb-right loading">
     <img src="{{ site.baseurl}}build/img/posts/raphaelfabeni-wordcamp-2014.jpg" alt="Raphael Fabeni e Airton Vancin durante palestra no WordCamp São Paulo 2014">
+    <figcaption>Tentando entender como funcionava o controle pra mudar o slide!</figcaption>
 </figure>
 
 Já tinha ido em eventos assim, onde as palestras acontecem simultaneamente, chato só foi ter que escolher entre uma ou outra palestra pra assistir, pois queria ver duas que aconteciam no mesmo horário. <b>¯\\_(ツ)_/¯</b>
