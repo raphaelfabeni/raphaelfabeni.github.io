@@ -163,6 +163,16 @@
 
             .post-content figure { margin: 0 0 15px 0; }
 
+            .post-content figure.thumb-left {
+                float: left;
+                margin-right: 15px;
+            }
+
+            .post-content figure.thumb-right {
+                float: right;
+                margin-left: 15px;
+            }
+
             /*
              * Loading
              */

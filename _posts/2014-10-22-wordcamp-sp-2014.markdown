@@ -1,0 +1,47 @@
+---
+layout: post
+title:  "WordCamp SP 2014"
+description: "Edição paulista do evento focado em WordPress"
+type: Post
+date: 2014-10-22
+image: 'wordcamp-2014.jpg'
+---
+
+<figure class="text-center loading">
+    <img src="{{ site.baseurl}}build/img/posts/wordcamp-2014.jpg" alt="Broches distribuídos no WordCamp São Paulo 2014">
+</figure>
+
+No último sábado (18) rolou mais uma edição do [WordCamp São Paulo](http://2014.saopaulo.wordcamp.org/), um evento totalmente voltado para o desenvolvimento de projetos em WordPress. Esse ano foi a primeira vez que fui ao evento e confesso que estava bastante empolgado por dois motivos: primeiro pelo fato de vários amigos terem ido em edições anteriores do evento e terem rasgado o mesmo de elogios; e segundo, pois na parte da tarde, ia falar um pouco em uma talk com o tema: <b>Do início ao fim com WordPress</b>.
+
+## O Evento
+
+<figure class="thumb-left loading">
+    <img src="{{ site.baseurl}}build/img/posts/wordcamp-2014-info.jpg" alt="Brindes entregues na abertura do evento WordCamp São Paulo 2014">
+</figure>
+
+O evento rolou na PUC da Consolação. Já tinha ido lá em uma edição do SampaJS. Como estava bem empolgado com o evento, posso dizer que ele correspondeu às minhas expectativas. Pelo fato de palestrar, não cheguei a me inscrever no evento, mas um ponto bem bacana que acho legal citar e que alguns amigos meus ressaltaram, foi o baixo valor de inscrição em comparação ao que era oferecido.
+
+Senão me engano o valor da inscrição era apenas de **R$35**: nisso já estava incluso: os <i>coffees</i>,  um <i>vale almoço</i> e uma sacola com broches, adesivo, camiseta e *squeeze*.
+
+As palestras rolavam simultaneamente em dois locais diferentes: um <b>auditório</b> e um <b>mini auditório</b>. Uma coisa que achei bem legal foi a preocupação da organização em respeitar os horários definidos; se alguma palestra passou do tempo ou atrasou, foi tão pouco que nem percebi.
+
+## As palestras
+
+<figure class="thumb-right loading">
+    <img src="{{ site.baseurl}}build/img/posts/raphaelfabeni-wordcamp-2014.jpg" alt="Raphael Fabeni e Airton Vancin durante palestra no WordCamp São Paulo 2014">
+</figure>
+
+Já tinha ido em eventos assim, onde as palestras acontecem simultaneamente, chato só foi ter que escolher entre uma ou outra palestra pra assistir, pois queria ver duas que aconteciam no mesmo horário. <b>¯\\_(ツ)_/¯</b>
+
+Acompanhei mais as palestras que rolaram no audiório. No geral, achei o nível das talks bem legal; foram abordados temas mais conceituais e gerais até coisas mais técnicas. Algumas que achei bem legais:
+
+* O Leo Germani apresentou uma talk com o tema <i>Um guia prático para planejar seu projeto WordPress</i>, onde ele falou alguns pontos bem legais, como por exemplo de que maneira o WordPress busca os templates do seu projeto para exibir a página; 
+* O Ruan Barbosa apresentou um tema bem bacana: <i>SEO para desenvolvedores</i> e acho que foi uma das palestras que estavam mais cheias. Gostei da talk, pois ela passou de pontos básicos como tempo de carregamento da página e <i>URL amigáveis</i> até dados estruturados;
+* O [Guga Alves](https://twitter.com/GugaAlves) falou sobre campos personalizados e praticamente destrinchou o [ACF](http://www.advancedcustomfields.com/). 
+* O [Leo Baiano](https://twitter.com/leobaiano) apresentou acho que a talk mais engraçada do evento com o tema<i>Dicas e truques para desenvolver projetos web utilizando WordPress</i>, onde passou por dicas englobando o funcionamento do WordPress.
+
+## Resumindo
+
+Fui com a galera da [A2 Comunicação](http://www.a2comunicacao.com.br) ([Airton](https://twitter.com/airtonvancin), [Vivian](https://twitter.com/viiholiveira), [Raul](https://twitter.com/raulcarval) e a Sandra) e todos compartilham da mesma opinião que eu: que o evento foi bem legal e que pretendem voltar ano que vem. Acho que é um dos eventos cujo custo-benefício vale mais a pena.
+
+Ainda pude encontrar e bater um papo rápido com o grande [Luan Muniz](https://twitter.com/lluanmuniz) e almoçar com o super gente boa [Paulo Fernandes](https://twitter.com/paulofernandesj).
