@@ -36,13 +36,17 @@ Já tinha ido em eventos assim, onde as palestras acontecem simultaneamente, cha
 
 Acompanhei mais as palestras que rolaram no audiório. No geral, achei o nível das talks bem legal; foram abordados temas mais conceituais e gerais até coisas mais técnicas. Algumas que achei bem legais:
 
-* O Leo Germani apresentou uma talk com o tema <i>Um guia prático para planejar seu projeto WordPress</i>, onde ele falou alguns pontos bem legais, como por exemplo de que maneira o WordPress busca os templates do seu projeto para exibir a página; 
+* O Leo Germani apresentou uma talk com o tema [Um guia prático para planejar seu projeto WordPress](https://github.com/leogermani/apresentacao-planejando-projeto-wp), onde ele falou alguns pontos bem legais, como por exemplo de que maneira o WordPress busca os templates do seu projeto para exibir a página; 
 * O Ruan Barbosa apresentou um tema bem bacana: <i>SEO para desenvolvedores</i> e acho que foi uma das palestras que estavam mais cheias. Gostei da talk, pois ela passou de pontos básicos como tempo de carregamento da página e <i>URL amigáveis</i> até dados estruturados;
-* O [Guga Alves](https://twitter.com/GugaAlves) falou sobre campos personalizados e praticamente destrinchou o [ACF](http://www.advancedcustomfields.com/). 
-* O [Leo Baiano](https://twitter.com/leobaiano) apresentou acho que a talk mais engraçada do evento com o tema<i>Dicas e truques para desenvolver projetos web utilizando WordPress</i>, onde passou por dicas englobando o funcionamento do WordPress.
+* O [Guga Alves](https://twitter.com/GugaAlves) falou sobre campos personalizados e praticamente destrinchou o [ACF](http://www.advancedcustomfields.com/) na palestra [Campos Personalizados LIKE A PRO](http://pt.slideshare.net/gugaalves/campos-personalizados-like-a-pro-wordcamp-so-paulo-2014).
+* O [Leo Baiano](https://twitter.com/leobaiano) apresentou acho que a talk mais engraçada do evento com o tema [Dicas e truques para desenvolver projetos web utilizando WordPress](http://www.slideshare.net/leobaiano1/dicas-e-truques-para-desenvolver-projetos-web-utilizando-wordpress), onde passou por dicas englobando o funcionamento do WordPress.
 
 ## Resumindo
 
-Fui com a galera da [A2 Comunicação](http://www.a2comunicacao.com.br) ([Airton](https://twitter.com/airtonvancin), [Vivian](https://twitter.com/viiholiveira), [Raul](https://twitter.com/raulcarval) e a Sandra) e todos compartilham da mesma opinião que eu: que o evento foi bem legal e que pretendem voltar ano que vem. Acho que é um dos eventos cujo custo-benefício vale mais a pena.
+Fui com a galera da [A2 Comunicação](http://www.a2comunicacao.com.br) ([Airton](https://twitter.com/airtonvancin), [Vivian](https://twitter.com/viiholiveira), [Raul](https://twitter.com/raulcarval) e a [Sandra](https://twitter.com/sansegato)) e todos compartilham da mesma opinião que eu: que o evento foi bem legal e que pretendem voltar ano que vem. Acho que é um dos eventos cujo custo-benefício vale mais a pena.
 
 Ainda pude encontrar e bater um papo rápido com o grande [Luan Muniz](https://twitter.com/lluanmuniz) e almoçar com o super gente boa [Paulo Fernandes](https://twitter.com/paulofernandesj).
+
+Ah, quem tiver interesse, segue aqui o [link da palestra Do início ao fim com WordPress](https://speakerdeck.com/raphaelfabeni/do-inicio-ao-fim-com-wordpress), que eu e o Airton apresentamos.
+
+**Obs.** Conforme for achando os links das palestras vou atualizando o post.
