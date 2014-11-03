@@ -64,4 +64,33 @@ Parem tudo! Essa foi a minha reação ao ver o [Maujor](https://twitter.com/mauj
     <iframe src="//www.slideshare.net/slideshow/embed_code/40741427" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
 </figure>
 
+### Desmistificando a acessibilidade web
+
+Sensacional! Essa é a palavra que posso descrever a palestra da <a href="mailto:leda.spelta@acessodigital.net">Lêda Spelta. Era a que mais queria ver e correspondeu às expectativas. Ela mostrou como pode ser difícil e às vezes até impossível para uma pessoa, por exemplo como ela que é deficiente visual, acessar o conteúdo de um site, ou melhor, tentar descobrir o conteúdo.
+
+Recomendo a leitura do post do grande [Eduardo Matos](https://twitter.com/eduardojmatos) que fala mais sobre o tema da palestra: [Front in Sampa, acessibilidade e o tapa na cara que levei](http://eduardomatos.me/frontinsampa-acessibilidade-e-o-tapa-na-cara-que-levei/).
+
+### O poder está no front-end
+
+Conheci a figura do [Shankar Cabus](https://twitter.com/shankarcabus) no TDC desse ano e já tinha visto sua palestra. O cara manda muito bem na apresentação e o que acho mais legal é que ele consegue passar uma mensagem importante de forma engraçada.
+
+<figure class="text-center loading presentation">
+    <script async class="speakerdeck-embed" data-id="4dba5be01b190131927a62c603094d7b" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+</figure>
+
+### Testes A/B>: Pequenas mudanças, grandes resultados
+
+O mestre [Jeff Prestes](https://twitter.com/jeffprestes) falou sobre testes A/B e deu dicas e vantagens do uso dessa técnica. Destaque pra sua perfomance, que como ele disse foi de *rei do camarote*: entre um tópico e outro ele jogava camisetas pra galera. *Procurando link da talk.*
+
+### Entendendo o design material do Google
+
+Gostei bastante da talk do [Neto Marin](https://twitter.com/netomarin). Ele falou a fundo das mudanças que ocorreram com o redesenho da interface do Android. Um dos pontos que mais me chamou a atenção foi numa frase que ele disse a respeito de evitar que o usuário *adivinhe* o que aconteceu e o sistema mostrar isso pra ele. Muito bom! *Procurando link da talk.*
+
+### Os paranauês do CSS3
+
+Por fim, eu falei um pouco de CSS3 e o quanto ele pode enriquecer os detalhes da sua aplicação. Mostrei alguns exemplos práticos e pegadinhas no uso. No fim da talk, fiz o anúncio da [CSS conf Brasil](http://cssconfbrasil.com.br/).
+
+<figure class="text-center loading presentation">
+    <script async class="speakerdeck-embed" data-id="dcaef5e0400901324aa87a6501a1d9f8" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+</figure>
 
