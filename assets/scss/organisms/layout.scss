@@ -235,6 +235,12 @@
                 z-index: 1;
             }
 
+            .presentation iframe {
+                width: 100%;
+                height: auto;
+                max-width: 800px;
+            }
+
             /*  Syntax
                 ========================================================================== */
                 .highlight {
