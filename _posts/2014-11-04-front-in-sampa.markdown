@@ -46,7 +46,7 @@ Assim que acabou a primeira palestra, levantei para ir ao banheiro e voltei com 
 
 Um negócio que achei legal do Front in Sampa foi o tanto gente conhecida que estava lá. Pude rever e conversar com vários amigos que há algum tempo não via.
 
-Minha palestra era a última e parecia que o tempo não passava. Estava ansioso pra caramba pro início da minha palestra e até a pizza que comi na hora do almoço com o grande [Shankar Cabus](https://twitter.com/shankarcabus) não me acalmou.
+Minha palestra era a última do evento e parecia que o tempo não passava. Ansiedade tava em nível extremo e eu queria que chegasse logo a hora. Até a pizza que comi na hora do almoço com o grande [Shankar Cabus](https://twitter.com/shankarcabus) não me acalmou. 
 
 ## As palestras do Front in Sampa
 
@@ -76,7 +76,7 @@ O [Anderson Casimiro](https://twitter.com/duodraco) apresentou o WebStorm e falo
 
 ### Jogos: indo além do simples CSS!
 
-*1 minuto de silêncio!* A [Fernanda Bernardo](https://www.facebook.com/feh.bernardo) mitou! Ela fez um jogo apenas em CSS. O raciocínio que ela teve com a lógica do projeto foi sensacional. *Feedback* da galera foi incrível.
+*1 minuto de silêncio!* A [Fernanda Bernardo](https://www.facebook.com/feh.bernardo) mitou! Ela fez um jogo apenas em CSS. O raciocínio que ela teve com a lógica do projeto foi sensacional. O *feedback* da galera foi incrível.
 [Link da palestra](https://docs.google.com/presentation/d/1JH_xJOjeN1Btt2Ht0IWTD3kG_tXvF62xrKYU5UKWvso/edit#slide=id.g3f3cb59c2_0215).
 
 ### Dados sobre dados: Microdata e Open Graph
@@ -105,7 +105,7 @@ Parem tudo! Essa foi a minha reação ao ver o [Maujor](https://twitter.com/mauj
 
 ### Desmistificando a acessibilidade web
 
-Sensacional! Essa é a palavra que posso descrever a palestra da <a href="mailto:leda.spelta@acessodigital.net">Lêda Spelta</a>. Era a que mais queria ver e correspondeu às expectativas. Ela mostrou como pode ser difícil e às vezes até impossível para uma pessoa, por exemplo como ela que é deficiente visual, acessar o conteúdo de um site, ou melhor, tentar descobrir o conteúdo.
+Sensacional! Essa é a palavra que posso descrever a palestra da <a href="mailto:leda.spelta@acessodigital.net">Lêda Spelta</a>. Era a que mais queria ver e correspondeu às expectativas. Ela mostrou como pode ser difícil e às vezes até impossível para uma pessoa deficiente visual, acessar o conteúdo de um site, ou melhor, tentar descobrir o conteúdo.
 
 Recomendo a leitura do post do grande [Eduardo Matos](https://twitter.com/eduardojmatos) que fala mais sobre o tema da palestra: [Front in Sampa, acessibilidade e o tapa na cara que levei](http://eduardomatos.me/frontinsampa-acessibilidade-e-o-tapa-na-cara-que-levei/).
 
