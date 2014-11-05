@@ -30,18 +30,18 @@ Um que ia embora, chegavam mais dois. Encontrei alguns amigos como o [Felipe](ht
     <figcaption>"Faaaaaaaaaaaaaaaaaaaaaala galera.."</figcaption>
 </figure>
 
-Cheguei cedo no evento e logo de cara fui recebido pelos organizadores [Elvis](https://twitter.com/elvisdetona) e [Deivid](https://twitter.com/deividmarques). Ao entrar a primeira palestra tinha acabado de começar, fiquei chateado só de não ouvir se o [Daniel Filho](http://twitter.com/danielfilho) soltou o famoso "Faaaaaaaaaaaaaaaaaaaaaalaaaaa galeraaaa....." logo na abertura do evento. Deixo aqui registrado que o cara fala muito bem na frente do público. Parece que tá falando com 2 ou 3 pessoas só. Quisera eu ser tranquilo assim pra falar diante de uma galera.
+Cheguei cedo no evento e logo de cara fui recebido pelos organizadores [Elvis](https://twitter.com/elvisdetona) e [Deivid](https://twitter.com/deividmarques). Ao entrar, a primeira palestra tinha acabado de começar, fiquei chateado só de não ouvir se o [Daniel Filho](http://twitter.com/danielfilho) soltou o famoso "Faaaaaaaaaaaaaaaaaaaaaalaaaaa galeraaaa....." logo na abertura do evento. Deixo aqui registrado que o cara fala muito bem na frente do público. Parece que tá falando com 2 ou 3 pessoas só. Quisera eu ser tranquilo assim pra falar diante de uma galera.
 
 <figure class="loading thumb-right">
     <img src="{{ site.baseurl}}build/img/posts/front-in-sampa-2014-eu-compraria.jpg" alt="Daniel Filho apresentando o evento">
     <figcaption>Guilherme e Bianca do Eu Compraria</figcaption>
 </figure>
 
-Assim que acabou a primeira palestra, levantei para ir ao banheiro e voltei com 2 livros e 2 camisetas. No meio do caminho parei no espaço onde estavam o pessoal da Novatec e da [Eu compraria](http://eucompraria.com.br/) e não resisti. 
-
-Conheci o casal fundador da Eu Compraria ([Guilherme](https://twitter.com/gserrano) e [Bianca](https://twitter.com/biab)) e já bati um papo com eles.Casal muito gente fina mesmo. Se você não conhece o site, recomendo. As camisetas que comprei lá são de muito boa qualidade.
+Assim que acabou a primeira palestra, levantei para ir ao banheiro e voltei com 2 livros e 2 camisetas. No meio do caminho parei no espaço onde estavam o pessoal da Novatec e da [Eu compraria](http://eucompraria.com.br/) e não resisti. Acabei conhecendo o casal fundador ([Guilherme](https://twitter.com/gserrano) e [Bianca](https://twitter.com/biab)) e já bati um papo com eles. Casal muito gente fina mesmo. Se você não conhece o site, recomendo. As camisetas que comprei lá são de muito boa qualidade.
 
 ## As palestras do Front in Sampa
+
+Vou atualizando aqui conforme for achando os links das palestras.
 
 ### Diversão com Google Maps API
 
