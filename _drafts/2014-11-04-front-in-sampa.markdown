@@ -9,9 +9,9 @@ image: 'front-in-sampa-2014-raphael-fabeni-2.jpg'
 
 No último dia 25 de outubro rolou a 3ª edição do [Front in Sampa](http://frontinsampa.com.br/) no [Inferno Club](http://www.infernoclub.com.br/). SIM, pode acreditar, é uma balada. O evento acontece durante o dia inteiro e no final ainda rola um *happy hour* open bar com direito a Dj e tudo. 
 
-Tinha ido nas duas edições anteriores e já havia me programado para ir nesse ano de qualquer maneira. Aí vem a notícia boa! Um dia cá estava eu de bobeira quando toca meu celular: era o Sergio, também conhecido como [Elvis](https://twitter.com/elvisdetona), que é um dos organizadores do evento, me convidando para palestrar sobre CSS3. Aceitei na hora.
+Tinha ido nas duas edições anteriores e já havia me programado para ir nesse ano de qualquer maneira. Aí vem a notícia boa! Um dia cá estava eu de bobeira quando toca meu celular: era o Sergio, também conhecido como [Elvis](https://twitter.com/elvisdetona), que é um dos organizadores do evento, me convidando para palestrar sobre CSS3. Aceitei na hora. Não sabia se gritava, se contava pra alguém. Estava tão feliz que fiquei até confuso.
 
-Não vou mentir que não fiquei nervoso também. Vi que o evento era para 250 pessoas, e falar diante disso tudo de gente pra mim era inédito, mas tentava não ficar pensando muito nisso.
+Não vou mentir que não fiquei nervoso também. Vi que o evento era para 250 pessoas para o evento, e falar diante disso tudo de gente pra mim era inédito, mas tentava não ficar pensando muito nisso.
 
 ## O pré-evento
 
@@ -19,9 +19,9 @@ Não vou mentir que não fiquei nervoso também. Vi que o evento era para 250 pe
     <img src="{{ site.baseurl}}build/img/posts/front-in-sampa-2014-pre-evento.jpg" alt="Organização do evento Front in Sampa e convidados sentados em uma mesa de um bar acenando para a foto">
 </figure>
 
-Na sexta-feira antes, um dia antes do evento, rolou um encontro num hostel/bar ali na região dos Jardins pra oficialmente dar o *start*. Cheguei lá por volta das 21 e já tinha uma galera *trabalhando*.
+Na sexta-feira antes, um dia antes do evento, rolou um encontro num hostel/bar ali na região dos Jardins pra oficialmente dar o *start*. Cheguei lá por volta das 21 e já tinha uma galera no *trabalhando*.
 
-Um que ia embora, chegavam mais dois. Encontrei alguns amigos como o [Felipe](https://twitter.com/lfeh), o [Xhamps](https://twitter.com/xhamps) e o [Jeff Prestes](https://twitter.com/jeffprestes) (que também ia palestrar) e já pude conhecer alguns dos palestrantes, como a <a href="mailto:leda.spelta@acessodigital.net">Lêda Spelta</a> e o [João Dalben](https://www.linkedin.com/in/jdalben). Na hora que fui embora estava rodando um **balde** com caipirinha dentro. Como não bebo, me segurei no suco de laranja. ¯\\\_(ツ)_/¯
+Um que ia embora, chegavam mais dois. Encontrei alguns amigos como o [Felipe](https://twitter.com/lfeh), o [Xhamps](https://twitter.com/xhamps) e o [Jeff Prestes](https://twitter.com/jeffprestes) (que também ia palestrar) e já pude conhecer alguns dos palestrantes que não conhecia, como a <a href="mailto:leda.spelta@acessodigital.net">Lêda Spelta</a> e o [João](https://www.linkedin.com/in/jdalben). Na hora que fui embora estava rodando um **balde** com acho que caipirinha dentro. Como não bebo, me segurei no suco de laranja. ¯\\\_(ツ)_/¯
 
 ## O evento
 
@@ -40,6 +40,7 @@ Cheguei cedo no evento e logo de cara fui recebido pelos organizadores [Elvis](h
 Assim que acabou a primeira palestra, levantei para ir ao banheiro e voltei com 2 livros e 2 camisetas. No meio do caminho parei no espaço onde estavam o pessoal da Novatec e da [Eu compraria](http://eucompraria.com.br/) e não resisti. 
 
 Conheci o casal fundador da Eu Compraria ([Guilherme](https://twitter.com/gserrano) e [Bianca](https://twitter.com/biab)) e já bati um papo com eles.Casal muito gente fina mesmo. Se você não conhece o site, recomendo. As camisetas que comprei lá são de muito boa qualidade.
+
 
 ## As palestras do Front in Sampa
 
@@ -123,6 +124,7 @@ Por fim, eu falei um pouco de CSS3 e o quanto ele pode enriquecer os detalhes da
 <figure class="text-center loading presentation">
     <script async class="speakerdeck-embed" data-id="dcaef5e0400901324aa87a6501a1d9f8" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
 </figure>
+
 
 ## Resumindo
 
