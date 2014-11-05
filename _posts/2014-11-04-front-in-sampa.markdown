@@ -4,7 +4,7 @@ title:  "Front in Sampa 2014"
 description: "Um evento literalmente do Inferno"
 type: Post
 date: 2014-11-04
-image: ''
+image: 'front-in-sampa-2014-raphael-fabeni-2.jpg'
 ---
 
 No último dia 25 de outubro rolou a 3ª edição do [Front in Sampa](http://frontinsampa.com.br/) no [Inferno Club](http://www.infernoclub.com.br/). SIM, pode acreditar, é uma balada. O evento acontece durante o dia inteiro e no final ainda rola um *happy hour* open bar com direito a Dj e tudo. 
@@ -15,15 +15,31 @@ Não vou mentir que não fiquei nervoso também. Vi que o evento era para 250 pe
 
 ## O pré-evento
 
-Na sexta-feira antes, um dia antes do evento, rolou um encontro num hostel ali na região dos Jardins pra oficialmente dar *start*. Cheguei lá e a galera já tava aquecendo os motores. 
+<figure class="loading thumb-left">
+    <img src="{{ site.baseurl}}build/img/posts/front-in-sampa-2014-pre-evento.jpg" alt="Organização do evento Front in Sampa e convidados sentados em uma mesa de um bar acenando para a foto">
+</figure>
 
-Encontrei alguns amigos e já conhece alguns dos palestrantes como a Lêda e o João. Sai de lá e estava rodando literalmente um balde com acho que caipirinha dentro. Como não bebo, me segurei no suco de laranja. ¯\\\_(ツ)_/¯
+Na sexta-feira antes, um dia antes do evento, rolou um encontro num hostel/bar ali na região dos Jardins pra oficialmente dar o *start*. Cheguei lá por volta das 21 e já tinha uma galera no *trabalhando*.
+
+Um que ia embora, chegavam mais dois. Encontrei alguns amigos como o [Felipe](https://twitter.com/lfeh), o [Xhamps](https://twitter.com/xhamps) e o [Jeff Prestes](https://twitter.com/jeffprestes) (que também ia palestrar) e já pude conhecer alguns dos palestrantes que não conhecia, como a <a href="mailto:leda.spelta@acessodigital.net">Lêda Spelta</a> e o [João](https://www.linkedin.com/in/jdalben). Na hora que fui embora estava rodando um **balde** com acho que caipirinha dentro. Como não bebo, me segurei no suco de laranja. ¯\\\_(ツ)_/¯
 
 ## O evento
 
-Cheguei cedo no evento e logo de cara fui recebido pelos organizados [Elvis](https://twitter.com/elvisdetona) e [Deivid](https://twitter.com/deividmarques). Ao entrar a primeira palestra tinha acabado de começar, fiquei chateado só de não ouvir se o [Daniel Filho](http://twitter.com/danielfilho) solto o famoso "Faaaaaaaaaaaaaaaaaaaaaalaaaaa galeraaaa....." logo na abertura do evento. 
+<figure class="loading thumb-left">
+    <img src="{{ site.baseurl}}build/img/posts/front-in-sampa-2014-daniel-filho.jpg" alt="Daniel Filho apresentando o evento">
+    <figcaption>"Faaaaaaaaaaaaaaaaaaaaaala galera.."</figcaption>
+</figure>
 
-Como de costume, logo de cara já gastei um pouco; comprei 2 livros com o pessoal da Novatec e 2 camisetas com o pessoal da [Eu compraria](http://eucompraria.com.br/) (inclusive já fiz amizade com o casal fundador: [Guilherme](https://twitter.com/gserrano) e [Bianca](https://twitter.com/biab)) que são muito gente boa).
+Cheguei cedo no evento e logo de cara fui recebido pelos organizadores [Elvis](https://twitter.com/elvisdetona) e [Deivid](https://twitter.com/deividmarques). Ao entrar a primeira palestra tinha acabado de começar, fiquei chateado só de não ouvir se o [Daniel Filho](http://twitter.com/danielfilho) soltou o famoso "Faaaaaaaaaaaaaaaaaaaaaalaaaaa galeraaaa....." logo na abertura do evento. Deixo aqui registrado que o cara fala muito bem na frente do público. Parece que tá falando com 2 ou 3 pessoas só. Quisera eu ser tranquilo assim pra falar diante de uma galera.
+
+<figure class="loading thumb-right">
+    <img src="{{ site.baseurl}}build/img/posts/front-in-sampa-2014-eu-compraria.jpg" alt="Daniel Filho apresentando o evento">
+    <figcaption>Guilherme e Bianca do Eu Compraria</figcaption>
+</figure>
+
+Assim que acabou a primeira palestra, levantei para ir ao banheiro e voltei com 2 livros e 2 camisetas. No meio do caminho parei no espaço onde estavam o pessoal da Novatec e da [Eu compraria](http://eucompraria.com.br/) e não resisti. 
+
+Conheci o casal fundador da Eu Compraria ([Guilherme](https://twitter.com/gserrano) e [Bianca](https://twitter.com/biab)) e já bati um papo com eles.Casal muito gente fina mesmo. Se você não conhece o site, recomendo. As camisetas que comprei lá são de muito boa qualidade.
 
 
 ## As palestras do Front in Sampa
@@ -112,9 +128,13 @@ Por fim, eu falei um pouco de CSS3 e o quanto ele pode enriquecer os detalhes da
 
 ## Resumindo
 
+<figure class="loading thumb-left">
+    <img src="{{ site.baseurl}}build/img/posts/front-in-sampa-2014-raphael-fabeni.jpg" alt="Daniel Filho apresentando o evento">
+</figure>
+
 Comentei com um pessoal já e deixo registrado aqui: tem dias que ficam marcados pras pessoas. Pra mim, esse foi um deles; palestrar num evento como o Front in Sampa e ter na platéia várias pessoas que você considera referência é uma honra. Fiquei bem feliz, principalmente com o *feedback* que recebi.
 
-Uma coisa que me deixou muito feliz foi o grande Maujor, vir falar comigo e com o Ciro Nunes pra não deixarmos a *peteca* cair e continuarmos com os nossos projetos: Ciro com a recente idéia de cursos de Angular (na espera pra me cadastrar viu Ciro?!) e eu com o [Meetup CSS](http://www.meetup.com/CSS-SP/). Digo por mim e acredito que por Ciro também que não deixaremos. :)
+Uma coisa que me deixou muito feliz foi o grande Maujor, vir falar comigo e com o Ciro Nunes pra não deixarmos a *peteca* cair e continuarmos com os nossos projetos: Ciro com a recente idéia de cursos de Angular (na espera pra me cadastrar viu Ciro?!) e eu com o [Meetup CSS](http://www.meetup.com/CSS-SP/). Digo por mim e acredito que pelo Ciro também que não deixaremos. :)
 
-No geral o evento foi show de bola; revi grandes amigos, dei risada pra caramba e fiz várias amizades novas.
+No geral o evento foi show de bola; revi grandes amigos, dei risada pra caramba e fiz várias amizades novas. Que venha a edição 2015!
 
