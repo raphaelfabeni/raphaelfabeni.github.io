@@ -37,7 +37,16 @@ Cheguei cedo no evento e logo de cara fui recebido pelos organizadores [Elvis](h
     <figcaption>Guilherme e Bianca do Eu Compraria</figcaption>
 </figure>
 
-Assim que acabou a primeira palestra, levantei para ir ao banheiro e voltei com 2 livros e 2 camisetas. No meio do caminho parei no espaço onde estavam o pessoal da Novatec e da [Eu compraria](http://eucompraria.com.br/) e não resisti. Acabei conhecendo o casal fundador ([Guilherme](https://twitter.com/gserrano) e [Bianca](https://twitter.com/biab)) e já bati um papo com eles. Casal muito gente fina mesmo. Se você não conhece o site, recomendo. As camisetas que comprei lá são de muito boa qualidade.
+Assim que acabou a primeira palestra, levantei para ir ao banheiro e voltei com 2 livros e 2 camisetas. No meio do caminho parei no espaço onde estavam o pessoal da Novatec e da [Eu compraria](http://eucompraria.com.br/) e não resisti. Achei legal que quem optasse por pagar via PayPal, que era um dos patrocinadores do evento, ganhava um desconto na compra. Acabei conhecendo o casal fundador ([Guilherme](https://twitter.com/gserrano) e [Bianca](https://twitter.com/biab)) do Eu compraria e bati um papo com eles. Casal muito gente fina mesmo. Se você não conhece o site, recomendo. As camisetas que comprei lá são de muito boa qualidade.
+
+<figure class="loading thumb-left">
+    <img src="{{ site.baseurl}}build/img/posts/front-in-sampa-2014-nervoso.jpg" alt="Raphael Fabeni segurando um pedaço de papel com a boca">
+    <figcaption>Momento de tensão.. haha</figcaption>
+</figure>
+
+Um negócio que achei legal do Front in Sampa foi o tanto gente conhecida que estava lá. Pude rever e conversar com vários amigos que há algum tempo não via.
+
+Minha palestra era a última e parecia que o tempo não passava. Estava ansioso pra caramba pro início da minha palestra e até a pizza que comi na hora do almoço com o grande [Shankar Cabus](https://twitter.com/shankarcabus) não me acalmou.
 
 ## As palestras do Front in Sampa
 
@@ -135,4 +144,6 @@ Comentei com um pessoal já e deixo registrado aqui: tem dias que ficam marcados
 Uma coisa que me deixou muito feliz foi o grande Maujor, vir falar comigo e com o Ciro Nunes pra não deixarmos a *peteca* cair e continuarmos com os nossos projetos: Ciro com a recente idéia de cursos de Angular (na espera pra me cadastrar viu Ciro?!) e eu com o [Meetup CSS](http://www.meetup.com/CSS-SP/). Digo por mim e acredito que pelo Ciro também que não deixaremos. :)
 
 No geral o evento foi show de bola; revi grandes amigos, dei risada pra caramba e fiz várias amizades novas. Que venha a edição 2015!
+
+Se quiser ver mais fotos do evento, no [álbum do Facebook o pessoal já publicou algumas](https://www.facebook.com/media/set/?set=a.380437345369847.92612.328721007208148&type=1).
 
