@@ -1,0 +1,45 @@
+---
+layout: post
+title:  "Valeu 2014!"
+description: "Um resumo de porque 2014 foi tão legal"
+type: Post
+date: 2014-12-12
+image: ''
+---
+
+Todo mundo fala *"Nossa! O ano passou voando!"*. Nunca dei muito valor, mas esse ano pude comprovar que é verdade. Se passou rápido, geralmente é porque você esteve ocupado com outras coisas e teoricamente não teve tempo de *aproveitar* o ano; felizmente acho eu, posso contrariar um pouco essa teoria: o ano realmente passou rápido porque estava ocupado com algumas coisas, mas **coisas boas** e posso dizer que foi um ano muito produtivo e que não deixei de aproveitá-lo.
+
+2014 foi um ano muito legal. Tentei ao máximo colocar em prática tudo que *prometi* no começo do ano; claro que não consegui, mas o que consegui já me deixou bem feliz.
+
+...
+
+## Ir em todos eventos que pudesse
+
+<figure class="loading thumb-left">
+    <img src="{{ site.baseurl}}build/img/posts/2014-eventos.jpg" alt="Interior de uma gaveta com vários crachás de eventos de desenvolvimento web e design">
+</figure>
+
+Depois de um dos *meetups* do [FEMUG](http://sp.femug.com/), estava <s>em um bar</s> conversando com o pessoal até que começamos a falar sobre eventos. Aí o grande [Rinaldi](https://twitter.com/rafaelrinaldi) soltou: *"Pô Fabeni! Você tá em todos?"*. Em partes foi verdade.
+
+Minha meta esse ano era ir em todos os eventos (eventos, meetups, conferências, ...) que pudesse, inclusive os que eram fora de São Paulo. **Queria** ter ido em todos, mas não consegui. 
+
+Valeu a pena? Claro. Posso adiantar que não era uma meta barata, pois apesar de alguns eventos, como os *meetups*, serem gratuitos, a grande maioria é paga. E apesar de sempre rolar um cupom promocional *aqui e acolá*, esporadicamente a brincadeira não fica cara, mas quando a sua meta é abraçar todos, a fatura do cartão de crédito começa a rir da sua cara. Se é fora de São Paulo ainda (meu caso), onde além da entrada você precisa ir atrás de hospedagem e transporte, a brincadeira fica mais séria.
+
+Mas aí você me pergunta: *Fabeni, vale a pena?*. Fiz essa pergunta pra mim mesmo, quando levantei os gastos que tive pra ir assistir o [Front in BH](http://frontinbh.com.br/). E a minha resposta foi mais rápida do que imaginei: **vale e muito**. 
+
+Você tem a oportunidade a ver coisas novas, fazer novas amizades, conversar de assuntos que só você da sua família entende e claro, dar muita risada. Se você ainda não teve essa coragem de viajar pra ir a um evento, **recomendo e muito"". Se você pensa muito até em ir em eventos da sua cidade, não pense! 
+
+## Sair da poltrona e subir no palco
+
+Palestrar sempre foi uma palavra que me dava um certo receio. Na época de colégio e faculdade, sempre que precisou fui o *cara que apresentava o trabalho*, mas até aí estava diante dos meus amigos com quem dava risada e enchia o saco todo dia e no máximo tinha um ou outro professor desconhecido. 
+
+Agora palestrar em eventos, conferências, para um monte de pessoas desconhecidas e que na maioria das vezes, pagaram pra estar ali assistindo sua palestra, era algo que nunca havia imaginado.
+
+Não vou mentir e dizer que essa era uma meta que fiz no começo desse ano. Mas foi uma meta que tive coragem de assumir próximo do meio do ano. Sempre achei o [TDC](http://www.thedevelopersconference.com.br/) um evento muito legal. Esse ano quando as inscrições abriram e ia me inscrever, acabei vendo o link em um tweet para submissão de palestras. Na época estava mexendo bastante com *SASS* e *CSS3* e pensei, **por que não?**
+
+Mandei! Passaram uns 10 dias e já meio que tinha desistido. Um dia a noite estava em casa e o pessoal da organização me ligou! Que tinham gostado do tema e se eu podia palestrar. **Claro que podia!** Fiquei nervoso pra caramba na hora, não minto, mas foi bem legal ([contei um pouco nesse post](http://www.raphaelfabeni.com.br/tdc-2014/)).
+
+Depois daí, acabei conhecendo pessoas novas e palestrei em mais alguns lugares como o [DevInCompany](http://www.raphaelfabeni.com.br/dev-in-company/) em BH, e o [WordCamp](http://www.raphaelfabeni.com.br/wordcamp-sp-2014/) e o [Front in Sampa](http://www.raphaelfabeni.com.br/front-in-sampa/) aqui em São Paulo.
+
+Minha sugestão é se você era igual eu: um pouco tímido e achava que palestrar era algo muito distante e que nunca iria acontecer: saia dessa zona de conforto e arrisque. Submeta suas idéias! Às vezes o que você considera *simples* pode ser um tema que muita gente quer saber mais.
+
