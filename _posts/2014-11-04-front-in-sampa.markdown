@@ -54,7 +54,11 @@ Vou atualizando aqui conforme for achando os links das palestras.
 
 ### Diversão com Google Maps API
 
-Cheguei no evento e a palestra do [Kenzo Porto](https://github.com/ekkporto) tinha acabado de começar. Ele mostrou vários exemplos de como o Google Maps é poderoso e pode ajudar e **muito** nas aplicações. *Procurando link da talk.*
+Cheguei no evento e a palestra do [Kenzo Porto](https://github.com/ekkporto) tinha acabado de começar. Ele mostrou vários exemplos de como o Google Maps é poderoso e pode ajudar e **muito** nas aplicações.
+
+<figure class="text-center loading">
+    <iframe width="560" height="315" src="//www.youtube.com/embed/lxciowxpqqY" frameborder="0" allowfullscreen></iframe>
+</figure>
 
 ### Criando componentes AngularJS
 
@@ -66,6 +70,10 @@ Por sinal, na palestra ele anunciou que está organizando um curso sobre Angular
     <script async class="speakerdeck-embed" data-id="de7fca6000910132f12036607ba5d423" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
 </figure>
 
+<figure class="text-center loading">
+    <iframe width="560" height="315" src="//www.youtube.com/embed/Iwx2alIuS-c" frameborder="0" allowfullscreen></iframe>
+</figure>
+
 ### Ao infinito e além com WebStorm
 
 O [Anderson Casimiro](https://twitter.com/duodraco) apresentou o WebStorm e falou um pouco sobre ela. Confesso que tudo pareceu muito fácil e pretendo testá-la em breve.
@@ -74,10 +82,18 @@ O [Anderson Casimiro](https://twitter.com/duodraco) apresentou o WebStorm e falo
     <iframe src="//www.slideshare.net/slideshow/embed_code/41061380" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
 </figure>
 
+<figure class="text-center loading">
+    <iframe width="560" height="315" src="//www.youtube.com/embed/oL4wuEwas9s" frameborder="0" allowfullscreen></iframe>
+</figure>
+
 ### Jogos: indo além do simples CSS!
 
 *1 minuto de silêncio!* A [Fernanda Bernardo](https://www.facebook.com/feh.bernardo) mitou! Ela fez um jogo apenas em CSS. O raciocínio que ela teve com a lógica do projeto foi sensacional. O *feedback* da galera foi incrível.
 [Link da palestra](https://docs.google.com/presentation/d/1JH_xJOjeN1Btt2Ht0IWTD3kG_tXvF62xrKYU5UKWvso/edit#slide=id.g3f3cb59c2_0215).
+
+<figure class="text-center loading">
+    <iframe width="560" height="315" src="//www.youtube.com/embed/PB_825k8dI4" frameborder="0" allowfullscreen></iframe>
+</figure>
 
 ### Dados sobre dados: Microdata e Open Graph
 
@@ -89,6 +105,10 @@ O [Thiago Pontes](https://twitter.com/thiagopnts) deu um show falando sobre o [C
 
 <figure class="text-center loading presentation">
     <script async class="speakerdeck-embed" data-id="d6b967503f780132abea7e7a6ea903d7" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+</figure>
+
+<figure class="text-center loading">
+    <iframe width="560" height="315" src="//www.youtube.com/embed/GcYkwd7g0bA" frameborder="0" allowfullscreen></iframe>
 </figure>
 
 ### Atual mercado para front-end
@@ -109,6 +129,10 @@ Sensacional! Essa é a palavra que posso descrever a palestra da <a href="mailto
 
 Recomendo a leitura do post do grande [Eduardo Matos](https://twitter.com/eduardojmatos) que fala mais sobre o tema da palestra: [Front in Sampa, acessibilidade e o tapa na cara que levei](http://eduardomatos.me/frontinsampa-acessibilidade-e-o-tapa-na-cara-que-levei/).
 
+<figure class="text-center loading">
+    <iframe width="560" height="315" src="//www.youtube.com/embed/hna7hbg98z4" frameborder="0" allowfullscreen></iframe>
+</figure>
+
 ### O poder está no front-end
 
 Conheci a figura do [Shankar Cabus](https://twitter.com/shankarcabus) no TDC desse ano e já tinha visto sua palestra. O cara manda muito bem na apresentação e o que acho mais legal é que ele consegue passar uma mensagem importante de forma engraçada.
@@ -117,7 +141,11 @@ Conheci a figura do [Shankar Cabus](https://twitter.com/shankarcabus) no TDC des
     <script async class="speakerdeck-embed" data-id="4dba5be01b190131927a62c603094d7b" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
 </figure>
 
-### Testes A/B>: Pequenas mudanças, grandes resultados
+<figure class="text-center loading">
+    <iframe width="560" height="315" src="//www.youtube.com/embed/cmT3clnhbiQ" frameborder="0" allowfullscreen></iframe>
+</figure>
+
+### Testes A/B: Pequenas mudanças, grandes resultados
 
 O mestre [Jeff Prestes](https://twitter.com/jeffprestes) falou sobre testes A/B e deu dicas e vantagens do uso dessa técnica. Destaque pra sua perfomance, que como ele disse foi de *rei do camarote*: entre um tópico e outro ele jogava camisetas pra galera. *Procurando link da talk.*
 
@@ -131,6 +159,10 @@ Por fim, eu falei um pouco de CSS3 e o quanto ele pode enriquecer os detalhes da
 
 <figure class="text-center loading presentation">
     <script async class="speakerdeck-embed" data-id="dcaef5e0400901324aa87a6501a1d9f8" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+</figure>
+
+<figure class="text-center loading">
+    <iframe width="560" height="315" src="//www.youtube.com/embed/udV_GD5QNsI" frameborder="0" allowfullscreen></iframe>
 </figure>
 
 ## Resumindo
