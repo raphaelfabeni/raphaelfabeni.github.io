@@ -3,11 +3,11 @@ layout: post
 title:  "Valeu 2014!"
 description: "Um resumo de porque 2014 foi tão legal"
 type: Post
-date: 2014-12-12
+date: 2014-12-19
 image: '2014-demais.jpg'
 ---
 
-Todo mundo já disse ou ouviu alguém dizer: *"Nossa! O ano passou voando!"*. Nunca dei muito valor a essa frase, mas esse ano pude comprovar que é verdade. Se passou rápido, geralmente é porque você esteve ocupado com outras coisas e teoricamente não teve tempo de *aproveitar* o ano; felizmente acho eu, posso contrariar um pouco essa teoria: o ano realmente passou rápido porque estava ocupado com algumas coisas, mas **coisas boas** e posso dizer que foi um ano muito produtivo e que não deixei de aproveitá-lo.
+Todo mundo já disse ou ouviu alguém dizer: *"Nossa! O ano passou voando!"*. Nunca dei muito valor a essa frase, mas esse ano pude comprovar que é verdade. Se passou rápido, geralmente é porque você esteve ocupado com outras coisas e teoricamente não teve tempo de *aproveitar* o ano; felizmente acho eu, posso contrariar um pouco essa teoria: o ano realmente passou rápido porque estava ocupado com algumas coisas, mas **coisas boas**; posso dizer que foi um ano muito produtivo e que não deixei de aproveitá-lo.
 
 Sempre fazemos promessas no começo de cada ano e esse não foi diferente. Tentei ao máximo colocar em prática tudo que *havia prometido*; claro que não consegui tudo, mas foi o suficiente para me deixar bem feliz.
 
@@ -38,7 +38,7 @@ Aqui algumas dicas de eventos pra você começar:
 
 ## Criar coragem e subir no palco
 
-Palestrar sempre foi uma palavra que me dava um certo receio. Na época de colégio e faculdade, sempre que precisou fui o *cara que apresentava o trabalho*, mas até aí estava diante dos meus amigos com quem dava risada e enchia o saco todo dia e no máximo tinha um ou outro professor desconhecido.
+Palestrar sempre foi uma palavra que me dava um certo receio. Na época de colégio e faculdade, sempre que precisou fui o *cara que apresentava o trabalho*, mas até aí estava diante dos meus amigos com quem dava risada, enchia o saco todo dia e no máximo tinha um ou outro professor desconhecido.
 
 Agora palestrar em eventos para um monte de pessoas desconhecidas e que pagaram pra estar ali assistindo sua palestra, era algo que nunca havia imaginado.
 
@@ -58,16 +58,16 @@ Pra você que também é tímido como eu e pensa na palavra *palestrar* como alg
 
 É normal na vida de uma cidade grande como São Paulo que a gente acabe entrando numa rotina. Sair um pouco dela, viajar e fazer coisas diferentes são coisas que acredito que fazem um bem *danado*.
 
-Por volta do meio desse ano, eu e o [Felipe Fialho](https://twitter.com/lfeh) resolvemos tentar embarcar nessa idéia e fazer algo que fosse diferente pra ambos: decidimos tentar organizar um [meetup de CSS](http://www.meetup.com/CSS-SP/). Não sabíamos ao certo se a idéia iria vingar, e só o [primeiro encontro](/nascimento-meetup-css/) que poderia dar uma posição a respeito, mas até então vem dando certo. **o/**
+Por volta do meio desse ano, eu e o [Felipe Fialho](https://twitter.com/lfeh) resolvemos tentar embarcar nisso e fazer algo que fosse diferente pra ambos: decidimos tentar organizar um [meetup de CSS](http://www.meetup.com/CSS-SP/). Não sabíamos ao certo se iria vingar, e só o [primeiro encontro](/nascimento-meetup-css/) que poderia dar uma posição a respeito, mas até então vem dando certo. **o/**
 
 Não tínhamos ambição de ficar famoso nem de virar *fulano* ou *beltrano*, simplemente pegamos uma coisa que gostávamos e tentamos fazer algo diferente, que todos pudessem aproveitar. Tanto que é essa a idéia do projeto: ["De todos para todos!"](https://speakerdeck.com/raphaelfabeni/bem-vindos-ao-meetp-css?slide=3).
 
 ## Resumindo...
 
-2014 foi um ano de mudanças e acho que por isso foi do *c...*. É normal que *uma coisa puxe a outra*. Comecei a ir em mais eventos => conheci uma galera nova => surgiu a idéia do meetup => e por aí vai.
+2014 foi um ano de mudanças e acho que por isso foi do tão legal. É normal que *uma coisa puxe a outra*. Comecei a ir em mais eventos => conheci uma galera nova => surgiu a idéia do meetup => e por aí vai.
 
 Poder ver que algo que você fez pôde ajudar outras pessoas é simplesmente sensacional. Digo isso, pois na maioria das vezes estou do lado que foi ajudado e, pelo menos uma vez estar do lado de quem ajuda é um negócio que nunca imaginei.
 
 Acredito que mais do que ter vontade de fazer algo e ir atrás, é ter por perto pessoas que não te deixam desacreditar do que você busca. E nesse ponto posso com tranquilidade citar minha família. Minha namorada que é formada em moda, já até fuçou no CodeAcademy pra ter uma base do que faço todo dia e o que acho mais legal, [ela foi em quase todos meetups e eventos que palestrei](http://instagram.com/p/tlrEbexA9_/?modal=true).
 
-Termino 2014 mais empolgado do que nunca. Entrei pro time de desenvolvimento da [Netshoes](http://www.netshoes.com.br) e vou trabalhar ao lado de caras *f...*. Que venha 2015 :)
+Termino 2014 mais empolgado do que nunca. Entrei pro time de desenvolvimento da [Netshoes](http://www.netshoes.com.br) e junto a uma equipe *f..*. Que venha 2015 :)
