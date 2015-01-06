@@ -163,6 +163,11 @@
 
             .post-content figure { margin: 0 0 15px 0; }
 
+            .post-content .image-opening {
+                max-height: 450px;
+                overflow: hidden;
+            }
+
             .post-content figure.thumb-left {
                 float: left;
                 margin-right: 15px;
@@ -340,7 +345,7 @@
                 backface-visibility: visible;
                 @include animation(flipInY 2s 1.5s ease both);
             }
-            
+
             .main-index p:first-child { @include animation(fadeIn 1.5s 2s ease both); }
             .main-index p:nth-child(2) { @include animation(fadeIn 1.5s 2.5s ease both); }
             .main-index p:nth-child(3) { @include animation(fadeIn 1.5s 3s ease both); }
@@ -366,7 +371,7 @@
     }
 
     @media only screen and (min-width: 1375px) {
-        
+
         .header-home .btn-color { position: absolute; }
         .btn-color { position: fixed; }
 

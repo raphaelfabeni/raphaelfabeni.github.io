@@ -9,6 +9,10 @@ language: pt-br
         <p class="date text-center">{{ page.date | date: "%-d/%m/%Y" }}</p>
     </header>
 
+    <figure class="text-center loading image-opening">
+        <img src="{{ site.baseurl}}build/img/posts/{{ page.image }}" alt="{{ page.description }}">
+    </figure>
+
     {{ content }}
 </article>
 

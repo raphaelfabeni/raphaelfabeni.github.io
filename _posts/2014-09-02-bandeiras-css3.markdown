@@ -13,13 +13,7 @@ Alguns dias depois, vi o projeto sensacional <a href="http://lynnandtonic.github
 
 Como alguns sabem, eu sou apaixonado por esporte (diga-se futebol), é tanto que a <a href="https://speakerdeck.com/raphaelfabeni/keep-calm-and-lets-play-css3" target="_blank">minha palestra no TDC desse ano</a> fez várias relações com a seleção brasileira de futebol. Com isso pensei: porque não tentar desenhar as bandeiras de alguns países usando só CSS?
 
-Legal! <strong>Challenge accepted!</strong> Comecei pelas mais básicas e depois fui tentando fazer algumas mais incrementadas. O resultado final você <a href="http://raphaelfabeni.com.br/flags-css3" target="_blank">consegue ver aqui</a>. 
-
-<figure class="text-center loading">
-    <a href="http://raphaelfabeni.com.br/flags-css3" target="_blank">
-        <img src="{{ site.baseurl}}build/img/posts/flags-css3.png" alt="Imagem mostra print de algumas bandeiras desenvolvidas usando apenas CSS3">
-    </a>
-</figure>
+Legal! <strong>Challenge accepted!</strong> Comecei pelas mais básicas e depois fui tentando fazer algumas mais incrementadas. O resultado final você <a href="http://raphaelfabeni.com.br/flags-css3" target="_blank">consegue ver aqui</a>.
 
 No total foram 30 bandeiras. Apesar de em alguns casos, ser possível diminuir o número de elementos, não me preocupei muito com isso agora. Espero que gostem.
 
