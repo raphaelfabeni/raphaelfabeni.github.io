@@ -10,7 +10,11 @@ language: pt-br
     </header>
 
     <figure class="text-center loading image-opening">
+        {% if page.alt %}
+        <img src="{{ site.baseurl}}build/img/posts/{{ page.image }}" alt="{{ page.alt }}">
+        {% else %}
         <img src="{{ site.baseurl}}build/img/posts/{{ page.image }}" alt="{{ page.description }}">
+        {% endif %}
     </figure>
 
     {{ content }}
