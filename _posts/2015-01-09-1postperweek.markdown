@@ -7,7 +7,7 @@ date: 2015-01-09
 image: '1-post-per-week.jpg'
 ---
 
-Esses dias navegando pela internet acabei caindo no [post](http://blog.da2k.com.br/2014/12/31/um-post-por-dia/) do grande Fernando Daciuk. No post ele se coloca uma meta que é escrever um post por dia que serão compartilhados com a hashtag *#1postperday*.
+Esses dias navegando pela internet acabei caindo no [post](http://blog.da2k.com.br/2014/12/31/um-post-por-dia/) do grande [Fernando Daciuk](https://twitter.com/fdaciuk). No post ele se coloca uma meta que é escrever um post por dia que serão compartilhados com a hashtag *#1postperday*.
 
 Achei bem legal a idéia e já vi um pessoal tentando colocar em prática. Vou tentar também mas irei começar de um jeito mais moderado. Como é explicado no post, não existe uma regra, a não ser respeitar a frequência que você estipular.
 
