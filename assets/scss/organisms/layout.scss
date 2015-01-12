@@ -282,6 +282,11 @@
                     color: inherit;
                 }
 
+                .language-css > span:first-child {
+                    position: relative;
+                    left: -4px;
+                }
+
                 /* Adjustments for code inside text */
                 p code { font-size: 16px; }
                 code { font-size: 14px; }
