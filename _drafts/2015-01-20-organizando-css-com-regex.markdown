@@ -65,10 +65,8 @@ Minha idéia era tentar aplicar o básico de regex no *Find & Replace* para tent
 
 {% highlight css %}
 .class{border:solid 1px red;}
-
 .class:hover{border:solid 1px blue;}
-
-.class-inverse {border:none;background-color:red;}
+.class-inverse{border:none;background-color:red;}
 {% endhighlight  %}
 
 * *Find* => `([a-zA-z0-9])\:(?!hover|focus)([a-zA-z0-9])`
@@ -78,12 +76,21 @@ Nesse caso estamos buscando quaisquer digitos ou letras (exceto que formem as st
 
 {% highlight css %}
 .class{border: solid 1px red;}
-
 .class:hover{border: solid 1px blue;}
-
-.class-inverse {border: none;background-color: red;}
+.class-inverse{border: none;background-color: red;}
 {% endhighlight  %}
 
 ## Caso 2 => as chaves
+
+* *Find* => `([a-zA-z0-9])\{([a-zA-z0-9])`
+* *Replace* => $1 { $2
+
+Agora apenas buscamos `{` que estejam envoltas em letras ou números e aplicamos um espaço em volta delas.
+
+{% highlight css %}
+.class { border: solid 1px red;}
+.class:hover { border: solid 1px blue;}
+.class-inverse { border: none;background-color: red;}
+{% endhighlight  %}
 
 

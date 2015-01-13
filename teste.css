@@ -1,4 +1,3 @@
-.class{border: solid 1px red;}
-.class:hover{border: solid 1px blue;}
-
-.class-inverse {border: none;background-color: red;}
+.class { border: solid 1px red;}
+.class:hover { border: solid 1px blue;}
+.class-inverse { border: none;background-color: red;}
