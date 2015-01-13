@@ -4,19 +4,19 @@ title:  "Regex para organizar seu CSS"
 description: "Obsessivo por organização, acabei brincando esses dias para reorganizar uns arquivos CSS"
 type: Post
 date: 2015-01-20
-image: ''
+image: 'regex-organizacao-css.jpg'
 ---
 
 Sempre fui um cara bastante preocupado em organização e acho que acabei passando essa característica pro mundo do desenvolvimento. Por exemplo, código não identado ou com a falta de um padrão são coisas que me incomodam um pouco. Se você se interessa pelo assunto, recomendo esse [artigo](https://medium.com/@shankarcabus/css-escalavel-parte-1-41e7e863799e) do [Shankar Cabus](https://twitter.com/ShankarCabus) que é focado em CSS escalável.
 
 Sou daqueles que prefere pecar pelo excesso do que pela falta. Pra mim, tudo tem que ser documentado/explicado. O que você está escrevendo ali na hora, outras pessoas não tem como adivinhar e até você mesmo pode esquecer isso depois de um tempo.
 
-Falando em CSS, eu gosto de utilizar comentários para divisão do código em blocos. Fiz há um tempo atrás uns [snippets para o Sublime Text](https://github.com/raphaelfabeni/css-comments) com base no que é proposto pelo [idiomatic-css](https://github.com/necolas/idiomatic-css) e não consigo mais viver sem. Se interessar mais pelo assunto, apresentei uma talk rápida [Organizando o CSS](https://speakerdeck.com/raphaelfabeni/organizando-o-css) em um dos [Meetups de CSS](http://www.meetup.com/CSS-SP/).
+Falando em CSS, eu gosto de utilizar comentários para divisão do código em blocos. Fiz há um tempo atrás uns [snippets para o Sublime Text](https://github.com/raphaelfabeni/css-comments) com base no que é proposto pelo [idiomatic-css](https://github.com/necolas/idiomatic-css) e não consigo mais viver sem. Se você é como eu, e se interessa pelo assunto, apresentei uma talk rápida [Organizando o CSS](https://speakerdeck.com/raphaelfabeni/organizando-o-css) em um dos [Meetups de CSS](http://www.meetup.com/CSS-SP/).
 
 
 ## Arrumando a casa
 
-Algum tempo atrás acabei mexendo em um código CSS *beeeeem* antigo. Logo de cara já sai arrumando identação e principalmente adotando um padrão para a escrita do código. *Mas que padrão é esse?*, você deve estar se perguntando. São coisas simples. Por exemplo, o trecho de código abaixo:
+Algum tempo atrás acabei mexendo em um código CSS *beeeeem* antigo. Logo de cara já sai arrumando indentação e principalmente adotando um padrão para a escrita do código. *Mas que padrão é esse?*, você deve estar se perguntando. São coisas simples. Por exemplo, o trecho de código abaixo:
 
 {% highlight css %}
 .class{border:solid 1px red;}
@@ -59,7 +59,7 @@ Viram? Ele insere também um espaço antes do `hover`. Poderíamos arrumar isso 
 
 Lembro de uma citação do [Rinaldi](https://twitter.com/rafaelrinaldi) que ele diz que ninguém domina regex e, realmente acho que pra dominar a parada você tem que ser tipo Batman. Brincadeiras a parte, regex é muito bacana, apesar de ter dado tela azul na minha cabeça algumas vezes.
 
-Minha idéia era tentar aplicar o básico de regex no *Find & Replace* para tentar solucionar problemas como o citado acima com os `:`. Antes de qualquer coisa, estou usando o *Find & Replace* Sublime Text que pode ser acessado pelo comando `cmd + shift + f` e, ativando a opção de Regex (clicando em botão do lado esquerdo que tem um ponto e um asterisco => `.*`).
+Minha idéia era tentar aplicar o básico de regex no *Find & Replace* para tentar solucionar problemas como o citado acima com os `:`. Antes de qualquer coisa, estou usando o *Find & Replace* do Sublime Text que pode ser acessado pelo comando `cmd + shift + f` e, ativando a opção de Regex (clicando em botão do lado esquerdo que tem um ponto e um asterisco => `.*`).
 
 ### Caso 1 => os dois pontos
 
@@ -73,9 +73,9 @@ Minha idéia era tentar aplicar o básico de regex no *Find & Replace* para tent
 {% endhighlight  %}
 
 * *Find* => `([a-zA-z0-9])\:(?!hover|focus)([a-zA-z0-9])`
-* *Replace* => $1: $2
+* *Replace* => `$1: $2`
 
-Nesse caso estamos buscando quaisquer digitos ou letras (exceto que formem as strings *hover* ou focus) e que estejam em volta de um `:`.
+Nesse caso estamos buscando quaisquer digitos ou letras (exceto que formem as strings *hover* ou *focus*) e que estejam em volta de um `:` e substituindo pelo primeiro *match* seguido de dois pontos, espaço e o segundo *match*; deixando nosso código assim.
 
 {% highlight css %}
 .class{border: solid 1px red;}
@@ -86,28 +86,64 @@ Nesse caso estamos buscando quaisquer digitos ou letras (exceto que formem as st
 }
 {% endhighlight  %}
 
-## Caso 2 => as chaves
+### Caso 2 => as chaves
 
 * *Find* => `([a-zA-z0-9])\{([a-zA-z0-9])`
-* *Replace* => $1 { $2
+* *Replace* => `$1 { $2`
 
 Agora apenas buscamos `{` que estejam envoltas em letras ou números e aplicamos um espaço em volta delas.
 
 {% highlight css %}
 .class { border: solid 1px red;}
 .class:hover { border: solid 1px blue;}
-.class-inverse { border: none;background-color: red;}
+.class-inverse {
+    border: none;background-color: red;
+    width: 100px;
+}
 {% endhighlight  %}
 
-Continuando agora para a chave de fechamento, buscamos qualquer `}` que seja seguida de um `;`:
-
 * *Find* => `(\;)\}`
-* *Replace* => $1 }
+* *Replace* => `$1 }`
+
+Continuando agora para a chave de fechamento, buscamos qualquer `;` que seja seguida de uma `}` e apenas adicionamos um espaço antes dela.
 
 {% highlight css %}
 .class { border: solid 1px red; }
 .class:hover { border: solid 1px blue; }
-.class-inverse { border: none;background-color: red; }
+.class-inverse {
+    border: none;background-color: red;
+    width: 100px;
+}
 {% endhighlight  %}
+
+### Caso 3 => o ponto e vírgula
+
+* *Find* => `([a-zA-z0-9])\;([a-zA-z0-9])`
+* *Replace* => `$1;\n\t$2`
+
+Agora buscamos todo `;` que esteja entre letras e/ou dígitos e substituímos pelo primeiro *match* seguido do ponto e vírgula, uma quebra de linha, um *tab* e por fim o segundo *match*; deixando nosso código dessa maneira.
+
+{% highlight css %}
+.class { border: solid 1px red; }
+.class:hover { border: solid 1px blue; }
+.class-inverse {
+    border: none;
+    background-color: red;
+    width: 100px;
+}
+{% endhighlight  %}
+
+## Vale a pena?
+
+Estamos na era da automatização e eu me perguntei logo no início se não teria alguma ferramenta ou até extensão do Sublime que fizesse isso. Antes de procurar a resposta, resolvi brincar um pouco com regex.
+
+A resposta da pergunta acima acredito que seja meio óbvia e espero que o caro leitor não fique bravo de ter lido até aqui e descobrir que **sim**, existem soluções prontas para isso. Uma delas é o [SassBeautify](https://packagecontrol.io/packages/SassBeautify) que pode ser instalado via *package control*.
+
+Gostou? Escrevi alguma groselha? Quer melhorar? Abra uma [issue](https://github.com/raphaelfabeni/raphaelfabeni.github.io/issues) com a hashtag *1postperweek* e vamos conversar.
+
+
+
+
+
 
 
