@@ -38,10 +38,12 @@ Aí começamos a *meter bronca* no projeto local e fazemos um *commit* com essas
 
 Se você enviar suas alterações para o Github e tentar fazer um *pull request* ele irá notificar que não é possível fazer o *merge* do repositório. Pra isso, precisamos atualizar nosso projeto local de acordo com a versão original. E é aí que entra o tal do *upstream*.
 
-Adicionamos um remote com base na versão original do projeto:
+Digamos que você esteja contribuindo para este humilde blog :)
+
+Adicionamos um remote com base na versão original do meu site pessoal:
 
 {% highlight bash %}
-$ git remote add upstream <path_original>
+$ git remote add upstream https://github.com/raphaelfabeni/raphaelfabeni.github.io.git
 {% endhighlight  %}
 
 Após feito isso precisamos atualizar o *upstream*:
