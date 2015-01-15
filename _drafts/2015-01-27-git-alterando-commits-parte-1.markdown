@@ -4,7 +4,7 @@ title:  "Git: Alterando seus commits com rebase - parte 1/2"
 description: "Muitas vezes acabamos fazendo commits que acabam não tendo muito sentido na história como um todo, com rebase conseguimos brincar com isso."
 type: Post
 date: 2015-01-27
-image: 'git-commit-rebase.jpg'
+image: 'git-alterando-commits-parte-1.jpg'
 ---
 
 Quanto mais mexemos com *git* mais descobrimos coisas mirabolantes que ele pode fazer. Descobri há um tempo atrás uma maneira de organizar/alterar seus *commits* e que me ajudou bastante.
@@ -13,7 +13,8 @@ Editar *commits*? Pra que? Pois é. Alguns casos:
 
 * a mensagem do *commit* está errada ou não faz sentido;
 * a ordem dos commits não está legal em relação à história;
-* existem mais de um *commit* que fazem coisas similares (senão a mesma coisa).
+* existe mais de um *commit* que fazem coisas similares (senão a mesma coisa).
+* um *commit* agrupou muito código diferente e faz sentido dividi-lo em *commits* menores.
 
 ## Um exemplo rápido
 
@@ -39,9 +40,9 @@ Se rodássemos um simples *log* para ver os *commits* teríamos algo assim (limi
 
 {% highlight bash %}
 git log --oneline
-9afe987 Ajustes de CSS e JS no slideshow.
-1ee9572 Atualiza o README.
 74e6f3e Mais ajustes de CSS e JS no slideshow.
+1ee9572 Atualiza o README.
+9afe987 Ajustes de CSS e JS no slideshow.
 {% endhighlight %}
 
 Se o projeto é pequeno/pessoal, até daria pra deixar assim, no entanto, quando estamos trabalhando com outras pessoas em um projeto grande, pode ficar meio estranho no conjunto da história. É aí que entra o *interactive rebase*. Com ele conseguimos alterar *commits* em um mesmo *branch*. Paremos de falar e vamos ao que interessa.
@@ -60,9 +61,9 @@ Rodamos o comando acima onde o:
 Feito isso aparecerá uma tela similar a essa abaixo (todas *telas* citadas abaixo irão abrir no seu editor que estiver setado como *default*):
 
 {% highlight bash %}
-pick 9afe987 Ajustes de CSS e JS no slideshow.
-pick 1ee9572 Atualiza o README.
 pick 74e6f3e Mais ajustes de CSS e JS no slideshow.
+pick 1ee9572 Atualiza o README.
+pick 9afe987 Ajustes de CSS e JS no slideshow.
 
 # Rebase 5644bdd..74e6f3e onto 5644bdd
 #
@@ -75,14 +76,14 @@ pick 74e6f3e Mais ajustes de CSS e JS no slideshow.
 #  x, exec = run command (the rest of the line) using shell
 {% endhighlight %}
 
-### Reordenando *commits*
+## Reordenando *commits*
 
-No exemplo acima poderíamos alterar a ordem dos *commits* deixando juntos os que são relacionados ao mesmo tema por exemplo. Pra isso, na tela anterior, edite a ordem copiando e colando as linhas na ordem que preferir. Para o exemplo, deixamos assim:
+No exemplo acima poderíamos alterar a ordem dos *commits* deixando juntos os que são relacionados ao mesmo tema por exemplo. Pra isso, na tela anterior, edite a ordem copiando e colando as linhas na ordem que preferir. Para o exemplo, poderíamos algo mais ou menos assim:
 
 {% highlight bash %}
-pick 9afe987 Ajustes de CSS e JS no slideshow.
-pick 74e6f3e Mais ajustes de CSS e JS no slideshow.
 pick 1ee9572 Atualiza o README.
+pick 74e6f3e Mais ajustes de CSS e JS no slideshow.
+pick 9afe987 Ajustes de CSS e JS no slideshow.
 {% endhighlight %}
 
 E ... pronto! Se Se ocorreu tudo certo aparecerá uma mensagem mais ou menos assim:
@@ -140,12 +141,18 @@ Atualiza informações sobre dependências JS no README.
 E... pronto! \o/ Se rodarmos um *log* simples, veremos a lista dos *commits* com a mensagem atualizada:
 
 {% highlight bash %}
-9afe987 Ajustes de CSS e JS no slideshow.
-74e6f3e Mais ajustes de CSS e JS no slideshow.
 1ee9572 Atualiza informações sobre dependências JS no README.
+74e6f3e Mais ajustes de CSS e JS no slideshow.
+9afe987 Ajustes de CSS e JS no slideshow.
 {% endhighlight %}
 
 Pra não ficar muito extenso, dividi o assunto em 2 posts. No próximo vamos falar de mesclar *commits* e dividir um *commit* em dois.
+
+**Obs**.
+
+* Os nomes/estrutura dos arquivos e mensagens de *commit* são a títulos de exemplo.
+* Usei a palavra tela para referenciar cada retorno do terminal.
+* Uso por padrão como editor o *vim*, o que facilita a edição das •telas• que comentei no tópico anterior.
 
 Gostou? Escrevi alguma groselha? Quer melhorar? Abra uma [issue](https://github.com/raphaelfabeni/raphaelfabeni.github.io/issues) com a hashtag *1postperweek* e vamos conversar.
 
