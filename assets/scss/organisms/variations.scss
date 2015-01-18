@@ -9,136 +9,136 @@
 
 /*  Gray
     ========================================================================== */
-    .gray { background-color: #333; }
+    [data-color="gray"] { background-color: #333; }
     
-    .gray .header .title a,
-    .gray .header .subtitle,
-    .gray .title,
-    .gray .subtitle,
-    .gray h1,
-    .gray h2,
-    .gray h3,
-    .gray h4,
-    .gray h5,
-    .gray h6,
-    .gray a:hover,
-    .gray a:focus { color: $orange; }
+    [data-color="gray"] .header .title a,
+    [data-color="gray"] .header .subtitle,
+    [data-color="gray"] .title,
+    [data-color="gray"] .subtitle,
+    [data-color="gray"] h1,
+    [data-color="gray"] h2,
+    [data-color="gray"] h3,
+    [data-color="gray"] h4,
+    [data-color="gray"] h5,
+    [data-color="gray"] h6,
+    [data-color="gray"] a:hover,
+    [data-color="gray"] a:focus { color: $orange; }
 
-    .gray .thumb { border-color: darken($orange, 10%); }
+    [data-color="gray"] .thumb { border-color: darken($orange, 10%); }
 
-    .gray .social li a,
-    .gray a { color: lighten(#333, 40%); }
+    [data-color="gray"] .social li a,
+    [data-color="gray"] a { color: lighten(#333, 40%); }
 
-    .gray .btn { @include button(#333); }
+    [data-color="gray"] .btn { @include button(#333); }
 
-    .gray .post-content,
-    .gray .post { border-color: darken(#333, 7%); }
+    [data-color="gray"] .post-content,
+    [data-color="gray"] .post { border-color: darken(#333, 7%); }
 
-    .gray progress { @include progress($orange); }
+    [data-color="gray"] progress { @include progress($orange); }
 
-    .gray figcaption {
+    [data-color="gray"] figcaption {
         background-color: darken(#333, 6%);
         text-shadow: 1px 1px 0 darken(#333, 15%);
     }
 
 /*  Purple
     ========================================================================== */
-    .purple { background-color: $purple; }
+    [data-color="purple"] { background-color: $purple; }
     
-    .purple .header .title a,
-    .purple .header .subtitle,
-    .purple .title,
-    .purple .subtitle,
-    .purple h1,
-    .purple h2,
-    .purple h3,
-    .purple h4,
-    .purple h5,
-    .purple h6,
-    .purple a:hover,
-    .purple a:focus { color: $pink; }
+    [data-color="purple"] .header .title a,
+    [data-color="purple"] .header .subtitle,
+    [data-color="purple"] .title,
+    [data-color="purple"] .subtitle,
+    [data-color="purple"] h1,
+    [data-color="purple"] h2,
+    [data-color="purple"] h3,
+    [data-color="purple"] h4,
+    [data-color="purple"] h5,
+    [data-color="purple"] h6,
+    [data-color="purple"] a:hover,
+    [data-color="purple"] a:focus { color: $pink; }
 
-    .purple .thumb { border-color: darken($pink, 10%); }
+    [data-color="purple"] .thumb { border-color: darken($pink, 10%); }
 
-    .purple .social li a,
-    .purple a { color: lighten($purple, 40%); }
+    [data-color="purple"] .social li a,
+    [data-color="purple"] a { color: lighten($purple, 40%); }
 
-    .purple .btn { @include button($purple); }
+    [data-color="purple"] .btn { @include button($purple); }
 
-    .purple .post-content,
-    .purple .post { border-color: darken($purple, 7%); }
+    [data-color="purple"] .post-content,
+    [data-color="purple"] .post { border-color: darken($purple, 7%); }
 
-    .purple progress { @include progress($pink); }
+    [data-color="purple"] progress { @include progress($pink); }
 
-    .purple figcaption {
+    [data-color="purple"] figcaption {
         background-color: darken($purple, 6%);
         text-shadow: 1px 1px 0 darken($purple, 15%);
     }
 
 /*  Brown
     ========================================================================== */
-    .brown { background-color: $brown; }
+    [data-color="brown"] { background-color: $brown; }
     
-    .brown .header .title a,
-    .brown .header .subtitle,
-    .brown .title,
-    .brown .subtitle,
-    .brown h1,
-    .brown h2,
-    .brown h3,
-    .brown h4,
-    .brown h5,
-    .brown h6,
-    .brown a:hover,
-    .brown a:focus { color: darken($yellow, 15%); }
+    [data-color="brown"] .header .title a,
+    [data-color="brown"] .header .subtitle,
+    [data-color="brown"] .title,
+    [data-color="brown"] .subtitle,
+    [data-color="brown"] h1,
+    [data-color="brown"] h2,
+    [data-color="brown"] h3,
+    [data-color="brown"] h4,
+    [data-color="brown"] h5,
+    [data-color="brown"] h6,
+    [data-color="brown"] a:hover,
+    [data-color="brown"] a:focus { color: darken($yellow, 15%); }
 
-    .brown .thumb { border-color: darken($yellow, 20%); }
+    [data-color="brown"] .thumb { border-color: darken($yellow, 20%); }
 
-    .brown .social li a,
-    .brown a { color: lighten($brown, 40%); }
+    [data-color="brown"] .social li a,
+    [data-color="brown"] a { color: lighten($brown, 40%); }
 
-    .brown .btn { @include button($brown); }
+    [data-color="brown"] .btn { @include button($brown); }
 
-    .brown .post-content,
-    .brown .post { border-color: darken($brown, 7%); }
+    [data-color="brown"] .post-content,
+    [data-color="brown"] .post { border-color: darken($brown, 7%); }
 
-    .brown progress { @include progress($yellow); }
+    [data-color="brown"] progress { @include progress($yellow); }
 
-    .brown figcaption {
+    [data-color="brown"] figcaption {
         background-color: darken($brown, 6%);
         text-shadow: 1px 1px 0 darken($brown, 15%);
     }
 
 /*  Blue
     ========================================================================== */
-    .blue { background-color: darken($blue, 35%); }
+    [data-color="blue"] { background-color: darken($blue, 35%); }
     
-    .blue .header .title a,
-    .blue .header .subtitle,
-    .blue .title,
-    .blue .subtitle,
-    .blue h1,
-    .blue h2,
-    .blue h3,
-    .blue h4,
-    .blue h5,
-    .blue h6,
-    .blue a:hover,
-    .blue a:focus { color: #FF0055; }
+    [data-color="blue"] .header .title a,
+    [data-color="blue"] .header .subtitle,
+    [data-color="blue"] .title,
+    [data-color="blue"] .subtitle,
+    [data-color="blue"] h1,
+    [data-color="blue"] h2,
+    [data-color="blue"] h3,
+    [data-color="blue"] h4,
+    [data-color="blue"] h5,
+    [data-color="blue"] h6,
+    [data-color="blue"] a:hover,
+    [data-color="blue"] a:focus { color: #FF0055; }
 
-    .blue .thumb { border-color: darken(#FF0055, 10%); }
+    [data-color="blue"] .thumb { border-color: darken(#FF0055, 10%); }
 
-    .blue .social li a,
-    .blue a { color: $blue; }
+    [data-color="blue"] .social li a,
+    [data-color="blue"] a { color: $blue; }
 
-    .blue .btn { @include button(darken($blue, 35%)); }
+    [data-color="blue"] .btn { @include button(darken($blue, 35%)); }
 
-    .blue .post-content,
-    .blue .post { border-color: darken($blue, 40%); }
+    [data-color="blue"] .post-content,
+    [data-color="blue"] .post { border-color: darken($blue, 40%); }
 
-    .blue progress { @include progress($blue); }
+    [data-color="blue"] progress { @include progress($blue); }
 
-    .blue figcaption {
+    [data-color="blue"] figcaption {
         background-color: darken($blue, 46%);
         text-shadow: 1px 1px 0 darken($blue, 15%);
     }

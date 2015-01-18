@@ -20,7 +20,6 @@
         if( btnArray[i] ) {
             addListener(btnArray[i], 'click', function() {
                 var which = this.dataset.link;
-                console.log(which);
                 ga('send', 'event', 'Links Externos', which);
             });
         }
