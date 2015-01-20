@@ -11,7 +11,7 @@ Sempre fui um cara bastante preocupado em organização e acho que acabei passan
 
 Sou daqueles que prefere pecar pelo excesso do que pela falta. Pra mim, tudo tem que ser documentado/explicado. O que você está escrevendo ali na hora, outras pessoas não tem como adivinhar e até você mesmo pode esquecer isso depois de um tempo.
 
-Falando em CSS, eu gosto de utilizar comentários para divisão do código em blocos. Fiz há um tempo atrás uns [snippets para o Sublime Text](https://github.com/raphaelfabeni/css-comments) com base no que é proposto pelo [idiomatic-css](https://github.com/necolas/idiomatic-css) e não consigo mais viver sem. Se você é como eu, e se interessa pelo assunto, apresentei uma talk rápida [Organizando o CSS](https://speakerdeck.com/raphaelfabeni/organizando-o-css) em um dos [Meetups de CSS](http://www.meetup.com/CSS-SP/).
+Falando em CSS, eu gosto de utilizar comentários para divisão do código em blocos. Fiz há um tempo atrás uns [snippets para o Sublime Text](https://github.com/raphaelfabeni/css-comments) com base no que é proposto pelo [idiomatic-css](https://github.com/necolas/idiomatic-css) e não consigo mais viver sem. Se você é como eu, e se interessa pelo assunto, apresentei uma talk rápida [sobre organização de CSS](https://speakerdeck.com/raphaelfabeni/organizando-o-css) em um dos [Meetups de CSS](http://www.meetup.com/CSS-SP/) e recomendo também essa [talk sobre manutenção e refatoração de CSS] do [Lucas Mazza](https://twitter.com/lucasmazza) que aborda uns assuntos bem legais.
 
 
 ## Arrumando a casa
@@ -57,7 +57,7 @@ Viram? Ele insere também um espaço antes do `hover`. Poderíamos arrumar isso 
 
 ## Regex nosso de cada dia
 
-Lembro de uma citação do [Rinaldi](https://twitter.com/rafaelrinaldi) que ele diz que ninguém domina regex e, realmente acho que pra dominar a parada você tem que ser tipo Batman. Brincadeiras a parte, regex é muito bacana, apesar de ter dado tela azul na minha cabeça algumas vezes.
+Lembro de uma vez conversando com o [Rinaldi](https://twitter.com/rafaelrinaldi) que ele disse que ninguém domina regex e, realmente acho que pra dominar a parada você tem que ser tipo Batman. Brincadeiras a parte, regex é muito bacana, apesar de ter dado tela azul na minha cabeça algumas vezes.
 
 Minha idéia era tentar aplicar o básico de regex no *Find & Replace* para tentar solucionar problemas como o citado acima com os `:`. Antes de qualquer coisa, estou usando o *Find & Replace* do Sublime Text que pode ser acessado pelo comando `cmd + shift + f` e, ativando a opção de Regex (clicando em botão do lado esquerdo que tem um ponto e um asterisco => `.*`).
 
@@ -137,7 +137,7 @@ Agora buscamos todo `;` que esteja entre letras e/ou dígitos e substituímos pe
 
 Estamos na era da automatização e eu me perguntei logo no início se não teria alguma ferramenta ou até extensão do Sublime que fizesse isso. Antes de procurar a resposta, resolvi brincar um pouco com regex.
 
-A resposta da pergunta acima acredito que seja meio óbvia e espero que o caro leitor não fique bravo de ter lido até aqui e descobrir que **sim**, existem soluções prontas para isso. Uma delas é o [SassBeautify](https://packagecontrol.io/packages/SassBeautify) que pode ser instalado via *package control*.
+A resposta da pergunta acima acredito que seja meio óbvia e espero que você não fique bravo de ter lido até aqui e descobrir que **sim**, existem soluções prontas para isso. Uma delas é o [SassBeautify](https://packagecontrol.io/packages/SassBeautify) que pode ser instalado via *package control*.
 
 Gostou? Escrevi alguma groselha? Quer melhorar? Abra uma [issue](https://github.com/raphaelfabeni/raphaelfabeni.github.io/issues) com a hashtag *1postperweek* e vamos conversar.
 
