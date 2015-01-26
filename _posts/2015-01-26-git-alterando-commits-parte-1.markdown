@@ -33,7 +33,7 @@ git commit -m 'Atualiza o README.'
 Então você sai pra pegar um chá (não bebo café ¯\\\_(ツ)_/¯) e no meio do caminho lembra que faltou uma alteração de CSS. Aí você volta, faz a alteração e comita novamente:
 
 {% highlight bash %}
-git commit -m 'Ajustes Mais ajustes de CSS e JS no slideshow.'
+git commit -m 'Mais ajustes de CSS e JS no slideshow.'
 {% endhighlight %}
 
 Se rodássemos um simples *log* para ver os *commits* teríamos algo assim (limitei apenas aos 3 últimos, para o exemplo):
