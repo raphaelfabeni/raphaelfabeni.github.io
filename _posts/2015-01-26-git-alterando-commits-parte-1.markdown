@@ -3,7 +3,7 @@ layout: post
 title:  "Git: Alterando seus commits com rebase - parte 1/2"
 description: "Muitas vezes acabamos fazendo commits que acabam não tendo muito sentido na história como um todo, com rebase conseguimos brincar com isso."
 type: Post
-date: 2015-01-27
+date: 2015-01-26
 image: 'git-alterando-commits-parte-1.jpg'
 ---
 
