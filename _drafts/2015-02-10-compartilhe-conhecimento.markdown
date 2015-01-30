@@ -7,6 +7,38 @@ date: 2015-02-10
 image: ''
 ---
 
-Já conversei sobre isso com vários amigos meus e acho que é um tema que cada vez mais está em foco. Tinha em mente escrever algo relacionado há algum tempo e depois que abri a [issue](https://github.com/LFeh/poste-mais/issues/9) no projeto [poste-mais](https://github.com/LFeh/) resolvi acelerar o processo.
+Já conversei sobre isso com vários amigos meus e acho que é um tema que cada vez mais está em foco. Há algum tempo tinha em mente escrever algo relacionado e depois que abri a [issue](https://github.com/LFeh/poste-mais/issues/9) no projeto [poste-mais](https://github.com/LFeh/) e o tema foi discutido num [FEMUG](https://sp.femug.com/)resolvi acelerar o processo.
 
-Sempre gostei de escrever. Nos trabalhos do colégio e da faculdade, acabava sempre ficando responsável pela maior parte teórica e nem por isso reclamava. Quando decidi escrever na *internet*, minha idéia inicial era tentar *fuçar* em algum conteúdo que estava
+Sempre gostei de escrever: nos trabalhos do colégio e da faculdade acabava ficando responsável pela maior parte teórica e nem por isso reclamava. Quando decidi escrever na *internet*, minha idéia inicial era pegar um assunto que queria entender um pouco mais e me forçar a pesquisar a respeito.
+
+Já vi um monte de gente dizendo que quando escrevem sobre um assunto, acabam assimilando mais aquele tema. Nunca parei pra pensar a respeito e pude comprovar há um tempo atrás que ajuda bastante (pelo menos pra mim).
+
+Logo que comecei a mexer com **CSS3** lembro que fiquei fascinado com *transition* e *animation*. Pra poder entender mais sobre essas duas magias negras que estava conhecendo, resolvi apresentar uma pequena *tech talk* na empresa que trabalhava. Não vou mentir que me ajudou muito, mas o que realmente fixou os *paranauês* na minha cabeça foi quando escrevi esse [post sobre o tema no Tableless](http://tableless.com.br/transition-e-animation/).
+
+## Ahn?! Onde você quer chegar?
+
+Calma... Vamos lá!
+
+Levante a mão quem já não pensou em ter um blog pessoal, ou contribuir em algum como o [Tableless](http://tableless.com.br) por exemplo, mas ficou com receio de não ter assunto para escrever, ou o principal e que já ouvi de várias pessoas: achar que o assunto que você teria pra compartilhar seria algo muito simples e que a galera/comunidade iria achar meio que *fora da curva* e quem sabe qual caminho isso poderia tomar.
+
+## Mude!
+
+Uma dica: mude seu pensamento. Simples assim. Alguns dias atrás esse tema surgiu no FEMUG e vi que mais pessoas pensam como eu: que você tem que escrever pra você, independente do que o resto irá pensar.
+
+Alguns motivos que podem te motivar a escrever:
+
+* fixar um assunto na cabeça.
+* aprender algo novo.
+* documentar alguma solução ou algo que você passou para auxiliar outras pessoas que possam passar pelo mesmo problema.
+
+Poderia ficar escrevendo vários outros motivos, mas acredito que os listados acima já tem uma grande importância.
+
+## Compartilhe seu conhecimento
+
+Ainda na última edição do FEMUG, o [Fernando Freitas](https://twitter.com/ffreitasalves), contou uma história bacana (não lembro de todos os detalhes, mas lembro do principal): ele estava fora do Brasil, senão me engano em algum evento e estava conversando com um gringo sobre um problema que ele havia passado. A pergunta direta do cara pra ele foi a seguinte: *"Onde você escreveu isso?"*. E o silêncio reinou na conversa.  Ele ainda comentou que lá fora é comum a maioria das pessoas terem um blog pessoal, algo que ainda não é muito visto por aqui.
+
+Eu tenho uma opinião formada a respeito e falei dela pra um amigo meu que tinha criado um blog há um bom tempo, feito um post inicial mas não tinha escrito mais nada por ter *vergonha* do que ia escrever ou do que as pessoas iriam pensar.
+
+Acho que você tem que **escrever pra você**, pra **documentar** algo que você fez ou estudou. Fazendo isso, você **compartilha seu conhecimento** e num futuro próximo pode auxiliar outras pessoas que irão pingar no seu texto.
+
+
