@@ -14,7 +14,7 @@ No [post anterior](/git-alterando-commits-parte-1/), vimos duas das coisas que s
 
 Nesse post vamos ver como mesclar dois *commits* em apenas um e, o processo inverso, de dividir um único *commit* em dois.
 
-## Relembramdo
+## Relembrando
 
 Voltando ao exemplo do [post anterior](git-alterando-commits-parte-1) (recomendo você ler, pra se atualizar com o fluxo), rodamos novamente o comando:
 
