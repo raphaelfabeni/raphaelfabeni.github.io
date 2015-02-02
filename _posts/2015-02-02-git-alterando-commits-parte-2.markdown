@@ -3,7 +3,7 @@ layout: post
 title:  "Git: Alterando seus commits com rebase - parte 2/2"
 description: "Com o rebase interativo, conseguimos editar nossos commits em um mesmo branch, seja mesclando-os, alterando a ordem e editando as mensagens."
 type: Post
-date: 2015-02-03
+date: 2015-02-02
 image: 'git-alterando-commits-parte-2.jpg'
 ---
 

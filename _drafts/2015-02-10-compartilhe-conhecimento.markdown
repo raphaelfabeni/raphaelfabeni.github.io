@@ -4,7 +4,7 @@ title:  "Compartilhe seu conhecimento"
 description: "Algo que muitas vezes pode ser considerado simple ou bobo, pode ajudar e muito outras pessoas!"
 type: Post
 date: 2015-02-10
-image: ''
+image: 'compartilhe-conhecimento.jpg'
 ---
 
 Já conversei sobre isso com vários amigos meus e acho que é um tema que cada vez mais está em foco. Há algum tempo tinha em mente escrever algo relacionado e depois que abri a [issue](https://github.com/LFeh/poste-mais/issues/9) no projeto [poste-mais](https://github.com/LFeh/) e o tema foi discutido num [FEMUG](https://sp.femug.com/)resolvi acelerar o processo.
