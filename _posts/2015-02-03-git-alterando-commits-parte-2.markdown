@@ -46,7 +46,7 @@ Até aqui nada de novo. Então vamos lá..
 
 Vamos mesclar os dois *commits* relacionados aos ajustes de CSS e JS do slideshow, que provavelmente mexeram coisas semelhantes (senão as mesmas coisas) e talvez tivesse mais sentido se ficassem juntos em apenas um *commit*.
 
-Para isso, digitamos *squash* em um *commit*. Fazendo isso ele entende que qureremos mesclar esse *commit* marcado com o anterior (no caso, o de cima).
+Para isso, digitamos *squash* em um *commit*. Fazendo isso o moço *git* entende que queremos mesclar esse *commit* marcado com o anterior (no caso, o de cima).
 
 {% highlight bash %}
 pick 9afe987 Ajustes de CSS e JS no slideshow.
@@ -172,7 +172,7 @@ f74a46e Troca da chamada nos parâmetros da função do slideshow.
 
 * Os nomes/estrutura dos arquivos e mensagens de *commit* são a títulos de exemplo.
 * Usei a palavra tela para referenciar cada retorno do terminal.
-* Uso por padrão como editor o *vim*, o que facilita a edição das •telas• que comentei no tópico anterior.
+* Uso por padrão como editor o *vim*, o que facilita a edição das *telas* que comentei no tópico anterior.
 
 Gostou? Escrevi alguma groselha? Quer melhorar? Abra uma [issue](https://github.com/raphaelfabeni/raphaelfabeni.github.io/issues) com a hashtag *1postperweek* e vamos conversar.
 
