@@ -16,7 +16,7 @@ Nesse post vamos ver como mesclar dois *commits* em apenas um e, o processo inve
 
 ## Relembrando
 
-Voltando ao exemplo do [post anterior](git-alterando-commits-parte-1) (recomendo você ler, pra se atualizar com o fluxo), rodamos novamente o comando:
+Voltando ao exemplo do [post anterior](git-alterando-commits-parte-1) (recomendo que você leia, pra se atualizar com o fluxo), rodamos novamente o comando:
 
 {% highlight bash %}
 git rebase -i HEAD~3
