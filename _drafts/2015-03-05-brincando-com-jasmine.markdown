@@ -91,6 +91,42 @@ Se abrirmos nosso `index.html`, vamos ter algo assim:
     <figcaption>Nosso teste passou! \o/</figcaption>
 </figure>
 
+É possível também usar o *Jasmine* para fazer testes em aplicações com *Node.js* através do [Jasmine Node](https://github.com/mhevery/jasmine-node). Depois de instalado, precisaríamos fazer pequenos ajustes no nosso código para testá-lo:
+
+Nosso arquivo `hello.js` ficaria assim:
+
+{% highlight js %}
+var Hello = function() {};
+
+Hello.prototype.sayHi = function(name) {
+  return 'my name is ' + name + ' and I\'m learning Jasmine!';
+};
+
+module.exports = Hello;
+{% endhighlight %}
+
+E nosso arquivo de testes `hello.spec.js` ficaria assim: 
+
+{% highlight js %}
+var Hello =  require('./hello.js');
+
+describe('Hello', function() {
+
+  var hello = new Hello();
+
+  it('says my name', function() {
+    expect(hello.sayHi('Fabeni')).toEqual('my name is Fabeni and I\'m learning Jasmine!');
+  });
+  
+});
+{% endhighlight %}
+
+Eaí é só rodarmos nosso teste via terminal:
+
+<figure class="loading">
+    <img src="{{ site.baseurl}}build/img/posts/samples/jasmine-node-hello.gif" alt="Gif animado mostrando o teste do jasmine node">
+</figure>
+
 
 
 
