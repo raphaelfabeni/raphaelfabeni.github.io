@@ -5,7 +5,7 @@ description: ""
 type: Post
 date: 2015-03-05
 image: 'brincando-jasmine.jpg'
-alt: '----'
+alt: 'Imagem mostra relógios de uma máquina antiga de uma fábrica'
 ---
 
 Você testa seu código **JS**?  Se a resposta foi não, nunca é tarde pra começar.
@@ -18,7 +18,7 @@ Você testa seu código **JS**?  Se a resposta foi não, nunca é tarde pra come
 
 Mostrar na prática é bem melhor que só teoria. Então vamos lá.. Primeiro faça o download da [última versão do Jasmine](https://github.com/jasmine/jasmine/tree/master/dist) (recomendo seguir o [passo a passo deles no GitHub](https://github.com/jasmine/jasmine#installation), super tranquilo).
 
-Eu criei uma pasta específica para essa brincadeira, e dentro dela criei duas pastas: uma com o nome *jasmine* onde joguei todos os arquivos do *framework* e outra chamada *hello* onde vamos jogar os arquivos desse primeiro exemplo rápido. 
+Eu criei uma pasta específica para essa brincadeira, e dentro dela criei duas pastas: uma com o nome *jasmine* onde joguei todos os arquivos do *framework* e outra chamada *hello* onde vamos jogar os arquivos desse primeiro exemplo rápido.
 
 Dentro dessa pasta vamos ter 3 arquivos:
 
@@ -26,7 +26,7 @@ Dentro dessa pasta vamos ter 3 arquivos:
 * *hello.js* => nossa mágica;
 * *hello.spec.js* => nossos testes.
 
-**Um adendo:** essa foi uma organização só a fim de exemplo, geralmente tudo relacionado a teste fica em uma pasta separada (como por exemplo *tests*) e seu arquivo `.js` da aplicação não é movido pra lá, ele permanece no local de origem. 
+**Um adendo:** essa foi uma organização só a fim de exemplo, geralmente tudo relacionado a teste fica em uma pasta separada (como por exemplo *tests*) e seu arquivo `.js` da aplicação não é movido pra lá, ele permanece no local de origem.
 
 Então temos nosso menino `.index.html`:
 
@@ -75,7 +75,7 @@ describe('Hello :)', function() {
   it('says my name', function() {
     expect(hello.sayHi('Fabeni')).toEqual('my name is Fabeni and I\'m learning Jasmine!');
   });
-  
+
 });
 {% endhighlight %}
 
@@ -105,7 +105,7 @@ Hello.prototype.sayHi = function(name) {
 module.exports = Hello;
 {% endhighlight %}
 
-E nosso arquivo de testes `hello.spec.js` ficaria assim: 
+E nosso arquivo de testes `hello.spec.js` ficaria assim:
 
 {% highlight js %}
 var Hello =  require('./hello.js');
@@ -117,7 +117,7 @@ describe('Hello', function() {
   it('says my name', function() {
     expect(hello.sayHi('Fabeni')).toEqual('my name is Fabeni and I\'m learning Jasmine!');
   });
-  
+
 });
 {% endhighlight %}
 

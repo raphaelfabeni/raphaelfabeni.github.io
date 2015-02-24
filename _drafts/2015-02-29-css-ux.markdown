@@ -5,7 +5,7 @@ description: "CSS3 é coisa linda! Use-o em prol da UX e seja feliz!"
 type: Post
 date: 2015-02-29
 image: 'css-ux.jpg'
-alt: '----'
+alt: 'Imagem mostra homem dentro de um carro antigo segurando o volante e observando um cachorro que está sentado no banco ao seu lado'
 ---
 
 *CSS3* é coisa linda! Apesar de ser suspeito pra falar, acredito que cada vez mais pessoas estão caindo nas graças do CSS. Uma coisa legal que tenho visto, principalmente nos [meetups CSS SP](https://github.com/raphaelfabeni/css-sp), é que várias pessoas, que muitas vezes nunca mexeram ou mexeram pouco com CSS, estão querendo *fuçar*, mesmo que para algo pessoal.
