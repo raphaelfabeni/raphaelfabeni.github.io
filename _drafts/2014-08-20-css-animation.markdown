@@ -5,6 +5,7 @@ description: "Crie animações usando apenas CSS"
 type: Post
 date: 2014-08-20
 image: 'meetup-css-bem-vindos.jpg'
+alt: '----'
 ---
 
 CSS3 é fantástico! :) Me considero suspeito pra falar mas acho muito bacana o poder que ganhamos em enriquecer os detalhes de uma aplicação com pouca coisa de código.
