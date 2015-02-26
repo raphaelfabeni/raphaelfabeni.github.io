@@ -1,0 +1,65 @@
+---
+layout: post
+title:  "7Masters CSS"
+description: "Evento idealizado pelo iMasters teve sua edição com CSS como tema"
+type: Post
+date: 2015-02-26
+image: '7-master-css.jpg'
+alt: ''
+---
+
+Ontem rolou mais uma edição do 7Masters do [iMasters](http://www.imasters.com.br). Pra quem não conhece trata-se de um evento onde 7 pessoas apresentam uma *talk* durante 7 minutos sobre um determinado assunto e depois é aberta a discussão entre os participantes. Essa edição em especial pra mim foi muito bacana por dois motivos: primeiro pois o tema geral era *CSS*, algo que gosto bastante e, segundo pois fui convidado para palestrar e falar umas *groselhas* lá pro pessoal.
+
+## O evento
+
+Particularmente eu gosto bastante desse formato. O tempo curto acaba forçando as *talks* a serem bem objetivas o que gera uma discussão bem focada entre os participantes. Geralmente é aberta uma lista de inscrição para a galera se inscrever e eles selecionam o público que irá participar. Segundo a organização, a idéia é que o evento seja algo pequeno e mais fechado, mas de alto nível e que possa ter uma interação grande entre todos.
+
+Nessa edição o [tema geral era CSS](http://setemasters.imasters.com.br/edicoes/css/) e fiquei super feliz quando recebi o convite para palestrar. Já havia ido a outras edições do 7Masters mas apenas como ouvinte. 
+
+Por se tratar de um evento menor, o iMasters sempre grava as palestras e depois divulga os vídeos no portal, no entanto, dessa vez, além disso, eles fizeram uma [transmissão ao vivo](http://imasters.com.br/desenvolvimento/7masters-css-acompanhe-ao-vivo-agora/), possibilitando a quem não conseguiu uma vaga que pudesse acompanhar *online*.
+
+## As talks
+
+### Hugo Bessa
+
+A talk do [Hugo](https://twitter.com/hugoabessa) foi *[Perfomance em Animações]()* o que é um assunto cada vez mais em foco. Já tinha visto a talk em uma edição recente meetup CSS SP, mas confesso que na correria da organização acabei não me dedicando 100% ao conteúdo. Dessa vez, pude prestar atenção do início ao fim e achei bem legal a abordagem do Hugo, explicando por exemplo a questão das *composite layers*.
+
+<figure class="text-center loading">
+  <iframe src="//www.slideshare.net/slideshow/embed_code/45145819" width="425" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
+</figure>
+
+### Diego Eis
+
+O [Diego](https://twitter.com/diegoeis) falou sobre *CSS4*, ou como ele mostrou, *CSS level 4*. É um assunto *MUITO* legal e que não vejo a hora de poder sair usando. Deu pra ter uma noção do que vem por aí na palestra dele na [Conferência CSS Brasil](http://www.conferenciacssbrasil.com.br/). Só digo uma coisa: **S2** seletor pai.
+
+<script async class="speakerdeck-embed" data-id="3103630786714e45a691f7e8d61a68d5" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+
+### Deivid Marques
+
+O [Deivid](https://twitter.com/deividmarques) falou de um assunto que eu já tinha estudado há um tempo atrás mas que tenho usado beeem pouco no dia a dia: filtros com *css*. Ele mostrou uns exemplos bem legais, envolvendo a customização *real time* de uma foto com filtros e animações e um outro texto sendo aplicado um filtro formando assim uma espécia de máscara. Beem legal.
+
+**Obs.** Aguardando/procurando link da talk.
+
+### Rafael Lyra
+
+O [Lyra](https://twitter.com/rafaellyra), como disseram, é o cara do *SMACSS*. Brincadeiras a parte, já tinha visto a talk dele em uma edição do meetup CSS SP e tenho que admitir que o cara explica muito bem o assunto. Já tinha lido muito a respeito e colocado pouco em prática pois ainda tinha algumas dúvidas; mas posso dizer que essa *talk* me ajudou a esclarecer algumas coisas.
+
+**Obs.** Aguardando/procurando link da talk.
+
+### Rafael Rinaldi
+
+O [Rinaldi](https://twitter.com/rafaelrinaldi)
+
+### Raphael Fabeni
+
+### Bernard de Luna
+
+O [Bernard](https://twitter.com/bernarddeluna) fez a *talk* que provavelmente levantou a maior discussão. Ele mostrou apenas dois slides, desligou o projetor e começou a fazer algumas anotações na parede com a ajuda do pessoal sobre coisas relacionadas a *CSS*. No geral, ele apontou alguns pontos específicos que ele encontrou e que existem inconsistências. Era algo que provavelmente ficaríamos mais de hora discutindo, mas como foi a última, o horário já estava bem apertado.
+
+## Geral do evento
+
+Já tinha ido ao *7Masters* mas, como disse anteriormente, essa edição pra mim era especial. Só elogios para a galera do iMasters, em especial do Bernard, Rina, Edu e Mackenzie pela organização do evento.
+
+Foi muito bom poder rever a galera e discutir um tema que acho bem legal. Que tenham mais eventos assim em 2015. Aproveitando o gancho, já que estamos falando de *CSS* e evento, em maio agora vai rolar a [Conferência CSS Brasil](http://www.conferenciacssbrasil.com.br) em São Paulo e, durante o evento, soltamos um cupom de desconto exclusivo pra galera. Basta entrar no site da [Eventick](http://www.eventick.com.br/conferenciacssbrasil) e inserir o cupom *7masters* pra garantir o desconto. **\o/**
+
+
