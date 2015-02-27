@@ -8,7 +8,7 @@ image: 'brincando-jasmine.jpg'
 alt: 'Imagem mostra relógios de uma máquina antiga de uma fábrica'
 ---
 
-Você testa seu código **JS**?  Se a resposta foi não, nunca é tarde pra começar.
+Você testa seu código **JS**?  Se a resposta foi não, nunca é tarde pra começar. Não vou me alongar aqui falando o porque tanta gente fala de fazer testes, existem milhares de posts sobre isso. Vou direto ao assunto: o brother *Jasmine*.
 
 ## O tal do **Jasmine**
 
@@ -20,13 +20,22 @@ Mostrar na prática é bem melhor que só teoria. Então vamos lá.. Primeiro fa
 
 Eu criei uma pasta específica para essa brincadeira, e dentro dela criei duas pastas: uma com o nome *jasmine* onde joguei todos os arquivos do *framework* e outra chamada *hello* onde vamos jogar os arquivos desse primeiro exemplo rápido.
 
-Dentro dessa pasta vamos ter 3 arquivos:
+Dentro dessa pasta vamos ter 1 arquivo e 1 pasta chamada *spec*:
 
-* *index.html* => para podermos visualizar o resultado dos nossos testes;
 * *hello.js* => nossa mágica;
-* *hello.spec.js* => nossos testes.
+* *spec/index.html* => para podermos visualizar o resultado dos nossos testes;
+* *spec/hello.spec.js* => nossos testes.
 
-**Um adendo:** essa foi uma organização só a fim de exemplo, geralmente tudo relacionado a teste fica em uma pasta separada (como por exemplo *tests*) e seu arquivo `.js` da aplicação não é movido pra lá, ele permanece no local de origem.
+{% highlight html %}
+├── jasmine (todos os arquivos do framework)
+└── hello
+    ├── hello.js
+    └── spec
+        ├── index.html
+        └── hello.spec.js
+{% endhighlight %}
+
+**Um adendo:** essa foi uma organização só a fim de exemplo.
 
 Então temos nosso menino `.index.html`:
 
@@ -35,16 +44,16 @@ Então temos nosso menino `.index.html`:
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Teste</title>
-  <link rel="shortcut icon" type="image/png" href="../jasmine/lib/jasmine-2.0.0/jasmine_favicon.png">
-  <link rel="stylesheet" type="text/css" href="../jasmine/lib/jasmine-2.0.0/jasmine.css">
+  <title>Jasmine</title>
+  <link rel="shortcut icon" type="image/png" href="../../jasmine/lib/jasmine-2.0.0/jasmine_favicon.png">
+  <link rel="stylesheet" type="text/css" href="../../jasmine/lib/jasmine-2.0.0/jasmine.css">
 
-  <script type="text/javascript" src="../jasmine/lib/jasmine-2.0.0/jasmine.js"></script>
-  <script type="text/javascript" src="../jasmine/lib/jasmine-2.0.0/jasmine-html.js"></script>
-  <script type="text/javascript" src="../jasmine/lib/jasmine-2.0.0/boot.js"></script>
+  <script type="text/javascript" src="../../jasmine/lib/jasmine-2.0.0/jasmine.js"></script>
+  <script type="text/javascript" src="../../jasmine/lib/jasmine-2.0.0/jasmine-html.js"></script>
+  <script type="text/javascript" src="../../jasmine/lib/jasmine-2.0.0/boot.js"></script>
 
-  <script src="hello.js"></script>
-  <script src="helloSpec.js"></script>
+  <script src="../hello.js"></script>
+  <script src="hello.spec.js"></script>
 </head>
 <body>
 </body>
@@ -126,6 +135,67 @@ Eaí é só rodarmos nosso teste via terminal:
 <figure class="loading">
     <img src="{{ site.baseurl}}build/img/posts/samples/jasmine-node-hello.gif" alt="Gif animado mostrando o teste do jasmine node">
 </figure>
+
+## Testes antes?
+
+No exemplo anterior primeiro desenvolvemos nosso código e depois escrevemos nosso teste. No *TDD* ocorre o inverso: primeiro escreveríamos os testes e depois o nosso código. Achou estranho? Vamos tentar brincar.
+
+Vamos partir de algo básico: imagine que queremos ter uma função simples que aceita 2 números como argumentos e nos retorna o resultado da adição de ambos. Poderíamos fazer um teste simples assim:
+
+{% highlight js %}
+describe('Calc', function() {
+
+  it('should calculate the addition of two numbers', function() {
+    expect(add(5,3)).toEqual(8);
+  });
+
+  it('1 argument - should calculate the addition using the argument twice', function() {
+    expect(add(5)).toEqual(10);
+  });
+
+});
+{% endhighlight %}
+
+No teste acima, quebramos nosso componente em 2 testes específicos:
+
+* primeiro esperamos que ao passarmos os números *5* e *3*, ele nos retorne *8*, fazendo a soma normalmente.
+* segundo, esperamos que se apenas um argumento for passado, esse argumento seja somado a ele mesmo, ou seja, se apenas o número *5* for passado, o resultado deve ser *10*, vindo da operação *5 + 5*.
+
+**Obs.:** Poderíamos ter mais um monte de testes, como verificar se o argumento passado é realmente um número, mas deixei apenas esses 2 para o exemplo.
+
+Tendo isso em mente, podemos partir pro nosso código:
+
+{% highlight js %}
+function add(x, y) {
+  return x + y;
+}
+{% endhighlight %}
+
+Com certeza, de cara já poderíamos imaginar algo assim certo? No entanto como é de se imaginar isso vai nos retornar um erro quando rodarmos os testes.
+
+<figure class="loading">
+    <img src="{{ site.baseurl}}build/img/posts/samples/jasmine-erro.png" alt="Print da tela mostrando que os testes quebraram">
+</figure>
+
+Nossos testes quebraram e conseguimos ver exatamente onde: *Calc 1 argument - should calculate the addition using the argument twice*. Isso acontece pois não fizemos nenhum tratamento na nossa função caso recebessemos apenas um argumento. Vamos lá então:
+
+{% highlight js %}
+function add(x, y) {
+  y ? return x + y; : return x + x;
+}
+{% endhighlight %}
+
+Agora se rodarmos os testes novamente: 
+
+<figure class="loading">
+    <img src="{{ site.baseurl}}build/img/posts/samples/jasmine-ok-2.png" alt="Print da tela mostrando que os testes passaram">
+</figure>
+
+Acho que é isso. No próximo post, vou tentar escrever um pouco sobre os *matchers* do *Jasmine* que é uma outra parte bem legal do framework.
+
+Gostou? Escrevi alguma groselha? Quer melhorar? Abra uma [issue](https://github.com/raphaelfabeni/raphaelfabeni.github.io/issues) com a hashtag *1postperweek* e vamos conversar.
+
+
 
 
 
