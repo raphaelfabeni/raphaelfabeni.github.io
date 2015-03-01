@@ -3,7 +3,7 @@ node_js:
   - "0.10"
 install:
   - travis_retry gem install --no-document jekyll
-  - travis_retry bower install -g grunt-cli
+  - travis_retry npm install -g bower
   - travis_retry npm install -g grunt-cli
 before_script:
   - npm install
