@@ -74,8 +74,6 @@ Observando o arquivo anterior, conseguimos já visualizar o que acontece certo? 
 
 Nosso teste ficaria assim:
 
-Aí temos um exemplo simples de arquivo `JavaScript`:
-
 {% highlight js %}
 describe('Hello :)', function() {
 
@@ -90,8 +88,8 @@ describe('Hello :)', function() {
 
 Destrinchando nosso arquivo de teste:
 
-* `describe` => é o que chamamos de *suite*. Seu nome, no caso *Hello)*, geralmente define um componente da sua aplicação (pode ser uma *classe*, uma função ou qualquer outra coisa). Aceita 2 argumentos: uma *string* que é o nome da *suite* e uma função que é o bloco de código que implementamos o teste.
-* `it()` => resumidamente é uma fußnção que diz o que um pequeno pedaço do seu componente deve fazer. No exemplo, demos uma descrição do teste (*says my name*), e esperamos (analogia com o *expect*) que o método `sayHi`, quando chamado com o argumento *Fabeni*, retorne uma determinada *string* (*my name is Fabeni and I'm learning Jasmine!*).
+* `describe` => é o que chamamos de *suite*. Seu nome, no caso *Hello*, geralmente define um componente da sua aplicação (pode ser uma *classe*, uma função ou qualquer outra coisa). Aceita 2 argumentos: uma *string* que é o nome da *suite* e uma função que é o bloco de código que implementamos o teste.
+* `it()` => resumidamente é uma função que diz o que um pequeno pedaço do seu componente deve fazer. No exemplo, demos uma descrição do teste (*says my name*), e esperamos (analogia com o *expect*) que o método `sayHi`, quando chamado com o argumento *Fabeni*, retorne uma determinada *string* (*my name is Fabeni and I'm learning Jasmine!*).
 
 Se abrirmos nosso `index.html`, vamos ter algo assim:
 
@@ -171,7 +169,7 @@ function add(x, y) {
 }
 {% endhighlight %}
 
-Com certeza, de cara já poderíamos imaginar algo assim certo? No entanto como é de se imaginar isso vai nos retornar um erro quando rodarmos os testes.
+Com certeza, de cara já poderíamos imaginar algo assim certo? No entanto como é de se esperar isso vai nos retornar um erro quando rodarmos os testes.
 
 <figure class="loading">
     <img src="{{ site.baseurl}}build/img/posts/samples/jasmine-erro.png" alt="Print da tela mostrando que os testes quebraram">

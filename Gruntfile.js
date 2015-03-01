@@ -137,6 +137,36 @@ module.exports = function( grunt ) {
             },
         },
 
+        // SHELL _____________________________________________________________________
+        shell: {
+            jekyll_serve: {
+                command: "jekyll serve --watch --drafts",
+                options: {
+                    stderr: false
+                }
+            },
+
+            jekyll_build: {
+                command: "jekyll build",
+                options: {
+                    stderr: false
+                }
+            }
+        },
+
+        // CONCURRENT _________________________________________________________________
+        concurrent: {
+            dev: {
+                tasks: [
+                    'shell:jekyll_serve',
+                    'watch'
+                ],
+                options: {
+                    logConcurrentOutput: true
+                }
+            }
+        },
+
 
         // WATCH ______________________________________________________________________
         watch: {
@@ -178,6 +208,7 @@ module.exports = function( grunt ) {
                 options: { livereload: true },
                 files: [
                     // Project files
+                    '_site/build/css/main.min.css',
                     '<%= config.build %>css/main.min.css',
                     '<%= config.build %>js/scripts.min.js',
                     '<%= config.build %>js/projects.min.js',
@@ -196,6 +227,8 @@ module.exports = function( grunt ) {
     grunt.loadNpmTasks('grunt-contrib-jshint');
     grunt.loadNpmTasks('grunt-svgmin');
     grunt.loadNpmTasks('grunt-svg2png');
+    grunt.loadNpmTasks('grunt-shell');
+    grunt.loadNpmTasks('grunt-concurrent');
 
     // Grunt tasks
 
@@ -210,5 +243,12 @@ module.exports = function( grunt ) {
 
     // Watch
     grunt.registerTask( 'live', [ 'watch' ] );
+
+    // Server
+    // Watch
+    grunt.registerTask( 'server', [ 'concurrent:dev' ] );
+
+    // Build
+    grunt.registerTask( 'build', [ 'sass', 'js', 'shell:jekyll_build' ] );
 
 };
