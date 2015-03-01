@@ -1,4 +1,4 @@
-#My personal site
+#My personal site [![Build Status](https://travis-ci.org/raphaelfabeni/raphaelfabeni.github.io.svg?branch=master)](https://travis-ci.org/raphaelfabeni/raphaelfabeni.github.io)
 
 You also cand find me at:
 * [Twitter](https://twitter.com/raphaelfabeni)
