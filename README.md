@@ -1,4 +1,8 @@
-#My personal site [![Build Status](https://travis-ci.org/raphaelfabeni/raphaelfabeni.github.io.svg?branch=master)](https://travis-ci.org/raphaelfabeni/raphaelfabeni.github.io)
+# My simple Blog  [![Build Status](https://travis-ci.org/raphaelfabeni/raphaelfabeni.github.io.svg?branch=master)](https://travis-ci.org/raphaelfabeni/raphaelfabeni.github.io)
+
+This is my humble blog where I write not only about web development but events, meetups and conferences too.
+
+Check it online: [raphaelfabeni.github.io](http://raphaelfabeni.github.io) :metal:
 
 You also cand find me at:
 * [Twitter](https://twitter.com/raphaelfabeni)
@@ -9,3 +13,6 @@ You also cand find me at:
 * [CodePen](http://codepen.io/raphaelfabeni/)
 * [Speaker Deck](https://speakerdeck.com/raphaelfabeni)
 * Email: rapha.fabeni@gmail.com | contato@raphaelfabeni.com.br
+
+
+[MIT License](http://raphaelfabeni.mit-license.org/) © Raphael Fabeni
