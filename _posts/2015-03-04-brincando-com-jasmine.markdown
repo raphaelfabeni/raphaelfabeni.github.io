@@ -209,7 +209,7 @@ Agora se rodarmos os testes novamente:
     <img src="{{ site.baseurl}}build/img/posts/samples/jasmine-ok-2.png" alt="Print da tela mostrando que os testes passaram">
 </figure>
 
-Acho que é isso. No próximo post, vou tentar escrever um pouco sobre os *matchers* do *Jasmine* que é uma outra parte bem legal do framework.
+Acho que é isso. No próximo post, vou tentar escrever um pouco sobre os *matchers* do *Jasmine* que é uma outra parte bem legal do framework. Deixo aqui meu **valeu** ao [Weslley Araujo](https://twitter.com/_weslleyaraujo) pela revisão do conteúdo!
 
 Gostou? Escrevi alguma groselha? Quer melhorar? Abra uma [issue](https://github.com/raphaelfabeni/raphaelfabeni.github.io/issues) com a hashtag *1postperweek* e vamos conversar.
 
