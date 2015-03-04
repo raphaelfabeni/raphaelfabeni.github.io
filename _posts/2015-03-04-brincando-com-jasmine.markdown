@@ -1,9 +1,9 @@
 ---
 layout: post
 title:  "Brincando com Jasmine"
-description: ""
+description: "Conheça um pouco do Jasmine: um framework bem intuitivo para testes em JavaScript."
 type: Post
-date: 2015-03-05
+date: 2015-03-04
 image: 'brincando-jasmine.jpg'
 alt: 'Imagem mostra relógios de uma máquina antiga de uma fábrica'
 ---
@@ -18,13 +18,13 @@ Você testa seu código **JS**?  Se a resposta foi não, nunca é tarde pra come
 
 Mostrar na prática é bem melhor que só teoria. Então vamos lá.. Primeiro faça o download da [última versão do Jasmine](https://github.com/jasmine/jasmine/tree/master/dist) (recomendo seguir o [passo a passo deles no GitHub](https://github.com/jasmine/jasmine#installation), super tranquilo).
 
-Eu criei uma pasta específica para essa brincadeira, e dentro dela criei duas pastas: uma com o nome *jasmine* onde joguei todos os arquivos do *framework* e outra chamada *hello* onde vamos jogar os arquivos desse primeiro exemplo rápido.
-
-Dentro dessa pasta vamos ter 1 arquivo e 1 pasta chamada *spec*:
+Pra essa brincadeira criei duas pastas: uma com o nome `jasmine` onde joguei todos os arquivos do *framework* e outra chamada `hello` onde vamos jogar os arquivos desse primeiro exemplo rápido. Dentro dessa pasta vamos criar uma pasta chamada `spec` onde deixaremos os arquivos relacionados aos testes. Nossa pasta `hello` seria assim:
 
 * *hello.js* => nossa mágica;
 * *spec/index.html* => para podermos visualizar o resultado dos nossos testes;
 * *spec/hello.spec.js* => nossos testes.
+
+E a estrutura completa ficaria assim:
 
 {% highlight html %}
 ├── jasmine (todos os arquivos do framework)
@@ -37,7 +37,7 @@ Dentro dessa pasta vamos ter 1 arquivo e 1 pasta chamada *spec*:
 
 **Um adendo:** essa foi uma organização só a fim de exemplo.
 
-Então temos nosso menino `.index.html`:
+Então temos nosso menino `spec/index.html`:
 
 {% highlight html %}
 <!DOCTYPE html>
@@ -72,7 +72,7 @@ Hello.prototype.sayHi = function(name) {
 
 Observando o arquivo anterior, conseguimos já visualizar o que acontece certo? Mentalmente já esperamos que ao criarmos um **objeto** utilizando `Hello` e chamarmos o **método** `sayHy`, deve-se retornar uma **string** específica com o **argumento** que passarmos.
 
-Nosso teste ficaria assim:
+Passando pra parte testável da coisa. Vamos lá, poderíamos implementar nosso teste assim:
 
 {% highlight js %}
 describe('Hello :)', function() {
@@ -91,7 +91,27 @@ Destrinchando nosso arquivo de teste:
 * `describe` => é o que chamamos de *suite*. Seu nome, no caso *Hello*, geralmente define um componente da sua aplicação (pode ser uma *classe*, uma função ou qualquer outra coisa). Aceita 2 argumentos: uma *string* que é o nome da *suite* e uma função que é o bloco de código que implementamos o teste.
 * `it()` => resumidamente é uma função que diz o que um pequeno pedaço do seu componente deve fazer. No exemplo, demos uma descrição do teste (*says my name*), e esperamos (analogia com o *expect*) que o método `sayHi`, quando chamado com o argumento *Fabeni*, retorne uma determinada *string* (*my name is Fabeni and I'm learning Jasmine!*).
 
-Se abrirmos nosso `index.html`, vamos ter algo assim:
+Poderíamos também mudar algumas coisas na organização do código e adicionarmos a função `beforeEach`:
+
+{% highlight js %}
+describe('Hello :)', function() {
+
+  var hello;
+
+  beforeEach(function() {
+    hello = new Hello();
+  });
+
+  it('says my name', function() {
+    expect(hello.sayHi('Fabeni')).toEqual('my name is Fabeni and I\'m learning Jasmine!');
+  });
+
+});
+{% endhighlight %}
+
+A função `beforeEach` como o próprio nome diz, roda uma vez antes de cada `spec` do `describe` e, também existe o `afterEach` que tem o papel inverso e roda uma vez depois de cada `spec`.
+
+Se abrirmos nosso `index.html` para rodarmos nossos testes, teremos algo assim:
 
 <figure class="loading">
     <img src="{{ site.baseurl}}build/img/posts/samples/jasmine-ok.png" alt="Print da tela mostrando que o teste passou">
@@ -138,7 +158,7 @@ Eaí é só rodarmos nosso teste via terminal:
 
 No exemplo anterior primeiro desenvolvemos nosso código e depois escrevemos nosso teste. No *TDD* ocorre o inverso: primeiro escreveríamos os testes e depois o nosso código. Achou estranho? Vamos tentar brincar.
 
-Vamos partir de algo básico: imagine que queremos ter uma função simples que aceita 2 números como argumentos e nos retorna o resultado da adição de ambos. Poderíamos fazer um teste simples assim:
+Comecemos de algo básico: imagine que queremos ter uma função simples que aceita 2 números como argumentos e nos retorna o resultado da adição de ambos. Poderíamos fazer um teste simples assim:
 
 {% highlight js %}
 describe('Calc', function() {
@@ -159,7 +179,7 @@ No teste acima, quebramos nosso componente em 2 testes específicos:
 * primeiro esperamos que ao passarmos os números *5* e *3*, ele nos retorne *8*, fazendo a soma normalmente.
 * segundo, esperamos que se apenas um argumento for passado, esse argumento seja somado a ele mesmo, ou seja, se apenas o número *5* for passado, o resultado deve ser *10*, vindo da operação *5 + 5*.
 
-**Obs.:** Poderíamos ter mais um monte de testes, como verificar se o argumento passado é realmente um número, mas deixei apenas esses 2 para o exemplo.
+**Obs.:** Poderíamos ter mais um monte de testes, como verificar se o argumento passado é realmente um número, mas deixemos apenas esses 2 para o exemplo.
 
 Tendo isso em mente, podemos partir pro nosso código:
 
@@ -183,7 +203,7 @@ function add(x, y) {
 }
 {% endhighlight %}
 
-Agora se rodarmos os testes novamente: 
+Agora se rodarmos os testes novamente:
 
 <figure class="loading">
     <img src="{{ site.baseurl}}build/img/posts/samples/jasmine-ok-2.png" alt="Print da tela mostrando que os testes passaram">
