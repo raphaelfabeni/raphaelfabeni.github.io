@@ -1,16 +1,16 @@
 ---
 layout: post
 title:  "Dicas de bolso de JavaScript"
-description: ""
+description: "Dicas rápidas de JavaScript, uma linguagem beeem legal mas cheia de pegadinhas do malandro."
 type: Post
 date: 2015-03-26
-image: 'dicas-javascript.jpg'
-alt: ''
+image: 'js-tips.jpg'
+alt: 'Cadeira de madeira vermelha em um quintal coberto de neve'
 ---
 
 ## Guarde o tamanho do array
 
-Com nossos brothers loops `for` nós conseguimos iterar em arrays ou também em objetos semelhantes a arrays. Semelhantes? Como assim!? Por exemplo os objetos `arguments` e `HTMLCollection`. Provavelmente você já deve ter se deparado com um loop `for` (já deve ter escrito alguns):
+Com nossos brothers loops `for`, conseguimos iterar em arrays ou também em objetos semelhantes a arrays. Semelhantes? Como assim!? Por exemplo os objetos `arguments` e `HTMLCollection`. Provavelmente você já deve ter se deparado com um loop `for` (já deve ter escrito alguns):
 
 {% highlight js %}
 for(var i = 0; i < arrayFabeni.length; i++) {
@@ -21,10 +21,10 @@ for(var i = 0; i < arrayFabeni.length; i++) {
 De bate pronto, conseguimos perceber algo não tão bacana no código acima. O comprimento (`length`) do array é acessado em toda iteração do loop. Isso não fica tão legal quando por exemplo, o objeto é um `HTMLCollection`. Lembra o que são esses caras? São os caras que são retornados quando a gente chama:
 
 * `getElementsByName()`
-* `getElementsByClassName`
-* `getElementsByTagName`
+* `getElementsByClassName()`
+* `getElementsByTagName()`
 
-Tá! Legal! Mas eaí né?! A zica mesmo é que toda vez que a gente itera sobre esses caras significa que estamos fazendo consultando o nosso *DOM* ao vivo e a cores, e a *toda hora*, o que não é nada bacana.
+Tá! Legal! Mas eaí né?! A zica mesmo é que toda vez que a gente itera sobre esses caras significa que estamos consultando o nosso *DOM* ao vivo e a cores, e a *toda hora*, o que não é nada bacana.
 
 Com base nisso, uma solução que podemos chegar seria *guardarmos* o comprimento do array; algo parecido com isso: 
 
@@ -59,9 +59,9 @@ if(!Object.prototype.feijao) {
 }
 {% endhighlight %}
 
-O que aconteceu acima foi que verificamos se existe a propriedade `feijao` em `Object` e, caso ela não exista defino ela com o valor *preto*. Aí que está o negócio da coisa, nosso objeto `burger`, já herda a propriedade `feijao` via `prototype`. 
+O que aconteceu acima foi que verificarmos se existe a propriedade `feijao` em `Object` e, caso ela não exista definimos ela com o valor `preto`. Aí que está o negócio da coisa, nosso objeto `burger`, já herda a propriedade `feijao` via `prototype`. 
 
-Com isso, para evitarmos que `feijao` apareça quando listarmos as propriedades de `burger` (até porque feijão acho que não combina no hamburguer), fazemos o seguinte: 
+Com isso, para evitarmos que `feijao` apareça quando listarmos as propriedades de `burger` (até porque feijão, na minha opinião, não combina muito com hamburguer), fazemos o seguinte: 
 
 {% highlight js %}
 for(var i in burger) {
@@ -125,3 +125,5 @@ var megaSena = new Array(20);
 console.log(megaSena.length); // 20
 console.log(megaSena[0]); // undefined
 {% endhighlight %}
+
+Gostou? Escrevi alguma groselha? Quer melhorar? Abra uma [issue](https://github.com/raphaelfabeni/raphaelfabeni.github.io/issues) com a hashtag *1postperweek* e vamos conversar.
