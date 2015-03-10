@@ -3,16 +3,16 @@ layout: post
 title:  "CSS3 em favor da UX"
 description: "CSS3 é coisa linda! Use-o em prol da UX e seja feliz!"
 type: Post
-date: 2015-02-29
+date: 2015-03-10
 image: 'css-ux.jpg'
 alt: 'Imagem mostra homem dentro de um carro antigo segurando o volante e observando um cachorro que está sentado no banco ao seu lado'
 ---
 
-*CSS3* é coisa linda! Apesar de ser suspeito pra falar, acredito que cada vez mais pessoas estão caindo nas graças do CSS. Uma coisa legal que tenho visto, principalmente nos [meetups CSS SP](https://github.com/raphaelfabeni/css-sp), é que várias pessoas, que muitas vezes nunca mexeram ou mexeram pouco com CSS, estão querendo *fuçar*, mesmo que  paraalgo pessoal.
+*CSS3* é coisa linda! Apesar de ser suspeito pra falar, acredito que cada vez mais pessoas estão caindo nas graças do CSS. Uma coisa legal que tenho visto, principalmente nos [meetups CSS SP](https://github.com/raphaelfabeni/css-sp), é que várias pessoas, que muitas vezes nunca mexeram ou mexeram pouco com CSS, estão querendo *fuçar*, mesmo que  para algo pessoal.
 
 Uma coisa que sempre falo é que o *CSS3* vem pra melhorar a vida de todo mundo. Pra nós desenvolvedores que ganhamos uns fios de cabelos a mais, pois conseguimos fazer coisas que antes precisávamos dar uma volta gigantesca, em poucas linhas; e o usuário, que pode ganhar uma experiência melhor.
 
-Isso não quer dizer que só de você usar *CSS3* seu código e a *UX* do seu projeto irão se transformar em uma das 7 maravilhas do mundo. É quase a mesma comparação que o [Nando Vieira](https://twitter.com/fnando) faz com pré-processadores: ele cita que são apenas ferramentas e que não irão transformar seu código ruim em algo bom.
+Isso não quer dizer que só de você usar *CSS3* seu código e a *UX* do seu projeto irão se transformar em uma das 7 maravilhas do mundo. É quase a mesma comparação que o [Nando Vieira](https://twitter.com/fnando) faz com pré-processadores: *ele cita que são apenas ferramentas e que não irão transformar seu código ruim em algo bom*.
 
 ## Componentes, modularização e o mundo real
 
@@ -20,7 +20,7 @@ Cada vez mais surgem idéias e metodologias de como arquitetar seu *CSS*. Se voc
 
 Funciona? Sim, funciona. Mas acho que fica um pouco distante do mundo real e é possível melhorar isso. No mundo real, as coisas não aparecem do nada. Você não vai encher seu copo de água e do nada o copo aparece cheio; existe um fluxo de coisas a acontecerem: você sabe que a água que está caindo ali em tempo real no seu copo vem do galão, que ao mesmo tempo, começa a ficar mais vazio.
 
-<figure class="loading">
+<figure class="loading text-center">
     <img src="{{ site.baseurl}}build/img/posts/gota-agua.gif" alt="Gif animado de uma gota de água caindo em um copo">
 </figure>
 
@@ -32,15 +32,26 @@ Claro que nada tem que ser ao extremo. Nesse ponto, me guio por uma frase que mi
 
 Se tem um monte de coisa legal por que não usar certo? Acredito que em partes. Gosto de fazer uma analogia ao *Flash* nesse ponto. O *Flash* oferecia um **monte** de recursos legais. Só que parecia que em alguns projetos era requisito que tudo tinha que ser usado ao mesmo tempo o que acabava tendo um efeito inverso: uma coisa que era pra ser algo legal e por exemplo enriquecer a experiência do projeto ou ser um diferencial positivo, acabava por se tornar um ponto negativo, pelo exagero de coisas em um único lugar.
 
-Quando falamos em *CSS3* podemos ir pelo mesmo caminho. Temos muitas coisas novas legais como *transition, transform, animation...*; aí que acredito que temos que ter o mesmo discernimento de saber o que, quando e como usar essas propriedades em prol da experiência do usuário e, não achar que quanto mais coisas forem colocadas, mais *cool* será o projeto e com isso fazer com que nossa aplicação pareça uma árvore de natal.
+Quando falamos em *CSS3* podemos ir pelo mesmo caminho. Temos muitas coisas novas legais como *transition, transform, animation...*; aí que acredito que temos que ter o mesmo discernimento de saber quais, quando e como usar essas propriedades em prol da experiência do usuário e, não achar que quanto mais coisas forem colocadas, mais *cool* será o projeto e com isso fazer com que nossa aplicação pareça uma árvore de natal.
 
-## Detalhes
+## Os detalhes
 
 Um dos principais pontos que acredito que o *CSS3* pode atacar são os detalhes. Acredito que os **pequenos detalhes podem ser responsáveis pelo sucesso de um produto**. E quando falo isso, acho que é de uma forma geral, e não só na web, mas também produtos físicos e até serviços: por exemplo, se você vai a uma loja ou um restaurante e é super bem atendido, esse detalhe não conta na experiência que você teve? Você não o levará em conta para uma próxima visita?
 
 Aí que entra o *CSS3* pra nos ajudar com esses detalhes no mundo da web. As propriedades *transition*, *transform* e *animation* facilitam e muito as coisas. Se você gosta do tema, há um tempo atrás, falei sobre a relação de *CSS* e *UX* no [7Masters](http://setemasters.imasters.com.br/edicoes/css/) CSS.
 
-<script async class="speakerdeck-embed" data-id="0d273809db77416c98d2e2ccf2197680" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+<figure class="text-center loading">
+    <script async class="speakerdeck-embed" data-id="0d273809db77416c98d2e2ccf2197680" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+</figure>
+
+Fiz um pequeno exemplo também, pra tentar demonstrar algumas das coisas que falei:
+
+<figure class="text-center loading">
+    <p data-height="550" data-theme-id="4240" data-slug-hash="ZYrrKP" data-default-tab="result" data-user="raphaelfabeni" class='codepen'>See the Pen <a href='http://codepen.io/raphaelfabeni/pen/ZYrrKP/'>CSS list</a> by Raphael Fabeni (<a href='http://codepen.io/raphaelfabeni'>@raphaelfabeni</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+    <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
+</figure>
+
+Já que estamos falando de CSS, em maio (dia 09) vai rolar a [Conferência CSS Brasil](http://www.conferenciacssbrasil.com.br) que é o primeiro evento nacional focado em CSS. Tem alguns nomes de peso já confirmados. [Corre lá e se inscreve](http://www.eventick.com.br/conferenciacssbrasil).
 
 Gostou? Escrevi alguma groselha? Quer melhorar? Abra uma [issue](https://github.com/raphaelfabeni/raphaelfabeni.github.io/issues) com a hashtag *1postperweek* e vamos conversar.
 
