@@ -21,7 +21,7 @@ Cada vez mais surgem idéias e metodologias de como arquitetar seu *CSS*. Se voc
 Funciona? Sim, funciona. Mas acho que fica um pouco distante do mundo real e é possível melhorar isso. No mundo real, as coisas não aparecem do nada. Você não vai encher seu copo de água e do nada o copo aparece cheio; existe um fluxo de coisas a acontecerem: você sabe que a água que está caindo ali em tempo real no seu copo vem do galão, que ao mesmo tempo, começa a ficar mais vazio.
 
 <figure class="loading text-center">
-    <img src="{{ site.baseurl}}build/img/posts/gota-agua.gif" alt="Gif animado de uma gota de água caindo em um copo">
+    <iframe width="940" height="529" src="https://www.youtube.com/embed/bCUCGstBncs?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 </figure>
 
 Na web as coisas não precisam ser diferentes. As pessoas estão acostumadas com o mundo real. Coisas aparecendo do nada na tela acabam passando uma sensação/experiência de uma coisa distante do mundo real.
