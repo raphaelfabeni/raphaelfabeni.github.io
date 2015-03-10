@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Jasmine: criando spies"
-description: ""
+description: "Jasmine possibilita a criação de spies, que ao pé da letra, 'ficam de olho' em partes específicas do seu código."
 type: Post
 date: 2015-03-19
 image: 'spies-jasmine.jpg'
@@ -58,8 +58,8 @@ describe('A Sandwich spy', function() {
 O que fizemos no código acima foi o seguinte:
 
 * criamos uma variável `fabeni`;
-* através do nosso `beforeEach`, antes de cada `spec` é criado um novo `sandwich` e atrelado à `fabeni`;
-* criamos um `spy` no método `addIngredient`,  para ser utilizado nas *specs* (através do `spyPn`, passamos como primeiro parâmetro o objeto relacionado e como segundo parâmetro o método que vamos espionar);
+* através do nosso `beforeEach`, antes de cada `spec` é criado um novo `Sandwich` e atrelado à `fabeni`;
+* criamos um `spy` no método `addIngredient`,  para ser utilizado nas *specs* (através do `spyOn`, passamos como primeiro parâmetro o objeto relacionado e como segundo parâmetro o método que vamos espionar);
 * adicionamos 2 ingredientes no *sanduíche* através do método `addIngredient`;
 * criamos uma primeira `spec` que *espera* que o método `addIngredient` tenha sido chamado (através do *matcher* `toHaveBeenCalled()`).
 
@@ -87,7 +87,7 @@ Nessa nova *spec* utilizamos do *matcher* `toHaveBeenCalledWith()` com o argumen
     <img src="{{ site.baseurl}}build/img/posts/samples/jasmine-spy-ok-2.png" alt="Print da tela mostrando que o teste passou">
 </figure>
 
-Resumidamente o `spyOn` substitui a função, interceptando assim as suas chamadas e acompanhando algumas informações importantes sobre ela para utilizarmos em nossas *specs*. Aí temos um ponto: dessa maneira perdemos as capacidades da função original. Para resolver isso podemos usar o `andCallThrough()`. Vamos lá:
+Resumidamente o `spyOn` substitui a função, interceptando assim as suas chamadas e acompanhando algumas informações importantes sobre ela para utilizarmos em nossas *specs*. Aí temos um ponto a se considerar: dessa maneira perdemos as capacidades da função original. Para resolver isso podemos usar o `andCallThrough()`. Vamos lá:
 
 {% highlight js %}
 describe('A Sandwich spy with call through', function() {
@@ -120,6 +120,7 @@ Com isso então, podemos criar nossas *specs*:
 
 {% highlight js %}
 ...
+
 it('tracks the spy for mySandwich method', function() {
   expect(fabeni.mySandwich).toHaveBeenCalled();
 });
@@ -127,13 +128,22 @@ it('tracks the spy for mySandwich method', function() {
 it('returns my sandwich', function() {
   expect(fabeniBurger).toEqual(['bread', 'cheese']);
 });
+
 ...
 {% endhighlight %}
 
 No exemplo acima, criamos duas *specs*:
 
-* a primeira simplesmente verifica se o método `mySandWich` foi chamadol;
+* a primeira simplesmente verifica se o método `mySandWich` foi chamado;
 * e a segunda verifica se o valor retornado desse mesmo método (no caso referenciado na variável `fabeniBurger`) é igual ao que esperamos (de acordo com o que foi *setado* no `beforeEach`).
+
+Aí é só rodarmos nossos testes:
+
+<figure class="loading">
+    <img src="{{ site.baseurl}}build/img/posts/samples/jasmine-spy-ok-3.png" alt="Print da tela mostrando que o teste passou">
+</figure>
+
+Gostou? Escrevi alguma groselha? Quer melhorar? Abra uma [issue](https://github.com/raphaelfabeni/raphaelfabeni.github.io/issues) com a hashtag *1postperweek* e vamos conversar.
 
 
 
