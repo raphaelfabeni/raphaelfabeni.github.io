@@ -127,3 +127,28 @@ console.log(megaSena[0]); // undefined
 {% endhighlight %}
 
 Gostou? Escrevi alguma groselha? Quer melhorar? Abra uma [issue](https://github.com/raphaelfabeni/raphaelfabeni.github.io/issues) com a hashtag *1postperweek* e vamos conversar.
+
+## Funções imediatas e parâmetros
+
+Já ouvimos bastante a respeito de funções imediatas, correto? Recapitulando rapidamente, ela permite que uma função seja executada assim que ela seja definida. Isso é bom principalmente pelo fato de fornecer um escopo temporário para a mágica que você vai fazer, sem a necessidade de poluir seu escopo global.
+
+{% highlight js %}
+(function() {
+  // some magic
+}());
+{% endhighlight %}
+
+Uma coisa bacana é que podemos passar argumentos para as funções imediatas. Podemos ter algo assim:
+
+{% highlight js %}
+(function(name, hobby) {
+  console.log('Hi, my name is ' + name + ' and I like ' + hobby );
+}('Fabeni', 'to travel'));
+
+// "Hi, my name is Fabeni and I like to travel"
+{% endhighlight %}
+
+## `call` e `apply` sem medo
+
+Esses dois caras são bem semelhantes; na verdade o que muda de um para outro é apenas um detalhe em relação ao segundo parâmetro que vai ser nosso objeto `arguments`. Resumidamente o que `call` e `apply` fazem é aplicar uma determinada função em um outro contexto e com os argumentos que você passar como valores pra eles. Não sou muito bom com as palavras, vamos tentar na prática.
+
