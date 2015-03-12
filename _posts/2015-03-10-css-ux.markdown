@@ -8,7 +8,7 @@ image: 'css-ux.jpg'
 alt: 'Imagem mostra homem dentro de um carro antigo segurando o volante e observando um cachorro que está sentado no banco ao seu lado'
 ---
 
-*CSS3* é coisa linda! Apesar de ser suspeito pra falar, acredito que cada vez mais pessoas estão caindo nas graças do CSS. Uma coisa legal que tenho visto, principalmente nos [meetups CSS SP](https://github.com/raphaelfabeni/css-sp), é que várias pessoas, que muitas vezes nunca mexeram ou mexeram pouco com CSS, estão querendo *fuçar*, mesmo que  para algo pessoal.
+*CSS3* é coisa linda! Apesar de ser suspeito pra falar, acredito que cada vez mais pessoas estão caindo nas graças do CSS. Uma coisa legal que tenho visto, principalmente nos [meetups CSS SP](https://github.com/raphaelfabeni/css-sp), é que uma galera, que muitas vezes nunca havia mexido ou então mexido pouco com CSS, estão querendo *fuçar*, mesmo que para algo pessoal.
 
 Uma coisa que sempre falo é que o *CSS3* vem pra melhorar a vida de todo mundo. Pra nós desenvolvedores que ganhamos uns fios de cabelos a mais, pois conseguimos fazer coisas que antes precisávamos dar uma volta gigantesca, em poucas linhas; e o usuário, que pode ganhar uma experiência melhor.
 
@@ -36,7 +36,7 @@ Quando falamos em *CSS3* podemos ir pelo mesmo caminho. Temos muitas coisas nova
 
 ## Os detalhes
 
-Um dos principais pontos que acredito que o *CSS3* pode atacar são os detalhes. Acredito que os **pequenos detalhes podem ser responsáveis pelo sucesso de um produto**. E quando falo isso, acho que é de uma forma geral, e não só na web, mas também produtos físicos e até serviços: por exemplo, se você vai a uma loja ou um restaurante e é super bem atendido, esse detalhe não conta na experiência que você teve? Você não o levará em conta para uma próxima visita?
+Um dos principais pontos que acredito que o *CSS3* pode atacar são os *detalhes. Acredito que principalmente os **pequenos podem ser responsáveis pelo sucesso de um produto**. E quando falo isso, acho que é de uma forma geral, e não só na web, mas também produtos físicos e até serviços: por exemplo, se você vai a uma loja ou um restaurante e é super bem atendido, esse quesito não conta na experiência que você teve? Você não o levará em conta para uma próxima visita?
 
 Aí que entra o *CSS3* pra nos ajudar com esses detalhes no mundo da web. As propriedades *transition*, *transform* e *animation* facilitam e muito as coisas. Se você gosta do tema, há um tempo atrás, falei sobre a relação de *CSS* e *UX* no [7Masters](http://setemasters.imasters.com.br/edicoes/css/) CSS.
 

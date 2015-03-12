@@ -26,7 +26,7 @@ De bate pronto, conseguimos perceber algo não tão bacana no código acima. O c
 
 Tá! Legal! Mas eaí né?! A zica mesmo é que toda vez que a gente itera sobre esses caras significa que estamos consultando o nosso *DOM* ao vivo e a cores, e a *toda hora*, o que não é nada bacana.
 
-Com base nisso, uma solução que podemos chegar seria *guardarmos* o comprimento do array; algo parecido com isso: 
+Com base nisso, uma solução que podemos chegar seria *guardarmos* o comprimento do array; algo parecido com isso:
 
 {% highlight js %}
 for(var i = 0, max = arrayFabeni.length;  i < max; i++) {
@@ -59,9 +59,9 @@ if(!Object.prototype.feijao) {
 }
 {% endhighlight %}
 
-O que aconteceu acima foi que verificarmos se existe a propriedade `feijao` em `Object` e, caso ela não exista definimos ela com o valor `preto`. Aí que está o negócio da coisa, nosso objeto `burger`, já herda a propriedade `feijao` via `prototype`. 
+O que aconteceu acima foi que verificarmos se existe a propriedade `feijao` em `Object` e, caso ela não exista definimos ela com o valor `preto`. Aí que está o negócio da coisa, nosso objeto `burger`, já herda a propriedade `feijao` via `prototype`.
 
-Com isso, para evitarmos que `feijao` apareça quando listarmos as propriedades de `burger` (até porque feijão, na minha opinião, não combina muito com hamburguer), fazemos o seguinte: 
+Com isso, para evitarmos que `feijao` apareça quando listarmos as propriedades de `burger` (até porque feijão, na minha opinião, não combina muito com hamburguer), fazemos o seguinte:
 
 {% highlight js %}
 for(var i in burger) {
@@ -150,5 +150,67 @@ Uma coisa bacana é que podemos passar argumentos para as funções imediatas. P
 
 ## `call` e `apply` sem medo
 
-Esses dois caras são bem semelhantes; na verdade o que muda de um para outro é apenas um detalhe em relação ao segundo parâmetro que vai ser nosso objeto `arguments`. Resumidamente o que `call` e `apply` fazem é aplicar uma determinada função em um outro contexto e com os argumentos que você passar como valores pra eles. Não sou muito bom com as palavras, vamos tentar na prática.
+Esses dois caras são bem semelhantes. Ambos permitem invocar uma função em um outro contexto (que vai ser o *primeiro parâmetro* que você passar pra eles) e com os argumentos passarmos (que vai ser o *segundo parâmetro* que passarmos). Então, `call` e `apply` permitem que:
+
+* 1º parâmetro => possamos dizer em qual *escopo* uma determinada função deve ser executada;
+* 2º parâmetro => consigamos definir os argumentos que serão passados para a função.
+
+O que muda entre `call` e `apply` é a forma de como passar o segundo parâmetro:
+
+* `call` => uma lista de itens (a partir do 2º parâmetro);
+* `apply` => um array de elementos.
+
+*Para de falar Fabeni, mostra alguma coisa aí!*
+
+{% highlight js %}
+var mister = {
+  name: 'Val Valentino',
+  nickname: 'Mister M'
+};
+
+var hello = function(name, nickname) {
+  return 'My name is ' + (name || this.name) + ' but you can also call me ' + (nickname || this.nickname);
+};
+
+hello.call(mister);
+// "My name is Val Valentino but you can also call me Mister M"
+
+hello.call(null, 'Raphael Fabeni', 'Fabeni');
+// "My name is Raphael Fabeni but you can also call me Fabeni"
+
+hello.apply(null, ['Raphael Fabeni', 'Fabeni']);
+// "My name is Raphael Fabeni but you can also call me Fabeni"
+{% endhighlight %}
+
+O que temos acima é mais ou menos o seguinte:
+
+* um objeto simples chamado `mister`;
+* uma função `hello` que retorna uma `string` de acordo com os parâmetros passados;
+* as chamadas das funções usando o formato padrão e usando `call` e `apply`.
+
+Um outro exemplo que talvez possa ajudar, imagine que possamos ter uma função simples que vai iterar sobre os argumentos dessa função (o objeto `arguments`). Poderíamos pensar em algo assim:
+
+{% highlight js %}
+function something() {
+  var likeArray = arguments;
+  likeArray.forEach(function() {});
+  ...
+}
+
+something('a', 'b');
+{% endhighlight %}
+
+Aí que mora o problema: vamos ter um erro se tentarmos algo assim.
+
+* TypeError: likeArray.forEach is not a function
+likeArray.forEach(function () {*
+
+Isso acontece pois o `arguments` é um objeto e não um *array*
+
+
+
+
+
+
+
 
