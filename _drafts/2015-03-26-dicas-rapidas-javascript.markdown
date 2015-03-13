@@ -194,7 +194,8 @@ Um outro exemplo que talvez possa ajudar, imagine que possamos ter uma função 
 function something() {
   var likeArray = arguments;
   likeArray.forEach(function() {});
-  ...
+
+  return likeArray;
 }
 
 something('a', 'b');
@@ -205,9 +206,18 @@ Aí que mora o problema: vamos ter um erro se tentarmos algo assim.
 * TypeError: likeArray.forEach is not a function
 likeArray.forEach(function () {*
 
-Isso acontece pois o `arguments` é um objeto e não um *array*
+Isso acontece pois o nosso brother `arguments` é um objeto e não um *array*. Pra podermos conseguir usar o `forEach`, precisamos converter `arguments` em um *array* e conseguimos isso utilizando o método `slice`. No entanto, ele é um método que pertence ao `prototype` de `Array`. Daí que vem a pergunta: como fazemos então pra executar a função/método em um outro contexto (executar `slice` no contexto do objeto `arguments`)? `call` ou `apply`.
 
+{% highlight js %}
+function something() {
+  var likeArray = Array.prototype.slice.call(arguments);
+  likeArray.forEach(function() {});
 
+  return likeArray;
+}
+{% endhighlight %}
+
+No exemplo acima, alteramos a linha relacionada à variável `likeArray`, aplicando o método `slice` no contexto de `arguments` através do `call`.
 
 
 
