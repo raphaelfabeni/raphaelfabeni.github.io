@@ -76,8 +76,12 @@ module.exports = function( grunt ) {
                 files: {
                     '<%= config.build %>js/scripts.min.js': 
                     ['<%= config.dev %>js/ga.js',
-                    '<%= config.dev %>js/scripts.js',
-                    '<%= config.dev %>js/social.js']
+                    '<%= config.dev %>js/colors.js',
+                    '<%= config.dev %>js/local.js',
+                    '<%= config.dev %>js/boot.js']
+                },
+                options: {
+                    sourceMap: true
                 }
             },
 
@@ -87,7 +91,9 @@ module.exports = function( grunt ) {
                     '<%= config.build %>js/archive.min.js': 
                     ['<%= config.dev %>js/ga.js',
                     '<%= config.dev %>js/archive.js',
-                    '<%= config.dev %>js/scripts.js',
+                    '<%= config.dev %>js/colors.js',
+                    '<%= config.dev %>js/local.js',
+                    '<%= config.dev %>js/boot.js',
                     '<%= config.dev %>js/social.js']
                 }
             },
@@ -96,7 +102,9 @@ module.exports = function( grunt ) {
                 files: {
                     '<%= config.build %>js/projects.min.js': 
                     ['<%= config.dev %>js/ga.js',
-                    '<%= config.dev %>js/scripts.js',
+                    '<%= config.dev %>js/colors.js',
+                    '<%= config.dev %>js/local.js',
+                    '<%= config.dev %>js/boot.js',
                     'bower_components/jquery-github/dist/jquery.github.min.js',
                     '<%= config.dev %>js/projects.js',
                     '<%= config.dev %>js/social.js']
@@ -125,7 +133,9 @@ module.exports = function( grunt ) {
 
             // Project files
             dev: [
-                '<%= config.dev %>js/scripts.js',
+                '<%= config.dev %>js/boot.js',
+                '<%= config.dev %>js/colors.js',
+                '<%= config.dev %>js/local.js',
                 '<%= config.dev %>js/projects.js',
                 '<%= config.dev %>js/archive.js'
             ],
@@ -167,6 +177,16 @@ module.exports = function( grunt ) {
             }
         },
 
+        // JASMINE ____________________________________________________________________
+        jasmine: {
+            pivotal: {
+                src: ['assets/js/local.js', 'assets/js/colors.js'],
+                options: {
+                    specs: 'spec/*Spec.js',
+                }
+            }
+        },
+
 
         // WATCH ______________________________________________________________________
         watch: {
@@ -184,8 +204,12 @@ module.exports = function( grunt ) {
 
             // Run Uglify task when scripts are modified
             scripts_dev: {
-                files: ['<%= config.dev %>js/scripts.js'],
-                tasks: ['jshint', 'uglify'],
+                files: [
+                    '<%= config.dev %>js/boot.js',
+                    '<%= config.dev %>js/local.js',
+                    '<%= config.dev %>js/colors.js'
+                ],
+                tasks: ['jshint', 'uglify:dev'],
             },
 
             scripts_projects: {
@@ -229,6 +253,7 @@ module.exports = function( grunt ) {
     grunt.loadNpmTasks('grunt-svg2png');
     grunt.loadNpmTasks('grunt-shell');
     grunt.loadNpmTasks('grunt-concurrent');
+    grunt.loadNpmTasks('grunt-contrib-jasmine');
 
     // Grunt tasks
 
@@ -243,6 +268,9 @@ module.exports = function( grunt ) {
 
     // Watch
     grunt.registerTask( 'live', [ 'watch' ] );
+
+    // Tests
+    grunt.registerTask( 'tests', [ 'jasmine' ] );
 
     // Server
     // Watch
