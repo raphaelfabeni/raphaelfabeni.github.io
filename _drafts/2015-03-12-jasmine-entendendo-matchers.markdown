@@ -42,16 +42,13 @@ expect(bob).toEqual(john); // passa => são equivalentes
 expect(bob).toBe(john); // falha => não é o mesmo objeto
 {% endhighlight %}
 
-Apesar de *bob* and *john* serem similares, eles não são o mesmo objeto, o que faz a *spec* passar se for usado o *matcher* `toEqual` mas falha se for usado o *matcher* `toBe`. O mesmo acontece para arrays:
+Apesar de *bob* e *john* serem similares, eles não são o mesmo objeto, o que faz a *spec* passar se for usado o *matcher* `toEqual` mas falha se for usado o *matcher* `toBe`. O mesmo acontece para arrays:
 
 {% highlight js %}
 var group = [100, 101, 102];
 
 expect(group).toEqual([100, 101, 102]); // passa => são equivalentes
 expect(group).toBe([100, 101, 102]); // falha => não é o mesmo array
-
-expect(bob).toEqual(john); // passou => são equivalentes
-expect(bob).toBe(john); // falha => não são o mesmo objeto
 {% endhighlight %}
 
 ## `toBeTruthy` e `toBeFalsy`
@@ -131,7 +128,7 @@ expect(10).not.toBeNaN(); // passa
 
 ## `toBeGreatherThan` e `toBeLessThan`
 
-Esses dois *matchers* verificam se um valor é maior ou menos que um outro valor passado.
+Esses dois *matchers* verificam se um valor é maior ou menor que um outro valor passado.
 
 {% highlight js %}
 expect(10).toBeGreatherThan(1); // passa
@@ -148,7 +145,7 @@ expect(25.23).toBeCloseTo(25.2, 1); // passa
 
 ## `toMatch`
 
-Esse cara verifica se algum valor está de acordo com base em uma expressão regular. 
+Esse cara verifica se algum valor está de acordo com base em uma expressão regular.
 
 {% highlight js %}
 expect('Yes, we can!').toMatch(/we/); // passa
