@@ -58,7 +58,7 @@ Para testar se algum valor é avaliado commo *true* ou *false*, podemos usar res
 {% highlight js %}
 expect(true).toBeTruthy();
 expect(1000).toBeTruthy();
-expect({}}).toBeTruthy();
+expect({}).toBeTruthy();
 
 expect("").toBeFalsy();
 expect(null).toBeFalsy();
