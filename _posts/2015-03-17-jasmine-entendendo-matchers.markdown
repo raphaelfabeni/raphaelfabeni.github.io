@@ -3,7 +3,7 @@ layout: post
 title:  "Jasmine: entendendo os matchers"
 description: "Por acaso, você conhece todos os matchers que o Jasmine nos oferece pra brincar?"
 type: Post
-date: 2015-03-10
+date: 2015-03-17
 image: 'matchers-jasmine.jpg'
 alt: 'Cadeado preso em uma grade'
 ---

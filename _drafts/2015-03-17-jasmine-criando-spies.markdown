@@ -3,7 +3,7 @@ layout: post
 title:  "Jasmine: criando spies"
 description: "Jasmine possibilita a criação de spies, que ao pé da letra, 'ficam de olho' em partes específicas do seu código."
 type: Post
-date: 2015-03-19
+date: 2015-03-17
 image: 'spies-jasmine.jpg'
 alt: ''
 ---
