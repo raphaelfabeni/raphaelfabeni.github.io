@@ -23,6 +23,14 @@
     <meta property="article:publisher" content="https://www.facebook.com/raphaelfabeni" />
     {% endif %}
 
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:creator" content="@raphaelfabeni">
+    <meta name="twitter:site" content="@raphaelfabeni">
+    <meta name="twitter:domain" content="{{ site.url }}">
+    <meta name="twitter:title" content="{{ page.title }}{% if page.path contains '_posts' %} - Blog | Raphael Fabeni{% endif %}">
+    <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+
     <link rel="canonical" href="{{ site.url }}{{ page.url }}">
     <link rel="shortcut icon" href="{{ site.baseurl }}favicon.ico" type="image/x-icon" />
 
@@ -30,7 +38,7 @@
 
     <!-- CSS -->
     <link rel="stylesheet" href="{{ site.baseurl }}build/css/main.min.css">
-    
+
     <!-- Modernizr -->
     <script src="{{ site.baseurl }}build/js/libs/modernizr.min.js"></script>
 
