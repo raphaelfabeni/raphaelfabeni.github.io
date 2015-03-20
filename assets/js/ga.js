@@ -15,7 +15,7 @@
     var codepen = document.getElementById('codepen');
     var color = document.getElementById('color');
 
-    var btnArray = [a2, tableless, culturizeit, twitter, talks, meetup, blog, facebook, github, google, linkedin, codepen, color];
+    var btnArray = [netshoes, cssconf, tableless, culturizeit, twitter, talks, meetup, blog, facebook, github, google, linkedin, codepen, color];
 
     for (var i = 0; i < btnArray.length; i++) {
         if( btnArray[i] ) {
