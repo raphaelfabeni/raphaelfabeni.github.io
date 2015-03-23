@@ -20,7 +20,9 @@ Ao mesmo tempo, outras pessoas e organizações começaram a divulgar e ajudar n
 
 E as coisas não pararam por aí: no dia seguinte o [ZOFE](http://zofe.com.br/), que é um podcast voltado para o desenvolvimento front-end, publicou um episódio bem bacana entrevistando o Léo, onde ele conta toda a história dele por trás da campanha.
 
-E você acha que parou por aí? Não senhor(a). O *irmão da prima da minha amiga que namora o cunhado do vizinho de um amigo meu*, me contou que viriam coisas maiores por aí. Eu estava empolgado pra ajudar no que pudesse e fui atrás, mas quando soube já era muito em cima. De qualquer forma, o projeto saiu em questão de poucos dias e se pudesse descrever o que veio a seguir em uma palavra, acho que seria: *sensacional*.
+E você acha que parou por aí? Não senhor(a). O *irmão da prima da minha amiga que namora o cunhado do vizinho de um amigo meu*, me contou que viriam coisas maiores por aí. Eu estava empolgado pra ajudar no que pudesse e fui atrás, mas quando soube já era muito em cima. De qualquer forma, o projeto saiu em questão de poucos dias e acho que não existe uma palavra pra descrever esse projeto sensacional que uma galera bem bacana lançou.
+
+
 
 
 
