@@ -180,6 +180,9 @@ module.exports = function( grunt ) {
         // JASMINE ____________________________________________________________________
         jasmine: {
             pivotal: {
+                coverage: {
+                    src: ['assets/js/local.js', 'assets/js/colors.js']
+                },
                 src: ['assets/js/local.js', 'assets/js/colors.js'],
                 options: {
                     specs: 'spec/*Spec.js',
