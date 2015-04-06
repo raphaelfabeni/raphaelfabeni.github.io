@@ -209,7 +209,7 @@ module.exports = function( grunt ) {
         // COVERRALS __________________________________________________________________
         coveralls: {
             options: {
-                src: 'bin/coverage/lcov.info'
+                src: 'coverage/lcov.info'
             }
         },
 
