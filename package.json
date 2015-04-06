@@ -24,6 +24,8 @@
     "grunt-shell": "^1.1.1",
     "grunt-svg2png": "~0.2.5",
     "grunt-svgmin": "~0.4.0",
-    "jshint-stylish": "~0.4.0"
+    "jshint-stylish": "~0.4.0",
+    "grunt-coveralls": "^1.0.0",
+    "grunt-template-jasmine-istanbul": "^0.3.3"
   }
 }

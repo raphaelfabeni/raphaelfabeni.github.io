@@ -25,7 +25,7 @@ module.exports = function( grunt ) {
                 }, {
                     removeUselessStrokeAndFill: false
                 }, {
-                    convertPathData: { 
+                    convertPathData: {
                         straightCurves: false
                     }
                 }]
@@ -61,7 +61,7 @@ module.exports = function( grunt ) {
                     noCache: true
                 },
                 files: {
-                    '<%= config.build %>css/main.min.css': 
+                    '<%= config.build %>css/main.min.css':
                     '<%= config.dev %>scss/main.scss'
                 }
             },
@@ -74,7 +74,7 @@ module.exports = function( grunt ) {
             // Project files
             dev: {
                 files: {
-                    '<%= config.build %>js/scripts.min.js': 
+                    '<%= config.build %>js/scripts.min.js':
                     ['<%= config.dev %>js/ga.js',
                     '<%= config.dev %>js/colors.js',
                     '<%= config.dev %>js/local.js',
@@ -88,7 +88,7 @@ module.exports = function( grunt ) {
             // Project files
             blog: {
                 files: {
-                    '<%= config.build %>js/archive.min.js': 
+                    '<%= config.build %>js/archive.min.js':
                     ['<%= config.dev %>js/ga.js',
                     '<%= config.dev %>js/archive.js',
                     '<%= config.dev %>js/colors.js',
@@ -100,7 +100,7 @@ module.exports = function( grunt ) {
 
             projects: {
                 files: {
-                    '<%= config.build %>js/projects.min.js': 
+                    '<%= config.build %>js/projects.min.js':
                     ['<%= config.dev %>js/ga.js',
                     '<%= config.dev %>js/colors.js',
                     '<%= config.dev %>js/local.js',
@@ -183,7 +183,30 @@ module.exports = function( grunt ) {
                 src: ['assets/js/local.js', 'assets/js/colors.js'],
                 options: {
                     specs: 'spec/*Spec.js',
+                },
+                template: require('grunt-template-jasmine-istanbul'),
+                templateOptions: {
+                    coverage: 'bin/coverage/coverage.json',
+                    report: {
+                        type: 'lcov',
+                        options: {
+                            dir: 'bin/coverage'
+                        }
+                    },
+                    thresholds: {
+                        lines: 75,
+                        statements: 75,
+                        branches: 75,
+                        functions: 90
+                    }
                 }
+            }
+        },
+
+        // COVERRALS __________________________________________________________________
+        coveralls: {
+            options: {
+                src: 'bin/coverage/lcov.info'
             }
         },
 
