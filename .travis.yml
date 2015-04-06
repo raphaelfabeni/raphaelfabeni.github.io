@@ -10,6 +10,8 @@ before_script:
   - bower install
 script:
   - grunt build
+after_script:
+  - npm run-script coveralls
 notifications:
   email:
     rapha.fabeni@gmail.com

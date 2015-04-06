@@ -280,6 +280,7 @@ module.exports = function( grunt ) {
     grunt.loadNpmTasks('grunt-shell');
     grunt.loadNpmTasks('grunt-concurrent');
     grunt.loadNpmTasks('grunt-contrib-jasmine');
+    grunt.loadNpmTasks('grunt-coveralls');
 
     // Grunt tasks
 
