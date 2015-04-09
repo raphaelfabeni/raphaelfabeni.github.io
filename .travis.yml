@@ -1,6 +1,4 @@
 language: node_js
-rvm:
-  - 2.2.0
 node_js:
   - "0.10"
 install:
@@ -12,8 +10,6 @@ before_script:
   - bower install
 script:
   - grunt build
-after_script:
-  - npm run-script coveralls
 notifications:
   email:
     rapha.fabeni@gmail.com
