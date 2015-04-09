@@ -8,7 +8,7 @@ describe('ChangeColor', function() {
       newColor;
 
   beforeEach(function() {
-    
+
     // Create elements
     buttonColor = document.createElement('button');
     hold = document.createElement('div');
@@ -67,5 +67,10 @@ describe('ChangeColor', function() {
     expect(changeColor.getColor).not.toEqual('default');
   });
 
-  
+  it('should call the method applyColor after the button click', function() {
+      buttonColor.click();
+      expect(changeColor.applyColor).toHaveBeenCalled();
+  });
+
+
 });

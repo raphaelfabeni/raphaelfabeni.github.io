@@ -179,28 +179,25 @@ module.exports = function( grunt ) {
 
         // JASMINE ____________________________________________________________________
         jasmine: {
-            pivotal: {
-                coverage: {
-                    src: ['assets/js/local.js', 'assets/js/colors.js']
-                },
+            coverage: {
                 src: ['assets/js/local.js', 'assets/js/colors.js'],
                 options: {
                     specs: 'spec/*Spec.js',
-                },
-                template: require('grunt-template-jasmine-istanbul'),
-                templateOptions: {
-                    coverage: 'bin/coverage/coverage.json',
-                    report: {
-                        type: 'lcov',
-                        options: {
-                            dir: 'bin/coverage'
+                    template: require('grunt-template-jasmine-istanbul'),
+                    templateOptions: {
+                        coverage: 'bin/coverage/coverage.json',
+                        report: {
+                            type: 'lcov',
+                            options: {
+                                dir: 'bin/coverage'
+                            }
+                        },
+                        thresholds: {
+                            lines: 75,
+                            statements: 75,
+                            branches: 75,
+                            functions: 90
                         }
-                    },
-                    thresholds: {
-                        lines: 75,
-                        statements: 75,
-                        branches: 75,
-                        functions: 90
                     }
                 }
             }
@@ -209,7 +206,7 @@ module.exports = function( grunt ) {
         // COVERRALS __________________________________________________________________
         coveralls: {
             options: {
-                src: 'coverage/lcov.info'
+                src: 'bin/coverage/lcov.info'
             }
         },
 

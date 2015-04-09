@@ -1,14 +1,14 @@
 describe('DataColor', function() {
 
-  var buttonColor, 
-      hold, 
-      local, 
+  var buttonColor,
+      hold,
+      local,
       dataColor,
       storedColor,
       newLocal;
 
   beforeEach(function() {
-    
+
     // Create elements
     buttonColor = document.createElement('button');
     hold = document.createElement('div');
@@ -29,6 +29,7 @@ describe('DataColor', function() {
 
     dataColor.storeColor('blue');
     newLocal = localStorage.getItem('userColor');
+
   });
 
   afterEach(function() {
@@ -77,6 +78,12 @@ describe('DataColor', function() {
 
     expect(hold.getAttribute('data-color')).toEqual('red');
     expect(localColor).toEqual('red');
+  });
+
+  it('should call the storeColor method after the click', function() {
+    buttonColor.click();
+
+    expect(dataColor.storeColor).toHaveBeenCalled();
   });
 
 });
