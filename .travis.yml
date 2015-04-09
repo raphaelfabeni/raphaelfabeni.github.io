@@ -10,6 +10,7 @@ before_script:
   - bower install
 script:
   - grunt build
+  - grunt tests
 notifications:
   email:
     rapha.fabeni@gmail.com
