@@ -168,6 +168,10 @@ f74a46e Troca da chamada nos parâmetros da função do slideshow.
 7ccdd4c Ajustes de CSS e JS no core do slideshow.
 {% endhighlight %}
 
+## Forçando o push
+
+[Como bem lembrado](https://github.com/raphaelfabeni/raphaelfabeni.github.io/issues/9) pelo [Cícero Pablo](https://github.com/ciceropablo), quando utilizamos o *rebase interativo*, caso você já tenha um repositório com uma *história de commits*, será preciso fazer *push* com a flag `--force`.
+
 **Obs**.
 
 * Os nomes/estrutura dos arquivos e mensagens de *commit* são a títulos de exemplo.

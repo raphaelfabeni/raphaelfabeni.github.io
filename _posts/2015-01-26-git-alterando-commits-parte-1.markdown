@@ -132,7 +132,6 @@ Atualiza o README.
 
 Aí é só *taca-le pau* na nova mensagem.
 
-
 {% highlight bash %}
 Atualiza informações sobre dependências JS no README.
 ...
@@ -146,7 +145,13 @@ E... pronto! \o/ Se rodarmos um *log* simples, veremos a lista dos *commits* com
 9afe987 Ajustes de CSS e JS no slideshow.
 {% endhighlight %}
 
-Pra não ficar muito extenso, dividi o assunto em 2 posts. No próximo vamos falar de mesclar *commits* e dividir um *commit* em dois.
+## Forçando o push
+
+[Como bem lembrado](https://github.com/raphaelfabeni/raphaelfabeni.github.io/issues/9) pelo [Cícero Pablo](https://github.com/ciceropablo), quando utilizamos o *rebase interativo*, caso você já tenha um repositório com uma *história de commits*, será preciso fazer *push* com a flag `--force`.
+
+## Tem mais..
+
+Pra não ficar muito extenso, dividi o assunto em 2 posts. No próximo vamos falar de mesclar *commits* e dividir um *commit* em dois. [Aqui você consegue ler a segunda parte do artigo](/git-alterando-commits-parte-2/).
 
 **Obs**.
 
