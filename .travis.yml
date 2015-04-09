@@ -9,8 +9,8 @@ before_script:
   - npm install
   - bower install
 script:
-  - grunt build
   - grunt tests
+  - grunt build
 notifications:
   email:
     rapha.fabeni@gmail.com
