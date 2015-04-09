@@ -11,6 +11,8 @@ before_script:
 script:
   - grunt tests
   - grunt build
+after_success:
+  - ./node_modules/.bin/jscoverage lib lib-cov
 notifications:
   email:
     rapha.fabeni@gmail.com
