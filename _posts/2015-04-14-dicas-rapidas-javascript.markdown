@@ -81,7 +81,7 @@ Do contrário, caso não fizéssemos essa verificação, teríamos algo assim:
 
 {% highlight js %}
 for(var i in burger) {
-    console.log(i + ' => ' burger[i]);
+    console.log(i + ' => ' + burger[i]);
 }
 
 // Resultará no seguinte:
