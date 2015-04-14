@@ -66,7 +66,7 @@ Com isso, para evitarmos que `feijao` apareça quando listarmos as propriedades 
 {% highlight js %}
 for(var i in burger) {
   if(burger.hasOwnProperty(i)) {
-     console.log(i + ' => ' burger[i]);
+     console.log(i + ' => ' + burger[i]);
   }
 }
 
