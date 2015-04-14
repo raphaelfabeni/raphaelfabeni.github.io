@@ -93,3 +93,5 @@ for(var i in burger) {
 {% endhighlight %}
 
 Gostou? Escrevi alguma groselha? Quer melhorar? Abra uma [issue](https://github.com/raphaelfabeni/raphaelfabeni.github.io/issues) com a hashtag *1postperweek* e vamos conversar.
+
+Obs. Queria deixar aqui meu *muito obrigado* ao [Ademílson Tonato](https://github.com/ftonato) pela ajuda na correção do post.
