@@ -22,6 +22,8 @@ Organizar uma conferência é **bem** diferente de organizar um meetup. Ambos s�
 
 É normal durante o percurso algumas pessoas reclamarem do valor do convite. Eu também já reclamei de achar algo caro, principalmente no Brasil (o Play 4 por exemplo). No entanto, quando você passa de participante para organizador, começa a entender os gastos necessários (que não são poucos) e faz as contas de um valor de ingresso que ajude a pagar o evento para que a organição não tenha que colocar dinheiro do próprio bolso. *Gastos? Quais?* Alguns poucos: *coffee break*, aluguel do espaço, infra estrutura, passagem e hotel dos palestrantes, credenciamento, material gráfico e por aí vai. A nossa idéia na conferência sempre foi que o evento se pagasse. Não era nossa idéia ganhar dinheiro com isso, e sim fazer algo bacana e que a própria comunidade já havia pedido.
 
+Conforme o tempo ia passando confesso que a ansiedade e preocupação ia aumentando. Minha vontade era de que tudo saísse como planejado e que não tivéssemos que correr atrás de nada na última hora. Se valeu a pena, acho que nem preciso dizer né?!
+
 ## As talks
 
 **Zeh Fernandes** - *Motions UI com CSS*
