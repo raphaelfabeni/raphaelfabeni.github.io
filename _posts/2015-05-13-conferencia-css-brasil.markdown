@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "A Conferência CSS Brasil"
-description: "Dicas rápidas de JavaScript, uma linguagem beeem legal mas cheia de pegadinhas do malandro."
+description: "Um pequeno relato sobre a Conferência que nasceu de um meetup."
 type: Post
 date: 2015-05-13
 image: 'conferenciacss.jpg'
