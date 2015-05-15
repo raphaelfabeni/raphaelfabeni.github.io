@@ -5,6 +5,7 @@ install:
   - travis_retry gem install  jekyll
   - travis_retry npm install -g bower
   - travis_retry npm install -g grunt-cli
+  - travis_retry gem install jekyll-sitemap
 before_script:
   - npm install
   - bower install
