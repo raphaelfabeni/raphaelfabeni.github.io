@@ -3,9 +3,9 @@ layout: post
 title:  "Jasmine: criando spies"
 description: "Jasmine possibilita a criação de spies, que ao pé da letra, 'ficam de olho' em partes específicas do seu código."
 type: Post
-date: 2015-03-17
-image: 'spies-jasmine.jpg'
-alt: ''
+date: 2015-05-22
+image: 'jasmine-spies.jpg'
+alt: 'Vários relógios dourados presos a uma superfície e dispostos um ao lado do outro'
 ---
 
 Há algum tempo atrás, escrevi umas groselhas sobre *Jasmine*: [um post foi mais uma introdução sobre o framework](/brincando-com-jasmine) e o [outro post foi sobre os matchers que o Jasmine nos oferece](/jasmine-entendendo-matchers).
@@ -142,6 +142,8 @@ Aí é só rodarmos nossos testes:
 <figure class="loading">
     <img src="{{ site.baseurl}}build/img/posts/samples/jasmine-spy-ok-3.png" alt="Print da tela mostrando que o teste passou">
 </figure>
+
+Valeu ao grande [Weslley Araujo](https://twitter.com/_weslleyaraujo) pela ajuda na revisão do post.
 
 Gostou? Escrevi alguma groselha? Quer melhorar? Abra uma [issue](https://github.com/raphaelfabeni/raphaelfabeni.github.io/issues) com a hashtag *1postperweek* e vamos conversar.
 
