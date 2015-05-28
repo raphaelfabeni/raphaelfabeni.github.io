@@ -6,6 +6,7 @@ type: Post
 date: 2015-04-21
 image: ''
 alt: ''
+---
 
 ## Criação de um array
 
