@@ -4,8 +4,8 @@ title:  "Dicas de bolso de JavaScript - parte 2"
 description: ""
 type: Post
 date: 2015-04-21
-image: ''
-alt: ''
+image: 'js-tips2.jpg'
+alt: 'Imagem mostra uma rua de uma cidade cheias de carros e com prédios altos de ambos os lados'
 ---
 
 ## Criação de um array
