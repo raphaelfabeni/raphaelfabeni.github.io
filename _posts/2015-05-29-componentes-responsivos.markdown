@@ -3,7 +3,7 @@ layout: post
 title:  "Componentes responsivos"
 description: ""
 type: Post
-date: 2015-06-02
+date: 2015-05-29
 image: 'componentes-responsivos.jpg'
 alt: 'Foto mostra uma parte de uma roda gigante'
 ---
