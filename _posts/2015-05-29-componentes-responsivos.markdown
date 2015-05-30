@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Componentes responsivos"
-description: ""
+description: "Uma idéia que tive há algum tempo atrás sobre cada componente ser responsivo e independente."
 type: Post
 date: 2015-05-29
 image: 'componentes-responsivos.jpg'
