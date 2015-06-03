@@ -89,7 +89,7 @@ O [Anderson Casimiro](https://twitter.com/duodraco) apresentou o WebStorm e falo
 ### Jogos: indo além do simples CSS!
 
 *1 minuto de silêncio!* A [Fernanda Bernardo](https://www.facebook.com/feh.bernardo) mitou! Ela fez um jogo apenas em CSS. O raciocínio que ela teve com a lógica do projeto foi sensacional. O *feedback* da galera foi incrível.
-[Link da palestra](https://docs.google.com/presentation/d/1JH_xJOjeN1Btt2Ht0IWTD3kG_tXvF62xrKYU5UKWvso/edit#slide=id.g3f3cb59c2_0215).
+Aqui o [link da palestra](https://docs.google.com/presentation/d/1JH_xJOjeN1Btt2Ht0IWTD3kG_tXvF62xrKYU5UKWvso/edit#slide=id.g3f3cb59c2_0215).
 
 <figure class="text-center loading">
     <iframe width="560" height="315" src="//www.youtube.com/embed/PB_825k8dI4" frameborder="0" allowfullscreen></iframe>
@@ -97,7 +97,15 @@ O [Anderson Casimiro](https://twitter.com/duodraco) apresentou o WebStorm e falo
 
 ### Dados sobre dados: Microdata e Open Graph
 
-O [Leo Beto](https://twitter.com/leobetosouza) falou sobre semântica e informação. Achei muito boa a palestra pois é um assunto que me interessa bastante. O Leo falou de pequenos detalhes e que são coisas simples mas que podem trazer inúmeros ganhos para o projeto. *Procurando link da talk.*
+O [Leo Beto](https://twitter.com/leobetosouza) falou sobre semântica e informação. Achei muito boa a palestra pois é um assunto que me interessa bastante. O Leo falou de pequenos detalhes e que são coisas simples mas que podem trazer inúmeros ganhos para o projeto.
+
+<figure class="text-center loading">
+    <iframe width="800" height="660" src="http://leobetosouza.com.br/palestra-microdata-open-graph/#/" frameborder="0"></iframe>
+</figure>
+
+<figure class="text-center loading">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/GOOuxWXsG-E" frameborder="0" allowfullscreen></iframe>
+</figure>
 
 ### Vídeo na web: além da tag video
 
@@ -113,7 +121,11 @@ O [Thiago Pontes](https://twitter.com/thiagopnts) deu um show falando sobre o [C
 
 ### Atual mercado para front-end
 
-O [João Dalben](https://www.linkedin.com/in/jdalben) falou sobre o mercado front-end da visão de alguém que já esteve no meio e hoje está ausente. Ele abordou diversos assuntos, alguns até polêmicos como valor de trabalho por hora de um desenvolvedor e como isso é visto no contexto geral. *Procurando link da talk.*
+O [João Dalben](https://www.linkedin.com/in/jdalben) falou sobre o mercado front-end da visão de alguém que já esteve no meio e hoje está ausente. Ele abordou diversos assuntos, alguns até polêmicos como valor de trabalho por hora de um desenvolvedor e como isso é visto no contexto geral.
+
+<figure class="text-center loading">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/4uRssY-ml_o" frameborder="0" allowfullscreen></iframe>
+</figure>
 
 ### Web design responsivo
 
@@ -151,7 +163,11 @@ O mestre [Jeff Prestes](https://twitter.com/jeffprestes) falou sobre testes A/B 
 
 ### Entendendo o design material do Google
 
-Gostei bastante da talk do [Neto Marin](https://twitter.com/netomarin). Ele falou a fundo das mudanças que ocorreram com o redesenho da interface do Android. Um dos pontos que mais me chamou a atenção foi numa frase que ele disse a respeito de evitar que o usuário *adivinhe* o que aconteceu e o sistema mostrar isso pra ele. Muito bom! *Procurando link da talk.*
+Gostei bastante da talk do [Neto Marin](https://twitter.com/netomarin). Ele falou a fundo das mudanças que ocorreram com o redesenho da interface do Android. Um dos pontos que mais me chamou a atenção foi numa frase que ele disse a respeito de evitar que o usuário *adivinhe* o que aconteceu e o sistema mostrar isso pra ele. Muito bom!
+
+<figure class="text-center loading">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/iStGUMRiI8g" frameborder="0" allowfullscreen></iframe>
+</figure>
 
 ### Os paranauês do CSS3
 
