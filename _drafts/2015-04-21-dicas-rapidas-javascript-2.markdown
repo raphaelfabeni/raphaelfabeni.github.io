@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Dicas de bolso de JavaScript - parte 2"
-description: ""
+description: "JS e suas pegadinhas do malandro"
 type: Post
 date: 2015-04-21
 image: 'js-tips2.jpg'
@@ -10,9 +10,9 @@ alt: 'Imagem mostra uma rua de uma cidade cheias de carros e com prédios altos 
 
 ## Criação de um array
 
-Alguém usa o construtor `new Array()`? Eu particularmente não uso, mas quando vi isso, achei legal deixar registrado pois era algo que não sabia e vai que no dia a dia encontramos algum código com isso.
+Alguém usa o construtor `new Array()`? Eu particularmente não uso, mas quando vi isso, achei legal deixar registrado pois era algo que não sabia e vai que no dia a dia encontramos algum projeto com isso.
 
-Se criamos um array através do `new Array()` passando argumentos entre os parênteses, temos um array com esses valores que foram passados. Algo assim:
+Se criarmos um array através do `new Array()` passando argumentos entre os parênteses, temos um array com esses valores que foram passados. Algo assim:
 
 {% highlight js %}
 var megaSena = new Array(20, 29, 32, 45, 55, 58);
@@ -24,7 +24,7 @@ Seria o mesmo caso fizéssemos isso:
 var megaSena = [20, 29, 32, 45, 55, 58];
 {% endhighlight %}
 
-E se passássemos apenas um valor como argumento? Teríamos um array com apenas um item, certo? *Mahomenos...* Aí que vem a pegadinha do *JavaScript* malandro. Se criarmos usando a sintaxe literal, realmente temos um array com apenas um item:
+E se passarnis apenas um valor como argumento? Teríamos um array com apenas um item, certo? *Mahomenos...* Aí que vem a pegadinha do *JavaScript* malandro. Se criarmos usando a sintaxe literal, realmente temos um array com apenas um item:
 
 {% highlight js %}
 var megaSena = [20];
@@ -42,11 +42,9 @@ console.log(megaSena.length); // 20
 console.log(megaSena[0]); // undefined
 {% endhighlight %}
 
-Gostou? Escrevi alguma groselha? Quer melhorar? Abra uma [issue](https://github.com/raphaelfabeni/raphaelfabeni.github.io/issues) com a hashtag *1postperweek* e vamos conversar.
-
 ## Funções imediatas e parâmetros
 
-Já ouvimos bastante a respeito de funções imediatas, correto? Recapitulando rapidamente, ela permite que uma função seja executada assim que ela seja definida. Isso é bom principalmente pelo fato de fornecer um escopo temporário para a mágica que você vai fazer, sem a necessidade de poluir seu escopo global.
+Já ouvimos bastante a respeito de funções imediatas, correto? Recapitulando rapidamente, ela permite que uma função seja executada assim que seja definida. Isso é bom principalmente pelo fato de fornecer um escopo temporário para a mágica que você vai fazer, sem a necessidade de poluir seu escopo global.
 
 {% highlight js %}
 (function() {
@@ -54,7 +52,7 @@ Já ouvimos bastante a respeito de funções imediatas, correto? Recapitulando r
 }());
 {% endhighlight %}
 
-Uma coisa bacana é que podemos passar argumentos para as funções imediatas. Podemos ter algo assim:
+Uma coisa bacana é que podemos passar argumentos para as funções imediatas. Podemos então ter algo assim:
 
 {% highlight js %}
 (function(name, hobby) {
@@ -66,7 +64,7 @@ Uma coisa bacana é que podemos passar argumentos para as funções imediatas. P
 
 ## `call` e `apply` sem medo
 
-Esses dois caras são bem semelhantes. Ambos permitem invocar uma função em um outro contexto (que vai ser o *primeiro parâmetro* que você passar pra eles) e com os argumentos passarmos (que vai ser o *segundo parâmetro* que passarmos). Então, `call` e `apply` permitem que:
+Esses dois caras são bem semelhantes. Ambos permitem invocar uma função em um outro contexto (que vai ser o *primeiro parâmetro* que você vai passar pra eles) e com os argumentos que passarmos (que serão o *segundo parâmetro* que passarmos). Então, `call` e `apply` permitem que:
 
 * 1º parâmetro => possamos dizer em qual *escopo* uma determinada função deve ser executada;
 * 2º parâmetro => consigamos definir os argumentos que serão passados para a função.
@@ -104,7 +102,7 @@ O que temos acima é mais ou menos o seguinte:
 * uma função `hello` que retorna uma `string` de acordo com os parâmetros passados;
 * as chamadas das funções usando o formato padrão e usando `call` e `apply`.
 
-Um outro exemplo que talvez possa ajudar, imagine que possamos ter uma função simples que vai iterar sobre os argumentos dessa função (o objeto `arguments`). Poderíamos pensar em algo assim:
+Um outro exemplo que talvez possa ajudar: vamos imaginar que possamos ter uma função simples que vai iterar sobre os argumentos dessa função (o objeto `arguments`). Poderíamos pensar em algo assim:
 
 {% highlight js %}
 function something() {
@@ -117,12 +115,11 @@ function something() {
 something('a', 'b');
 {% endhighlight %}
 
-Aí que mora o problema: vamos ter um erro se tentarmos algo assim.
+Aí que vive o problema: vamos ter um erro se tentarmos algo assim.
 
-* TypeError: likeArray.forEach is not a function
-likeArray.forEach(function () {*
+*TypeError: likeArray.forEach is not a function*
 
-Isso acontece pois o nosso brother `arguments` é um objeto e não um *array*. Pra podermos conseguir usar o `forEach`, precisamos converter `arguments` em um *array* e conseguimos isso utilizando o método `slice`. No entanto, ele é um método que pertence ao `prototype` de `Array`. Daí que vem a pergunta: como fazemos então pra executar a função/método em um outro contexto (executar `slice` no contexto do objeto `arguments`)? `call` ou `apply`.
+Isso acontece pois o nosso brother `arguments` é um objeto e não um *array*. Pra podermos conseguir usar o `forEach`, precisamos converter `arguments` em um *array* e conseguimos isso utilizando o método `slice`. No entanto, ele é um método que pertence ao `prototype` de `Array`. Daí que vem a pergunta: como fazemos então pra executar a função/método em um outro contexto (executar `slice` no contexto do objeto `arguments`)? A resposta meu caro amigo: `call` ou `apply`.
 
 {% highlight js %}
 function something() {
@@ -134,3 +131,5 @@ function something() {
 {% endhighlight %}
 
 No exemplo acima, alteramos a linha relacionada à variável `likeArray`, aplicando o método `slice` no contexto de `arguments` através do `call`.
+
+Gostou? Escrevi alguma groselha? Quer melhorar? Abra uma [issue](https://github.com/raphaelfabeni/raphaelfabeni.github.io/issues) mencionando o post e vamos conversar.
