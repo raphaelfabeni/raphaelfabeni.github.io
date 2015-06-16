@@ -3,7 +3,7 @@ layout: post
 title:  "Dicas de bolso de JavaScript - parte 2"
 description: "Dicas rápidas de JS!"
 type: Post
-date: 2015-05-16
+date: 2015-06-16
 image: 'js-tips2.jpg'
 alt: 'Imagem mostra uma rua de uma cidade cheias de carros e com prédios altos de ambos os lados'
 ---
