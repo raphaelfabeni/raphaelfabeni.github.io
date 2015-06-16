@@ -62,7 +62,7 @@ Uma coisa bacana é que podemos passar argumentos para as funções imediatas. P
 // "Hi, my name is Fabeni and I like to travel"
 {% endhighlight %}
 
-Uma grande vantagem de passar parâmetros para uma função imediata (IIFE), é que esse valor é passado como uma cópia, e não como uma referência... Isto significa que se alterarmos o valor desse parâmetro dentro da IIFE, esse valor não vai persistir fora dela... por exemplo:
+Como [observado](https://github.com/raphaelfabeni/raphaelfabeni.github.io/pull/15) pelo [Mauricio Soares](https://twitter.com/omauriciosoares), uma grande vantagem de passar parâmetros para uma função imediata (IIFE), é que esse valor é passado como uma cópia, e não como uma referência... Isto significa que se alterarmos o valor desse parâmetro dentro da IIFE, esse valor não vai persistir fora dela... por exemplo:
 
 {% highlight js %}
 var myVar = true;
@@ -78,7 +78,7 @@ console.log(myVar); // true
 
 Isso é bom para criarmos cópias de variaveis globais, e garantirmos que se alguem sobreescrever essa variável, isso não vai influenciar o módulo que criamos. Esse comportamento também é conhecido como Closure.
 
-ProTip: É uma excelente prática passarmos o jQuery, window por exemplo como parâmetros para IIFE's
+**ProTip**: É uma excelente prática passarmos o jQuery, window por exemplo,como parâmetros para IIFE's.
 
 ## `call` e `apply` sem medo
 
@@ -151,3 +151,5 @@ function something() {
 No exemplo acima, alteramos a linha relacionada à variável `likeArray`, aplicando o método `slice` no contexto de `arguments` através do `call`.
 
 Gostou? Escrevi alguma groselha? Quer melhorar? Abra uma [issue](https://github.com/raphaelfabeni/raphaelfabeni.github.io/issues) mencionando o post e vamos conversar.
+
+Deixo aqui meu muito obrigado ao [Mauricio Soares](https://twitter.com/omauriciosoares) e ao [Weslley Araujo](https://twitter.com/_weslleyaraujo) pela revisão e contribuição no texto.
