@@ -24,7 +24,7 @@ Seria o mesmo caso fizéssemos isso:
 var megaSena = [20, 29, 32, 45, 55, 58];
 {% endhighlight %}
 
-E se passarnis apenas um valor como argumento? Teríamos um array com apenas um item, certo? *Mahomenos...* Aí que vem a pegadinha do *JavaScript* malandro. Se criarmos usando a sintaxe literal, realmente temos um array com apenas um item:
+E se passarmos apenas um valor como argumento? Teríamos um array com apenas um item, certo? *Mahomenos...* Aí que vem a pegadinha do *JavaScript* malandro. Se criarmos usando a sintaxe literal, realmente temos um array com apenas um item:
 
 {% highlight js %}
 var megaSena = [20];
