@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Dicas de bolso de JavaScript - parte 2"
-description: "JS e suas pegadinhas do malandro"
+description: "Dicas rápidas de JS!"
 type: Post
 date: 2015-04-21
 image: 'js-tips2.jpg'
