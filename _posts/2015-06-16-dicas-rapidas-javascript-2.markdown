@@ -152,4 +152,4 @@ No exemplo acima, alteramos a linha relacionada à variável `likeArray`, aplica
 
 Gostou? Escrevi alguma groselha? Quer melhorar? Abra uma [issue](https://github.com/raphaelfabeni/raphaelfabeni.github.io/issues) mencionando o post e vamos conversar.
 
-Deixo aqui meu muito obrigado ao [Mauricio Soares](https://twitter.com/omauriciosoares) e ao [Weslley Araujo](https://twitter.com/_weslleyaraujo) pela revisão e contribuição no texto.
+Deixo aqui meu muito obrigado ao [Mauricio Soares](https://twitter.com/omauriciosoares), ao [Weslley Araujo](https://twitter.com/_weslleyaraujo) e ao [Frederick Silva](https://github.com/fredericksilva) pela revisão e contribuição no texto.
