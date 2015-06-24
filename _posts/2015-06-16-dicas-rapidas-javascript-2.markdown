@@ -150,6 +150,8 @@ function something() {
 
 No exemplo acima, alteramos a linha relacionada à variável `likeArray`, aplicando o método `slice` no contexto de `arguments` através do `call`.
 
+*Referências* => [Learning JavaScript](http://www.amazon.com/Learning-JavaScript-Edition-Shelley-Powers/dp/0596521871)
+
 Gostou? Escrevi alguma groselha? Quer melhorar? Abra uma [issue](https://github.com/raphaelfabeni/raphaelfabeni.github.io/issues) mencionando o post e vamos conversar.
 
 Deixo aqui meu muito obrigado ao [Mauricio Soares](https://twitter.com/omauriciosoares), ao [Weslley Araujo](https://twitter.com/_weslleyaraujo) e ao [Frederick Silva](https://github.com/fredericksilva) pela revisão e contribuição no texto.
