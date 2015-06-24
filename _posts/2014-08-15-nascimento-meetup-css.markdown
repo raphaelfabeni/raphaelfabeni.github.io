@@ -35,7 +35,7 @@ A Digital Garden tem um espaço fantástico. A única coisa que não nos ajudou 
     <img src="{{ site.baseurl}}build/img/posts/meetup-css-02.jpg" alt="Imagem mostra discussão no primeiro Meetup CSS SP">
 </figure>
 
-Falando do evento em si, nesse primeira versão, tivemos algumas talks rápidas para discussão de um assunto. Eu falei de [Organização de CSS](https://speakerdeck.com/raphaelfabeni/arrumando-o-css), o Fialho falou de [CSS Components](http://www.felipefialho.com/talk-css-components-14-08-08/#/) e o Suissa falou de [Atomic Design](http://www.slideshare.net/suissapg/atomic-design-37762390).
+Falando do evento em si, nesse primeira versão, tivemos algumas talks rápidas para discussão de um assunto. Eu falei de [Organização de CSS](https://speakerdeck.com/raphaelfabeni/organizando-o-css), o Fialho falou de [CSS Components](http://www.felipefialho.com/talk-css-components-14-08-08/#/) e o Suissa falou de [Atomic Design](http://www.slideshare.net/suissapg/atomic-design-37762390).
 
 <figure class="loading">
     <script async class="speakerdeck-embed" data-id="9bd9c1d0019c013285b92abb871a81a5" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>

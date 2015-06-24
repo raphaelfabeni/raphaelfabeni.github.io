@@ -1,7 +1,7 @@
 {
-  "name": "nomedoprojeto",
+  "name": "raphaelfabeni.github.io",
   "version": "1.0.0",
-  "homepage": "www.nomedoprojeto.com.br",
+  "homepage": "www.raphaelfabeni.com.br",
   "ignore": [
     "**/.*",
     "node_modules"

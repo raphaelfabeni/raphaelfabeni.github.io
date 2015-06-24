@@ -75,7 +75,7 @@ Algum tempo atrás criei um repositório no GitHub chamado [Lab CSS3](http://git
 
 ## Conferência CSS Brasil
 
-Já que estamos falando de CSS, esse ano vai rolar a [Conferência CSS Brasil](conferenciacssbrasil.com.br), a primeira conferência nacional focada em CSS. A idéia do evento é compartilhar conhecimento e mostrar o poder do CSS. Eaí.. bora? **#dica:** Em parceria com a comunidade [css3br do Facebook](https://www.facebook.com/groups/cssbrazil/), tá rolando um cupom de desconto => *divulgacss3br*. \o/
+Já que estamos falando de CSS, esse ano vai rolar a [Conferência CSS Brasil](http://conferenciacssbrasil.com.br), a primeira conferência nacional focada em CSS. A idéia do evento é compartilhar conhecimento e mostrar o poder do CSS. Eaí.. bora? **#dica:** Em parceria com a comunidade [css3br do Facebook](https://www.facebook.com/groups/cssbrazil/), tá rolando um cupom de desconto => *divulgacss3br*. \o/
 
 Gostou? Escrevi alguma groselha? Quer melhorar? Abra uma [issue](https://github.com/raphaelfabeni/raphaelfabeni.github.io/issues) com a hashtag *1postperweek* e vamos conversar.
 

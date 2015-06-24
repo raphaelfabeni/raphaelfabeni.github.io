@@ -253,7 +253,7 @@ Se você ainda não começou a usar o elemento <code>time</code> nas suas págin
 Para mais informações, aqui vão alguns links relevantes:
 
 <ul>
-    <li><a href="http://www.w3.org/html/wg/drafts/html/master/text-level-semantics.html#the-time-element"><code>&lt;time&gt;</code> Element on W3C</a></li>
+    <li><a href="http://www.w3.org/html/wg/drafts/html/master/semantics.html#the-time-element"><code>&lt;time&gt;</code> Element on W3C</a></li>
     <li><a href="https://html.spec.whatwg.org/multipage/semantics.html#the-time-element"><code>&lt;time&gt;</code> Element on WHATWG</a></li>
     <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/time"><code>&lt;time&gt;</code> Element on MDN</a></li>
     <li><a href="https://wiki.whatwg.org/wiki/Time_element"><code>&lt;time&gt;</code> Element Wiki on WHATWG</a></li>

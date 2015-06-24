@@ -16,13 +16,13 @@ Particularmente eu gosto bastante desse formato. O tempo curto acaba forçando a
 
 Nessa edição o [tema geral era CSS](http://setemasters.imasters.com.br/edicoes/css/) e fiquei super feliz quando recebi o convite para palestrar. Já havia ido a outras edições do 7Masters mas apenas como ouvinte.
 
-Por se tratar de um evento menor, o iMasters sempre grava as palestras e depois divulga os vídeos no portal, no entanto, dessa vez eles fizeram uma [transmissão ao vivo](http://imasters.com.br/desenvolvimento/7masters-css-acompanhe-ao-vivo-agora/), possibilitando a quem não conseguiu uma vaga que pudesse acompanhar *online*.
+Por se tratar de um evento menor, o iMasters sempre grava as palestras e depois divulga os vídeos no portal, no entanto, dessa vez eles fizeram uma transmissão ao vivo, possibilitando a quem não conseguiu uma vaga que pudesse acompanhar *online*.
 
 ## As talks
 
 ### Hugo Bessa
 
-A talk do [Hugo](https://twitter.com/hugoabessa) foi *[Perfomance em Animações]()* o que é um assunto cada vez mais em foco. Já tinha visto a talk em uma edição recente meetup CSS SP, mas confesso que na correria da organização acabei não me dedicando 100% ao conteúdo. Dessa vez, pude prestar atenção do início ao fim e achei bem legal a abordagem do Hugo, explicando por exemplo a questão das *composite layers*.
+A talk do [Hugo](https://twitter.com/hugoabessa) foi *[Perfomance em Animações](http://pt.slideshare.net/hugobessaa/performance-em-animacoes)* o que é um assunto cada vez mais em foco. Já tinha visto a talk em uma edição recente meetup CSS SP, mas confesso que na correria da organização acabei não me dedicando 100% ao conteúdo. Dessa vez, pude prestar atenção do início ao fim e achei bem legal a abordagem do Hugo, explicando por exemplo a questão das *composite layers*.
 
 <figure class="text-center loading">
   <iframe src="//www.slideshare.net/slideshow/embed_code/45145819" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>

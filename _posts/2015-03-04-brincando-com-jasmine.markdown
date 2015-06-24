@@ -16,7 +16,7 @@ Você testa seu código **JS**?  Se a resposta foi não, nunca é tarde pra come
 
 ### Na prática..
 
-Mostrar na prática é bem melhor que só teoria. Então vamos lá.. Primeiro faça o download da [última versão do Jasmine](https://github.com/jasmine/jasmine/tree/master/dist) (recomendo seguir o [passo a passo deles no GitHub](https://github.com/jasmine/jasmine#installation), super tranquilo).
+Mostrar na prática é bem melhor que só teoria. Então vamos lá.. Primeiro faça o download da [última versão do Jasmine](https://github.com/jasmine/jasmine/releases) (recomendo seguir o [passo a passo deles no GitHub](https://github.com/jasmine/jasmine#installation), super tranquilo).
 
 Pra essa brincadeira criei duas pastas: uma com o nome `jasmine` onde joguei todos os arquivos do *framework* e outra chamada `hello` onde vamos jogar os arquivos desse primeiro exemplo rápido. Dentro dessa pasta vamos criar uma pasta chamada `spec` onde deixaremos os arquivos relacionados aos testes. Nossa pasta `hello` seria assim:
 

@@ -37,7 +37,7 @@ Logo em seguida o <a href="https://twitter.com/lucasdsbh" target="_blank">Lucas 
 
 O <a href="https://twitter.com/ruyadorno" target="_blank">Ruy Adorno</a> apresentou uma talk com o tema <i>"O Diário de um Desenvolvedor Front-End"</i> e apontou temas importantes como formação, projetos <i>open-source</i> e mercado de trabalho. Com certeza foi a palestra mais interativa que teve e sinceramente nem vi o tempo passar de tão entretido que fiquei com o assunto.
 
-A última palestra foi do <a href="http://pliab.com/">François</a>, um desenvolvedor francês que apresentou a talk <i>"An overview of web-documentaries</i>. No geral, o tema de como poder contar histórias através da web, é algo que acho muito bacana, por isso achei a palestra muito boa.
+A última palestra foi do François, um desenvolvedor francês que apresentou a talk <i>"An overview of web-documentaries</i>. No geral, o tema de como poder contar histórias através da web, é algo que acho muito bacana, por isso achei a palestra muito boa.
 
 ## Resumindo
 

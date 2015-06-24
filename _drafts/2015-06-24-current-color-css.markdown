@@ -32,7 +32,7 @@ div {
 }
 {% endhighlight %}
 
-No exemplo acima, simplesmente definimos uma cor verde para o `body` e a utilizamos nos elementos `div` através dos `currentColor`. Mas Fabeni, tu tá me enrolando! Eu não precisava do `currentColor` aí! Exatamente, não precisava. Se voltarmos para o exemplo, chegaríamos no mesmo resultado apenas assim: 
+No exemplo acima, simplesmente definimos uma cor verde para o `body` e a utilizamos nos elementos `div` através dos caras `currentColor`. *Mas Fabeni, tu tá me enrolando! Eu não precisava do `currentColor` aí!* Exatamente, não precisava. Se voltarmos para o exemplo, chegaríamos no mesmo resultado apenas assim: 
 
 {% highlight css %}
 body { color: green; }
@@ -51,13 +51,32 @@ Algumas propriedades herdam o valor da propriedade `color` do elemento ou caso e
 * `box-shadow`;
 * *bullets* de uma lista.
 
+No exemplo abaixo, é possível ver que alterando a cor do `body`, todos os elementos que herdam essa cor, sofrem modificação de estilo.
+
 <figure class="text-center loading">
-    <p data-height="368" data-theme-id="4240" data-slug-hash="PwRJOj" data-default-tab="result" data-user="raphaelfabeni" class='codepen'>See the Pen <a href='http://codepen.io/raphaelfabeni/pen/PwRJOj/'>Simple transition</a> by Raphael Fabeni (<a href='http://codepen.io/raphaelfabeni'>@raphaelfabeni</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+    <p data-height="360" data-theme-id="4240" data-slug-hash="vOWKVm" data-default-tab="result" data-user="raphaelfabeni" class='codepen'>See the Pen <a href='http://codepen.io/raphaelfabeni/pen/vOWKVm/'>Color inherited</a> by Raphael Fabeni (<a href='http://codepen.io/raphaelfabeni'>@raphaelfabeni</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
 </figure>
 
-Mas então, você deve estar perguntando: qual a real utilidade disso, certo? Agora que as coisas começam a ficar legais. Nessas propriedades, onde a 
+Mas então, você deve estar perguntando: qual a real utilidade disso, certo? Agora que as coisas começam a ficar legais e, dependendo da sua criatividade e organição dá pra fazer algumas coisas bem legais.
 
+É possível usar por exemplo em animações, svg, gradientes.. e por aí vai. Fuçando pela *interwebs* da vida, achei esse [exemplo que, através de uma animação, altera a cor do elemento `body`, mudando assim o `currentColor` usado em outro elemento](http://codepen.io/scottkellum/pen/Fhxql).
 
+Brincando um pouco, montei esse exemplo rápido, onde o `currentColor` é aplicado no `:after` do elemento.
+
+<figure class="text-center loading">
+    <p data-height="300" data-theme-id="4240" data-slug-hash="aOVERw" data-default-tab="result" data-user="raphaelfabeni" class='codepen'>See the Pen <a href='http://codepen.io/raphaelfabeni/pen/aOVERw/'>Simple buttons using currentColor</a> by Raphael Fabeni (<a href='http://codepen.io/raphaelfabeni'>@raphaelfabeni</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+</figure>
+
+A idéia para formar o triângulo é criar uma borda geral transparente e setar apenas o lado que você quer com o `currentColor`, formando assim o triângulo. Uma outra abordagem e, que chegaria no mesmo resultado seria fazer o processo inverso: setar uma borda geral com cor (no caso nem precisaria do `currentColor` pois ele herdaria a cor da propriedade `color`) e depois disso, tirar a borda dos lados que você não queira. Algo mais ou menos assim:
+
+{% highlight css %}
+.element:after {
+    border: 0.4em solid;
+    border-right-color: transparent;
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+}
+{% endhighlight %}
 
 ## Mas eaí.. dá pra usar?
 

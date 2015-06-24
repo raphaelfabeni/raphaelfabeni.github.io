@@ -6,12 +6,14 @@ install:
   - travis_retry npm install -g bower
   - travis_retry npm install -g grunt-cli
   - travis_retry gem install jekyll-sitemap
+  - travis_retry gem install html-proofer
 before_script:
   - npm install
   - bower install
 script:
   - grunt tests
   - grunt build
+  - htmlproof ./_site
 notifications:
   email:
     rapha.fabeni@gmail.com
