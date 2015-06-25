@@ -19,7 +19,7 @@ Algumas das coisas que fizeram de 2014 um ano sensacional. **\o/**
     <img src="{{ site.baseurl}}build/img/posts/2014-eventos.jpg" alt="Interior de uma gaveta com vários crachás de eventos de desenvolvimento web e design">
 </figure>
 
-Depois de um dos *meetups* do [FEMUG SP](http://sp.femug.com/), estava <s>em um bar</s> conversando com o pessoal até que começamos a falar sobre eventos. Aí o grande [Rinaldi](https://twitter.com/rafaelrinaldi) soltou: *"Pô Fabeni! Você tá em todos?"*. Em partes foi verdade.
+Depois de um dos *meetups* do [FEMUG SP](https://sp.femug.com/), estava <s>em um bar</s> conversando com o pessoal até que começamos a falar sobre eventos. Aí o grande [Rinaldi](https://twitter.com/rafaelrinaldi) soltou: *"Pô Fabeni! Você tá em todos?"*. Em partes foi verdade.
 
 Minha meta esse ano era ir em todos os eventos (eventos, meetups, conferências, ...) que pudesse, inclusive os que eram fora de São Paulo. **Queria** ter ido em todos que pretendia, mas não consegui.
 
@@ -31,7 +31,7 @@ Você tem a oportunidade de ver coisas recentes, fazer novas amizades, conversar
 
 Aqui algumas dicas de eventos pra você começar:
 
-* [FEMUG SP](http://sp.femug.com/)
+* [FEMUG SP](https://sp.femug.com/)
 * [Meetup CSS SP](http://www.meetup.com/CSS-SP/)
 * [DevBeers](http://www.devbeers.io/)
 * [NodeBR SP](http://www.meetup.com/NodeBR-Sao-Paulo/)
