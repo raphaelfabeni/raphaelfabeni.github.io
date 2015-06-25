@@ -1,6 +1,7 @@
 branches:
   only:
     - gh-pages
+    - master
 language: node_js
 node_js:
   - "0.10"
