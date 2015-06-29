@@ -17,7 +17,7 @@ before_script:
 script:
   - grunt tests
   - grunt build
-  - htmlproof ./_site
+  - htmlproof ./_site --only-4xx
 notifications:
   email:
     rapha.fabeni@gmail.com
