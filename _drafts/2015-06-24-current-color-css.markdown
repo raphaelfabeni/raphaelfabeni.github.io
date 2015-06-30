@@ -1,7 +1,7 @@
-  ---
+---
 layout: post
 title:  "Usando o currentColor do CSS"
-description: ""
+description: "Como brincar com o currentColor do CSS e já sentir o gosto de variáveis nativas no CSS!"
 type: Post
 date: 2015-06-24
 image: ''
@@ -77,6 +77,16 @@ A idéia para formar o triângulo é criar uma borda geral transparente e setar 
     border-bottom-color: transparent;
 }
 {% endhighlight %}
+
+### Outros usos
+
+É possível usar nosso camarada em SVGs. Fiz um exemplo rápido (abaixo) onde o SVG herda a cor da propriedade color do elemento pai (a classe `.alert`).
+
+<figure class="text-center loading">
+  <p data-height="300" data-theme-id="4240" data-slug-hash="rVJVOM" data-default-tab="result" data-user="raphaelfabeni" class='codepen'>See the Pen <a href='http://codepen.io/raphaelfabeni/pen/rVJVOM/'>CSS currentColor in SVG</a> by Raphael Fabeni (<a href='http://codepen.io/raphaelfabeni'>@raphaelfabeni</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+</figure>
+
+Só isso? Basicamente sim e não. Vai variar  da nossa criativade e organização em tirar proveito do que o currentColor nos oferece.
 
 ## Mas eaí.. dá pra usar?
 
