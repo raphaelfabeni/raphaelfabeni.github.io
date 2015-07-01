@@ -1,23 +1,25 @@
 branches:
   only:
-    - develop
+  - develop
 language: node_js
 node_js:
-  - "0.10"
+- '0.10'
 install:
-  - travis_retry gem install  jekyll
-  - travis_retry npm install -g bower
-  - travis_retry npm install -g grunt-cli
-  - travis_retry gem install jekyll-sitemap
-  - travis_retry gem install html-proofer
+- travis_retry gem install  jekyll
+- travis_retry npm install -g bower
+- travis_retry npm install -g grunt-cli
+- travis_retry gem install jekyll-sitemap
+- travis_retry gem install html-proofer
 before_script:
-  - npm install
-  - bower install
+- npm install
+- bower install
 script:
-  - grunt tests
-  - grunt build
-  - htmlproof ./_site --only-4xx
-  - bash script.bash
+- grunt tests
+- grunt build
+- htmlproof ./_site --only-4xx
+- bash ./script.bash
 notifications:
-  email:
-    rapha.fabeni@gmail.com
+  email: rapha.fabeni@gmail.com
+env:
+  global:
+    secure: mQD7tw5fQCMvcx3Tt2oM54dtnXL67CdFBSd12/82b66k94YLhRfnuyFKjS7avAovsGR95H9ZZ+Ix+sWMSjuzfu50Xrk1Bo8CL/aUqIphtK0C7wM4oGSUXFTYwcRTQZzYx3CcsH31roK8ViSVG8cLBJb0aJyYm/E7CuE/qqS725s=
