@@ -1,7 +1,6 @@
 branches:
   only:
-    - gh-pages
-    - master
+    - develop
 language: node_js
 node_js:
   - "0.10"
@@ -18,6 +17,7 @@ script:
   - grunt tests
   - grunt build
   - htmlproof ./_site --only-4xx
+  - bash script.bash
 notifications:
   email:
     rapha.fabeni@gmail.com
