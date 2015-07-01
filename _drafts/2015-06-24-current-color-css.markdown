@@ -4,8 +4,9 @@ title:  "Usando o currentColor do CSS"
 description: "Como brincar com o currentColor do CSS e já sentir o gosto de variáveis nativas no CSS!"
 type: Post
 date: 2015-06-24
-image: ''
-alt: ''
+image: 'https://cloud.githubusercontent.com/assets/1345662/8460452/1660a1cc-1ffb-11e5-9ff1-5f01cb55a529.jpg'
+imageExternal: true
+alt: 'Imagem mostra um controle de xbox segurado por uma pessoa'
 ---
 
 Variáveis no **CSS**? Em futuro não muito distante (ou talvez sim) poderemos usar nossas variáveis muito doidas diretamente no CSS, mas enquanto o sol não raia pra nós, conseguimos simular esse recurso através de pré-processadores. Pra mim, o uso de variáveis são umas das principais e, acho que uma das poucas, *features* que uso dos pré-processadores, mas voltemos ao assunto.
