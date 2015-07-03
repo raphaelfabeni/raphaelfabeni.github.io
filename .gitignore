@@ -5,3 +5,5 @@
 /_site
 /bower_components
 /bin
+
+Gemfile.lock
