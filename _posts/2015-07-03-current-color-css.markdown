@@ -3,7 +3,7 @@ layout: post
 title:  "Usando o currentColor do CSS"
 description: "Como brincar com o currentColor do CSS e já sentir o gosto de variáveis nativas no CSS!"
 type: Post
-date: 2015-06-24
+date: 2015-07-03
 image: 'https://cloud.githubusercontent.com/assets/1345662/8460452/1660a1cc-1ffb-11e5-9ff1-5f01cb55a529.jpg'
 imageExternal: true
 alt: 'Imagem mostra um controle de xbox segurado por uma pessoa'
