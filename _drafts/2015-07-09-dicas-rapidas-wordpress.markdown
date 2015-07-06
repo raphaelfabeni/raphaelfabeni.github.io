@@ -31,12 +31,4 @@ Você (e provavelmente seu cliente, caso freela) quer que seu projeto seja visto
 
 A estrutura de links padrão do WP é algo meio feio. Não é fácil de entender por uma pessoa normal e também não é nada bacana do ponto vista de SEO. Você já deve ter visto algo do tipo => *www.nomedosite.com.br/?p=123*. Não ficaria melhor algo como *www.nomedosite.com.br/sobre* ?
 
-## Imagens no tamanho correto
-
-[Regenerate thumbnails](http://lab.a2comunicacao.com.br/wp-plugins/regenerate-thumbnails/)
-
-## Resumindo...
-
-Um projeto bem bacana pra quem se interessar na parte de plugins é o [WP Plugins](http://lab.a2comunicacao.com.br/wp-plugins/) da antiga A2 Comunicação, nova [A2ad](http://lab.a2comunicacao.com.br/wp-plugins/). O projeto nasceu como uma idéia de documentar os principais plugins usados nos projetos internos e acabou ficando aberto.
-
 Gostou? Escrevi alguma groselha? Quer melhorar? Abra uma [issue](https://github.com/raphaelfabeni/raphaelfabeni.github.io/issues) mencionando o post e vamos conversar.
