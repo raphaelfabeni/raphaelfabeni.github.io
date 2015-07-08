@@ -21,6 +21,14 @@ Isso pode ser resolvido através do `add_image_size` do WP onde é possível set
 
 Uma das coisas mais frustantes em um site é quando nossa busca por algo não retorna nada, sem nenhuma sugestão para auxiliar. Um cara que pode ajudar nisso é o [Relevanssi](https://wordpress.org/plugins/relevanssi/). Com ele é possível customizar uma série de parâmetros
 
+## Repense o seu usuário e senha
+
+Muitas vezes (mais do que a gente pensa) acontece de na correria do desenvolvimento, criarmos um usuário padrão *admin* e sua senha mais criativa ainda como *admin* ou *admin1234* e por aí vai. Até aí tudo bem; o negócio fica feio quando isso vai pra produção pois vira uma porta aberta para ataques. Caso você não tenha controle do banco e da parte dos *assets*, acabei caindo em um plugin que promete ajudar nisso: o [Username Changer](https://wordpress.org/plugins/username-changer/) (não o testei ainda).
+
+## Keep calm and escolha bem
+
+Uma das coisas mais legais do WP é a grande quantidade de temas e plugins disponíveis. E uma das coisas que podem atrapalhar um pouco também é a questão da grande quantidade de temas e plugins disponíveis. Ahn?! Pois é. Se por um lado temos um leque enorme de recursos para se recorrer, temos que sempre pesar e pesquisar a respeito de qualquer plugin/temas a se adicionar no projeto com o objetivo de evitar qualquer problema futuro.
+
 ## Resumindo...
 
 Um projeto bem bacana pra quem se interessar na parte de plugins é o [WP Plugins](http://lab.a2comunicacao.com.br/wp-plugins/) da antiga A2 Comunicação, nova [A2ad](http://lab.a2comunicacao.com.br/wp-plugins/). O projeto nasceu como uma idéia de documentar os principais plugins usados nos projetos internos e acabou ficando aberto.
