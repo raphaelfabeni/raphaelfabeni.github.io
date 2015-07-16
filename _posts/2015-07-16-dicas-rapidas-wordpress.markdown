@@ -1,12 +1,12 @@
 ---
 layout: post
 title:  "Dicas rápidas para projetos WordPress - parte 1"
-description: ""
+description: "Dicas rápidas que podem ser úteis para projetos em WordPress."
 type: Post
-date: 2015-07-09
-image: ''
+date: 2015-07-16
+image: 'https://cloud.githubusercontent.com/assets/1345662/8713520/ffe24dec-2b3f-11e5-9899-662498a8a3f5.jpg'
 imageExternal: true
-alt: ''
+alt: 'Imagem de uma igreja ou estação de trem vista de uma perspectiva mostrando sua próxima do chão'
 ---
 
 Você já fez algum projeto usando WordPress? Pois é! Eu também. Gostando ou não, você já deve ter se deparado com algum WP na sua vida. Seja num projeto no trabalho, *freela*, ou até mesmo aquele blog que você costuma ler, possa ter sido feito em WP.  
