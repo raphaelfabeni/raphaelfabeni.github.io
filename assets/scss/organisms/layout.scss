@@ -148,6 +148,10 @@
                 padding-top: 12px;
             }
 
+            .post-content h2,
+            .post-content h3,
+            .post-content h4 { text-shadow: 1px 1px 0 rgba(0,0,0,.75); }
+
             .short { font-size: 18px; }
             .rss { padding: 35px 0; }
 
