@@ -3,7 +3,7 @@ layout: post
 title:  "Dicas rápidas para projetos WordPress - parte 2"
 description: "Mais algumas dicas que podem te ajudar no seu projeto WordPress."
 type: Post
-date: 2015-08-05
+date: 2015-08-03
 image: 'https://cloud.githubusercontent.com/assets/1345662/9028292/d234a1e2-394a-11e5-9fac-32b03a8231fe.jpg'
 imageExternal: true
 alt: 'Rua na China com trânsito de carros'
@@ -31,6 +31,6 @@ Uma das coisas mais legais do WP é a *grande quantidade de temas e plugins disp
 
 ## Resumindo...
 
-Um projeto bem bacana pra quem se interessar na parte de plugins é o [WP Plugins](http://lab.a2comunicacao.com.br/wp-plugins/) da antiga A2 Comunicação, nova [A2ad](http://lab.a2comunicacao.com.br/wp-plugins/). O projeto nasceu como uma idéia de documentar os principais plugins usados nos projetos internos e acabou ficando aberto.
+Um projeto bem bacana pra quem se interessar na parte de plugins é o [WP Plugins](http://lab.a2comunicacao.com.br/wp-plugins/) da antiga A2 Comunicação, nova [A2ad](http://a2ad.com.br/). O projeto nasceu como uma idéia de documentar os principais plugins usados nos projetos internos e acabou ficando aberto.
 
 Gostou? Escrevi alguma groselha? Quer melhorar? Abra uma [issue](https://github.com/raphaelfabeni/raphaelfabeni.github.io/issues) mencionando o post e vamos conversar.
