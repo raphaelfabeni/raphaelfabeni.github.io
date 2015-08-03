@@ -8,6 +8,8 @@ if [[ "$branch" = "develop" ]]; then
   git config user.name "raphaelfabeni"
   git config --global push.default simple
   git fetch origin master:master
+  git add -A
+  git commit -a -m "Travis #$TRAVIS_BUILD_NUMBER"
   git checkout master
   git merge develop
   git push "https://${GH_TOKEN}@github.com/raphaelfabeni/raphaelfabeni.github.io"
