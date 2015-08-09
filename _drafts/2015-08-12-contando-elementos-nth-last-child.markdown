@@ -9,7 +9,7 @@ imageExternal: true
 alt: ""
 ---
 
-
+Há alguns dias atrás me deparei com uma situação que já havia passado diversas vezes anteriormente e queria tentar solucioná-la de uma outra maneira.
 
 Algumas referências e links legais:
 
