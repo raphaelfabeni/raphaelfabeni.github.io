@@ -9,7 +9,7 @@ imageExternal: true
 alt: ""
 ---
 
-Há alguns dias atrás me deparei com uma situação que já havia passado diversas vezes anteriormente e queria tentar solucioná-la de uma outra maneira.
+Acredito que não há dúvidas de que o Design Responsivo veio pra ficar e que não está mais *na moda*. Mais do que ficar pensando em tamanhos específicos de tela ou em *mobile* e *tablet*, minha opinião é que esqueçamos isso, porque com a variedade de smartphones diferentes
 
 Algumas referências e links legais:
 
