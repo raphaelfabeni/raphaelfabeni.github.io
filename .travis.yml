@@ -3,6 +3,8 @@ branches:
   only:
   - develop
 language: ruby
+rvm:
+- 2.2.0
 install:
 - travis_retry gem install jekyll
 - travis_retry gem install kramdown -v 1.7.0
