@@ -3,7 +3,7 @@ layout: post
 title:  "Contando elementos com nth-last-child"
 description: "A magia negra do pseudo seletor pra nos ajudar com conteúdos que podem variar"
 type: Post
-date: 2015-08-12
+date: 2015-08-17
 image: "https://cloud.githubusercontent.com/assets/1345662/9317504/74f362ec-4512-11e5-8482-c09480c791cf.jpg"
 imageExternal: true
 alt: "Imagem mostra um grupo de artistas em posando para a foto em frente a uma casa de shows em uma época antiga"
