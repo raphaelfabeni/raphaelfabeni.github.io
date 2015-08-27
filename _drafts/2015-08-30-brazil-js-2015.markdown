@@ -1,0 +1,25 @@
+---
+layout: post
+title:  "Valeu BrazilJS"
+description: "Meus 50 centavos sobre a maior conferência JavaScript do universo."
+type: Post
+date: 2015-08-30
+image: ""
+imageExternal: true
+alt: ""
+---
+
+- expectativa primeira vez
+- ano passado ganhei o convite mas não pude ir
+- é tudo aquilo mesmo que imaginava (link tweet)
+- estrutura
+- nem o problema do barulho tirou o brilho do evento
+- encerramento sensacional
+  + quando todo mundo achou que havia acabado, rolou open chopp e uma banda
+- pequenos detalhes (relacionados a idéia de aniversário do JS)
+  + bolo de aniversário
+  + vídeo games
+- sinceramente não prestei atenção aos horários das palestras (atrasos)
+- muito se falou sobre algumas palestras, mas minha opinião é simples: não se palestra no BrazilJS por acaso
+
+Gostou? Escrevi alguma groselha? Quer melhorar? Abra uma [issue](https://github.com/raphaelfabeni/raphaelfabeni.github.io/issues) mencionando o post e vamos conversar.
