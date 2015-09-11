@@ -4,9 +4,9 @@ title:  "Valeu Conferência CSS Brasil"
 description: "O aprendizado de organizar um evento"
 type: Post
 date: 2015-09-16
-image: ""
+image: "https://cloud.githubusercontent.com/assets/1345662/9822466/013fcdc0-5897-11e5-9f00-6fab4f57a40e.jpg"
 imageExternal: true
-alt: ""
+alt: "Surfista caminhando em uma praia segurando uma prancha com o por do sol ao fundo"
 ---
 
 Tenho uma opinião de que cada um de nós acredita em algumas coisas e gostamos de levá-las para o dia a dia: seja uma frase que você ouviu e acha que tem a ver com consigo, um ensinamento passado de um familiar ou até mesmo algo que você matutou durante um tempo e acredita que possa ser o caminho a se seguir. Uma das principais coisas que acredito é que *se você se dispõe a fazer algo, ou você se dedica e faz o seu melhor, ou acredito que seja melhor não assumir a responsabilidade*. E isso, gosto de aplicar a tudo que faço: um compromisso, um time de futebol, um evento, um *freela* e por aí vai.
