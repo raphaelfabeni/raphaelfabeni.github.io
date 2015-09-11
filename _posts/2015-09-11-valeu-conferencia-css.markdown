@@ -3,7 +3,7 @@ layout: post
 title:  "Valeu Conferência CSS Brasil"
 description: "O aprendizado de organizar um evento"
 type: Post
-date: 2015-09-16
+date: 2015-09-11
 image: "https://cloud.githubusercontent.com/assets/1345662/9822466/013fcdc0-5897-11e5-9f00-6fab4f57a40e.jpg"
 imageExternal: true
 alt: "Surfista caminhando em uma praia segurando uma prancha com o por do sol ao fundo"
