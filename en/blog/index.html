@@ -1,0 +1,27 @@
+---
+layout: default
+title: Blog | Raphael Fabeni
+description: 'Um pequeno espaço para escrever sobre o mundo do desenvolvimento web!'
+type: Archive
+language: en
+---
+<h1 class="title">Blog</h1>
+
+<section id="conteudo" class="posts">
+{% for post in site.posts %}
+  {% if post.lang == "en" %}
+    <article class="post">
+        <h1 class="title">
+            <a href="{{ post.url }}">{{ post.title }}</a>
+        </h1>
+    <p class="date text-center">{{ post.date | date: "%m/%-d/%Y" }}</p>
+    <p class="short text-center">{{ post.description }}</p>
+    <a href="{{ post.url }}" class="btn"><i class="fa fa-angle-double-right"></i> Ver post</a>
+    </article>
+  {% endif %}
+{% endfor %}
+</section>
+
+<section class="rss">
+    <p class="text-center"><i class="fa fa-rss"></i> Curtiu? <a href="{{ site.baseurl }}en/feed.xml">Assine o RSS! </a></p>
+</section>

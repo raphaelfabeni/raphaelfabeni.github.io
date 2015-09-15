@@ -9,14 +9,16 @@ language: pt-br
 
 <section id="conteudo" class="posts">
 {% for post in paginator.posts %}
-    <article class="post">
+    {% if post.lang == undefined or post.lang == "pt-br" %}
+      <article class="post">
         <h1 class="title">
             <a href="{{ post.url }}">{{ post.title }}</a>
         </h1>
-    <p class="date text-center">{{ post.date | date: "%-d/%m/%Y" }}</p>
-    <p class="short text-center">{{ post.description }}</p>
-    <a href="{{ post.url }}" class="btn"><i class="fa fa-angle-double-right"></i> Ver post</a>
-    </article>
+        <p class="date text-center">{{ post.date | date: "%-d/%m/%Y" }}</p>
+        <p class="short text-center">{{ post.description }}</p>
+        <a href="{{ post.url }}" class="btn"><i class="fa fa-angle-double-right"></i> Ver post</a>
+      </article>
+    {% endif %}
 {% endfor %}
 </section>
 
