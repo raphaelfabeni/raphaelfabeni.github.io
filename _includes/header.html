@@ -12,7 +12,12 @@
     <nav class="nav-main">
         <ul class="main-menu">
             <li>
-                <a class="nav-link" href="{{ site.baseurl }}blog"><i class="fa fa-pencil"></i> Blog{% if page.language == "en" %} (portuguese){% endif %}</a>
+                <!-- <a class="nav-link" href="{{ site.baseurl }}blog"><i class="fa fa-pencil"></i> Blog{% if page.language == "en" %} (portuguese){% endif %}</a> -->
+                <a class="nav-link" href="{{ site.baseurl }}blog"><i class="fa fa-pencil"></i> Blog</a>
+                <ul class="sub-menu">
+                    <li><a href="{{ site.baseurl }}blog">Portuguese</a></li>
+                    <li><a href="{{ site.baseurl }}en/blog">English</a></li>
+                </ul>
             </li>
             <li>
                 <a class="nav-link" href="{{ site.baseurl }}projects"><i class="fa fa-coffee"></i> Projects</a>

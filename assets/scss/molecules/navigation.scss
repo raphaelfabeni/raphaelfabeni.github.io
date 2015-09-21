@@ -47,6 +47,25 @@
                 }
 
                 .main-menu li + li { margin-top: 10px; }
+                
+                .sub-menu {
+                    margin: 2px 0 0;
+                    padding: 0;
+                }
+
+                .sub-menu li {
+                    list-style-type: none;
+                    display: inline;
+
+                    &:first-child {
+                        padding-right: 8px;
+                    }
+
+                    & + li {
+                        border-left: solid 2px lighten($color-primary, 40%);
+                        padding-left: 10px;
+                    }
+                }
             
             /*  Thumb
                 ========================================================================== */
@@ -121,6 +140,13 @@
                         top: 175px;
                         margin-bottom: 0;
                         text-align: left;
+                    }
+
+                    .sub-menu {
+                        padding-top: 3px;
+                        padding-left: 23px;
+                        font-style: italic;
+                        font-size: 16px;
                     }
 
 

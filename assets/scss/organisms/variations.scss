@@ -58,6 +58,8 @@
     [data-color="purple"] a:hover,
     [data-color="purple"] a:focus { color: $pink; }
 
+    [data-color="purple"] .sub-menu li + li { border-color: lighten($purple, 40%); }
+
     [data-color="purple"] .thumb { border-color: darken($pink, 10%); }
 
     [data-color="purple"] .social li a,
@@ -92,6 +94,8 @@
     [data-color="brown"] a:hover,
     [data-color="brown"] a:focus { color: darken($yellow, 15%); }
 
+    [data-color="brown"] .sub-menu li + li { border-color: lighten($brown, 40%); }
+
     [data-color="brown"] .thumb { border-color: darken($yellow, 20%); }
 
     [data-color="brown"] .social li a,
@@ -125,6 +129,8 @@
     [data-color="blue"] h6,
     [data-color="blue"] a:hover,
     [data-color="blue"] a:focus { color: #FF0055; }
+
+    [data-color="blue"] .sub-menu li + li { border-color: $blue; }
 
     [data-color="blue"] .thumb { border-color: darken(#FF0055, 10%); }
 
