@@ -1,7 +1,6 @@
 // GA (buttons)
 (function () {
     var netshoes = document.getElementById('netshoes');
-    var cssconf = document.getElementById('cssconf');
     var tableless = document.getElementById('tableless');
     var culturizeit = document.getElementById('culturizeit');
     var twitter = document.getElementById('twitter');
@@ -15,7 +14,7 @@
     var codepen = document.getElementById('codepen');
     var color = document.getElementById('color');
 
-    var btnArray = [netshoes, cssconf, tableless, culturizeit, twitter, talks, meetup, blog, facebook, github, google, linkedin, codepen, color];
+    var btnArray = [netshoes, tableless, culturizeit, twitter, talks, meetup, blog, facebook, github, google, linkedin, codepen, color];
 
     for (var i = 0; i < btnArray.length; i++) {
         if( btnArray[i] ) {
