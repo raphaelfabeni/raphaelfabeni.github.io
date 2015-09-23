@@ -16,12 +16,12 @@ language: en
         </h1>
     <p class="date text-center">{{ post.date | date: "%m/%-d/%Y" }}</p>
     <p class="short text-center">{{ post.description }}</p>
-    <a href="{{ post.url }}" class="btn"><i class="fa fa-angle-double-right"></i> Ver post</a>
+    <a href="{{ post.url }}" class="btn"><i class="fa fa-angle-double-right"></i> Read more</a>
     </article>
   {% endif %}
 {% endfor %}
 </section>
 
 <section class="rss">
-    <p class="text-center"><i class="fa fa-rss"></i> Curtiu? <a href="{{ site.baseurl }}en/feed.xml">Assine o RSS! </a></p>
+    <p class="text-center"><i class="fa fa-rss"></i> Do you like it? <a href="{{ site.baseurl }}en/feed.xml">Subscribe to RSS! </a></p>
 </section>
