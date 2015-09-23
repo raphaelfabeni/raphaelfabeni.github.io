@@ -57,6 +57,13 @@
                     list-style-type: none;
                     display: inline;
 
+                    &.active a {
+                        cursor: default;
+
+                        &:hover,
+                        &:focus { text-decoration: none; }
+                    }
+
                     &:first-child {
                         padding-right: 8px;
                     }

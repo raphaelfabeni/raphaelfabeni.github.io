@@ -22,7 +22,8 @@
     [data-color="gray"] h5,
     [data-color="gray"] h6,
     [data-color="gray"] a:hover,
-    [data-color="gray"] a:focus { color: $orange; }
+    [data-color="gray"] a:focus,
+    [data-color="gray"] .active > a { color: $orange; }
 
     [data-color="gray"] .thumb { border-color: darken($orange, 10%); }
 
@@ -56,7 +57,8 @@
     [data-color="purple"] h5,
     [data-color="purple"] h6,
     [data-color="purple"] a:hover,
-    [data-color="purple"] a:focus { color: $pink; }
+    [data-color="purple"] a:focus,
+    [data-color="purple"] .active > a { color: $pink; }
 
     [data-color="purple"] .sub-menu li + li { border-color: lighten($purple, 40%); }
 
@@ -92,7 +94,8 @@
     [data-color="brown"] h5,
     [data-color="brown"] h6,
     [data-color="brown"] a:hover,
-    [data-color="brown"] a:focus { color: darken($yellow, 15%); }
+    [data-color="brown"] a:focus,
+    [data-color="brown"] .active > a { color: darken($yellow, 15%); }
 
     [data-color="brown"] .sub-menu li + li { border-color: lighten($brown, 40%); }
 
@@ -128,7 +131,8 @@
     [data-color="blue"] h5,
     [data-color="blue"] h6,
     [data-color="blue"] a:hover,
-    [data-color="blue"] a:focus { color: #FF0055; }
+    [data-color="blue"] a:focus,
+    [data-color="blue"] .active > a { color: #FF0055; }
 
     [data-color="blue"] .sub-menu li + li { border-color: $blue; }
 

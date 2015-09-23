@@ -106,9 +106,13 @@
     /*  Links
         ========================================================================== */
         a {
-            @include transition(all .25s ease);
             color: lighten($color-primary, 40%);
+            @include transition(all .25s ease);
             text-decoration: none;
+        }
+
+        .active > a {
+            color: $navy-blue;
         }
 
         a:hover,
