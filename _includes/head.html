@@ -5,6 +5,8 @@
     {% else %}
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
     {% endif %}
+    
+    {% include post.html %}
 
     <meta name="viewport" content="width=device-width">
     <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" />

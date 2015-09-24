@@ -8,6 +8,8 @@ image: "https://cloud.githubusercontent.com/assets/1345662/9588327/013ec7be-4ffe
 imageExternal: true
 alt: "Imagem de um teatro visto do palco"
 lang: en
+url_en: /url-ingles
+url_br: /url-brasil
 ---
 
 English teste
