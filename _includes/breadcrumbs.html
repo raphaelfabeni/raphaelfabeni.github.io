@@ -14,7 +14,12 @@
    </div>
    {% elsif page.type == 'Post' %}
    <div itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
+      {% if page.lang == undefined or page.lang == "pt-br" %}
       <a href="/blog" itemprop="url">
+      {% endif %}
+      {% if page.lang == "en" %}
+      <a href="/en/blog" itemprop="url">
+      {% endif %}
          <span itemprop="title">Blog</span>
       </a> ›
    </div>
@@ -22,14 +27,4 @@
       <span itemprop="title">{{ page.title }}</span>
    </div>
    {% endif %}
-   <!-- <div itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
-      <a href="#" itemprop="url">
-         <span itemprop="title">Página Interna</span>
-      </a> ›
-   </div>
-   <div itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
-      <a href="#" itemprop="url" class="active">
-         <span itemprop="title">Página Ativa</span>
-      </a>
-   </div> -->
 </div>
