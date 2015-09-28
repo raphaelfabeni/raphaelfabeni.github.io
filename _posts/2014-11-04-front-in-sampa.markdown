@@ -171,7 +171,7 @@ Gostei bastante da talk do [Neto Marin](https://twitter.com/netomarin). Ele falo
 
 ### Os paranauês do CSS3
 
-Por fim, eu falei um pouco de CSS3 e o quanto ele pode enriquecer os detalhes da sua aplicação. Mostrei alguns exemplos práticos e pegadinhas no uso. No fim da talk, fiz o anúncio da [CSS conf Brasil](http://cssconfbrasil.com.br/).
+Por fim, eu falei um pouco de CSS3 e o quanto ele pode enriquecer os detalhes da sua aplicação. Mostrei alguns exemplos práticos e pegadinhas no uso. No fim da talk, fiz o anúncio da [Conferência CSS Brasil](http://conferenciacssbrasil.com.br/).
 
 <figure class="text-center loading presentation">
     <script async class="speakerdeck-embed" data-id="dcaef5e0400901324aa87a6501a1d9f8" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>

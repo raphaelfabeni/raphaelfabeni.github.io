@@ -1,0 +1,15 @@
+---
+layout: post
+title:  "Front in Vale 2015"
+description: "A brief summary of the first front-end event of the Vale do Paraíba."
+type: Post
+date: 2015-09-29
+image: ""
+imageExternal: true
+alt: ""
+lang: en
+url_en: /front-in-vale-2015
+url_br: /front-in-vale-2015
+---
+
+Ingles
