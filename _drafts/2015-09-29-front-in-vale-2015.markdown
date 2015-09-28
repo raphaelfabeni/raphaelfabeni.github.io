@@ -12,7 +12,7 @@ url_en: /front-in-vale-2015
 url_br: /front-in-vale-2015
 ---
 
-No último final de semana rolou em São José do Campos o [Front in Vale](http://www.frontinvale.com.br) que é o primeiro evento focado em front-end do Vale do Paraíba e eu estive por lá falando *umas groselhas* sobre Cultura de Desenvolvimento. Deixo aqui já meu **muito** obrigado ao pessoal da organização em nome do [Palloi](https://twitter.com/palloi) pelo convite.
+No último final de semana rolou em São José do Campos o [Front in Vale](http://www.frontinvale.com.br) que é o primeiro evento focado em front-end do Vale do Paraíba e eu estive por lá falando *umas groselhas* sobre Cultura de Desenvolvimento.
 
 ## O evento
 
@@ -34,11 +34,19 @@ Nascido de uma discussão de um [FEMUG](https://sp.femug.com/), a [talk](https:/
 
 ### Dynamic Style Sheets
 
-O [Guilherme Souza](https://twitter.com/_gui_souza) mostrou nessa talk, um pouco da sua trajetória e do seu novo projeto o DSS que traz um poder maior ao CSS.
+O [Guilherme Souza](https://twitter.com/_gui_souza) mostrou nessa [talk](http://pt.slideshare.net/Guilherme5ouza/frontinvale), um pouco da sua trajetória e do seu novo projeto o DSS, que traz um poder gigante ao CSS ([link de exemplo](http://t.co/x2vUZH8ZJL)).
+
+<figure class="text-center loading presentation">
+    <iframe src="//pt.slideshare.net/slideshow/embed_code/key/2uog4PvRvvA0Qd" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
+</figure>
+
+*[Link da palestra](http://pt.slideshare.net/Guilherme5ouza/frontinvale)* 
 
 ### Material Design Lite
 
 O [Nelson Vasconcelos](https://twitter.com/nvasconcelos_), que é um Google UI/UX expert, falou sobre o Material Design Lite. Ele passou por todos os pontos do projeto: desde a explição conceitual de cores, animações e tipografia até como podemos aplicá-lo na web.
+
+*Aguardando link da talk*
 
 ### Desenvolvimento Front-End Locaweb
 
@@ -72,7 +80,13 @@ O [Willian Fernandes](https://twitter.com/willian) destrinchou uma estrutura que
 
 ### O que não te contaram sobre pré-processadores
 
-O grande [Edu Matos](https://twitter.com/eduardojmatos) mostrou como pré-processadores são ferramentas úteis mas que podem causar grandes danos senão usados com cuidado.
+O grande [Edu Matos](https://twitter.com/eduardojmatos) mostrou nessa [talk](https://speakerdeck.com/eduardojmatos/o-que-nao-te-contaram-sobre-pre-processadores) como pré-processadores são ferramentas úteis mas que podem causar grandes danos senão forem usados com cuidado.
+
+<figure class="text-center loading presentation">
+    <script async class="speakerdeck-embed" data-id="3c323f15fc2a4f989b21cd36d6c09132" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+</figure>
+
+*[Link da palestra](https://speakerdeck.com/eduardojmatos/o-que-nao-te-contaram-sobre-pre-processadores)*
 
 ### Grid Layout e Flexbox: esqueça o float e seja feliz
 
@@ -83,3 +97,7 @@ Essa era a talk que eu estava esperando pra ver. O mestre [Diego Eis](https://tw
 </figure>
 
 *[Link da palestra](http://pt.slideshare.net/diegoeis/flexbox-to-the-people)*
+
+## Que venha o próximo...
+
+Deixo aqui meu **muito** obrigado ao pessoal da organização em nome do [Palloi](https://twitter.com/palloi) pelo convite. É isso galera! Nos vemos por aí! o/
