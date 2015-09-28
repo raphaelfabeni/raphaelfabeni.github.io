@@ -1,12 +1,18 @@
 ---
 layout: default
-language: pt-br
 ---
 <progress value="0"></progress>
 <article class="post-content" id="conteudo">
   <header class="post-header">
     <h1 class="title title-big">{{ page.title }}</h1>
-    <p class="date text-center">{{ page.date | date: "%-d/%m/%Y" }}</p>
+    <p class="date text-center">
+      {% if page.lang == undefined or page.lang == "pt-br" %}
+        {{ page.date | date: "%-d/%m/%Y" }}
+      {% endif %}
+      {% if page.lang == "en" %}
+        {{ page.date | date: "%m/%-d/%Y" }}
+      {% endif %}
+    </p>
   </header>
 
   <figure class="text-center loading image-opening">
@@ -30,6 +36,15 @@ language: pt-br
 
 {% include share.html %}
 
-<a href="{{ site.baseurl }}blog"><i class="fa fa-angle-double-left"></i> Ver todos os posts</a>
+{% if page.lang == undefined or page.lang == "pt-br" %}
+  <a href="{{ site.baseurl }}blog">
+    <i class="fa fa-angle-double-left"></i>Ver todos os posts
+  </a>
+{% endif %}
+{% if page.lang == "en" %}
+  <a href="{{ site.baseurl }}en/blog">
+    <i class="fa fa-angle-double-left"></i>See all the posts
+  </a>
+{% endif %}
 
 <a rel="author" class="sr-only" href="https://plus.google.com/u/0/+RaphaelFabeni">Raphael Fabeni</a>

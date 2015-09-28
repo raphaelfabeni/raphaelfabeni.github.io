@@ -5,7 +5,7 @@ email: contato@raphaelfabeni.com.br
 description: "A brazilian front-end developer who loves the web, electronic music and travels."
 baseurl: "/"
 url: "http://www.raphaelfabeni.com.br"
-url_en: http://www.raphaelfabeni.com.br/en"
+url_en: "http://www.raphaelfabeni.com.br/en"
 exclude: ['node_modules', 'Gruntfile.js', 'package.json', 'assets', 'bower_components', 'spec', 'bower.json', 'bin', 'README.md', 'script.bash', 'Gemfile.lock', 'Gemfile']
 
 # Build settings

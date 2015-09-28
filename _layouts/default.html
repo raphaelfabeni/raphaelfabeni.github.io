@@ -1,5 +1,13 @@
 <!doctype html>
-<html lang="{{ page.language }}">
+{% if page.type == 'Post' %}
+    {% if page.lang == undefined or page.lang == "pt-br" %}
+        <html lang="pt-br">
+    {% elsif page.lang == "en" %}
+        <html lang="en">
+    {% endif %}
+{% else %}
+    <html lang="{{ page.language }}">
+{% endif %}
 
 {% include head.html %}
 
