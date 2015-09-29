@@ -12,94 +12,92 @@ url_en: /front-in-vale-2015
 url_br: /front-in-vale-2015
 ---
 
-Last weekend ocurrend in São José dos Campos, the [Front in Vale](http://www.frontinvale.com.br) conference which is the first event focused in front-end of Vale do Paraíba and I was there talking about Development Culture.
+Last weekend ocurrend in São José dos Campos, the [Front in Vale](http://www.frontinvale.com.br) conference which is the first event from *Vale do Paraíba* focused in front-end and I was there talking about Development Culture.
 
 ## About the event
 
-In my opinion the event was great. I arrived there around 8:30 AM *really* hungry because afraid of being late, I did not take breakfast in São Paulo. So, I asked for a near bakery and I was surprised by the coffee break. **\o/** A good point about the event is 
+In my opinion the event was great. I arrived there around 8:30 AM *really* hungry because afraid of being late, I did not take breakfast in São Paulo. So, I asked for a near bakery and I was surprised by the coffee break. **\o/** A good point about the event is that parking of the hotel that was hosting the event was free; something that is almost impossible to happen in São Paulo.
 
-Particularmente o evento não deixou nada a desejar. Cheguei lá por volta das 8:30 da manhã, literalmente *varado* de fome, pois com receio de não me atrasar, acabei nem tomando café em São Paulo. Perguntei por uma padaria por perto e fui surpreendido pelo café do evento. **\o/** Um ponto que me surpreendeu, foi que o estacionamento do hotel que sediava o evento era *de graça*, coisa que dificilmente vemos aqui em São Paulo.
+There were no delays between the talks; and a good point about it is the good location of the hotel: there was a shopping mall in front of the event where the people could go have lunch.
 
-O *timing* seguiu os horários propostos sem nenhum atraso; o que facilitou também foi a boa localização do hotel, já que havia um shopping literalmente em frente pra galera poder *rangar* na hora do almoço.
+## The talks
 
-## As palestras
+### Talking about Development Culture
 
-### Falando um pouco sobre Cultura de Desenvolvimento
-
-Nascido de uma discussão de um [FEMUG](https://sp.femug.com/), a [talk](https://speakerdeck.com/raphaelfabeni/falando-sobre-cultura-de-desenvolvimento) relaciona alguns conceitos relacionados à cultura de desenvolvimento e alguns itens praticados no dia a dia do time da Netshoes.
+The theme borned in a [FEMUG](https://sp.femug.com/), a [talk](https://speakerdeck.com/raphaelfabeni/falando-sobre-cultura-de-desenvolvimento) edition and the [talk](https://speakerdeck.com/raphaelfabeni/falando-sobre-cultura-de-desenvolvimento) is about some concepts related to the theme and some items applied on Netshoes day by day.
 
 <figure class="text-center loading presentation">
     <script async class="speakerdeck-embed" data-id="33f8bb34be314560b2e24737e1b6e5d5" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
 </figure>
 
-*[Link da palestra](https://speakerdeck.com/raphaelfabeni/falando-sobre-cultura-de-desenvolvimento)*
+*[Link of the talk](https://speakerdeck.com/raphaelfabeni/falando-sobre-cultura-de-desenvolvimento)*
 
 ### Dynamic Style Sheets
 
-O [Guilherme Souza](https://twitter.com/_gui_souza) mostrou nessa [talk](http://pt.slideshare.net/Guilherme5ouza/frontinvale), um pouco da sua trajetória e do seu novo projeto o DSS, que traz um poder gigante ao CSS ([link de exemplo](http://t.co/x2vUZH8ZJL)).
+The [Guilherme Souza](https://twitter.com/_gui_souza) showed in his [talk](http://pt.slideshare.net/Guilherme5ouza/frontinvale) about your carrer and about your new cool project called DSS, that brings a big and interactive power to CSS ([link of the example](http://t.co/x2vUZH8ZJL)).
 
 <figure class="text-center loading presentation">
     <iframe src="//pt.slideshare.net/slideshow/embed_code/key/2uog4PvRvvA0Qd" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
 </figure>
 
-*[Link da palestra](http://pt.slideshare.net/Guilherme5ouza/frontinvale)* 
+*[Link of the talk](http://pt.slideshare.net/Guilherme5ouza/frontinvale)* 
 
 ### Material Design Lite
 
-O [Nelson Vasconcelos](https://twitter.com/nvasconcelos_), que é um Google UI/UX expert, falou sobre o Material Design Lite. Ele passou por todos os pontos do projeto: desde a explição conceitual de cores, animações e tipografia até como podemos aplicá-lo na web.
+The [Nelson Vasconcelos](https://twitter.com/nvasconcelos_), who is a Google UI/UX expert, talked about the Material Design Lite. He passed by all the points of the project: from the conceptual explanation of colors, animations and typography to how to apply in the web.
 
-*Aguardando link da talk*
+*Waiting the link of the talk*
 
-### Desenvolvimento Front-End Locaweb
+### Front-End Development Locaweb
 
-Nessa [talk](http://deividmarques.github.io/palestra-frontinvale/#/), o [Deivid Marques](https://twitter.com/deividmarques) mostrou um pouco do dia a dia e organização do time de front-end da Locaweb.
+In this [talk](http://deividmarques.github.io/palestra-frontinvale/#/), [Deivid Marques](https://twitter.com/deividmarques) showed a little bit about the day by day and organization of the Locaweb Front-End team.
 
 <figure class="text-center loading">
     <iframe width="850" height="700" src="http://deividmarques.github.io/palestra-frontinvale/" frameborder="0" allowfullscreen></iframe>
 </figure>
 
-*[Link da palestra](http://deividmarques.github.io/palestra-frontinvale/)*
+*[Link of the talk](http://deividmarques.github.io/palestra-frontinvale/)*
 
 ### Throttle & Debounce Patterns in Web Apps
 
-Essa [palestra](https://speakerdeck.com/almirfilho/throttle-and-debounce-patterns-in-web-apps) é uma das melhores que já vi do [Almir Filho](https://twitter.com/almirfilho) na minha opinião. Ele apresenta dois conceitos bem legais que nos ajudam a resolver alguns problemas de perfomance.
+In my opinion this [talk](https://speakerdeck.com/almirfilho/throttle-and-debounce-patterns-in-web-apps) is one of the best that I've ever seen of [Almir Filho](https://twitter.com/almirfilho). He showed two very cool concepts that could help us to solve some perfomance problems.
 
 <figure class="text-center loading presentation">
     <script async class="speakerdeck-embed" data-id="f3af8110f7580131223a568bbdf7fd4f" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
 </figure>
 
-*[Link da palestra](https://speakerdeck.com/almirfilho/throttle-and-debounce-patterns-in-web-apps)*
+*[Link of the talk](https://speakerdeck.com/almirfilho/throttle-and-debounce-patterns-in-web-apps)*
 
-### AngularJS Style Guide - Melhorando a escalabilidade, legibilidade e pensando no futuro
+### AngularJS Style Guide
 
-O [Willian Fernandes](https://twitter.com/willian) destrinchou uma estrutura que utilizou numa aplicação usando AngularJS e ES6 e mostrou como ela facilitou a manutenção/desenvolvimento e testes.
+[Willian Fernandes](https://twitter.com/willian) talked about a structure that he created for an application using AngularJS and ES6 and showed how this structure facilitated the maintenance, developing and tests.
 
 <figure class="text-center loading presentation">
     <script async class="speakerdeck-embed" data-id="011909e4ffac469189676aab18f543bb" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
 </figure>
 
-*[Link da palestra](https://speakerdeck.com/willian/angularjs-style-guide)*
+*[Link of the talk](https://speakerdeck.com/willian/angularjs-style-guide)*
 
-### O que não te contaram sobre pré-processadores
+### What they did not tell you about preprocessors
 
-O grande [Edu Matos](https://twitter.com/eduardojmatos) mostrou nessa [talk](https://speakerdeck.com/eduardojmatos/o-que-nao-te-contaram-sobre-pre-processadores) como pré-processadores são ferramentas úteis mas que podem causar grandes danos senão forem usados com cuidado.
+[Edu Matos](https://twitter.com/eduardojmatos) showed in his talk [talk](https://speakerdeck.com/eduardojmatos/o-que-nao-te-contaram-sobre-pre-processadores) about how preprocessors are useful tools but that could cause big damage if not used with caution.
 
 <figure class="text-center loading presentation">
     <script async class="speakerdeck-embed" data-id="3c323f15fc2a4f989b21cd36d6c09132" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
 </figure>
 
-*[Link da palestra](https://speakerdeck.com/eduardojmatos/o-que-nao-te-contaram-sobre-pre-processadores)*
+*[Link of the talk](https://speakerdeck.com/eduardojmatos/o-que-nao-te-contaram-sobre-pre-processadores)*
 
-### Grid Layout e Flexbox: esqueça o float e seja feliz
+### Flexbox and Grid Layout: How you will structure layouts tomorrow.
 
-Essa era a talk que eu estava esperando pra ver. O mestre [Diego Eis](https://twitter.com/diegoeis) mostrou como o *Grid Layout* vem (sabe-se lá quando) pra ajudar nossas vidas
+This was the talk that I really wanted to see. The master [Diego Eis](https://twitter.com/diegoeis) showed how *Grid Layout* in someday comes to help our lifes.
 
 <figure class="text-center loading presentation">
     <iframe src="//pt.slideshare.net/slideshow/embed_code/key/usx7JlVmSOibdC" width="599" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
 </figure>
 
-*[Link da palestra](http://pt.slideshare.net/diegoeis/flexbox-to-the-people)*
+*[Link of the talk](http://pt.slideshare.net/diegoeis/flexbox-to-the-people)*
 
-## Que venha o próximo...
+## That comes the next...
 
-Deixo aqui meu **muito** obrigado ao pessoal da organização em nome do [Palloi](https://twitter.com/palloi) pelo convite. É isso galera! Nos vemos por aí! o/
+I want **to thank** the event organization on behalf of [Palloi](https://twitter.com/palloi) for the invitation. That's it guys! See you! o/
