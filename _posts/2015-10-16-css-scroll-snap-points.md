@@ -20,7 +20,7 @@ Aí, vem o mano CSS e fala: "Calma, galera! Tô chegando junto e vamos fazer iss
 
 ## CSS Scroll Snap
 
-*Tcharaaaaan*! Basicamente com ele conseguimos controlar o comportamento do conteúdo de um *wrapper* com *scroll* definindo pontos nos eixos x ou y. Com  esses pontos marcados, o *wrapper* vai pular para um desses pontos no conteúdo após o usuário ter feito a ação de *scrollar*. Seria como se falássemos assim: *usuário dá scroll uma vez e vai pra esse ponto! depois vai pra esse outro.. e assim vai.*
+*Tcharaaaaan*! Basicamente com ele conseguimos controlar o comportamento do conteúdo de um *wrapper* com *scroll* definindo pontos nos eixos x ou y. Com  esses pontos marcados, o *wrapper* vai pular para um desses pontos no conteúdo após o usuário ter feito a ação de *scrollar*. Seria como se falássemos assim: *usuário dá scroll uma vez e vai pra esse ponto! depois vai pra esse outro.. e assim vai.* Olha só a [documentação oficial](http://www.w3.org/TR/css-snappoints-1/ "CSS Snap Points W3 Working Draft").
 
 ## Stop talking...
 
