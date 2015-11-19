@@ -6,14 +6,8 @@ module.exports = function( grunt ) {
 
     // Config variable paths
     config: {
-
-      // Project paths
       dev: 'assets/',
-      build: 'build/',
-
-      // Styleguide paths
-      style_dev: 'styleguide/lib/assets/',
-      style_build: 'styleguide/lib/build/'
+      build: 'build/'
     },
 
       // IMAGES _____________________________________________________________________
@@ -77,7 +71,6 @@ module.exports = function( grunt ) {
             '<%= config.build %>js/scripts.min.js':
             ['<%= config.dev %>js/ga.js',
             '<%= config.dev %>js/colors.js',
-            '<%= config.dev %>js/local.js',
             '<%= config.dev %>js/boot.js']
           },
           options: {
@@ -92,7 +85,6 @@ module.exports = function( grunt ) {
             ['<%= config.dev %>js/ga.js',
             '<%= config.dev %>js/archive.js',
             '<%= config.dev %>js/colors.js',
-            '<%= config.dev %>js/local.js',
             '<%= config.dev %>js/boot.js',
             '<%= config.dev %>js/social.js']
           }
@@ -103,7 +95,6 @@ module.exports = function( grunt ) {
             '<%= config.build %>js/projects.min.js':
             ['<%= config.dev %>js/ga.js',
             '<%= config.dev %>js/colors.js',
-            '<%= config.dev %>js/local.js',
             '<%= config.dev %>js/boot.js',
             'bower_components/jquery-github/dist/jquery.github.min.js',
             '<%= config.dev %>js/projects.js',
@@ -135,7 +126,6 @@ module.exports = function( grunt ) {
         dev: [
           '<%= config.dev %>js/boot.js',
           '<%= config.dev %>js/colors.js',
-          '<%= config.dev %>js/local.js',
           '<%= config.dev %>js/projects.js',
           '<%= config.dev %>js/archive.js'
         ],
@@ -229,7 +219,6 @@ module.exports = function( grunt ) {
         scripts_dev: {
           files: [
             '<%= config.dev %>js/boot.js',
-            '<%= config.dev %>js/local.js',
             '<%= config.dev %>js/colors.js'
           ],
           tasks: ['jshint', 'uglify:dev'],
