@@ -5,6 +5,8 @@ branches:
 language: ruby
 rvm:
 - 2.2.0
+before_install:
+- bash ./start.bash
 install:
 - travis_retry gem install jekyll -v '2.4.0'
 - travis_retry gem install kramdown -v 1.7.0
