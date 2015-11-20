@@ -1,7 +1,0 @@
-/node_modules
-/components
-/_site
-/bower_components
-/bin
-
-Gemfile.lock
