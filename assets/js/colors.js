@@ -1,38 +1,63 @@
-var ChangeColor = function(button, hold) {
-    this.button = button;
-    this.hold = hold;
-    this.colors = ['default', 'gray', 'brown', 'blue', 'purple'];
+var changeColor = {
 
-    this.init();
-};
+  init: function(btn, hold, arrColors) {
+    this.prepare(btn, hold, arrColors);
+    this.bind();
+    this.render();
+  },
 
-// Returns the attribute data-color of hold element
-ChangeColor.prototype.getColor = function() {
-    return this.hold.getAttribute('data-color');
-};
+  prepare: function(btn, hold, arrColors) {
+    this.elements = {};
+    this.elements.btnColor = btn || document.getElementById('color');
+    this.elements.holdColor = hold || document.getElementById('hold');
 
-// Sort a random value for match a new item of array
-ChangeColor.prototype.randomColor = function(group, excludeColor) {
-    var rand = Math.floor(Math.random() * group.length);
-    if(group[rand] === excludeColor) {
-        this.randomColor(group, excludeColor);
+    this.colors = arrColors || ['default', 'gray', 'brown', 'blue', 'purple'];
+    this.state = this.getInitialState();
+  },
+
+  getInitialState: function() {
+    var localColor = this.hasLocalColor();
+    return {
+      currentColor: (localColor) ? localColor : this.getColor()
+    };
+  },
+
+  getColor: function() {
+    return this.elements.holdColor.getAttribute('data-color');
+  },
+
+  randomColor: function() {
+    var random  = this.colors[ Math.floor(Math.random() * this.colors.length)],
+        exclude = this.getColor();
+
+    if(random === exclude) {
+      this.randomColor(); 
     } else {
-        return group[rand];
+      return random;
     }
-};
+  },
 
-// Apply the new color in data-color attribute
-ChangeColor.prototype.applyColor = function() {
-    var currentColor = this.getColor(),
-        newColor = this.randomColor(this.colors, currentColor);
+  setState: function() {
+    this.state.currentColor = this.randomColor();
+  },
 
-    this.hold.setAttribute('data-color', newColor);
-};
+  setLocal: function() {
+    localStorage.setItem('userColor', this.state.currentColor);
+  },
 
-// Starts the component
-ChangeColor.prototype.init = function() {
-    var that = this;
-    this.button.addEventListener('click', function() {
-        that.applyColor();
-    }, false);
+  hasLocalColor: function() {
+    return localStorage.getItem('userColor');
+  },
+
+  bind: function() {
+    this.elements.btnColor.addEventListener('click', function() {
+      this.setState();
+      this.render();
+      this.setLocal();
+    }.bind(this));
+  },
+
+  render: function() {
+    this.elements.holdColor.setAttribute('data-color', this.state.currentColor); 
+  }
 };
