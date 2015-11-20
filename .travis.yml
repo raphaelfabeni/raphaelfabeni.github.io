@@ -16,7 +16,7 @@ before_script:
 - npm install
 - bower install
 script:
-- grunt tests
+- grunt ci
 - grunt build
 after_success:
 - htmlproof ./_site --only-4xx
