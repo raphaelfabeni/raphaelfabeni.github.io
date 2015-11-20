@@ -10,6 +10,8 @@ if [[ "$branch" = "develop" ]]; then
   git fetch origin master:master
   git checkout master
   git merge develop
+  mv .gitignore __gitignore
+  mv _gitignore .gitignore
   grunt ci
   grunt build
   git add -A

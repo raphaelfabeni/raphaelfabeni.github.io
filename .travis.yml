@@ -15,9 +15,6 @@ install:
 before_script:
 - npm install
 - bower install
-script:
-- grunt ci
-- grunt build
 after_success:
 - bash ./script.bash
 notifications:
