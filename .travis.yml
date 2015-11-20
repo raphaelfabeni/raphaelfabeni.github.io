@@ -19,7 +19,6 @@ script:
 - grunt ci
 - grunt build
 after_success:
-- htmlproof ./_site --only-4xx
 - bash ./script.bash
 notifications:
   email: rapha.fabeni@gmail.com
