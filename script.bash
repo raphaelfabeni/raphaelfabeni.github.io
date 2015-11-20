@@ -12,14 +12,6 @@ if [[ "$branch" = "develop" ]]; then
   git merge develop
   mv .gitignore __gitignore
   mv _gitignore .gitignore
-  travis_retry gem install jekyll -v '2.4.0'
-  travis_retry gem install kramdown -v 1.7.0
-  travis_retry gem install jekyll-sitemap
-  travis_retry gem install html-proofer
-  travis_retry npm install -g bower
-  travis_retry npm install -g grunt-cli
-  npm install 
-  bower install
   grunt ci
   grunt build
   git add -A
