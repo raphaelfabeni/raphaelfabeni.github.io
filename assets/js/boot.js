@@ -1,7 +1,8 @@
 (function() {
   'use strict';
-
   changeColor.init();
+
+  console.log(changeColor.hasLocalColor());
   
 }());
 

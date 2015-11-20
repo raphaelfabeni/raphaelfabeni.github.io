@@ -1,17 +1,17 @@
 var changeColor = {
 
-  init: function() {
-    this.prepare();
+  init: function(btn, hold, arrColors) {
+    this.prepare(btn, hold, arrColors);
     this.bind();
     this.render();
   },
 
-  prepare: function() {
+  prepare: function(btn, hold, arrColors) {
     this.elements = {};
-    this.elements.btnColor = document.getElementById('color');
-    this.elements.hold = document.getElementById('hold');
+    this.elements.btnColor = btn || document.getElementById('color');
+    this.elements.holdColor = hold || document.getElementById('hold');
 
-    this.colors = ['default', 'gray', 'brown', 'blue', 'purple'];
+    this.colors = arrColors || ['default', 'gray', 'brown', 'blue', 'purple'];
     this.state = this.getInitialState();
   },
 
@@ -23,12 +23,12 @@ var changeColor = {
   },
 
   getColor: function() {
-    return this.elements.hold.getAttribute('data-color');
+    return this.elements.holdColor.getAttribute('data-color');
   },
 
   randomColor: function() {
-    var random    = this.colors[ Math.floor(Math.random() * this.colors.length)],
-        exclude   = this.getColor();
+    var random  = this.colors[ Math.floor(Math.random() * this.colors.length)],
+        exclude = this.getColor();
 
     if(random === exclude) {
       this.randomColor(); 
@@ -58,6 +58,6 @@ var changeColor = {
   },
 
   render: function() {
-    this.elements.hold.setAttribute('data-color', this.state.currentColor); 
+    this.elements.holdColor.setAttribute('data-color', this.state.currentColor); 
   }
 };

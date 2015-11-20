@@ -12,35 +12,13 @@ module.exports = function( grunt ) {
 
       // IMAGES _____________________________________________________________________
 
-      svgmin: {
-        options: {
-          plugins: [{
-            removeViewBox: false
-          }, {
-            removeUselessStrokeAndFill: false
-          }, {
-            convertPathData: {
-                straightCurves: false
-            }
-          }]
-        },
-        dist: {
+      imagemin: {
+        dynamic: {
           files: [{
             expand: true,
             cwd: '<%= config.dev %>img',
-            src: ['*.svg'],
-            dest: '<%= config.build %>img',
-            ext: '.svg'
-          }]
-        }
-      },
-
-      svg2png: {
-        all: {
-          files: [{
-            cwd: '<%= config.dev %>img/',
-            src: ['*.svg'],
-            dest: '<%= config.build %>img/'
+            src: ['**/*.{png,jpg,gif}'],
+            dest: '<%= config.build %>img'
           }]
         }
       },
@@ -167,10 +145,24 @@ module.exports = function( grunt ) {
         }
       },
 
+      // COPY _________________________________________________________________
+      copy: {
+        main: {
+          files: [
+            {
+              expand: true,
+              cwd: '<%= config.dev %>fonts',
+              src: ['**'], 
+              dest: '<%= config.build %>fonts/'
+            },
+          ],
+        },
+      },
+
       // JASMINE ____________________________________________________________________
       jasmine: {
         coverage: {
-          src: ['assets/js/local.js', 'assets/js/colors.js'],
+          src: ['assets/js/colors.js'],
           options: {
             specs: 'spec/*Spec.js',
             template: require('grunt-template-jasmine-istanbul'),
@@ -185,7 +177,7 @@ module.exports = function( grunt ) {
               thresholds: {
                 lines: 75,
                 statements: 75,
-                branches: 75,
+                branches: 60,
                 functions: 90
               }
             }
@@ -261,12 +253,12 @@ module.exports = function( grunt ) {
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-contrib-uglify');
   grunt.loadNpmTasks('grunt-contrib-jshint');
-  grunt.loadNpmTasks('grunt-svgmin');
-  grunt.loadNpmTasks('grunt-svg2png');
   grunt.loadNpmTasks('grunt-shell');
   grunt.loadNpmTasks('grunt-concurrent');
   grunt.loadNpmTasks('grunt-contrib-jasmine');
   grunt.loadNpmTasks('grunt-coveralls');
+  grunt.loadNpmTasks('grunt-contrib-imagemin');
+  grunt.loadNpmTasks('grunt-contrib-copy');
 
   // Grunt tasks
 
@@ -275,6 +267,9 @@ module.exports = function( grunt ) {
 
   // CSS
   grunt.registerTask( 'css', [ 'sass' ] );
+
+  // Images
+  grunt.registerTask('images', ['imagemin'] );
 
   // JS
   grunt.registerTask( 'js', [ 'jshint', 'uglify' ] );
@@ -290,7 +285,7 @@ module.exports = function( grunt ) {
   grunt.registerTask( 'server', [ 'concurrent:dev' ] );
 
   // Build
-  grunt.registerTask( 'build', [ 'sass', 'js', 'shell:jekyll_build' ] );
+  grunt.registerTask( 'build', [ 'sass', 'js', 'images', 'shell:jekyll_build', 'copy' ] );
   grunt.registerTask('ci', [ 'jshint', 'jasmine', 'coveralls' ]);
 
 };
