@@ -40,6 +40,19 @@ module.exports = function( grunt ) {
 
       },
 
+      // BABEL _____________________________________________________________________
+      babel: {
+        options: {
+          sourceMap: true,
+          presets: ['es2015']
+        },
+        dist: {
+          files: {
+            '<%= config.dev %>js/colors.js': '<%= config.dev %>js/es6/colors.js'
+          }
+        }
+      },
+
       // UGLIFY _____________________________________________________________________
       uglify: {
 
@@ -103,15 +116,13 @@ module.exports = function( grunt ) {
         // Project files
         dev: [
           '<%= config.dev %>js/boot.js',
-          '<%= config.dev %>js/colors.js',
+          '<%= config.dev %>js/es6/colors.js',
           '<%= config.dev %>js/projects.js',
           '<%= config.dev %>js/archive.js'
         ],
         options: {
-          globals: {
-            jQuery: true,
-            reporter: require('jshint-stylish')
-          }
+          "esnext": true,
+          reporter: require('jshint-stylish')
         },
       },
 
@@ -211,9 +222,9 @@ module.exports = function( grunt ) {
         scripts_dev: {
           files: [
             '<%= config.dev %>js/boot.js',
-            '<%= config.dev %>js/colors.js'
+            '<%= config.dev %>js/es6/colors.js'
           ],
-          tasks: ['jshint', 'uglify:dev'],
+          tasks: ['jshint', 'babel', 'uglify:dev'],
         },
 
         scripts_projects: {
@@ -236,12 +247,7 @@ module.exports = function( grunt ) {
           options: { livereload: true },
           files: [
             // Project files
-            '_site/build/css/main.min.css',
-            '<%= config.build %>css/main.min.css',
-            '<%= config.build %>js/scripts.min.js',
-            '<%= config.build %>js/projects.min.js',
-            '<%= config.build %>js/archive.min.js',
-            '<%= config.build %>img/*.{png,jpg,gif,svg}'
+            '<%= config.build %>**'
           ],
         },
       }
@@ -259,6 +265,7 @@ module.exports = function( grunt ) {
   grunt.loadNpmTasks('grunt-coveralls');
   grunt.loadNpmTasks('grunt-contrib-imagemin');
   grunt.loadNpmTasks('grunt-contrib-copy');
+  grunt.loadNpmTasks('grunt-babel');
 
   // Grunt tasks
 
@@ -272,7 +279,7 @@ module.exports = function( grunt ) {
   grunt.registerTask('images', ['imagemin'] );
 
   // JS
-  grunt.registerTask( 'js', [ 'jshint', 'uglify' ] );
+  grunt.registerTask( 'js', [ 'babel', 'jshint', 'uglify' ] );
 
   // Watch
   grunt.registerTask( 'live', [ 'watch' ] );

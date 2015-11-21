@@ -1,12 +1,12 @@
-var changeColor = {
+'use strict';
 
-  init: function(btn, hold, arrColors) {
+var changeColor = {
+  init: function init(btn, hold, arrColors) {
     this.prepare(btn, hold, arrColors);
     this.bind();
     this.render();
   },
-
-  prepare: function(btn, hold, arrColors) {
+  prepare: function prepare(btn, hold, arrColors) {
     this.elements = {};
     this.elements.btnColor = btn || document.getElementById('color');
     this.elements.holdColor = hold || document.getElementById('hold');
@@ -14,50 +14,44 @@ var changeColor = {
     this.colors = arrColors || ['default', 'gray', 'brown', 'blue', 'purple'];
     this.state = this.getInitialState();
   },
-
-  getInitialState: function() {
+  getInitialState: function getInitialState() {
     var localColor = this.hasLocalColor();
     return {
-      currentColor: (localColor) ? localColor : this.getColor()
+      currentColor: localColor ? localColor : this.getColor()
     };
   },
-
-  getColor: function() {
+  getColor: function getColor() {
     return this.elements.holdColor.getAttribute('data-color');
   },
-
-  randomColor: function() {
-    var random  = this.colors[ Math.floor(Math.random() * this.colors.length)],
+  randomColor: function randomColor() {
+    var random = this.colors[Math.floor(Math.random() * this.colors.length)],
         exclude = this.getColor();
 
-    if(random === exclude) {
-      this.randomColor(); 
+    if (random === exclude) {
+      this.randomColor();
     } else {
       return random;
     }
   },
-
-  setState: function() {
+  setState: function setState() {
     this.state.currentColor = this.randomColor();
   },
-
-  setLocal: function() {
+  setLocal: function setLocal() {
     localStorage.setItem('userColor', this.state.currentColor);
   },
-
-  hasLocalColor: function() {
+  hasLocalColor: function hasLocalColor() {
     return localStorage.getItem('userColor');
   },
-
-  bind: function() {
-    this.elements.btnColor.addEventListener('click', function() {
+  bind: function bind() {
+    this.elements.btnColor.addEventListener('click', (function () {
+      console.log(this);
       this.setState();
       this.render();
       this.setLocal();
-    }.bind(this));
+    }).bind(this));
   },
-
-  render: function() {
-    this.elements.holdColor.setAttribute('data-color', this.state.currentColor); 
+  render: function render() {
+    this.elements.holdColor.setAttribute('data-color', this.state.currentColor);
   }
 };
+//# sourceMappingURL=colors.js.map
