@@ -8,8 +8,9 @@ if [[ "$branch" = "develop" ]]; then
   git config user.name "raphaelfabeni"
   git config --global push.default simple
   git fetch origin master:master
+  git fetch origin develop:develop
   git rebase master
-  git push origin/develop HEAD:develop
+  git push develop HEAD:develop
   git checkout master
   git merge develop
   rm .gitignore
