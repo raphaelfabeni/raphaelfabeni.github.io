@@ -8,4 +8,6 @@ if [[ "$branch" = "develop" ]]; then
   git config user.name "raphaelfabeni"
   git config --global push.default simple
   git checkout -b master develop
+  mv .gitignore __gitignore
+  mv _gitignore .gitignore
 fi
