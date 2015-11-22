@@ -43,12 +43,14 @@ var changeColor = {
     return localStorage.getItem('userColor');
   },
   bind: function bind() {
-    this.elements.btnColor.addEventListener('click', (function () {
-      console.log(this);
-      this.setState();
-      this.render();
-      this.setLocal();
-    }).bind(this));
+    var _this = this;
+
+    this.elements.btnColor.addEventListener('click', function () {
+      console.log(_this);
+      _this.setState();
+      _this.render();
+      _this.setLocal();
+    });
   },
   render: function render() {
     this.elements.holdColor.setAttribute('data-color', this.state.currentColor);

@@ -50,12 +50,12 @@ var changeColor = {
   },
 
   bind() {
-    this.elements.btnColor.addEventListener('click', function() {
+    this.elements.btnColor.addEventListener('click', () => {
       console.log(this);
       this.setState();
       this.render();
       this.setLocal();
-    }.bind(this));
+    });
   },
 
   render() {
