@@ -285,7 +285,7 @@ module.exports = function( grunt ) {
   grunt.registerTask( 'server', [ 'concurrent:dev' ] );
 
   // Build
-  grunt.registerTask( 'build', [ 'sass', 'js', 'images', 'shell:jekyll_build', 'copy' ] );
+  grunt.registerTask( 'build', [ 'sass', 'js', 'shell:jekyll_build', 'copy' ] );
   grunt.registerTask('ci', [ 'jshint', 'jasmine', 'coveralls' ]);
 
 };
