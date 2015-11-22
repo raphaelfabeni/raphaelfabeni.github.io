@@ -9,7 +9,7 @@ if [[ "$branch" = "develop" ]]; then
   git config --global push.default simple
   git fetch origin master:master
   git rebase master
-  git push -f origin/develop
+  git push origin/develop HEAD:develop
   git checkout master
   git merge develop
   rm .gitignore
