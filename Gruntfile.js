@@ -10,247 +10,244 @@ module.exports = function( grunt ) {
       build: 'build/'
     },
 
-      // IMAGES _____________________________________________________________________
+    // SASS _______________________________________________________________________
+    sass: {
 
-      imagemin: {
-        dynamic: {
-          files: [{
-            expand: true,
-            cwd: '<%= config.dev %>img',
-            src: ['**/*.{png,jpg,gif}'],
-            dest: '<%= config.build %>img'
-          }]
-        }
-      },
-
-      // SASS _______________________________________________________________________
-      sass: {
-
-        // Dev
-        dev: {
-          options: {
-            style: 'compressed',
-            noCache: true
-          },
-          files: {
-            '<%= config.build %>css/main.min.css':
-            '<%= config.dev %>scss/main.scss'
-          }
-        },
-
-      },
-
-      // BABEL _____________________________________________________________________
-      babel: {
+      // Dev
+      dev: {
         options: {
-          sourceMap: true,
-          presets: ['es2015']
+          style: 'compressed',
+          noCache: true
         },
-        dist: {
-          files: {
-            '<%= config.dev %>js/colors.js': '<%= config.dev %>js/es6/colors.js'
-          }
+        files: {
+          '<%= config.build %>css/main.min.css':
+          '<%= config.dev %>scss/main.scss'
         }
       },
 
-      // UGLIFY _____________________________________________________________________
-      uglify: {
+    },
 
-        // Project files
-        dev: {
-          files: {
-            '<%= config.build %>js/scripts.min.js':
-            ['<%= config.dev %>js/ga.js',
-            '<%= config.dev %>js/colors.js',
-            '<%= config.dev %>js/boot.js']
-          },
-          options: {
-            sourceMap: true
-          }
+    // BABEL _____________________________________________________________________
+    babel: {
+      options: {
+        sourceMap: true,
+        presets: ['es2015']
+      },
+      dist: {
+        files: {
+          '<%= config.dev %>js/colors.js': '<%= config.dev %>js/es6/colors.js'
+        }
+      }
+    },
+
+    // UGLIFY _____________________________________________________________________
+    uglify: {
+
+      // Project files
+      dev: {
+        files: {
+          '<%= config.build %>js/scripts.min.js':
+          ['<%= config.dev %>js/ga.js',
+          '<%= config.dev %>js/colors.js',
+          '<%= config.dev %>js/boot.js']
         },
-
-        // Project files
-        blog: {
-          files: {
-            '<%= config.build %>js/archive.min.js':
-            ['<%= config.dev %>js/ga.js',
-            '<%= config.dev %>js/archive.js',
-            '<%= config.dev %>js/colors.js',
-            '<%= config.dev %>js/boot.js',
-            '<%= config.dev %>js/social.js']
-          }
-        },
-
-        projects: {
-          files: {
-            '<%= config.build %>js/projects.min.js':
-            ['<%= config.dev %>js/ga.js',
-            '<%= config.dev %>js/colors.js',
-            '<%= config.dev %>js/boot.js',
-            'bower_components/jquery-github/dist/jquery.github.min.js',
-            '<%= config.dev %>js/projects.js',
-            '<%= config.dev %>js/social.js']
-          }
-        },
-
-        // Start files
-        modernizr: {
-          src: 'bower_components/modernizr/modernizr.js',
-          dest: '<%= config.build %>js/libs/modernizr.min.js'
-        },
-
-        jquery: {
-          src: 'bower_components/jquery/jquery.min.js',
-          dest: '<%= config.build %>js/libs/jquery.min.js'
-        },
-
-        respond: {
-          src: 'bower_components/respond/dest/respond.min.js',
-          dest: '<%= config.build %>js/libs/respond.min.js'
+        options: {
+          sourceMap: true
         }
       },
 
-      // JSHINT _____________________________________________________________________
-      jshint: {
-
-        // Project files
-        dev: [
+      // Project files
+      blog: {
+        files: {
+          '<%= config.build %>js/archive.min.js':
+          ['<%= config.dev %>js/ga.js',
+          '<%= config.dev %>js/archive.js',
+          '<%= config.dev %>js/colors.js',
           '<%= config.dev %>js/boot.js',
-          '<%= config.dev %>js/es6/colors.js',
+          '<%= config.dev %>js/social.js']
+        }
+      },
+
+      projects: {
+        files: {
+          '<%= config.build %>js/projects.min.js':
+          ['<%= config.dev %>js/ga.js',
+          '<%= config.dev %>js/colors.js',
+          '<%= config.dev %>js/boot.js',
+          'bower_components/jquery-github/dist/jquery.github.min.js',
           '<%= config.dev %>js/projects.js',
-          '<%= config.dev %>js/archive.js'
+          '<%= config.dev %>js/social.js']
+        }
+      },
+
+      // Start files
+      modernizr: {
+        src: 'bower_components/modernizr/modernizr.js',
+        dest: '<%= config.build %>js/libs/modernizr.min.js'
+      },
+
+      jquery: {
+        src: 'bower_components/jquery/jquery.min.js',
+        dest: '<%= config.build %>js/libs/jquery.min.js'
+      },
+
+      respond: {
+        src: 'bower_components/respond/dest/respond.min.js',
+        dest: '<%= config.build %>js/libs/respond.min.js'
+      }
+    },
+
+    // JSHINT _____________________________________________________________________
+    jshint: {
+
+      // Project files
+      dev: [
+        '<%= config.dev %>js/boot.js',
+        '<%= config.dev %>js/es6/colors.js',
+        '<%= config.dev %>js/projects.js',
+        '<%= config.dev %>js/archive.js'
+      ],
+      options: {
+        "esnext": true,
+        reporter: require('jshint-stylish')
+      },
+    },
+
+    // SHELL _____________________________________________________________________
+    shell: {
+      jekyll_serve: {
+        command: "jekyll serve --watch --drafts",
+        options: {
+            stderr: false
+        }
+      },
+
+      jekyll_build: {
+        command: "jekyll build",
+        options: {
+            stderr: false
+        }
+      }
+    },
+
+    // CONCURRENT _________________________________________________________________
+    concurrent: {
+      dev: {
+        tasks: [
+          'shell:jekyll_serve',
+          'watch'
         ],
         options: {
-          "esnext": true,
-          reporter: require('jshint-stylish')
-        },
-      },
-
-      // SHELL _____________________________________________________________________
-      shell: {
-        jekyll_serve: {
-          command: "jekyll serve --watch --drafts",
-          options: {
-              stderr: false
-          }
-        },
-
-        jekyll_build: {
-          command: "jekyll build",
-          options: {
-              stderr: false
-          }
+          logConcurrentOutput: true
         }
-      },
+      }
+    },
 
-      // CONCURRENT _________________________________________________________________
-      concurrent: {
-        dev: {
-          tasks: [
-            'shell:jekyll_serve',
-            'watch'
-          ],
-          options: {
-            logConcurrentOutput: true
-          }
-        }
+    // COPY _________________________________________________________________
+    copy: {
+      fonts: {
+        files: [
+          {
+            expand: true,
+            cwd: '<%= config.dev %>fonts',
+            src: ['**'], 
+            dest: '<%= config.build %>fonts/'
+          },
+        ],
       },
-
-      // COPY _________________________________________________________________
-      copy: {
-        main: {
-          files: [
-            {
-              expand: true,
-              cwd: '<%= config.dev %>fonts',
-              src: ['**'], 
-              dest: '<%= config.build %>fonts/'
-            },
-          ],
-        },
+      images: {
+        files: [
+          {
+            expand: true,
+            cwd: '<%= config.dev %>img',
+            src: ['**'], 
+            dest: '<%= config.build %>img/'
+          },
+        ],
       },
+    },
 
-      // JASMINE ____________________________________________________________________
-      jasmine: {
-        coverage: {
-          src: ['assets/js/colors.js'],
-          options: {
-            specs: 'spec/*Spec.js',
-            template: require('grunt-template-jasmine-istanbul'),
-            templateOptions: {
-              coverage: 'bin/coverage/coverage.json',
-              report: {
-                type: 'lcov',
-                options: {
-                  dir: 'bin/coverage'
-                }
-              },
-              thresholds: {
-                lines: 75,
-                statements: 75,
-                branches: 60,
-                functions: 90
+    // JASMINE ____________________________________________________________________
+    jasmine: {
+      coverage: {
+        src: ['assets/js/colors.js'],
+        options: {
+          specs: 'spec/*Spec.js',
+          template: require('grunt-template-jasmine-istanbul'),
+          templateOptions: {
+            coverage: 'bin/coverage/coverage.json',
+            report: {
+              type: 'lcov',
+              options: {
+                dir: 'bin/coverage'
               }
+            },
+            thresholds: {
+              lines: 75,
+              statements: 75,
+              branches: 60,
+              functions: 90
             }
           }
         }
-      },
-
-      // COVERRALS __________________________________________________________________
-      coveralls: {
-        general: {
-          src: 'bin/coverage/lcov.info'
-        }
-      },
-
-
-      // WATCH ______________________________________________________________________
-      watch: {
-
-        // PROJECT TASKS
-
-        // Run SASS task for .scss files
-        sass_dev: {
-          files: [
-            '<%= config.dev %>scss/**/*.scss',
-            '<%= config.dev %>scss/*.scss'
-          ],
-          tasks: ['sass:dev'],
-        },
-
-        // Run Uglify task when scripts are modified
-        scripts_dev: {
-          files: [
-            '<%= config.dev %>js/boot.js',
-            '<%= config.dev %>js/es6/colors.js'
-          ],
-          tasks: ['jshint', 'babel', 'uglify:dev'],
-        },
-
-        scripts_projects: {
-          files: ['<%= config.dev %>js/projects.js'],
-          tasks: ['jshint', 'uglify:projects'],
-        },
-
-        scripts_blog: {
-          files: ['<%= config.dev %>js/archive.js'],
-          tasks: ['jshint', 'uglify:blog'],
-        },
-
-        svg: {
-          files: ['<%= config.dev %>img/*.svg'],
-          tasks: ['svgmin', 'svg2png']
-        },
-
-        // Update :)
-        livereload: {
-          options: { livereload: true },
-          files: [
-            // Project files
-            '<%= config.build %>**'
-          ],
-        },
       }
+    },
+
+    // COVERRALS __________________________________________________________________
+    coveralls: {
+      general: {
+        src: 'bin/coverage/lcov.info'
+      }
+    },
+
+
+    // WATCH ______________________________________________________________________
+    watch: {
+
+      // PROJECT TASKS
+
+      // Run SASS task for .scss files
+      sass_dev: {
+        files: [
+          '<%= config.dev %>scss/**/*.scss',
+          '<%= config.dev %>scss/*.scss'
+        ],
+        tasks: ['sass:dev'],
+      },
+
+      // Run Uglify task when scripts are modified
+      scripts_dev: {
+        files: [
+          '<%= config.dev %>js/boot.js',
+          '<%= config.dev %>js/es6/colors.js'
+        ],
+        tasks: ['jshint', 'babel', 'uglify:dev'],
+      },
+
+      scripts_projects: {
+        files: ['<%= config.dev %>js/projects.js'],
+        tasks: ['jshint', 'uglify:projects'],
+      },
+
+      scripts_blog: {
+        files: ['<%= config.dev %>js/archive.js'],
+        tasks: ['jshint', 'uglify:blog'],
+      },
+
+      svg: {
+        files: ['<%= config.dev %>img/*.svg'],
+        tasks: ['svgmin', 'svg2png']
+      },
+
+      // Update :)
+      livereload: {
+        options: { livereload: true },
+        files: [
+          // Project files
+          '<%= config.build %>**'
+        ],
+      },
+    }
 
   });
 
@@ -263,7 +260,6 @@ module.exports = function( grunt ) {
   grunt.loadNpmTasks('grunt-concurrent');
   grunt.loadNpmTasks('grunt-contrib-jasmine');
   grunt.loadNpmTasks('grunt-coveralls');
-  grunt.loadNpmTasks('grunt-contrib-imagemin');
   grunt.loadNpmTasks('grunt-contrib-copy');
   grunt.loadNpmTasks('grunt-babel');
 
@@ -274,9 +270,6 @@ module.exports = function( grunt ) {
 
   // CSS
   grunt.registerTask( 'css', [ 'sass' ] );
-
-  // Images
-  grunt.registerTask('images', ['imagemin'] );
 
   // JS
   grunt.registerTask( 'js', [ 'babel', 'jshint', 'uglify' ] );
