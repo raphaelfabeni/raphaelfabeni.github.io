@@ -4,7 +4,9 @@ title:  "Como nasceu o Meetup CSS SP!"
 description: "Como surgiu a idéia de reunir a galera de desenvolvimento e falar sobre CSS!"
 type: Post
 date: 2014-08-14
-image: 'meetup-css-bem-vindos.jpg'
+image: 'https://cloud.githubusercontent.com/assets/1345662/11458568/97107d54-96a9-11e5-8a26-aff1aa2afb5c.jpg'
+imageExternal: true
+alt: 'Imagem de capa da apresentação de boas vindas do Meetup CSS SP'
 ---
 
 Semana passada rolou o primeiro meetup de CSS SP. Há algum tempo atrás o [Felipe Fialho](https://twitter.com/lfeh) teve a idéia e entrei no barco para ajudar na organização. Não sabíamos o alcance e nem se teria adesão um meetup de CSS mas resolvemos arriscar.
@@ -20,7 +22,7 @@ O próximo passo era buscar algum auxílio para o coffee break. Apesar de muitas
 <h2 class="subtitle">A Estréia</h2>
 
 <figure class="text-center loading">
-    <a class="hover" href="https://speakerdeck.com/raphaelfabeni/bem-vindos-ao-meetp-css" target="_blank"><img src="{{ site.baseurl}}build/img/posts/meetup-css-bem-vindos.jpg" alt="Imagem de capa de mensagem de boas vindas para o primeiro Meetup CSS SP"></a>
+    <a class="hover" href="https://speakerdeck.com/raphaelfabeni/bem-vindos-ao-meetp-css" target="_blank"><img src="https://cloud.githubusercontent.com/assets/1345662/11458568/97107d54-96a9-11e5-8a26-aff1aa2afb5c.jpg" alt="Imagem de capa de mensagem de boas vindas para o primeiro Meetup CSS SP"></a>
 </figure>
 
 Tinha chegado o grande dia! O coffee e o local estavam fechados! No entanto, logo as 7 da manhã toca meu celular: *"Sr Raphael? Já chegamos aqui com a encomenda do senhor!"* Sim! Eles haviam confundido o horário e entregado errado. Passado o susto, conversei com o pessoal da padaria e remarquei a entrega para noite.
@@ -28,11 +30,11 @@ Tinha chegado o grande dia! O coffee e o local estavam fechados! No entanto, log
 A Digital Garden tem um espaço fantástico. A única coisa que não nos ajudou foi o tempo. Mas, estamos em São Paulo e pra variar não podemos depender dele. Precisamos de última hora, mudar toda organização para o espaço interno. Admito que ficou apertado, mas mesmo assim achei que foi bem bacana para a primeira versão.
 
 <figure class="text-center loading">
-    <img src="{{ site.baseurl}}build/img/posts/meetup-css-01.jpg" alt="Imagem mostra discussão no primeiro Meetup CSS SP">
+    <img src="https://cloud.githubusercontent.com/assets/1345662/11458566/970db22c-96a9-11e5-9321-e950d936ec87.jpg" alt="Imagem mostra discussão no primeiro Meetup CSS SP">
 </figure>
 
 <figure class="text-center loading">
-    <img src="{{ site.baseurl}}build/img/posts/meetup-css-02.jpg" alt="Imagem mostra discussão no primeiro Meetup CSS SP">
+    <img src="https://cloud.githubusercontent.com/assets/1345662/11458567/970ee2aa-96a9-11e5-88db-b47303255667.jpg" alt="Imagem mostra discussão no primeiro Meetup CSS SP">
 </figure>
 
 Falando do evento em si, nesse primeira versão, tivemos algumas talks rápidas para discussão de um assunto. Eu falei de [Organização de CSS](https://speakerdeck.com/raphaelfabeni/organizando-o-css), o Fialho falou de [CSS Components](http://www.felipefialho.com/talk-css-components-14-08-08/#/) e o Suissa falou de [Atomic Design](http://www.slideshare.net/suissapg/atomic-design-37762390).

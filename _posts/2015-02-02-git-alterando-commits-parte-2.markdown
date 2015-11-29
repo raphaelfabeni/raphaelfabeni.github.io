@@ -4,7 +4,9 @@ title:  "Git: Alterando seus commits com rebase - parte 2/2"
 description: "Com o rebase interativo, conseguimos editar nossos commits em um mesmo branch, seja mesclando-os, alterando a ordem e editando as mensagens."
 type: Post
 date: 2015-02-02
-image: 'git-alterando-commits-parte-2.jpg'
+image: 'https://cloud.githubusercontent.com/assets/1345662/11458149/a4fe99da-96a1-11e5-8d30-0f4938603dcc.jpg'
+imageExternal: true
+alt: 'Dois senhores idosos jogando golf em um clube de campo'
 ---
 
 No [post anterior](/git-alterando-commits-parte-1/), vimos duas das coisas que são possíveis de se fazer com o *rebase* interativo:

@@ -4,7 +4,8 @@ title:  "Brincando com Jasmine"
 description: "Conheça um pouco do Jasmine: um framework bem intuitivo para testes em JavaScript."
 type: Post
 date: 2015-03-04
-image: 'brincando-jasmine.jpg'
+image: 'https://cloud.githubusercontent.com/assets/1345662/11458108/85179d3e-96a0-11e5-8382-0487118ad9f6.jpg'
+imageExternal: true
 alt: 'Imagem mostra relógios de uma máquina antiga de uma fábrica'
 ---
 
@@ -114,7 +115,7 @@ A função `beforeEach` como o próprio nome diz, roda uma vez antes de cada `sp
 Se abrirmos nosso `index.html` para rodarmos nossos testes, teremos algo assim:
 
 <figure class="loading">
-    <img src="{{ site.baseurl}}build/img/posts/samples/jasmine-ok.png" alt="Print da tela mostrando que o teste passou">
+    <img src="https://cloud.githubusercontent.com/assets/1345662/11458112/851b776a-96a0-11e5-9702-2a887ca36753.png" alt="Print da tela mostrando que o teste passou">
     <figcaption>Nosso teste passou! \o/</figcaption>
 </figure>
 
@@ -151,7 +152,7 @@ describe('Hello', function() {
 Eaí é só rodarmos nosso teste via terminal:
 
 <figure class="loading">
-    <img src="{{ site.baseurl}}build/img/posts/samples/jasmine-node-hello.gif" alt="Gif animado mostrando o teste do jasmine node">
+    <img src="https://cloud.githubusercontent.com/assets/1345662/11458110/85197528-96a0-11e5-97a2-c6dfed6589d2.gif" alt="Gif animado mostrando o teste do jasmine node">
 </figure>
 
 ## Testes antes?
@@ -192,7 +193,7 @@ function add(x, y) {
 Com certeza, de cara já poderíamos imaginar algo assim certo? No entanto como é de se esperar isso vai nos retornar um erro quando rodarmos os testes.
 
 <figure class="loading">
-    <img src="{{ site.baseurl}}build/img/posts/samples/jasmine-erro.png" alt="Print da tela mostrando que os testes quebraram">
+    <img src="https://cloud.githubusercontent.com/assets/1345662/11458111/851a90d4-96a0-11e5-919b-322f79dcc44c.png" alt="Print da tela mostrando que os testes quebraram">
 </figure>
 
 Nossos testes quebraram e conseguimos ver exatamente onde: *Calc 1 argument - should calculate the addition using the argument twice*. Isso acontece pois não fizemos nenhum tratamento na nossa função caso recebessemos apenas um argumento. Vamos lá então:
@@ -206,7 +207,7 @@ function add(x, y) {
 Agora se rodarmos os testes novamente:
 
 <figure class="loading">
-    <img src="{{ site.baseurl}}build/img/posts/samples/jasmine-ok-2.png" alt="Print da tela mostrando que os testes passaram">
+    <img src="https://cloud.githubusercontent.com/assets/1345662/11458109/8519037c-96a0-11e5-8e85-2c36af470449.png" alt="Print da tela mostrando que os testes passaram">
 </figure>
 
 Acho que é isso. No próximo post, vou tentar escrever um pouco sobre os *matchers* do *Jasmine* que é uma outra parte bem legal do framework. Deixo aqui meu **valeu** ao [Weslley Araujo](https://twitter.com/_weslleyaraujo) pela revisão do conteúdo!

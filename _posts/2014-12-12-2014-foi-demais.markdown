@@ -4,7 +4,9 @@ title:  "Valeu 2014!"
 description: "Um resumo de porque 2014 foi tão legal"
 type: Post
 date: 2014-12-19
-image: '2014-demais.jpg'
+image: 'https://cloud.githubusercontent.com/assets/1345662/11458228/58c9b94e-96a3-11e5-8635-ac7fec294ab7.jpg'
+imageExternal: true
+alt: 'Carro antigo preto, visto de frente'
 ---
 
 Todo mundo já disse ou ouviu alguém dizer: *"Nossa! O ano passou voando!"*. Nunca dei muito valor a essa frase, mas esse ano pude comprovar que é verdade. Se passou rápido, geralmente é porque você esteve ocupado com outras coisas e teoricamente não teve tempo de *aproveitar* o ano; felizmente acho eu, posso contrariar um pouco essa teoria: o ano realmente passou rápido porque estava ocupado com algumas coisas, mas **coisas boas**; posso dizer que foi um ano muito produtivo e que não deixei de aproveitá-lo.
@@ -16,7 +18,7 @@ Algumas das coisas que fizeram de 2014 um ano sensacional. **\o/**
 ## Eventos, eventos e mais eventos
 
 <figure class="loading thumb-left">
-    <img src="{{ site.baseurl}}build/img/posts/2014-eventos.jpg" alt="Interior de uma gaveta com vários crachás de eventos de desenvolvimento web e design">
+    <img src="https://cloud.githubusercontent.com/assets/1345662/11458229/58d346bc-96a3-11e5-98da-da2faf33258d.jpg" alt="Interior de uma gaveta com vários crachás de eventos de desenvolvimento web e design">
 </figure>
 
 Depois de um dos *meetups* do [FEMUG SP](https://sp.femug.com), estava <s>em um bar</s> conversando com o pessoal até que começamos a falar sobre eventos. Aí o grande [Rinaldi](https://twitter.com/rafaelrinaldi) soltou: *"Pô Fabeni! Você tá em todos?"*. Em partes foi verdade.
@@ -53,7 +55,7 @@ Pra você que também é tímido como eu e pensa na palavra *palestrar* como alg
 ## Fazer algo diferente
 
 <figure class="loading thumb-left">
-    <img src="{{ site.baseurl}}build/img/posts/meetup-scup.jpg" alt="Galera que participou do Meetup de CSS realizado no Scup">
+    <img src="https://cloud.githubusercontent.com/assets/1345662/11458230/58d4bdb2-96a3-11e5-9159-4c7c195b3127.jpg" alt="Galera que participou do Meetup de CSS realizado no Scup">
 </figure>
 
 É normal na vida de uma cidade grande como São Paulo que a gente acabe entrando numa rotina. Sair um pouco dela, viajar e fazer coisas diferentes são coisas que acredito que fazem um bem *danado*.

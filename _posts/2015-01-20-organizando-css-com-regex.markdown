@@ -4,7 +4,9 @@ title:  "Regex para organizar seu CSS"
 description: "Obsessivo por organização, acabei brincando esses dias para reorganizar uns arquivos CSS"
 type: Post
 date: 2015-01-20
-image: 'regex-organizacao-css.jpg'
+image: 'https://cloud.githubusercontent.com/assets/1345662/11458198/72f7ffe8-96a2-11e5-839e-3ecf51e82068.jpg'
+imageExternal: true
+alt: 'Detalhe de um adorno em, aparenteente, parece ser uma porta de madeira'
 ---
 
 Sempre fui um cara bastante preocupado em organização e acho que acabei passando essa característica pro mundo do desenvolvimento. Por exemplo, código não identado ou com a falta de um padrão são coisas que me incomodam um pouco. Se você se interessa pelo assunto, recomendo esse [artigo](https://medium.com/@shankarcabus/css-escalavel-parte-1-41e7e863799e) do [Shankar Cabus](https://twitter.com/ShankarCabus) que é focado em CSS escalável.

@@ -4,7 +4,9 @@ title:  "Um guia para o elemento time"
 description: "Você já ouviu falar no elemento time? Conheça os segredos dessa tag e comece a usá-la"
 type: Post
 date: 2014-10-14
-image: 'guia-elemento-time.jpg'
+image: 'https://cloud.githubusercontent.com/assets/1345662/11458306/77ace862-96a4-11e5-8d7f-669a8591c360.jpg'
+imageExternal: true
+alt: 'Imagem mostra relógio de pulso segurado pela corda'
 ---
 
 O HTML5 trouxe diversas coisas bacanas pra nós desenvolvedores. Uma das mais simples e que eu acho que são uma das mais legais é a questão da semântica com os novos elementos. O surgimento dessas tags deixaram nossos códigos mais semânticos e legíveis, tanto por nós como pelas máquinas.

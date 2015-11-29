@@ -4,7 +4,9 @@ title:  "Front in Sampa 2014"
 description: "Um evento literalmente do Inferno"
 type: Post
 date: 2014-11-04
-image: 'front-in-sampa-2014-raphael-fabeni-2.jpg'
+image: 'https://cloud.githubusercontent.com/assets/1345662/11458258/ad322016-96a3-11e5-85c0-80d05b95138a.jpg'
+imageExternal: true
+alt: 'Raphael Fabeni durante evento Front in Sampa 2014'
 ---
 
 No último dia 25 de outubro rolou a 3ª edição do [Front in Sampa](http://frontinsampa.com.br/) no [Inferno Club](http://www.infernoclub.com.br/). SIM, pode acreditar, é uma balada. O evento acontece durante o dia inteiro e no final ainda rola um *happy hour* open bar com direito a Dj e tudo. 
@@ -16,7 +18,7 @@ Não vou mentir que não fiquei nervoso também. Vi que o evento era para 250 pe
 ## O pré-evento
 
 <figure class="loading thumb-left">
-    <img src="{{ site.baseurl}}build/img/posts/front-in-sampa-2014-pre-evento.jpg" alt="Organização do evento Front in Sampa e convidados sentados em uma mesa de um bar acenando para a foto">
+    <img src="https://cloud.githubusercontent.com/assets/1345662/11458256/ad304750-96a3-11e5-93f9-9de11b605b16.jpg" alt="Organização do evento Front in Sampa e convidados sentados em uma mesa de um bar acenando para a foto">
 </figure>
 
 Na sexta-feira antes, um dia antes do evento, rolou um encontro num hostel/bar ali na região dos Jardins pra oficialmente dar o *start*. Cheguei lá por volta das 21 e já tinha uma galera *trabalhando*.
@@ -26,21 +28,21 @@ Um que ia embora, chegavam mais dois. Encontrei alguns amigos como o [Felipe](ht
 ## O evento
 
 <figure class="loading thumb-left">
-    <img src="{{ site.baseurl}}build/img/posts/front-in-sampa-2014-daniel-filho.jpg" alt="Daniel Filho apresentando o evento">
+    <img src="https://cloud.githubusercontent.com/assets/1345662/11458254/ad2d50fe-96a3-11e5-846a-61395a7db2c4.jpg" alt="Daniel Filho apresentando o evento">
     <figcaption>"Faaaaaaaaaaaaaaaaaaaaaala galera.."</figcaption>
 </figure>
 
 Cheguei cedo no evento e logo de cara fui recebido pelos organizadores [Elvis](https://twitter.com/elvisdetona) e [Deivid](https://twitter.com/deividmarques). Ao entrar, a primeira palestra tinha acabado de começar, fiquei chateado só de não ouvir se o [Daniel Filho](http://twitter.com/danielfilho) soltou o famoso "Faaaaaaaaaaaaaaaaaaaaaalaaaaa galeraaaa....." logo na abertura do evento. Deixo aqui registrado que o cara fala muito bem na frente do público. Parece que tá falando com 2 ou 3 pessoas só. Quisera eu ser tranquilo assim pra falar diante de uma galera.
 
 <figure class="loading thumb-right">
-    <img src="{{ site.baseurl}}build/img/posts/front-in-sampa-2014-eu-compraria.jpg" alt="Daniel Filho apresentando o evento">
+    <img src="https://cloud.githubusercontent.com/assets/1345662/11458253/ad2aa8fe-96a3-11e5-9624-a2eeef51141d.jpg" alt="Guilherme e Bianca do Eu Compraria">
     <figcaption>Guilherme e Bianca do Eu Compraria</figcaption>
 </figure>
 
 Assim que acabou a primeira palestra, levantei para ir ao banheiro e voltei com 2 livros e 2 camisetas. No meio do caminho parei no espaço onde estavam o pessoal da Novatec e da [Eu compraria](http://eucompraria.com.br/) e não resisti. Achei legal que quem optasse por pagar via PayPal, que era um dos patrocinadores do evento, ganhava um desconto na compra. Acabei conhecendo o casal fundador ([Guilherme](https://twitter.com/gserrano) e [Bianca](https://twitter.com/biab)) do Eu compraria e bati um papo com eles. Casal muito gente fina mesmo. Se você não conhece o site, recomendo. As camisetas que comprei lá são de muito boa qualidade.
 
 <figure class="loading thumb-left">
-    <img src="{{ site.baseurl}}build/img/posts/front-in-sampa-2014-nervoso.jpg" alt="Raphael Fabeni segurando um pedaço de papel com a boca">
+    <img src="https://cloud.githubusercontent.com/assets/1345662/11458255/ad2f9846-96a3-11e5-8207-bd2793f076c9.jpg" alt="Raphael Fabeni segurando um pedaço de papel com a boca">
     <figcaption>Momento de tensão.. haha</figcaption>
 </figure>
 
@@ -184,7 +186,7 @@ Por fim, eu falei um pouco de CSS3 e o quanto ele pode enriquecer os detalhes da
 ## Resumindo
 
 <figure class="loading thumb-left">
-    <img src="{{ site.baseurl}}build/img/posts/front-in-sampa-2014-raphael-fabeni.jpg" alt="Daniel Filho apresentando o evento">
+    <img src="https://cloud.githubusercontent.com/assets/1345662/11458257/ad32070c-96a3-11e5-8085-a248740592da.jpg" alt="Raphael Fabeni durante palestra no Front in Sampa 2014">
 </figure>
 
 Comentei com um pessoal já e deixo registrado aqui: tem dias que ficam marcados pras pessoas. Pra mim, esse foi um deles; palestrar num evento como o Front in Sampa e ter na platéia várias pessoas que você considera referência é uma honra. Fiquei bem feliz, principalmente com o *feedback* que recebi.

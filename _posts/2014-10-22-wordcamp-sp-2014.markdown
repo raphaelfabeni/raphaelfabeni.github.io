@@ -4,7 +4,9 @@ title:  "WordCamp SP 2014"
 description: "Edição paulista do evento focado em WordPress"
 type: Post
 date: 2014-10-22
-image: 'wordcamp-2014.jpg'
+image: 'https://cloud.githubusercontent.com/assets/1345662/11458296/36dd39cc-96a4-11e5-974c-6dedb5a4682b.jpg'
+imageExternal: true
+alt: 'Bottons do WordCamp 2014'
 ---
 
 No último sábado (18) rolou mais uma edição do [WordCamp São Paulo](http://2014.saopaulo.wordcamp.org/), um evento totalmente voltado para o desenvolvimento de projetos em WordPress. Esse ano foi a primeira vez que fui ao evento e confesso que estava bastante empolgado por dois motivos: primeiro pelo fato de vários amigos terem ido em edições anteriores do evento e terem rasgado o mesmo de elogios; e segundo, pois na parte da tarde, ia falar um pouco em uma talk com o tema: <b>Do início ao fim com WordPress</b>.
@@ -12,7 +14,7 @@ No último sábado (18) rolou mais uma edição do [WordCamp São Paulo](http://
 ## O Evento
 
 <figure class="thumb-left loading">
-    <img src="{{ site.baseurl}}build/img/posts/wordcamp-2014-info.jpg" alt="Brindes entregues na abertura do evento WordCamp São Paulo 2014">
+    <img src="https://cloud.githubusercontent.com/assets/1345662/11458294/36d7edaa-96a4-11e5-8545-d5aa02606b7e.jpg" alt="Brindes entregues na abertura do evento WordCamp São Paulo 2014">
 </figure>
 
 O evento rolou na PUC da Consolação. Já tinha ido lá em uma edição do SampaJS. Como estava bem empolgado com o evento, posso dizer que ele correspondeu às minhas expectativas. Pelo fato de palestrar, não cheguei a me inscrever no evento, mas um ponto bem bacana que acho legal citar e que alguns amigos meus ressaltaram, foi o baixo valor de inscrição em comparação ao que era oferecido.
@@ -24,7 +26,7 @@ As palestras rolavam simultaneamente em dois locais diferentes: um <b>auditório
 ## As palestras
 
 <figure class="thumb-right loading">
-    <img src="{{ site.baseurl}}build/img/posts/raphaelfabeni-wordcamp-2014.jpg" alt="Raphael Fabeni e Airton Vancin durante palestra no WordCamp São Paulo 2014">
+    <img src="https://cloud.githubusercontent.com/assets/1345662/11458295/36db2f1a-96a4-11e5-8f06-534decc3780b.jpg" alt="Raphael Fabeni e Airton Vancin durante palestra no WordCamp São Paulo 2014">
     <figcaption>Tentando entender como funcionava o controle pra mudar o slide!</figcaption>
 </figure>
 

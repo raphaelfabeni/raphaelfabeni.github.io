@@ -4,7 +4,8 @@ title:  "CSS3 em favor da UX"
 description: "CSS3 é coisa linda! Use-o em prol da UX e seja feliz!"
 type: Post
 date: 2015-03-10
-image: 'css-ux.jpg'
+image: 'https://cloud.githubusercontent.com/assets/1345662/11458082/167083aa-96a0-11e5-8256-38d2b385d783.jpg'
+imageExternal: true
 alt: 'Imagem mostra homem dentro de um carro antigo segurando o volante e observando um cachorro que está sentado no banco ao seu lado'
 ---
 
@@ -19,10 +20,6 @@ Isso não quer dizer que só de você usar *CSS3* seu código e a *UX* do seu pr
 Cada vez mais surgem idéias e metodologias de como arquitetar seu *CSS*. Se você se interessa pelo tema, recomendo a talk do [Rafael Rinaldi](https://twitter.com/rafaelrinaldi): [Arquitetura CSS](https://speakerdeck.com/rafaelrinaldi/arquitetura-css). Acredito que no fim, o objetivo comum seja ter um código modularizado e com componentes bem definidos. No entanto, muitas vezes isso acaba parando por aí e lidamos com *componentes estáticos*. É normal, muitas vezes navegando pela *interwebs da vida*, clicarmos em um botão e um *form* ou uma mensagem surgir do nada na tela.
 
 Funciona? Sim, funciona. Mas acho que fica um pouco distante do mundo real e é possível melhorar isso. No mundo real, as coisas não aparecem do nada. Você não vai encher seu copo de água e do nada o copo aparece cheio; existe um fluxo de coisas a acontecerem: você sabe que a água que está caindo ali em tempo real no seu copo vem do galão, que ao mesmo tempo, começa a ficar mais vazio.
-
-<figure class="loading text-center">
-    <iframe width="940" height="529" src="https://www.youtube.com/embed/bCUCGstBncs?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
-</figure>
 
 Na web as coisas não precisam ser diferentes. As pessoas estão acostumadas com o mundo real. Coisas aparecendo do nada na tela acabam passando uma sensação/experiência de uma coisa distante do mundo real.
 

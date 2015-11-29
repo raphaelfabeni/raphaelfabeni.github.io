@@ -4,7 +4,8 @@ title:  "Jasmine: criando spies"
 description: "Jasmine possibilita a criação de spies, que ao pé da letra, 'ficam de olho' em partes específicas do seu código."
 type: Post
 date: 2015-05-22
-image: 'jasmine-spies.jpg'
+image: 'https://cloud.githubusercontent.com/assets/1345662/11457969/79fb1d56-969e-11e5-8326-aa50572ae52d.jpg'
+imageExternal: true
 alt: 'Vários relógios dourados presos a uma superfície e dispostos um ao lado do outro'
 ---
 
@@ -66,7 +67,7 @@ O que fizemos no código acima foi o seguinte:
 Assim, se rodarmos nosso teste, vamos ver que ele passou, ou seja, o método `addIngredient` está sendo chamado perfeitamente.
 
 <figure class="loading">
-    <img src="{{ site.baseurl}}build/img/posts/samples/jasmine-spy-ok-1.png" alt="Print da tela mostrando que o teste passou">
+    <img src="https://cloud.githubusercontent.com/assets/1345662/11457980/ab42d886-969e-11e5-8e52-ba892aef800a.png" alt="Print da tela mostrando que o teste passou">
 </figure>
 
 Agora, se quisermos verificar se esse mesmo método está sendo chamado com os argumentos corretos poderíamos adicionar a seguinte *spec*:
@@ -84,7 +85,7 @@ it('tracks the spy for addIngredient method with the correct arguments', functio
 Nessa nova *spec* utilizamos do *matcher* `toHaveBeenCalledWith()` com o argumento que esperamos que tenha sido chamado (conforme a chamada que fizemos no `beforeEach`). Feito isso, ao rodarmos nossos testes:
 
 <figure class="loading">
-    <img src="{{ site.baseurl}}build/img/posts/samples/jasmine-spy-ok-2.png" alt="Print da tela mostrando que o teste passou">
+    <img src="https://cloud.githubusercontent.com/assets/1345662/11457981/ab4446d0-969e-11e5-823b-286b2deb0db7.png" alt="Print da tela mostrando que o teste passou">
 </figure>
 
 Resumidamente o `spyOn` substitui a função, interceptando assim as suas chamadas e acompanhando algumas informações importantes sobre ela para utilizarmos em nossas *specs*. Aí temos um ponto a se considerar: dessa maneira perdemos as capacidades da função original. Para resolver isso podemos usar o `andCallThrough()`. Vamos lá:
@@ -140,7 +141,7 @@ No exemplo acima, criamos duas *specs*:
 Aí é só rodarmos nossos testes:
 
 <figure class="loading">
-    <img src="{{ site.baseurl}}build/img/posts/samples/jasmine-spy-ok-3.png" alt="Print da tela mostrando que o teste passou">
+    <img src="https://cloud.githubusercontent.com/assets/1345662/11457979/ab42215c-969e-11e5-81a4-0652003ae440.png" alt="Print da tela mostrando que o teste passou">
 </figure>
 
 Valeu ao grande [Weslley Araujo](https://twitter.com/_weslleyaraujo) pela ajuda na revisão do post.

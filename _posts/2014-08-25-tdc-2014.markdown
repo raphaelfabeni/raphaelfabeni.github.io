@@ -4,7 +4,9 @@ title:  "TDC 2014: The Developers Conference!"
 description: "TDC 2014: A primeira vez a gente nunca esquece!!"
 type: Post
 date: 2014-08-25
-image: 'raphaelfabeni-tdc-2014-3.jpg'
+image: 'https://cloud.githubusercontent.com/assets/1345662/11458493/5bad202e-96a8-11e5-9558-e5cfc97c157e.jpg'
+imageExternal: true
+alt: ''
 ---
 
 No começo desse mês rolou o The Developers Conference 2014 aqui em São Paulo. Como sempre, o evento foi muito bacana; estrutura e organização muito bons. Mas esse ano, pelo menos pra mim, ele teve um gostinho especial: palestrei pela primeira vez em um evento de porte tão grande quanto o TDC.
@@ -12,11 +14,11 @@ No começo desse mês rolou o The Developers Conference 2014 aqui em São Paulo.
 O tema da palestra foi <i>CSS3</i> em conjunto com <i>SASS</i> e como utilizar hoje nos seus projetos/aplicações. Se tiver interessado, [segue o link da palestra](https://speakerdeck.com/raphaelfabeni/keep-calm-and-lets-play-css3).
 
 <figure class="text-center loading">
-    <img src="{{ site.baseurl}}build/img/posts/raphaelfabeni-tdc-2014.jpg" alt="Imagem mostra Raphael Fabeni durante palestra no TDC 2014">
+    <img src="https://cloud.githubusercontent.com/assets/1345662/11458490/5baae0fc-96a8-11e5-91d7-4b306b9bcba1.jpg" alt="Imagem mostra Raphael Fabeni durante palestra no TDC 2014">
 </figure>
 
 <figure class="text-center loading">
-    <img src="{{ site.baseurl}}build/img/posts/raphaelfabeni-tdc-2014-1.jpg" alt="Imagem mostra Raphael Fabeni durante palestra no TDC 2014">
+    <img src="https://cloud.githubusercontent.com/assets/1345662/11458492/5bac39ca-96a8-11e5-9975-95b60233a28a.jpg" alt="Imagem mostra Raphael Fabeni durante palestra no TDC 2014">
 </figure>
 
 Falando do evento especificamente, apareci por lá em 2 dias: nas trilhas de Front-End e Web. Em ambos os dias a coordenação estava sob o cuidado do [Paulo Fernandes](https://twitter.com/paulofernandesj) e acho que só tenho elogios. Imagino que não seja fácil organizar algo desse tipo e em ambos os dias gostei muito do conteúdo das palestras.
@@ -26,7 +28,7 @@ Teve o [Lucas Mazza](https://twitter.com/lucasmazza) falando de como podemos ir 
 Mas, não só por palestrar que achei o TDC especial. Ele me mostrou o quão legal é poder interagir com a comunidade web e quanto pode ser proveitoso você compartilhar suas experiências, sejam coisas que deram certo ou não. O que deu certo pra você pode ser algo que alguém está quebrando a cabeça pra resolver e vice-versa.
 
 <figure class="text-center loading">
-    <img src="{{ site.baseurl}}build/img/posts/raphaelfabeni-tdc-2014-2.jpg" alt="Imagem mostra encerramento do TDC 2014">
+    <img src="https://cloud.githubusercontent.com/assets/1345662/11458491/5bab9b00-96a8-11e5-9313-380d758a6b9e.jpg" alt="Imagem mostra encerramento do TDC 2014">
 </figure>
 
 No geral, só tenho pontos positivos em relação ao evento: ótimo conteúdo, boa estrutura e conheci muita gente boa da área. Em relação a palestra, não minto que fiquei nervoso pra caramba, mas deu certo. Se você estava lá no dia e assistiu a palestra, manda seu <strong>feedback</strong> :)!

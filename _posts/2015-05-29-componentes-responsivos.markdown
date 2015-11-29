@@ -4,7 +4,8 @@ title:  "Componentes responsivos"
 description: "Uma idéia que tive há algum tempo atrás sobre cada componente ser responsivo e independente."
 type: Post
 date: 2015-05-29
-image: 'componentes-responsivos.jpg'
+image: 'https://cloud.githubusercontent.com/assets/1345662/11457956/32c0b946-969e-11e5-8fe0-d65ce3647453.jpg'
+imageExternal: true
 alt: 'Foto mostra uma parte de uma roda gigante'
 ---
 

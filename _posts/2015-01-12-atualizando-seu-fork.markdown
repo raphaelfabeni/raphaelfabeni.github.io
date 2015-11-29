@@ -4,7 +4,8 @@ title:  "GitHub: Atualizando seu fork"
 description: "Tenha o fork daquele projeto legal que você está contribuindo sempre atualizado e evite problemas"
 type: Post
 date: 2015-01-12
-image: 'atualizando-fork.jpg'
+image: 'https://cloud.githubusercontent.com/assets/1345662/11458213/fff34934-96a2-11e5-9c4d-af162bc71a92.jpg'
+imageExternal: true
 alt: 'Mesa de madeira vista de cima, cheia de ferramentas'
 ---
 

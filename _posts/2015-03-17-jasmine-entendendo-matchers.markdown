@@ -4,7 +4,8 @@ title:  "Jasmine: entendendo os matchers"
 description: "Por acaso, você conhece todos os matchers que o Jasmine nos oferece pra brincar?"
 type: Post
 date: 2015-03-17
-image: 'matchers-jasmine.jpg'
+image: 'https://cloud.githubusercontent.com/assets/1345662/11458074/e50ba9de-969f-11e5-9983-999042edf9c0.jpg'
+imageExternal: true
 alt: 'Cadeado preso em uma grade'
 ---
 

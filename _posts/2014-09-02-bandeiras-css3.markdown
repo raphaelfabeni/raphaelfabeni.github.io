@@ -4,7 +4,9 @@ title:  "Bandeiras em CSS3!"
 description: "Bandeiras de alguns países desenvolvidas usando apenas CSS3!"
 type: Post
 date: 2014-09-03
-image: 'flags-css3.png'
+image: 'https://cloud.githubusercontent.com/assets/1345662/11458478/184eccba-96a8-11e5-8d6b-998fe8d02696.png'
+imageExternal: true
+alt: 'Montagem com bandeira de quatro países para mostrar o projeto Flags CSS3'
 ---
 
 Há alguns dias atrás eu conversei rápido com o grande <a href="https://twitter.com/deividmarques" target="_blank">Deivid Marques</a> sobre projetos que usam só CSS3. Eu acho <strong>muito</strong> legal projetos assim pois mostram o quanto de coisa bacana é possível fazer apenas com CSS3.

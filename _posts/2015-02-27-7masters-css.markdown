@@ -4,7 +4,8 @@ title:  "7Masters CSS"
 description: "Evento idealizado pelo iMasters teve sua edição com CSS como tema"
 type: Post
 date: 2015-02-27
-image: '7-masters.jpg'
+image: 'https://cloud.githubusercontent.com/assets/1345662/11458128/0cfacf50-96a1-11e5-857b-54d3ca621ba1.jpg'
+imageExternal: true
 alt: 'Galera que palestrou no 7Masters - Diego Eis, Hugo Bessa, Rafael Lyra, Deivid Marques, Raphael Fabeni, Rafael Rinaldi e Bernard de Luna'
 ---
 
