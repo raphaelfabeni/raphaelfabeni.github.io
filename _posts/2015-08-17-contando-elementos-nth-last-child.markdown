@@ -78,9 +78,9 @@ Esse *brother* aí nada mais faz do que contar o elemento partindo do seu últim
 
 Uma representação bem simples do item selecionado:
 
-* item 1 (selecionado)
-* item 2 (selecionado)
-* item 3 (selecionado)
+* item 1
+* item 2
+* item 3
 * *item 4 (selecionado)*
 * item 5
 
