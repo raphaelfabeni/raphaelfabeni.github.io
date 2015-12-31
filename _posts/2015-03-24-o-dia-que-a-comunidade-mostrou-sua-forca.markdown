@@ -5,7 +5,6 @@ description: "Como uma campanha por um motivo maior, uniu e mostrou o poder da c
 type: Post
 date: 2015-03-25
 image: 'https://cloud.githubusercontent.com/assets/1345662/11458061/beb028d2-969f-11e5-98d6-68b3538369e3.jpg'
-imageExternal: true
 alt: 'Imagem mostrando o espaço cheio de estrelas'
 ---
 

@@ -12,6 +12,9 @@ language: en
 {% for post in site.posts %}
   {% if post.lang == "en" %}
     <article class="post">
+        <figure class="image">
+          <img src="{{ post.image }}">
+        </figure>
         <h1 class="title">
             <a href="{{ post.url }}">{{ post.title }}</a>
         </h1>

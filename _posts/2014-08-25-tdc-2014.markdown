@@ -5,8 +5,7 @@ description: "TDC 2014: A primeira vez a gente nunca esquece!!"
 type: Post
 date: 2014-08-25
 image: 'https://cloud.githubusercontent.com/assets/1345662/11458493/5bad202e-96a8-11e5-9558-e5cfc97c157e.jpg'
-imageExternal: true
-alt: ''
+alt: 'The Developers Conference 2014'
 ---
 
 No começo desse mês rolou o The Developers Conference 2014 aqui em São Paulo. Como sempre, o evento foi muito bacana; estrutura e organização muito bons. Mas esse ano, pelo menos pra mim, ele teve um gostinho especial: palestrei pela primeira vez em um evento de porte tão grande quanto o TDC.

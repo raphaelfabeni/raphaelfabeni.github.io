@@ -5,7 +5,6 @@ description: "Conheça um pouco do Jasmine: um framework bem intuitivo para test
 type: Post
 date: 2015-03-04
 image: 'https://cloud.githubusercontent.com/assets/1345662/11458108/85179d3e-96a0-11e5-8382-0487118ad9f6.jpg'
-imageExternal: true
 alt: 'Imagem mostra relógios de uma máquina antiga de uma fábrica'
 ---
 

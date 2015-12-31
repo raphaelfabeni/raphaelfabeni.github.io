@@ -5,7 +5,6 @@ description: "Um resumo do segundo encontro do Meetup CSS!"
 type: Post
 date: 2014-10-02
 image: 'https://cloud.githubusercontent.com/assets/1345662/11458326/bc4cafc0-96a4-11e5-8aba-920ac797d168.jpg'
-imageExternal: true
 alt: 'Meetup CSS SP na sua segunda edição na empresa Lambda 3'
 ---
 

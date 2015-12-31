@@ -5,7 +5,6 @@ description: "Não é bruxaria, é CSS scroll snap points"
 type: Post
 date: 2015-10-16
 image: "https://cloud.githubusercontent.com/assets/1345662/10500869/3f0ee854-72b2-11e5-94c4-04db468e18ce.jpg"
-imageExternal: true
 alt: "Imagem de uma calçada e coqueiro ao fundo atrás de uma grade"
 lang: pt-br
 url_en: /css-scroll-snap-points

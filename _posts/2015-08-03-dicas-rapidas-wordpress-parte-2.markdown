@@ -5,7 +5,6 @@ description: "Mais algumas dicas que podem te ajudar no seu projeto WordPress."
 type: Post
 date: 2015-08-03
 image: 'https://cloud.githubusercontent.com/assets/1345662/9028292/d234a1e2-394a-11e5-9fac-32b03a8231fe.jpg'
-imageExternal: true
 alt: 'Rua na China com trânsito de carros'
 ---
 

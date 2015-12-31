@@ -16,9 +16,13 @@
     {% include header.html %}
     
     {% if page.type != 'Home' %}
-    {% include breadcrumbs.html %}
+        {% include breadcrumbs.html %}
     {% endif %}
-    <main role="main" class="main {% if page.type == 'Post' %}main-posts{% endif %} container" id="conteudo">
+    <main
+        role="main"
+        class="container main {% if page.type == 'Post' %}main-posts{% endif %} {% if page.type == 'Archive' %}main-full{% endif %}"
+        id="conteudo"
+    >
         {{ content }}
     </main>
 

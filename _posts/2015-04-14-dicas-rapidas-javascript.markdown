@@ -5,7 +5,6 @@ description: "Dicas rápidas de JavaScript, uma linguagem beeem legal mas cheia 
 type: Post
 date: 2015-04-14
 image: 'https://cloud.githubusercontent.com/assets/1345662/11458020/8dbf5630-969f-11e5-86d5-83d700a53ec7.jpg'
-imageExternal: true
 alt: 'Cadeira de madeira vermelha em um quintal coberto de neve'
 ---
 

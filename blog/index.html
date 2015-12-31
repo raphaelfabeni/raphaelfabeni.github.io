@@ -8,11 +8,14 @@ language: pt-br
 <h1 class="title">Blog</h1>
 
 <section id="conteudo" class="posts">
-{% for post in paginator.posts %}
+{% for post in site.posts %}
     {% if post.lang == undefined or post.lang == "pt-br" %}
       <article class="post">
+        <figure class="image">
+          <img src="{{ post.image }}">
+        </figure>
         <h1 class="title">
-            <a href="{{ post.url }}">{{ post.title }}</a>
+          <a href="{{ post.url }}">{{ post.title }}</a>
         </h1>
         <p class="date text-center">{{ post.date | date: "%-d/%m/%Y" }}</p>
         <p class="short text-center">{{ post.description }}</p>
@@ -22,24 +25,7 @@ language: pt-br
 {% endfor %}
 </section>
 
-<!-- Pagination links -->
-<div class="pagination">
-  {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path }}" class="btn">
-        <i class="fa fa-arrow-circle-o-left"></i> Posts anteriores
-    </a>
-  {% else %}
-    <!-- <span class="previous">Anterior</span> -->
-  {% endif %}
-  <!-- <span class="page_number ">Página: {{ paginator.page }} of {{ paginator.total_pages }}</span> -->
-  {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path }}" class="btn">
-        <i class="fa fa-arrow-circle-o-right"></i> Próximos posts
-    </a>
-  {% else %}
-    <!-- <span class="next ">Next</span> -->
-  {% endif %}
-</div>
+
 
 <section class="rss">
     <p class="text-center"><i class="fa fa-rss"></i> Curtiu? <a href="{{ site.baseurl }}feed.xml">Assine o RSS! </a></p>

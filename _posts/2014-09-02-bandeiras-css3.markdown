@@ -5,7 +5,6 @@ description: "Bandeiras de alguns países desenvolvidas usando apenas CSS3!"
 type: Post
 date: 2014-09-03
 image: 'https://cloud.githubusercontent.com/assets/1345662/11458478/184eccba-96a8-11e5-8d6b-998fe8d02696.png'
-imageExternal: true
 alt: 'Montagem com bandeira de quatro países para mostrar o projeto Flags CSS3'
 ---
 

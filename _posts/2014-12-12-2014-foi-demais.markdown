@@ -5,7 +5,6 @@ description: "Um resumo de porque 2014 foi tão legal"
 type: Post
 date: 2014-12-19
 image: 'https://cloud.githubusercontent.com/assets/1345662/11458228/58c9b94e-96a3-11e5-8635-ac7fec294ab7.jpg'
-imageExternal: true
 alt: 'Carro antigo preto, visto de frente'
 ---
 

@@ -5,7 +5,6 @@ description: "Você já ouviu falar no elemento time? Conheça os segredos dessa
 type: Post
 date: 2014-10-14
 image: 'https://cloud.githubusercontent.com/assets/1345662/11458306/77ace862-96a4-11e5-8d7f-669a8591c360.jpg'
-imageExternal: true
 alt: 'Imagem mostra relógio de pulso segurado pela corda'
 ---
 

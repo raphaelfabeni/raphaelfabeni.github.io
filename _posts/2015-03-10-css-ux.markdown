@@ -5,7 +5,6 @@ description: "CSS3 é coisa linda! Use-o em prol da UX e seja feliz!"
 type: Post
 date: 2015-03-10
 image: 'https://cloud.githubusercontent.com/assets/1345662/11458082/167083aa-96a0-11e5-8256-38d2b385d783.jpg'
-imageExternal: true
 alt: 'Imagem mostra homem dentro de um carro antigo segurando o volante e observando um cachorro que está sentado no banco ao seu lado'
 ---
 

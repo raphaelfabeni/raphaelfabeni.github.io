@@ -5,7 +5,6 @@ description: "Por acaso, você conhece todos os matchers que o Jasmine nos ofere
 type: Post
 date: 2015-03-17
 image: 'https://cloud.githubusercontent.com/assets/1345662/11458074/e50ba9de-969f-11e5-9983-999042edf9c0.jpg'
-imageExternal: true
 alt: 'Cadeado preso em uma grade'
 ---
 

@@ -5,7 +5,6 @@ description: "It's not witchcraft, it's CSS scroll snap points"
 type: Post
 date: 2015-10-16
 image: "https://cloud.githubusercontent.com/assets/1345662/10500869/3f0ee854-72b2-11e5-94c4-04db468e18ce.jpg"
-imageExternal: true
 alt: "Image of a sidewalk and coconut tree in the background behind a grid"
 lang: en
 url_en: /css-scroll-snap-points

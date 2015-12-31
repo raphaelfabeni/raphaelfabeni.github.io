@@ -5,7 +5,6 @@ description: "Como surgiu a idéia de reunir a galera de desenvolvimento e falar
 type: Post
 date: 2014-08-14
 image: 'https://cloud.githubusercontent.com/assets/1345662/11458568/97107d54-96a9-11e5-8a26-aff1aa2afb5c.jpg'
-imageExternal: true
 alt: 'Imagem de capa da apresentação de boas vindas do Meetup CSS SP'
 ---
 

@@ -5,7 +5,6 @@ description: "Dicas rápidas que podem ser úteis para projetos em WordPress."
 type: Post
 date: 2015-07-16
 image: 'https://cloud.githubusercontent.com/assets/1345662/8713520/ffe24dec-2b3f-11e5-9899-662498a8a3f5.jpg'
-imageExternal: true
 alt: 'Imagem de uma igreja ou estação de trem vista de uma perspectiva mostrando sua próxima do chão'
 ---
 

@@ -5,7 +5,6 @@ description: "Edição paulista do evento focado em WordPress"
 type: Post
 date: 2014-10-22
 image: 'https://cloud.githubusercontent.com/assets/1345662/11458296/36dd39cc-96a4-11e5-974c-6dedb5a4682b.jpg'
-imageExternal: true
 alt: 'Bottons do WordCamp 2014'
 ---
 

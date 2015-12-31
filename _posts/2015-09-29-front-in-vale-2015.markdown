@@ -5,7 +5,6 @@ description: "Um breve resumo do primeiro evento de front-end no Vale do Paraíb
 type: Post
 date: 2015-09-29
 image: "https://cloud.githubusercontent.com/assets/1345662/10179370/ed971582-66db-11e5-9c8f-31a009342cb1.jpg"
-imageExternal: true
 alt: "Imagem de um por do sol"
 lang: pt-br
 url_en: /front-in-vale-2015

@@ -5,7 +5,6 @@ description: "Obsessivo por organização, acabei brincando esses dias para reor
 type: Post
 date: 2015-01-20
 image: 'https://cloud.githubusercontent.com/assets/1345662/11458198/72f7ffe8-96a2-11e5-839e-3ecf51e82068.jpg'
-imageExternal: true
 alt: 'Detalhe de um adorno em, aparenteente, parece ser uma porta de madeira'
 ---
 

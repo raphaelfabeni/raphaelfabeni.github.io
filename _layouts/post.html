@@ -7,27 +7,19 @@ layout: default
     <h1 class="title title-big">{{ page.title }}</h1>
     <p class="date text-center">
       {% if page.lang == undefined or page.lang == "pt-br" %}
-        {{ page.date | date: "%-d/%m/%Y" }}
+        {{ page.date | date: "%d/%m/%Y" }}
       {% endif %}
       {% if page.lang == "en" %}
-        {{ page.date | date: "%m/%-d/%Y" }}
+        {{ page.date | date: "%m/%d/%Y" }}
       {% endif %}
     </p>
   </header>
 
   <figure class="text-center loading image-opening">
     {% if page.alt %}
-      {% if page.imageExternal %}
-        <img src="{{ page.image }}" alt="{{ page.alt }}">
-      {% else %}
-        <img src="{{ site.baseurl}}build/img/posts/{{ page.image }}" alt="{{ page.alt }}">  
-      {% endif %}
+      <img src="{{ page.image }}" alt="{{ page.alt }}">
     {% else %}
-      {% if page.imageExternal %}
-        <img src="{{ page.image }}" alt="{{ page.description }}">
-      {% else %}
-        <img src="{{ site.baseurl}}build/img/posts/{{ page.image }}" alt="{{ page.description }}">  
-      {% endif %}
+      <img src="{{ page.image }}" alt="{{ page.description }}">
     {% endif %}
   </figure>
 

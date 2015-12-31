@@ -5,7 +5,6 @@ description: "Sempre gostei de escrever, agora tenho a meta de pelo menos fazer 
 type: Post
 date: 2015-01-09
 image: 'https://cloud.githubusercontent.com/assets/1345662/11458219/27fb66d2-96a3-11e5-962b-c2d7199fd190.jpg'
-imageExternal: true
 alt: 'Mesa com um notebook aberto em cima'
 ---
 

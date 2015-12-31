@@ -5,7 +5,6 @@ description: "Um evento literalmente do Inferno"
 type: Post
 date: 2014-11-04
 image: 'https://cloud.githubusercontent.com/assets/1345662/11458258/ad322016-96a3-11e5-85c0-80d05b95138a.jpg'
-imageExternal: true
 alt: 'Raphael Fabeni durante evento Front in Sampa 2014'
 ---
 
