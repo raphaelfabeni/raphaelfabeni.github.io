@@ -13,7 +13,7 @@ url_br: /es6-arrow-functions
 
 As *arrow functions* a princípio podem parecer confusas (experiência própria *(◕︵◕)*), mas depois de um tempo, é possível entender sua sintaxe mais curta e a mágica do escopo do `this`.
 
-## Vários argumentos
+## Vários parâmetros
 
 Sem *arrow functions*. 
 
@@ -46,7 +46,7 @@ console.log( newWay2('James Bond', 'Bond') );
 // My name is Bond, James Bond
 {% endhighlight %}
 
-## Apenas um argumento
+## Apenas um parâmetro
 
 Sem *arrow functions*.
 
