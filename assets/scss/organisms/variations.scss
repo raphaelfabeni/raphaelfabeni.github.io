@@ -42,6 +42,8 @@
         text-shadow: 1px 1px 0 darken(#333, 15%);
     }
 
+    [data-color="gray"] .post:hover { background-color: darken(#333, 3%); }
+
 /*  Purple
     ========================================================================== */
     [data-color="purple"] { background-color: $purple; }
@@ -78,6 +80,8 @@
         background-color: darken($purple, 6%);
         text-shadow: 1px 1px 0 darken($purple, 15%);
     }
+
+    [data-color="purple"] .post:hover { background-color: darken($purple, 3%); }
 
 /*  Brown
     ========================================================================== */
@@ -116,6 +120,8 @@
         text-shadow: 1px 1px 0 darken($brown, 15%);
     }
 
+    [data-color="brown"] .post:hover { background-color: darken($brown, 3%); }
+
 /*  Blue
     ========================================================================== */
     [data-color="blue"] { background-color: darken($blue, 35%); }
@@ -152,3 +158,5 @@
         background-color: darken($blue, 46%);
         text-shadow: 1px 1px 0 darken($blue, 15%);
     }
+
+    [data-color="blue"] .post:hover { background-color: darken($blue, 38%); }
