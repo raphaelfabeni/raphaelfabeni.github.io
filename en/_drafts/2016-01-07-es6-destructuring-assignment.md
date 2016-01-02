@@ -155,6 +155,41 @@ movieStars.forEach( ({nickname}) => console.log(nickname) );
 // Rambo
 {% endhighlight %}
 
+## Creating objects
+
+We could create objects in this way:
+
+{% highlight js %}
+let username = 'Raphael Fabeni';
+let nickname = 'Fabeni';
+
+var oldGuy =  {
+  username: username,
+  nickname: nickname
+};
+
+console.log(oldGuy);
+// {
+//   nickname: "Fabeni",
+//   username: "Raphael Fabeni"
+// }
+{% endhighlight %}
+
+But there is a new way much more fun. *◕‿◕*
+
+{% highlight js %}
+let username = 'Raphael Fabeni';
+let nickname = 'Fabeni';
+
+let newGuy = { username, nickname };
+
+console.log(newGuy);
+// {
+//   nickname: "Fabeni",
+//   username: "Raphael Fabeni"
+// }
+{% endhighlight %}
+
 [Here](http://jsbin.com/qejoyo/edit?js,console) you can find an JS Bin with the examples.
 
 Do you like it? Did I write something stupid? Do you want to improve? Open an [issue](https://github.com/raphaelfabeni/raphaelfabeni.github.io/issues) mentioning the post and let's talk about it.

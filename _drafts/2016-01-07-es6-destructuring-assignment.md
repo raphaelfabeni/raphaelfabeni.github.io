@@ -155,6 +155,41 @@ movieStars.forEach( ({nickname}) => console.log(nickname) );
 // Rambo
 {% endhighlight %}
 
+## Criando objetos
+
+Podemos criar um objeto assim:
+
+{% highlight js %}
+let username = 'Raphael Fabeni';
+let nickname = 'Fabeni';
+
+var oldGuy =  {
+  username: username,
+  nickname: nickname
+};
+
+console.log(oldGuy);
+// {
+//   nickname: "Fabeni",
+//   username: "Raphael Fabeni"
+// }
+{% endhighlight %}
+
+Dá pra ficar mais legal. *◕‿◕*
+
+{% highlight js %}
+let username = 'Raphael Fabeni';
+let nickname = 'Fabeni';
+
+let newGuy = { username, nickname };
+
+console.log(newGuy);
+// {
+//   nickname: "Fabeni",
+//   username: "Raphael Fabeni"
+// }
+{% endhighlight %}
+
 [Aqui](http://jsbin.com/qejoyo/edit?js,console) você encontra um JS Bin com os exemplos acima.
 
 Gostou? Escrevi alguma groselha? Quer melhorar? Abra uma [issue](https://github.com/raphaelfabeni/raphaelfabeni.github.io/issues) mencionando o post e vamos conversar.
