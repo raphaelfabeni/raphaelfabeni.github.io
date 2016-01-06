@@ -122,6 +122,13 @@ module.exports = function( grunt ) {
         }
       },
 
+      jekyll_review: {
+        command: "jekyll serve --watch",
+        options: {
+            stderr: false
+        }
+      },
+
       jekyll_build: {
         command: "jekyll build",
         options: {
@@ -135,6 +142,16 @@ module.exports = function( grunt ) {
       dev: {
         tasks: [
           'shell:jekyll_serve',
+          'watch'
+        ],
+        options: {
+          logConcurrentOutput: true
+        }
+      },
+
+      review: {
+        tasks: [
+          'shell:jekyll_review',
           'watch'
         ],
         options: {
@@ -283,6 +300,7 @@ module.exports = function( grunt ) {
   // Server
   // Watch
   grunt.registerTask( 'server', [ 'concurrent:dev' ] );
+  grunt.registerTask( 'review', [ 'concurrent:review' ] );
 
   // Build
   grunt.registerTask( 'build', [ 'sass', 'js', 'shell:jekyll_build', 'copy' ] );
