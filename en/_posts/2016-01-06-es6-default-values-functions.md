@@ -18,7 +18,7 @@ When we create a function, we could verify that the values were passed or not, a
 {% highlight js %}
 function oldHello(name) {
   var name = (!name) ? 'James Bond' : name;
-  var nickname = (!nickname) ? 'James Bond' : nickname;
+  var nickname = (!nickname) ? 'Bond' : nickname;
   
   console.log('My name is ' + nickname + ', ' + name);
 }

@@ -18,7 +18,7 @@ Quando criamos uma função, poderíamos verificar se os valores foram passados 
 {% highlight js %}
 function oldHello(name) {
   var name = (!name) ? 'James Bond' : name;
-  var nickname = (!nickname) ? 'James Bond' : nickname;
+  var nickname = (!nickname) ? 'Bond' : nickname;
   
   console.log('My name is ' + nickname + ', ' + name);
 }
