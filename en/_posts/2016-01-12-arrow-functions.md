@@ -1,21 +1,21 @@
 ---
 layout: post
-title:  "ES6: arrow functions em 5 minutos"
-description: "5 minutos pra entender como utilizar as arrow functions."
+title:  "ES6: arrow functions in 5 minutes"
+description: "Five minutes to understand how to use the arrow functions."
 type: Post
-date: 2016-01-05
+date: 2016-01-12
 image: "https://cloud.githubusercontent.com/assets/1345662/12060339/882c0d30-af54-11e5-9f10-79da8f4f1f50.jpg"
-alt: "Caminho de uma estrada coberta de neve em volta"
-lang: pt-br
+alt: "Way of a road covered with snow around"
+lang: en
 url_en: /es6-arrow-functions
 url_br: /es6-arrow-functions
 ---
 
-As *arrow functions* a princípio podem parecer confusas (experiência própria *(◕︵◕)*), mas depois de um tempo, é possível entender sua sintaxe mais curta e a mágica do escopo do `this`.
+The *arrow functions* at first might seem confusing (for me *(◕(◕)* ), but after a while, you can understand their shorter syntax and the magic of the scope of `this`.
 
-## Vários parâmetros
+## Multiple parameters
 
-Sem *arrow functions*. 
+Without *arrow functions*. 
 
 {% highlight js %}
 var oldWay = function(name, nickname) {
@@ -26,7 +26,7 @@ console.log( oldWay('James Bond', 'Bond') );
 // My name is Bond, James Bond
 {% endhighlight %}
 
-Com *arrow functions*.
+With *arrow functions*.
 
 {% highlight js %}
 let newWay = (name, nickname) => {
@@ -37,7 +37,7 @@ console.log( newWay('James Bond', 'Bond') );
 // My name is Bond, James Bond
 {% endhighlight %}
 
-Ou de uma maneira um pouco mais curta.
+Or in a shorter way.
 
 {% highlight js %}
 let newWay2 = (name, nickname) => 'My name is ' + nickname + ', ' + name;
@@ -46,9 +46,9 @@ console.log( newWay2('James Bond', 'Bond') );
 // My name is Bond, James Bond
 {% endhighlight %}
 
-## Apenas um parâmetro
+## Only one parameter
 
-Sem *arrow functions*.
+Without *arrow functions*.
 
 {% highlight js %}
 var one = function(what) {
@@ -59,7 +59,7 @@ console.log( one('hate') );
 // I hate you
 {% endhighlight %}
 
-Com *arrow functions*.
+With *arrow functions*.
 
 {% highlight js %}
 var oneNew = what => 'I ' + what + ' you';
@@ -68,9 +68,9 @@ console.log( oneNew('hate') );
 // I hate you
 {% endhighlight %}
 
-## Escopo
+## Scope
 
-Sem *arrow functions*.
+Without *arrow functions*.
 
 {% highlight js %}
 var sandwich = {
@@ -94,7 +94,7 @@ var sandwich = {
 // I want a sandwich with integral bread and white cheese
 {% endhighlight %}
 
-Com *arrow functions*.
+With *arrow functions*.
 
 {% highlight js %}
 let newSandwich = {
@@ -116,9 +116,9 @@ let newSandwich = {
 // I want a sandwich with integral bread and white cheese
 {% endhighlight %}
 
-## Exemplo com `map`
+## Example with `map`
 
-Sem *arrow functions*.
+Without *arrow functions*.
 
 {% highlight js %}
 var sample = [1, 2, 3, 4, 5];
@@ -131,7 +131,7 @@ var double = sample.map(function(item) {
 // [2, 4, 6, 8, 10]
 {% endhighlight %}
 
-Com *arrow functions*.
+With *arrow functions*.
 
 {% highlight js %}
 let sample = [1, 2, 3, 4, 5];
@@ -142,6 +142,6 @@ let newDouble = sample.map(item => item * 2);
 // [2, 4, 6, 8, 10]
 {% endhighlight %}
 
-[Aqui](http://jsbin.com/nogobe/edit?js,console) você encontra um JS Bin com os exemplos acima.
+[Here](http://jsbin.com/nogobe/edit?js,console) you can find an JS Bin with the examples.
 
-Gostou? Escrevi alguma groselha? Quer melhorar? Abra uma [issue](https://github.com/raphaelfabeni/raphaelfabeni.github.io/issues) mencionando o post e vamos conversar.
+Do you like it? Did I write something stupid? Do you want to improve? Open an [issue](https://github.com/raphaelfabeni/raphaelfabeni.github.io/issues) mentioning the post and let's talk about it.
