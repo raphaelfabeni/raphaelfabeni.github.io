@@ -1,8 +1,6 @@
 // GA (buttons)
 (function () {
     var netshoes = document.getElementById('netshoes');
-    var tableless = document.getElementById('tableless');
-    var culturizeit = document.getElementById('culturizeit');
     var twitter = document.getElementById('twitter');
     var talks = document.getElementById('talks');
     var meetup = document.getElementById('meetup');
