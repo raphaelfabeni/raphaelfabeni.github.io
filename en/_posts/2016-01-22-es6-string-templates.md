@@ -3,7 +3,7 @@ layout: post
 title:  "ES6: string templates"
 description: "Stop to concatenate. String templates for our happiness"
 type: Post
-date: 2016-01-08
+date: 2016-01-22
 image: "https://cloud.githubusercontent.com/assets/1345662/12072297/319f5c76-b0bf-11e5-94c3-838746ffca56.jpg"
 alt: "Photo shows four newspaper boxes, probably Americans in residential neighborhood"
 lang: en
