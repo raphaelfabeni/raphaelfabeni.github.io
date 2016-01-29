@@ -1,24 +1,24 @@
 ---
 layout: post
 title:  "ES6: spread operator"
-description: "Expanda os dados de um array sorrindo! o/"
+description: "Expand the data from an array smiling! o/"
 type: Post
-date: 2016-01-09
+date: 2016-01-29
 image: "https://cloud.githubusercontent.com/assets/1345662/12072840/6360f8ae-b0de-11e5-8584-b748798c95c3.jpg"
-alt: "Fogos de artifício coloridos em um céu escuro"
-lang: pt-br
+alt: "Colorful fireworks in a dark sky"
+lang: en
 url_en: /es6-spread-operator
 url_br: /es6-spread-operator
 ---
 
-O carinha *spread* nos permite extrair/expandir dados de um array agilizando a nossa vida. Confuso? Acho que não consegui explicar. Vamos à prática. Imaginemos os seguintes arrays:
+The *spread* guy allow us extract/expand data from an array make our lifes easier. Confused? I guess I could not explain. Go to practice. Imagine the following arrays:
 
 {% highlight js %}
 let mortalKombat = ['Scorpion', 'Sub Zero', 'Liu Kang'];
 let newCharacters = ['Reptile', 'Kitana'];
 {% endhighlight %}
 
-Se tivéssemos que adicionar os novos *lutadores* ao *array* principal, poderíamos tentar algo assim:
+If we had to add the new *fighters* to the main *array*, we could try something like that:
 
 {% highlight js %}
 mortalKombat.push(newCharacters);
@@ -27,7 +27,7 @@ console.log(mortalKombat);
 // ['Scorpion', 'Sub Zero', 'Liu Kang', ['Reptile', 'Kitana']]
 {% endhighlight %}
 
-Adicionou mas não ficou do jeito que queríamos. Teríamos então que tratar isso antes, algo mais ou menos assim:
+The data is there, but not in the way that we want. So we need to manipulate it before:
 
 {% highlight js %}
 newCharacters.forEach(function(fighter) {
@@ -38,7 +38,7 @@ console.log(mortalKombat);
 // ['Scorpion', 'Sub Zero', 'Liu Kang', 'Reptile', 'Kitana']
 {% endhighlight %}
 
-O operador *spred* chega *chutando a porta* e deixando tudo bonitão.
+The operator *spred* arrives making magic and leaving everything beautiful.
 
 {% highlight js %}
 mortalKombat.push(...newCharacters);
@@ -47,6 +47,6 @@ console.log(mortalKombat);
 // ['Scorpion', 'Sub Zero', 'Liu Kang', 'Reptile', 'Kitana']
 {% endhighlight %}
 
-[Aqui](http://jsbin.com/cubiko/edit?js,console) você encontra um JS Bin com os exemplos acima.
+[Here](http://jsbin.com/cubiko/edit?js,console) you can find an JS Bin with the examples.
 
-Gostou? Escrevi alguma groselha? Quer melhorar? Abra uma [issue](https://github.com/raphaelfabeni/raphaelfabeni.github.io/issues) mencionando o post e vamos conversar.
+Do you like it? Did I write something stupid? Do you want to improve? Open an [issue](https://github.com/raphaelfabeni/raphaelfabeni.github.io/issues) mentioning the post and let's talk about it.
