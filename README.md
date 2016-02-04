@@ -1,4 +1,4 @@
-# My simple Blog  [![Build Status](https://travis-ci.org/raphaelfabeni/raphaelfabeni.github.io.svg?branch=master)](https://travis-ci.org/raphaelfabeni/raphaelfabeni.github.io) [![Coverage Status](https://coveralls.io/repos/raphaelfabeni/raphaelfabeni.github.io/badge.svg?branch=master)](https://coveralls.io/r/raphaelfabeni/raphaelfabeni.github.io?branch=master)
+# My simple Blog  [![Build Status](https://travis-ci.org/raphaelfabeni/raphaelfabeni.github.io.svg?branch=master)](https://travis-ci.org/raphaelfabeni/raphaelfabeni.github.io) [![Coverage Status](https://coveralls.io/repos/github/raphaelfabeni/raphaelfabeni.github.io/badge.svg?branch=develop)](https://coveralls.io/github/raphaelfabeni/raphaelfabeni.github.io?branch=develop)
 
 This is my humble blog where I write not only about web development but events, meetups and conferences too.
 
