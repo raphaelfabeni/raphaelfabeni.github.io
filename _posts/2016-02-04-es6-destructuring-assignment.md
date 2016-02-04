@@ -3,7 +3,7 @@ layout: post
 title:  "ES6: destructuring assignment"
 description: "Pegando dados de um jeito mais bonito e fácil."
 type: Post
-date: 2016-01-07
+date: 2016-02-04
 image: "https://cloud.githubusercontent.com/assets/1345662/12071845/13d407d4-b0a9-11e5-8a14-95a3bac85cf1.jpg"
 alt: "Brinquedo pebolim visto de cima com jogadores nas cores preta e amarela"
 lang: pt-br

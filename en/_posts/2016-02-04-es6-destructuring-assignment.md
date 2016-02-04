@@ -3,7 +3,7 @@ layout: post
 title:  "ES6: destructuring assignment"
 description: "Taking data from a better and easier way."
 type: Post
-date: 2016-01-07
+date: 2016-02-04
 image: "https://cloud.githubusercontent.com/assets/1345662/12071845/13d407d4-b0a9-11e5-8a14-95a3bac85cf1.jpg"
 alt: "Foosball viewed from above with players in black and yellow."
 lang: en
@@ -11,7 +11,7 @@ url_en: /es6-destructuring-assignment
 url_br: /es6-destructuring-assignment
 ---
 
-I met great *destructuring assignment* through my brother [Weslley Araujo] (https://twitter.com/_weslleyaraujo), and I need to confess that I really liked. It is nothing more than an expression that allows us to *get* data from *objects* or *arrays* of a much simpler way.
+I met great *destructuring assignment* through my brother [Weslley Araujo](https://twitter.com/_weslleyaraujo), and I need to confess that I really liked. It is nothing more than an expression that allows us to *get* data from *objects* or *arrays* of a much simpler way.
 
 For we get a property of an object, we could do something like that:
 
