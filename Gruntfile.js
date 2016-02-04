@@ -304,6 +304,7 @@ module.exports = function( grunt ) {
 
   // Build
   grunt.registerTask( 'build', [ 'sass', 'js', 'shell:jekyll_build', 'copy' ] );
+  // Ci
   grunt.registerTask('ci', [ 'jshint', 'jasmine', 'coveralls' ]);
 
 };
