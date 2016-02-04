@@ -11,7 +11,7 @@ exclude: ['node_modules', 'Gruntfile.js', 'package.json', 'assets', 'bower_compo
 # Build settings
 markdown: kramdown
 permalink: pretty
-highlighter: pygments
+highlighter: rouge
 #pygments: true
 # highlighter: pygments
 
