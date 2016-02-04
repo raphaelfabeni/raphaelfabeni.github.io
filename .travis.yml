@@ -21,6 +21,7 @@ script:
 - grunt ci
 - grunt build
 after_success:
+- coveralls
 - bash ./script.bash
 notifications:
   email: rapha.fabeni@gmail.com
