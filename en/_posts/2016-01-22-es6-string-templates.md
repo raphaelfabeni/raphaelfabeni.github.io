@@ -42,12 +42,12 @@ const obj = {
   foo: 'bar'
 };
 
-const fn = foo => 'aloha';
+const fn = foo => foo;
 
 console.log( `${obj.foo}` );
 // bar
 
-console.log( `${fn('foo')}` );
+console.log( `${fn('aloha')}` );
 // aloha
 {% endhighlight %}
 
