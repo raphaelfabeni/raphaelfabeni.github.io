@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "ES6: string templates"
-description: "Chega de concatenar. String templates para a nooooossa alegria"
+title:  "ES6: template strings"
+description: "Chega de concatenar. Template strings para a nooooossa alegria"
 type: Post
 date: 2016-01-22
 image: "https://cloud.githubusercontent.com/assets/1345662/12072297/319f5c76-b0bf-11e5-94c3-838746ffca56.jpg"
@@ -23,7 +23,7 @@ console.log(oldMessage);
 // Worse than it is, it is impossible. - Tiririca
 {% endhighlight %}
 
-*Strings templates* para a [nooooooooossa alegria](https://youtu.be/K02Cxo3fAC8?t=1m30s).
+*Template strings* para a [nooooooooossa alegria](https://youtu.be/K02Cxo3fAC8?t=1m30s).
 
 {% highlight js %}
 let author = 'Tiririca';
@@ -33,6 +33,22 @@ let message = `${word} than it is, it is impossible. - ${author}`;
 
 console.log(message);
 // Worse than it is, it is impossible. - Tiririca
+{% endhighlight %}
+
+Meu amigo [Rafael Rinaldi](https://twitter.com/rafaelrinaldi) fez uma boa observacão: é possível utilizar qualquer tipo de expressão e não só variáveis.
+
+{% highlight js %}
+const obj = {
+  foo: 'bar'
+};
+
+const fn = foo => 'aloha';
+
+console.log( `${obj.foo}` );
+// bar
+
+console.log( `${fn('foo')}` );
+// aloha
 {% endhighlight %}
 
 [Aqui](http://jsbin.com/qovino/edit?js,console) você encontra um JS Bin com os exemplos acima.

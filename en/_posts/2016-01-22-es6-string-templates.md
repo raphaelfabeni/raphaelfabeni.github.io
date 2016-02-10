@@ -35,6 +35,22 @@ console.log(message);
 // Worse than it is, it is impossible. - Tiririca
 {% endhighlight %}
 
+My friend [Rafael Rinaldi](https://twitter.com/rafaelrinaldi) made a good point: you can use any kind of expression, not just variables.
+
+{% highlight js %}
+const obj = {
+  foo: 'bar'
+};
+
+const fn = foo => 'aloha';
+
+console.log( `${obj.foo}` );
+// bar
+
+console.log( `${fn('foo')}` );
+// aloha
+{% endhighlight %}
+
 [Here](http://jsbin.com/qovino/edit?js,console) you can find an JS Bin with the examples.
 
 Do you like it? Did I write something stupid? Do you want to improve? Open an [issue](https://github.com/raphaelfabeni/raphaelfabeni.github.io/issues) mentioning the post and let's talk about it.
