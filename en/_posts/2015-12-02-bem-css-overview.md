@@ -7,7 +7,7 @@ date: 2015-12-02
 image: "https://cloud.githubusercontent.com/assets/1345662/11520648/792ca134-988c-11e5-8d8a-3e5eb70b2bd7.jpg"
 alt: "White wall of a house with several windows with details in gray, and two of them in orange"
 lang: en
-url_en: /bem-css
+url_en: /bem-css-overview
 url_br: /bem-css
 ---
 
