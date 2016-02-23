@@ -7,7 +7,7 @@ date: 2016-01-06
 image: "https://cloud.githubusercontent.com/assets/1345662/12068674/5c23b1b6-aff9-11e5-8118-2d1b6ddbab78.jpg"
 alt: "Encosto de cama com algumas almofadas e ao lado um pequeno armário com um despertador em cima"
 lang: pt-br
-url_en: /es6-default-values-parameters
+url_en: /es6-default-values-functions
 url_br: /es6-valores-padrao-parametros
 ---
 
