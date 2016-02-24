@@ -106,7 +106,6 @@ let newSandwich = {
   },
   
   make: function() {
-    var that = this;
     window.setTimeout( () => console.log(this.prepare()), 100 );
   }
   
