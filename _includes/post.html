@@ -1,6 +1,10 @@
 {% if page.type == 'Post' %}
-  {% if page.url_br or page.url_en %}
-    <link rel="alternate" hreflang="pt-br" href="{{ site.url }}{{ page.url_br }}" />
+  {% if page.lang == "pt-br" %}
+    <link rel="alternate" hreflang="x-default" href="{{ site.url }}{{ page.url_br }}" />
     <link rel="alternate" hreflang="en" href="{{ site.url_en }}{{ page.url_en }}" />
+  {% endif %}
+  {% if page.lang == "en" %}
+    <link rel="alternate" hreflang="pt-br" href="{{ site.url }}{{ page.url_br }}" />
+    <link rel="alternate" hreflang="x-default" href="{{ site.url_en }}{{ page.url_en }}" />
   {% endif %}
 {% endif %}
