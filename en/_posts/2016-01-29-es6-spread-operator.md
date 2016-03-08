@@ -38,7 +38,7 @@ console.log(mortalKombat);
 // ['Scorpion', 'Sub Zero', 'Liu Kang', 'Reptile', 'Kitana']
 {% endhighlight %}
 
-The operator *spred* arrives making magic and leaving everything beautiful.
+The operator *spread* arrives making magic and leaving everything beautiful.
 
 {% highlight js %}
 mortalKombat.push(...newCharacters);

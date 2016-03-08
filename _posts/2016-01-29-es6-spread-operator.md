@@ -38,7 +38,7 @@ console.log(mortalKombat);
 // ['Scorpion', 'Sub Zero', 'Liu Kang', 'Reptile', 'Kitana']
 {% endhighlight %}
 
-O operador *spred* chega *chutando a porta* e deixando tudo bonitão.
+O operador *spread* chega *chutando a porta* e deixando tudo bonitão.
 
 {% highlight js %}
 mortalKombat.push(...newCharacters);
