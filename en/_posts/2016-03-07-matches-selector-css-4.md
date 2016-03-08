@@ -40,6 +40,12 @@ p:matches(:first-child, .success) {
 }
 {% endhighlight %}
 
-[Here](http://codepen.io/raphaelfabeni/pen/LNGZYx/) you can find a demo with the examples above.
+<figure class="text-center loading">
+  <p data-height="400" data-theme-id="4240" data-slug-hash="LNGZYx" data-default-tab="result" data-user="raphaelfabeni" class="codepen">See the Pen <a href="http://codepen.io/raphaelfabeni/pen/LNGZYx/">:matches selector</a> by Raphael Fabeni (<a href="http://codepen.io/raphaelfabeni">@raphaelfabeni</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+</figure>
+
+[Here](http://codepen.io/raphaelfabeni/pen/LNGZYx/) the link with the example above.
 
 Do you like it? Did I write something stupid? Do you want to improve? Open an [issue](https://github.com/raphaelfabeni/raphaelfabeni.github.io/issues) mentioning the post and let's talk about it.
+
+<script async src="//assets.codepen.io/assets/embed/ei.js"></script>

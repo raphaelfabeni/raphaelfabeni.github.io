@@ -32,7 +32,7 @@ Para algo assim:
 
 Ou seja, `atacamos` toda classe `highlight` que seja filha de uma `div` ou `footer`.
 
-Podemos ainda fazer da maneira inversa, como no exemplo abaixo: onde selecionamos todos elementos `p` que tenham a classe `success` ou que seja `first-child`.
+Podemos ainda fazer da maneira inversa, como no exemplo abaixo: onde selecionamos todos elementos `p` que tenham a classe `success` ou que seja `":first-child`.
 
 {% highlight css %}
 p:matches(:first-child, .success) {
@@ -40,6 +40,12 @@ p:matches(:first-child, .success) {
 }
 {% endhighlight %}
 
-[Aqui](http://codepen.io/raphaelfabeni/pen/LNGZYx/) é possível ver um exemplo com os códigos acima.
+<figure class="text-center loading">
+  <p data-height="400" data-theme-id="4240" data-slug-hash="LNGZYx" data-default-tab="result" data-user="raphaelfabeni" class="codepen">See the Pen <a href="http://codepen.io/raphaelfabeni/pen/LNGZYx/">:matches selector</a> by Raphael Fabeni (<a href="http://codepen.io/raphaelfabeni">@raphaelfabeni</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+</figure>
+
+[Aqui](http://codepen.io/raphaelfabeni/pen/LNGZYx/) o link do exemplo acima.
 
 Gostou? Escrevi alguma groselha? Quer melhorar? Abra uma [issue](https://github.com/raphaelfabeni/raphaelfabeni.github.io/issues) mencionando o post e vamos conversar.
+
+<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
