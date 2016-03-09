@@ -3,9 +3,9 @@ layout: post
 title:  "CSS level 4: seletor not"
 description: "A versão do CSS3, agora tunada!"
 type: Post
-date: 2016-03-10
+date: 2016-03-09
 image: "https://cloud.githubusercontent.com/assets/1345662/13589836/ccd512d4-e4b9-11e5-8f57-505c86b526ea.jpg"
-alt: ""
+alt: "Vários pedaços de madeira empilhados"
 lang: pt-br
 url_en: /not-selector-css-4
 url_br: /css-4-seletor-not
