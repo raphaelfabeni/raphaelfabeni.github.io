@@ -4,4 +4,4 @@ Disallow: /accordion
 Disallow: /transitionSnippets
 Disallow: /en/bem-css/
 Disallow: /en/es6-arrow-functions
-Disallow: /en/css-snap-points/
+Disallow: /en/css-scroll-snap-points/
