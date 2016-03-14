@@ -58,6 +58,8 @@ We could also get the same result using our friend [matches](/en/matches-selecto
 }
 {% endhighlight %}
 
+The difference, remembered by my friend [Rafael Rinaldi](https://twitter.com/rafaelrinaldi) is that our great `custom selectors` is a choice of *preset* compared with `matches`, which makes more easy to reuse.
+
 <figure class="text-center loading">
   <p data-height="145" data-theme-id="4240" data-slug-hash="eZzjVw" data-default-tab="result" data-user="raphaelfabeni" class="codepen">See the Pen <a href="http://codepen.io/raphaelfabeni/pen/eZzjVw/">:not selector</a> by Raphael Fabeni (<a href="http://codepen.io/raphaelfabeni">@raphaelfabeni</a>) on <a href="http://codepen.io">CodePen</a>.</p>
 </figure>

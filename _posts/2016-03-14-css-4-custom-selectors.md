@@ -58,6 +58,8 @@ Podíamos também chegar no mesmo resultado usando o nosso amigo [matches](/css-
 }
 {% endhighlight %}
 
+A diferença, apontada pelo meu amigo [Rafael Rinaldi](https://twitter.com/rafaelrinaldi) é que o grande `custom selectors` é uma opção de *preset* se comparado com o `matches`, o que o deixa mais fácil de reutilizar.
+
 <figure class="text-center loading">
   <p data-height="145" data-theme-id="4240" data-slug-hash="eZzjVw" data-default-tab="result" data-user="raphaelfabeni" class="codepen">See the Pen <a href="http://codepen.io/raphaelfabeni/pen/eZzjVw/">:not selector</a> by Raphael Fabeni (<a href="http://codepen.io/raphaelfabeni">@raphaelfabeni</a>) on <a href="http://codepen.io">CodePen</a>.</p>
 </figure>
