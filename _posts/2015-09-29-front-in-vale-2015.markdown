@@ -7,7 +7,7 @@ date: 2015-09-29
 image: "https://cloud.githubusercontent.com/assets/1345662/10179370/ed971582-66db-11e5-9c8f-31a009342cb1.jpg"
 alt: "Imagem de um por do sol"
 lang: pt-br
-url_en: /front-in-vale-2015
+url_en: /front-in-vale
 url_br: /front-in-vale-2015
 ---
 
