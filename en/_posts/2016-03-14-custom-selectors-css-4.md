@@ -42,7 +42,7 @@ Based on this, we can play a bit more and do something like:
 
 What we did above was:
 
-* Store the states `:hover`, `:focus` and all the elements with the class `is:hover` in `:--enter`.
+* Store the states `:hover`, `:focus` and all the elements with the class `.is-hover` in `:--enter`.
 * Store the states `:active` and all the elements with the class `.is-active` in `:--active`.
 * We put everything together: everything in `:--button` with `:--enter` and `:--active`.
 
