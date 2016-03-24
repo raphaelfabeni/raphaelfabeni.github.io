@@ -42,7 +42,7 @@ Com base nisso, podemos brincar um pouco mais e fazermos algo do tipo:
 
 O que fizemos na brincadeira acima foi:
 
-* Armazenar os estados `:hover`, `:focus` e os elementos com classe `is:hover` em `:--enter`.
+* Armazenar os estados `:hover`, `:focus` e os elementos com classe `is-hover` em `:--enter`.
 * Armazenar o estados `:active` e os elementos com a classe `.is-active` em `:--active`.
 * Juntamos *tudão*: tudo que haviámos armazenado em `:--button` com `:--enter` e `:--active`.
 
