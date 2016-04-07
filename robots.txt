@@ -7,3 +7,4 @@ Disallow: /en/es6-arrow-functions
 Disallow: /en/css-scroll-snap-points/
 Disallow: /en/front-in-vale-2015/
 Disallow: /en/es6-let/
+Disallow: /en/es6-destructuring-assignment/
