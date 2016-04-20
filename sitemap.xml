@@ -15,7 +15,7 @@ sitemap:
     {% if page.layout != null %}
       <url>
         <loc>{{ site.url }}{{ page.url }}</loc>
-        <lastmod>{{ page.editDate | date_to_xmlschema }}</lastmod>
+        <lastmod>2016-04-19T00:00:00-03:00</lastmod>
        </url>
     {% endif %}
   {% endfor %}
