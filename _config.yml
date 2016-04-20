@@ -18,11 +18,11 @@ syntax_highlighter: rouge
 
 source:      .
 destination: ./_site
-plugins:     ./_plugins
-paginate: 5
-paginate_path: 'blog/page:num'
+#plugins:     ./_plugins
+#paginate: 5
+#paginate_path: 'blog/page:num'
 
 permalink:   /:categories/:title/
 
-gems:
-  - jekyll-sitemap
+# gems:
+#   - jekyll-sitemap
