@@ -1,4 +1,3 @@
-ruby '2.1.7'
 source "http://rubygems.org"
 
 gem 'jekyll'
