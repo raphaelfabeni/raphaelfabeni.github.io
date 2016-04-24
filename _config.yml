@@ -12,15 +12,10 @@ exclude: ['node_modules', 'Gruntfile.js', 'package.json', 'assets', 'bower_compo
 markdown: kramdown
 permalink: pretty
 syntax_highlighter: rouge
-#highlighter: rouge
-#pygments: true
-# highlighter: pygments
 
 source:      .
 destination: ./_site
-#plugins:     ./_plugins
-#paginate: 5
-#paginate_path: 'blog/page:num'
+plugins:     ./_plugins
 
 permalink:   /:categories/:title/
 
