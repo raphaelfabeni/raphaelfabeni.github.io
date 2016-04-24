@@ -90,7 +90,7 @@ module.exports = function( grunt ) {
         src: 'bower_components/jquery/jquery.min.js',
         dest: '<%= config.build %>js/libs/jquery.min.js'
       }
-      
+
     },
 
     // JSHINT _____________________________________________________________________
@@ -279,7 +279,7 @@ module.exports = function( grunt ) {
   // Grunt tasks
 
   // Init
-  grunt.registerTask( 'init', [ 'uglify:modernizr', 'uglify:jquery', 'uglify:respond' ] );
+  grunt.registerTask( 'init', [ 'uglify:modernizr', 'uglify:jquery' ] );
 
   // CSS
   grunt.registerTask( 'css', [ 'sass' ] );
