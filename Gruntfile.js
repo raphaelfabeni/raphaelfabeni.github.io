@@ -89,12 +89,8 @@ module.exports = function( grunt ) {
       jquery: {
         src: 'bower_components/jquery/jquery.min.js',
         dest: '<%= config.build %>js/libs/jquery.min.js'
-      },
-
-      respond: {
-        src: 'bower_components/respond/dest/respond.min.js',
-        dest: '<%= config.build %>js/libs/respond.min.js'
       }
+      
     },
 
     // JSHINT _____________________________________________________________________
