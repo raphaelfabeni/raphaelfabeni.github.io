@@ -8,8 +8,7 @@
   ],
   "dependencies": {
     "jquery": "~2.0.1",
-    "modernizr": "~2.7.1",
-    "respond": "~1.4.2"
+    "modernizr": "~2.7.1"
   },
   "devDependencies": {
     "jquery-github": "~0.3.4"
