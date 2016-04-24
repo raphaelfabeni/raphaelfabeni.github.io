@@ -8,12 +8,10 @@ rvm:
 before_install:
 - bash ./start.bash
 install:
-- travis_retry gem install jekyll -v '3.1.2'
-- travis_retry gem install kramdown -v 1.7.0
-- travis_retry gem install jekyll-sitemap
+- travis_retry bundle install
+- travis_retry npm install -g grunt-cli
 - travis_retry npm install -g grunt
 - travis_retry npm install -g bower
-- travis_retry npm install -g grunt-cli
 before_script:
 - npm install
 - bower install
