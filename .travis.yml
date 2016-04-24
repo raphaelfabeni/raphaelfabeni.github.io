@@ -2,9 +2,9 @@ sudo: false
 branches:
   only:
   - develop
-language: node_js
-node_js: 
-  - "4.2"
+language: ruby
+rvm: 
+  - "2.2.0"
 before_install:
 - bash ./start.bash
 install:
@@ -19,7 +19,7 @@ before_script:
 - bower install
 script:
 - grunt build
-after_success:
+after_success:  
 - bash ./script.bash
 notifications:
   email: rapha.fabeni@gmail.com
