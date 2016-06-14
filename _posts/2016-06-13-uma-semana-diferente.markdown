@@ -3,8 +3,8 @@ layout: post
 title: Uma semana diferente
 description: "Uma semana cheia de eventos de front-end e UX"
 type: Post
-image: ""
-alt: ""
+image: "https://cloud.githubusercontent.com/assets/1345662/16019150/ed21d430-317d-11e6-91e1-ff7ae317a617.jpg"
+alt: "Brinquedos de borracha em formato de patos de deslizando em uma corrente de água entre duas calçadas."
 lang: pt-br
 url_en: /a-different-week
 url_br: /uma-semana-diferente
@@ -25,6 +25,16 @@ E mesmo assim, acredito que vejo muito mais pontos positivos na história toda.
 ## Uma semana de front e UX
 
 Falando em eventos/comunidade, vamos ao que interessa: se você gosta ou tem vontade de começar a ir a algum evento, a última semana de junho vai ser uma semana diferente das demais. Em uma mesma semana vai rolar [Front UX](http://frontux.com/), [Meetup CSS](https://github.com/raphaelfabeni/css-sp), [Code in the Dark](http://codeinthedark.com.br/) e [Front in Sampa](http://frontinsampa.com.br/). 
+
+**Segunda-feira - 27/06**
+
+Até onde sei, deve vir algo por aí! **:)**
+
+**Terça-feira - 28/06**
+
+* *FEMUG*
+* Projeto que nasceu da necessidade de unir os desenvolvedores Front-End de São Paulo, e então tornou-se uma idéia coletiva, para que o acesso à informação seja feito em qualquer lugar que haja interesse do aprendizado.
+* [Mais informações aqui.](https://sp.femug.com/t/femug-sp-33-lambda3/792)* 
 
 **Quarta-feira - 29/06**
 
@@ -49,6 +59,6 @@ Falando em eventos/comunidade, vamos ao que interessa: se você gosta ou tem von
 
 * *Front in Sampa*
 * Um evento de desenvolvimento web que já pode ser considerado tradicional de São Paulo, chega a sua quinta edição e mantém sua tradição em trazer uma grade de palestras bem diversificada.
-*[Mais informações aqui.](http://frontinsampa.com.br/)
+* [Mais informações aqui.](http://frontinsampa.com.br/)
 
 Gostou? Escrevi alguma groselha? Quer melhorar? Abra uma [issue](https://github.com/raphaelfabeni/raphaelfabeni.github.io/issues) mencionando o post e vamos conversar.

@@ -1,10 +1,10 @@
 ---
 layout: post
-title: A differente week
+title: A different week
 description: "A week with front-end/UX conferences and meetups"
 type: Post
-image: ""
-alt: ""
+image: "https://cloud.githubusercontent.com/assets/1345662/16019150/ed21d430-317d-11e6-91e1-ff7ae317a617.jpg"
+alt: "Rubber toys in the shape of ducks gliding in a stream of water between two sidewalks.."
 lang: en
 url_en: /a-different-week
 url_br: /uma-semana-diferente
@@ -26,29 +26,39 @@ And yet, I see much more positive points.
 
 Talking about conferences, let's go to it: if you like or want to start to go in one, the last week of june will be a diferent week from the others. In a same week will happen [Front UX](http://frontux.com/), [Meetup CSS](https://github.com/raphaelfabeni/css-sp), [Code in the Dark](http://codeinthedark.com.br/) and [Front in Sampa](http://frontinsampa.com.br/). 
 
-**Wednesday - 29/06**
+**Monday - 06/27**
+
+As far I know, maybe we will have something here!  **:)**
+
+**Tuesday - 06/28**
+
+* *FEMUG*
+* Project born from the need to join the front end developers of São Paulo, and then became a collective idea, so that access to information is done everywhere where has learning interest.
+* [More info here.](https://sp.femug.com/t/femug-sp-33-lambda3/792)* 
+
+**Wednesday - 06/29**
 
 * *Front UX*
 * A meetup to meet designers and developers to discuss how to improve workflows in both areas. Soon they shall disclose the information about this edition.
-* *[More info here.](http://www.meetup.com/pt-BR/Frontux/)* 
+* [More info here.](http://www.meetup.com/pt-BR/Frontux/)* 
 
-**Thursday - 30/06**
+**Thursday - 06/30**
 
 * *Meetup CSS*
 * It aims to discuss and learn more about CSS in an extrovert environment which could encourage everyone to participate.
 * This will be the biggest edition of the meetup with 2 talks and 150 participants.
 * [More info here.](http://www.meetup.com/pt-BR/CSS-SP/events/231719368/)
 
-**Friday - 01/07**
+**Friday - 07/01**
 
 * **Code in the Dark**
 * It's an international event and it will occur for the first time in Brazil. The main attraction are the *battles* among participants who must develop a page using HTML and CSS but with no preview.
 * [More info here.](http://codeinthedark.com.br/)
 
-**Saturday - 02/07**
+**Saturday - 07/02**
 
 * *Front in Sampa*
 * A conference focused in front-end,  that could be considered on of the traditional web development conferences in São Paulo, reaches its fifth edition and keeps the tradition of bringing a grid of well-diversified talks.
-*[More info here.](http://frontinsampa.com.br/)
+* [More info here.](http://frontinsampa.com.br/)
 
 Do you like it? Did I write something stupid? Do you want to improve? Open an [issue](https://github.com/raphaelfabeni/raphaelfabeni.github.io/issues) mentioning the post and let's talk about it.
