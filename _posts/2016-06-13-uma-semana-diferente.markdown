@@ -26,6 +26,12 @@ E mesmo assim, acredito que vejo muito mais pontos positivos na história toda.
 
 Falando em eventos/comunidade, vamos ao que interessa: se você gosta ou tem vontade de começar a ir a algum evento, a última semana de junho vai ser uma semana diferente das demais. Em uma mesma semana vai rolar [Front UX](http://frontux.com/), [Meetup CSS](https://github.com/raphaelfabeni/css-sp), [Code in the Dark](http://codeinthedark.com.br/) e [Front in Sampa](http://frontinsampa.com.br/). 
 
+**Sábado - 25/06**
+
+* *Sampa JS*
+* Único evento focado apenas em JavaScript de São Paulo. Foi o primeiro evento que fui e com certeza um dos melhores custo x benefício que já fui.
+* [Mais informações aqui.](http://sampajs.com.br/)
+
 **Segunda-feira - 27/06**
 
 Até onde sei, deve vir algo por aí! **:)**

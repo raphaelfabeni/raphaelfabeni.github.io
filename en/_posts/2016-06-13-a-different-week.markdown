@@ -26,6 +26,12 @@ And yet, I see much more positive points.
 
 Talking about conferences, let's go to it: if you like or want to start to go in one, the last week of june will be a diferent week from the others. In a same week will happen [Front UX](http://frontux.com/), [Meetup CSS](https://github.com/raphaelfabeni/css-sp), [Code in the Dark](http://codeinthedark.com.br/) and [Front in Sampa](http://frontinsampa.com.br/). 
 
+**Saturday - 25/06**
+
+* *Sampa JS*
+* The only conference focused only on JavaScript in São Paulo city. It was the first event that I went and certainly one of the best cost-benefit ratio talking about conferences.
+* [More info here.](http://sampajs.com.br/)
+
 **Monday - 06/27**
 
 As far I know, maybe we will have something here!  **:)**
