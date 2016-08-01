@@ -8,3 +8,14 @@ Disallow: /en/css-scroll-snap-points/
 Disallow: /en/front-in-vale-2015/
 Disallow: /en/es6-let/
 Disallow: /en/es6-destructuring-assignment/
+Disallow: talks/design-responsivo/
+Disallow: talks/6
+Disallow: swf/motion_hits.swf
+Disallow: valeu-conferencia-css/meetup.com/pt/CSS-SP
+Disallow: wp-samples/
+Disallow: es6-valores-padrao-parametros
+Disallow: Raphael_Fabeni.pdf
+Disallow: blog/page5/
+Disallow: brazil-js-2015/meetup.com/CSS-SP
+Disallow: download/Raphael_fabeni.pdf
+Disallow: matenha-conteudo-atualizado
