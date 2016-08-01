@@ -7,8 +7,8 @@ date: 2016-01-22
 image: "https://cloud.githubusercontent.com/assets/1345662/12072297/319f5c76-b0bf-11e5-94c3-838746ffca56.jpg"
 alt: "Photo shows four newspaper boxes, probably Americans in residential neighborhood"
 lang: en
-url_en: /es6-string-templates
-url_br: /es6-string-templates
+url_en: /es6-string-templates/
+url_br: /es6-string-templates/
 ---
 
 Play with *strings* can often be something a little bit painful (you can also read boring *இ_இ*). This is due mainly to the fact of having to concatenate words/phrases with variables.

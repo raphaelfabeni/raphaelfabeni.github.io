@@ -7,8 +7,8 @@ date: 2015-09-29
 image: "https://cloud.githubusercontent.com/assets/1345662/10179370/ed971582-66db-11e5-9c8f-31a009342cb1.jpg"
 alt: "Image of a sunset"
 lang: en
-url_en: /front-in-vale
-url_br: /front-in-vale-2015
+url_en: /front-in-vale/
+url_br: /front-in-vale-2015/
 ---
 
 Last weekend ocurrend in São José dos Campos, the [Front in Vale](http://www.frontinvale.com.br) conference which is the first event from *Vale do Paraíba* focused in front-end and I was there talking about Development Culture.

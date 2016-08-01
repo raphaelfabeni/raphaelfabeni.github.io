@@ -7,8 +7,8 @@ date: 2016-01-12
 image: "https://cloud.githubusercontent.com/assets/1345662/12060339/882c0d30-af54-11e5-9f10-79da8f4f1f50.jpg"
 alt: "Way of a road covered with snow around"
 lang: en
-url_en: /arrow-functions
-url_br: /es6-arrow-functions
+url_en: /arrow-functions/
+url_br: /es6-arrow-functions/
 ---
 
 The *arrow functions* at first might seem confusing (for me *(◕(◕)* ), but after a while, you can understand their shorter syntax and the magic of the scope of `this`.

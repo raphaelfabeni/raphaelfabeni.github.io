@@ -7,8 +7,8 @@ date: 2015-10-16
 image: "https://cloud.githubusercontent.com/assets/1345662/10500869/3f0ee854-72b2-11e5-94c4-04db468e18ce.jpg"
 alt: "Imagem de uma calçada e coqueiro ao fundo atrás de uma grade"
 lang: pt-br
-url_en: /css-snap-points
-url_br: /css-scroll-snap-points
+url_en: /css-snap-points/
+url_br: /css-scroll-snap-points/
 ---
 
 Efeitos de *scroll* sempre foram mais relacionados a dispositivos *touch*, no entanto, ultimamente vários projetos tem incorporado esse item, enriquecendo a experência do usuário (claro, pra tudo há exceções).

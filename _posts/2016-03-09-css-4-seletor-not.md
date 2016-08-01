@@ -7,8 +7,8 @@ date: 2016-03-09
 image: "https://cloud.githubusercontent.com/assets/1345662/13589836/ccd512d4-e4b9-11e5-8f57-505c86b526ea.jpg"
 alt: "Vários pedaços de madeira empilhados"
 lang: pt-br
-url_en: /not-selector-css-4
-url_br: /css-4-seletor-not
+url_en: /not-selector-css-4/
+url_br: /css-4-seletor-not/
 ---
 
 No CSS3 já era possível *excluir* um elemento de uma seleção. Algo mais ou menos assim: 

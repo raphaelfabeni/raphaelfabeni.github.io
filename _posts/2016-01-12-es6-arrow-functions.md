@@ -7,8 +7,8 @@ date: 2016-01-12
 image: "https://cloud.githubusercontent.com/assets/1345662/12060339/882c0d30-af54-11e5-9f10-79da8f4f1f50.jpg"
 alt: "Caminho de uma estrada coberta de neve em volta"
 lang: pt-br
-url_en: /arrow-functions
-url_br: /es6-arrow-functions
+url_en: /arrow-functions/
+url_br: /es6-arrow-functions/
 ---
 
 As *arrow functions* a princípio podem parecer confusas (experiência própria *(◕︵◕)*), mas depois de um tempo, é possível entender sua sintaxe mais curta e a mágica do escopo do `this`.

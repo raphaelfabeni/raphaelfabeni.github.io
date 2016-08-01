@@ -7,8 +7,8 @@ date: 2015-12-02
 image: "https://cloud.githubusercontent.com/assets/1345662/11520648/792ca134-988c-11e5-8d8a-3e5eb70b2bd7.jpg"
 alt: "White wall of a house with several windows with details in gray, and two of them in orange"
 lang: en
-url_en: /bem-css-overview
-url_br: /bem-css
+url_en: /bem-css-overview/
+url_br: /bem-css/
 ---
 
 CSS is easy to learn? Most would say that yes, mainly because of the facility and the possibility to see quickly what we are doing. However, of course that exists the negative points and, when we talk about them, one of the principal is related to maintenance/organization of CSS.

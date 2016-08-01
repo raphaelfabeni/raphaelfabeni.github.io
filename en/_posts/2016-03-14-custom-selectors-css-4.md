@@ -7,8 +7,8 @@ date: 2016-03-14
 image: "https://cloud.githubusercontent.com/assets/1345662/13733793/fd6e4256-e975-11e5-8498-ff80c382917d.jpg"
 alt: "Two dogs almost standing looking at the picture"
 lang: en
-url_en: /custom-selectors-css-4
-url_br: /css-4-custom-selectors
+url_en: /custom-selectors-css-4/
+url_br: /css-4-custom-selectors/
 ---
 
 The possibility to stock some values in variables was one of the main features among others, in my opinion, to the growth of the adoption of the pre-processor. What if we could store selectors? Yes, I will cry. ʘ‿ʘ
