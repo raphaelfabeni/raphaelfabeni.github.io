@@ -1,0 +1,19 @@
+options:
+  formatter: stylish
+files:
+  include: 'assets/**/*.s+(a|c)ss'
+  ignore: 
+    - '/node_modules/**/*.s+(a|c)ss'
+    - '/bower_components/**/*.s+(a|c)ss'
+rules:
+  # Styleguide
+  force-element-nesting: 0
+  force-pseudo-nesting: 0
+  indentation: 
+    - 2
+    -
+      size: 4
+  quotes: 
+    - 2
+    -
+      style: 'double'
