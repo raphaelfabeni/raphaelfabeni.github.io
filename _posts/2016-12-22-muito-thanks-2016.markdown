@@ -1,0 +1,295 @@
+---
+layout: post
+title: Muito thanks 2016
+description: "Um ano muito da hora! o/"
+type: Post
+image: "https://cloud.githubusercontent.com/assets/1345662/21431594/02db8a2e-c84f-11e6-9c76-09589b9e2114.jpg"
+alt: "Imagem de um homem fantasiado de Papai Noel com um cookie na boca"
+lang: pt-br
+url_en: /thanks-2016/
+url_br: /muito-thanks-2016/
+---
+
+Dois mil e dezesseis ou 2016 como você preferir foi um ano muito doido. Troquei de trabalho e quase não enviei proposta de call 4 papers pra eventos. Na verdade acho que mandei apenas uma, mas acabei não seguindo em frente. Em contrapartida, pude dedicar um tempo maior pra tocar o meu querido [Meetup CSS](http://twitter.com/meetupcss).
+
+## Parcerias
+
+Quando eu e o [Felipe](http://twitter.com/lfeh) começamos a organizar o meetup, sinceramente não tínhamos a menor idéia do que poderia acontecer e nosso pensamento era o seguinte: _"Vamos tentar fazer uma edição, e se for muito ruim, valeu a tentativa"_. Nunca passou pela nossa cabeça um dia termos _parceiros_ correndo conosco.
+
+Primeiro veio a **[GeekHunter](https://www.geekhunter.com.br/)**: uma empresa do sul do país e que veio até São Paulo pra nos ajudar. Com uma idéia de basicamente, inverter os processos seletivos, pra quem não conhece #ficadica, principalmente p/ aqueles que já tiveram problemas com recrutamento.
+
+E depois apareceu a **[Caelum](https://www.caelum.com.br/)**, super conhecida por seus cursos pra nos ajudar em um ponto importante: toda pessoa que for apresentar/falar sobre algo no meetup, ganha uma assessoria completa do time da Caelum passando desde escopo de conteúdo até didática e apresentação.
+
+## Números
+
+### Número total de participantes por edição
+
+<figure class="text-center">
+    <canvas id="myChart" width="400" height="400" style="max-height: 340px; padding: 20px 10px; background-color: rgba(0,0,0,.2);"></canvas>
+</figure>
+
+### Número total de presenças x ausências por edição
+
+<figure class="text-center">
+    <canvas id="myChart2" width="400" height="400" style="max-height: 340px; padding: 20px 10px; background-color: rgba(0,0,0,.2);"></canvas>
+</figure>
+
+### Mais alguns números
+
+| Edições                   | 22     |
+| Inscritos                 | 1460   |
+| Já apareceram nas edições | 990*   |
+| Média de ausências        | 14.24% |
+| Palestrantes              | 28     |
+
+* Com certeza esse número é maior que isso.
+
+## Links úteis
+
+* [Repositório com todas as informações](https://github.com/raphaelfabeni/css-sp)
+* [Perfil no Twitter](https://twitter.com/meetupcss)
+* [Grupo no meetup.com](https://www.meetup.com/pt-BR/CSS-SP/)
+* [Bora sediar uma edição do meetup CSS?](http://bit.ly/meetup-css-quero-palestrar)
+* [Envie uma idéia de talk pra gente](http://bit.ly/meetup-css-quero-palestrar)
+* [Pesquisa de feedback](https://meetupcss.typeform.com/to/MS87CV)
+* [Apresentação do meetup](https://speakerdeck.com/raphaelfabeni/bem-vindos-ao-meetp-css)
+
+## E que 2017..
+
+... seja um ano irado pra todos nós! Vou enviar mais propostas de talks pra eventos. Ou não. Vou pensar em novidades pro meetup. Ou não. Talvez viver a vida, momento a momento, seja a melhor coisa pra fazer.
+
+Gostou? Escrevi alguma groselha? Quer melhorar? Abra uma [issue](https://github.com/raphaelfabeni/raphaelfabeni.github.io/issues) mencionando o post e vamos conversar.
+
+<script src="{{ site.baseurl }}build/js/libs/Chart.min.js"></script>
+
+<script>
+window.onload = function() {
+    var ctx = document.getElementById("myChart");
+    var myChart = new Chart(ctx, {
+        type: 'bar',
+        data: {
+            labels: ['#01', '#02', '#03', '#04', '#05', '#06', '#07', '#08', '#09', '#10', '#11', '#12', '#13', '#14', '#15', '#16', '#17', '#18', '#19', '#20', '#21', '#22'],
+            datasets: [{
+                label: '# de participantes',
+                data: [35, 20, 30, 30, 20, 40, 50, 25, 60, 60, 50, 50, 25, 35, 45, 30, 150, 30, 40, 45, 60, 60],
+                backgroundColor: [
+                    'rgba(255, 99, 132, 0.2)',
+                    'rgba(54, 162, 235, 0.2)',
+                    'rgba(255, 206, 86, 0.2)',
+                    'rgba(75, 192, 192, 0.2)',
+                    'rgba(153, 102, 255, 0.2)',
+                    'rgba(255, 159, 64, 0.2)',
+                    'rgba(255, 99, 132, 0.2)',
+                    'rgba(54, 162, 235, 0.2)',
+                    'rgba(255, 206, 86, 0.2)',
+                    'rgba(75, 192, 192, 0.2)',
+                    'rgba(153, 102, 255, 0.2)',
+                    'rgba(255, 159, 64, 0.2)',
+                    'rgba(255, 99, 132, 0.2)',
+                    'rgba(54, 162, 235, 0.2)',
+                    'rgba(255, 206, 86, 0.2)',
+                    'rgba(75, 192, 192, 0.2)',
+                    'rgba(153, 102, 255, 0.2)',
+                    'rgba(255, 159, 64, 0.2)',
+                    'rgba(255, 99, 132, 0.2)',
+                    'rgba(54, 162, 235, 0.2)',
+                    'rgba(255, 206, 86, 0.2)',
+                    'rgba(75, 192, 192, 0.2)'
+                ],
+                borderColor: [
+                    'rgba(255,99,132,1)',
+                    'rgba(54, 162, 235, 1)',
+                    'rgba(255, 206, 86, 1)',
+                    'rgba(75, 192, 192, 1)',
+                    'rgba(153, 102, 255, 1)',
+                    'rgba(255, 159, 64, 1)',
+                    'rgba(255,99,132,1)',
+                    'rgba(54, 162, 235, 1)',
+                    'rgba(255, 206, 86, 1)',
+                    'rgba(75, 192, 192, 1)',
+                    'rgba(153, 102, 255, 1)',
+                    'rgba(255, 159, 64, 1)',
+                    'rgba(255,99,132,1)',
+                    'rgba(54, 162, 235, 1)',
+                    'rgba(255, 206, 86, 1)',
+                    'rgba(75, 192, 192, 1)',
+                    'rgba(153, 102, 255, 1)',
+                    'rgba(255, 159, 64, 1)',
+                    'rgba(255,99,132,1)',
+                    'rgba(54, 162, 235, 1)',
+                    'rgba(255, 206, 86, 1)',
+                    'rgba(75, 192, 192, 1)'
+                ],
+                borderWidth: 1
+            }]
+        },
+        options: {
+            responsive: true,
+            legend: {
+              display: false
+            },
+            maintainAspectRatio: false,
+            scales: {
+                xAxes: [{
+                    ticks: {
+                        fontColor: '#fff'
+                    },
+                    gridLines: {
+                        display: false
+                    }
+                }],
+                yAxes: [{
+                    ticks: {
+                        fontColor: '#fff',
+                        beginAtZero: true
+                    },
+                    gridLines: {
+                        display: false
+                    }
+                }]
+            }
+        }
+    });
+
+    var ctx2 = document.getElementById("myChart2");
+    var myChart2 = new Chart(ctx2, {
+        type: 'bar',
+        data: {
+            labels: ['#01', '#02', '#03', '#04', '#05', '#06', '#07', '#08', '#09', '#10', '#11', '#12', '#13', '#14', '#15', '#16', '#17', '#18', '#19', '#20', '#21', '#22'],
+            datasets: [{
+                label: '# de participantes',
+                data: [35, 20, 30, 30, 20, 40, 50, 25, 60, 60, 50, 50, 25, 35, 45, 30, 150, 30, 40, 45, 60, 60],
+                backgroundColor: [
+                    'rgba(255, 99, 132, 0.2)',
+                    'rgba(54, 162, 235, 0.2)',
+                    'rgba(255, 206, 86, 0.2)',
+                    'rgba(75, 192, 192, 0.2)',
+                    'rgba(153, 102, 255, 0.2)',
+                    'rgba(255, 159, 64, 0.2)',
+                    'rgba(255, 99, 132, 0.2)',
+                    'rgba(54, 162, 235, 0.2)',
+                    'rgba(255, 206, 86, 0.2)',
+                    'rgba(75, 192, 192, 0.2)',
+                    'rgba(153, 102, 255, 0.2)',
+                    'rgba(255, 159, 64, 0.2)',
+                    'rgba(255, 99, 132, 0.2)',
+                    'rgba(54, 162, 235, 0.2)',
+                    'rgba(255, 206, 86, 0.2)',
+                    'rgba(75, 192, 192, 0.2)',
+                    'rgba(153, 102, 255, 0.2)',
+                    'rgba(255, 159, 64, 0.2)',
+                    'rgba(255, 99, 132, 0.2)',
+                    'rgba(54, 162, 235, 0.2)',
+                    'rgba(255, 206, 86, 0.2)',
+                    'rgba(75, 192, 192, 0.2)'
+                ],
+                borderColor: [
+                    'rgba(255,99,132,1)',
+                    'rgba(54, 162, 235, 1)',
+                    'rgba(255, 206, 86, 1)',
+                    'rgba(75, 192, 192, 1)',
+                    'rgba(153, 102, 255, 1)',
+                    'rgba(255, 159, 64, 1)',
+                    'rgba(255,99,132,1)',
+                    'rgba(54, 162, 235, 1)',
+                    'rgba(255, 206, 86, 1)',
+                    'rgba(75, 192, 192, 1)',
+                    'rgba(153, 102, 255, 1)',
+                    'rgba(255, 159, 64, 1)',
+                    'rgba(255,99,132,1)',
+                    'rgba(54, 162, 235, 1)',
+                    'rgba(255, 206, 86, 1)',
+                    'rgba(75, 192, 192, 1)',
+                    'rgba(153, 102, 255, 1)',
+                    'rgba(255, 159, 64, 1)',
+                    'rgba(255,99,132,1)',
+                    'rgba(54, 162, 235, 1)',
+                    'rgba(255, 206, 86, 1)',
+                    'rgba(75, 192, 192, 1)'
+                ],
+                borderWidth: 1
+            },{
+                label: '# de ausências',
+                data: [6, 6, 5, 4, 5, 4, 1, 7, 7, 8, 8, 8, 3, 6, 5, 5, 24, 6, 6, 3, 5, 9],
+                backgroundColor: [
+                    'rgba(255, 99, 132, 0.5)',
+                    'rgba(54, 162, 235, 0.5)',
+                    'rgba(255, 206, 86, 0.5)',
+                    'rgba(75, 192, 192, 0.5)',
+                    'rgba(153, 102, 255, 0.5)',
+                    'rgba(255, 159, 64, 0.5)',
+                    'rgba(255, 99, 132, 0.5)',
+                    'rgba(54, 162, 235, 0.5)',
+                    'rgba(255, 206, 86, 0.5)',
+                    'rgba(75, 192, 192, 0.5)',
+                    'rgba(153, 102, 255, 0.5)',
+                    'rgba(255, 159, 64, 0.5)',
+                    'rgba(255, 99, 132, 0.5)',
+                    'rgba(54, 162, 235, 0.5)',
+                    'rgba(255, 206, 86, 0.5)',
+                    'rgba(75, 192, 192, 0.5)',
+                    'rgba(153, 102, 255, 0.5)',
+                    'rgba(255, 159, 64, 0.5)',
+                    'rgba(255, 99, 132, 0.5)',
+                    'rgba(54, 162, 235, 0.5)',
+                    'rgba(255, 206, 86, 0.5)',
+                    'rgba(75, 192, 192, 0.5)'
+                ],
+                borderColor: [
+                    'rgba(255,99,132,1)',
+                    'rgba(54, 162, 235, 1)',
+                    'rgba(255, 206, 86, 1)',
+                    'rgba(75, 192, 192, 1)',
+                    'rgba(153, 102, 255, 1)',
+                    'rgba(255, 159, 64, 1)',
+                    'rgba(255,99,132,1)',
+                    'rgba(54, 162, 235, 1)',
+                    'rgba(255, 206, 86, 1)',
+                    'rgba(75, 192, 192, 1)',
+                    'rgba(153, 102, 255, 1)',
+                    'rgba(255, 159, 64, 1)',
+                    'rgba(255,99,132,1)',
+                    'rgba(54, 162, 235, 1)',
+                    'rgba(255, 206, 86, 1)',
+                    'rgba(75, 192, 192, 1)',
+                    'rgba(153, 102, 255, 1)',
+                    'rgba(255, 159, 64, 1)',
+                    'rgba(255,99,132,1)',
+                    'rgba(54, 162, 235, 1)',
+                    'rgba(255, 206, 86, 1)',
+                    'rgba(75, 192, 192, 1)'
+                ],
+                borderWidth: 1
+            }]
+        },
+        options: {
+            responsive: true,
+            legend: {
+              display: false
+            },
+            maintainAspectRatio: false,
+            scales: {
+                xAxes: [{
+                    stacked: true,
+                    gridLines: {
+                      display: false
+                    },
+                    ticks: {
+                        fontColor: '#fff'
+                    }
+                }],
+                yAxes: [{
+                    stacked: true,
+                    gridLines: {
+                      display: false
+                    },
+                    ticks: {
+                        fontColor: '#fff',
+                        beginAtZero: true
+                    }
+                }]
+            }
+        }
+    });
+};
+</script>

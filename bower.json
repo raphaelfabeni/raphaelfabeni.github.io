@@ -8,7 +8,8 @@
   ],
   "dependencies": {
     "jquery": "~2.0.1",
-    "modernizr": "~2.7.1"
+    "modernizr": "~2.7.1",
+    "chart.js": "^2.4.0"
   },
   "devDependencies": {
     "jquery-github": "~0.3.4"

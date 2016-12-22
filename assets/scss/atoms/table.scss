@@ -1,0 +1,14 @@
+table {
+  margin: 0 0 20px 0;
+  width: 100%;
+  max-width: 100%;
+  border-collapse: collapse;
+  color: #fff;
+  background-color: darken($color-primary, 6%);
+
+  td,
+  th {
+    padding: 10px;
+    border: solid 1px $blue;
+  }
+}

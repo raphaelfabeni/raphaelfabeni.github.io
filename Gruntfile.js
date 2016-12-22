@@ -89,6 +89,11 @@ module.exports = function( grunt ) {
       jquery: {
         src: 'bower_components/jquery/jquery.min.js',
         dest: '<%= config.build %>js/libs/jquery.min.js'
+      },
+
+      chart: {
+        src: 'bower_components/chart.js/dist/Chart.min.js',
+        dest: '<%= config.build %>js/libs/Chart.min.js'
       }
 
     },
@@ -279,7 +284,7 @@ module.exports = function( grunt ) {
   // Grunt tasks
 
   // Init
-  grunt.registerTask( 'init', [ 'uglify:modernizr', 'uglify:jquery' ] );
+  grunt.registerTask( 'init', [ 'uglify:modernizr', 'uglify:jquery', 'uglify:chart' ] );
 
   // CSS
   grunt.registerTask( 'css', [ 'sass' ] );
