@@ -20,3 +20,4 @@ Disallow: brazil-js-2015/meetup.com/CSS-SP
 Disallow: download/Raphael_fabeni.pdf
 Disallow: matenha-conteudo-atualizado
 Disallow: /rv
+Disallow: /rv/
