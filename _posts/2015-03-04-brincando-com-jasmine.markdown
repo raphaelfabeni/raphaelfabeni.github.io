@@ -199,7 +199,7 @@ Nossos testes quebraram e conseguimos ver exatamente onde: *Calc 1 argument - sh
 
 {% highlight js %}
 function add(x, y) {
-  y ? return x + y; : return x + x;
+  return y ? x + y : x + x;
 }
 {% endhighlight %}
 
