@@ -25,10 +25,6 @@
     >
         {{ content }}
     </main>
-
-    {% if page.type == 'Post' %}
-        {% include disqus.html %}
-    {% endif %}
     
     {% if page.type == 'Projects' %}
         <script src="{{ site.baseurl }}build/js/libs/jquery.min.js"></script>
