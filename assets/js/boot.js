@@ -1,7 +1,6 @@
 (function() {
   'use strict';
-  changeColor.init();
-  
+  changeColor.init();  
 }());
 
 (function() {
