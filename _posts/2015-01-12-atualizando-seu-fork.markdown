@@ -6,6 +6,9 @@ type: Post
 date: 2015-01-12
 image: 'https://cloud.githubusercontent.com/assets/1345662/11458213/fff34934-96a2-11e5-9c4d-af162bc71a92.jpg'
 alt: 'Mesa de madeira vista de cima, cheia de ferramentas'
+lang: pt-br
+url_en: /updating-your-fork/
+url_br: /atualizando-seu-fork/
 ---
 
 Contribuir em projetos *open source* é uma das coisas mais legais da área de desenvolvimento. Ano passado, senão me engano no Intercon WP do iMasters, rolou um FEMUG dentro do evento e, um dos temas abordados foi exatamente esse: a contribuição em projetos.
@@ -63,5 +66,3 @@ Como lembrado pelo [Lucas Mazza](https://twitter.com/lucasmazza), aqui podemos t
 Pronto! Agora nosso projeto local está sincronizado e atualizado com a versão original e, após enviar suas alterações para o GitHub, conseguimos fazer o *pull request* e torcer para ser aceito.
 
 Gostou? Escrevi alguma groselha? Quer melhorar? Abra uma [issue](https://github.com/raphaelfabeni/raphaelfabeni.github.io/issues) com a hashtag *1postperweek* e vamos conversar.
-
-
