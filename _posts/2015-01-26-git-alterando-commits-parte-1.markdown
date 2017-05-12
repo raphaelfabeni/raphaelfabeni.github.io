@@ -3,9 +3,11 @@ layout: post
 title:  "Git: Alterando seus commits com rebase - parte 1/2"
 description: "Muitas vezes acabamos fazendo commits que acabam não tendo muito sentido na história como um todo, com rebase conseguimos brincar com isso."
 type: Post
-date: 2015-01-26
 image: 'https://cloud.githubusercontent.com/assets/1345662/11458148/a4df143e-96a1-11e5-8799-a9522faa7a66.jpg'
 alt: 'Dois idosos tecendo fio em uma máquina antiga'
+lang: pt-br
+url_en: /gitediting-commits-part-1/
+url_br: /git-alterando-commits-parte-1/
 ---
 
 Quanto mais mexemos com *git* mais descobrimos coisas mirabolantes que ele pode fazer. Descobri há um tempo atrás uma maneira de organizar/alterar seus *commits* e que me ajudou bastante.
