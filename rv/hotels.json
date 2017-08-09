@@ -5,40 +5,40 @@
       "description": "Just off Interstate 85, this hotel features free Wi-Fi and a daily continental breakfast with hot waffles. The Charlotte Motor Speedway is a 15 minute drive from the hotel.",
       "image": "https://q-ec.bstatic.com/images/hotel/max1024x768/376/37602227.jpg",
       "rate": 3,
-      "price": 205.50,
-      "price_history": [119, 609, 629, 395, 312, 228, 573, 398, 393, 387, 174, 173]
+      "price": 180,
+      "price_history": [146, 182, 130, 119, 171, 154, 163, 139, 173, 191]
     },
     {
       "name": "Omni Charlotte Hotel",
       "description": "The Omni Charlotte Hotel envelopes you in ultimate comfort with a signature touch of genuine North Carolina hospitality.",
       "image": "https://q-ec.bstatic.com/images/hotel/max1024x768/618/61883809.jpg",
       "rate": 4,
-      "price": 237.10,
-      "price_history": [150, 180, 230, 220, 198, 190, 160, 175, 200, 185, 180, 175]
+      "price": 280.50,
+      "price_history": [302, 219, 300, 229, 272, 249, 239, 216, 239, 283]
     },
     {
       "name": "Charlotte Marriott City Center",
       "description": "Located in Uptown Charlotte, this Marriott City Center hotel offers spacious rooms with a flat-screen TV and free WiFi in public areas. Facilities include a 24-hour fitness centre. Parking is offered for a fee.",
       "image": "https://r-ec.bstatic.com/images/hotel/max1024x768/797/79783299.jpg",
       "rate": 4,
-      "price": 320.30,
-      "price_history": [369, 559, 222, 519, 351, 380, 135, 423, 436, 334, 585, 348]
+      "price": 190,
+      "price_history": [141.9, 162.2, 135.8, 166.6, 196.6, 182.5, 195, 169.8, 105.2, 190.9]
     },
     {
       "name": "The Ivey's Hotel",
       "description": "This luxury boutique hotel is located in Downtown Charlotte and features a complimentary continental breakfast in the Library Lounge and free WiFi. The Mint Museum of Craft Design is 100 metres away.",
       "image": "https://r-ec.bstatic.com/images/hotel/max1024x768/870/87078533.jpg",
-      "rate": 1,
-      "price": 330.40,
-      "price_history": [176, 266, 117, 261, 275, 262, 111, 278, 207, 165, 268, 135]
+      "rate": 4,
+      "price": 290,
+      "price_history": [207, 260.8, 253, 223.7, 244, 247.9, 225, 265.3, 309, 308.8]
     },
     {
       "name": "The Ritz-Carlton, Charlotte",
       "description": "In the heart of downtown Charlotte, The Ritz-Carlton, Charlotte has luxurious rooms with a 42' flat-screen TV and a DVD player. Facilities include an indoor pool and spa",
       "image": "https://r-ec.bstatic.com/images/hotel/max1024x768/214/21445252.jpg",
       "rate": 3,
-      "price": 450.20,
-      "price_history": [150, 180, 230, 220, 198, 190, 160, 175, 200, 185, 180, 175]
+      "price": 140,
+      "price_history": [136, 172.8, 183, 156.2, 155, 138.4, 199, 137.2, 192, 139.6]
     },
     {
       "name": "Aloft Charlotte Uptown at the EpiCentre",
@@ -60,41 +60,41 @@
       "name": "Facilities of SpringHill Suites by Marriott Charlotte Uptown",
       "description": "Located 201 m from Mint Museum of Craft Design in Charlotte, SpringHill Suites by Marriott Charlotte Uptown features free WiFi access and private parking.",
       "image": "https://r-ec.bstatic.com/images/hotel/max1024x768/980/98098826.jpg",
-      "rate": 4,
-      "price": 890.30,
-      "price_history": [139, 281, 293, 439, 354, 363, 180, 266, 112, 182, 229, 430]
+      "rate": 5,
+      "price": 400,
+      "price_history": [438, 433.6, 402, 412.8, 384, 400.1, 425, 428.4, 412, 406.1]
     },
     {
       "name": "Holiday Inn Charlotte-Center City",
       "description": "Located in the city centre of Charlotte, North Carolina, surrounded by local attractions including the Charlotte Convention Center, this hotel features an on-site restaurant and a modern, rooftop pool offering city views.",
       "image": "https://r-ec.bstatic.com/images/hotel/max1024x768/933/93325179.jpg",
       "rate": 5,
-      "price": 800.90,
-      "price_history": [347, 110, 268, 256, 136, 339, 223, 106, 216, 339, 167, 319]
+      "price": 290,
+      "price_history": [286, 257.8, 316, 263.4, 418, 295.4, 289, 411.5, 352, 418.8]
     },
     {
       "name": "Dunhill Hotel",
       "description": "Centrally in downtown Charlotte, this historic hotel has been open since 1929 and features unique architecture. Complimentary expanded continental breakfast, free Wi-Fi, and luxurious rooms with a flat-screen TV are provided.",
       "image": "https://q-ec.bstatic.com/images/hotel/max1024x768/518/51824212.jpg",
-      "rate": 5,
-      "price": 390.80,
-      "price_history": [154, 184, 212, 113, 119, 171, 173, 211, 127, 130, 131, 102]
+      "rate": 3,
+      "price": 175,
+      "price_history": [165, 174.1, 294, 284.9, 210, 165, 162, 197, 233, 199.4]
     },
     {
       "name": "Kimpton Tryon Park Hotel",
       "description": "Set in the Downtown Charlotte district in Charlotte, 400 metres from Epicenter, Kimpton Tryon Park Hotel features air-conditioned rooms and private parking. Guests can enjoy the on-site bar.",
       "image": "https://r-ec.bstatic.com/images/hotel/max1024x768/101/101643348.jpg",
-      "rate": 2,
-      "price": 290.80,
-      "price_history": [135, 297, 294, 300, 291, 266, 224, 208, 125, 126, 291, 291]
+      "rate": 4,
+      "price": 330,
+      "price_history": [337, 310.4, 328, 322.2, 308, 317.3, 317, 336.3, 308, 347.2]
     },
     {
       "name": "Hilton Charlotte Center City",
       "description": "Ideally located in the center of Charlotte city center, this hotel is directly across from the Charlotte Convention Center and features a large variety of modern services and state-of-the-art amenities.",
       "image": "https://r-ec.bstatic.com/images/hotel/max1024x768/342/34205426.jpg",
       "rate": 2,
-      "price": 600.20,
-      "price_history": [107, 556, 235, 467, 334, 486, 559, 569, 328, 407, 486, 301]
+      "price": 175,
+      "price_history": [152, 194.4, 156, 197.7, 166, 160.3, 188, 174.9, 155, 152.4]
     }
   ]
 }
