@@ -6,7 +6,15 @@
       "image": "http://www.raphaelfabeni.com.br/rv/test-resources/images/hotels/super-8.jpg",
       "rate": 3,
       "price": 180,
-      "price_history": [146, 182, 130, 119, 171, 154, 163, 139, 173, 191]
+      "price_history": [
+        { "month": "Jan", "value": 146 },
+        { "month": "Feb", "value": 182 },
+        { "month": "Mar", "value": 130 },
+        { "month": "Apr", "value": 119 },
+        { "month": "May", "value": 171 },
+        { "month": "Jun", "value": 154 },
+        { "month": "Jul", "value": 163 }
+      ]
     },
     {
       "name": "Omni Charlotte Hotel",
@@ -14,7 +22,15 @@
       "image": "http://www.raphaelfabeni.com.br/rv/test-resources/images/hotels/omni-charlotte.jpg",
       "rate": 4,
       "price": 280.50,
-      "price_history": [302, 219, 300, 229, 272, 249, 239, 216, 239, 283]
+      "price_history": [
+        { "month": "Jan", "value": 302 },
+        { "month": "Feb", "value": 219 },
+        { "month": "Mar", "value": 300 },
+        { "month": "Apr", "value": 229 },
+        { "month": "May", "value": 272 },
+        { "month": "Jun", "value": 249 },
+        { "month": "Jul", "value": 239 }
+      ]
     },
     {
       "name": "Charlotte Marriott City Center",
@@ -22,7 +38,15 @@
       "image": "http://www.raphaelfabeni.com.br/rv/test-resources/images/hotels/charlotte-marriot.jpg",
       "rate": 4,
       "price": 190,
-      "price_history": [141.9, 162.2, 135.8, 166.6, 196.6, 182.5, 195, 169.8, 105.2, 190.9]
+      "price_history": [
+        { "month": "Jan", "value": 141.9 },
+        { "month": "Feb", "value": 162.2 },
+        { "month": "Mar", "value": 135.8 },
+        { "month": "Apr", "value": 195 },
+        { "month": "May", "value": 169.8 },
+        { "month": "Jun", "value": 105.2 },
+        { "month": "Jul", "value": 182.5 }
+      ]
     },
     {
       "name": "The Ivey's Hotel",
@@ -30,7 +54,15 @@
       "image": "http://www.raphaelfabeni.com.br/rv/test-resources/images/hotels/iveys-hotel.jpg",
       "rate": 4,
       "price": 290,
-      "price_history": [207, 260.8, 253, 223.7, 244, 247.9, 225, 265.3, 309, 308.8]
+      "price_history": [
+        { "month": "Jan", "value": 207 },
+        { "month": "Feb", "value": 260.8 },
+        { "month": "Mar", "value": 225 },
+        { "month": "Apr", "value": 265.3 },
+        { "month": "May", "value": 247.9 },
+        { "month": "Jun", "value": 253 },
+        { "month": "Jul", "value": 223.7 }
+      ]
     },
     {
       "name": "The Ritz-Carlton, Charlotte",
@@ -38,7 +70,15 @@
       "image": "http://www.raphaelfabeni.com.br/rv/test-resources/images/hotels/ritz-carlton.jpg",
       "rate": 3,
       "price": 140,
-      "price_history": [136, 172.8, 183, 156.2, 155, 138.4, 199, 137.2, 192, 139.6]
+      "price_history": [
+        { "month": "Jan", "value": 136 },
+        { "month": "Feb", "value": 155 },
+        { "month": "Mar", "value": 199 },
+        { "month": "Apr", "value": 139.6 },
+        { "month": "May", "value": 137.2 },
+        { "month": "Jun", "value": 172.8 },
+        { "month": "Jul", "value": 156.2 }
+      ]
     },
     {
       "name": "Aloft Charlotte Uptown at the EpiCentre",
@@ -46,7 +86,15 @@
       "image": "http://www.raphaelfabeni.com.br/rv/test-resources/images/hotels/aloft-charlotte.jpg",
       "rate": 5,
       "price": 600.10,
-      "price_history": [202, 326, 364, 140, 336, 349, 227, 250, 249, 126, 210, 373]
+      "price_history": [
+        { "month": "Jan", "value": 202 },
+        { "month": "Feb", "value": 227 },
+        { "month": "Mar", "value": 250 },
+        { "month": "Apr", "value": 249 },
+        { "month": "May", "value": 210 },
+        { "month": "Jun", "value": 373 },
+        { "month": "Jul", "value": 326 }
+      ]
     },
     {
       "name": "Courtyard Charlotte City Center",
@@ -54,7 +102,15 @@
       "image": "http://www.raphaelfabeni.com.br/rv/test-resources/images/hotels/courtyard-charlotte.jpg",
       "rate": 3,
       "price": 190.90,
-      "price_history": [150, 180, 230, 220, 198, 190, 160, 175, 200, 185, 180, 175]
+      "price_history": [
+        { "month": "Jan", "value": 150 },
+        { "month": "Feb", "value": 160 },
+        { "month": "Mar", "value": 175 },
+        { "month": "Apr", "value": 200 },
+        { "month": "May", "value": 185 },
+        { "month": "Jun", "value": 198 },
+        { "month": "Jul", "value": 180 }
+      ]
     },
     {
       "name": "Facilities of SpringHill Suites by Marriott Charlotte Uptown",
@@ -62,7 +118,15 @@
       "image": "http://www.raphaelfabeni.com.br/rv/test-resources/images/hotels/spring-hill-marriot.jpg",
       "rate": 5,
       "price": 400,
-      "price_history": [438, 433.6, 402, 412.8, 384, 400.1, 425, 428.4, 412, 406.1]
+      "price_history": [
+        { "month": "Jan", "value": 438 },
+        { "month": "Feb", "value": 400.1 },
+        { "month": "Mar", "value": 425 },
+        { "month": "Apr", "value": 433.6 },
+        { "month": "May", "value": 428.4 },
+        { "month": "Jun", "value": 415 },
+        { "month": "Jul", "value": 412 }
+      ]
     },
     {
       "name": "Holiday Inn Charlotte-Center City",
@@ -70,7 +134,15 @@
       "image": "http://www.raphaelfabeni.com.br/rv/test-resources/images/hotels/holiday-inn.jpg",
       "rate": 5,
       "price": 290,
-      "price_history": [286, 257.8, 316, 263.4, 418, 295.4, 289, 411.5, 352, 418.8]
+      "price_history": [
+        { "month": "Jan", "value": 286 },
+        { "month": "Feb", "value": 316 },
+        { "month": "Mar", "value": 263.4 },
+        { "month": "Apr", "value": 352 },
+        { "month": "May", "value": 257.8 },
+        { "month": "Jun", "value": 300 },
+        { "month": "Jul", "value": 289 }
+      ]
     },
     {
       "name": "Dunhill Hotel",
@@ -78,7 +150,15 @@
       "image": "http://www.raphaelfabeni.com.br/rv/test-resources/images/hotels/dunhill-hotel.jpg",
       "rate": 3,
       "price": 175,
-      "price_history": [165, 174.1, 294, 284.9, 210, 165, 162, 197, 233, 199.4]
+      "price_history": [
+        { "month": "Jan", "value": 165 },
+        { "month": "Feb", "value": 174.1 },
+        { "month": "Mar", "value": 162 },
+        { "month": "Apr", "value": 197 },
+        { "month": "May", "value": 233 },
+        { "month": "Jun", "value": 165 },
+        { "month": "Jul", "value": 199.4 }
+      ]
     },
     {
       "name": "Kimpton Tryon Park Hotel",
@@ -86,7 +166,15 @@
       "image": "http://www.raphaelfabeni.com.br/rv/test-resources/images/hotels/kimpton-tryon.jpg",
       "rate": 4,
       "price": 330,
-      "price_history": [337, 310.4, 328, 322.2, 308, 317.3, 317, 336.3, 308, 347.2]
+      "price_history": [
+        { "month": "Jan", "value": 337 },
+        { "month": "Feb", "value": 317.3 },
+        { "month": "Mar", "value": 317 },
+        { "month": "Apr", "value": 336.3 },
+        { "month": "May", "value": 308 },
+        { "month": "Jun", "value": 312 },
+        { "month": "Jul", "value": 347.2 }
+      ]
     },
     {
       "name": "Hilton Charlotte Center City",
@@ -94,7 +182,15 @@
       "image": "http://www.raphaelfabeni.com.br/rv/test-resources/images/hotels/hilton-charlotte.jpg",
       "rate": 2,
       "price": 175,
-      "price_history": [152, 194.4, 156, 197.7, 166, 160.3, 188, 174.9, 155, 152.4]
+      "price_history": [
+        { "month": "Jan", "value": 152 },
+        { "month": "Feb", "value": 194.4 },
+        { "month": "Mar", "value": 188 },
+        { "month": "Apr", "value": 160.3 },
+        { "month": "May", "value": 174.9 },
+        { "month": "Jun", "value": 155 },
+        { "month": "Jul", "value": 166 }
+      ]
     }
   ]
 }
