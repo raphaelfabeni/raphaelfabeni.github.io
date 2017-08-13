@@ -5,7 +5,7 @@
     {% else %}
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
     {% endif %}
-    
+
     {% include post.html %}
 
     <meta name="viewport" content="width=device-width">
@@ -38,15 +38,12 @@
     <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
 
     <link rel="canonical" href="{{ site.url }}{{ page.url }}">
-    <link rel="shortcut icon" href="{{ site.baseurl }}favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
 
     <link href='http://raphaelfabeni.com.br/feed.xml' rel='alternate' type='application/atom+xml'>
 
     <!-- CSS -->
-    <link rel="stylesheet" href="{{ site.baseurl }}build/css/main.min.css">
-
-    <!-- Modernizr -->
-    <script src="{{ site.baseurl }}build/js/libs/modernizr.min.js"></script>
+    <link rel="stylesheet" href="/build/css/main.min.css">
 
     <script type="text/javascript">
     (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=

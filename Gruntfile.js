@@ -80,12 +80,6 @@ module.exports = function( grunt ) {
         }
       },
 
-      // Start files
-      modernizr: {
-        src: 'bower_components/modernizr/modernizr.js',
-        dest: '<%= config.build %>js/libs/modernizr.min.js'
-      },
-
       jquery: {
         src: 'bower_components/jquery/jquery.min.js',
         dest: '<%= config.build %>js/libs/jquery.min.js'
@@ -168,7 +162,7 @@ module.exports = function( grunt ) {
           {
             expand: true,
             cwd: '<%= config.dev %>fonts',
-            src: ['**'], 
+            src: ['**'],
             dest: '<%= config.build %>fonts/'
           },
         ],
@@ -178,7 +172,7 @@ module.exports = function( grunt ) {
           {
             expand: true,
             cwd: '<%= config.dev %>img',
-            src: ['**'], 
+            src: ['**'],
             dest: '<%= config.build %>img/'
           },
         ],
@@ -284,7 +278,7 @@ module.exports = function( grunt ) {
   // Grunt tasks
 
   // Init
-  grunt.registerTask( 'init', [ 'uglify:modernizr', 'uglify:jquery', 'uglify:chart' ] );
+  grunt.registerTask( 'init', ['uglify:jquery', 'uglify:chart' ] );
 
   // CSS
   grunt.registerTask( 'css', [ 'sass' ] );

@@ -14,7 +14,7 @@
 <body id="hold" class="{% if page.class %}{{ page.class }}{% endif %}" data-color="default">
 
     {% include header.html %}
-    
+
     {% if page.type != 'Home' %}
         {% include breadcrumbs.html %}
     {% endif %}
@@ -25,15 +25,15 @@
     >
         {{ content }}
     </main>
-    
+
     {% if page.type == 'Projects' %}
-        <script src="{{ site.baseurl }}build/js/libs/jquery.min.js"></script>
-        <script src="{{ site.baseurl }}build/js/projects.min.js"></script>
+        <script src="/build/js/libs/jquery.min.js"></script>
+        <script src="/build/js/projects.min.js"></script>
     {% elsif page.type == 'Post' %}
-        <script src="{{ site.baseurl }}build/js/libs/jquery.min.js"></script>
-        <script src="{{ site.baseurl }}build/js/archive.min.js"></script>
+        <script src="/build/js/libs/jquery.min.js"></script>
+        <script src="/build/js/archive.min.js"></script>
     {% else %}
-    <script src="{{ site.baseurl }}build/js/scripts.min.js"></script>
+    <script src="/build/js/scripts.min.js"></script>
     {% endif %}
 
 </body>
