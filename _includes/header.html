@@ -1,7 +1,7 @@
 <a href="#conteudo" class="sr-only go-content" tabindex="1" accesskey="1">Ir para conteúdo</a>
 <header class="header {% if page.type == 'Home' %}header-home{% endif %}" role="banner">
     <figure class="thumb">
-        <a href="/"><img src="{{ site.baseurl }}build/img/raphael-fabeni.jpg" alt="Raphael Fabeni visto de frente sorrindo para a foto"></a>
+        <a href="/"><img src="/build/img/raphael-fabeni.jpg" alt="Raphael Fabeni visto de frente sorrindo para a foto"></a>
     </figure>
     <h1 class="title"><a class="hover" href="/">Raphael Fabeni</a></h1>
     <h2 class="subtitle">Front-end developer</h2>
@@ -12,25 +12,25 @@
     <nav class="nav-main">
         <ul class="main-menu">
             <li>
-                <a class="nav-link" href="{{ site.baseurl }}en/blog"><i class="fa fa-pencil"></i> Blog</a>
+                <a class="nav-link" href="/en/blog"><i class="fa fa-pencil"></i> Blog</a>
                 <!-- <ul class="sub-menu">
                     <li
                         {% if page.type  == 'Archive' and page.language == 'pt-br' %} class="active"{% endif %}
                         {% if page.type  == 'Post' and page.lang == 'pt-br' %} class="active"{% endif %}
                         {% if page.type  == 'Post' and page.lang == undefined %} class="active"{% endif %}
                     >
-                        <a href="{{ site.baseurl }}blog">Portuguese</a>
+                        <a href="/blog">Portuguese</a>
                     </li>
                     <li
                         {% if page.type == 'Archive' and page.language == 'en' %} class="active"{% endif %}
                         {% if page.type == 'Post' and page.lang == 'en' %} class="active"{% endif %}
-                    > 
-                        <a href="{{ site.baseurl }}en/blog">English</a>
+                    >
+                        <a href="/en/blog">English</a>
                     </li>
                 </ul> -->
             </li>
             <li>
-                <a class="nav-link" href="{{ site.baseurl }}projects"><i class="fa fa-coffee"></i> Projects</a>
+                <a class="nav-link" href="/projects"><i class="fa fa-coffee"></i> Projects</a>
             </li>
         </ul>
     </nav>

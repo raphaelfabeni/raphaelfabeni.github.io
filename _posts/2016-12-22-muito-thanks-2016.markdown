@@ -60,7 +60,7 @@ E depois apareceu a **[Caelum](https://www.caelum.com.br/)**, super conhecida po
 
 Gostou? Escrevi alguma groselha? Quer melhorar? Abra uma [issue](https://github.com/raphaelfabeni/raphaelfabeni.github.io/issues) mencionando o post e vamos conversar.
 
-<script src="{{ site.baseurl }}build/js/libs/Chart.min.js"></script>
+<script src="/build/js/libs/Chart.min.js"></script>
 
 <script>
 window.onload = function() {

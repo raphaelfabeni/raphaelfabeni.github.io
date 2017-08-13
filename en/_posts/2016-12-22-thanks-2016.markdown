@@ -64,7 +64,7 @@ After some time, **[Caelum](https://www.caelum.com.br/)** showed up. It's a famo
 
 Do you like it? Did I write something stupid? Do you want to improve? Open an [issue](https://github.com/raphaelfabeni/raphaelfabeni.github.io/issues) mentioning the post and let's talk about it.
 
-<script src="{{ site.baseurl }}build/js/libs/Chart.min.js"></script>
+<script src="/build/js/libs/Chart.min.js"></script>
 
 <script>
 window.onload = function() {
