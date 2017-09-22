@@ -104,7 +104,8 @@ module.exports = function( grunt ) {
       ],
       options: {
         "esnext": true,
-        reporter: require('jshint-stylish')
+        reporter: require('jshint-stylish'),
+        reporterOutput: ''
       },
     },
 
