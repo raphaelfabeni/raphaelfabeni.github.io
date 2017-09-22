@@ -6,14 +6,17 @@ type: Post
 date: 2015-02-02
 image: 'https://cloud.githubusercontent.com/assets/1345662/11458149/a4fe99da-96a1-11e5-8d30-0f4938603dcc.jpg'
 alt: 'Dois senhores idosos jogando golf em um clube de campo'
+lang: pt-br
+url_en: /git-editing-commits-part-2/
+url_br: /git-alterando-commits-parte-2/
 ---
 
 No [post anterior](/git-alterando-commits-parte-1/), vimos duas das coisas que são possíveis de se fazer com o *rebase* interativo:
 
-* alterar a ordem dos *commits*;
+* alterar a ordem dos _commits_;
 * editar as mensagens.
 
-Nesse post vamos ver como mesclar dois *commits* em apenas um e, o processo inverso, de dividir um único *commit* em dois.
+Nesse post vamos ver como mesclar dois _commits_ em apenas um e, o processo inverso, de dividir um único _commit_ em dois.
 
 ## Relembrando
 
@@ -43,11 +46,11 @@ pick 1ee9572 Atualiza informações sobre dependências JS no README.
 
 Até aqui nada de novo. Então vamos lá..
 
-## Mesclando *commits*
+## Mesclando _commits_
 
-Vamos mesclar os dois *commits* relacionados aos ajustes de CSS e JS do slideshow, que provavelmente mexeram coisas semelhantes (senão as mesmas coisas) e talvez tivesse mais sentido se ficassem juntos em apenas um *commit*.
+Vamos mesclar os dois _commits_ relacionados aos ajustes de CSS e JS do slideshow, que provavelmente mexeram coisas semelhantes (senão as mesmas coisas) e talvez tivesse mais sentido se ficassem juntos em apenas um _commit_.
 
-Para isso, digitamos *squash* em um *commit*. Fazendo isso o moço *git* entende que queremos mesclar esse *commit* marcado com o anterior (no caso, o de cima).
+Para isso, digitamos `squash` em um _commit_. Fazendo isso o moço *git* entende que queremos mesclar esse _commit_ marcado com o anterior (no caso, o de cima).
 
 {% highlight bash %}
 pick 9afe987 Ajustes de CSS e JS no slideshow.
@@ -55,7 +58,7 @@ squash 74e6f3e Mais ajustes de CSS e JS no slideshow.
 pick 1ee9572 Atualiza informações sobre dependências JS no README.
 {% endhighlight %}
 
-Feito isso, caíremos numa tela que mostra as mensagens dos dois *commits*:
+Feito isso, caíremos numa tela que mostra as mensagens dos dois _commits_:
 
 {% highlight bash %}
 # This is a combination of 2 commits.
@@ -80,7 +83,7 @@ Mais ajustes de CSS e JS no slideshow.
 #       modified:   dev/css/style.css
 {% endhighlight %}
 
-Agora é só apagarmos ou comentarmos as duas linhas de mensagens dos *commits* e inserirmos a nova mensagem:
+Agora é só apagarmos ou comentarmos as duas linhas de mensagens dos _commits_ e inserirmos a nova mensagem:
 
 {% highlight bash %}
 Ajustes gerais de CSS e JS no slideshow.
@@ -93,15 +96,15 @@ E.. pronto! Agora se rodarmos um *log* dos commits, veremos algo similar a isso:
 f2feda9 Ajustes gerais de CSS e JS no slideshow.
 {% endhighlight %}
 
-## Dividindo um *commit*
+## Dividindo um _commit_
 
-Sabe-se lá Deus por que, mas agora queremos reverter o processo anterior e dividir o *commit* que foi mesclado anteriormente (brincadeiras a parte, podemos fazer isso por exemplo, num *commit* que englobou muita alteração e que talvez pudéssemos querer dividir melhor o caminho que percorremos). Rodamos o *rebase*:
+Sabe-se lá Deus por que, mas agora queremos reverter o processo anterior e dividir o _commit_ que foi mesclado anteriormente (brincadeiras a parte, podemos fazer isso por exemplo, em _commit_ que englobou muita alteração e que talvez pudéssemos querer dividir melhor o caminho que percorremos). Rodamos o *rebase*:
 
 {% highlight bash %}
 git rebase -i HEAD~2
 {% endhighlight %}
 
-Iremos cair nessa tela que já estamos acostumados, eaí trocamos o *pick* por *edit* no *commit* que quisermos editar.
+Iremos cair nessa tela que já estamos acostumados, eaí trocamos o *pick* por *edit* no _commit_ que quisermos editar.
 
 {% highlight bash %}
 edit f2feda9 Ajustes gerais de CSS e JS no slideshow.
@@ -119,13 +122,13 @@ Once you are satisfied with your changes, run
    git rebase --continue
 {% endhighlight %}
 
-Essa parte é legal. O que aconteceu aqui foi que o *rebase* parou no *commit* que especificamos. Temos agora três opções:
+Essa parte é legal. O que aconteceu aqui foi que o *rebase* parou no _commit_ que especificamos. Temos agora três opções:
 
-* `git commit --amend` => para editar o *commit* editando/adicionando um arquivo.
+* `git commit --amend` => para editar o _commit_ editando/adicionando um arquivo.
 * `git rebase --continue` => para seguir em frente com o *rebase* e não fazer nada (use esse comando também após o anterior para continuar com o *rebase*).
-* `git reset HEAD^` => Volta o *commit* em que estamos parados.
+* `git reset HEAD^` => Volta o _commit_ em que estamos parados.
 
-Nesse ponto se rodarmos um `git status` veremos os arquivos que foram modificados nesse *commit* :
+Nesse ponto se rodarmos um `git status` veremos os arquivos que foram modificados nesse _commit_ :
 
 {% highlight bash %}
 dev/js/slideshow.js
@@ -134,7 +137,7 @@ dev/css/style.css
 dev/css/slideshow.css
 {% endhighlight %}
 
-Agora podemos adicionar os arquivos e *commitar*. Aqui que teoricamente você faz a divisão dos *commits*. Para o nosso exemplo, poderíamos fazer algo assim:
+Agora podemos adicionar os arquivos e *commitar*. Aqui que teoricamente você faz a divisão dos _commits_. Para o nosso exemplo, poderíamos fazer algo assim:
 
 {% highlight bash %}
 git add dev/js/slideshow.js
@@ -152,7 +155,7 @@ git add dev/js/main.js
 git commit -m "Troca da chamada nos parâmetros da função do slideshow."
 {% endhighlight %}
 
-O que fizemos acima foi adicionar os arquivos por partes e fazer *commits*. Com tudo feito, é só continuarmos o *rebase*:
+O que fizemos acima foi adicionar os arquivos por partes e fazer _commits_. Com tudo feito, é só continuarmos o *rebase*:
 
 {% highlight bash %}
 git rebase --continue
@@ -171,11 +174,11 @@ f74a46e Troca da chamada nos parâmetros da função do slideshow.
 
 ## Forçando o push
 
-[Como bem lembrado](https://github.com/raphaelfabeni/raphaelfabeni.github.io/issues/9) pelo [Cícero Pablo](https://github.com/ciceropablo), quando utilizamos o *rebase interativo*, caso você já tenha um repositório com uma *história de commits*, será preciso fazer *push* com a flag `--force`.
+[Como bem lembrado](https://github.com/raphaelfabeni/raphaelfabeni.github.io/issues/9) pelo [Cícero Pablo](https://github.com/ciceropablo), quando utilizamos o *rebase interativo*, caso você já tenha um repositório com uma *história de commits*, será preciso fazer `push` com a flag `--force`.
 
 **Obs**.
 
-* Os nomes/estrutura dos arquivos e mensagens de *commit* são a títulos de exemplo.
+* Os nomes/estrutura dos arquivos e mensagens de _commit_ são a títulos de exemplo.
 * Usei a palavra tela para referenciar cada retorno do terminal.
 * Uso por padrão como editor o *vim*, o que facilita a edição das *telas* que comentei no tópico anterior.
 

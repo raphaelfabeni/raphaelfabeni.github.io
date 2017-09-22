@@ -10,24 +10,24 @@ url_en: /git-editing-commits-part-1/
 url_br: /git-alterando-commits-parte-1/
 ---
 
-Quanto mais mexemos com *git* mais descobrimos coisas mirabolantes que ele pode fazer. Descobri há um tempo atrás uma maneira de organizar/alterar seus *commits* e que me ajudou bastante.
+Quanto mais mexemos com *git* mais descobrimos coisas mirabolantes que ele pode fazer. Descobri há um tempo atrás uma maneira de organizar/alterar seus _commits_ e que me ajudou bastante.
 
-Editar *commits*? Pra que? Pois é. Alguns casos:
+Editar _commits_? Pra que? Pois é. Alguns casos:
 
-* a mensagem do *commit* está errada ou não faz sentido;
+* a mensagem do _commit_ está errada ou não faz sentido;
 * a ordem dos commits não está legal em relação à história;
-* existe mais de um *commit* que fazem coisas similares (senão a mesma coisa).
-* um *commit* agrupou muito código diferente e faz sentido dividi-lo em *commits* menores.
+* existe mais de um _commit_ que fazem coisas similares (senão a mesma coisa).
+* um _commit_ agrupou muito código diferente e faz sentido dividi-lo em _commits_ menores.
 
 ## Um exemplo rápido
 
-Um exemplo simples e rápido. Imagine que no seu projeto você fez uma alteração e fez um *commit*:
+Um exemplo simples e rápido. Imagine que no seu projeto você fez uma alteração e fez um _commit_:
 
 {% highlight bash %}
 git commit -m 'Ajustes de CSS e JS no slideshow.'
 {% endhighlight %}
 
-Aí você lembrou que tinha que atualizar o `README` (ou preferiu deixar em *commits* separados) do projeto:
+Aí você lembrou que tinha que atualizar o `README` (ou preferiu deixar em _commits_ separados) do projeto:
 
 {% highlight bash %}
 git commit -m 'Atualiza o README.'
@@ -39,7 +39,7 @@ Então você sai pra pegar um chá (não bebo café ¯\\\_(ツ)_/¯) e no meio d
 git commit -m 'Mais ajustes de CSS e JS no slideshow.'
 {% endhighlight %}
 
-Se rodássemos um simples *log* para ver os *commits* teríamos algo assim (limitei apenas aos 3 últimos, para o exemplo):
+Se rodássemos um simples *log* para ver os _commits_ teríamos algo assim (limitei apenas aos 3 últimos, para o exemplo):
 
 {% highlight bash %}
 git log --oneline
@@ -48,7 +48,7 @@ git log --oneline
 9afe987 Ajustes de CSS e JS no slideshow.
 {% endhighlight %}
 
-Se o projeto é pequeno/pessoal, até daria pra deixar assim, no entanto, quando estamos trabalhando com outras pessoas em um projeto grande, pode ficar meio estranho no conjunto da história. É aí que entra o *interactive rebase*. Com ele conseguimos alterar *commits* em um mesmo *branch*. Paremos de falar e vamos ao que interessa.
+Se o projeto é pequeno/pessoal, até daria pra deixar assim, no entanto, quando estamos trabalhando com outras pessoas em um projeto grande, pode ficar meio estranho no conjunto da história. É aí que entra o *interactive rebase*. Com ele conseguimos alterar _commits_ em um mesmo *branch*. Paremos de falar e vamos ao que interessa.
 
 ## Como faço?
 
@@ -59,7 +59,7 @@ git rebase -i HEAD~3
 Rodamos o comando acima onde o:
 
 * `-i` => modo interativo.
-* `~3` => números de *commits* para abranger.
+* `~3` => números de _commits_ para abranger.
 
 Feito isso aparecerá uma tela similar a essa abaixo (todas *telas* citadas abaixo irão abrir no seu editor que estiver setado como *default*):
 
@@ -79,9 +79,9 @@ pick 9afe987 Ajustes de CSS e JS no slideshow.
 #  x, exec = run command (the rest of the line) using shell
 {% endhighlight %}
 
-## Reordenando *commits*
+## Reordenando _commits_
 
-No exemplo acima poderíamos alterar a ordem dos *commits* deixando juntos os que são relacionados ao mesmo tema por exemplo. Pra isso, na tela anterior, edite a ordem copiando e colando as linhas na ordem que preferir. Para o exemplo, poderíamos algo mais ou menos assim:
+No exemplo acima poderíamos alterar a ordem dos _commits_ deixando juntos os que são relacionados ao mesmo tema por exemplo. Pra isso, na tela anterior, edite a ordem copiando e colando as linhas na ordem que preferir. Para o exemplo, poderíamos algo mais ou menos assim:
 
 {% highlight bash %}
 pick 1ee9572 Atualiza o README.
@@ -95,11 +95,11 @@ E ... pronto! Se Se ocorreu tudo certo aparecerá uma mensagem mais ou menos ass
 Successfully rebased and updated refs/heads/develop.
 {% endhighlight %}
 
-Pode ser que conflitos ocorram, nesse caso o *rebase* para até que você o corrija. Depois é só rodar um `git rebase --continue` para seguir ou um `git rebase --abort` se quiser desistir de tudo.
+Pode ser que conflitos ocorram, nesse caso o `rebase` para até que você o corrija. Depois é só rodar um `git rebase --continue` para seguir ou um `git rebase --abort` se quiser desistir de tudo.
 
 ## Alterando mensagens
 
-Outra coisa beeeem bacana é a possibilidade de alterar a mensagem de um *commit*. Voltando ao nosso exemplo, agora queremos trocar a mensagem do *commit do README*.
+Outra coisa beeeem bacana é a possibilidade de alterar a mensagem de um _commit_. Voltando ao nosso exemplo, agora queremos trocar a mensagem do *commit do README*.
 
 Rodamos novamente o *rebase*:
 
@@ -107,7 +107,7 @@ Rodamos novamente o *rebase*:
 git rebase -i HEAD~3
 {% endhighlight %}
 
-Caímos novamente naquela tela com a listagem dos *commits*. Aí digitamos *reword* no *commit* que quisermos editar a mensagem.
+Caímos novamente naquela tela com a listagem dos _commits_. Aí digitamos `reword` no _commit_ que quisermos editar a mensagem.
 
 {% highlight bash %}
 pick 9afe987 Ajustes de CSS e JS no slideshow.
@@ -140,7 +140,7 @@ Atualiza informações sobre dependências JS no README.
 ...
 {% endhighlight %}
 
-E... pronto! \o/ Se rodarmos um *log* simples, veremos a lista dos *commits* com a mensagem atualizada:
+E... pronto! \o/ Se rodarmos um *log* simples, veremos a lista dos _commits_ com a mensagem atualizada:
 
 {% highlight bash %}
 1ee9572 Atualiza informações sobre dependências JS no README.
@@ -150,15 +150,15 @@ E... pronto! \o/ Se rodarmos um *log* simples, veremos a lista dos *commits* com
 
 ## Forçando o push
 
-[Como bem lembrado](https://github.com/raphaelfabeni/raphaelfabeni.github.io/issues/9) pelo [Cícero Pablo](https://github.com/ciceropablo), quando utilizamos o *rebase interativo*, caso você já tenha um repositório com uma *história de commits*, será preciso fazer *push* com a flag `--force`.
+[Como bem lembrado](https://github.com/raphaelfabeni/raphaelfabeni.github.io/issues/9) pelo [Cícero Pablo](https://github.com/ciceropablo), quando utilizamos o *rebase interativo*, caso você já tenha um repositório com uma *história de commits*, será preciso fazer `push`com a flag `--force`.
 
 ## Tem mais..
 
-Pra não ficar muito extenso, dividi o assunto em 2 posts. No próximo vamos falar de mesclar *commits* e dividir um *commit* em dois. [Aqui você consegue ler a segunda parte do artigo](/git-alterando-commits-parte-2/).
+Pra não ficar muito extenso, dividi o assunto em 2 posts. No próximo vamos falar de mesclar _commits_ e dividir um _commit_ em dois. [Aqui você consegue ler a segunda parte do artigo](/git-alterando-commits-parte-2/).
 
 **Obs**.
 
-* Os nomes/estrutura dos arquivos e mensagens de *commit* são a títulos de exemplo.
+* Os nomes/estrutura dos arquivos e mensagens de _commit_ são a títulos de exemplo.
 * Usei a palavra tela para referenciar cada retorno do terminal.
 * Uso por padrão como editor o *vim*, o que facilita a edição das •telas• que comentei no tópico anterior.
 

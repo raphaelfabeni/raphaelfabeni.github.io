@@ -152,7 +152,7 @@ As reminded by [Cicero Pablo](https://github.com/ciceropablo), when we use the _
 
 ## There is more...
 
-There is a second part of this post that I intend to write soon (merge and divide _commits_).
+You can read [the second part of this article](/en/git-editing-commits-part-2/) that we talk about `merge` and `split` _commits_.
 
 Some points:
 
