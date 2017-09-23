@@ -1,40 +1,20 @@
 <!doctype html>
-{% if page.type == 'Post' %}
-    {% if page.lang == undefined or page.lang == "pt-br" %}
-        <html lang="pt-br">
-    {% elsif page.lang == "en" %}
-        <html lang="en">
-    {% endif %}
-{% else %}
+  {% if page.lang == "pt-br" %}
+    <html lang="pt-br">
+  {% else %}
     <html lang="{{ page.language }}">
-{% endif %}
+  {% endif %}
 
-{% include head.html %}
+  {% include head.html %}
+<body>
 
-<body id="hold" class="{% if page.class %}{{ page.class }}{% endif %}" data-color="default">
+  {% include header.html %}
 
-    {% include header.html %}
-
-    {% if page.type != 'Home' %}
-        {% include breadcrumbs.html %}
-    {% endif %}
-    <main
-        role="main"
-        class="container main {% if page.type == 'Post' %}main-posts{% endif %} {% if page.type == 'Archive' %}main-full{% endif %}"
-        id="conteudo"
-    >
-        {{ content }}
-    </main>
-
-    {% if page.type == 'Projects' %}
-        <script src="/build/js/libs/jquery.min.js"></script>
-        <script src="/build/js/projects.min.js"></script>
-    {% elsif page.type == 'Post' %}
-        <script src="/build/js/libs/jquery.min.js"></script>
-        <script src="/build/js/archive.min.js"></script>
-    {% else %}
-    <script src="/build/js/scripts.min.js"></script>
-    {% endif %}
-
+  {% if page.type != 'Home' %}
+    {% include breadcrumbs.html %}
+  {% endif %}
+  <main role="main" id="content">
+    {{ content }}
+  </main>
 </body>
 </html>

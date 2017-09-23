@@ -6,7 +6,7 @@ description: "A brazilian front-end developer who loves the web, electronic musi
 baseurl: "/"
 url: "http://www.raphaelfabeni.com.br"
 url_en: "http://www.raphaelfabeni.com.br/en"
-exclude: ['node_modules', 'package.json', 'bin', 'README.md', 'script.bash', 'Gemfile.lock', 'Gemfile']
+exclude: ['node_modules', 'package.json', 'bin', 'README.md', 'script.bash', 'Gemfile.lock', 'Gemfile', 'start.bash']
 
 # Build settings
 markdown: kramdown

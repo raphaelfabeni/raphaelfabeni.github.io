@@ -15,6 +15,7 @@
   "scripts": {
     "eslint:dist": "eslint src/scripts/*.js",
     "eslint": "npm run eslint:dist",
+    "lint:css": "sass-lint -v -q",
     "uglify:dist": "uglify -s src/scripts/*.js -o dist/scripts/main.min.js",
     "uglify:_site": "uglify -s src/scripts/*.js -o _site/dist/scripts/main.min.js",
     "uglify": "npm run uglify:dist",
@@ -39,9 +40,9 @@
     "build:images": "npm run imagemin",
     "build": "npm run clean && npm run build:js && npm run build:css && npm run build:jekyll && npm run critical",
     "watch:jekyll": "chokidar 'index.html' '_includes/*.html' '_layouts/*.html' '_posts/*' -c 'npm run build:jekyll && browser-sync reload'",
-    "watch:css": "chokidar 'src/styles/**/*' -c 'npm run sass:_site && browser-sync reload'",
+    "watch:css": "chokidar 'src/styles/**/*' -c 'npm run lint:css && npm run sass:_site && browser-sync reload'",
     "watch:js": "chokidar 'src/scripts/*' -c 'npm run uglify:_site && browser-sync reload'",
-    "serve": "browser-sync start --server _site",
+    "serve": "browser-sync start --http --server _site",
     "start": "npm run build -s && parallelshell \"npm run serve -s\" \"npm run watch:jekyll -s\" \"npm run watch:css -s\" \"npm run watch:js -s\""
   },
   "devDependencies": {
@@ -50,10 +51,11 @@
     "eslint": "^1.10.3",
     "eslint-config-google": "^0.3.0",
     "image-min": "^0.3.2",
-    "node-sass": "^3.4.2",
+    "node-sass": "^3.13.1",
     "parallelshell": "^3.0.0",
     "postcss": "^5.0.14",
     "postcss-cli": "^2.5.0",
+    "sass-lint": "^1.11.1",
     "uglify": "^0.1.5",
     "watch": "^0.17.1"
   },

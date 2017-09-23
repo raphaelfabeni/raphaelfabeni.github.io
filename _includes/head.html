@@ -1,9 +1,9 @@
 <head>
     <meta charset="utf-8">
     {% if page.type == 'Post' %}
-    <title>{{ page.title }} - Blog | Raphael Fabeni</title>
+      <title>{{ page.title }} - Blog | Raphael Fabeni</title>
     {% else %}
-    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+      <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
     {% endif %}
 
     {% include post.html %}
@@ -43,7 +43,7 @@
     <link href='http://raphaelfabeni.com.br/feed.xml' rel='alternate' type='application/atom+xml'>
 
     <!-- CSS -->
-    <link rel="stylesheet" href="/build/css/main.min.css">
+    <link rel="stylesheet" href="dist/styles/main.min.css">
 
     <script type="text/javascript">
     (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
