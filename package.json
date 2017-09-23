@@ -32,7 +32,7 @@
     "imagemin": "imagemin src/images/* dist/images/ -p",
     "pagespeed": "psi tony-jones.github.io/jekyll-starter-kit/ --strategy=mobile",
     "accessibility": "a11y tony-jones.github.io/jekyll-starter-kit/",
-    "build:jekyll": "jekyll build --config _config.yml,_config-dev.yml",
+    "build:jekyll": "jekyll build --config _config.yml",
     "build:js": "npm run eslint && npm run uglify",
     "build:css": "npm run sass && npm run prefix",
     "build:font": "npm run font",
@@ -41,7 +41,7 @@
     "watch:jekyll": "chokidar 'index.html' '_includes/*.html' '_layouts/*.html' '_posts/*' -c 'npm run build:jekyll && browser-sync reload'",
     "watch:css": "chokidar 'src/styles/**/*' -c 'npm run sass:_site && browser-sync reload'",
     "watch:js": "chokidar 'src/scripts/*' -c 'npm run uglify:_site && browser-sync reload'",
-    "serve": "browser-sync start --https --server _site",
+    "serve": "browser-sync start --server _site",
     "start": "npm run build -s && parallelshell \"npm run serve -s\" \"npm run watch:jekyll -s\" \"npm run watch:css -s\" \"npm run watch:js -s\""
   },
   "devDependencies": {
@@ -51,7 +51,7 @@
     "eslint-config-google": "^0.3.0",
     "image-min": "^0.3.2",
     "node-sass": "^3.4.2",
-    "parallelshell": "^2.0.0",
+    "parallelshell": "^3.0.0",
     "postcss": "^5.0.14",
     "postcss-cli": "^2.5.0",
     "uglify": "^0.1.5",
@@ -64,7 +64,7 @@
     "critical": "^0.7.0",
     "global": "^4.3.2",
     "grunt": "^1.0.1",
-    "parallelshell": "^2.0.0",
+    "parallelshell": "^3.0.0",
     "psi": "^2.0.2"
   }
 }
