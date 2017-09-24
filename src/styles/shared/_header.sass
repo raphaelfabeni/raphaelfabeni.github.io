@@ -5,9 +5,34 @@
 .header
 	padding-top: 20px
 	padding-bottom: 20px
+
+	/*----------  Info  ----------*/
+	&__info
+		display: flex
+		border: solid 1px #ff0
+		align-items: center
+		max-width: 400px
+
 	/*----------  Thumb  ----------*/
 	&__thumb
 		border-radius: 50%
 		overflow: hidden
 		display: inline-block
-		max-width: 200px
+		max-width: 125px
+		flex-basis: 125px
+		border: solid 5px rgba(255, 255, 255, .2)
+		margin-right: 10px
+
+	/*----------  Title and subtitle  ----------*/
+	&__title,
+	&__subtitle
+		text-shadow: 1px 1px 1px rgba(0, 0, 0, .5)
+
+		a
+			text-decoration: none
+
+	&__title
+		font-size: 28px
+
+	&__subtitle
+		font-size: 20px
