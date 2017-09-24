@@ -2,19 +2,30 @@
   {% if page.lang == "pt-br" %}
     <html lang="pt-br">
   {% else %}
-    <html lang="{{ page.language }}">
+    <html lang="en">
   {% endif %}
 
   {% include head.html %}
-<body>
+<body class="has-cover is-center">
+
+	<div class="gradient">
+		<div class="gradient__item gradient__item--blue"></div>
+	</div>
+	<div class="cover"></div>
 
   {% include header.html %}
 
-  {% if page.type != 'Home' %}
-    {% include breadcrumbs.html %}
-  {% endif %}
-  <main role="main" id="content" class="container container--full">
+  <main role="main" id="content" class="container container--full container--flex">
     {{ content }}
   </main>
+
+  {% if page.links %}
+  	{% if page.links.left %}
+  		<a href={{ page.links.left.link }} class="arrow arrow--left" data-text="{{ page.links.left.text }}"></a>
+  	{% endif %}
+  	{% if page.links.right %}
+  		<a href={{ page.links.right.link }} class="arrow arrow--right" data-text="{{ page.links.right.text }}"></a>
+  	{% endif %}
+  {% endif %}
 </body>
 </html>

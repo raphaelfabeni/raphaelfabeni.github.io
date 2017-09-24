@@ -1,3 +1,25 @@
 body
 	min-height: 100vh
-	background: linear-gradient(-45deg, $gradient-dark-color-1 0%, $gradient-dark-color-2 100%)
+	background: linear-gradient(-45deg, $gradient-dark--color-1 0%, $gradient-dark--color-2 100%)
+
+	&.has-cover
+		padding-left: 500px
+
+/*----------  Cover  ----------*/
+.cover
+	position: fixed
+	left: 0
+	top: 0
+	height: 100%
+	width: 500px
+	background: transparent url('../images/raphael-fabeni-front-in-sampa.jpg') center center no-repeat
+	background-size: cover
+	box-shadow: 0 0 0 10px rgba(255, 255, 255, .35)
+	animation: showCover 2s ease both
+	z-index: $z-index--cover
+
+@keyframes showCover
+	from
+		filter: brightness(0) blur(10px) grayscale(100%)
+	to
+		filter: brightness(1) blur(0) grayscale(100%)
