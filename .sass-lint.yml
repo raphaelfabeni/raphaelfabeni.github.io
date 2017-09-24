@@ -20,7 +20,7 @@ rules:
   indentation:
     - 2
     -
-      size: 2
+      size: 'tab'
   leading-zero: 0
   nesting-depth: 2
   property-sort-order: 0
@@ -48,7 +48,7 @@ rules:
   no-color-keywords: 2
   no-color-literals: 0
   no-combinators: 0
-  no-css-comments: 2
+  no-css-comments: 0
   no-debug: 0
   no-disallowed-properties: 0
   no-duplicate-properties:
@@ -110,8 +110,6 @@ rules:
     - 2
     -
       convention: 'hyphenatedbem'
-      ignore:
-        - 'processStep'
   function-name-format: 0
   id-name-format: 0
   mixin-name-format: 2
