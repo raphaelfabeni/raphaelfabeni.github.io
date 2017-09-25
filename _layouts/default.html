@@ -8,10 +8,13 @@
   {% include head.html %}
 <body class="has-cover is-center">
 
-	<div class="gradient">
-		<div class="gradient__item gradient__item--blue"></div>
+	<div data-wrap-gradient class="gradient">
+		<div data-gradient class="gradient__item gradient__item--blue"></div>
 	</div>
-	<div class="cover"></div>
+
+	<div data-cover class="cover"></div>
+
+	<button data-colors>I want more colors!</button>
 
   {% include header.html %}
 
@@ -27,5 +30,7 @@
   		<a href={{ page.links.right.link }} class="arrow arrow--right" data-text="{{ page.links.right.text }}"></a>
   	{% endif %}
   {% endif %}
+
+  <script src="dist/scripts/main.min.js"></script>
 </body>
 </html>
