@@ -1,8 +1,6 @@
 /node_modules
-/components
 /_site
-/bower_components
 /bin
-/build
+/dist
 
 Gemfile.lock

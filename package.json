@@ -13,22 +13,23 @@
     "url": "https://github.com/raphaelfabeni/raphaelfabeni.github.io.git"
   },
   "config": {
-  	"styles": {
-  		"all": "src/styles/**/*",
-	  	"src": "src/styles/main.sass",
-	  	"dist": "dist/styles/main.min.css",
-	  	"critical": "_includes/css/critical.css"
-	  },
-	  "images": {
-	  	"src": "src/images/*",
-	  	"dist": "dist/images/"
-	  }
+    "styles": {
+      "all": "src/styles/**/*",
+      "src": "src/styles/main.sass",
+      "dist": "dist/styles/main.min.css",
+      "critical": "_includes/css/critical.css"
+    },
+    "images": {
+      "src": "src/images/*",
+      "dist": "dist/images/"
+    }
   },
   "scripts": {
     "eslint:dist": "eslint src/scripts/*.js",
     "eslint": "npm run eslint:dist",
     "lint:css": "sass-lint -v -q",
-    "uglify:home": "uglifyjs src/scripts/colors.js -o dist/scripts/home.min.js",
+    "babel": "babel src/scripts --out-dir dist/scripts/temp",
+    "uglify:home": "uglifyjs dist/scripts/temp/colors.js -o dist/scripts/home.min.js",
     "update:js": "cp -R dist/scripts _site/dist",
     "uglify": "npm run uglify:home",
     "clean": "rm -rf dist && rm -rf _site",
@@ -41,20 +42,25 @@
     "pagespeed": "psi tony-jones.github.io/jekyll-starter-kit/ --strategy=mobile",
     "accessibility": "a11y tony-jones.github.io/jekyll-starter-kit/",
     "build:jekyll": "jekyll build --config _config.yml",
-    "build:js": "npm run eslint && npm run uglify",
+    "build:js": "npm run eslint && npm run babel && npm run uglify",
     "build:css": "npm run sass && npm run prefix",
     "build:images": "npm run imagemin",
-    "prepare": "mkdir -p dist dist/images dist/scripts dist/styles",
-    "build": "npm run clean && npm run prepare && npm run imagemin && npm run build:js && npm run build:css && npm run build:jekyll && npm run critical",
+    "prepare": "mkdir -p dist dist/images dist/scripts dist/styles && mkdir -p _site _site/dist/images _site/dist/scripts _site/dist/scripts/temp _site/dist/styles",
+    "build": "npm run clean && npm run prepare && npm run imagemin && npm run build:js && npm run build:css && npm run build:jekyll && npm run critical && npm run after",
     "watch:jekyll": "chokidar 'index.html' '_includes/*.html' '_layouts/*.html' '_posts/*' -c 'npm run build:jekyll && npm run sass:_site && browser-sync reload'",
     "watch:css": "chokidar ${npm_package_config_styles_all} -c 'npm run lint:css && npm run sass:_site && browser-sync reload'",
-    "watch:js": "chokidar 'src/scripts/*' -c 'npm run uglify:home && npm run update:js && browser-sync reload'",
+    "watch:js": "chokidar 'src/scripts/*' -c 'npm run eslint && npm run babel && npm run uglify:home && npm run update:js && browser-sync reload'",
     "serve": "browser-sync start --http --server _site",
-    "start": "npm run build -s && parallelshell \"npm run serve -s\" \"npm run watch:jekyll -s\" \"npm run watch:css -s\" \"npm run watch:js -s\""
+    "start": "npm run build -s && parallelshell \"npm run serve -s\" \"npm run watch:jekyll -s\" \"npm run watch:css -s\" \"npm run watch:js -s\"",
+    "after": "rm -rf _site/scripts/temp"
   },
   "devDependencies": {
     "autoprefixer": "^6.3.1",
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "babelify": "^7.3.0",
     "browser-sync": "^2.11.1",
+    "browserify": "^14.4.0",
     "eslint": "^1.10.3",
     "eslint-config-google": "^0.3.0",
     "image-min": "^0.3.2",
