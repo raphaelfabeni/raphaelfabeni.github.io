@@ -1,10 +1,10 @@
 var Colors = (function(){
 
-	// var hold = document.querySelector('[data-hold]')
+	const hold = document.querySelector('[data-hold]');
 	const colorButton = document.querySelector('[data-button-colors]');
 	const lightButton = document.querySelector('[data-button-dark]');
 	const darkButton = document.querySelector('[data-button-light]');
-	var cover = document.querySelector('[data-cover]');
+	const cover = document.querySelector('[data-cover]');
 
 	function init() {
 		bindEvents();
@@ -12,13 +12,21 @@ var Colors = (function(){
 
 	function bindEvents() {
 
-		colorButton.addEventListener('click', () => toggleColor(true));
-		darkButton.addEventListener('click', () => toggleColor(false));
-		lightButton.addEventListener('click', () => toggleColor(true));
+		colorButton.addEventListener('click', () => toggleCoverColor(true));
+		darkButton.addEventListener('click', () => toggleCoverColor(false));
+
+		lightButton.addEventListener('click', () => {
+			toggleTheme();
+			toggleCoverColor(true);
+		});
 
 	}
 
-	function toggleColor(condition) {
+	function toggleTheme() {
+		hold.classList.toggle('is-light');
+	}
+
+	function toggleCoverColor(condition) {
 		if(condition) {
 			cover.classList.add('has-color');
 		} else {

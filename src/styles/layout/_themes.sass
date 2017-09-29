@@ -1,0 +1,19 @@
+/*----------  Themes mixin  ----------*/
+@mixin theme($color-background, $color-text)
+	&
+		background: $color-background
+
+	p
+		color: $color-text
+
+/*----------  Transition for elements  ----------*/
+body
+	transition: background .4s ease
+
+p
+	transition: color .4s ease
+
+
+/*----------  Light theme  ----------*/
+.is-light
+	@include theme(#fff, #136a8a)
