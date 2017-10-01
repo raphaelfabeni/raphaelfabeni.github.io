@@ -22,7 +22,7 @@ rules:
     -
       size: 'tab'
   leading-zero: 0
-  nesting-depth: 2
+  nesting-depth: 0
   property-sort-order: 0
   pseudo-element: 0
   quotes:

@@ -15,17 +15,10 @@ body
 	background: transparent url('../images/raphael-fabeni-front-in-sampa.jpg') center center no-repeat
 	background-size: cover
 	box-shadow: 0 0 0 10px rgba(255, 255, 255, .35)
-	animation: showCover 2s ease backwards
 	z-index: $z-index--cover
 	filter: grayscale(100%)
-	transition: filter 1s ease
+	transition: filter .3s ease
 	will-change: filter
 
 	&.has-color
 		filter: grayscale(0)
-
-@keyframes showCover
-	from
-		filter: brightness(0) blur(10px) grayscale(100%)
-	to
-		filter: brightness(1) blur(0) grayscale(100%)

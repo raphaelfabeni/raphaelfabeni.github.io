@@ -8,6 +8,7 @@
 	text-decoration: none
 	padding-top: 10px
 	z-index: $z-index--arrow
+	color: #fff
 
 	&:hover,
 	&:focus
@@ -24,7 +25,7 @@
 
 	&:before
 		content: ''
-		border: solid 3px #fff
+		border: solid 3px currentColor
 		border-left: none
 		border-bottom: none
 		width: 30px
@@ -36,7 +37,7 @@
 
 	&:after
 		content: attr(data-text)
-		color: #fff
+		color: currentColor
 		font-size: 14px
 		width: 100%
 		display: block

@@ -1,19 +1,18 @@
 /*----------  Themes mixin  ----------*/
-@mixin theme($color-background, $color-text)
+@mixin theme($color-text, $color-link)
 	&
-		background: $color-background
+		color: $color-text
 
-	p
+	a
+		color: $color-link
+
+	.arrow
 		color: $color-text
 
 /*----------  Transition for elements  ----------*/
 body
-	transition: background .4s ease
-
-p
-	transition: color .4s ease
-
+	transition: color .3s ease
 
 /*----------  Light theme  ----------*/
 .is-light
-	@include theme(#fff, #136a8a)
+	@include theme(#444, $color-blue)
