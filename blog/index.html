@@ -5,9 +5,34 @@ description: 'My simple thoughts about the life and web development'
 language: en
 ---
 
-{% for post in site.posts %}
-    <!-- {% if post.lang == undefined or post.lang == "pt-br" %} -->
-      <article class="post">
+{% assign englishPosts = site.posts | where: 'lang', 'en' %}
+{% assign portuguesePosts = site.posts | where: 'lang', 'pt-br' %}
+
+{% for post in englishPosts %}
+ 		<p>{{ post.title }}
+ 		{% if post.url_br %}
+ 			{% for item in portuguesePosts %}
+ 				{% if item.url_br == post.url_br %}
+ 					<br> <span style="color: red">tem {{ item.title }}</span>
+ 				{% endif %}
+ 			{% endfor %}
+
+ 		{% endif %}
+ 		</p>
+{% endfor %}
+
+
+
+
+
+
+
+
+
+
+
+<!-- {% if post.lang == undefined or post.lang == "pt-br" %} -->
+      <!-- <article class="post">
         <figure class="image">
           <img src="{{ post.image }}">
         </figure>
@@ -17,10 +42,8 @@ language: en
         <p class="date text-center">{{ post.date | date: "%d/%m/%Y" }}</p>
         <p class="short text-center">{{ post.description }}</p>
         <a href="{{ post.url }}" class="btn"><i class="fa fa-angle-double-right"></i> Ver post</a>
-      </article>
+      </article> -->
     <!-- {% endif %} -->
-{% endfor %}
-
-<section class="rss">
+<!-- <section class="rss">
 	<p class="text-center"><i class="fa fa-rss"></i> Curtiu? <a href="/feed.xml">Assine o RSS! </a></p>
-</section>
+</section> -->

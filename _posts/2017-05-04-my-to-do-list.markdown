@@ -6,7 +6,7 @@ type: Post
 image: "https://cloud.githubusercontent.com/assets/1345662/25727664/ecae6f76-3100-11e7-890f-6d967793ac76.jpg"
 alt: "Picture of the a lemon pie with a strawberry above it."
 lang: en
-url_en: /my-to-do-list/
+url: /my-to-do-list/
 ---
 
 <figure class="thumb-left loading">
@@ -14,11 +14,11 @@ url_en: /my-to-do-list/
   <figcaption>To do list of the browser extension</figcaption>
 </figure>
 
-If there is something that I like is when a service or technology helps/improves your life's quality. I think it's awesome when it happens! 
+If there is something that I like is when a service or technology helps/improves your life's quality. I think it's awesome when it happens!
 
 Sometime ago I started to search something that I could take notes about my personal tasks. First I looked only apps for smartphone but I really wanted something could be integrated between _desktop_ and _mobile_.
 
-At that time, I already used to use an extension for Chrome called [Momentum](https://momentumdash.com/): it adds a nice wallpaper with some features, like clock, a to do list and a quote, when you open a new tab. They just had launched the payed beta version which allowed the user some integrations and extra features. As it was something cheap, I decided to test. 
+At that time, I already used to use an extension for Chrome called [Momentum](https://momentumdash.com/): it adds a nice wallpaper with some features, like clock, a to do list and a quote, when you open a new tab. They just had launched the payed beta version which allowed the user some integrations and extra features. As it was something cheap, I decided to test.
 
 <figure class="thumb-left loading">
   <img src="https://cloud.githubusercontent.com/assets/1345662/25727604/749229d8-3100-11e7-879d-42b39bc9cce8.jpg" alt="Print of the to do list of the Google Task widget for smartphone">

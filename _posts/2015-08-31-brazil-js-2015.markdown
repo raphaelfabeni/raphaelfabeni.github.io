@@ -6,6 +6,7 @@ type: Post
 date: 2015-08-31
 image: "https://cloud.githubusercontent.com/assets/1345662/9588327/013ec7be-4ffe-11e5-8250-e4d98b594f1d.jpg"
 alt: "Imagem de um teatro visto do palco"
+lang: pt-br
 ---
 
 Há alguns dias atrás rolou a edição 2015 da BrazilJS. Pra quem não conhece, e acredito que são poucos, a conferência rola em Porto Alegre durante dois dias e reúne uma galera do mundo inteiro.
@@ -14,7 +15,7 @@ Há alguns dias atrás rolou a edição 2015 da BrazilJS. Pra quem não conhece,
 
 Admito que estava numa expectativa gigante para o evento. Não é pra menos também: praticamente todo mundo que conversava falava bem da BrazilJS. E quando citava que nunca havia ido, sempre soltavam: *"Caramba, Fabeni! Como assim, tu nunca foi?*
 
-Ano passado cheguei até a ganhar o convite, cerca de uma semana antes, mas motivos de força maior, como o preço da passagem e hotel, me fizeram desistir. Esse ano então, teria que ir de qualquer maneira. 
+Ano passado cheguei até a ganhar o convite, cerca de uma semana antes, mas motivos de força maior, como o preço da passagem e hotel, me fizeram desistir. Esse ano então, teria que ir de qualquer maneira.
 
 O planejamento começou no início do ano pra garantir hotel e passagem a preços mais acessíveis. Eu e o pessoal da [Netshoes](http://www.netshoes.com.br) começamos a pesquisar até que veio a boa notícia: a Netshoes iria nos ajudar com a viagem. **\o/**
 

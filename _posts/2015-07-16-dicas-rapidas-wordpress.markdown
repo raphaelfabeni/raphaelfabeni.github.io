@@ -6,9 +6,10 @@ type: Post
 date: 2015-07-16
 image: 'https://cloud.githubusercontent.com/assets/1345662/8713520/ffe24dec-2b3f-11e5-9899-662498a8a3f5.jpg'
 alt: 'Imagem de uma igreja ou estação de trem vista de uma perspectiva mostrando sua próxima do chão'
+lang: pt-br
 ---
 
-Você já fez algum projeto usando WordPress? Pois é! Eu também. Gostando ou não, você já deve ter se deparado com algum WP na sua vida. Seja num projeto no trabalho, *freela*, ou até mesmo aquele blog que você costuma ler, possa ter sido feito em WP.  
+Você já fez algum projeto usando WordPress? Pois é! Eu também. Gostando ou não, você já deve ter se deparado com algum WP na sua vida. Seja num projeto no trabalho, *freela*, ou até mesmo aquele blog que você costuma ler, possa ter sido feito em WP.
 
 Acredito que o WordPress seja tão popular pelo fácil aprendizado de ambos os lados: cliente e desenvolvedor. Falando do lado do cliente, acredito que seja a plataforma pra blog mais conhecida e admito que já ouvi falar (inclusive já aconteceu comigo) de falarem que tal pessoa precisava de um *wordpress*. Do lado do desenvolvedor, acredito eu que ele seja uma solução escolhida principalmente pela facilidade em se criar coisas; talvez você não precise de um conhecimento tão avançado em programação para conseguir o que você queira (talvez isso não seja algo bom, da mesma maneira que já vi alguns programadores não falando muito bem do *core* do WP, mas isso pode ficar pra depois).
 
