@@ -5,6 +5,12 @@ body
 	&.has-cover
 		padding-left: 500px
 
+		@include media(990px)
+			padding-left: 300px
+
+		@include media(768px)
+			padding-left: 0
+
 /*----------  Cover  ----------*/
 .cover
 	position: fixed
@@ -22,3 +28,10 @@ body
 
 	&.has-color
 		filter: grayscale(0)
+
+	@include media(990px)
+		width: 300px
+
+	@include media(768px)
+		width: 100%
+		opacity: .1

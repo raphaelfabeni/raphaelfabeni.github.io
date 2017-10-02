@@ -1,32 +1,52 @@
 var Colors = (function(){
 
 	const hold = document.getElementsByTagName('body')[0];
-	const colorButton = document.querySelector('[data-button-colors]');
+	// const colorButton = document.querySelector('[data-button-colors]');
 	const darkButton = document.querySelector('[data-button-dark]');
 	const lightButton = document.querySelector('[data-button-light]');
 	const cover = document.querySelector('[data-cover]');
 	const buttons = document.querySelectorAll('[data-button]');
 	const themes = [...document.querySelectorAll('[data-theme]')];
+	const objButtons = {
+		'light': lightButton,
+		'dark': darkButton
+	};
 
 	function init() {
 		bindEvents();
+		checkLocal();
 	}
 
+	function checkLocal() {
+		let hasLocal = localStorage.getItem('theme');
+		if(!hasLocal) {
+			objButtons.dark.click();
+			return;
+		}
+		objButtons[localStorage.getItem('theme')].click();
+	}
+
+	// Only bind events to buttons
 	function bindEvents() {
 
-		colorButton.addEventListener('click', () => toggleCoverColor(true));
-		darkButton.addEventListener('click', () => toggleCoverColor(false));
-
+		// Light button
 		lightButton.addEventListener('click', (event) => {
 			controlStatusButtons(event);
 			controlThemes('light');
-			toggleCoverColor(true);
+			if(cover) {
+				toggleCoverColor(true);
+			}
+			localStorage.setItem('theme', 'light');
 		});
 
+		// Dark button
 		darkButton.addEventListener('click', (event) => {
 			controlStatusButtons(event);
 			controlThemes();
-			toggleCoverColor();
+			if(cover) {
+				toggleCoverColor();
+			}
+			localStorage.setItem('theme', 'dark');
 		});
 
 	}
