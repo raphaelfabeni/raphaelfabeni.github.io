@@ -9,16 +9,22 @@ language: en
 {% assign portuguesePosts = site.posts | where: 'lang', 'pt-br' %}
 
 {% for post in englishPosts %}
- 		<p>{{ post.title }}
- 		{% if post.url_br %}
- 			{% for item in portuguesePosts %}
- 				{% if item.url_br == post.url_br %}
- 					<br> <span style="color: red">tem {{ item.title }}</span>
- 				{% endif %}
- 			{% endfor %}
+	<div class="post">
+		<h2 class="post__title">
+			<a class="post__link" href="{{ post.url }}">{{ post.title }}</a>
+		</h2>
+		<figure class="post__thumb">
+			<img src="{{ post.image }}" alt="{{ post.alt }}">
+		</figure>
+	{% if post.url_br %}
+		{% for item in portuguesePosts %}
+			{% if item.url_br == post.url_br %}
+				<!-- <br> <span style="color: red">tem {{ item.title }}</span> -->
+			{% endif %}
+		{% endfor %}
 
- 		{% endif %}
- 		</p>
+	{% endif %}
+	</div>
 {% endfor %}
 
 
