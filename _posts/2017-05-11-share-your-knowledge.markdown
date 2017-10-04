@@ -1,12 +1,12 @@
 ---
 layout: post
-title:  "Share your acknowledge"
-description: "Share your acknowledge. There isn't a simple subject and it could help a lot of people."
+title:  "Share your knowledge"
+description: "Share your knowledge. There isn't a simple subject and it could help a lot of people."
 type: Post
 image: 'https://cloud.githubusercontent.com/assets/1345662/11458135/66aaaade-96a1-11e5-9398-6f3e9a24f46c.jpg'
 alt: 'Children studying in an old classroom'
 lang: en
-url_en: /share-acknowledge/
+url_en: /share-knowledge/
 url_br: /compartilhe-conhecimento/
 ---
 
@@ -29,6 +29,6 @@ Some time ago, during an edition of [FEMUG](https://sp.femug.com/), I heard a re
 
 I have a simple and sincere opinion about this subject. And I even talked about it with a friend of mine who had created a blog some time ago, wrote a initial post but he doens't write anything more because he's ashamed about what people could think.
 
-I think **you have write for you**; to documentate something that you did or studied, to practice a new language (as I'm trying to do) or just because you want to write. You doing that, you *share your acknowledge* and in a near future could help other people who are going to access your post.
+I think **you have write for you**; to documentate something that you did or studied, to practice a new language (as I'm trying to do) or just because you want to write. You doing that, you *share your knowledge* and in a near future could help other people who are going to access your post.
 
 There isn't a fool or simple subject, as many people say. What is simple for you, **it could be the solution for a lot of people**.
