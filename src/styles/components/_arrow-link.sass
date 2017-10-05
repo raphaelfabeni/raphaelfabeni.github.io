@@ -9,6 +9,7 @@
 	padding-top: 10px
 	z-index: $z-index--arrow
 	color: #fff
+	display: inline-block
 
 	&:hover,
 	&:focus
@@ -46,8 +47,22 @@
 		transform: translateY(10px)
 		transition-delay: .2s
 
+	&--left
+		left: 15px
+
+		&:before
+			border: solid 3px currentColor
+			border-right: none
+			border-top: none
+			transform: rotate(45deg) translateX(10px) translateY(-10px)
+
+		&:hover:before,
+		&:focus:before
+			transform: rotate(45deg) translateX(5px) translateY(-5px)
+
 	&--right
 		right: 15px
 
-		&:hover:before
+		&:hover:before,
+		&:focus:before
 			transform: rotate(45deg) translateX(5px) translateY(-5px)
