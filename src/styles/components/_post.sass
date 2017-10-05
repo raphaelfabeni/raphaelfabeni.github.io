@@ -4,6 +4,12 @@
 	position: relative
 	margin: 5px
 
+	@include media(900px)
+		max-width: calc(50% - 10px)
+
+	@include media(768px)
+		max-width: 100%
+
 	&__title
 		font-size: 24px
 

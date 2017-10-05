@@ -5,6 +5,7 @@
 .header
 	padding-top: 20px
 	padding-bottom: 20px
+	position: relative
 	z-index: $z-index--header
 
 	/*----------  Info  ----------*/
@@ -23,6 +24,10 @@
 		border: solid 5px rgba(255, 255, 255, .2)
 		margin-right: 10px
 
+		@include media($grid--break-actions)
+			max-width: 90px
+			flex-basis: 90px
+
 	/*----------  Title and subtitle  ----------*/
 	&__title,
 	&__subtitle
@@ -33,5 +38,11 @@
 	&__title
 		font-size: 28px
 
+		@include media(500px)
+			font-size: 24px
+
 	&__subtitle
 		font-size: 20px
+
+		@include media(500px)
+			font-size: 16px

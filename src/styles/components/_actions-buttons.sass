@@ -5,6 +5,11 @@
 	display: flex
 	justify-content: center
 
+	@include media($grid--break-actions)
+		position: static
+		margin-top: 15px
+		justify-content: flex-start
+
 	/*----------  Buttons  ----------*/
 	&__button
 		display: inline-block
