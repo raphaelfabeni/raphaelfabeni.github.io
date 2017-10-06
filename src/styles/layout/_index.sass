@@ -35,3 +35,30 @@ body
 	@include media(768px)
 		width: 100%
 		opacity: .1
+
+/*----------  Blog  ----------*/
+.blog
+	padding-bottom: 35px
+
+.extra
+	width: 100%
+	margin-top: 85px
+
+.simple-list
+	display: flex
+	flex-wrap: wrap
+	margin-top: 20px
+
+	> li
+		width: 33%
+
+		@include media(900px)
+			width: 50%
+
+		@include media(700px)
+			width: 100%
+
+		a
+			padding: 10px
+			display: inline-block
+			text-decoration: none

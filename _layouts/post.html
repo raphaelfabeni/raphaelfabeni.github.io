@@ -1,9 +1,40 @@
 ---
-layout: default
+type: post
 ---
-<progress value="0"></progress>
-<article class="post-content" id="conteudo">
-  <header class="post-header">
+
+<!doctype html>
+  {% if page.lang == "pt-br" %}
+    <html lang="pt-br">
+  {% else %}
+    <html lang="en">
+  {% endif %}
+
+  {% include head.html %}
+<body data-hold class="blog">
+	<div data-wrap-theme class="theme">
+		<div data-theme class="theme__item theme__item--light"></div>
+	</div>
+
+  {% include header.html %}
+  <!-- <header class="header-post">
+		<div class="header-post__image" style="background-image: url({{ page.image }})">
+			<img src="{{ page.image }}" {% if page.alt %} alt="{{ page.alt }}" {% endif %}>
+		</div>
+	</header> -->
+	<div class="container">
+	  <article role="main" id="content" >
+	    {{ content }}
+	  </article>
+  </div>
+
+  <a href="/blog" class="arrow arrow--left" data-text="Blog"></a>
+
+  <script src="/dist/scripts/home.min.js"></script>
+</body>
+</html>
+
+<!-- <article class="post-content" id="conteudo"> -->
+  <!-- <header class="post-header">
     <h1 class="title title-big">{{ page.title }}</h1>
     <p class="date text-center">
       {% if page.lang == undefined or page.lang == "pt-br" %}
@@ -13,9 +44,9 @@ layout: default
         {{ page.date | date: "%m/%d/%Y" }}
       {% endif %}
     </p>
-  </header>
+  </header> -->
 
-  <figure class="text-center loading image-opening">
+  <!-- <figure class="text-center loading image-opening">
     {% if page.alt %}
       <img src="{{ page.image }}" alt="{{ page.alt }}">
     {% else %}
@@ -23,12 +54,12 @@ layout: default
     {% endif %}
   </figure>
 
-  {{ content }}
-</article>
+  {{ content }} -->
+<!-- </article> -->
 
-{% include share.html %}
 
-{% if page.lang == undefined or page.lang == "pt-br" %}
+
+<!-- {% if page.lang == undefined or page.lang == "pt-br" %}
   <a href="/blog">
     <i class="fa fa-angle-double-left"></i>Ver todos os posts
   </a>
@@ -37,6 +68,6 @@ layout: default
   <a href="/en/blog">
     <i class="fa fa-angle-double-left"></i>See all the posts
   </a>
-{% endif %}
+{% endif %} -->
 
 <a rel="author" class="sr-only" href="https://plus.google.com/u/0/+RaphaelFabeni">Raphael Fabeni</a>

@@ -20,40 +20,14 @@ links:
 		<figure class="post__thumb">
 			<img src="{{ post.image }}" alt="{{ post.alt }}">
 		</figure>
-	{% if post.url_br %}
-		{% for item in portuguesePosts %}
-			{% if item.url_br == post.url_br %}
-				<!-- <br> <span style="color: red">tem {{ item.title }}</span> -->
-			{% endif %}
-		{% endfor %}
-
-	{% endif %}
 	</div>
 {% endfor %}
 
-
-
-
-
-
-
-
-
-
-
-<!-- {% if post.lang == undefined or post.lang == "pt-br" %} -->
-      <!-- <article class="post">
-        <figure class="image">
-          <img src="{{ post.image }}">
-        </figure>
-        <h1 class="title">
-          <a href="{{ post.url }}">{{ post.title }}</a>
-        </h1>
-        <p class="date text-center">{{ post.date | date: "%d/%m/%Y" }}</p>
-        <p class="short text-center">{{ post.description }}</p>
-        <a href="{{ post.url }}" class="btn"><i class="fa fa-angle-double-right"></i> Ver post</a>
-      </article> -->
-    <!-- {% endif %} -->
-<!-- <section class="rss">
-	<p class="text-center"><i class="fa fa-rss"></i> Curtiu? <a href="/feed.xml">Assine o RSS! </a></p>
-</section> -->
+<div class="extra">
+	<h3 class="extra__title">Some posts in Portuguese.</h3>
+	<ul class="simple-list">
+	{% for item in portuguesePosts %}
+		<li><a href="{{ item.url }}">{{ item.title }}</a></li>
+	{% endfor %}
+	</ul>
+</div>
