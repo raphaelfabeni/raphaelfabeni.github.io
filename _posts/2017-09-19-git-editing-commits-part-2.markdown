@@ -174,7 +174,7 @@ f74a46e Changes the parameters in the slideshow function call.
 
 ## Forcing the push
 
-[As well remembered] (https://github.com/raphaelfabeni/raphaelfabeni.github.io/issues/9) by [Cícero Pablo] (https://github.com/ciceropablo), when we use the *interactive rebase* , if you already have a repository with a history of _commits_, you must do `push` with the `--force` flag.
+[As well remembered](https://github.com/raphaelfabeni/raphaelfabeni.github.io/issues/9) by [Cícero Pablo] (https://github.com/ciceropablo), when we use the *interactive rebase* , if you already have a repository with a history of _commits_, you must do `push` with the `--force` flag.
 
 **Some notes**.
 
