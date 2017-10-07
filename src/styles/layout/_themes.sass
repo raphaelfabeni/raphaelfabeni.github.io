@@ -17,6 +17,13 @@ body
 .is-light
 	@include theme(#444, $color-blue)
 
+	@import '../layout/syntax-light'
+
+	.button--default
+		background-color: #eee
+		box-shadow: 0 5px 0 0 darken(#eee, 10%)
+		color: #666
+
 	.post__link
 		background-color: rgba(255, 255, 255, .75)
 

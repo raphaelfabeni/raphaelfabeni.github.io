@@ -25,49 +25,14 @@ type: post
 	  <article role="main" class="post-content">
 	    {{ content }}
 	  </article>
+
+  <a href="/blog" class="button button--default button--big">See all posts...</a>
   </div>
 
   <a href="/blog" class="arrow arrow--left" data-text="Blog"></a>
 
+  <a rel="author" class="sr-only" href="https://plus.google.com/u/0/+RaphaelFabeni">Raphael Fabeni</a>
+
   <script src="/dist/scripts/home.min.js"></script>
 </body>
 </html>
-
-<!-- <article class="post-content" id="conteudo"> -->
-  <!-- <header class="post-header">
-    <h1 class="title title-big">{{ page.title }}</h1>
-    <p class="date text-center">
-      {% if page.lang == undefined or page.lang == "pt-br" %}
-        {{ page.date | date: "%d/%m/%Y" }}
-      {% endif %}
-      {% if page.lang == "en" %}
-        {{ page.date | date: "%m/%d/%Y" }}
-      {% endif %}
-    </p>
-  </header> -->
-
-  <!-- <figure class="text-center loading image-opening">
-    {% if page.alt %}
-      <img src="{{ page.image }}" alt="{{ page.alt }}">
-    {% else %}
-      <img src="{{ page.image }}" alt="{{ page.description }}">
-    {% endif %}
-  </figure>
-
-  {{ content }} -->
-<!-- </article> -->
-
-
-
-<!-- {% if page.lang == undefined or page.lang == "pt-br" %}
-  <a href="/blog">
-    <i class="fa fa-angle-double-left"></i>Ver todos os posts
-  </a>
-{% endif %}
-{% if page.lang == "en" %}
-  <a href="/en/blog">
-    <i class="fa fa-angle-double-left"></i>See all the posts
-  </a>
-{% endif %} -->
-
-<a rel="author" class="sr-only" href="https://plus.google.com/u/0/+RaphaelFabeni">Raphael Fabeni</a>
