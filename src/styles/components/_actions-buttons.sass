@@ -1,14 +1,9 @@
 .actions
 	position: fixed
 	right: 10px
-	top: 10px
+	top: 15px
 	display: flex
 	justify-content: center
-
-	@include media($grid--break-actions)
-		position: static
-		margin-top: 15px
-		justify-content: flex-start
 
 	/*----------  Buttons  ----------*/
 	&__button
@@ -58,6 +53,15 @@
 
 		&:last-of-type
 			border-radius: 0 5px 5px 0
+
+/*----------  Responsive  ----------*/
+// avoid homepage
+body:not(.home)
+	.actions
+		@include media($grid--break-actions)
+			position: static
+			margin-top: 15px
+			justify-content: flex-start
 
 /*----------  Modificator for light version  ----------*/
 .is-light

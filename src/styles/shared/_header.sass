@@ -3,8 +3,8 @@
 //
 
 .header
-	padding-top: 20px
-	padding-bottom: 20px
+	padding-top: 15px
+	padding-bottom: 15px
 	position: relative
 	z-index: $z-index--header
 
@@ -47,19 +47,9 @@
 		@include media(500px)
 			font-size: 16px
 
-/*----------  Inline version  ----------*/
-.header--inline
 
-	.header__title,
-	.header__subtitle
-		display: inline-block
-
-		@include media(650px)
-			display: block
-
-	.header__subtitle
-		margin-top: 5px
-		margin-left: 10px
-
-		@include media(650px)
-			margin: 0
+/*----------  Responsive  ----------*/
+body:not(.home)
+	.header
+		@include media($grid--break-arrows)
+			padding-left: 60px

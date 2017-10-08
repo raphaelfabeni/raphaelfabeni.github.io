@@ -3,7 +3,7 @@
 	&
 		color: $color-text
 
-	a:not(.arrow):not(.button)
+	a:not(.arrow):not(.button):not(.post__link):not(.navigation__link)
 		color: $color-link
 
 	.arrow
@@ -16,6 +16,9 @@ body
 /*----------  Light theme  ----------*/
 .is-light
 	@include theme(#444, $color-blue)
+
+	.navigation-button
+		background-image: linear-gradient(transparent 50%, rgba(0, 0, 0, .8) 50%)
 
 	.post-content
 		@import '../layout/syntax-light'

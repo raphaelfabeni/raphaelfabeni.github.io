@@ -1,13 +1,11 @@
-<!-- <a href="#conteudo" class="sr-only go-content" tabindex="1" accesskey="1">Ir para conteúdo</a> -->
-<header class="header {% if page.layout == 'blog' or page.type == 'Post' %}header--inline{% endif %} container container--full" role="banner">
+<header class="header container container--full" role="banner">
+	<button class="navigation-button" role="button">Menu</button>
+		<nav class="navigation" role="menu">
+			<a class="navigation__link" href="/">Home</a>
+			<a class="navigation__link" href="/blog">Blog</a>
+			<button class="navigation__close" role="button">x</button>
+		</nav>
 	<div class="header__info">
-		{% if page.type != 'Home' %}
-		<!-- <figure class="header__thumb">
-			<a href="/">
-				<img src="/dist/images/raphael-fabeni.jpg" alt="Picture of Raphael Fabeni">
-			</a>
-		</figure> -->
-		{% endif %}
 		<div>
 			<h1 class="header__title"><a href="/">Raphael Fabeni</a></h1>
 			<h2 class="header__subtitle">Front-end developer</h2>
