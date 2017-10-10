@@ -1,13 +1,46 @@
 /*----------  Themes mixin  ----------*/
-@mixin theme($color-text, $color-link)
-	&
+@mixin theme($color-text, $color-link, $color-link--inverse, $color-navigation, $gradient-navigation-button)
+	body,
+	p
 		color: $color-text
 
-	a:not(.arrow):not(.button):not(.post__link):not(.navigation__link)
+	/*----------  General links  ----------*/
+	a:not(.button):not(.navigation__link)
 		color: $color-link
 
-	.arrow
+		&:hover,
+		&:focus
+			color: $color-link--inverse
+
+	/*----------  Arrow links  ----------*/
+	a.arrow
 		color: $color-text
+
+	/*----------  Buttond default  ----------*/
+
+	/*----------  Navigation  ----------*/
+	@if ($gradient-navigation-button)
+		.navigation-button
+			background-image: $gradient-navigation-button
+
+	@if ($color-navigation)
+		.navigation
+			background-color: $color-navigation
+
+			&__close
+				color: $color-text
+
+				&:hover,
+				&:focus
+					color: $color-link
+
+			&__link
+				color: $color-link
+
+				&:hover,
+				&:focus
+					background-color: $color-link
+					color: #fff
 
 /*----------  Transition for elements  ----------*/
 body
@@ -15,13 +48,13 @@ body
 
 /*----------  Light theme  ----------*/
 .is-light
-	@include theme(#444, $color-blue)
-
-	.navigation-button
-		background-image: linear-gradient(transparent 50%, rgba(0, 0, 0, .8) 50%)
+	@include theme(#444, $color-blue, $color-green, rgba(255, 255, 255, .9), linear-gradient(transparent 50%, rgba(0, 0, 0, .8) 50%))
 
 	.post-content
 		@import '../layout/syntax-light'
+
+		> * > code
+			background-color: rgba(245, 245, 245, 1)
 
 	.button--default
 		background-color: #eee

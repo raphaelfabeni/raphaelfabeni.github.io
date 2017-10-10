@@ -15,10 +15,11 @@ p
 	line-height: 1.4
 
 /*----------  Links  ----------*/
-a:not(.arrow):not(.button):not(.post__link):not(.navigation__link)
+// a:not(.arrow):not(.button):not(.post__link):not(.navigation__link)
+a
 	color: $color-links
-	transition: opacity .3s ease, color .3s ease
+	transition: color .3s ease
 
 	&:hover,
 	&:focus
-		opacity: .8
+		color: $color-links--inverse

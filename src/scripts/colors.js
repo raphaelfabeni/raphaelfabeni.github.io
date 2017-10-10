@@ -1,6 +1,6 @@
 var Colors = (function(){
 
-	const hold = document.getElementsByTagName('body')[0];
+	const hold = document.getElementsByTagName('html')[0];
 	// const colorButton = document.querySelector('[data-button-colors]');
 	const darkButton = document.querySelector('[data-button-dark]');
 	const lightButton = document.querySelector('[data-button-light]');

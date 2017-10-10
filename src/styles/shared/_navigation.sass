@@ -45,6 +45,7 @@
 	width: 0
 	height: 0
 	overflow: hidden
+	transition: opacity .3s ease, left .01s .3s, top .01s .3s, width .01s .3s, height .01s .3s
 
 	&.is-active
 		opacity: 1
@@ -52,6 +53,7 @@
 		top: 0
 		width: 100vw
 		height: 100vh
+		transition: opacity .3s ease
 
 	/*----------  Links  ----------*/
 	&__link
@@ -74,7 +76,6 @@
 		position: fixed
 		top: 20px
 		right: 20px
-		text-transform: uppercase
 		color: #fff
 		border: none
 		background: none
