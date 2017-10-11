@@ -8,11 +8,9 @@
   {% include head.html %}
 <body class="has-cover is-center home" data-hold>
 
-	<div data-wrap-theme class="theme">
-		<div data-theme class="theme__item theme__item--light"></div>
-	</div>
+	{% include theme.html %}
 
-	<div data-cover class="cover"></div>
+	<div data-cover class="cover u-flow"></div>
 
   {% include header.html %}
 
@@ -22,10 +20,10 @@
 
   {% if page.links %}
   	{% if page.links.left %}
-  		<a href={{ page.links.left.link }} class="arrow arrow--left" data-text="{{ page.links.left.text }}"></a>
+  		<a href={{ page.links.left.link }} class="arrow arrow--left u-flow" data-text="{{ page.links.left.text }}"></a>
   	{% endif %}
   	{% if page.links.right %}
-  		<a href={{ page.links.right.link }} class="arrow arrow--right" data-text="{{ page.links.right.text }}"></a>
+  		<a href={{ page.links.right.link }} class="arrow arrow--right u-flow" data-text="{{ page.links.right.text }}"></a>
   	{% endif %}
   {% endif %}
 

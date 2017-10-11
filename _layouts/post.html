@@ -10,17 +10,15 @@ type: post
   {% endif %}
 
   {% include head.html %}
-<body data-hold class="blog">
-	<div data-wrap-theme class="theme">
-		<div data-theme class="theme__item theme__item--light"></div>
-	</div>
+<body data-hold class="post-page">
+
+	{% include theme.html %}
 
   {% include header.html %}
-  <!-- <header class="header-post">
-		<div class="header-post__image" style="background-image: url({{ page.image }})">
-			<img src="{{ page.image }}" {% if page.alt %} alt="{{ page.alt }}" {% endif %}>
-		</div>
-	</header> -->
+  <div class="header-post u-flow" style="background-image: url('{{ page.image }}'"">
+  	<h1 class="header-post__title">{{ page.title }}</h1>
+	</div>
+
 	<div class="container">
 	  <article role="main" class="post-content">
 	    {{ content }}
@@ -29,7 +27,7 @@ type: post
   <a href="/blog" class="button button--default button--big">See all posts...</a>
   </div>
 
-  <a href="/blog" class="arrow arrow--left" data-text="Blog"></a>
+  <a href="/blog" class="arrow arrow--left u-flow" data-text="Blog"></a>
 
   <a rel="author" class="sr-only" href="https://plus.google.com/u/0/+RaphaelFabeni">Raphael Fabeni</a>
 
