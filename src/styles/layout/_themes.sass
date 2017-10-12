@@ -46,15 +46,29 @@
 body
 	transition: color .3s ease
 
+
 /*----------  Light theme  ----------*/
 .is-light
-	@include theme(#444, $color-blue, $color-green, rgba(255, 255, 255, .9), linear-gradient(transparent 50%, rgba(0, 0, 0, .8) 50%))
+	@include theme(#111, $color-blue, $color-green, rgba(255, 255, 255, .9), linear-gradient(transparent 50%, rgba(0, 0, 0, .8) 50%))
 
 	.post-content
 		@import '../layout/syntax-light'
 
 		> * > code
 			background-color: rgba(245, 245, 245, 1)
+
+	.header-post
+		&:before
+			background: radial-gradient(ellipse at center, rgba(255, 255, 255, .65) 0%, rgba(255, 255, 255, 1) 80%)
+
+		&:after
+			border-color: #222
+
+		&__title
+			text-shadow: none
+
+		+ .full
+			background-color: #fff
 
 	.button--default
 		background-color: #eee

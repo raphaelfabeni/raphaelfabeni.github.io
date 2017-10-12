@@ -29,7 +29,7 @@
     "eslint": "npm run eslint:dist",
     "lint:css": "sass-lint -v -q",
     "babel": "babel src/scripts --out-dir dist/scripts/temp",
-    "uglify:home": "uglifyjs dist/scripts/temp/colors.js dist/scripts/temp/navigation.js -o dist/scripts/home.min.js",
+    "uglify:home": "uglifyjs dist/scripts/temp/colors.js dist/scripts/temp/navigation.js dist/scripts/temp/arrow.js -o dist/scripts/home.min.js",
     "update:js": "cp -R dist/scripts _site/dist",
     "uglify": "npm run uglify:home",
     "clean": "rm -rf dist && rm -rf _site",

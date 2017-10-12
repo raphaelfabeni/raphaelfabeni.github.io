@@ -17,14 +17,16 @@ type: post
   {% include header.html %}
   <div class="header-post u-flow" style="background-image: url('{{ page.image }}'"">
   	<h1 class="header-post__title">{{ page.title }}</h1>
+  	<button class="header-post__arrow" data-post-arrow></button>
 	</div>
 
-	<div class="container has-color u-flow">
-	  <article role="main" class="post-content">
-	    {{ content }}
-	  </article>
-
-  <a href="/blog" class="button button--default button--big">See all posts...</a>
+	<div class="full has-color u-flow">
+		<div class="container ">
+	  	<article role="main" class="post-content">
+	    	{{ content }}
+	  	</article>
+  		<a href="/blog" class="button button--default button--big">See all posts...</a>
+  	</div>
   </div>
 
   <a href="/blog" class="arrow arrow--left u-flow" data-text="Blog"></a>

@@ -19,5 +19,5 @@ So, now it's the fun part: how to make the animation? The first thing that I tho
 
 The animation is simple and only animates these two properties plus the `opacity` to make it cooler. To finish, we just change the `origin` of `transform` to let the check centralized during the animation.
 
-<iframe height='500' scrolling='no' title='Check animation' src='//codepen.io/raphaelfabeni/embed/vJxKZM/?height=428&theme-id=4240&default-tab=css,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>
+<iframe height='600' scrolling='no' title='Check animation' src='//codepen.io/raphaelfabeni/embed/vJxKZM/?height=428&theme-id=4240&default-tab=css,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>
 </iframe>
