@@ -13,7 +13,7 @@
 	align-items: center
 	z-index: $z-index--header-post
 
-	&:after
+	&:before
 		content: ''
 		left: 0
 		top: 0
@@ -22,19 +22,48 @@
 		position: absolute
 		background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0) 20%, rgba(0, 0, 0, 1) 90%)
 
+	&:after
+		content: ''
+		position: absolute
+		left: 50%
+		bottom: 25px
+		border: solid 5px #fff
+		width: 30px
+		height: 30px
+		margin-left: -15px
+		transform: rotate(45deg)
+		border-left: none
+		border-top: none
+		opacity: .3
+		animation: moveArrow 1s ease-out infinite alternate both
+
 	&__title
 		text-shadow: 1px 1px 0 rgba(0, 0, 0, .5)
 		text-align: center
 		position: relative
 		z-index: $z-index--header-post-title
 
+	+ .container
+		position: relative
+		z-index: $z-index--container-post
+		margin-top: 100vh
+		padding-top: 35px
+
+/*----------  Arrow animation  ----------*/
+@keyframes moveArrow
+	from
+		transform: rotate(45deg) translateX(10px) translateY(10px)
+
+	to
+		transform: rotate(45deg) translateX(0) translateY(0)
+
 
 /*----------  Post content  ----------*/
 .post-content
-	padding-top: 100vh
 	margin-bottom: 35px
 
-	p
+	p,
+	ul
 		margin-bottom: 20px
 		line-height: 1.6
 
@@ -42,6 +71,11 @@
 	h3,
 	h4
 		margin-bottom: 10px
+
+	ul li
+		list-style-type: disc
+		list-style-position: inside
+
 
 	/*----------  Highlight  ----------*/
 	.highlight
