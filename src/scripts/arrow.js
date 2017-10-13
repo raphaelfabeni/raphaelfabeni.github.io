@@ -11,7 +11,11 @@ var Arrow = (function(){
 	}
 
 	function movePage() {
-		console.log('1');
+		window.scroll({
+			top: window.outerHeight,
+			left: 0,
+			behavior: 'smooth'
+		});
 	}
 
 	return {
