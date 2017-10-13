@@ -3,6 +3,9 @@ var Arrow = (function(){
 	const arrow = document.querySelector('[data-post-arrow]');
 
 	function init() {
+		if(!arrow) {
+			return;
+		}
 		bindEvents();
 	}
 
