@@ -52,20 +52,21 @@ body
 	@include theme(rgba(0, 0, 0, .85), $color-blue, $color-green, rgba(255, 255, 255, .9), linear-gradient(transparent 50%, rgba(0, 0, 0, .8) 50%))
 
 	.post-content
-		@import '../layout/syntax-light'
+		@import '../layout/syntax/syntax-light'
 
 		> * > code
 			background-color: rgba(245, 245, 245, 1)
 
 	.header-post
 		&:before
-			background: radial-gradient(ellipse at center, rgba(255, 255, 255, .65) 0%, rgba(255, 255, 255, 1) 80%)
+			background-color: rgba(255, 255, 255, .2)
 
 		&__arrow
 			border-color: #222
 
 		&__title
-			text-shadow: none
+			color: #fff
+			background-color: rgba(0, 0, 0, .5)
 
 		+ .full
 			background-color: #fff

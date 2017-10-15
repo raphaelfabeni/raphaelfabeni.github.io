@@ -20,8 +20,8 @@
 		width: 100%
 		height: 100%
 		position: absolute
-		background: radial-gradient(ellipse at center, rgba(0, 0, 0, .25) 0%, rgba(0, 0, 0, 1) 80%)
-		transition: background .3s ease
+		background-color: rgba(0, 0, 0, .65)
+		transition: opacity .3s ease
 
 	&__arrow
 		background: none
@@ -45,7 +45,8 @@
 		text-align: center
 		position: relative
 		z-index: $z-index--header-post-title
-		transition: color .3s ease
+		transition: color .3s ease, background .3s ease
+		padding: 10px
 
 	+ .full
 		position: relative
