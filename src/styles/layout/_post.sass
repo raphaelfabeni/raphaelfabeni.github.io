@@ -14,15 +14,13 @@
 	z-index: $z-index--header-post
 	transition: opacity .3s ease
 
-	&:before
-		content: ''
+	&__image
+		position: fixed
 		left: 0
 		top: 0
-		width: 100%
-		height: 100%
-		position: absolute
-		background-color: rgba(0, 0, 0, .65)
-		transition: opacity .3s ease
+		width: 100vw
+		height: 100vh
+		object-fit: cover
 
 	&__arrow
 		background: none
