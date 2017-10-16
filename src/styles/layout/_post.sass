@@ -12,6 +12,7 @@
 	justify-content: center
 	align-items: center
 	z-index: $z-index--header-post
+	transition: opacity .3s ease
 
 	&:before
 		content: ''
@@ -47,6 +48,8 @@
 		z-index: $z-index--header-post-title
 		transition: color .3s ease, background .3s ease
 		padding: 10px
+		margin: 0 auto
+		max-width: 80%
 
 	+ .full
 		position: relative
