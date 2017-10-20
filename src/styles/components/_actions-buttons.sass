@@ -5,6 +5,12 @@
 	display: flex
 	justify-content: center
 
+	/*----------  Responsive  ----------*/
+	@include media(500px)
+		transform: scale(0.75)
+		transform-origin: center right
+		top: 13px
+
 	/*----------  Buttons  ----------*/
 	&__button
 		display: inline-block
@@ -53,15 +59,6 @@
 
 		&:last-of-type
 			border-radius: 0 5px 5px 0
-
-/*----------  Responsive  ----------*/
-// avoid homepage
-body:not(.home)
-	.actions
-		@include media($grid--break-actions)
-			position: static
-			margin-top: 15px
-			justify-content: flex-start
 
 /*----------  Modificator for light version  ----------*/
 .is-light

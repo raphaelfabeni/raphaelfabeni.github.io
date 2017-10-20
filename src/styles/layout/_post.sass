@@ -56,6 +56,17 @@
 		padding: 35px 0
 		transition: background .3s ease
 
+	@include media(800px)
+		position: relative
+		height: auto
+
+		&__image,
+		&__arrow
+			display: none
+
+		+ .full
+			margin-top: 50px
+
 /*----------  Arrow animation  ----------*/
 @keyframes moveArrow
 	from

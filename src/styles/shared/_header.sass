@@ -35,6 +35,10 @@
 		a
 			text-decoration: none
 
+			@include media(360px)
+				> span
+					display: none
+
 	&__title
 		font-size: 28px
 
@@ -46,6 +50,20 @@
 
 		@include media(500px)
 			font-size: 16px
+
+		@include media(360px)
+			position: relative
+			text-indent: -9999px
+
+			&:after
+				text-indent: 0
+				position: absolute
+				left: 0
+				top: 0
+				width: 100%
+				height: 100%
+				content: 'FED'
+				background-color: inherit
 
 
 /*----------  Responsive  ----------*/
