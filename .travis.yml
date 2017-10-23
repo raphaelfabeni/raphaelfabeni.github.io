@@ -9,16 +9,10 @@ before_install:
 - bash ./start.bash
 install:
 - travis_retry bundle install
-- travis_retry npm install -g grunt-cli
-- travis_retry npm install -g grunt
-- travis_retry npm install -g bower
 before_script:
 - npm install
-- bower install
 script:
-- grunt init
-- grunt ci
-- grunt build
+- npm run build
 after_success:
 - bash ./script.bash
 notifications:
