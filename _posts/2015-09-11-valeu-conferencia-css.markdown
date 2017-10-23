@@ -6,6 +6,7 @@ type: Post
 date: 2015-09-11
 image: "https://cloud.githubusercontent.com/assets/1345662/9822466/013fcdc0-5897-11e5-9f00-6fab4f57a40e.jpg"
 alt: "Surfista caminhando em uma praia segurando uma prancha com o por do sol ao fundo"
+lang: pt-br
 ---
 
 Tenho uma opinião de que cada um de nós acredita em algumas coisas e gostamos de levá-las para o dia a dia: seja uma frase que você ouviu e acha que tem a ver com consigo, um ensinamento passado de um familiar ou até mesmo algo que você matutou durante um tempo e acredita que possa ser o caminho a se seguir. Uma das principais coisas que acredito é que *se você se dispõe a fazer algo, ou você se dedica e faz o seu melhor, ou acredito que seja melhor não assumir a responsabilidade*. E isso, gosto de aplicar a tudo que faço: um compromisso, um time de futebol, um evento, um *freela* e por aí vai.
@@ -14,7 +15,7 @@ Tenho uma opinião de que cada um de nós acredita em algumas coisas e gostamos 
 
 *Ah Fabeni, não entendi direito! Acho que você está exagerando!*. Pode ser que sim, ou **não**. Um exemplo rápido, de como tive que aplicar isso em algo pessoal: o futebol. Quem me conhece sabe que sou *louco* por esportes, principalmente por futebol. Onde me convidavam pra jogar eu ia. E o que eu percebi que começou a acontecer, era que no *impulso*, eu assumia mais compromissos que poderia. Com o tempo começou a acontecer de em um mesmo dia:
 
-* coincidir dois jogos no mesmo horário. 
+* coincidir dois jogos no mesmo horário.
 * ou então de ter, por exemplo, três jogos, um após o outro. Humanamente impossível, ainda mais pra mim, que faço isso porque gosto e não em um nível profissional.
 
 *Eaí, o que fazer?* Simples, escolher um e ir, certo? Errado! Pelo menos no meu ponto de vista. *=/* Se eu tinha assumido os compromissos, como poderia não me dedicar a eles? Claro que existem exceções. No entanto, isso começou a me incomodar um pouco.

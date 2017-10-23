@@ -6,6 +6,7 @@ type: Post
 date: 2015-05-22
 image: 'https://cloud.githubusercontent.com/assets/1345662/11457969/79fb1d56-969e-11e5-8326-aa50572ae52d.jpg'
 alt: 'Vários relógios dourados presos a uma superfície e dispostos um ao lado do outro'
+lang: pt-br
 ---
 
 Há algum tempo atrás, escrevi umas groselhas sobre *Jasmine*: [um post foi mais uma introdução sobre o framework](/brincando-com-jasmine) e o [outro post foi sobre os matchers que o Jasmine nos oferece](/jasmine-entendendo-matchers).

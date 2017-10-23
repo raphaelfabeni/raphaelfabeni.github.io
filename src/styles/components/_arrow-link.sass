@@ -1,0 +1,71 @@
+//
+// Arrow link
+//
+
+.arrow
+	position: fixed
+	top: 50%
+	text-decoration: none
+	padding-top: 10px
+	z-index: $z-index--arrow
+	color: #fff
+	display: inline-block
+
+	@include media($grid--break-arrows)
+		display: none
+
+	&:hover,
+	&:focus
+		&:before,
+		&:after
+			opacity: 1
+
+		&:after
+			transform: translateY(0)
+
+	&:before,
+	&:after
+		transition: opacity .3s ease, transform .3s ease
+
+	&:before
+		content: ''
+		border: solid 3px currentColor
+		border-left: none
+		border-bottom: none
+		width: 30px
+		height: 30px
+		transform: rotate(45deg)
+		display: block
+		opacity: .75
+		margin-left: -8px
+
+	&:after
+		content: attr(data-text)
+		color: currentColor
+		font-size: 14px
+		width: 100%
+		display: block
+		padding-top: 15px
+		opacity: 0
+		transform: translateY(10px)
+		transition-delay: .2s
+
+	&--left
+		left: 15px
+
+		&:before
+			border: solid 3px currentColor
+			border-right: none
+			border-top: none
+			transform: rotate(45deg) translateX(15px) translateY(-15px)
+
+		&:hover:before,
+		&:focus:before
+			transform: rotate(45deg) translateX(10px) translateY(-10px)
+
+	&--right
+		right: 15px
+
+		&:hover:before,
+		&:focus:before
+			transform: rotate(45deg) translateX(5px) translateY(-5px)

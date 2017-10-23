@@ -1,0 +1,73 @@
+//
+// Header
+//
+
+.header
+	padding-top: 15px
+	padding-bottom: 15px
+	position: relative
+	z-index: $z-index--header
+
+	/*----------  Info  ----------*/
+	&__info
+		display: flex
+		align-items: center
+		max-width: 550px
+
+	/*----------  Thumb  ----------*/
+	&__thumb
+		border-radius: 50%
+		overflow: hidden
+		display: inline-block
+		max-width: 100px
+		flex-basis: 100px
+		border: solid 5px rgba(255, 255, 255, .2)
+		margin-right: 10px
+
+		@include media($grid--break-actions)
+			max-width: 70px
+			flex-basis: 70px
+
+	/*----------  Title and subtitle  ----------*/
+	&__title,
+	&__subtitle
+
+		a
+			text-decoration: none
+
+			@include media(360px)
+				> span
+					display: none
+
+	&__title
+		font-size: 28px
+
+		@include media(500px)
+			font-size: 24px
+
+	&__subtitle
+		font-size: 20px
+
+		@include media(500px)
+			font-size: 16px
+
+		@include media(360px)
+			position: relative
+			text-indent: -9999px
+
+			&:after
+				text-indent: 0
+				position: absolute
+				left: 0
+				top: 0
+				width: 100%
+				height: 100%
+				content: 'FED'
+				background-color: inherit
+
+
+/*----------  Responsive  ----------*/
+body:not(.home)
+	.header
+		@include media($grid--break-arrows)
+			padding-left: 60px

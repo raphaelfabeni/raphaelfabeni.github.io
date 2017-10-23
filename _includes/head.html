@@ -1,56 +1,89 @@
 <head>
-    <meta charset="utf-8">
-    {% if page.type == 'Post' %}
-    <title>{{ page.title }} - Blog | Raphael Fabeni</title>
-    {% else %}
-    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-    {% endif %}
+		<meta charset="utf-8">
+		{% if page.type == 'Post' %}
+			<title>{{ page.title }} - Blog | Raphael Fabeni</title>
+		{% else %}
+			<title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+		{% endif %}
 
-    {% include post.html %}
+		{% include post.html %}
 
-    <meta name="viewport" content="width=device-width">
-    <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" />
+		<meta name="viewport" content="width=device-width">
+		<meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" />
 
-    <!-- Facebook -->
-    <meta property="fb:app_id" content="588516207935765" />
-    <meta property="fb:admins" content="100000808831074" />
-    <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" />
-    <meta property="og:title" content="{{ page.title }}{% if page.path contains '_posts' %} - Blog | Raphael Fabeni{% endif %}" />
-    <meta property="og:site_name" content="Raphael Fabeni" />
-    <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
-    <meta property="og:type" content="{% if page.path contains '_posts' %}article{% else %}website{% endif %}" />
-    {% if page.type == 'Post' %}
-    <meta property="og:image" content="{{ page.image }}" />
-    {% else %}
-    <meta property="og:image" content="{{ site.url }}/build/img/{% if page.image %}posts/{{ page.image }}{% else %}raphael-fabeni.jpg{% endif %}" />
-    {% endif %}
-    {% if page.path contains '_posts' %}
-    <meta property="article:author" content="https://www.facebook.com/raphaelfabeni" />
-    <meta property="article:publisher" content="https://www.facebook.com/raphaelfabeni" />
-    {% endif %}
+		<!-- Facebook -->
+		<meta property="fb:app_id" content="588516207935765" />
+		<meta property="fb:admins" content="100000808831074" />
+		<meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" />
+		<meta property="og:title" content="{{ page.title }}{% if page.path contains '_posts' %} - Blog | Raphael Fabeni{% endif %}" />
+		<meta property="og:site_name" content="Raphael Fabeni" />
+		<meta property="og:url" content="{{ site.url }}{{ page.url }}" />
+		<meta property="og:type" content="{% if page.path contains '_posts' %}article{% else %}website{% endif %}" />
+		{% if page.type == 'Post' %}
+		<meta property="og:image" content="{{ page.image }}" />
+		{% else %}
+		<meta property="og:image" content="{{ site.url }}/build/img/{% if page.image %}posts/{{ page.image }}{% else %}raphael-fabeni.jpg{% endif %}" />
+		{% endif %}
+		{% if page.path contains '_posts' %}
+		<meta property="article:author" content="https://www.facebook.com/raphaelfabeni" />
+		<meta property="article:publisher" content="https://www.facebook.com/raphaelfabeni" />
+		{% endif %}
 
-    <!-- Twitter -->
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:creator" content="@raphaelfabeni">
-    <meta name="twitter:site" content="@raphaelfabeni">
-    <meta name="twitter:domain" content="{{ site.url }}">
-    <meta name="twitter:title" content="{{ page.title }}{% if page.path contains '_posts' %} - Blog | Raphael Fabeni{% endif %}">
-    <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+		<!-- Twitter -->
+		<meta name="twitter:card" content="summary">
+		<meta name="twitter:creator" content="@raphaelfabeni">
+		<meta name="twitter:site" content="@raphaelfabeni">
+		<meta name="twitter:domain" content="{{ site.url }}">
+		<meta name="twitter:title" content="{{ page.title }}{% if page.path contains '_posts' %} - Blog | Raphael Fabeni{% endif %}">
+		<meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
 
-    <link rel="canonical" href="{{ site.url }}{{ page.url }}">
-    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+		<link rel="canonical" href="{{ site.url }}{{ page.url }}">
+		<link href='http://raphaelfabeni.com.br/feed.xml' rel='alternate' type='application/atom+xml'>
 
-    <link href='http://raphaelfabeni.com.br/feed.xml' rel='alternate' type='application/atom+xml'>
+		<link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+		<link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+		<link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+		<link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+		<link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+		<link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+		<link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+		<link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+		<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+		<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+		<link rel="manifest" href="/images/favicon/manifest.json">
+		<meta name="msapplication-TileColor" content="#ffffff">
+		<meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+		<meta name="theme-color" content="#ffffff">
 
-    <!-- CSS -->
-    <link rel="stylesheet" href="/build/css/main.min.css">
+		<!-- CSS -->
+		{% if page.critical %}
+			<style>
+				{% include css/critical.css %}
+			</style>
+			<script defer>
+				var linkElement = document.createElement('link');
+				linkElement.rel = 'stylesheet';
+				linkElement.href = "/dist/styles/main.min.css";
+				linkElement.type = 'text/css';
+				var godefer = document.getElementsByTagName('link')[0];
+				godefer.parentNode.insertBefore(linkElement, godefer);
+			</script>
+			<noscript><link rel="stylesheet" href="/dist/styles/main.min.css"></noscript>
+		{% else %}
+			<link rel="stylesheet" href="/dist/styles/main.min.css">
+		{% endif %}
 
-    <script type="text/javascript">
-    (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-    function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-    e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-    e.src='//www.google-analytics.com/analytics.js';
-    r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-    ga('create','UA-16831060-1');ga('send','pageview');
-    </script>
+		<!-- <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,600" rel="stylesheet"> -->
+
+		<script type="text/javascript">
+		(function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+		function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+		e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+		e.src='//www.google-analytics.com/analytics.js';
+		r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+		ga('create','UA-16831060-1');ga('send','pageview');
+		</script>
 </head>

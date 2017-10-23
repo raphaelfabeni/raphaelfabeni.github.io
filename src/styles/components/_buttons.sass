@@ -1,0 +1,62 @@
+.button
+	color: #fff
+	display: inline-block
+	padding: 3px 18px
+	text-decoration: none
+	transition: opacity .3s ease, transform .3s cubic-bezier(0.175, 0.885, 0.320, 1.275), box-shadow .3s cubic-bezier(0.175, 0.885, 0.320, 1.275)
+	margin-bottom: 10px
+	border-radius: 3px
+
+	&:hover,
+	&:focus
+		opacity: .8
+		color: #fff
+
+	&:active
+		transform: translateY(5px)
+		transition-timing-function: ease
+		box-shadow: 0 0 0 0 rgba(0, 0, 0, 0)
+
+	&--default
+		background-color: #222
+		box-shadow: 0 5px 0 0 darken(#222, 10%)
+
+	&--center
+		max-width: 220px
+		margin: 0 auto
+		display: block
+		text-align: center
+
+	/*----------  Big size  ----------*/
+	&--big
+		padding: 10px 25px
+
+	/*----------  Twitter  ----------*/
+	&--twitter
+		background-color: #1a97f1
+		box-shadow: 0 5px 0 0 darken(#1a97f1, 10%)
+
+	/*----------  Facebook  ----------*/
+	&--facebook
+		background-color: #334f8d
+		box-shadow: 0 5px 0 0 darken(#334f8d, 10%)
+
+	/*----------  GitHub  ----------*/
+	&--github
+		background-color: #f5f7f9
+		box-shadow: 0 5px 0 0 darken(#f5f7f9, 10%)
+		color: #666
+
+		&:hover,
+		&:focus
+			color: #666
+
+	/*----------  CodePen  ----------*/
+	&--codepen
+		background-color: #363636
+		box-shadow: 0 5px 0 0 darken(#363636, 10%)
+
+	/*----------  LinkedIn  ----------*/
+	&--linkedin
+		background-color: #006cac
+		box-shadow: 0 5px 0 0 darken(#006cac, 10%)

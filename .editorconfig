@@ -1,29 +1,30 @@
 # editorconfig.org
 root = false
 
-# Pra todos os arquivos
+# All files
 [*]
-indent_style = space
+indent_style = tab
 indent_size = 2
 charset = utf-8
 end_of_line = lf
 insert_final_newline = true
 trim_trailing_whitespace = true
 
-# Estilo de identação em arquivos HTML
+# HTML
 [*.html]
-indent_style = space
+indent_style = tab
 indent_size = 2
 
-# Estilo de identação em arquivos CSS
+# CSS
 [*.css]
-indent_style = space
+indent_style = tab
 indent_size = 2
 
-# Estilo de identação em arquivos JS dentro do diretório Scripts
+# JS
 [*.js]
-indent_style = space
+indent_style = tab
 indent_size = 2
 
+# md
 [*.md]
 trim_trailing_whitespace = false

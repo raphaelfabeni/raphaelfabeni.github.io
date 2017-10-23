@@ -1,43 +1,20 @@
-<a href="#conteudo" class="sr-only go-content" tabindex="1" accesskey="1">Ir para conteúdo</a>
-<header class="header {% if page.type == 'Home' %}header-home{% endif %}" role="banner">
-    <figure class="thumb">
-        <a href="/"><img src="/build/img/raphael-fabeni.jpg" alt="Raphael Fabeni visto de frente sorrindo para a foto"></a>
-    </figure>
-    <h1 class="title"><a class="hover" href="/">Raphael Fabeni</a></h1>
-    <h2 class="subtitle">Front-end developer</h2>
-    {% if page.type != 'Home' %}
-    {% include social.html %}
-    {% endif %}
+<header class="header container container--full u-flow" role="banner">
+	<button class="navigation-button" role="button" data-nav-button>Menu</button>
+		<nav class="navigation" role="menu" data-navigation>
+			<a class="navigation__link" href="/">Home</a>
+			<a class="navigation__link" href="/blog">Blog</a>
+			<button class="navigation__close" role="button" data-nav-close>x</button>
+		</nav>
+	<div class="header__info">
+		<div>
+			<h1 class="header__title"><a href="/"><span>Raphael</span> Fabeni</a></h1>
+			<h2 class="header__subtitle">Front-end developer</h2>
+		</div>
+	</div>
 
-    <nav class="nav-main">
-        <ul class="main-menu">
-            <li>
-                <a class="nav-link" href="/en/blog"><i class="fa fa-pencil"></i> Blog</a>
-                <!-- <ul class="sub-menu">
-                    <li
-                        {% if page.type  == 'Archive' and page.language == 'pt-br' %} class="active"{% endif %}
-                        {% if page.type  == 'Post' and page.lang == 'pt-br' %} class="active"{% endif %}
-                        {% if page.type  == 'Post' and page.lang == undefined %} class="active"{% endif %}
-                    >
-                        <a href="/blog">Portuguese</a>
-                    </li>
-                    <li
-                        {% if page.type == 'Archive' and page.language == 'en' %} class="active"{% endif %}
-                        {% if page.type == 'Post' and page.lang == 'en' %} class="active"{% endif %}
-                    >
-                        <a href="/en/blog">English</a>
-                    </li>
-                </ul> -->
-            </li>
-            <li>
-                <a class="nav-link" href="/projects"><i class="fa fa-coffee"></i> Projects</a>
-            </li>
-        </ul>
-    </nav>
-
-    {% if page.language == "pt-br" %}
-        <button id="color" class="btn btn-color" data-link="Color">Não curti essa cor.</button>
-    {% else %}
-        <button id="color" class="btn btn-color" data-link="Color">I don't like this color.</button>
-    {% endif %}
+	<div class='actions'>
+		<!-- <div class="actions__button" role="button" data-button data-button-colors>&#10036;</div> -->
+		<div class="actions__button" role="button" data-button data-button-dark>&#9790;</div>
+		<div class="actions__button" role="button" data-button data-button-light>&#x263C;</div>
+  </div>
 </header>

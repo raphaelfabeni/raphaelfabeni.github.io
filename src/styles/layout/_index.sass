@@ -1,0 +1,67 @@
+body
+	min-height: 100vh
+	background: linear-gradient(-45deg, $gradient-dark--color-1 0%, $gradient-dark--color-2 100%)
+
+	&.has-cover
+		padding-left: 500px
+
+		@include media(990px)
+			padding-left: 300px
+
+		@include media(768px)
+			padding-left: 0
+
+/*----------  Cover  ----------*/
+.cover
+	position: fixed
+	left: 0
+	top: 0
+	height: 100%
+	width: 500px
+	background: transparent url('../images/raphael-fabeni-front-in-sampa.jpg') center center no-repeat
+	background-size: cover
+	box-shadow: 0 0 0 10px rgba(255, 255, 255, .35)
+	z-index: $z-index--cover
+	filter: grayscale(100%)
+	transition: filter .3s ease
+	will-change: filter
+
+	&.has-color
+		filter: grayscale(0)
+
+	@include media(990px)
+		width: 300px
+
+	@include media(768px)
+		width: 100%
+		opacity: .1
+
+/*----------  Blog list  ----------*/
+.blog
+	padding-bottom: 35px
+
+	main.container
+		margin-top: 20px
+
+.extra
+	width: 100%
+	margin-top: 85px
+
+.simple-list
+	display: flex
+	flex-wrap: wrap
+	margin-top: 20px
+
+	> li
+		width: 33%
+
+		@include media(900px)
+			width: 50%
+
+		@include media(700px)
+			width: 100%
+
+		a
+			padding: 10px
+			display: inline-block
+			text-decoration: none

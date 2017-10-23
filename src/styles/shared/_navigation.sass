@@ -1,0 +1,90 @@
+.navigation-button
+	text-indent: -9999px
+	border: none
+	height: 28px
+	width: 30px
+	margin-right: 10px
+	background-color: transparent
+	background-image: linear-gradient(transparent 50%, rgba(255, 255, 255, 1) 50%)
+	background-size: 100% 8px
+	position: fixed
+	left: 10px
+	top: 20px
+	opacity: .5
+	transition: opacity .3s ease
+	cursor: pointer
+
+	&:hover,
+	&:focus
+		opacity: 1
+
+.home .navigation-button
+	top: 30px
+	left: 560px
+
+	@include media(990px)
+		left: 360px
+
+	@include media(768px)
+		left: 20px
+
+/*----------  Navigation area  ----------*/
+.navigation
+	position: fixed
+	background-color: rgba(0, 0, 0, .9)
+	display: flex
+	justify-content: center
+	align-items: center
+	flex-direction: column
+	padding: 10px
+	z-index: $z-index--navigation
+
+	opacity: 0
+	left: -99999px
+	top: -99999px
+	width: 0
+	height: 0
+	overflow: hidden
+	transition: opacity .3s ease, left .01s .3s, top .01s .3s, width .01s .3s, height .01s .3s
+
+	&.is-active
+		opacity: 1
+		left: 0
+		top: 0
+		width: 100vw
+		height: 100vh
+		transition: opacity .3s ease
+
+	/*----------  Links  ----------*/
+	&__link
+		min-width: 150px
+		display: inline-block
+		text-decoration: none
+		font-size: 32px
+		padding: 20px 0
+		color: $color-links
+		transition: color .3s ease, background .3s ease
+		text-align: center
+
+		&:hover,
+		&:focus
+			background-color: $color-links
+			color: #000
+
+	/*----------  Close  ----------*/
+	&__close
+		position: fixed
+		top: 20px
+		right: 20px
+		color: #fff
+		border: none
+		background: none
+		font-size: 48px
+		font-weight: $font-weight--light
+		cursor: pointer
+		transition: color .3s ease
+
+		&:hover,
+		&:focus
+			color: $color-links
+

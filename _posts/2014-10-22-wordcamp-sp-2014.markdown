@@ -6,6 +6,7 @@ type: Post
 date: 2014-10-22
 image: 'https://cloud.githubusercontent.com/assets/1345662/11458296/36dd39cc-96a4-11e5-974c-6dedb5a4682b.jpg'
 alt: 'Bottons do WordCamp 2014'
+lang: pt-br
 ---
 
 No último sábado (18) rolou mais uma edição do [WordCamp São Paulo](http://2014.saopaulo.wordcamp.org/), um evento totalmente voltado para o desenvolvimento de projetos em WordPress. Esse ano foi a primeira vez que fui ao evento e confesso que estava bastante empolgado por dois motivos: primeiro pelo fato de vários amigos terem ido em edições anteriores do evento e terem rasgado o mesmo de elogios; e segundo, pois na parte da tarde, ia falar um pouco em uma talk com o tema: <b>Do início ao fim com WordPress</b>.

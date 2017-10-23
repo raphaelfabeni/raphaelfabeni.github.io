@@ -6,6 +6,7 @@ type: Post
 date: 2015-03-04
 image: 'https://cloud.githubusercontent.com/assets/1345662/11458108/85179d3e-96a0-11e5-8382-0487118ad9f6.jpg'
 alt: 'Imagem mostra relógios de uma máquina antiga de uma fábrica'
+lang: pt-br
 ---
 
 Você testa seu código **JS**?  Se a resposta foi não, nunca é tarde pra começar. Não vou me alongar aqui falando o porque tanta gente fala de fazer testes, existem milhares de posts sobre isso. Vou direto ao assunto: o brother *Jasmine*.

@@ -1,40 +1,37 @@
 <!doctype html>
-{% if page.type == 'Post' %}
-    {% if page.lang == undefined or page.lang == "pt-br" %}
-        <html lang="pt-br">
-    {% elsif page.lang == "en" %}
-        <html lang="en">
-    {% endif %}
-{% else %}
-    <html lang="{{ page.language }}">
-{% endif %}
+  {% if page.lang == "pt-br" %}
+    <html lang="pt-br">
+  {% else %}
+    <html lang="en">
+  {% endif %}
 
-{% include head.html %}
+  {% include head.html %}
 
-<body id="hold" class="{% if page.class %}{{ page.class }}{% endif %}" data-color="default">
+	<style>
+		{% include css/critical.css %}
+	</style>
 
-    {% include header.html %}
+<body class="has-cover is-center home" data-hold>
 
-    {% if page.type != 'Home' %}
-        {% include breadcrumbs.html %}
-    {% endif %}
-    <main
-        role="main"
-        class="container main {% if page.type == 'Post' %}main-posts{% endif %} {% if page.type == 'Archive' %}main-full{% endif %}"
-        id="conteudo"
-    >
-        {{ content }}
-    </main>
+	{% include theme.html %}
 
-    {% if page.type == 'Projects' %}
-        <script src="/build/js/libs/jquery.min.js"></script>
-        <script src="/build/js/projects.min.js"></script>
-    {% elsif page.type == 'Post' %}
-        <script src="/build/js/libs/jquery.min.js"></script>
-        <script src="/build/js/archive.min.js"></script>
-    {% else %}
-    <script src="/build/js/scripts.min.js"></script>
-    {% endif %}
+	<div data-cover class="cover u-flow"></div>
 
+  {% include header.html %}
+
+  <main role="main" id="content" class="container container--full container--flex">
+    {{ content }}
+  </main>
+
+  {% if page.links %}
+  	{% if page.links.left %}
+  		<a href={{ page.links.left.link }} class="arrow arrow--left u-flow" data-text="{{ page.links.left.text }}"></a>
+  	{% endif %}
+  	{% if page.links.right %}
+  		<a href={{ page.links.right.link }} class="arrow arrow--right u-flow" data-text="{{ page.links.right.text }}"></a>
+  	{% endif %}
+  {% endif %}
+
+  {% include scripts.html %}
 </body>
 </html>

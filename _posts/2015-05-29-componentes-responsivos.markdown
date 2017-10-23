@@ -6,6 +6,7 @@ type: Post
 date: 2015-05-29
 image: 'https://cloud.githubusercontent.com/assets/1345662/11457956/32c0b946-969e-11e5-8fe0-d65ce3647453.jpg'
 alt: 'Foto mostra uma parte de uma roda gigante'
+lang: pt-br
 ---
 
 Lembro a primeira vez que comecei a mexer com design responsivo. Na hora a minha reação foi: *que bruxaria é essa manolo?*. Achava tudo aquilo maravilhoso. Com o tempo, passei a pesquisar mais e mais sobre o assunto e vi que design responsivo é **muito mais do que só blocar todo seu conteúdo** pra ele *caber* nas telas dos smartphones e tablets. É necessário todo um estudo e toda uma preparação desde a parte de arquitetura/layout até o desenvolvimento para que **independente da resolução** que o usuário acesse o seu projeto, ele tenha uma **boa experiência e usabilidade** e não dê de cara com um monte de coisa jogada ali no famoso *faz caber*.

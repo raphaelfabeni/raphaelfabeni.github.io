@@ -1,0 +1,121 @@
+/*----------  Header post  ----------*/
+.header-post
+	position: fixed
+	left: 0
+	top: 0
+	width: 100%
+	height: 100vh
+	background-repeat: no-repeat
+	background-position: center center
+	background-size: cover
+	display: flex
+	justify-content: center
+	align-items: center
+	z-index: $z-index--header-post
+	transition: opacity .3s ease
+
+	&__image
+		position: fixed
+		left: 0
+		top: 0
+		width: 100vw
+		height: 100vh
+		object-fit: cover
+		opacity: .5
+
+	&__arrow
+		background: none
+		position: absolute
+		left: 50%
+		bottom: 25px
+		border: solid 5px #fff
+		width: 30px
+		height: 30px
+		margin-left: -15px
+		transform: rotate(45deg)
+		border-left: none
+		border-top: none
+		opacity: .3
+		animation: moveArrow 1s ease-out infinite alternate both
+		transition: border .3s ease
+		cursor: pointer
+
+	&__title
+		text-shadow: 1px 1px 0 rgba(0, 0, 0, .5)
+		text-align: center
+		position: relative
+		z-index: $z-index--header-post-title
+		transition: color .3s ease, background .3s ease
+		padding: 10px
+		margin: 0 auto
+		max-width: 80%
+
+	+ .full
+		position: relative
+		z-index: $z-index--container-post
+		margin-top: 100vh
+		padding: 35px 0
+		transition: background .3s ease
+
+	@include media(800px)
+		position: relative
+		height: auto
+
+		&__image,
+		&__arrow
+			display: none
+
+		+ .full
+			margin-top: 10px
+
+/*----------  Arrow animation  ----------*/
+@keyframes moveArrow
+	from
+		transform: rotate(45deg) translateX(10px) translateY(10px)
+
+	to
+		transform: rotate(45deg) translateX(0) translateY(0)
+
+
+/*----------  Post content  ----------*/
+.post-content
+	max-width: 745px
+	margin: 0 auto 35px
+
+	p,
+	ul
+		margin-bottom: 20px
+		line-height: 1.6
+
+	h2,
+	h3,
+	h4
+		margin-bottom: 10px
+
+	ul li
+		list-style-type: disc
+		list-style-position: inside
+
+
+	/*----------  Highlight  ----------*/
+	.highlight
+		margin-bottom: 20px
+		padding: 10px 20px
+		box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.5) inset
+		font-size: 16px
+		line-height: 1.4
+
+		pre
+			color: #eee
+			text-indent: -6px
+			white-space: pre-wrap
+			word-wrap: break-word
+
+		code
+			background-color: transparent
+			color: inherit
+
+	code
+		background-color: rgba(0, 0, 0, 0.3)
+		color: #f92672
+		padding: 2px 5px

@@ -6,6 +6,7 @@ type: Post
 date: 2014-10-14
 image: 'https://cloud.githubusercontent.com/assets/1345662/11458306/77ace862-96a4-11e5-8d7f-669a8591c360.jpg'
 alt: 'Imagem mostra relógio de pulso segurado pela corda'
+lang: pt-br
 ---
 
 O HTML5 trouxe diversas coisas bacanas pra nós desenvolvedores. Uma das mais simples e que eu acho que são uma das mais legais é a questão da semântica com os novos elementos. O surgimento dessas tags deixaram nossos códigos mais semânticos e legíveis, tanto por nós como pelas máquinas.
@@ -103,7 +104,7 @@ No atual momento não existe um atributo que substitua <code>pubdate</code>, mas
     <article itemscope itemType="http://schema.org/BlogPosting">
         <h1 itemprop="headline">Um título</h1>
         <p itemprop="articleBody">Conteúdo do article.</p>
- 
+
         <footer>
             <p>Artigo publicado em <time datetime="2014-09-05" itemprop="datePublished">05 de setembro de 2014</time>
         </footer>
@@ -120,7 +121,7 @@ Deve ser uma <i>string</i> especificando um mês específico de um ano no format
 
 {% highlight html %}
 <!-- Setembro 2014 -->
-<time>2014-09</time>  
+<time>2014-09</time>
 {% endhighlight  %}
 
 ## Uma data válida (dia do mês)
@@ -204,7 +205,7 @@ Deve ser uma <i>string</i> representando um ano. Por exemplo:
 
 {% highlight html %}
 <!-- 2014 -->
-<time datetime="2014">Esse ano</time>  
+<time datetime="2014">Esse ano</time>
 {% endhighlight  %}
 
 ## Uma <i>string</i> válida de duração

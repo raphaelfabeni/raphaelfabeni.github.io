@@ -6,6 +6,7 @@ type: Post
 date: 2014-08-14
 image: 'https://cloud.githubusercontent.com/assets/1345662/11458568/97107d54-96a9-11e5-8a26-aff1aa2afb5c.jpg'
 alt: 'Imagem de capa da apresentação de boas vindas do Meetup CSS SP'
+lang: pt-br
 ---
 
 Semana passada rolou o primeiro meetup de CSS SP. Há algum tempo atrás o [Felipe Fialho](https://twitter.com/lfeh) teve a idéia e entrei no barco para ajudar na organização. Não sabíamos o alcance e nem se teria adesão um meetup de CSS mas resolvemos arriscar.
