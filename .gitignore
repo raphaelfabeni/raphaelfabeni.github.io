@@ -1,6 +1,5 @@
 /node_modules
 /_site
 /bin
-/dist
 
 Gemfile.lock
