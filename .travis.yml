@@ -14,11 +14,22 @@ before_script:
 script:
 - npm run build
 after_success:
-- bash ./script.bash
+- git clone https://$gh_ref
+- cd $(basename ${gh_ref%.git})
+- git config user.name "Travis-CI"
+- git config user.email ${EMAIL}
+- rsync -az --delete --exclude '.git*' ../_site/ .
+- touch .nojekyll
+- git add -A .
+- git commit -m "Generated Jekyll Site by Travis CI - ${TRAVIS_BUILD_NUMBER}"
+- git push -f "https://${GH_TOKEN}@${gh_ref}" ${target_branch} > /dev/null 2>&1
 notifications:
   email: rapha.fabeni@gmail.com
   slack:
     secure: E17iNpCaec2tU4AKqwMl12bk2E9EXchKZyq55Z95A0RIgxsnrCJO2MBtt1F66wye0EggwNK37UhK6itSM3faNXWbsczzBQlYV5ET1zSuFlv0ERbHJNbRlHlFhL/ym/yI7Zc7kUilRFxeBoijyhvwmzSZ43cUEZ9V9oGF89HxGmo=
 env:
   global:
-    secure: mQD7tw5fQCMvcx3Tt2oM54dtnXL67CdFBSd12/82b66k94YLhRfnuyFKjS7avAovsGR95H9ZZ+Ix+sWMSjuzfu50Xrk1Bo8CL/aUqIphtK0C7wM4oGSUXFTYwcRTQZzYx3CcsH31roK8ViSVG8cLBJb0aJyYm/E7CuE/qqS725s=
+  - secure: mQD7tw5fQCMvcx3Tt2oM54dtnXL67CdFBSd12/82b66k94YLhRfnuyFKjS7avAovsGR95H9ZZ+Ix+sWMSjuzfu50Xrk1Bo8CL/aUqIphtK0C7wM4oGSUXFTYwcRTQZzYx3CcsH31roK8ViSVG8cLBJb0aJyYm/E7CuE/qqS725s=
+  - target_branch: master
+  - gh_ref: github.com/raphaelfabeni/raphaelfabeni.github.io.git
+  - secure: CWgI1+tBcwJ+K/32giXg30+dK1Fcj0/dRYsl9qJQeFQde9Ftz0d5NtZIl4qgPqPDENnSmcwzZFC0UtVA5kuskkqtQULbAlu0YKrwEKkqRRCO/YqzAqaciJUvwklLzfQRnqjkCoOxjZbFihckL48rVfLy75CIU+ZW7UfHt0FvKOo=
