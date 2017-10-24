@@ -13,8 +13,6 @@ before_script:
 - npm install
 script:
 - npm run build
-after_success:
-- bash ./script.bash
 notifications:
   email: rapha.fabeni@gmail.com
   slack:
