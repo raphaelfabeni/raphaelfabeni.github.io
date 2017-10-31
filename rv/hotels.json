@@ -3,7 +3,7 @@
     {
       "name": "Super 8 Speedway/University",
       "description": "Just off Interstate 85, this hotel features free Wi-Fi and a daily continental breakfast with hot waffles. The Charlotte Motor Speedway is a 15 minute drive from the hotel.",
-      "image": "http://www.raphaelfabeni.com.br/rv/test-resources/images/hotels/super-8.jpg",
+      "image": "http://www.raphaelfabeni.com.br/rv/test-resources/hotels/super-8.jpg",
       "rate": 3,
       "price": 180,
       "price_history": [
@@ -19,7 +19,7 @@
     {
       "name": "Omni Charlotte Hotel",
       "description": "The Omni Charlotte Hotel envelopes you in ultimate comfort with a signature touch of genuine North Carolina hospitality.",
-      "image": "http://www.raphaelfabeni.com.br/rv/test-resources/images/hotels/omni-charlotte.jpg",
+      "image": "http://www.raphaelfabeni.com.br/rv/test-resources/hotels/omni-charlotte.jpg",
       "rate": 4,
       "price": 280.50,
       "price_history": [
@@ -35,7 +35,7 @@
     {
       "name": "Charlotte Marriott City Center",
       "description": "Located in Uptown Charlotte, this Marriott City Center hotel offers spacious rooms with a flat-screen TV and free WiFi in public areas. Facilities include a 24-hour fitness centre. Parking is offered for a fee.",
-      "image": "http://www.raphaelfabeni.com.br/rv/test-resources/images/hotels/charlotte-marriot.jpg",
+      "image": "http://www.raphaelfabeni.com.br/rv/test-resources/hotels/charlotte-marriot.jpg",
       "rate": 4,
       "price": 190,
       "price_history": [
@@ -51,7 +51,7 @@
     {
       "name": "The Ivey's Hotel",
       "description": "This luxury boutique hotel is located in Downtown Charlotte and features a complimentary continental breakfast in the Library Lounge and free WiFi. The Mint Museum of Craft Design is 100 metres away.",
-      "image": "http://www.raphaelfabeni.com.br/rv/test-resources/images/hotels/iveys-hotel.jpg",
+      "image": "http://www.raphaelfabeni.com.br/rv/test-resources/hotels/iveys-hotel.jpg",
       "rate": 4,
       "price": 290,
       "price_history": [
@@ -67,7 +67,7 @@
     {
       "name": "The Ritz-Carlton, Charlotte",
       "description": "In the heart of downtown Charlotte, The Ritz-Carlton, Charlotte has luxurious rooms with a 42' flat-screen TV and a DVD player. Facilities include an indoor pool and spa",
-      "image": "http://www.raphaelfabeni.com.br/rv/test-resources/images/hotels/ritz-carlton.jpg",
+      "image": "http://www.raphaelfabeni.com.br/rv/test-resources/hotels/ritz-carlton.jpg",
       "rate": 3,
       "price": 140,
       "price_history": [
@@ -83,7 +83,7 @@
     {
       "name": "Aloft Charlotte Uptown at the EpiCentre",
       "description": "Located in the heart of Uptown Charlotte, this boutique hotel features on-site dining and live entertainment. An indoor pool and free Wi-Fi are provided. A Charlotte light rail station is adjacent to the property.",
-      "image": "http://www.raphaelfabeni.com.br/rv/test-resources/images/hotels/aloft-charlotte.jpg",
+      "image": "http://www.raphaelfabeni.com.br/rv/test-resources/hotels/aloft-charlotte.jpg",
       "rate": 5,
       "price": 600.10,
       "price_history": [
@@ -99,7 +99,7 @@
     {
       "name": "Courtyard Charlotte City Center",
       "description": "Located in the heart of downtown Charlotte, North Carolina, this hotel is within walking distance of Blumenthal Performing Arts Center and features a skyline pool and free in-room Wi-Fi.",
-      "image": "http://www.raphaelfabeni.com.br/rv/test-resources/images/hotels/courtyard-charlotte.jpg",
+      "image": "http://www.raphaelfabeni.com.br/rv/test-resources/hotels/courtyard-charlotte.jpg",
       "rate": 3,
       "price": 190.90,
       "price_history": [
@@ -115,7 +115,7 @@
     {
       "name": "Facilities of SpringHill Suites by Marriott Charlotte Uptown",
       "description": "Located 201 m from Mint Museum of Craft Design in Charlotte, SpringHill Suites by Marriott Charlotte Uptown features free WiFi access and private parking.",
-      "image": "http://www.raphaelfabeni.com.br/rv/test-resources/images/hotels/spring-hill-marriot.jpg",
+      "image": "http://www.raphaelfabeni.com.br/rv/test-resources/hotels/spring-hill-marriot.jpg",
       "rate": 5,
       "price": 400,
       "price_history": [
@@ -131,7 +131,7 @@
     {
       "name": "Holiday Inn Charlotte-Center City",
       "description": "Located in the city centre of Charlotte, North Carolina, surrounded by local attractions including the Charlotte Convention Center, this hotel features an on-site restaurant and a modern, rooftop pool offering city views.",
-      "image": "http://www.raphaelfabeni.com.br/rv/test-resources/images/hotels/holiday-inn.jpg",
+      "image": "http://www.raphaelfabeni.com.br/rv/test-resources/hotels/holiday-inn.jpg",
       "rate": 5,
       "price": 290,
       "price_history": [
@@ -147,7 +147,7 @@
     {
       "name": "Dunhill Hotel",
       "description": "Centrally in downtown Charlotte, this historic hotel has been open since 1929 and features unique architecture. Complimentary expanded continental breakfast, free Wi-Fi, and luxurious rooms with a flat-screen TV are provided.",
-      "image": "http://www.raphaelfabeni.com.br/rv/test-resources/images/hotels/dunhill-hotel.jpg",
+      "image": "http://www.raphaelfabeni.com.br/rv/test-resources/hotels/dunhill-hotel.jpg",
       "rate": 3,
       "price": 175,
       "price_history": [
@@ -163,7 +163,7 @@
     {
       "name": "Kimpton Tryon Park Hotel",
       "description": "Set in the Downtown Charlotte district in Charlotte, 400 metres from Epicenter, Kimpton Tryon Park Hotel features air-conditioned rooms and private parking. Guests can enjoy the on-site bar.",
-      "image": "http://www.raphaelfabeni.com.br/rv/test-resources/images/hotels/kimpton-tryon.jpg",
+      "image": "http://www.raphaelfabeni.com.br/rv/test-resources/hotels/kimpton-tryon.jpg",
       "rate": 4,
       "price": 330,
       "price_history": [
@@ -179,7 +179,7 @@
     {
       "name": "Hilton Charlotte Center City",
       "description": "Ideally located in the center of Charlotte city center, this hotel is directly across from the Charlotte Convention Center and features a large variety of modern services and state-of-the-art amenities.",
-      "image": "http://www.raphaelfabeni.com.br/rv/test-resources/images/hotels/hilton-charlotte.jpg",
+      "image": "http://www.raphaelfabeni.com.br/rv/test-resources/hotels/hilton-charlotte.jpg",
       "rate": 2,
       "price": 175,
       "price_history": [
