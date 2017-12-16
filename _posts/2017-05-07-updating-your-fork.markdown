@@ -58,4 +58,10 @@ With the *upstream* updated, we have to `merge/rebase` our local version (suppos
 $ git merge upstream/master master
 {% endhighlight  %}
 
+Now if you want to update your Github repository with your local repository before making your changes and commit them, we do:
+
+{% highlight bash %}
+$ git push origin master
+{% endhighlight  %}
+
 And that's it! Now our local project is sync and updated with the original version, and if you send the changes to GitHub, the pull request will be enabled.

@@ -63,6 +63,12 @@ $ git merge upstream/master master
 
 Como lembrado pelo [Lucas Mazza](https://twitter.com/lucasmazza), aqui podemos também usar o `rebase`, evitando assim a mensagem do *merge*.
 
-Pronto! Agora nosso projeto local está sincronizado e atualizado com a versão original e, após enviar suas alterações para o GitHub, conseguimos fazer o *pull request* e torcer para ser aceito.
+Agora caso queira atualizar seu repositório do Github com seu reposítório local antes de fazer suas mudanças e dar seu commit, fazemos:
+
+{% highlight bash %}
+$ git push origin master
+{% endhighlight  %}
+
+Pronto! Agora nosso projeto local e remoto está sincronizado e atualizado com a versão original e, após enviar suas alterações para o GitHub, conseguimos fazer o *pull request* e torcer para ser aceito.
 
 Gostou? Escrevi alguma groselha? Quer melhorar? Abra uma [issue](https://github.com/raphaelfabeni/raphaelfabeni.github.io/issues) com a hashtag *1postperweek* e vamos conversar.
