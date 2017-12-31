@@ -1,12 +1,5 @@
 source "http://rubygems.org"
 
-gem 'jekyll'
+gem 'jekyll', '~> 3.0'
 gem 'sass'
-#gem 'jekyll-sitemap'
-#gem 'html-proofer'
-
-platform :ruby, :mswin, :mingw do
-  gem 'pygments.rb', '~> 0.6.0'
-end
-
-gem 'kramdown', '~> 1.7.0'
+gem 'kramdown', '~> 1.15.0'
