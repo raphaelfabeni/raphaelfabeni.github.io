@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "The end of clearfix"
-description: ""
+description: "A new way to stop using the clearfix for grids and layouts."
 type: Post
 image: 'https://user-images.githubusercontent.com/1345662/32815391-00071d56-c99b-11e7-9a91-898127f9ac8d.jpg'
 alt: 'Image showing a jellyfish in a blue sea.'
