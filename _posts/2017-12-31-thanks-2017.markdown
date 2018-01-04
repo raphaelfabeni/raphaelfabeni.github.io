@@ -13,7 +13,7 @@ url_en: /thanks-2017/
 
 ## css loader
 
-My dear [css-loader](https://github.com/raphaelfabeni/css-loader){:target="_blank"} was listed in the [css-weekly](http://css-weekly.com/issue-253/){:target="_blank"}. That was amazing! My simple and humble project created in one night, now it reached a lot of people, and for me, what it was the best part: the project started receiving contributions and improvements ideas.
+My simple project [css-loader](https://github.com/raphaelfabeni/css-loader){:target="_blank"} was listed in the [css-weekly](http://css-weekly.com/issue-253/){:target="_blank"}. That was amazing! Something I created in one night, it reached a lot of people it started receiving contributions and improvements ideas (what for me it's the best part).
 
 ## Hawaii
 
@@ -25,7 +25,7 @@ Hawaii! If one day you have the opportunity, you should travel to Hawaii. That's
 
 ## CSS tips talk
 
-This year, I gave a [talk](https://www.youtube.com/watch?v=Y7NvSAhbXlc){:target="_blank"} about a subject I've always wanted to talk about it. I named as _CSS tips_, but my idea here was to show some simple stuff, that usually we or don't know or we never think about it in CSS and that could help us a lot. I still pretend update the talk with some new content and try to show it in other conferences/meetups.
+This year, I gave a [talk](https://www.youtube.com/watch?v=Y7NvSAhbXlc){:target="_blank"} about a subject I've always wanted to talk about it. I named as _CSS tips_, but my idea here was to show some simple stuff, that usually we don't know or never think about it in CSS. These stuff could help us **a lot**. I still pretend update the talk with some new content and I want trying to show in other conferences/meetups.
 
 The talk was in FrontinSampa: this year they were bigger than ever, and the biggest conference I've already spoken was the same FrontinSampa some years ago. So, you could imagine how nervous I was. I think what helped me was the really strong light at the stage that didn't let me see all the people.
 
@@ -49,6 +49,6 @@ And.. I think that's it. A lot of other nice stuff happened this year but if I t
 * Only amazing stuff happened? _No_.
 * Did I keep facing all these stuff trying to see the positive side of them? _Yes_.
 
-That's for me changes everything. You can start complaining about everything that goes wrong or you could try to see the positive side of it and start facing the life in another way.
+This for me changes everything. You can start complaining about everything that goes wrong or you could try to see the positive side of it and start facing the life in another way.
 
 <script async defer src="//platform.instagram.com/en_US/embeds.js"></script>
