@@ -16,7 +16,7 @@ We could pass some parameters in functions, right? Okay. With ES6 it is possible
 When we create a function, we could verify that the values were passed or not, and maybe assign a value to it; something like that.
 
 {% highlight js %}
-function oldHello(name) {
+function oldHello(name, nickname) {
   var name = (!name) ? 'James Bond' : name;
   var nickname = (!nickname) ? 'Bond' : nickname;
   
