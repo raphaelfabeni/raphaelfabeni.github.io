@@ -27,35 +27,35 @@ As can be noted, the basic idea is to have three things:
 
 Huh?! Imagine a list of items with an active item, something more like this:
 
-{% highlight html %}
+```html
 <ul class="list">
   <li class="list-item active"></li>
   <li class="list-item"></li>
   <li class="list-item"></li>
 </ul>
-{% endhighlight %}
+```
 
-{% highlight css %}
+```css
 .list {}
 .list-item {}
 .list-item.active {}
-{% endhighlight %}
+```
 
 Applying the *BEM*, we have something like this:
 
-{% highlight html %}
+```html
 <ul class="list">
   <li class="list__item"></li>
   <li class="list__item"></li>
   <li class="list__item list__item--active"></li>
 </ul>
-{% endhighlight %}
+```
 
-{% highlight css %}
+```css
 .list {}
   .list__item {}
   .list__item--active {}
-{% endhighlight %}
+```
 
 I need to admit that some time ago when I discovered the **BEM** methodology I thought: *"This is so weird!"*. All those `__` and `--` were so strange . But now, that I know more about the idea, I can say that convinced me. Of course, like any others thoughts/methodologies, there are positive and negative points and it is up to you, give the final word.
 

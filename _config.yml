@@ -9,10 +9,20 @@ url_en: "http://www.raphaelfabeni.com.br/en"
 exclude: ['node_modules', 'package.json', 'bin', 'README.md', 'script.bash', 'Gemfile.lock', 'Gemfile', 'start.bash', 'src']
 
 # Build settings
-markdown: kramdown
 permalink: pretty
-syntax_highlighter: rouge
+markdown: kramdown
+kramdown:
+  input: GFM
+  # syntax_highlighter: rouge
 
 source:      .
 destination: ./_site
 permalink:   /:categories/:title/
+
+
+# thankful_eyes
+# base16.dark
+# base16.solarized
+# gruvbox.light
+
+# rougify style github > src/styles/layout/syntax/_light.sass

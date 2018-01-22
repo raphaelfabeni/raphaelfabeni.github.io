@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Compartilhe seu conhecimento"
-description: "Bote na cabeça uma coisa: algo que muitas vezes pode ser considerado simples ou bobo, pode ajudar e muito outras pessoas!"
+description: 'Bote na cabeça uma coisa: algo que muitas vezes pode ser considerado simples ou bobo, pode ajudar e muito outras pessoas!'
 type: Post
 image: 'https://cloud.githubusercontent.com/assets/1345662/11458135/66aaaade-96a1-11e5-9398-6f3e9a24f46c.jpg'
 alt: 'Alunos em uma sala de aula antiga estudando'

@@ -15,7 +15,7 @@ Parâmetros passados em funções, ok? Ok. Com ES6 é possível passar valores p
 
 Quando criamos uma função, poderíamos verificar se os valores foram passados ou não, e dependendo da resposta, atribuir um valor a ele; algo mais ou menos assim.
 
-{% highlight js %}
+```js
 function oldHello(name) {
   var name = (!name) ? 'James Bond' : name;
   var nickname = (!nickname) ? 'Bond' : nickname;
@@ -25,18 +25,18 @@ function oldHello(name) {
 
 oldHello();
 // My name is Bond, James Bond
-{% endhighlight %}
+```
 
 Agora, podemos fazer algo assim:
 
-{% highlight js %}
+```js
 function hello(name = 'James Bond', nickname = 'Bond') {
   console.log('My name is ' + nickname + ', ' + name);
 }
 
 hello();
 // My name is Bond, James Bond
-{% endhighlight %}
+```
 
 [Aqui](http://jsbin.com/kofifu/edit?js,console) você encontra um JS Bin com os exemplos acima.
 

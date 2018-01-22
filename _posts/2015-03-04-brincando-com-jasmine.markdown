@@ -27,20 +27,20 @@ Pra essa brincadeira criei duas pastas: uma com o nome `jasmine` onde joguei tod
 
 E a estrutura completa ficaria assim:
 
-{% highlight html %}
+```html
 ├── jasmine (todos os arquivos do framework)
 └── hello
     ├── hello.js
     └── spec
         ├── index.html
         └── hello.spec.js
-{% endhighlight %}
+```
 
 **Um adendo:** essa foi uma organização só a fim de exemplo.
 
 Então temos nosso menino `spec/index.html`:
 
-{% highlight html %}
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -59,23 +59,23 @@ Então temos nosso menino `spec/index.html`:
 <body>
 </body>
 </html>
-{% endhighlight %}
+```
 
 Aí temos um exemplo simples de arquivo `JavaScript`:
 
-{% highlight js %}
+```js
 var Hello = function() {};
 
 Hello.prototype.sayHi = function(name) {
   return 'my name is ' + name + ' and I\'m learning Jasmine!';
 };
-{% endhighlight %}
+```
 
 Observando o arquivo anterior, conseguimos já visualizar o que acontece certo? Mentalmente já esperamos que ao criarmos um **objeto** utilizando `Hello` e chamarmos o **método** `sayHy`, deve-se retornar uma **string** específica com o **argumento** que passarmos.
 
 Passando pra parte testável da coisa. Vamos lá, poderíamos implementar nosso teste assim:
 
-{% highlight js %}
+```js
 describe('Hello :)', function() {
 
   var hello = new Hello();
@@ -85,7 +85,7 @@ describe('Hello :)', function() {
   });
 
 });
-{% endhighlight %}
+```
 
 Destrinchando nosso arquivo de teste:
 
@@ -94,7 +94,7 @@ Destrinchando nosso arquivo de teste:
 
 Poderíamos também mudar algumas coisas na organização do código e adicionarmos a função `beforeEach`:
 
-{% highlight js %}
+```js
 describe('Hello :)', function() {
 
   var hello;
@@ -108,7 +108,7 @@ describe('Hello :)', function() {
   });
 
 });
-{% endhighlight %}
+```
 
 A função `beforeEach` como o próprio nome diz, roda uma vez antes de cada `spec` do `describe` e, também existe o `afterEach` que tem o papel inverso e roda uma vez depois de cada `spec`.
 
@@ -123,7 +123,7 @@ Se abrirmos nosso `index.html` para rodarmos nossos testes, teremos algo assim:
 
 Nosso arquivo `hello.js` ficaria assim:
 
-{% highlight js %}
+```js
 var Hello = function() {};
 
 Hello.prototype.sayHi = function(name) {
@@ -131,11 +131,11 @@ Hello.prototype.sayHi = function(name) {
 };
 
 module.exports = Hello;
-{% endhighlight %}
+```
 
 E nosso arquivo de testes `hello.spec.js` ficaria assim:
 
-{% highlight js %}
+```js
 var Hello =  require('./hello.js');
 
 describe('Hello', function() {
@@ -147,7 +147,7 @@ describe('Hello', function() {
   });
 
 });
-{% endhighlight %}
+```
 
 Eaí é só rodarmos nosso teste via terminal:
 
@@ -161,7 +161,7 @@ No exemplo anterior primeiro desenvolvemos nosso código e depois escrevemos nos
 
 Comecemos de algo básico: imagine que queremos ter uma função simples que aceita 2 números como argumentos e nos retorna o resultado da adição de ambos. Poderíamos fazer um teste simples assim:
 
-{% highlight js %}
+```js
 describe('Calc', function() {
 
   it('should calculate the addition of two numbers', function() {
@@ -173,7 +173,7 @@ describe('Calc', function() {
   });
 
 });
-{% endhighlight %}
+```
 
 No teste acima, quebramos nosso componente em 2 testes específicos:
 
@@ -184,11 +184,11 @@ No teste acima, quebramos nosso componente em 2 testes específicos:
 
 Tendo isso em mente, podemos partir pro nosso código:
 
-{% highlight js %}
+```js
 function add(x, y) {
   return x + y;
 }
-{% endhighlight %}
+```
 
 Com certeza, de cara já poderíamos imaginar algo assim certo? No entanto como é de se esperar isso vai nos retornar um erro quando rodarmos os testes.
 
@@ -198,11 +198,11 @@ Com certeza, de cara já poderíamos imaginar algo assim certo? No entanto como 
 
 Nossos testes quebraram e conseguimos ver exatamente onde: *Calc 1 argument - should calculate the addition using the argument twice*. Isso acontece pois não fizemos nenhum tratamento na nossa função caso recebessemos apenas um argumento. Vamos lá então:
 
-{% highlight js %}
+```js
 function add(x, y) {
   return y ? x + y : x + x;
 }
-{% endhighlight %}
+```
 
 Agora se rodarmos os testes novamente:
 

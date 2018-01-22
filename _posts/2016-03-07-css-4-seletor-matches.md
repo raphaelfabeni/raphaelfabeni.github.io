@@ -15,30 +15,30 @@ CSS3 já era coisa fina. Agora, na sua versão 4, ou melhor dizendo, em seu *ní
 
 Com ele, podemos substituir por exemplo, uma marcação assim:
 
-{% highlight css %}
+```css
 div .highlight,
 footer .highlight {
   color: blue;
 }
-{% endhighlight %}
+```
 
 Para algo assim:
 
-{% highlight css %}
+```css
 :matches(div, footer) .highlight {
   color: blue;
 }
-{% endhighlight %}
+```
 
 Ou seja, `atacamos` toda classe `highlight` que seja filha de uma `div` ou `footer`.
 
 Podemos ainda fazer da maneira inversa, como no exemplo abaixo: onde selecionamos todos elementos `p` que tenham a classe `success` ou que seja `":first-child`.
 
-{% highlight css %}
+```css
 p:matches(:first-child, .success) {
   color: green;
 }
-{% endhighlight %}
+```
 
 <figure class="text-center loading">
   <p data-height="400" data-theme-id="4240" data-slug-hash="LNGZYx" data-default-tab="result" data-user="raphaelfabeni" class="codepen">See the Pen <a href="http://codepen.io/raphaelfabeni/pen/LNGZYx/">:matches selector</a> by Raphael Fabeni (<a href="http://codepen.io/raphaelfabeni">@raphaelfabeni</a>) on <a href="http://codepen.io">CodePen</a>.</p>

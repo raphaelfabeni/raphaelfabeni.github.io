@@ -15,30 +15,30 @@ CSS3 was already something really cool. Now, in version 4, or better saying, in 
 
 Using it, we could substitute something like that:
 
-{% highlight css %}
+```css
 div .highlight,
 footer .highlight {
   color: blue;
 }
-{% endhighlight %}
+```
 
 For that:
 
-{% highlight css %}
+```css
 :matches(div, footer) .highlight {
   color: blue;
 }
-{% endhighlight %}
+```
 
 In other words, we get every `highlight` class that are children of a `div` or `footer`.
 
 We could even make the inverse way, as in the example below: we select all `p` elements that have the `success` class or that is `first-child`.
 
-{% highlight css %}
+```css
 p:matches(:first-child, .success) {
   color: green;
 }
-{% endhighlight %}
+```
 
 <figure class="text-center loading">
   <p data-height="400" data-theme-id="4240" data-slug-hash="LNGZYx" data-default-tab="result" data-user="raphaelfabeni" class="codepen">See the Pen <a href="http://codepen.io/raphaelfabeni/pen/LNGZYx/">:matches selector</a> by Raphael Fabeni (<a href="http://codepen.io/raphaelfabeni">@raphaelfabeni</a>) on <a href="http://codepen.io">CodePen</a>.</p>

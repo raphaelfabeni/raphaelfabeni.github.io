@@ -31,10 +31,10 @@ O elemento <code>time</code> representa uma data e/ou um tempo no <a href="http:
 
 Um exemplo abaixo:
 
-{% highlight html %}
+```html
 <!-- 1º Fevereiro 2009 -->
 <time>2009-02-01</time>
-{% endhighlight  %}
+```
 
 No código acima, eu estou definindo uma data, especificamente 1º de fevereiro de 2009. O formato utilizado no código (aaaa-mm-dd) deve ser familiar para você se você já mexeu algum tempo com Linux, mas, como veremos mais adiante neste artigo, este não é o único formato válido.
 
@@ -42,10 +42,10 @@ No primeiro esboço das especificações, datas precisas eram um dos poucos form
 
 Felizmente, esse tipo de data agora é permitida na especificação. Então, hoje nós podemos descrever um determinado mês de um ano sem um dia:
 
-{% highlight html %}
+```html
 <!-- Janeiro 2014 -->
 <time>2014-01</time>
-{% endhighlight  %}
+```
 
 ## O atributo <code>datetime</code>
 
@@ -57,24 +57,24 @@ Este problema pode ser facilmente resolvido usando o atributo <code>datetime</co
 
 Na verdade, se o atributo <code>datetime</code> não for especificado, o conteúdo deve estar em um dos formatos de data/hora válidos, caso contrário, podemos usá-lo como quisermos. Isso é ótimo porque nos permite escrever um código assim:
 
-{% highlight html %}
+```html
 A próxima reunião está agendada para <time datetime="2014-10">Outubro</time>.
-{% endhighlight  %}
+```
 
 Ou assim:
 
-{% highlight html %}
+```html
 A próxima reunião está agendada para o <time datetime="2014-10">próximo mês</time>.
-{% endhighlight  %}
+```
 
 Ambos exemplos possuem um conteúdo de data que não é legível por uma máquina de acordo com a especificação, mas são aceitáveis​​, por causa da presença do atributo <code>datetime</code>, que <i>faz uso</i> de um formato válido.
 
 À primeira vista, isso pode parecer estranho. Mas o conteúdo do elemento foi concebido para servir os seres humanos, não máquinas. Além disso, esse fato permite a internacionalização das datas. Por exemplo:
 
-{% highlight html %}
+```html
 <!-- Mesma mensagem anterior, só que em italiano -->
 Il prossimo incontro è programmato per <time datetime="2014-10">il mese prossimo</time>.
-{% endhighlight  %}
+```
 
 No código acima temos a mesma mensagem anterior, só que em Italiano.
 
@@ -84,7 +84,7 @@ Os primeiros rascunhos da especificação definiam um atributo <code>pubdate</co
 
 Você poderia escrever por exemplo:
 
-{% highlight html %}
+```html
 <article>
     <h1>Um título</h1>
     <p>Esse é o conteúdo do article.</p>
@@ -92,7 +92,7 @@ Você poderia escrever por exemplo:
         <p>Artigo publicado em <time datetime="2014-09-05" pubdate>05 de setembro de 2014</time>
     </footer>
 </article>
-{% endhighlight  %}
+```
 
 Nesse caso, 05 de setembro de 2014 seria a data de publicação desse <code>article</code>.
 
@@ -100,7 +100,7 @@ Eu fui um grande fã deste atributo desde que aprendi bastante sobre isso, mas, 
 
 No atual momento não existe um atributo que substitua <code>pubdate</code>, mas você pode empregar o <a href="http://schema.org/BlogPosting" target="_blank">BlogPosting schema</a>, e especificamente o valor <code>datePublished</code> como mostrado abaixo:
 
-{% highlight html %}
+```html
     <article itemscope itemType="http://schema.org/BlogPosting">
         <h1 itemprop="headline">Um título</h1>
         <p itemprop="articleBody">Conteúdo do article.</p>
@@ -109,7 +109,7 @@ No atual momento não existe um atributo que substitua <code>pubdate</code>, mas
             <p>Artigo publicado em <time datetime="2014-09-05" itemprop="datePublished">05 de setembro de 2014</time>
         </footer>
 </article>
-{% endhighlight  %}
+```
 
 Agora que você tem um <i>overview</i> completo do elemento <code>time</code>, vamos ver os diversos formatos permitidos.
 
@@ -119,10 +119,10 @@ Os formatos validos para o conteúdo do elemento <code>time</code> na ausência 
 
 Deve ser uma <i>string</i> especificando um mês específico de um ano no formato <b>aaaa-mm</b>. Por exemplo:
 
-{% highlight html %}
+```html
 <!-- Setembro 2014 -->
 <time>2014-09</time>
-{% endhighlight  %}
+```
 
 ## Uma data válida (dia do mês)
 
@@ -130,20 +130,20 @@ Deve ser uma <i>string</i> especificando uma data precisa no formato <b>aaaa-mm-
 
 Por exemplo:
 
-{% highlight html %}
+```html
 <!-- 16 de setembro de 2014 -->
 <time>2014-09-16</time>
-{% endhighlight  %}
+```
 
 ## Uma data válida sem ano
 
 Deve ser uma <i>string</i> especificando um mês e um dia sem um ano no formato <b>mm-dd</b>.
 
 Por exemplo:
-{% highlight html %}
+```html
 <!-- 29 de Junho -->
 <time>06-29</time>
-{% endhighlight  %}
+```
 
 ## Um tempo válido
 
@@ -158,71 +158,71 @@ Deve ser uma <i>string</i> especificando um tempo sem uma data e usando o format
 
 Um exemplo desse formato mostrado abaixo:
 
-{% highlight html %}
+```html
 <!-- 16 horas e 10 minutos (ou 4 horas e 10 minutos pm) -->
 <time datetime="16:10">afternoon</time>
-{% endhighlight  %}
+```
 
 ## Uma data e hora <i>flutuante</i> válida
 
 Esse formato é apresentado na especificação do W3C, mas não na versão WHATWG. Deve ser uma data e um tempo precisos no formato <b>aaaa-mm-ddTHH:MM[:SS[.mm]]</b> ou <b>aaaa-mm-dd HH:MM[:SS[.mmm]]</b>. Por exemplo:
 
-{% highlight html %}
+```html
 <!-- 16 de Setembro de 2014 às 18 horas, 20 minutos, e 30 segundos -->
 <time datetime="2014-09-16T18:20:30">Terça-feira às 18:20</time>
-{% endhighlight  %}
+```
 
 ## Um fuso horário válido
 
 Deve ser uma <i>string</i> representando um fuso horário. Por exemplo:
 
-{% highlight html %}
+```html
 <!-- GMT+1 (Itália) -->
 <time>+01:00</time>
-{% endhighlight  %}
+```
 
 ## Uma data e tempo global válidos
 
 Deve ser uma <i>string</i> representando uma data completa, incluindo tempo e fuso horário. Por exemplo:
 
-{% highlight html %}
+```html
 <!-- 16 de Setembro de 2014 às 18 horas, 20 minutos, e 30 segundos um um fuso horário de GMT+1 (como a Itália) -->
 <time>2014-09-16T18:20:30+01:00</time>
-{% endhighlight  %}
+```
 
 ## Uma semana válida
 
 Deve ser uma <i>string</i> representando uma semana do ano. Por exemplo:
 
-{% highlight html %}
+```html
 <!-- A 18ª semana de 2014 -->
 <time>2014-W18</time>
-{% endhighlight  %}
+```
 
 ## Um ano válido
 
 Deve ser uma <i>string</i> representando um ano. Por exemplo:
 
-{% highlight html %}
+```html
 <!-- 2014 -->
 <time datetime="2014">Esse ano</time>
-{% endhighlight  %}
+```
 
 ## Uma <i>string</i> válida de duração
 
 Deve ser uma <i>string</i> representando uma duração. Uma duração pode começar com o prefixo <i>"P"</i> (para <i>período</i>) e usa <i>"D"</i> para marcar os <i>dias</i>. Por exemplo:
 
-{% highlight html %}
+```html
 <!-- Uma duração de 4 dias -->
 <time datetime="P4D">quatro dias</time>
-{% endhighlight  %}
+```
 
 Em caso da necessidade de especificar melhor o período, após o <i>"D"</i>, você pode adicionar um <i>"T"</i>, que significa <i>tempo</i>, e usar <i>"H"</i> para <i>horas</i>, <i>"M"</i> para <i>minutos</i> e <i>"S"</i> para <i>segundos</i>. Assim:
 
-{% highlight html %}
+```html
 <!-- Uma duração de quatro dias, quatro horas e três minutos -->
 <time datetime="P4DT4H3M">quatro dias</time>
-{% endhighlight  %}
+```
 
 Esse formato também permite a você especificar um ou mais <a href="http://www.w3.org/TR/html5/infrastructure.html#duration-time-component" target="_blank">componentes de duração de tempo</a>.
 
@@ -230,9 +230,9 @@ Esse formato também permite a você especificar um ou mais <a href="http://www.
 
 A especificação atual tem algumas limitações no que você pode definir com o elemento <code>time</code>. Uma dessas limitações é que você não pode indicar intervalos de datas. Então, se você estiver escrevendo um post sobre uma conferência que dura mais de um dia, por exemplo a partir de 26 de junho de 2014 a 28 de junho de 2014, você terá que usar dois elementos <code>time</code>. Um bom exemplo pode ser encontrado na <a href="http://aurelio.audero.it/speaking" target="_blank">página sobre palestras do meu website</a>, onde eu uso o elemento <code>time</code>, como mostrado abaixo:
 
-{% highlight html %}
+```html
 <time datetime="2014-06-28">26<span class="hidden">de Junho de 2014</span></time>-<time datetime="2014-06-28">28 Junho 2014</time>
-{% endhighlight  %}
+```
 
 Outra limitação é que você não pode usar o elemento <code>time</code> para representar datas antes da <a href="http://en.wikipedia.org/wiki/Common_Era" target="_blank">Era Comum</a>.
 

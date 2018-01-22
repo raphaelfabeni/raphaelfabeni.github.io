@@ -23,38 +23,38 @@ Editar _commits_? Pra que? Pois é. Alguns casos:
 
 Um exemplo simples e rápido. Imagine que no seu projeto você fez uma alteração e fez um _commit_:
 
-{% highlight bash %}
+```bash
 git commit -m 'Ajustes de CSS e JS no slideshow.'
-{% endhighlight %}
+```
 
 Aí você lembrou que tinha que atualizar o `README` (ou preferiu deixar em _commits_ separados) do projeto:
 
-{% highlight bash %}
+```bash
 git commit -m 'Atualiza o README.'
-{% endhighlight %}
+```
 
 Então você sai pra pegar um chá (não bebo café ¯\\\_(ツ)_/¯) e no meio do caminho lembra que faltou uma alteração de CSS. Aí você volta, faz a alteração e comita novamente:
 
-{% highlight bash %}
+```bash
 git commit -m 'Mais ajustes de CSS e JS no slideshow.'
-{% endhighlight %}
+```
 
 Se rodássemos um simples *log* para ver os _commits_ teríamos algo assim (limitei apenas aos 3 últimos, para o exemplo):
 
-{% highlight bash %}
+```bash
 git log --oneline
 74e6f3e Mais ajustes de CSS e JS no slideshow.
 1ee9572 Atualiza o README.
 9afe987 Ajustes de CSS e JS no slideshow.
-{% endhighlight %}
+```
 
 Se o projeto é pequeno/pessoal, até daria pra deixar assim, no entanto, quando estamos trabalhando com outras pessoas em um projeto grande, pode ficar meio estranho no conjunto da história. É aí que entra o *interactive rebase*. Com ele conseguimos alterar _commits_ em um mesmo *branch*. Paremos de falar e vamos ao que interessa.
 
 ## Como faço?
 
-{% highlight bash %}
+```bash
 git rebase -i HEAD~3
-{% endhighlight %}
+```
 
 Rodamos o comando acima onde o:
 
@@ -63,7 +63,7 @@ Rodamos o comando acima onde o:
 
 Feito isso aparecerá uma tela similar a essa abaixo (todas *telas* citadas abaixo irão abrir no seu editor que estiver setado como *default*):
 
-{% highlight bash %}
+```bash
 pick 74e6f3e Mais ajustes de CSS e JS no slideshow.
 pick 1ee9572 Atualiza o README.
 pick 9afe987 Ajustes de CSS e JS no slideshow.
@@ -77,23 +77,23 @@ pick 9afe987 Ajustes de CSS e JS no slideshow.
 #  s, squash = use commit, but meld into previous commit
 #  f, fixup = like "squash", but discard this commit's log message
 #  x, exec = run command (the rest of the line) using shell
-{% endhighlight %}
+```
 
 ## Reordenando _commits_
 
 No exemplo acima poderíamos alterar a ordem dos _commits_ deixando juntos os que são relacionados ao mesmo tema por exemplo. Pra isso, na tela anterior, edite a ordem copiando e colando as linhas na ordem que preferir. Para o exemplo, poderíamos algo mais ou menos assim:
 
-{% highlight bash %}
+```bash
 pick 1ee9572 Atualiza o README.
 pick 74e6f3e Mais ajustes de CSS e JS no slideshow.
 pick 9afe987 Ajustes de CSS e JS no slideshow.
-{% endhighlight %}
+```
 
 E ... pronto! Se Se ocorreu tudo certo aparecerá uma mensagem mais ou menos assim:
 
-{% highlight bash %}
+```bash
 Successfully rebased and updated refs/heads/develop.
-{% endhighlight %}
+```
 
 Pode ser que conflitos ocorram, nesse caso o `rebase` para até que você o corrija. Depois é só rodar um `git rebase --continue` para seguir ou um `git rebase --abort` se quiser desistir de tudo.
 
@@ -103,21 +103,21 @@ Outra coisa beeeem bacana é a possibilidade de alterar a mensagem de um _commit
 
 Rodamos novamente o *rebase*:
 
-{% highlight bash %}
+```bash
 git rebase -i HEAD~3
-{% endhighlight %}
+```
 
 Caímos novamente naquela tela com a listagem dos _commits_. Aí digitamos `reword` no _commit_ que quisermos editar a mensagem.
 
-{% highlight bash %}
+```bash
 pick 9afe987 Ajustes de CSS e JS no slideshow.
 pick 74e6f3e Mais ajustes de CSS e JS no slideshow.
 reword 1ee9572 Atualiza o README.
-{% endhighlight %}
+```
 
 Feito isso, caíremos em outra tela, similar a essa:
 
-{% highlight bash %}
+```bash
 Atualiza o README.
 
 # Please enter the commit message for your changes. Lines starting
@@ -131,22 +131,22 @@ Atualiza o README.
 # Changes to be committed:
 #       modified:   README.md
 #
-{% endhighlight %}
+```
 
 Aí é só *taca-le pau* na nova mensagem.
 
-{% highlight bash %}
+```bash
 Atualiza informações sobre dependências JS no README.
 ...
-{% endhighlight %}
+```
 
 E... pronto! \o/ Se rodarmos um *log* simples, veremos a lista dos _commits_ com a mensagem atualizada:
 
-{% highlight bash %}
+```bash
 1ee9572 Atualiza informações sobre dependências JS no README.
 74e6f3e Mais ajustes de CSS e JS no slideshow.
 9afe987 Ajustes de CSS e JS no slideshow.
-{% endhighlight %}
+```
 
 ## Forçando o push
 

@@ -15,19 +15,19 @@ A possibilidade de armazenar valores em variáveis foi um dos pontos principais 
 
 É possível fazermos algo assim:
 
-{% highlight css %}
+```css
 @custom-selector :--button button, .btn, input[type="submit"];
 
 :--button {
   /* css magic */ 
 }
-{% endhighlight %}
+```
 
 O que fizemos acima foi armazenar todos os elementos `button` e `input[type="submit"]` e também com a classe `btn` em `:--button`. Feito isso, declaramos as regras de estilo direto em `:--button`.
 
 Com base nisso, podemos brincar um pouco mais e fazermos algo do tipo:
 
-{% highlight css %}
+```css
 @custom-selector :--enter :hover, :focus, .is-hover;
 @custom-selector :--active :active, .is-active;
 
@@ -38,7 +38,7 @@ Com base nisso, podemos brincar um pouco mais e fazermos algo do tipo:
 :--button:--active {
   /* :active and .is-active styles */
 }
-{% endhighlight %}
+```
 
 O que fizemos na brincadeira acima foi:
 
@@ -48,7 +48,7 @@ O que fizemos na brincadeira acima foi:
 
 Podíamos também chegar no mesmo resultado usando o nosso amigo [matches](/css-4-seletor-matches/):
 
-{% highlight css %}
+```css
 :--button:matches(:hover, :focus, .is-hover) {
   /* :hover, :focus and .is-hover styles */
 }
@@ -56,7 +56,7 @@ Podíamos também chegar no mesmo resultado usando o nosso amigo [matches](/css-
 :--button:matches(:active, .is-active) {
   /* :active and .is-active styles */  
 }
-{% endhighlight %}
+```
 
 A diferença, apontada pelo meu amigo [Rafael Rinaldi](https://twitter.com/rafaelrinaldi) é que o grande `custom selectors` é uma opção de *preset* se comparado com o `matches`, o que o deixa mais fácil de reutilizar.
 

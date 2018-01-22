@@ -20,15 +20,15 @@ Falando em CSS, eu gosto de utilizar comentários para divisão do código em bl
 
 Algum tempo atrás acabei mexendo em um código CSS *beeeeem* antigo. Logo de cara já sai arrumando indentação e principalmente adotando um padrão para a escrita do código. *Mas que padrão é esse?*, você deve estar se perguntando. São coisas simples. Por exemplo, o trecho de código abaixo:
 
-{% highlight css %}
+```css
 .class{border:solid 1px red;}
 
 .class-2{border:solid 1px blue;width:50px;}
-{% endhighlight  %}
+```
 
 Ficaria assim:
 
-{% highlight css %}
+```css
 .class {
     border: solid 1px red;
 }
@@ -37,23 +37,23 @@ Ficaria assim:
     border: solid 1px blue;
     width: 50px;
 }
-{% endhighlight  %}
+```
 
 São pequenos detalhes, mas que para mim fazem uma diferença tremenda. Principalmente na leitura do todo. Mas três classes são tranquilas de mudar, e quando você tem vários arquivos? Minha idéia foi ir para o *Find & Replace* do Sublime Text.
 
 Suponha que temos o seguinte código:
 
-{% highlight css %}
+```css
 .teste{border:solid 1px red;}
 .teste:hover{border-color:blue;}
-{% endhighlight  %}
+```
 
 Eu iria querer pegar o `:` que vem depois da propriedade e colocar um espaço logo após ele, separando-o do valor e assim melhorando um pouco a leitura. Mas veja o que acontece:
 
-{% highlight css %}
+```css
 .teste{border: solid 1px red;}
 .teste: hover{border-color: blue;}
-{% endhighlight  %}
+```
 
 Viram? Ele insere também um espaço antes do `hover`. Poderíamos arrumar isso manualmente ou até fazer um outro *Find & Replace*, trocando `: hover` por `:hover`. Mas não, queria brincar um pouco mais. E foi aí que pensei: *por que não Regex?* #oremos
 
@@ -65,28 +65,28 @@ Minha idéia era tentar aplicar o básico de regex no *Find & Replace* para tent
 
 ### Caso 1 => os dois pontos
 
-{% highlight css %}
+```css
 .class{border:solid 1px red;}
 .class:hover{border:solid 1px blue;}
 .class-inverse{
     border:none;background-color:red;
     width:100px;
 }
-{% endhighlight  %}
+```
 
 * *Find* => `([a-zA-z0-9])\:(?!hover|focus)([a-zA-z0-9])`
 * *Replace* => `$1: $2`
 
 Nesse caso estamos buscando quaisquer digitos ou letras (exceto que formem as strings *hover* ou *focus*) e que estejam em volta de um `:` e substituindo pelo primeiro *match* seguido de dois pontos, espaço e o segundo *match*; deixando nosso código assim.
 
-{% highlight css %}
+```css
 .class{border: solid 1px red;}
 .class:hover{border: solid 1px blue;}
 .class-inverse{
     border: none;background-color: red;
     width: 100px;
 }
-{% endhighlight  %}
+```
 
 ### Caso 2 => as chaves
 
@@ -95,28 +95,28 @@ Nesse caso estamos buscando quaisquer digitos ou letras (exceto que formem as st
 
 Agora apenas buscamos `{` que estejam envoltas em letras ou números e aplicamos um espaço em volta delas.
 
-{% highlight css %}
+```css
 .class { border: solid 1px red;}
 .class:hover { border: solid 1px blue;}
 .class-inverse {
     border: none;background-color: red;
     width: 100px;
 }
-{% endhighlight  %}
+```
 
 * *Find* => `(\;)\}`
 * *Replace* => `$1 }`
 
 Continuando agora para a chave de fechamento, buscamos qualquer `;` que seja seguida de uma `}` e apenas adicionamos um espaço antes dela.
 
-{% highlight css %}
+```css
 .class { border: solid 1px red; }
 .class:hover { border: solid 1px blue; }
 .class-inverse {
     border: none;background-color: red;
     width: 100px;
 }
-{% endhighlight  %}
+```
 
 ### Caso 3 => o ponto e vírgula
 
@@ -125,7 +125,7 @@ Continuando agora para a chave de fechamento, buscamos qualquer `;` que seja seg
 
 Agora buscamos todo `;` que esteja entre letras e/ou dígitos e substituímos pelo primeiro *match* seguido do ponto e vírgula, uma quebra de linha, um *tab* e por fim o segundo *match*; deixando nosso código dessa maneira.
 
-{% highlight css %}
+```css
 .class { border: solid 1px red; }
 .class:hover { border: solid 1px blue; }
 .class-inverse {
@@ -133,7 +133,7 @@ Agora buscamos todo `;` que esteja entre letras e/ou dígitos e substituímos pe
     background-color: red;
     width: 100px;
 }
-{% endhighlight  %}
+```
 
 ## Vale a pena?
 

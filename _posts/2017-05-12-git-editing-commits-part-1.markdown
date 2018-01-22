@@ -21,38 +21,38 @@ The more I work with git, more I realize how powerful it is. Sometime ago I disc
 
 A simple example: let's imagine that in your project you did a change and made a commit:
 
-{% highlight bash %}
+```bash
 git commit -m 'CSS and JS adjusments in slideshow.'
-{% endhighlight %}
+```
 
 So, you just remembered that you needed to update the `README`.
 
-{% highlight bash %}
+```bash
 git commit -m 'Updates README.'
-{% endhighlight %}
+```
 
 So, you went to get a cup of coffee and when you were returning to your desk, you remembered a last CSS adjustment that you have to do. So you do it, and make a new commit:
 
-{% highlight bash %}
+```bash
 git commit -m 'More CSS adjustments in slideshow.'
-{% endhighlight %}
+```
 
 A simple log to see the _commits_ would show something like that (the last 3):
 
-{% highlight bash %}
+```bash
 git log --oneline
 74e6f3e More CSS adjustments in slideshow.
 1ee9572 Updates README.
 9afe987 CSS and JS adjusments in slideshow.
-{% endhighlight %}
+```
 
 If it's a small or even personal project, we could say that is okay to let the _commits_ this way. However, if you are working with other people in a big project, it could be weird three _commits_ for the same and small change. For help us, there is the interactive rebase: using it we could change the _commits_ in a branch.
 
 ## How I do it?
 
-{% highlight bash %}
+```bash
 git rebase -i HEAD~3
-{% endhighlight %}
+```
 
 About the code above:
 
@@ -61,7 +61,7 @@ About the code above:
 
 Running that comand, a screen like this below will show (it will open in your default editor like Vim):
 
-{% highlight bash %}
+```bash
 pick 74e6f3e More CSS adjustments in slideshow.
 pick 1ee9572 Updates README.
 pick 9afe987 CSS and JS adjusments in slideshow.
@@ -75,23 +75,23 @@ pick 9afe987 CSS and JS adjusments in slideshow.
 #  s, squash = use commit, but meld into previous commit
 #  f, fixup = like "squash", but discard this commit's log message
 #  x, exec = run command (the rest of the line) using shell
-{% endhighlight %}
+```
 
 ## Reordering _commits_
 
 In example above we could change the _commits_' order.
 
-{% highlight bash %}
+```bash
 pick 1ee9572 Updates README.
 pick 74e6f3e More CSS adjustments in slideshow.
 pick 9afe987 CSS and JS adjusments in slideshow.
-{% endhighlight %}
+```
 
 And.. it's done! If everything is ok, a message like that will appear:
 
-{% highlight bash %}
+```bash
 Successfully rebased and updated refs/heads/develop.
-{% endhighlight %}
+```
 
 Some conflicts could happen, and in this case the `rebase` command will stop untill you resolve the conflicts. After that you only need to run `git rebase --continue` to continue or `git rebase --abort` to quite and abort the process.
 
@@ -101,21 +101,21 @@ Other thing really cool is the possibility to edit the message of the commit. In
 
 So, we run again the `rebase`.
 
-{% highlight bash %}
+```bash
 git rebase -i HEAD~3
-{% endhighlight %}
+```
 
 And the same screen with the _commits_ list will show for us. Now we change the `pick` word to `reword` in the commit which we want to change the message.
 
-{% highlight bash %}
+```bash
 pick 1ee9572 Updates README.
 pick 74e6f3e More CSS adjustments in slideshow.
 pick 9afe987 CSS and JS adjusments in slideshow.
-{% endhighlight %}
+```
 
 Doing that, a new screen will show for us:
 
-{% highlight bash %}
+```bash
 Updates the README.
 
 # Please enter the commit message for your changes. Lines starting
@@ -129,22 +129,22 @@ Updates the README.
 # Changes to be committed:
 #       modified:   README.md
 #
-{% endhighlight %}
+```
 
 We just need to type the new message.
 
-{% highlight bash %}
+```bash
 Updates README with JS dependencies.
 ...
-{% endhighlight %}
+```
 
 And it's done! If we run a simple _log_, we will see the _commits_ list with the message updated:
 
-{% highlight bash %}
+```bash
 1ee9572 Updates README with JS dependencies.
 74e6f3e More CSS adjustments in slideshow.
 9afe987 CSS and JS adjusments in slideshow.
-{% endhighlight %}
+```
 
 ## Forcing the push
 

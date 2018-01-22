@@ -17,62 +17,62 @@ The *arrow functions* at first might seem confusing (for me *(◕(◕)* ), but a
 
 Without *arrow functions*. 
 
-{% highlight js %}
+```js
 var oldWay = function(name, nickname) {
   return 'My name is ' + nickname + ', ' + name;
 };
 
 console.log( oldWay('James Bond', 'Bond') );
 // My name is Bond, James Bond
-{% endhighlight %}
+```
 
 With *arrow functions*.
 
-{% highlight js %}
+```js
 let newWay = (name, nickname) => {
   return 'My name is ' + nickname + ', ' + name;
 };
 
 console.log( newWay('James Bond', 'Bond') );
 // My name is Bond, James Bond
-{% endhighlight %}
+```
 
 Or in a shorter way.
 
-{% highlight js %}
+```js
 let newWay2 = (name, nickname) => 'My name is ' + nickname + ', ' + name;
 
 console.log( newWay2('James Bond', 'Bond') );
 // My name is Bond, James Bond
-{% endhighlight %}
+```
 
 ## Only one parameter
 
 Without *arrow functions*.
 
-{% highlight js %}
+```js
 var one = function(what) {
   return 'I ' + what + ' you';
 };
 
 console.log( one('hate') );
 // I hate you
-{% endhighlight %}
+```
 
 With *arrow functions*.
 
-{% highlight js %}
+```js
 var oneNew = what => 'I ' + what + ' you';
 
 console.log( oneNew('hate') );
 // I hate you
-{% endhighlight %}
+```
 
 ## Scope
 
 Without *arrow functions*.
 
-{% highlight js %}
+```js
 var sandwich = {
   bread: 'integral',
   cheese: 'white',
@@ -92,11 +92,11 @@ var sandwich = {
 
 // sandwich.make();
 // I want a sandwich with integral bread and white cheese
-{% endhighlight %}
+```
 
 With *arrow functions*.
 
-{% highlight js %}
+```js
 let newSandwich = {
   bread: 'integral',
   cheese: 'white',
@@ -113,13 +113,13 @@ let newSandwich = {
 
 // newSandwich.make();
 // I want a sandwich with integral bread and white cheese
-{% endhighlight %}
+```
 
 ## Example with `map`
 
 Without *arrow functions*.
 
-{% highlight js %}
+```js
 var sample = [1, 2, 3, 4, 5];
 
 var double = sample.map(function(item) {
@@ -128,18 +128,18 @@ var double = sample.map(function(item) {
 
 // console.log(double);
 // [2, 4, 6, 8, 10]
-{% endhighlight %}
+```
 
 With *arrow functions*.
 
-{% highlight js %}
+```js
 let sample = [1, 2, 3, 4, 5];
 
 let newDouble = sample.map(item => item * 2);
 
 // console.log(newDouble);
 // [2, 4, 6, 8, 10]
-{% endhighlight %}
+```
 
 [Here](http://jsbin.com/nogobe/edit?js,console) you can find an JS Bin with the examples.
 
