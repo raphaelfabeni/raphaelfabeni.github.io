@@ -44,6 +44,12 @@
 body
 	transition: color .3s ease
 
+/*----------  Default theme  ----------*/
+
+html:not(.is-light)
+	.post-content
+		@import '../layout/syntax/dark'
+
 /*----------  Light theme  ----------*/
 .is-light
 	@include theme(rgba(0, 0, 0, .85), $color-blue, $color-green, rgba(255, 255, 255, .9), linear-gradient(transparent 50%, rgba(0, 0, 0, .8) 50%))

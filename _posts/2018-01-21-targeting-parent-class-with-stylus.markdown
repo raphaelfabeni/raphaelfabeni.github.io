@@ -44,18 +44,18 @@ Using Stylus, I realized three different ways we could write it (probably there 
 I have to confess that I've already done that. It's ok! It's not so beautiful but it works.
 
 
-```sass
+```stylus
 .fabeni
-	background: blue
+	background blue
 
 	&__child-element
-		border: solid 1px blue
+		border solid 1px blue
 
 	&--inverse
-		background-color: green
+		background-color green
 
 		.fabeni__child-element
-			border-color: green
+			border-color green
 ```
 
 
@@ -63,20 +63,20 @@ I have to confess that I've already done that. It's ok! It's not so beautiful bu
 
 Using this preprocessor feature, easily we could reuse the class.
 
-```sass
+```stylus
 myClass = 'fabeni'
 
 .{myClass}
-	background: blue
+	background blue
 
 	&__child-element
-		border: solid 1px blue
+		border solid 1px blue
 
 	&--inverse
-		background-color: green
+		background-color green
 
 		.{myClass}__child-element
-			border-color: green
+			border-color green
 
 ```
 
@@ -84,18 +84,18 @@ myClass = 'fabeni'
 
 And _booom_! It's possible to target the parent class using the magic `^[0]`.
 
-```sass
+```stylus
 .fabeni
-	background: blue
+	background blue
 
 	&__child-element
-		border: solid 1px blue
+		border solid 1px blue
 
 	&--inverse
-		background-color: green
+		background-color green
 
 		& ^[0]__child-element
-	  		border-color: green
-```stylus
+	  		border-color green
+```
 
 I don't know exactly which Stylus' version supports it, but it's a good homework (I tested directly on the Stylus website).

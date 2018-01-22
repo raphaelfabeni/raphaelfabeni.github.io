@@ -1,155 +1,107 @@
-.highlight .m, .highlight .mb, .highlight .mx
-	color: #009999
+code[class*="language-"]
+	color: black
+	background: none
+	text-shadow: 0 1px white
+	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace
+	text-align: left
+	white-space: pre
+	word-spacing: normal
+	word-break: normal
+	word-wrap: normal
+	line-height: 1.5
+	-moz-tab-size: 4
+	-o-tab-size: 4
+	tab-size: 4
+	-webkit-hyphens: none
+	-moz-hyphens: none
+	-ms-hyphens: none
+	hyphens: none
 
-.highlight .k, .highlight .kv
-	color: #000000
-	font-weight: bold
+pre[class*="language-"]
+	color: black
+	background: none
+	text-shadow: 0 1px white
+	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace
+	text-align: left
+	white-space: pre
+	word-spacing: normal
+	word-break: normal
+	word-wrap: normal
+	line-height: 1.5
+	-moz-tab-size: 4
+	-o-tab-size: 4
+	tab-size: 4
+	-webkit-hyphens: none
+	-moz-hyphens: none
+	-ms-hyphens: none
+	hyphens: none
+	&::-moz-selection, ::-moz-selection
+		text-shadow: none
+		background: #b3d4fc
 
-.highlight
-	background-color: #f8f8f8
-	.go
-		color: #888888
-	.gh
-		color: #999999
-	.gi
-		color: #000000
-		background-color: #ddffdd
-	.ni
-		color: #800080
-	.gd
-		color: #000000
-		background-color: #ffdddd
-	.ge
-		color: #000000
-		font-style: italic
-	table
-		td
-			padding: 5px
-		pre
-			margin: 0
-	.gt
-		color: #aa0000
-	.gu
-		color: #aaaaaa
-	.gp
-		color: #555555
-	.gr
-		color: #aa0000
-	.gs
-		font-weight: bold
-	.sh
-		color: #d14
-	.si
-		color: #d14
-	.nv
-		color: #008080
-	.nt
-		color: #000080
-	.c1
-		color: #999988
-		font-style: italic
-	.sb
-		color: #d14
-	.sc
-		color: #d14
-	.sd
-		color: #d14
-	.se
-		color: #d14
-	.nc
-		color: #445588
-		font-weight: bold
-	.nb
-		color: #0086B3
-	.na
-		color: #008080
-	.sx
-		color: #d14
-	.nf
-		color: #990000
-		font-weight: bold
-	.ne
-		color: #990000
-		font-weight: bold
-	.nd
-		color: #3c5d5d
-		font-weight: bold
-	.sr
-		color: #009926
-	.ss
-		color: #990073
-	.no
-		color: #008080
-	.nn
-		color: #555555
-	.nl
-		color: #990000
-		font-weight: bold
-	.o
-		color: #000000
-		font-weight: bold
-	.ow
-		color: #000000
-		font-weight: bold
-	.vi
-		color: #008080
-	.kc
-		color: #000000
-		font-weight: bold
-	.bp
-		color: #999999
-	.w
-		color: #bbbbbb
-	.s
-		color: #d14
-	.mh
-		color: #009999
-	.mi
-		color: #009999
-	.kd
-		color: #000000
-		font-weight: bold
-	.mo
-		color: #009999
-	.cp
-		color: #999999
-		font-weight: bold
-	.il
-		color: #009999
-	.cs
-		color: #999999
-		font-weight: bold
-		font-style: italic
-	.mf
-		color: #009999
-	.kn
-		color: #000000
-		font-weight: bold
-	.kp
-		color: #000000
-		font-weight: bold
-	.err
-		color: #a61717
-		background-color: #e3d2d2
-	.kr
-		color: #000000
-		font-weight: bold
-	.kt
-		color: #445588
-		font-weight: bold
-	.cm
-		color: #999988
-		font-style: italic
-	.vc
-		color: #008080
-	.s1
-		color: #d14
-	.s2
-		color: #d14
-	.vg
-		color: #008080
+code[class*="language-"]
+	&::-moz-selection, ::-moz-selection
+		text-shadow: none
+		background: #b3d4fc
 
-.highlight .c, .highlight .cd
-	color: #999988
-	font-style: italic
+pre[class*="language-"]
+	&::selection, ::selection
+		text-shadow: none
+		background: #b3d4fc
 
+code[class*="language-"]
+	&::selection, ::selection
+		text-shadow: none
+		background: #b3d4fc
+
+@media print
+	code[class*="language-"], pre[class*="language-"]
+		text-shadow: none
+
+pre[class*="language-"]
+	padding: 1em
+	overflow: auto
+
+:not(pre) > code[class*="language-"], pre[class*="language-"]
+	background: #f5f2f0
+
+:not(pre) > code[class*="language-"]
+	padding: .1em
+	border-radius: .3em
+	white-space: normal
+
+.token
+	&.comment, &.prolog, &.doctype, &.cdata
+		color: slategray
+	&.punctuation
+		color: #999
+
+.namespace
+	opacity: .7
+
+.token
+	&.property, &.tag, &.boolean, &.number, &.constant, &.symbol, &.deleted
+		color: #905
+	&.selector, &.attr-name, &.string, &.char, &.builtin, &.inserted
+		color: #690
+	&.operator, &.entity, &.url
+		color: #a67f59
+		background: hsla(0, 0%, 100%, 0.5)
+
+.language-css .token.string, .style .token.string
+	color: #a67f59
+	background: hsla(0, 0%, 100%, 0.5)
+
+.token
+	&.atrule, &.attr-value, &.keyword
+		color: #07a
+	&.function
+		color: #DD4A68
+	&.regex, &.important, &.variable
+		color: #e90
+	&.important, &.bold
+		font-weight: bold
+	&.italic
+		font-style: italic
+	&.entity
+		cursor: help

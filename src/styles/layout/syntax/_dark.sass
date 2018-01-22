@@ -1,66 +1,155 @@
-.highlight .p, .highlight .pi
-	color: #f8f8f2
+pre[class*="language-"]
+	box-shadow: 1px 1px .5em black inset
+	overflow: auto
+	padding: 1em
 
-.highlight .c, .highlight .cd, .highlight .cm, .highlight .c1, .highlight .cs
-	color: #75715e
+.token.important,
+.token.bold
+	font-weight: bold
 
-.highlight .k, .highlight .kn, .highlight .kp, .highlight .kr, .highlight .kv
-	color: #ae81ff
+.language-markup .token.tag,
+.language-markup .token.attr-name,
+.language-markup .token.punctuation
+	color: hsl(33, 33%, 52%)
 
-.highlight .s, .highlight .sb, .highlight .sc, .highlight .sd, .highlight .s2, .highlight .sh, .highlight .sx, .highlight .s1
-	color: #a6e22e
+pre[class*="language-"]::selection
+	background: hsl(200, 4%, 16%)
 
-.highlight, .highlight .w
-	color: #f8f8f2
-	background-color: #272822
+.line-highlight
+	background: hsla(0, 0%, 33%, 0.25)
+	background: linear-gradient(to right, hsla(0, 0%, 33%, .1) 70%, hsla(0, 0%, 33%, 0))
+	border-bottom: 1px dashed hsl(0, 0%, 33%)
+	border-top: 1px dashed hsl(0, 0%, 33%)
+	left: 0
+	line-height: inherit
+	margin-top: 0.75em
+	padding: inherit 0
+	pointer-events: none
+	position: absolute
+	right: 0
+	white-space: pre
+	z-index: 0
 
-.highlight .o, .highlight .ow
-	color: #f8f8f2
+.token
+	position: relative
+	z-index: 1
+	&.italic
+		font-style: italic
+	&.entity
+		cursor: help
+	&.punctuation
+		opacity: .7
+	&.atrule
+		color: hsl(218, 22%, 55%)
 
-.highlight
-	.si
-		color: #cc6633
-	.kc
-		color: #fd971f
-	.gh
-		color: #66d9ef
-		background-color: #272822
-		font-weight: bold
-	.gi
-		color: #a6e22e
-	.nt
-		color: #f4bf75
-	.cp
-		color: #f4bf75
-	.gd
-		color: #f92672
-	table
-		td
-			padding: 5px
-		pre
-			margin: 0
-	.se
-		color: #cc6633
-	.nc
-		color: #f4bf75
-	.err
-		color: #272822
-		background-color: #f92672
-	.na
-		color: #66d9ef
-	.kt
-		color: #fd971f
-	.kd
-		color: #fd971f
-	.sr
-		color: #a1efe4
-	.ss
-		color: #a6e22e
-	.no
-		color: #f4bf75
-	.nn
-		color: #f4bf75
+:not(pre)
+	& > code[class*="language-"]
+		border-radius: .3em
+		border: .13em solid hsl(0, 0%, 33%)
+		box-shadow: 1px 1px .3em -.1em black inset
+		padding: .15em .2em .05em
+		white-space: normal
 
-.highlight .m, .highlight .mf, .highlight .mh, .highlight .mi, .highlight .il, .highlight .mo, .highlight .mb, .highlight .mx
-	color: #a6e22e
+.token.attr-name,
+.token.attr-value,
+.token.string,
+.token.char,
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string,
+.token.variable,
+.token.inserted
+	color: hsl(76, 21%, 52%)
+
+pre[class*="language-"]::selection, pre[class*="language-"] ::selection,
+code[class*="language-"]::selection, code[class*="language-"] ::selection
+	text-shadow: none
+	background: hsla(0, 0%, 93%, 0.15)
+
+pre[class*="language-"],
+:not(pre) > code[class*="language-"]
+	background: hsl(0, 0%, 8%)
+
+code[class*="language-"],
+pre[class*="language-"]
+	color: white
+	background: none
+	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace
+	text-align: left
+	text-shadow: 0 -.1em .2em black
+	white-space: pre
+	word-spacing: normal
+	word-break: normal
+	word-wrap: normal
+	line-height: 1.5
+	-moz-tab-size: 4
+	-o-tab-size: 4
+	tab-size: 4
+	-webkit-hyphens: none
+	-moz-hyphens: none
+	-ms-hyphens: none
+	hyphens: none
+
+pre[data-line]
+	padding: 1em 0 1em 3em
+	position: relative
+
+pre[class*="language-"]::-moz-selection, pre[class*="language-"] ::-moz-selection,
+code[class*="language-"]::-moz-selection, code[class*="language-"] ::-moz-selection
+	text-shadow: none
+	background: hsla(0, 0%, 93%, 0.15)
+
+.line-highlight:before,
+.line-highlight[data-end]:after
+	background-color: hsl(215, 15%, 59%)
+	border-radius: 999px
+	box-shadow: 0 1px white
+	color: hsl(24, 20%, 95%)
+	content: attr(data-start)
+	font: bold 65%/1.5 sans-serif
+	left: .6em
+	min-width: 1em
+	padding: 0 .5em
+	position: absolute
+	text-align: center
+	text-shadow: none
+	top: .4em
+	vertical-align: .3em
+
+.token.tag,
+.token.boolean,
+.token.number,
+.token.deleted
+	color: hsl(14, 58%, 55%)
+
+pre[class*="language-"]::-moz-selection
+	background: hsl(200, 4%, 16%)
+
+.line-highlight[data-end]:after
+	bottom: .4em
+	content: attr(data-end)
+	top: auto
+
+.token.keyword,
+.token.property,
+.token.selector,
+.token.constant,
+.token.symbol,
+.token.builtin
+	color: hsl(53, 89%, 79%)
+
+.namespace
+	opacity: .7
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata
+	color: hsl(0, 0%, 47%)
+
+.token.regex,
+.token.important
+	color: hsl(42, 75%, 65%)
 
