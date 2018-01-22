@@ -15,7 +15,7 @@ Conheci o grande *destructuring assignment* através do meu brother [Weslley Ara
 
 Para pegarmos uma propriedade de um objeto, poderíamos fazer algo assim:
 
-{% highlight js %}
+```js
 var movieStar = {
   name: 'James Bond',
   nickname: 'Bond',
@@ -24,11 +24,11 @@ var movieStar = {
 
 console.log(movieStar.name);
 // James Bond
-{% endhighlight %}
+```
 
 Com o mano novo, podemos fazer algo assim: 
 
-{% highlight js %}
+```js
 var movieStar = {
   name: 'James Bond',
   nickname: 'Bond',
@@ -41,22 +41,22 @@ console.log(name, profession);
 
 // James Bond
 // Federal Agent
-{% endhighlight %}
+```
 
 ##  Com arrays
 
 Se quiséssemos, por exemplo, pegar o primeiro item do `array`, poderíamos fazer algo do tipo:
 
-{% highlight js %}
+```js
 var mortalKombat = ['Scorpion', 'Liu Kang', 'Sub Zero', 'Johnny Cage'];
 
 console.log(mortalKombat[0]);
 // Scorpion
-{% endhighlight %}
+```
 
 Com o mano *destructuring*, podemos fazer algo assim:
 
-{% highlight js %}
+```js
 let mortalKombat = ['Scorpion', 'Liu Kang', 'Sub Zero', 'Johnny Cage'];
 
 let [user1, user2] = mortalKombat;
@@ -64,11 +64,11 @@ let [user1, user2] = mortalKombat;
 console.log(user1, user2);
 // Scorpion
 // Liu Kang
-{% endhighlight %}
+```
 
 Ainda é possível, brincar um pouco mais:
 
-{% highlight js %}
+```js
 let mortalKombat = ['Scorpion', 'Liu Kang', 'Sub Zero', 'Johnny Cage'];
 
 let [userA, , userB] = mortalKombat;
@@ -81,13 +81,13 @@ console.log(userA, userB);
 console.log(user, users);
 // Scorpion
 // ['Liu Kang', 'Sub Zero', 'Johnny Cage']
-{% endhighlight %}
+```
 
 ## Usando ao importar arquivos
 
 Uma coisa muito legal de se usar o *mano* **destructuring assignment** é quando precisamos importar *coisas* para os nossos arquivos. Imaginemos que tenhamos um arquivo genérico, como um arquivo *helpers*, algo mais ou menos assim:
 
-{% highlight js %}
+```js
 // helpers.js
 export function getNext(arr) {
   return (arr.length);
@@ -97,23 +97,23 @@ export function makeMoney() {
   ...
 };
 ...
-{% endhighlight %}
+```
 
 Legal! Agora em um outro arquivo, vamos imaginar que só iremos precisar dessas duas funções, e não do arquivo inteiro. Podemos fazer algo assim:
 
-{% highlight js %}
+```js
 import { getNext, makeMoney } from '../helpers';
 
 // Agora temos acesso as duas funções no nosso arquivo
 // getNext([1, 2, 3]);
 // makeMoney();
-{% endhighlight %}
+```
 
 ## Aplicando ao `forEach`
 
 Podemos também utilizar no famoso `forEach`. Imaginemos que tenhamos o seguinte cara:
 
-{% highlight js %}
+```js
 var movieStars = [
   {
     name: 'James Bond',
@@ -131,11 +131,11 @@ var movieStars = [
     profession: 'Killer'
   }
 ];
-{% endhighlight %}
+```
 
 Com isso, poderíamos fazer algo assim:
 
-{% highlight js %}
+```js
 movieStars.forEach(function(star) {
   console.log(star.nickname);
 });
@@ -143,23 +143,23 @@ movieStars.forEach(function(star) {
 // Bond
 // Toreto
 // Rambo
-{% endhighlight %}
+```
 
 Utilizando um combo de [arrow-functions](/es6-arrow-functions) e *destructuring*, poderíamos fazer algo assim: 
 
-{% highlight js %}
+```js
 movieStars.forEach( ({nickname}) => console.log(nickname) );
 
 // Bond
 // Toreto
 // Rambo
-{% endhighlight %}
+```
 
 ## Criando objetos
 
 Podemos criar um objeto assim:
 
-{% highlight js %}
+```js
 let username = 'Raphael Fabeni';
 let nickname = 'Fabeni';
 
@@ -173,11 +173,11 @@ console.log(oldGuy);
 //   nickname: "Fabeni",
 //   username: "Raphael Fabeni"
 // }
-{% endhighlight %}
+```
 
 Dá pra ficar mais legal. *◕‿◕*
 
-{% highlight js %}
+```js
 let username = 'Raphael Fabeni';
 let nickname = 'Fabeni';
 
@@ -188,7 +188,7 @@ console.log(newGuy);
 //   nickname: "Fabeni",
 //   username: "Raphael Fabeni"
 // }
-{% endhighlight %}
+```
 
 [Aqui](http://jsbin.com/qejoyo/edit?js,console) você encontra um JS Bin com os exemplos acima.
 

@@ -36,13 +36,13 @@ O que a propriedade *transition* faz é analisar a diferença de valores da(s) p
 
 Antes que você pergunte: não, você não precisa escrever uma por uma, você pode optar pelo *shortcode transition* :
 
-{% highlight css %}
+```css
 transition: property duration delay timing-function;
-{% endhighlight %}
+```
 
 Dessa maneira, as variações abaixo tem o mesmo efeito:
 
-{% highlight css %}
+```css
 .classe {
     transition-property: all;
     transition-duration: 1s;
@@ -51,7 +51,7 @@ Dessa maneira, as variações abaixo tem o mesmo efeito:
 }
 
 .classe { transition: all 1s; }
-{% endhighlight %}
+```
 
 ### Encadeamento de transições
 

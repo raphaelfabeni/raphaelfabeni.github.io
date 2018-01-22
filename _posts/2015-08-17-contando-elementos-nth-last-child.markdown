@@ -23,7 +23,7 @@ E, nesse caminho das pedras, uma hora ou outra teremos que trabalhar com um tipo
 
 Jogo rápido: imaginem uma lista disposta horizontalmente com *5 itens*. Podemos pensar então que em uma determinada resolução cada item teria *20%* de largura da lista e em um determinado *breakpoint* cada item ficaria com a largura total da lista (ou se formos pelo lado do *mobile first*, cada item teria por padrão a largura inteira da lista e, só a partir de um determinado *breakpoint* que ele ficaria com a nova largura de *20%*).
 
-{% highlight css %}
+```css
 .list li {
   width: 20%;
   float: left;
@@ -33,20 +33,20 @@ Jogo rápido: imaginem uma lista disposta horizontalmente com *5 itens*. Podemos
   width: 100%;
   float: none;
 }
-{% endhighlight %}
+```
 
 Ou, se pensarmos numa abordagem *mobile first* (apenas a encargo de exemplo):
 
-{% highlight css %}
+```css
 @media screen and (min-width: 768px) {
   width: 20%;
   float: left;
 }
-{% endhighlight %}
+```
 
 Beleza, *matou*! Mas, e se a quantidade de itens variar? Por exemplo entre 3 e 5? Me deparei com uma situação semelhante alguns dias atrás e meu primeiro pensamento foi: antes da renderização dos elementos na página eu vejo quantos itens tem ali e, dependendo do resultado, coloco uma classe na lista. Algo mais ou menos assim:
 
-{% highlight css %}
+```css
 .list li {
   float: left;
 }
@@ -54,7 +54,7 @@ Beleza, *matou*! Mas, e se a quantidade de itens variar? Por exemplo entre 3 e 5
 .list-3 li { width: 33.3%; }
 .list-4 li { width: 25%; }
 .list-5 li { width: 20%; }
-{% endhighlight %}
+```
 
 Resolve o problema? Resolve. Mas nem sempre temos essa opção, de contar por exemplo com o lado do servidor para nos retornar o número de itens. Aí nesse caso, uma outra solução seria via JavaScript, seguindo o mesmo pensamento: contar os elementos e de acordo com o resultado, aplicar uma classe na lista.
 
@@ -70,11 +70,11 @@ A idéia básica é através do CSS, descobrirmos quantos itens estão presentes
 
 Esse *brother* aí nada mais faz do que contar o elemento partindo do seu último item. Então se quiséssemos, por exemplo selecionar o segundo item da lista, mas iniciando a contagem do fim, faríamos algo assim:
 
-{% highlight css %}
+```css
 .list li:nth-last-child(2) {
   border: solid 1px red;
 }
-{% endhighlight %}
+```
 
 Uma representação bem simples do item selecionado:
 
@@ -91,17 +91,17 @@ Tendo idéia de como selecionar um elemento, podemos estabelecer a seguinte linh
 
 Vamos por partes. Conseguimos matar o primeiro item utilizando o que vimos no exemplo anterior. Então, partindo de uma lista de 5 itens, poderíamos fazer algo assim:
 
-{% highlight css %}
+```css
 .list li:nth-last-child(5),
 .list li:nth-last-child(5) ~ li {
   width: 20%;
   // \o/
 }
-{% endhighlight %}
+```
 
 *E shaaazam!* Conseguimos teoricamente *contar* quantos elementos temos na lista. Agora é só aplicarmos as demais variações.
 
-{% highlight css %}
+```css
 .list li:nth-last-child(3),
 .list li:nth-last-child(3) ~ li { width: 33.3%; }
 
@@ -110,7 +110,7 @@ Vamos por partes. Conseguimos matar o primeiro item utilizando o que vimos no ex
 
 .list li:nth-last-child(5),
 .list li:nth-last-child(5) ~ li { width: 20%; }
-{% endhighlight %}
+```
 
 Fiz um exemplo rápido no *CodePen* com o que falamos aqui.
 

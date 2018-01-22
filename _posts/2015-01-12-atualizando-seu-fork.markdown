@@ -45,29 +45,29 @@ Digamos que você esteja contribuindo para este humilde blog (Valeu [Julio Biten
 
 Adicionamos um remote com base na versão original do blog:
 
-{% highlight bash %}
+```bash
 $ git remote add upstream https://github.com/raphaelfabeni/raphaelfabeni.github.io.git
-{% endhighlight  %}
+```
 
 Após feito isso precisamos atualizar o *upstream*:
 
-{% highlight bash %}
+```bash
 $ git fetch upstream
-{% endhighlight  %}
+```
 
 Com o *upstream* atualizado, supondo que estamos no *branch master* do nosso projeto local, fazemos o *merge*:
 
-{% highlight bash %}
+```bash
 $ git merge upstream/master master
-{% endhighlight  %}
+```
 
 Como lembrado pelo [Lucas Mazza](https://twitter.com/lucasmazza), aqui podemos também usar o `rebase`, evitando assim a mensagem do *merge*.
 
 Agora caso queira atualizar seu repositório do Github com seu reposítório local antes de fazer suas mudanças e dar seu commit, fazemos:
 
-{% highlight bash %}
+```bash
 $ git push origin master
-{% endhighlight  %}
+```
 
 Pronto! Agora nosso projeto local e remoto está sincronizado e atualizado com a versão original e, após enviar suas alterações para o GitHub, conseguimos fazer o *pull request* e torcer para ser aceito.
 

@@ -21,13 +21,13 @@ In this post, we're going to see how to merge two commits and also how to divide
 
 I strongly recommend you read the previous post, to get used to the `rebase` flow. So, we run again the command:
 
-{% highlight bash %}
+```bash
 git rebase -i HEAD~3
-{% endhighlight %}
+```
 
 And then, we see a screen like that:
 
-{% highlight bash %}
+```bash
 pick 9afe987 CSS and JS adjusments in slideshow.
 pick 74e6f3e More CSS adjustments in slideshow.
 pick 1ee9572 Updates README with JS dependencies.
@@ -41,7 +41,7 @@ pick 1ee9572 Updates README with JS dependencies.
 #  s, squash = use commit, but meld into previous commit
 #  f, fixup = like "squash", but discard this commit's log message
 #  x, exec = run command (the rest of the line) using shell
-{% endhighlight %}
+```
 
 So far, nothing new. Let's move on...
 
@@ -51,15 +51,15 @@ Let's merge the _commits_ related to CSS and JS adjustments, which probably are 
 
 To do that, we type `squash` in a _commit_. Doing that, `git` understand we want to merge this marked _commit_  with the previous one (above).
 
-{% highlight bash %}
+```bash
 pick 9afe987 CSS and JS adjusments in slideshow.
 squash 74e6f3e More CSS adjustments in slideshow.
 pick 1ee9572 Updates README with JS dependencies.
-{% endhighlight %}
+```
 
 After that, we see a screen that shoes both _commits_ messages:
 
-{% highlight bash %}
+```bash
 # This is a combination of 2 commits.
 # The first commit's message is:
 
@@ -80,46 +80,46 @@ More CSS adjustments in slideshow.
 # Changes to be committed:
 #       modified:   dev/js/slideshow.js
 #       modified:   dev/css/style.css
-{% endhighlight %}
+```
 
 Now we just have to remove or comment the lines with the _commits_ messages and insert the new message:
 
-{% highlight bash %}
+```bash
 CSS and JS adjusments in slideshow.
-{% endhighlight %}
+```
 
 And... done! Now if we run a *log* of the commits, we will see something similar to:
 
-{% highlight bash %}
+```bash
 1ee9572 Updates README with JS dependencies.
 f2feda9 CSS and JS adjusments in slideshow.
-{% endhighlight %}
+```
 
 ## Splitting a *commit*
 
 As we're crazy, now we want to revert the previous process and spit the _commit_ that was merged. Jokes apart, we can do it, for example, in a commit that with a lot of changes and perhaps we could split it to make the git commit story better to understand. So we run the `rebase`:
 
-{% highlight bash %}
+```bash
 git rebase -i HEAD~2
-{% endhighlight %}
+```
 
 We see a screen that we are used to knowing; then we change the word `pick` for `edit` in the _commit_ we want to edit.
 
-{% highlight bash %}
+```bash
 edit f2feda9 CSS and JS adjusments in slideshow.
 pick 1ee9572 Updates README with JS dependencies.
 ...
-{% endhighlight %}
+```
 
 So, quit the edit mode and we're going to see this:
 
-{% highlight bash %}
+```bash
 Stopped at f2feda9... Ajustes gerais de CSS e JS no slideshow.
 You can amend the commit now, with
    git commit --amend
 Once you are satisfied with your changes, run
    git rebase --continue
-{% endhighlight %}
+```
 
 This is the cool part. What happened here was the `rebase` stopped in the _commit_ we specified. Now we have three options:`
 
@@ -129,16 +129,16 @@ This is the cool part. What happened here was the `rebase` stopped in the _commi
 
 At this point, if we run a `git status` we would see the files that were modified in the _commit_:
 
-{% highlight bash %}
+```bash
 dev/js/slideshow.js
 dev/js/main.js
 dev/css/style.css
 dev/css/slideshow.css
-{% endhighlight %}
+```
 
 Now we could add the files and commit them. Theoretically, here you do the _commits_ splitting. For our example, we could do something like:
 
-{% highlight bash %}
+```bash
 git add dev/js/slideshow.js
 
 git add dev/css/slideshow.css
@@ -152,25 +152,25 @@ git commit -m "Slideshow CSS adjustments in internal pages."
 git add dev/js/main.js
 
 git commit -m "Changes the parameters in the slideshow function call."
-{% endhighlight %}
+```
 
 What we did was adding files step by step and make _commits_. With all of this done, we could move on with the `rebase`:
 
 
-{% highlight bash %}
+```bash
 git rebase --continue
 
 Successfully rebased and updated refs/heads/develop.
-{% endhighlight %}
+```
 
 And... done! Now if we look the log, we would have something like that:
 
-{% highlight bash %}
+```bash
 1ee9572 Updates README with JS dependencies.
 f74a46e Changes the parameters in the slideshow function call.
 41ab775 Slideshow CSS adjustments in internal pages.
 7ccdd4c CSS and JS adjustments in the slideshow core.
-{% endhighlight %}
+```
 
 ## Forcing the push
 

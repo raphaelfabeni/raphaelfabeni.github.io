@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Usando o currentColor do CSS"
-description: "Como brincar com o currentColor do CSS e já sentir o gosto de variáveis nativas no CSS!"
+description: Como brincar com o currentColor do CSS e já sentir o gosto de variáveis nativas no CSS!
 type: Post
 date: 2015-07-03
 image: 'https://cloud.githubusercontent.com/assets/1345662/8460452/1660a1cc-1ffb-11e5-9ff1-5f01cb55a529.jpg'
@@ -23,7 +23,7 @@ O danado do `currentColor` funciona semelhante a uma variável salvo duas exceç
 
 Vamos supor que tenhamos o seguinte:
 
-{% highlight css %}
+```css
 body { color: green; }
 
 div {
@@ -31,18 +31,18 @@ div {
   box-shadow: 1px 1px 1px 1px currentColor;
   outline: dotted 1px currentColor;
 }
-{% endhighlight %}
+```
 
 No exemplo acima, simplesmente definimos uma cor verde para o `body` e a utilizamos nos elementos `div` através dos caras `currentColor`. *Mas Fabeni, tu tá me enrolando! Eu não precisava do `currentColor` aí!* Exatamente, não precisava. Se voltarmos para o exemplo, chegaríamos no mesmo resultado apenas assim:
 
-{% highlight css %}
+```css
 body { color: green; }
 
 div {
   box-shadow: 1px 1px 1px 1px;
   outline: dotted 1px;
 }
-{% endhighlight %}
+```
 
 Algumas propriedades herdam o valor da propriedade `color` do elemento ou caso essa não tenha sido setada, seguem a cascata, até achar da onde vão herdar esse valor. Algumas dessas propriedades são:
 
@@ -70,14 +70,14 @@ Brincando um pouco, montei esse exemplo rápido, onde o `currentColor` é aplica
 
 A idéia para formar o triângulo é criar uma borda geral transparente e setar apenas o lado que você quer com o `currentColor`, formando assim o triângulo. Uma outra abordagem e, que chegaria no mesmo resultado seria fazer o processo inverso: setar uma borda geral com cor (no caso nem precisaria do `currentColor` pois ele herdaria a cor da propriedade `color`) e depois disso, tirar a borda dos lados que você não queira. Algo mais ou menos assim:
 
-{% highlight css %}
+```css
 .element:after {
     border: 0.4em solid;
     border-right-color: transparent;
     border-top-color: transparent;
     border-bottom-color: transparent;
 }
-{% endhighlight %}
+```
 
 ### Outros usos
 

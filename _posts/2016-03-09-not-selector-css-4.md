@@ -13,19 +13,19 @@ url_br: /css-4-seletor-not/
 
 In CSS3 it was possible *exclude* an element of a selection. Something like that:
 
-{% highlight css %}
+```css
 p:not(.highlight) {
   color: blue;
 }
-{% endhighlight %}
+```
 
 In the example above, we get all the `p` element except those which have the `highlight` class. It's so nice, right? But if we wanted apply one more *filter* in the negation? It's not possible. So, CSS level 4 give us this power.
 
-{% highlight css %}
+```css
 p:not(:first-child, :last-of-type, .highlight) {
   color: blue;
 }
-{% endhighlight %}
+```
 
 In the example above, we can select all `p` elements excluding those which are `:first-child`, `:last-of-type` or that have the `highlight` class.
 

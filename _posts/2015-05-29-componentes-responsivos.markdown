@@ -35,20 +35,20 @@ Algum tempo atrás, tive um relampejo sobre esse tema, e pensei que seria bacana
 
 Dessa maneira, se tivéssemos um arquivo `fabeni-component.preprocessadorquevocequiser`, poderíamos ter algo assim:
 
-{% highlight css %}
+```css
 .fabeni {
-    // estilos para resoluções até 600px
+    /* estilos para resoluções até 600px */
 }
 
-// Breakpoint
+/* Breakpoint */
 @media (min-width: 600px) {
 
   .fabeni {
-    // estilos para resoluções maiores que 600px
+    /* estilos para resoluções maiores que 600px */
   }
 
 }
-{% endhighlight %}
+```
 
 No exemplo acima, usamos a idéia do *mobile first*, assim a classe tem um estilo inicial padrão e através das *media queries*, alteramos esse estilo para resoluções maiores que 600 pixels.
 

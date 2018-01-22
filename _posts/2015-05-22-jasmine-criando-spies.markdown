@@ -17,7 +17,7 @@ Basicamente quando usamos *Jasmine* especificamos nos testes como nosso código 
 
 Imagine que temos uma brincadeira assim:
 
-{% highlight js %}
+```js
 function Sandwich() {
     this.ingredients = [];
 }
@@ -29,13 +29,13 @@ Sandwich.prototype.addIngredient = function (ingredient) {
 Sandwich.prototype.mySandwich = function() {
   return this.ingredients;
 };
-{% endhighlight %}
+```
 
 Acima, temos um construtor de *sanduíche ¯\\_(ツ)_/¯* e dois métodos: um que vai adicionar ingredientes ao nosso sanduíche e outro que irá retornar a lista com os ingredientes do sanduíche super gostoso.
 
 Agora, como testamos pra saber se os métodos estão funcionando do jeito que esperamos? Podemos começar com algo assim:
 
-{% highlight js %}
+```js
 describe('A Sandwich spy', function() {
 
   var fabeni;
@@ -54,7 +54,7 @@ describe('A Sandwich spy', function() {
   });
 
 });
-{% endhighlight %}
+```
 
 O que fizemos no código acima foi o seguinte:
 
@@ -72,7 +72,7 @@ Assim, se rodarmos nosso teste, vamos ver que ele passou, ou seja, o método `ad
 
 Agora, se quisermos verificar se esse mesmo método está sendo chamado com os argumentos corretos poderíamos adicionar a seguinte *spec*:
 
-{% highlight js %}
+```js
 ...
 
 it('tracks the spy for addIngredient method with the correct arguments', function() {
@@ -80,7 +80,7 @@ it('tracks the spy for addIngredient method with the correct arguments', functio
     expect(fabeni.addIngredient).toHaveBeenCalledWith('cheese');
 });
 ...
-{% endhighlight %}
+```
 
 Nessa nova *spec* utilizamos do *matcher* `toHaveBeenCalledWith()` com o argumento que esperamos que tenha sido chamado (conforme a chamada que fizemos no `beforeEach`). Feito isso, ao rodarmos nossos testes:
 
@@ -90,7 +90,7 @@ Nessa nova *spec* utilizamos do *matcher* `toHaveBeenCalledWith()` com o argumen
 
 Resumidamente o `spyOn` substitui a função, interceptando assim as suas chamadas e acompanhando algumas informações importantes sobre ela para utilizarmos em nossas *specs*. Aí temos um ponto a se considerar: dessa maneira perdemos as capacidades da função original. Para resolver isso podemos usar o `andCallThrough()`. Vamos lá:
 
-{% highlight js %}
+```js
 describe('A Sandwich spy with call through', function() {
 
   var fabeni, fabeniBurger;
@@ -107,7 +107,7 @@ describe('A Sandwich spy with call through', function() {
   });
 
 });
-{% endhighlight %}
+```
 
 Acima, apenas preparamos o terreno:
 
@@ -119,7 +119,7 @@ Acima, apenas preparamos o terreno:
 
 Com isso então, podemos criar nossas *specs*:
 
-{% highlight js %}
+```js
 ...
 
 it('tracks the spy for mySandwich method', function() {
@@ -131,7 +131,7 @@ it('returns my sandwich', function() {
 });
 
 ...
-{% endhighlight %}
+```
 
 No exemplo acima, criamos duas *specs*:
 

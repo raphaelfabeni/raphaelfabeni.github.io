@@ -13,7 +13,7 @@ url_br: /es6-string-templates-pt-br/
 
 Brincar com *strings* muitas vezes pode ser algo um pouco trabalhoso (pode-se ler chato também *இ_இ*). Isso se deve ao fato principalmente de termos que concatenar palavras/frases com variáveis.
 
-{% highlight js %}
+```js
 let author = 'Tiririca';
 let word = 'Worse';
 
@@ -21,11 +21,11 @@ let oldMessage = word + ' than it is, it is impossible. - ' + author;
 
 console.log(oldMessage);
 // Worse than it is, it is impossible. - Tiririca
-{% endhighlight %}
+```
 
 *Template strings* para a [nooooooooossa alegria](https://youtu.be/K02Cxo3fAC8?t=1m30s).
 
-{% highlight js %}
+```js
 let author = 'Tiririca';
 let word = 'Worse';
 
@@ -33,11 +33,11 @@ let message = `${word} than it is, it is impossible. - ${author}`;
 
 console.log(message);
 // Worse than it is, it is impossible. - Tiririca
-{% endhighlight %}
+```
 
 Meu amigo [Rafael Rinaldi](https://twitter.com/rafaelrinaldi) fez uma boa observacão: é possível utilizar qualquer tipo de expressão e não só variáveis.
 
-{% highlight js %}
+```js
 const obj = {
   foo: 'bar'
 };
@@ -49,7 +49,7 @@ console.log( `${obj.foo}` );
 
 console.log( `${fn('aloha')}` );
 // aloha
-{% endhighlight %}
+```
 
 [Aqui](http://jsbin.com/qovino/edit?js,console) você encontra um JS Bin com os exemplos acima.
 

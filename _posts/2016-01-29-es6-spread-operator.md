@@ -13,39 +13,39 @@ url_br: /es6-spread-operator-pt-br/
 
 The *spread* guy allow us extract/expand data from an array make our lifes easier. Confused? I guess I could not explain. Go to practice. Imagine the following arrays:
 
-{% highlight js %}
+```js
 let mortalKombat = ['Scorpion', 'Sub Zero', 'Liu Kang'];
 let newCharacters = ['Reptile', 'Kitana'];
-{% endhighlight %}
+```
 
 If we had to add the new *fighters* to the main *array*, we could try something like that:
 
-{% highlight js %}
+```js
 mortalKombat.push(newCharacters);
 
 console.log(mortalKombat);
 // ['Scorpion', 'Sub Zero', 'Liu Kang', ['Reptile', 'Kitana']]
-{% endhighlight %}
+```
 
 The data is there, but not in the way that we want. So we need to manipulate it before:
 
-{% highlight js %}
+```js
 newCharacters.forEach(function(fighter) {
   mortalKombat.push(fighter);
 });
 
 console.log(mortalKombat);
 // ['Scorpion', 'Sub Zero', 'Liu Kang', 'Reptile', 'Kitana']
-{% endhighlight %}
+```
 
 The operator *spread* arrives making magic and leaving everything beautiful.
 
-{% highlight js %}
+```js
 mortalKombat.push(...newCharacters);
 
 console.log(mortalKombat);
 // ['Scorpion', 'Sub Zero', 'Liu Kang', 'Reptile', 'Kitana']
-{% endhighlight %}
+```
 
 [Here](http://jsbin.com/cubiko/edit?js,console) you can find an JS Bin with the examples.
 

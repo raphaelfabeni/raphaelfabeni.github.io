@@ -42,26 +42,26 @@ If you send your changes to GitHub and try to open a pull request, you are going
 
 Let's say you are contributing with my simple blog (the code is really old!). We add a *remote* based on the original version of the blog:
 
-{% highlight bash %}
+```bash
 $ git remote add upstream https://github.com/raphaelfabeni/raphaelfabeni.github.io.git
-{% endhighlight  %}
+```
 
 After that, we have to update the *upstream*:
 
-{% highlight bash %}
+```bash
 $ git fetch upstream
-{% endhighlight  %}
+```
 
 With the *upstream* updated, we have to `merge/rebase` our local version (supposing you're on the `master` branch):
 
-{% highlight bash %}
+```bash
 $ git merge upstream/master master
-{% endhighlight  %}
+```
 
 Now if you want to update your Github repository with your local repository before making your changes and commit them, we do:
 
-{% highlight bash %}
+```bash
 $ git push origin master
-{% endhighlight  %}
+```
 
 And that's it! Now our local project is sync and updated with the original version, and if you send the changes to GitHub, the pull request will be enabled.

@@ -13,39 +13,39 @@ url_br: /es6-spread-operator-pt-br/
 
 O carinha *spread* nos permite extrair/expandir dados de um array agilizando a nossa vida. Confuso? Acho que não consegui explicar. Vamos à prática. Imaginemos os seguintes arrays:
 
-{% highlight js %}
+```js
 let mortalKombat = ['Scorpion', 'Sub Zero', 'Liu Kang'];
 let newCharacters = ['Reptile', 'Kitana'];
-{% endhighlight %}
+```
 
 Se tivéssemos que adicionar os novos *lutadores* ao *array* principal, poderíamos tentar algo assim:
 
-{% highlight js %}
+```js
 mortalKombat.push(newCharacters);
 
 console.log(mortalKombat);
 // ['Scorpion', 'Sub Zero', 'Liu Kang', ['Reptile', 'Kitana']]
-{% endhighlight %}
+```
 
 Adicionou mas não ficou do jeito que queríamos. Teríamos então que tratar isso antes, algo mais ou menos assim:
 
-{% highlight js %}
+```js
 newCharacters.forEach(function(fighter) {
   mortalKombat.push(fighter);
 });
 
 console.log(mortalKombat);
 // ['Scorpion', 'Sub Zero', 'Liu Kang', 'Reptile', 'Kitana']
-{% endhighlight %}
+```
 
 O operador *spread* chega *chutando a porta* e deixando tudo bonitão.
 
-{% highlight js %}
+```js
 mortalKombat.push(...newCharacters);
 
 console.log(mortalKombat);
 // ['Scorpion', 'Sub Zero', 'Liu Kang', 'Reptile', 'Kitana']
-{% endhighlight %}
+```
 
 [Aqui](http://jsbin.com/cubiko/edit?js,console) você encontra um JS Bin com os exemplos acima.
 

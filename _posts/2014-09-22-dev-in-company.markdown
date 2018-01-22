@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Dev in Company"
-description: "Um resumo de como foi o evento Dev in Company lá em BH!"
+description: Um resumo de como foi o evento Dev in Company lá em BH!
 type: Post
 date: 2014-09-22
 image: 'https://cloud.githubusercontent.com/assets/1345662/11458353/29f55cfc-96a5-11e5-9883-6858f60209f2.jpg'
