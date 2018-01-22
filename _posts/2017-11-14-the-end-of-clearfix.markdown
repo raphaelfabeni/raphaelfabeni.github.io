@@ -17,20 +17,20 @@ One of them is to use `overflow: hidden` on the container element and magically 
 
 Other alternative is the famous `clearfix` solution: basically a simple technique that uses the `:after` pseudoelement to _clear_ the `float` flow. Something like:
 
-```css
+{% highlight css %}
 .container-with-float-elements:after {
   content: '';
   display: table;
   clear: both;
 }
-```
+{% endhighlight %}
 
 ## The new float solution
 
-```css
+{% highlight css %}
 .container-with-float-elements {
   display: flow-root;
 }
-```
+{% endhighlight %}
 
 This is awesome! And according to docs:_It always establishes a new block formatting context for its contents._ [The support is not so good yet](https://caniuse.com/#feat=flow-root), but we can test/use in some browsers already.

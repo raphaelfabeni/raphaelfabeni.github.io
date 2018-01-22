@@ -42,7 +42,7 @@
     "imagemin": "imagemin ${npm_package_config_images_src} -o=${npm_package_config_images_dist}",
     "pagespeed": "psi tony-jones.github.io/jekyll-starter-kit/ --strategy=mobile",
     "accessibility": "a11y tony-jones.github.io/jekyll-starter-kit/",
-    "build:jekyll": "jekyll build --config _config.yml",
+    "build:jekyll": "bundle exec jekyll build --config _config.yml",
     "build:js": "npm run eslint && npm run babel && npm run uglify && npm run libs",
     "build:css": "npm run sass && npm run prefix",
     "build:images": "npm run imagemin && cp -r src/images/favicon dist/images/favicon",
