@@ -1,10 +1,10 @@
 ---
 layout: post
 title:  Conditional classes with classnames
-description: ""
+description: 'The classnames package helps you to handle classes in your components.'
 type: Post
-image: ''
-alt: ''
+image: 'https://user-images.githubusercontent.com/1345662/40094697-e29d52e2-589e-11e8-8d9b-25ab842482d4.jpg'
+alt: 'An S-shaped road, inside a forest.'
 lang: en
 url_en: /conditional-classes-with-classnames/
 ---
