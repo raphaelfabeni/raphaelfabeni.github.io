@@ -7,7 +7,7 @@ image: 'https://user-images.githubusercontent.com/1345662/37011352-787c398a-20ce
 alt: 'Orange and Gray Tunnel Painting'
 lang: en
 url_en: /front-in-campinas-logo-css/
-category: 'conferences'
+category: 'css'
 ---
 
 These last days I saw a tweet talking about [Front in Campinas](https://frontincampinas.com.br/). The conference has everything to be amazing, and I'm strongly thinking to send a talk's proposal.
