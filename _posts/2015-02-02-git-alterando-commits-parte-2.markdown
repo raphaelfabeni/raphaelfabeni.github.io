@@ -9,6 +9,7 @@ alt: 'Dois senhores idosos jogando golf em um clube de campo'
 lang: pt-br
 url_en: /git-editing-commits-part-2/
 url_br: /git-alterando-commits-parte-2/
+category: 'git'
 ---
 
 No [post anterior](/git-alterando-commits-parte-1/), vimos duas das coisas que são possíveis de se fazer com o *rebase* interativo:

@@ -8,6 +8,7 @@ alt: 'Dois idosos tecendo fio em uma máquina antiga'
 lang: pt-br
 url_en: /git-editing-commits-part-1/
 url_br: /git-alterando-commits-parte-1/
+category: 'git'
 ---
 
 Quanto mais mexemos com *git* mais descobrimos coisas mirabolantes que ele pode fazer. Descobri há um tempo atrás uma maneira de organizar/alterar seus _commits_ e que me ajudou bastante.

@@ -8,6 +8,7 @@ alt: "Imagem de um homem fantasiado de Papai Noel com um cookie na boca"
 lang: pt-br
 url_en: /thanks-2016/
 url_br: /muito-thanks-2016/
+category: 'life'
 ---
 
 Dois mil e dezesseis ou 2016 como você preferir foi um ano muito doido. Troquei de trabalho e quase não enviei proposta de call 4 papers pra eventos. Na verdade acho que mandei apenas uma, mas acabei não seguindo em frente. Em contrapartida, pude dedicar um tempo maior pra tocar o meu querido [Meetup CSS](http://twitter.com/meetupcss).

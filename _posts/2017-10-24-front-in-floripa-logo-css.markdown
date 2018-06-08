@@ -7,6 +7,7 @@ image: 'https://user-images.githubusercontent.com/1345662/32051918-37313570-ba35
 alt: 'An elderly man sitting in a small seat drawing in a notebook.'
 lang: en
 url_en: /front-in-floripa-logo-css/
+category: 'css'
 ---
 
 Something that usually I stay thinking for a while is: "how to draw that only using CSS"? I know, I'm crazy!

@@ -7,6 +7,7 @@ date: 2014-11-04
 image: 'https://cloud.githubusercontent.com/assets/1345662/11458258/ad322016-96a3-11e5-85c0-80d05b95138a.jpg'
 alt: 'Raphael Fabeni durante evento Front in Sampa 2014'
 lang: pt-br
+category: 'conferences'
 ---
 
 No último dia 25 de outubro rolou a 3ª edição do [Front in Sampa](http://frontinsampa.com.br/) no [Inferno Club](http://www.infernoclub.com.br/). SIM, pode acreditar, é uma balada. O evento acontece durante o dia inteiro e no final ainda rola um *happy hour* open bar com direito a Dj e tudo.

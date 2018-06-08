@@ -9,6 +9,7 @@ alt: "Way of a road covered with snow around"
 lang: en
 url_en: /arrow-functions/
 url_br: /es6-arrow-functions/
+category: 'javascript'
 ---
 
 The *arrow functions* at first might seem confusing (for me *(◕(◕)* ), but after a while, you can understand their shorter syntax and the magic of the scope of `this`.

@@ -9,6 +9,7 @@ alt: "Image of a sunset"
 lang: en
 url_en: /front-in-vale/
 url_br: /front-in-vale-2015/
+category: 'conferences'
 ---
 
 Last weekend ocurrend in São José dos Campos, the [Front in Vale](http://www.frontinvale.com.br) conference which is the first event from *Vale do Paraíba* focused in front-end and I was there talking about Development Culture.
@@ -39,7 +40,7 @@ The [Guilherme Souza](https://twitter.com/_gui_souza) showed in his [talk](http:
     <iframe src="//pt.slideshare.net/slideshow/embed_code/key/2uog4PvRvvA0Qd" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
 </figure>
 
-*[Link of the talk](http://pt.slideshare.net/Guilherme5ouza/frontinvale)* 
+*[Link of the talk](http://pt.slideshare.net/Guilherme5ouza/frontinvale)*
 
 ### Material Design Lite
 

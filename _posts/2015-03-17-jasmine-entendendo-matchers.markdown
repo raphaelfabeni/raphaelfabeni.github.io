@@ -7,6 +7,7 @@ date: 2015-03-17
 image: 'https://cloud.githubusercontent.com/assets/1345662/11458074/e50ba9de-969f-11e5-9983-999042edf9c0.jpg'
 alt: 'Cadeado preso em uma grade'
 lang: pt-br
+category: 'javascript'
 ---
 
 Há algum tempo atrás escrevi umas groselhas sobre *Jasmine*, mais uma introdução sobre o *framework* e como escrever testes era algo intuitivo e fácil. Se você tem interesse, o post é o: [Brincando com Jasmine](/brincando-com-jasmine).

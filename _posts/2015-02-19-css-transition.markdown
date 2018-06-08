@@ -6,6 +6,7 @@ type: Post
 date: 2015-02-19
 image: 'https://cloud.githubusercontent.com/assets/1345662/11458131/46a52002-96a1-11e5-9b37-f86a9419d8ee.jpg'
 lang: pt-br
+category: 'css'
 ---
 
 O CSS3 vem pra ajudar a todos. Pro desenvolvedor a vida fica mais fácil pois é possível chegar a efeitos, que antes precisavam de uma volta gigantesca, de uma forma bem mais simples; e o usuário que pode ganhar uma experiência melhor e mais rápida.

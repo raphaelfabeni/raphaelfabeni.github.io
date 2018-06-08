@@ -9,6 +9,7 @@ alt: "Fogos de artifício coloridos em um céu escuro"
 lang: pt-br
 url_en: /es6-spread-operator/
 url_br: /es6-spread-operator-pt-br/
+category: 'javascript'
 ---
 
 O carinha *spread* nos permite extrair/expandir dados de um array agilizando a nossa vida. Confuso? Acho que não consegui explicar. Vamos à prática. Imaginemos os seguintes arrays:

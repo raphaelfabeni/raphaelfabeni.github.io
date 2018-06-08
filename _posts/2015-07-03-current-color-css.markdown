@@ -7,6 +7,7 @@ date: 2015-07-03
 image: 'https://cloud.githubusercontent.com/assets/1345662/8460452/1660a1cc-1ffb-11e5-9ff1-5f01cb55a529.jpg'
 alt: 'Imagem mostra um controle de xbox segurado por uma pessoa'
 lang: pt-br
+category: 'css'
 ---
 
 Variáveis no **CSS**? Em um futuro não muito distante (ou talvez sim) poderemos usar nossas variáveis muito doidas diretamente no CSS, mas enquanto o sol não raia pra nós, conseguimos simular esse recurso através de pré-processadores. Pra mim, o uso de variáveis são umas das principais e, acho que uma das poucas, *features* que uso dos pré-processadores, mas isso foge um pouco do assunto do post (boa idéia para um próximo).

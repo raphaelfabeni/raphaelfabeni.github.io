@@ -7,6 +7,7 @@ date: 2015-03-10
 image: 'https://cloud.githubusercontent.com/assets/1345662/11458082/167083aa-96a0-11e5-8256-38d2b385d783.jpg'
 alt: 'Imagem mostra homem dentro de um carro antigo segurando o volante e observando um cachorro que está sentado no banco ao seu lado'
 lang: pt-br
+category: 'user-experience'
 ---
 
 *CSS3* é coisa linda! Apesar de ser suspeito pra falar, acredito que cada vez mais pessoas estão caindo nas graças do CSS. Uma coisa legal que tenho visto, principalmente nos [meetups CSS SP](https://github.com/raphaelfabeni/css-sp), é que uma galera, que muitas vezes nunca havia mexido ou então mexido pouco com CSS, estão querendo *fuçar*, mesmo que para algo pessoal.

@@ -9,6 +9,7 @@ alt: "Dois cachorros quase em pé olhando para a foto"
 lang: pt-br
 url_en: /custom-selectors-css-4/
 url_br: /css-4-custom-selectors/
+category: 'css'
 ---
 
 A possibilidade de armazenar valores em variáveis foi um dos pontos principais pontos dentre outros, na minha opinião, para o crescimento da adoção dos pré processadores. E se pudéssemos armazenar seletores? Sim, vou chorar. ʘ‿ʘ

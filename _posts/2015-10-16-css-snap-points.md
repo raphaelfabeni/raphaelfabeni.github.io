@@ -9,6 +9,7 @@ alt: "Image of a sidewalk and coconut tree in the background behind a grid"
 lang: en
 url_en: /css-snap-points/
 url_br: /css-scroll-snap-points/
+category: 'css'
 ---
 
 Scrolling effects always have been more related to touch devices, however, lately, many projects have used this feature, 

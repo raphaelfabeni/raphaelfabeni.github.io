@@ -9,6 +9,7 @@ alt: "Vários pedaços de madeira empilhados"
 lang: pt-br
 url_en: /not-selector-css-4/
 url_br: /css-4-seletor-not/
+category: 'css'
 ---
 
 No CSS3 já era possível *excluir* um elemento de uma seleção. Algo mais ou menos assim: 

@@ -7,6 +7,7 @@ image: 'https://user-images.githubusercontent.com/1345662/40094697-e29d52e2-589e
 alt: 'An S-shaped road, inside a forest.'
 lang: en
 url_en: /conditional-classes-with-classnames/
+category: 'javascript'
 ---
 
 I'm not a React expert but I've been working with the framework in the last few months and I have to say that [classnames](https://github.com/JedWatson/classnames) is something that helps you a lot.

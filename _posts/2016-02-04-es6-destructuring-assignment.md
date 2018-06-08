@@ -9,6 +9,7 @@ alt: "Brinquedo pebolim visto de cima com jogadores nas cores preta e amarela"
 lang: pt-br
 url_en: /destructuring-assignment-es6/
 url_br: /es6-destructuring-assignment/
+category: 'javascript'
 ---
 
 Conheci o grande *destructuring assignment* através do meu brother [Weslley Araujo](https://twitter.com/_weslleyaraujo), e confesso que achei coisa linda. Ele nada mais é que uma expressão que nos permite *pegar* dados de *objetos* ou *arrays* de uma maneira bem mais simples.

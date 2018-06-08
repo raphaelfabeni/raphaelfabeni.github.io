@@ -7,6 +7,7 @@ date: 2015-08-17
 image: "https://cloud.githubusercontent.com/assets/1345662/9317504/74f362ec-4512-11e5-8482-c09480c791cf.jpg"
 alt: "Imagem mostra um grupo de artistas em posando para a foto em frente a uma casa de shows em uma época antiga"
 lang: pt-br
+category: 'css'
 ---
 
 Acredito que não há dúvidas de que o Design Responsivo veio pra ficar e que não está mais apenas *na moda*. Mais do que ficar pensando em tamanhos específicos de telas ou em *mobile* e *tablet*, minha opinião é que esqueçamos isso. Com a variedade de smartphones diferentes que existem hoje, acho difícil separarmos o que é *mobile* do que é *tablet* ou *desktop*. Um exemplo disso é o [Viewport sizes](http://viewportsizes.com/) que traz uma lista completa com os tamanhos dos *viewports* de vários dispositivos diferentes. Mas isso é só a minha opinião.

@@ -7,6 +7,7 @@ image: "https://cloud.githubusercontent.com/assets/1345662/25727664/ecae6f76-310
 alt: "Picture of the a lemon pie with a strawberry above it."
 lang: en
 url: /my-to-do-list/
+category: 'tools'
 ---
 
 <figure class="thumb-left loading">

@@ -7,30 +7,40 @@ links:
   left:
     text: Home
     link: '/'
-  right:
-    text: Home
-    link: '/'
 ---
 
 {% assign englishPosts = site.posts | where: 'lang', 'en' %}
 {% assign portuguesePosts = site.posts | where: 'lang', 'pt-br' %}
 
+<header class="category-header">
+	<h1 class="category-header__title">Blog</h1>
+	<div class="category-header__language">
+		<button class="lang-button is-active" data-language="en">en</button> | <button class="lang-button" data-language="pt-br">pt-br</button>
+	</div>
+	<ul class="category-header__list">
+		<li><a class="active-category" href="/blog">all</a></li>
+		{% for category in site.categories %}
+		<li><a href='/category/{{ category[0] }}'>{{ category[0] | split: "-" | join: " " }}</a></li>
+		{% endfor %}
+	</ul>
+</header>
 {% for post in englishPosts %}
-	<div class="post">
+	<article class="post" data-post="en">
 		<h2 class="post__title">
 			<a class="post__link" href="{{ post.url }}">{{ post.title }}</a>
 		</h2>
 		<figure class="post__thumb">
 			<img src="{{ post.image }}" alt="{{ post.alt }}">
 		</figure>
-	</div>
+	</article>
 {% endfor %}
-
-<div class="extra">
-	<h3 class="extra__title">Some posts in Portuguese.</h3>
-	<ul class="simple-list">
-	{% for item in portuguesePosts %}
-		<li><a href="{{ item.url }}">{{ item.title }}</a></li>
-	{% endfor %}
-	</ul>
-</div>
+{% for post in portuguesePosts %}
+	<article class="post" data-post="pt-br" hidden>
+		<h2 class="post__title">
+			<a class="post__link" href="{{ post.url }}">{{ post.title }}</a>
+		</h2>
+		<figure class="post__thumb">
+			<img src="{{ post.image }}" alt="{{ post.alt }}">
+		</figure>
+	</article>
+{% endfor %}

@@ -8,6 +8,7 @@ alt: 'Wooden table top view, full of tools'
 lang: en
 url_en: /updating-your-fork/
 url_br: /atualizando-seu-fork/
+category: 'git'
 ---
 
 Contribute in *open source* projects is one of the coolest things in development area. I also remember, that some years ago, the topic of one edition of FEMUG was exactly this: the contribution in open source projects.

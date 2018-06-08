@@ -8,6 +8,7 @@ alt: "Imagem mostra dois pé de uma pessoa pulando em uma poça de água"
 lang: pt-br
 url_en: /user-error-prevention/
 url_br: /prevencao-erro-usuario/
+category: 'user-experience'
 ---
 
 <figure class="thumb-right loading">

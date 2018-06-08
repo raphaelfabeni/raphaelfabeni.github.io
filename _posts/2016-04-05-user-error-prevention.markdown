@@ -8,6 +8,7 @@ alt: "Picture shows two feet of a person jumping in a puddle"
 lang: en
 url_en: /user-error-prevention/
 url_br: /prevencao-erro-usuario/
+category: 'user-experience'
 ---
 
 <figure class="thumb-right loading">

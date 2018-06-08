@@ -8,6 +8,7 @@ alt: 'Children studying in an old classroom'
 lang: en
 url_en: /share-knowledge/
 url_br: /compartilhe-conhecimento/
+category: 'community'
 ---
 
 I always like to write: at school and college projects I always was responsible for this part and I was totally cool with that. When I decided to write on the internet, my initial idea was chose a subject, initially only techincal things but now everything, and try to write and learn more about it.

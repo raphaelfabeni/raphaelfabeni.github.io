@@ -8,6 +8,7 @@ alt: "Two men shaking hands in front of an old car (probably the 20 or 30 decade
 lang: en
 url_en: /keep-content-updated/
 url_br: /matenha-conteudo-atualizado/
+category: 'user-experience'
 ---
 
 A user, in most cases, access a website for a **objective**: searching the last numbers of lottery, print some medical results or even ask something to eat. It's your (or ours) objective to think in the best way/experience in how the user will do that.
@@ -19,7 +20,7 @@ In a world of digital projects not so distant, what happens frequently is relate
 * area X says it's not responsibility of it and that is part of area Y work.
 * however, the area Y says that does not make sense they take care of it and that could be demand of area Z.
 * the area Z says that it's not with them, but they could help. However they are really busy and it could take some time..
- 
+
 So we can predict the outcome of this *seesaw*: content came out worse than the current Brazilian soccer team.
 
 ## A real case: the reward

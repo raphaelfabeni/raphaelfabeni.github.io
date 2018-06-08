@@ -9,6 +9,7 @@ alt: "Encosto de cama com algumas almofadas e ao lado um pequeno armário com um
 lang: pt-br
 url_en: /es6-default-values-functions/
 url_br: /es6-valores-padrao-parametros/
+category: 'javascript'
 ---
 
 Parâmetros passados em funções, ok? Ok. Com ES6 é possível passar valores padrão para eles.
