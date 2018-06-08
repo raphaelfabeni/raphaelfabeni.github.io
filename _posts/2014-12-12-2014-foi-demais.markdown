@@ -7,6 +7,7 @@ date: 2014-12-19
 image: 'https://cloud.githubusercontent.com/assets/1345662/11458228/58c9b94e-96a3-11e5-8635-ac7fec294ab7.jpg'
 alt: 'Carro antigo preto, visto de frente'
 lang: pt-br
+category: 'life'
 ---
 
 Todo mundo já disse ou ouviu alguém dizer: *"Nossa! O ano passou voando!"*. Nunca dei muito valor a essa frase, mas esse ano pude comprovar que é verdade. Se passou rápido, geralmente é porque você esteve ocupado com outras coisas e teoricamente não teve tempo de *aproveitar* o ano; felizmente acho eu, posso contrariar um pouco essa teoria: o ano realmente passou rápido porque estava ocupado com algumas coisas, mas **coisas boas**; posso dizer que foi um ano muito produtivo e que não deixei de aproveitá-lo.

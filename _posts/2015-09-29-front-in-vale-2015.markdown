@@ -9,6 +9,7 @@ alt: "Imagem de um por do sol"
 lang: pt-br
 url_en: /front-in-vale/
 url_br: /front-in-vale-2015/
+category: 'conferences'
 ---
 
 No último final de semana rolou em São José do Campos o [Front in Vale](http://www.frontinvale.com.br) que é o primeiro evento focado em front-end do Vale do Paraíba e eu estive por lá falando *umas groselhas* sobre Cultura de Desenvolvimento.
@@ -39,7 +40,7 @@ O [Guilherme Souza](https://twitter.com/_gui_souza) mostrou nessa [talk](http://
     <iframe src="//pt.slideshare.net/slideshow/embed_code/key/2uog4PvRvvA0Qd" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
 </figure>
 
-*[Link da palestra](http://pt.slideshare.net/Guilherme5ouza/frontinvale)* 
+*[Link da palestra](http://pt.slideshare.net/Guilherme5ouza/frontinvale)*
 
 ### Material Design Lite
 

@@ -8,6 +8,7 @@ alt: "Rubber toys in the shape of ducks gliding in a stream of water between two
 lang: en
 url_en: /a-different-week/
 url_br: /uma-semana-diferente/
+category: 'conferences'
 ---
 
 Almost two years that I and [Felipe Fialho](https://twitter.com/lfeh) organize the [Meetup CSS](https://github.com/raphaelfabeni/css-sp); it was also around this time that I got courage and sent my first talk proposal.
@@ -24,7 +25,7 @@ And yet, I see much more positive points.
 
 ## A front-end and UX week
 
-Talking about conferences, let's go to it: if you like or want to start to go in one, the last week of june will be a diferent week from the others. In a same week will happen [Front UX](http://frontux.com/), [Meetup CSS](https://github.com/raphaelfabeni/css-sp), [Code in the Dark](http://codeinthedark.com.br/) and [Front in Sampa](http://frontinsampa.com.br/). 
+Talking about conferences, let's go to it: if you like or want to start to go in one, the last week of june will be a diferent week from the others. In a same week will happen [Front UX](http://frontux.com/), [Meetup CSS](https://github.com/raphaelfabeni/css-sp), [Code in the Dark](http://codeinthedark.com.br/) and [Front in Sampa](http://frontinsampa.com.br/).
 
 **Saturday - 25/06**
 
@@ -40,13 +41,13 @@ As far I know, maybe we will have something here!  **:)**
 
 * *FEMUG*
 * Project born from the need to join the front end developers of São Paulo, and then became a collective idea, so that access to information is done everywhere where has learning interest.
-* [More info here.](https://sp.femug.com/t/femug-sp-33-lambda3/792)* 
+* [More info here.](https://sp.femug.com/t/femug-sp-33-lambda3/792)*
 
 **Wednesday - 06/29**
 
 * *Front UX*
 * A meetup to meet designers and developers to discuss how to improve workflows in both areas. Soon they shall disclose the information about this edition.
-* [More info here.](http://www.meetup.com/pt-BR/Frontux/)* 
+* [More info here.](http://www.meetup.com/pt-BR/Frontux/)*
 
 **Thursday - 06/30**
 

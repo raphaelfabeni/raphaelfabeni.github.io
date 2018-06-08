@@ -9,6 +9,7 @@ alt: "Foosball viewed from above with players in black and yellow."
 lang: en
 url_en: /destructuring-assignment-es6/
 url_br: /es6-destructuring-assignment/
+category: 'javascript'
 ---
 
 I met great *destructuring assignment* through my brother [Weslley Araujo](https://twitter.com/_weslleyaraujo), and I need to confess that I really liked. It is nothing more than an expression that allows us to *get* data from *objects* or *arrays* of a much simpler way.

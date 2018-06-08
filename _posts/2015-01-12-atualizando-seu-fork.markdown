@@ -9,6 +9,7 @@ alt: 'Mesa de madeira vista de cima, cheia de ferramentas'
 lang: pt-br
 url_en: /updating-your-fork/
 url_br: /atualizando-seu-fork/
+category: 'git'
 ---
 
 Contribuir em projetos *open source* é uma das coisas mais legais da área de desenvolvimento. Ano passado, senão me engano no Intercon WP do iMasters, rolou um FEMUG dentro do evento e, um dos temas abordados foi exatamente esse: a contribuição em projetos.

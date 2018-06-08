@@ -9,6 +9,7 @@ alt: "Two dogs almost standing looking at the picture"
 lang: en
 url_en: /custom-selectors-css-4/
 url_br: /css-4-custom-selectors/
+category: 'css'
 ---
 
 The possibility to stock some values in variables was one of the main features among others, in my opinion, to the growth of the adoption of the pre-processor. What if we could store selectors? Yes, I will cry. ʘ‿ʘ

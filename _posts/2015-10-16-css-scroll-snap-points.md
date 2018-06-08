@@ -9,6 +9,7 @@ alt: "Imagem de uma calçada e coqueiro ao fundo atrás de uma grade"
 lang: pt-br
 url_en: /css-snap-points/
 url_br: /css-scroll-snap-points/
+category: 'css'
 ---
 
 Efeitos de *scroll* sempre foram mais relacionados a dispositivos *touch*, no entanto, ultimamente vários projetos tem incorporado esse item, enriquecendo a experência do usuário (claro, pra tudo há exceções).

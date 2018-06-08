@@ -9,6 +9,7 @@ alt: "Colorful fireworks in a dark sky"
 lang: en
 url_en: /es6-spread-operator/
 url_br: /es6-spread-operator-pt-br/
+category: 'javascript'
 ---
 
 The *spread* guy allow us extract/expand data from an array make our lifes easier. Confused? I guess I could not explain. Go to practice. Imagine the following arrays:

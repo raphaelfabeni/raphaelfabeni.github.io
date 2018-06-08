@@ -8,6 +8,7 @@ alt: 'Two elderly people weaving wire in an old machine.'
 lang: en
 url_en: /git-editing-commits-part-1/
 url_br: /git-alterando-commits-parte-1/
+category: 'git'
 ---
 
 The more I work with git, more I realize how powerful it is. Sometime ago I discovered that there is a way to organize/edit your _commits_. For what? Some useful cases:

@@ -8,6 +8,7 @@ alt: "Image of a man costumed Santa Claus with a cookie in his mouth"
 lang: en
 url_en: /thanks-2016/
 url_br: /muito-thanks-2016/
+category: 'life'
 ---
 
 Two thousand and sixteen or 2016 as you prefer, it was a really crazy year. I changed job and I almost didn't send talk proposals to conferences. Actually, I sent one, but I couldn't follow with it. On the other hand, I could dedicate more time to my dear [CSS Meetup](http://twitter.com/meetupcss).

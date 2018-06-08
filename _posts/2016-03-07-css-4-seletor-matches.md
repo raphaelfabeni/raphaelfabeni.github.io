@@ -9,6 +9,7 @@ alt: "Uma caixa de madeira cheia de nozes"
 lang: pt-br
 url_en: /matches-selector-css-4/
 url_br: /css-4-seletor-matches/
+category: 'css'
 ---
 
 CSS3 já era coisa fina. Agora, na sua versão 4, ou melhor dizendo, em seu *nível 4*, como será dividido a partir de agora, tem muita coisa bacana. Uma delas é o seletor `:matches`.

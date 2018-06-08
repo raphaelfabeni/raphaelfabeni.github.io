@@ -2,11 +2,19 @@
 		<meta charset="utf-8">
 		{% if page.type == 'Post' %}
 			<title>{{ page.title }} - Blog | Raphael Fabeni</title>
+		{% elsif page.layout == 'category' %}
+			<title>{{ page.category }} - Blog | Raphael Fabeni</title>
+		{% elsif page.layout == 'blog' %}
+			<title>Blog | Raphael Fabeni</title>
 		{% else %}
 			<title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
 		{% endif %}
 
 		{% include post.html %}
+
+		{% if page.layout == 'category' %}
+			<meta name="robots" content="noindex">
+		{% endif %}
 
 		<meta name="viewport" content="width=device-width">
 		<meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" />

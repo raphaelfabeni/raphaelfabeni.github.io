@@ -7,6 +7,7 @@ image: 'https://user-images.githubusercontent.com/1345662/29245728-fa2e38a4-7fb9
 alt: 'Photograph of View of J. Edgar Hoover FBI Building from National Archives Roof'
 lang: en
 url: /simple-check-animation/
+category: 'css'
 ---
 
 Some time ago, I presented a talk at FrontinSampa about tips of CSS and one of the topics was about a check animation that I tried to do using only CSS.

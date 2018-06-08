@@ -9,6 +9,7 @@ alt: "A part of bed with some pillows and next to a small closet with an alarm c
 lang: en
 url_en: /es6-default-values-functions/
 url_br: /es6-valores-padrao-parametros/
+category: 'javascript'
 ---
 
 We could pass some parameters in functions, right? Okay. With ES6 it is possible assign default values for them if they are not passed.

@@ -1,0 +1,62 @@
+.category-header
+	width: 100%
+	margin-bottom: 20px
+	display: flex
+	align-items: center
+	justify-content: space-between
+	padding-left: 5px
+	padding-right: 5px
+	flex-wrap: wrap
+
+	&__title
+		font-size: 28px
+
+	.lang-button
+		border: none
+		background-color: transparent
+		font-size: 18px
+		display: inline-block
+		color: #fff
+		cursor: pointer
+		opacity: .75
+		transition: color .3s ease
+
+		&:not(.is-active):hover,
+		&:not(.is-active):focus
+			color: $color-orange
+
+		&.is-active
+			cursor: default
+			opacity: 1
+
+	&__list
+		display: flex
+		width: 100%
+		padding-top: 15px
+
+		a
+			opacity: .75
+			cursor: pointer
+
+			&.active-category
+				opacity: 1
+				cursor: default
+				background-color: $color-orange
+				color: #000
+
+		li + li
+			margin-left: 10px
+
+		a
+			text-decoration: none
+			padding: 3px
+
+/*----------  Theme light modificator  ----------*/
+.is-light
+	.lang-button
+		color: #000
+
+	.category-header__list
+		.active-category
+			color: #fff
+			background-color: $color-blue

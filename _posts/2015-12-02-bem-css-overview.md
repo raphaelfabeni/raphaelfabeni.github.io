@@ -9,6 +9,7 @@ alt: "White wall of a house with several windows with details in gray, and two o
 lang: en
 url_en: /bem-css-overview/
 url_br: /bem-css/
+category: 'css'
 ---
 
 CSS is easy to learn? Most would say that yes, mainly because of the facility and the possibility to see quickly what we are doing. However, of course that exists the negative points and, when we talk about them, one of the principal is related to maintenance/organization of CSS.

@@ -9,6 +9,7 @@ alt: "Foto mostra quatro caixas de jornais, provavelmente americanos, em bairro 
 lang: pt-br
 url_en: /es6-string-templates/
 url_br: /es6-string-templates-pt-br/
+category: 'javascript'
 ---
 
 Brincar com *strings* muitas vezes pode ser algo um pouco trabalhoso (pode-se ler chato também *இ_இ*). Isso se deve ao fato principalmente de termos que concatenar palavras/frases com variáveis.

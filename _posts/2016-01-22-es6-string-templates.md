@@ -9,6 +9,7 @@ alt: "Photo shows four newspaper boxes, probably Americans in residential neighb
 lang: en
 url_en: /es6-string-templates/
 url_br: /es6-string-templates-pt-br/
+category: 'javascript'
 ---
 
 Play with *strings* can often be something a little bit painful (you can also read boring *இ_இ*). This is due mainly to the fact of having to concatenate words/phrases with variables.
