@@ -1,6 +1,5 @@
 .category-header
 	width: 100%
-	margin-bottom: 20px
 	display: flex
 	align-items: center
 	justify-content: space-between
@@ -32,11 +31,14 @@
 	&__list
 		display: flex
 		width: 100%
+		flex-wrap: wrap
 		padding-top: 15px
+		padding-bottom: 5px
 
 		a
 			opacity: .75
 			cursor: pointer
+			display: inline-block
 
 			&.active-category
 				opacity: 1
@@ -44,8 +46,8 @@
 				background-color: $color-orange
 				color: #000
 
-		li + li
-			margin-left: 10px
+		li
+			margin: 0 10px 10px 0
 
 		a
 			text-decoration: none
