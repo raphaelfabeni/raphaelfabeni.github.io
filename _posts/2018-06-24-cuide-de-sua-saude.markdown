@@ -1,12 +1,12 @@
 ---
 layout: post
-title:  Cuide da sua saúde!
+title:  Cuide de sua saúde!
 description: 'Não espere tomar um susto pra virar a chave, comece agora.'
 type: Post
 image: 'https://user-images.githubusercontent.com/1345662/41825701-7f494e92-77f9-11e8-9d96-2863c03514f1.jpg'
 alt: 'Imagem de uma pessoa de costas fazendo exercício na academia.'
 lang: pt-br
-url_en: /cuide-da-sua-saude/
+url_en: /cuide-de-sua-saude/
 category: 'life'
 ---
 
