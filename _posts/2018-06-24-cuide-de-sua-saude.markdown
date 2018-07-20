@@ -18,17 +18,17 @@ Quem me conhece sabe que tento levar um estilo de vida saudável e não é de ag
 
 Fazem alguns bons anos que não bebo nada alcoólico. Coisas como: "Como assim você não bebe?", "Mas hoje pode, é um dia especial!", "Bebe só um pouco, não é forte esse!", são coisas que estou acostumado a ouvir. Inclusive já fui alvo de brincadeiras em alguns eventos de tecnologia (ainda mais quando adicionava que também não bebia café).
 
-O que muitas pessoas não sabem é o que vem por trás dessa decisão. Muitas vezes nós mesmos tomamos uma decisão, outras vezes é a vida que decide pela gente. E foi isso que aconteceu. Há alguns anos atrás eu tive um problema de saúde pra ser tratado e um dos requisitos a seguir era o de não ingerir nada alcoólico e eu simplesmente _acostumei_ a viver dessa maneira. Poderia voltar a beber, mas aí vem de novo a questão "da decisão". Já aconteceu mais de um caso, inclusive recente, de falecimento de parentes próximos devido a problemas renais. Por que não evitar, correto?
+O que muitas pessoas não sabem é o que vem por trás dessa decisão. Muitas vezes nós mesmos tomamos uma decisão, outras vezes é a vida que decide pela gente. E foi isso que aconteceu. Há alguns anos atrás eu tive um problema de saúde pra ser tratado e um dos requisitos a seguir era o de não ingerir nada alcoólico e eu simplesmente _acostumei_ a viver dessa maneira. Poderia voltar a beber, mas aí vem de novo a questão _da decisão_. Já aconteceu mais de um caso, inclusive recente, de falecimento de parentes próximos devido a problemas hepáticos. Por que não evitar, correto?
 
 ## Não existe bala de prata!
 
-Se você já assistiu a algumas palestras, provavelmente já deve ter ouvido que não existe uma _bala de prata_ para um determinado problema e que a melhor solução é aquela que mais se adequa a você/seu time. Eu concordo 100% com isso e acho que quando voltamos pra saúde isso vale também.
+Se você já assistiu a algumas palestras, provavelmente já deve ter ouvido muitas pessoas dizerem que não existe uma _bala de prata_ para um determinado problema e que a melhor solução é aquela que mais se adequa a você ou ao seu time. Eu concordo 100% com isso e acho que quando estamos falando de saúde isso vale também.
 
-A _solução_ que eu encontrei pra cuidar da minha saúde não é a ideal pra você. E a sua _solução_ não vai ser 100% ideal para outra pessoa. Assim como existem soluções como React, Angular, Ember e por aí vai, acho que podemos dizer que existem pilates, academia, corrida, bicicleta, caminhada, etc. Você que vai definir o melhor pra você.
+A _solução_ que eu encontrei pra cuidar da minha saúde não é a ideal pra você. E a sua _solução_ não vai ser 100% ideal pra outra pessoa. Assim como escolhemos tecnologias para cada pilar do desenvolvimento, podemos dizer que pra saúde conseguimos seguir caminho parecido. Se pra CSS escolhemos Stylus ou Sass, pra nossa atividade física podemos escolher corrida, bicicleta, caminhada, academia e por aí vai. Se pra JS escolhemos React, Angular ou Vanilla, pra nossa alimentação podemos seguir N dietas possíveis graças aos avanços dos estudos nessa área (_disclaimer_: não saia fazendo e copiando tudo que se vê na internet. Procure um profissional da área).
 
 ## Não opte por "sobrinhos"!
 
-Da mesma maneira que existem diversos artigos falando de valorizarmos os profissionais de tecnologia e que um site/aplicação "barato" pode não ter o resultado esperado, acredito que na área de saúde podemos seguir pensamento similar. Não corte caminhos, um passo de cada vez. Um site, pode ser refeito, sua saúde, talvez possa ser mais complicado. 
+Da mesma maneira que existem diversos artigos falando de valorizarmos os profissionais de tecnologia e que um site/aplicação "barato" pode não ter o resultado esperado, acredito que na área de saúde podemos ter pensamento similar. Não corte caminhos, um passo de cada vez. Um site, pode ser refeito, sua saúde, talvez possa ser mais complicado.
 
 ## Disclaimers
 
