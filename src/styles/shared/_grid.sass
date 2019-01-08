@@ -4,22 +4,28 @@
 
 .container
 	width: 100%
-	max-width: 1200px
+	max-width: $grid
 	margin: 0 auto
-	padding-left: 60px
-	padding-right: 60px
 
-	@include media($grid--break-arrows)
-		padding-left: 20px
-		padding-right: 20px
+	@include media($grid)
+		&:not(&--small):not(&--full)
+			padding-left: 20px
+			padding-right: 20px
 
 	&--full
 		max-width: 100%
+		padding-left: 60px
+		padding-right: 60px
 
 	&--flex
 		display: flex
 		justify-content: space-between
 		flex-wrap: wrap
+
+	&--small
+		max-width: $grid--small + 40px
+		padding-left: 20px
+		padding-right: 20px
 
 /*----------  Flex for center elements  ----------*/
 .is-center
@@ -31,6 +37,3 @@
 /*----------  Full  ----------*/
 .full
 	width: 100%
-
-	&.has-color
-		background-color: #111

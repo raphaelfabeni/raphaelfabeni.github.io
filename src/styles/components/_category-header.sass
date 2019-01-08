@@ -15,14 +15,13 @@
 		background-color: transparent
 		font-size: 18px
 		display: inline-block
-		color: #fff
 		cursor: pointer
-		opacity: .75
+		opacity: .35
 		transition: color .3s ease
 
 		&:not(.is-active):hover,
 		&:not(.is-active):focus
-			color: $color-orange
+			color: $color-green
 
 		&.is-active
 			cursor: default
@@ -43,8 +42,8 @@
 			&.active-category
 				opacity: 1
 				cursor: default
-				background-color: $color-orange
-				color: #000
+				background-color: $color-green
+				color: #fff
 
 		li
 			margin: 0 10px 10px 0
@@ -52,13 +51,3 @@
 		a
 			text-decoration: none
 			padding: 3px
-
-/*----------  Theme light modificator  ----------*/
-.is-light
-	.lang-button
-		color: #000
-
-	.category-header__list
-		.active-category
-			color: #fff
-			background-color: $color-blue

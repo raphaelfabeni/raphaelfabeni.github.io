@@ -31,9 +31,12 @@
 	/*----------  Title and subtitle  ----------*/
 	&__title,
 	&__subtitle
-
 		a
 			text-decoration: none
+			color: $color-title
+			background: linear-gradient(to right, $color-title, darken($color-title, 20%))
+			-webkit-background-clip: text
+			-webkit-text-fill-color: transparent
 
 			@include media(360px)
 				> span

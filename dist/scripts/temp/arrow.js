@@ -4,6 +4,8 @@
 var Arrow = function () {
 
 	var arrow = document.querySelector('[data-post-arrow]');
+	var titleReference = document.querySelector('[data-post-title]');
+	var titleDistance = titleReference.getBoundingClientRect().top;
 
 	function init() {
 		if (!arrow) {
@@ -18,7 +20,7 @@ var Arrow = function () {
 
 	function movePage() {
 		window.scroll({
-			top: window.outerHeight,
+			top: titleDistance,
 			left: 0,
 			behavior: 'smooth'
 		});

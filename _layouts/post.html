@@ -12,19 +12,16 @@ type: post
   {% include head.html %}
 <body data-hold class="post-page">
 
-	{% include theme.html %}
-
   {% include header.html %}
 
-  <div class="header-post u-flow">
+  <div class="header-post">
   	<img class="header-post__image" src="{{ page.image }}" alt="{{ page.alt }}">
-  	<h1 class="header-post__title">{{ page.title }}</h1>
   	<button class="header-post__arrow" data-post-arrow></button>
 	</div>
 
-	<div class="full has-color u-flow">
-
-		<div class="container ">
+	<div class="full">
+		<div class="container container--small">
+      <h1 class="post-title" data-post-title>{{ page.title }}</h1>
 	  	<article role="main" class="post-content">
 	    	{{ content }}
 	  	</article>
@@ -32,7 +29,7 @@ type: post
   	</div>
   </div>
 
-  <a href="/blog" class="arrow arrow--left u-flow is-hidden" data-text="Blog" data-back-link></a>
+  <a href="/blog" class="arrow arrow--left is-hidden" data-text="Blog" data-back-link></a>
 
   <a rel="author" class="sr-only" href="https://plus.google.com/u/0/+RaphaelFabeni">Raphael Fabeni</a>
 
