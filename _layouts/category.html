@@ -21,12 +21,12 @@ layout: blog
 {% if englishPosts.size > 0 %}
 	{% for post in englishPosts %}
 		<article class="post" data-post="en">
-			<h2 class="post__title">
-				<a class="post__link" href="{{ post.url }}">{{ post.title }}</a>
-			</h2>
 			<figure class="post__thumb">
 				<img src="{{ post.image }}" alt="{{ post.alt }}">
 			</figure>
+			<h2 class="post__title">
+				<a class="post__link" href="{{ post.url }}">{{ post.title }}</a>
+			</h2>
 		</article>
 	{% endfor %}
 {% else %}
@@ -38,12 +38,12 @@ layout: blog
 {% if portuguesePosts.size > 0 %}
 	{% for post in portuguesePosts %}
 		<article class="post" data-post="pt-br" hidden>
-			<h2 class="post__title">
-				<a class="post__link" href="{{ post.url }}">{{ post.title }}</a>
-			</h2>
 			<figure class="post__thumb">
 				<img src="{{ post.image }}" alt="{{ post.alt }}">
 			</figure>
+			<h2 class="post__title">
+				<a class="post__link" href="{{ post.url }}">{{ post.title }}</a>
+			</h2>
 		</article>
 	{% endfor %}
 {% else %}

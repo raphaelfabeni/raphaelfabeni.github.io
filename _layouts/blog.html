@@ -8,22 +8,20 @@
   {% include head.html %}
 <body data-hold class="blog">
 
-	{% include theme.html %}
-
   {% include header.html %}
 
   <main role="main" id="content" class="container container--full container--flex">
     {{ content }}
   </main>
 
-  {% if page.links %}
+  <!-- {% if page.links %}
   	{% if page.links.left %}
-  		<a href={{ page.links.left.link }} class="arrow arrow--left u-flow" data-text="{{ page.links.left.text }}"></a>
+  		<a href={{ page.links.left.link }} class="arrow arrow--left" data-text="{{ page.links.left.text }}"></a>
   	{% endif %}
   	{% if page.links.right %}
-  		<a href={{ page.links.right.link }} class="arrow arrow--right u-flow" data-text="{{ page.links.right.text }}"></a>
+  		<a href={{ page.links.right.link }} class="arrow arrow--right" data-text="{{ page.links.right.text }}"></a>
   	{% endif %}
-  {% endif %}
+  {% endif %} -->
 
   {% include scripts.html %}
 </body>

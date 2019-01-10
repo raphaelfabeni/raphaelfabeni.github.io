@@ -110,7 +110,7 @@ rules:
 
   # Name formats
   class-name-format:
-    - 2
+    - 1
     -
       convention: 'hyphenatedbem'
   function-name-format: 0
@@ -118,6 +118,6 @@ rules:
   mixin-name-format: 2
   placeholder-name-format: 0
   variable-name-format:
-    - 2
+    - 1
     -
       convention: 'hyphenatedbem'

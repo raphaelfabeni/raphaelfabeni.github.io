@@ -1,0 +1,39 @@
+---
+layout: simple
+title: Thoughts | Raphael Fabeni
+description: 'Some stuff I wrote on Twitter.'
+language: en
+links:
+  left:
+    text: Books
+    link: '/books'
+---
+<a href="https://twitter.com/raphaelfabeni?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @raphaelfabeni</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<div class="tweets">
+	<div class="tweet" data-tweet data-id="1080618176004743168"></div>
+	<div class="tweet" data-tweet data-id="1081957819220459524"></div>
+	<div class="tweet" data-tweet data-id="1073889052905082880"></div>
+	<div class="tweet" data-tweet data-id="1072125029687660545"></div>
+	<div class="tweet" data-tweet data-id="1063376525440049154"></div>
+	<div class="tweet" data-tweet data-id="1062770723129868289"></div>
+	<div class="tweet" data-tweet data-id="1062280907917324288"></div>
+	<div class="tweet" data-tweet data-id="1052602667707625472"></div>
+</div>
+
+<script src="http://platform.twitter.com/widgets.js"></script>
+<script>
+(function(){
+	const tweets = [].slice.call(document.querySelectorAll('[data-tweet]'));
+	for(var i = 0; i < tweets.length; i++) {
+		let id = tweets[i].getAttribute('data-id');
+
+		twttr.widgets.createTweet(
+			id, tweets[i], {
+				conversation : 'none',    // or all
+				cards        : 'hidden',  // or visible 
+				theme        : 'light'    // or dark
+			});
+	}
+
+})();
+</script>

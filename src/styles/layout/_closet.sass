@@ -1,0 +1,61 @@
+/*----------  Group  ----------*/
+.closet
+
+	&-subtitle
+		opacity: .75
+		font-size: 28px
+		margin-bottom: 15px
+
+	&-group
+		& + &
+			margin-top: 50px
+
+		&:last-of-type
+			padding-bottom: 50px
+
+/*----------  Music  ----------*/
+.closet-music
+	width: 100%
+
+	& + &
+		margin-top: 25px
+
+	&--playlist
+		display: flex
+
+		@include media(800px)
+			flex-wrap: wrap
+
+		> iframe
+			flex: 1
+			max-width: 49%
+			margin: 10px
+			min-height: 600px
+			border: solid 1px #ddd
+			padding: 15px
+
+			@include media(800px)
+				width: 100%
+				max-width: 100%
+
+
+
+/*----------  Books  ----------*/
+.gr_grid_container
+	display: flex
+	align-items: center
+	flex-wrap: wrap
+	margin-left: -15px
+	width: calc(100% + 30px)
+
+	.gr_grid_book_container
+		margin: 15px
+
+		a
+			display: block
+			transition: transform .3s ease, opacity .3s ease
+
+			&:hover,
+			&:focus
+				opacity: .75
+				transform: translateY(-3px)
