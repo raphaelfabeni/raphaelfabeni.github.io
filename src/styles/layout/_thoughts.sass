@@ -4,5 +4,12 @@
 	margin-left: -10px
 	width: calc(100% + 20px)
 
+	@include media(600px)
+		width: 100%
+
 	.tweet
 		margin: 10px
+
+		@include media(600px)
+			max-width: 100%
+			margin: 0
