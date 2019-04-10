@@ -18,6 +18,8 @@ kramdown:
 source:      .
 destination: ./_site
 permalink:   /:title/
+gems:
+  - jekyll-gist
 collections:
   category:
     output: true
