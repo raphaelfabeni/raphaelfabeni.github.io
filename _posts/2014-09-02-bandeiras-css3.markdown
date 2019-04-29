@@ -10,6 +10,7 @@ lang: pt-br
 category: 'projects'
 ---
 
+
 Há alguns dias atrás eu conversei rápido com o grande <a href="https://twitter.com/deividmarques" target="_blank">Deivid Marques</a> sobre projetos que usam só CSS3. Eu acho <strong>muito</strong> legal projetos assim pois mostram o quanto de coisa bacana é possível fazer apenas com CSS3.
 
 Alguns dias depois, vi o projeto sensacional <a href="http://lynnandtonic.github.io/a-single-div/" target="_blank">A Single Div</a>. Foi o empurrão que faltava. Queria fazer algo também, principalmente pra dar uma recapitulada em algumas coisas do CSS3 mas também pra <strong>brincar</strong> um pouco. Comecei a tentar pensar em algo, mas parece que quando você quer ter uma idéia bacana, nunca vem nada. As melhores idéias sempre me aparecem do nada. <strong>¯\\\_(ツ)_/¯</strong>

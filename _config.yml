@@ -14,12 +14,13 @@ markdown: kramdown
 kramdown:
   input: GFM
   # syntax_highlighter: rouge
-
 source:      .
 destination: ./_site
 permalink:   /:title/
 gems:
   - jekyll-gist
+gist:
+  fallback: false
 collections:
   category:
     output: true
