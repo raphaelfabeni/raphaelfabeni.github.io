@@ -48,7 +48,3 @@ Eu acho que você tem que **escrever pra você**, pra **documentar** algo que vo
 Não existe tema *bobo* ou muito simples, como muitos colocam como desculpa pra não escrever. **O que é simples e você acha irrelevante, pode ser o problema de muitas outras pessoas**.
 
 Tinha já a idéia de escrever sobre o assunto e o FEMUG realmente me deu aquele empurrão. Parabéns aos organizadores [Daniel Filho](https://twitter.com/danielfilho), [Rafael Rinaldi](https://twitter.com/rafaelrinaldi) e [Rafael Lyra](https://twitter.com/rafaellyra) pelo FEMUG, cada vez mais legal.
-
-Gostou? Escrevi alguma groselha? Quer melhorar? Abra uma [issue](https://github.com/raphaelfabeni/raphaelfabeni.github.io/issues) com a hashtag *1postperweek* e vamos conversar.
-
-

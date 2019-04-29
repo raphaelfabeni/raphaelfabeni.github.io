@@ -28,65 +28,23 @@ Pra essa brincadeira criei duas pastas: uma com o nome `jasmine` onde joguei tod
 
 E a estrutura completa ficaria assim:
 
-```html
-├── jasmine (todos os arquivos do framework)
-└── hello
-    ├── hello.js
-    └── spec
-        ├── index.html
-        └── hello.spec.js
-```
+{% gist 1313a915f45ebcbcfd84f815813a2db9 %}
 
 **Um adendo:** essa foi uma organização só a fim de exemplo.
 
 Então temos nosso menino `spec/index.html`:
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Jasmine</title>
-  <link rel="shortcut icon" type="image/png" href="../../jasmine/lib/jasmine-2.0.0/jasmine_favicon.png">
-  <link rel="stylesheet" type="text/css" href="../../jasmine/lib/jasmine-2.0.0/jasmine.css">
-
-  <script type="text/javascript" src="../../jasmine/lib/jasmine-2.0.0/jasmine.js"></script>
-  <script type="text/javascript" src="../../jasmine/lib/jasmine-2.0.0/jasmine-html.js"></script>
-  <script type="text/javascript" src="../../jasmine/lib/jasmine-2.0.0/boot.js"></script>
-
-  <script src="../hello.js"></script>
-  <script src="hello.spec.js"></script>
-</head>
-<body>
-</body>
-</html>
-```
+{% gist 1804dffb87943bdf8f2148f8b99c0cdd %} 
 
 Aí temos um exemplo simples de arquivo `JavaScript`:
 
-```js
-var Hello = function() {};
-
-Hello.prototype.sayHi = function(name) {
-  return 'my name is ' + name + ' and I\'m learning Jasmine!';
-};
-```
+{% gist 9ffbcf759aa578a9d23763f0c44bbb1d %}
 
 Observando o arquivo anterior, conseguimos já visualizar o que acontece certo? Mentalmente já esperamos que ao criarmos um **objeto** utilizando `Hello` e chamarmos o **método** `sayHy`, deve-se retornar uma **string** específica com o **argumento** que passarmos.
 
 Passando pra parte testável da coisa. Vamos lá, poderíamos implementar nosso teste assim:
 
-```js
-describe('Hello :)', function() {
-
-  var hello = new Hello();
-
-  it('says my name', function() {
-    expect(hello.sayHi('Fabeni')).toEqual('my name is Fabeni and I\'m learning Jasmine!');
-  });
-
-});
-```
+{% gist d28a0c3976b88646396eeda691388fa9 %}
 
 Destrinchando nosso arquivo de teste:
 
@@ -95,21 +53,7 @@ Destrinchando nosso arquivo de teste:
 
 Poderíamos também mudar algumas coisas na organização do código e adicionarmos a função `beforeEach`:
 
-```js
-describe('Hello :)', function() {
-
-  var hello;
-
-  beforeEach(function() {
-    hello = new Hello();
-  });
-
-  it('says my name', function() {
-    expect(hello.sayHi('Fabeni')).toEqual('my name is Fabeni and I\'m learning Jasmine!');
-  });
-
-});
-```
+{% gist 05b6347183553c3ddf81b25f293950cd %}
 
 A função `beforeEach` como o próprio nome diz, roda uma vez antes de cada `spec` do `describe` e, também existe o `afterEach` que tem o papel inverso e roda uma vez depois de cada `spec`.
 
@@ -124,36 +68,16 @@ Se abrirmos nosso `index.html` para rodarmos nossos testes, teremos algo assim:
 
 Nosso arquivo `hello.js` ficaria assim:
 
-```js
-var Hello = function() {};
-
-Hello.prototype.sayHi = function(name) {
-  return 'my name is ' + name + ' and I\'m learning Jasmine!';
-};
-
-module.exports = Hello;
-```
+{% gist 14451fa6ba86d9484a7e0724ec286dc3 %}
 
 E nosso arquivo de testes `hello.spec.js` ficaria assim:
 
-```js
-var Hello =  require('./hello.js');
-
-describe('Hello', function() {
-
-  var hello = new Hello();
-
-  it('says my name', function() {
-    expect(hello.sayHi('Fabeni')).toEqual('my name is Fabeni and I\'m learning Jasmine!');
-  });
-
-});
-```
+{% gist ec699d7a7f35753b89a4376c50331148 %}
 
 Eaí é só rodarmos nosso teste via terminal:
 
 <figure class="loading">
-    <img src="https://cloud.githubusercontent.com/assets/1345662/11458110/85197528-96a0-11e5-97a2-c6dfed6589d2.gif" alt="Gif animado mostrando o teste do jasmine node">
+  <img src="https://cloud.githubusercontent.com/assets/1345662/11458110/85197528-96a0-11e5-97a2-c6dfed6589d2.gif" alt="Gif animado mostrando o teste do jasmine node">
 </figure>
 
 ## Testes antes?
@@ -162,19 +86,7 @@ No exemplo anterior primeiro desenvolvemos nosso código e depois escrevemos nos
 
 Comecemos de algo básico: imagine que queremos ter uma função simples que aceita 2 números como argumentos e nos retorna o resultado da adição de ambos. Poderíamos fazer um teste simples assim:
 
-```js
-describe('Calc', function() {
-
-  it('should calculate the addition of two numbers', function() {
-    expect(add(5,3)).toEqual(8);
-  });
-
-  it('1 argument - should calculate the addition using the argument twice', function() {
-    expect(add(5)).toEqual(10);
-  });
-
-});
-```
+{% gist 37a5c6a5cd391643af20efecd1ed6268 %}
 
 No teste acima, quebramos nosso componente em 2 testes específicos:
 
@@ -185,41 +97,22 @@ No teste acima, quebramos nosso componente em 2 testes específicos:
 
 Tendo isso em mente, podemos partir pro nosso código:
 
-```js
-function add(x, y) {
-  return x + y;
-}
-```
+{% gist c36997a8b364e113d947793fc2fb8b33 %}
 
 Com certeza, de cara já poderíamos imaginar algo assim certo? No entanto como é de se esperar isso vai nos retornar um erro quando rodarmos os testes.
 
 <figure class="loading">
-    <img src="https://cloud.githubusercontent.com/assets/1345662/11458111/851a90d4-96a0-11e5-919b-322f79dcc44c.png" alt="Print da tela mostrando que os testes quebraram">
+  <img src="https://cloud.githubusercontent.com/assets/1345662/11458111/851a90d4-96a0-11e5-919b-322f79dcc44c.png" alt="Print da tela mostrando que os testes quebraram">
 </figure>
 
 Nossos testes quebraram e conseguimos ver exatamente onde: *Calc 1 argument - should calculate the addition using the argument twice*. Isso acontece pois não fizemos nenhum tratamento na nossa função caso recebessemos apenas um argumento. Vamos lá então:
 
-```js
-function add(x, y) {
-  return y ? x + y : x + x;
-}
-```
+{% gist e6a949aca6edf5b102ea96f578cab27b %}
 
 Agora se rodarmos os testes novamente:
 
 <figure class="loading">
-    <img src="https://cloud.githubusercontent.com/assets/1345662/11458109/8519037c-96a0-11e5-8e85-2c36af470449.png" alt="Print da tela mostrando que os testes passaram">
+  <img src="https://cloud.githubusercontent.com/assets/1345662/11458109/8519037c-96a0-11e5-8e85-2c36af470449.png" alt="Print da tela mostrando que os testes passaram">
 </figure>
 
 Acho que é isso. No próximo post, vou tentar escrever um pouco sobre os *matchers* do *Jasmine* que é uma outra parte bem legal do framework. Deixo aqui meu **valeu** ao [Weslley Araujo](https://twitter.com/_weslleyaraujo) pela revisão do conteúdo!
-
-Gostou? Escrevi alguma groselha? Quer melhorar? Abra uma [issue](https://github.com/raphaelfabeni/raphaelfabeni.github.io/issues) com a hashtag *1postperweek* e vamos conversar.
-
-
-
-
-
-
-
-
-

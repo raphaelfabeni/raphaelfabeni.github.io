@@ -24,38 +24,25 @@ Editar _commits_? Pra que? Pois é. Alguns casos:
 
 Um exemplo simples e rápido. Imagine que no seu projeto você fez uma alteração e fez um _commit_:
 
-```bash
-git commit -m 'Ajustes de CSS e JS no slideshow.'
-```
+{% gist 90a6a97130985c4b7c22c92521efa0cd %}
 
 Aí você lembrou que tinha que atualizar o `README` (ou preferiu deixar em _commits_ separados) do projeto:
 
-```bash
-git commit -m 'Atualiza o README.'
-```
+{% gist a1ae888b8bec5945c71bfd320dcd30ba %}
 
 Então você sai pra pegar um chá (não bebo café ¯\\\_(ツ)_/¯) e no meio do caminho lembra que faltou uma alteração de CSS. Aí você volta, faz a alteração e comita novamente:
 
-```bash
-git commit -m 'Mais ajustes de CSS e JS no slideshow.'
-```
+{% gist 69fab53ddba3552abf7a5bca490e1480 %}
 
 Se rodássemos um simples *log* para ver os _commits_ teríamos algo assim (limitei apenas aos 3 últimos, para o exemplo):
 
-```bash
-git log --oneline
-74e6f3e Mais ajustes de CSS e JS no slideshow.
-1ee9572 Atualiza o README.
-9afe987 Ajustes de CSS e JS no slideshow.
-```
+{% gist 658e70c8020eb959214b6176f47c8cca %}
 
 Se o projeto é pequeno/pessoal, até daria pra deixar assim, no entanto, quando estamos trabalhando com outras pessoas em um projeto grande, pode ficar meio estranho no conjunto da história. É aí que entra o *interactive rebase*. Com ele conseguimos alterar _commits_ em um mesmo *branch*. Paremos de falar e vamos ao que interessa.
 
 ## Como faço?
 
-```bash
-git rebase -i HEAD~3
-```
+{% gist 3c311e78b1ea83e571956ea06d3f642c %}
 
 Rodamos o comando acima onde o:
 
@@ -64,37 +51,17 @@ Rodamos o comando acima onde o:
 
 Feito isso aparecerá uma tela similar a essa abaixo (todas *telas* citadas abaixo irão abrir no seu editor que estiver setado como *default*):
 
-```bash
-pick 74e6f3e Mais ajustes de CSS e JS no slideshow.
-pick 1ee9572 Atualiza o README.
-pick 9afe987 Ajustes de CSS e JS no slideshow.
-
-# Rebase 5644bdd..74e6f3e onto 5644bdd
-#
-# Commands:
-#  p, pick = use commit
-#  r, reword = use commit, but edit the commit message
-#  e, edit = use commit, but stop for amending
-#  s, squash = use commit, but meld into previous commit
-#  f, fixup = like "squash", but discard this commit's log message
-#  x, exec = run command (the rest of the line) using shell
-```
+{% gist 83068ff07ed98e3c5d72a6a9155a2e3e %}
 
 ## Reordenando _commits_
 
 No exemplo acima poderíamos alterar a ordem dos _commits_ deixando juntos os que são relacionados ao mesmo tema por exemplo. Pra isso, na tela anterior, edite a ordem copiando e colando as linhas na ordem que preferir. Para o exemplo, poderíamos algo mais ou menos assim:
 
-```bash
-pick 1ee9572 Atualiza o README.
-pick 74e6f3e Mais ajustes de CSS e JS no slideshow.
-pick 9afe987 Ajustes de CSS e JS no slideshow.
-```
+{% gist fb24d09ac3495ec6af419368ebc99a48 %}
 
 E ... pronto! Se Se ocorreu tudo certo aparecerá uma mensagem mais ou menos assim:
 
-```bash
-Successfully rebased and updated refs/heads/develop.
-```
+{% gist d873a435ff7954d18a9f171ca4a7df80 %}
 
 Pode ser que conflitos ocorram, nesse caso o `rebase` para até que você o corrija. Depois é só rodar um `git rebase --continue` para seguir ou um `git rebase --abort` se quiser desistir de tudo.
 
@@ -104,50 +71,23 @@ Outra coisa beeeem bacana é a possibilidade de alterar a mensagem de um _commit
 
 Rodamos novamente o *rebase*:
 
-```bash
-git rebase -i HEAD~3
-```
+{% gist 82690be5a679bbaba53f8e6f955fbef3 %}
 
 Caímos novamente naquela tela com a listagem dos _commits_. Aí digitamos `reword` no _commit_ que quisermos editar a mensagem.
 
-```bash
-pick 9afe987 Ajustes de CSS e JS no slideshow.
-pick 74e6f3e Mais ajustes de CSS e JS no slideshow.
-reword 1ee9572 Atualiza o README.
-```
+{% gist 38ba4f56846faa26f6017caf26d5861a %}
 
 Feito isso, caíremos em outra tela, similar a essa:
 
-```bash
-Atualiza o README.
-
-# Please enter the commit message for your changes. Lines starting
-# with '#' will be ignored, and an empty message aborts the commit.
-#
-# Date:      Mon Dec 15 19:09:30 2014 -0200
-#
-# rebase in progress; onto 5644bdd
-# You are currently editing a commit while rebasing branch 'develop' on '5644bdd'.
-#
-# Changes to be committed:
-#       modified:   README.md
-#
-```
+{% gist 8ed05e1d9253aacbe6aa1cbbe7a5e844 %}
 
 Aí é só *taca-le pau* na nova mensagem.
 
-```bash
-Atualiza informações sobre dependências JS no README.
-...
-```
+{% gist 6944b66ccca4980a7f9c5e0c19bb7020 %}
 
 E... pronto! \o/ Se rodarmos um *log* simples, veremos a lista dos _commits_ com a mensagem atualizada:
 
-```bash
-1ee9572 Atualiza informações sobre dependências JS no README.
-74e6f3e Mais ajustes de CSS e JS no slideshow.
-9afe987 Ajustes de CSS e JS no slideshow.
-```
+{% gist ccc86e3c2db01bd2df15769f3d80100d %}
 
 ## Forçando o push
 
@@ -162,13 +102,3 @@ Pra não ficar muito extenso, dividi o assunto em 2 posts. No próximo vamos fal
 * Os nomes/estrutura dos arquivos e mensagens de _commit_ são a títulos de exemplo.
 * Usei a palavra tela para referenciar cada retorno do terminal.
 * Uso por padrão como editor o *vim*, o que facilita a edição das •telas• que comentei no tópico anterior.
-
-Gostou? Escrevi alguma groselha? Quer melhorar? Abra uma [issue](https://github.com/raphaelfabeni/raphaelfabeni.github.io/issues) com a hashtag *1postperweek* e vamos conversar.
-
-
-
-
-
-
-
-

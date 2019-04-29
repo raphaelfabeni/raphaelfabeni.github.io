@@ -22,27 +22,11 @@ In this post, we're going to see how to merge two commits and also how to divide
 
 I strongly recommend you read the previous post, to get used to the `rebase` flow. So, we run again the command:
 
-```bash
-git rebase -i HEAD~3
-```
+{% gist 677088afc36ee7fca209e725c6d3d3d5 %}
 
 And then, we see a screen like that:
 
-```bash
-pick 9afe987 CSS and JS adjusments in slideshow.
-pick 74e6f3e More CSS adjustments in slideshow.
-pick 1ee9572 Updates README with JS dependencies.
-
-# Rebase 5644bdd..1ee9572 onto 5644bdd
-#
-# Commands:
-#  p, pick = use commit
-#  r, reword = use commit, but edit the commit message
-#  e, edit = use commit, but stop for amending
-#  s, squash = use commit, but meld into previous commit
-#  f, fixup = like "squash", but discard this commit's log message
-#  x, exec = run command (the rest of the line) using shell
-```
+{% gist 7c5fde1e19367ca87b61e89dedffa350 %}
 
 So far, nothing new. Let's move on...
 
@@ -52,75 +36,33 @@ Let's merge the _commits_ related to CSS and JS adjustments, which probably are 
 
 To do that, we type `squash` in a _commit_. Doing that, `git` understand we want to merge this marked _commit_  with the previous one (above).
 
-```bash
-pick 9afe987 CSS and JS adjusments in slideshow.
-squash 74e6f3e More CSS adjustments in slideshow.
-pick 1ee9572 Updates README with JS dependencies.
-```
+{% gist b5622f6453a5e626b925dedae34f29f5 %}
 
 After that, we see a screen that shoes both _commits_ messages:
 
-```bash
-# This is a combination of 2 commits.
-# The first commit's message is:
-
-CSS and JS adjusments in slideshow.
-
-# This is the 2nd commit message:
-
-More CSS adjustments in slideshow.
-
-# Please enter the commit message for your changes. Lines starting
-# with '#' will be ignored, and an empty message aborts the commit.
-#
-# Date:      Fri Dec 26 15:48:51 2014 -0200
-#
-# rebase in progress; onto 5644bdd
-# You are currently editing a commit while rebasing branch 'develop' on '5644bdd'.
-#
-# Changes to be committed:
-#       modified:   dev/js/slideshow.js
-#       modified:   dev/css/style.css
-```
+{% gist 29da7420b8fa326337188d06fcacdc88 %}
 
 Now we just have to remove or comment the lines with the _commits_ messages and insert the new message:
 
-```bash
-CSS and JS adjusments in slideshow.
-```
+{% gist 911f36914065d88e0e8478cbc25fc76c %}
 
 And... done! Now if we run a *log* of the commits, we will see something similar to:
 
-```bash
-1ee9572 Updates README with JS dependencies.
-f2feda9 CSS and JS adjusments in slideshow.
-```
+{% gist 41d4e91fd6fbbb2596f70be9263426ed %}
 
 ## Splitting a *commit*
 
 As we're crazy, now we want to revert the previous process and spit the _commit_ that was merged. Jokes apart, we can do it, for example, in a commit that with a lot of changes and perhaps we could split it to make the git commit story better to understand. So we run the `rebase`:
 
-```bash
-git rebase -i HEAD~2
-```
+{% gist 0d4a974fb595ac86d7952788e99cf504 %}
 
 We see a screen that we are used to knowing; then we change the word `pick` for `edit` in the _commit_ we want to edit.
 
-```bash
-edit f2feda9 CSS and JS adjusments in slideshow.
-pick 1ee9572 Updates README with JS dependencies.
-...
-```
+{% gist ab809bf3e7e7e742cddef1e79bfa3371 %}
 
 So, quit the edit mode and we're going to see this:
 
-```bash
-Stopped at f2feda9... Ajustes gerais de CSS e JS no slideshow.
-You can amend the commit now, with
-   git commit --amend
-Once you are satisfied with your changes, run
-   git rebase --continue
-```
+{% gist 178ade618c0ffe7bfe78a264b5b07c51 %}
 
 This is the cool part. What happened here was the `rebase` stopped in the _commit_ we specified. Now we have three options:`
 
@@ -130,48 +72,19 @@ This is the cool part. What happened here was the `rebase` stopped in the _commi
 
 At this point, if we run a `git status` we would see the files that were modified in the _commit_:
 
-```bash
-dev/js/slideshow.js
-dev/js/main.js
-dev/css/style.css
-dev/css/slideshow.css
-```
+{% gist d01f3892d76caa1de0db98ad7d73a377 %}
 
 Now we could add the files and commit them. Theoretically, here you do the _commits_ splitting. For our example, we could do something like:
 
-```bash
-git add dev/js/slideshow.js
-
-git add dev/css/slideshow.css
-
-git commit -m "CSS and JS adjustments in the slideshow core."
-
-git add dev/css/style.css
-
-git commit -m "Slideshow CSS adjustments in internal pages."
-
-git add dev/js/main.js
-
-git commit -m "Changes the parameters in the slideshow function call."
-```
+{% gist a9d13a6e14122a04a1f7e4c18a9565d2 %}
 
 What we did was adding files step by step and make _commits_. With all of this done, we could move on with the `rebase`:
 
-
-```bash
-git rebase --continue
-
-Successfully rebased and updated refs/heads/develop.
-```
+{% gist 1fabc06fb363a70685012dd0ff3332d9 %}
 
 And... done! Now if we look the log, we would have something like that:
 
-```bash
-1ee9572 Updates README with JS dependencies.
-f74a46e Changes the parameters in the slideshow function call.
-41ab775 Slideshow CSS adjustments in internal pages.
-7ccdd4c CSS and JS adjustments in the slideshow core.
-```
+{% gist 81658d8c578abb9b8a0cafdb15cb54b0 %}
 
 ## Forcing the push
 

@@ -16,181 +16,58 @@ I met great *destructuring assignment* through my brother [Weslley Araujo](https
 
 For we get a property of an object, we could do something like that:
 
-```js
-var movieStar = {
-  name: 'James Bond',
-  nickname: 'Bond',
-  profession: 'Federal Agent'
-};
-
-console.log(movieStar.name);
-// James Bond
-```
+{% gist eb197d540533622a63ce90c26bd725bd %}
 
 With the *new guy*, we could do something like that:
 
-```js
-var movieStar = {
-  name: 'James Bond',
-  nickname: 'Bond',
-  profession: 'Federal Agent'
-};
-
-let { name, profession } = movieStar;
-
-console.log(name, profession);
-
-// James Bond
-// Federal Agent
-```
+{% gist 7a17dc39fcc58c42fe407e343900dc82 %}
 
 ##  With arrays
 
 If we wanted to take the first item of an `array`, we could do something like:
 
-```js
-var mortalKombat = ['Scorpion', 'Liu Kang', 'Sub Zero', 'Johnny Cage'];
-
-console.log(mortalKombat[0]);
-// Scorpion
-```
+{% gist 5d04833fa61c5e9bbbe1685f8e163ad5 %}
 
 With the *fella* *destructuring*, we could do:
 
-```js
-let mortalKombat = ['Scorpion', 'Liu Kang', 'Sub Zero', 'Johnny Cage'];
-
-let [user1, user2] = mortalKombat;
-
-console.log(user1, user2);
-// Scorpion
-// Liu Kang
-```
+{% gist 2271f2f884142224df2b1b040d9dbbc8 %}
 
 It is still possible, play a bit more:
 
-```js
-let mortalKombat = ['Scorpion', 'Liu Kang', 'Sub Zero', 'Johnny Cage'];
-
-let [userA, , userB] = mortalKombat;
-let [user, ...users] = mortalKombat;
-
-console.log(userA, userB);
-// Scorpion
-// Sub Zero
-
-console.log(user, users);
-// Scorpion
-// ['Liu Kang', 'Sub Zero', 'Johnny Cage']
-```
+{% gist d5cd3bfec872d581a0e87d2836115649 %}
 
 ## Using when importing files
 
 A very cool thing to use *destructuring assignment* is when we need to import *things* to our files. Imagine we have a generic file, as a *helpers*, something like that:
 
-```js
-// helpers.js
-export function getNext(arr) {
-  return (arr.length);
-};
-
-export function makeMoney() {
-  ...
-};
-...
-```
+{% gist fea8d5b641ddfca3676a4c0dca5e1ddb %}
 
 Nice! In other file, let's suppose that we need only these two functions, and not the entire file. So, let's go:
 
-```js
-import { getNext, makeMoney } from '../helpers';
-
-// Now we have access to both function in our file
-// getNext([1, 2, 3]);
-// makeMoney();
-```
+{% gist 009dda7f95d0ce2399613469cef4e117 %}
 
 ## Applying to `forEach`
 
 We could use to in the famous `forEach`. So, if we have a data like that:
 
-```js
-var movieStars = [
-  {
-    name: 'James Bond',
-    nickname: 'Bond',
-    profession: 'Federal Agent'
-  },
-  {
-    name: 'Dominic Toretto',
-    nickname: 'Toretto',
-    profession: 'Driver'
-  },
-  {
-    name: 'John Rambo',
-    nickname: 'Rambo',
-    profession: 'Killer'
-  }
-];
-```
+{% gist 5d3357bc4414754bc542dbb597535432 %}
 
 With this data, normally we could do something like that:
 
-```js
-movieStars.forEach(function(star) {
-  console.log(star.nickname);
-});
-
-// Bond
-// Toreto
-// Rambo
-```
+{% gist 0f6bf72833c65ebc62c165c367cbf3ae %}
 
 With the double of [arrow-functions](/es6-arrow-functions) and *destructuring*, we got some powers:
 
-```js
-movieStars.forEach( ({nickname}) => console.log(nickname) );
-
-// Bond
-// Toreto
-// Rambo
-```
+{% gist 2abae3213f2d8e50f263618f2276642c %}
 
 ## Creating objects
 
 We could create objects in this way:
 
-```js
-let username = 'Raphael Fabeni';
-let nickname = 'Fabeni';
-
-var oldGuy =  {
-  username: username,
-  nickname: nickname
-};
-
-console.log(oldGuy);
-// {
-//   nickname: "Fabeni",
-//   username: "Raphael Fabeni"
-// }
-```
+{% gist ca845aa1bf2787f1e938ba74bf4b8022 %}
 
 But there is a new way much more fun. *◕‿◕*
 
-```js
-let username = 'Raphael Fabeni';
-let nickname = 'Fabeni';
-
-let newGuy = { username, nickname };
-
-console.log(newGuy);
-// {
-//   nickname: "Fabeni",
-//   username: "Raphael Fabeni"
-// }
-```
+{% gist 9bbee4b1a5352c57573b3bbb45118499 %}
 
 [Here](http://jsbin.com/qejoyo/edit?js,console) you can find an JS Bin with the examples.
-
-Do you like it? Did I write something stupid? Do you want to improve? Open an [issue](https://github.com/raphaelfabeni/raphaelfabeni.github.io/issues) mentioning the post and let's talk about it.

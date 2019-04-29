@@ -16,37 +16,14 @@ CSS3 já era coisa fina. Agora, na sua versão 4, ou melhor dizendo, em seu *ní
 
 Com ele, podemos substituir por exemplo, uma marcação assim:
 
-```css
-div .highlight,
-footer .highlight {
-  color: blue;
-}
-```
+{% gist a7b5fc0e8c7d2f5edb983b791adef64d %}
 
 Para algo assim:
 
-```css
-:matches(div, footer) .highlight {
-  color: blue;
-}
-```
+{% gist eb85105186b637f39141eb60db5d6593 %}
 
 Ou seja, `atacamos` toda classe `highlight` que seja filha de uma `div` ou `footer`.
 
 Podemos ainda fazer da maneira inversa, como no exemplo abaixo: onde selecionamos todos elementos `p` que tenham a classe `success` ou que seja `":first-child`.
 
-```css
-p:matches(:first-child, .success) {
-  color: green;
-}
-```
-
-<figure class="text-center loading">
-  <p data-height="400" data-theme-id="4240" data-slug-hash="LNGZYx" data-default-tab="result" data-user="raphaelfabeni" class="codepen">See the Pen <a href="http://codepen.io/raphaelfabeni/pen/LNGZYx/">:matches selector</a> by Raphael Fabeni (<a href="http://codepen.io/raphaelfabeni">@raphaelfabeni</a>) on <a href="http://codepen.io">CodePen</a>.</p>
-</figure>
-
-[Aqui](http://codepen.io/raphaelfabeni/pen/LNGZYx/) o link do exemplo acima.
-
-Gostou? Escrevi alguma groselha? Quer melhorar? Abra uma [issue](https://github.com/raphaelfabeni/raphaelfabeni.github.io/issues) mencionando o post e vamos conversar.
-
-<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
+{% gist 5d1e3a873bec33562147be84f0eab917 %}

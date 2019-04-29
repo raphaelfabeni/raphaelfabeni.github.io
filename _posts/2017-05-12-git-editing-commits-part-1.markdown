@@ -22,38 +22,25 @@ The more I work with git, more I realize how powerful it is. Sometime ago I disc
 
 A simple example: let's imagine that in your project you did a change and made a commit:
 
-```bash
-git commit -m 'CSS and JS adjusments in slideshow.'
-```
+{% gist 6a0aafc048a4416d0c464033d9410d54 %}
 
 So, you just remembered that you needed to update the `README`.
 
-```bash
-git commit -m 'Updates README.'
-```
+{% gist f2b857c5122658327bb38117f93ad914 %}
 
 So, you went to get a cup of coffee and when you were returning to your desk, you remembered a last CSS adjustment that you have to do. So you do it, and make a new commit:
 
-```bash
-git commit -m 'More CSS adjustments in slideshow.'
-```
+{% gist c21ef19c51750057b8a8cbbe4f834641 %}
 
 A simple log to see the _commits_ would show something like that (the last 3):
 
-```bash
-git log --oneline
-74e6f3e More CSS adjustments in slideshow.
-1ee9572 Updates README.
-9afe987 CSS and JS adjusments in slideshow.
-```
+{% gist 67794fc3684410b64f45258895d37c33 %}
 
 If it's a small or even personal project, we could say that is okay to let the _commits_ this way. However, if you are working with other people in a big project, it could be weird three _commits_ for the same and small change. For help us, there is the interactive rebase: using it we could change the _commits_ in a branch.
 
 ## How I do it?
 
-```bash
-git rebase -i HEAD~3
-```
+{% gist 3c311e78b1ea83e571956ea06d3f642c %}
 
 About the code above:
 
@@ -62,37 +49,17 @@ About the code above:
 
 Running that comand, a screen like this below will show (it will open in your default editor like Vim):
 
-```bash
-pick 74e6f3e More CSS adjustments in slideshow.
-pick 1ee9572 Updates README.
-pick 9afe987 CSS and JS adjusments in slideshow.
-
-# Rebase 5644bdd..74e6f3e onto 5644bdd
-#
-# Commands:
-#  p, pick = use commit
-#  r, reword = use commit, but edit the commit message
-#  e, edit = use commit, but stop for amending
-#  s, squash = use commit, but meld into previous commit
-#  f, fixup = like "squash", but discard this commit's log message
-#  x, exec = run command (the rest of the line) using shell
-```
+{% gist 72bafbf63ab01783cb06aa67ea295a1f %}
 
 ## Reordering _commits_
 
 In example above we could change the _commits_' order.
 
-```bash
-pick 1ee9572 Updates README.
-pick 74e6f3e More CSS adjustments in slideshow.
-pick 9afe987 CSS and JS adjusments in slideshow.
-```
+{% gist 0a7fe1f8d01845bdc7135289dc4b9129 %}
 
 And.. it's done! If everything is ok, a message like that will appear:
 
-```bash
-Successfully rebased and updated refs/heads/develop.
-```
+{% gist d873a435ff7954d18a9f171ca4a7df80 %}
 
 Some conflicts could happen, and in this case the `rebase` command will stop untill you resolve the conflicts. After that you only need to run `git rebase --continue` to continue or `git rebase --abort` to quite and abort the process.
 
@@ -102,50 +69,23 @@ Other thing really cool is the possibility to edit the message of the commit. In
 
 So, we run again the `rebase`.
 
-```bash
-git rebase -i HEAD~3
-```
+{% gist 82690be5a679bbaba53f8e6f955fbef3 %}
 
 And the same screen with the _commits_ list will show for us. Now we change the `pick` word to `reword` in the commit which we want to change the message.
 
-```bash
-pick 1ee9572 Updates README.
-pick 74e6f3e More CSS adjustments in slideshow.
-pick 9afe987 CSS and JS adjusments in slideshow.
-```
+{% gist 6c7a588a264656c634e6babf796cecc3 %}
 
 Doing that, a new screen will show for us:
 
-```bash
-Updates the README.
-
-# Please enter the commit message for your changes. Lines starting
-# with '#' will be ignored, and an empty message aborts the commit.
-#
-# Date:      Mon Dec 15 19:09:30 2014 -0200
-#
-# rebase in progress; onto 5644bdd
-# You are currently editing a commit while rebasing branch 'develop' on '5644bdd'.
-#
-# Changes to be committed:
-#       modified:   README.md
-#
-```
+{% gist cb7c957694ebb25359d0c88ff1564b1e %}
 
 We just need to type the new message.
 
-```bash
-Updates README with JS dependencies.
-...
-```
+{% gist bf18f891ed37f855c262c00106056fc2 %}
 
 And it's done! If we run a simple _log_, we will see the _commits_ list with the message updated:
 
-```bash
-1ee9572 Updates README with JS dependencies.
-74e6f3e More CSS adjustments in slideshow.
-9afe987 CSS and JS adjusments in slideshow.
-```
+{% gist b867b5986d25ebdb0ebe4db5eaa75bb4 %}
 
 ## Forcing the push
 

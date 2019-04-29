@@ -14,40 +14,18 @@ category: 'javascript'
 
 O carinha *spread* nos permite extrair/expandir dados de um array agilizando a nossa vida. Confuso? Acho que não consegui explicar. Vamos à prática. Imaginemos os seguintes arrays:
 
-```js
-let mortalKombat = ['Scorpion', 'Sub Zero', 'Liu Kang'];
-let newCharacters = ['Reptile', 'Kitana'];
-```
+{% gist 4b303e0c106e0e66fceefad0ec9535b2 %}
 
 Se tivéssemos que adicionar os novos *lutadores* ao *array* principal, poderíamos tentar algo assim:
 
-```js
-mortalKombat.push(newCharacters);
-
-console.log(mortalKombat);
-// ['Scorpion', 'Sub Zero', 'Liu Kang', ['Reptile', 'Kitana']]
-```
+{% gist f72ade99d07e090e372ba1da797463c1 %}
 
 Adicionou mas não ficou do jeito que queríamos. Teríamos então que tratar isso antes, algo mais ou menos assim:
 
-```js
-newCharacters.forEach(function(fighter) {
-  mortalKombat.push(fighter);
-});
-
-console.log(mortalKombat);
-// ['Scorpion', 'Sub Zero', 'Liu Kang', 'Reptile', 'Kitana']
-```
+{% gist 8b1589c552ebc70f6f7cbc0365027353 %}
 
 O operador *spread* chega *chutando a porta* e deixando tudo bonitão.
 
-```js
-mortalKombat.push(...newCharacters);
-
-console.log(mortalKombat);
-// ['Scorpion', 'Sub Zero', 'Liu Kang', 'Reptile', 'Kitana']
-```
+{% gist c08fba8139fa4a17f781084e16f80959 %}
 
 [Aqui](http://jsbin.com/cubiko/edit?js,console) você encontra um JS Bin com os exemplos acima.
-
-Gostou? Escrevi alguma groselha? Quer melhorar? Abra uma [issue](https://github.com/raphaelfabeni/raphaelfabeni.github.io/issues) mencionando o post e vamos conversar.
