@@ -4,7 +4,7 @@ branches:
   - develop
 language: ruby
 rvm:
-- 2.2.0
+- 2.6.2
 before_install:
 - bash ./start.bash
 install:
