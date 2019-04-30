@@ -1,6 +1,6 @@
 {% if page.type == 'Post' %}
   {% if page.lang == "pt-br" %}
-    <link rel="alternate" hreflang="en" href="{{ site.url_en }}{{ page.url_en }}" />
+    <link rel="alternate" hreflang="en" href="{{ site.url }}{{ page.url_en }}" />
   {% endif %}
   {% if page.lang == "en" %}
     <link rel="alternate" hreflang="pt-br" href="{{ site.url }}{{ page.url_br }}" />
