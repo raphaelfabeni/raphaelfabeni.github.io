@@ -14,44 +14,14 @@ category: 'javascript'
 
 Brincar com *strings* muitas vezes pode ser algo um pouco trabalhoso (pode-se ler chato também *இ_இ*). Isso se deve ao fato principalmente de termos que concatenar palavras/frases com variáveis.
 
-```js
-let author = 'Tiririca';
-let word = 'Worse';
-
-let oldMessage = word + ' than it is, it is impossible. - ' + author;
-
-console.log(oldMessage);
-// Worse than it is, it is impossible. - Tiririca
-```
+{% gist 6d18ae3324eb157f169d331040a3e1fe %}
 
 *Template strings* para a [nooooooooossa alegria](https://youtu.be/K02Cxo3fAC8?t=1m30s).
 
-```js
-let author = 'Tiririca';
-let word = 'Worse';
-
-let message = `${word} than it is, it is impossible. - ${author}`;
-
-console.log(message);
-// Worse than it is, it is impossible. - Tiririca
-```
+{% gist e7a21e701a2e2a20e78ec5451da58d85 %}
 
 Meu amigo [Rafael Rinaldi](https://twitter.com/rafaelrinaldi) fez uma boa observacão: é possível utilizar qualquer tipo de expressão e não só variáveis.
 
-```js
-const obj = {
-  foo: 'bar'
-};
-
-const fn = foo => foo;
-
-console.log( `${obj.foo}` );
-// bar
-
-console.log( `${fn('aloha')}` );
-// aloha
-```
+{% gist 0aba5db33a47928f2b99f25d5d2c9229 %}
 
 [Aqui](http://jsbin.com/qovino/edit?js,console) você encontra um JS Bin com os exemplos acima.
-
-Gostou? Escrevi alguma groselha? Quer melhorar? Abra uma [issue](https://github.com/raphaelfabeni/raphaelfabeni.github.io/issues) mencionando o post e vamos conversar.

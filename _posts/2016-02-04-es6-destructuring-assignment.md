@@ -16,181 +16,58 @@ Conheci o grande *destructuring assignment* através do meu brother [Weslley Ara
 
 Para pegarmos uma propriedade de um objeto, poderíamos fazer algo assim:
 
-```js
-var movieStar = {
-  name: 'James Bond',
-  nickname: 'Bond',
-  profession: 'Federal Agent'
-};
-
-console.log(movieStar.name);
-// James Bond
-```
+{% gist eb197d540533622a63ce90c26bd725bd %}
 
 Com o mano novo, podemos fazer algo assim: 
 
-```js
-var movieStar = {
-  name: 'James Bond',
-  nickname: 'Bond',
-  profession: 'Federal Agent'
-};
-
-let { name, profession } = movieStar;
-
-console.log(name, profession);
-
-// James Bond
-// Federal Agent
-```
+{% gist 7a17dc39fcc58c42fe407e343900dc82 %}
 
 ##  Com arrays
 
 Se quiséssemos, por exemplo, pegar o primeiro item do `array`, poderíamos fazer algo do tipo:
 
-```js
-var mortalKombat = ['Scorpion', 'Liu Kang', 'Sub Zero', 'Johnny Cage'];
-
-console.log(mortalKombat[0]);
-// Scorpion
-```
+{% gist 5d04833fa61c5e9bbbe1685f8e163ad5 %}
 
 Com o mano *destructuring*, podemos fazer algo assim:
 
-```js
-let mortalKombat = ['Scorpion', 'Liu Kang', 'Sub Zero', 'Johnny Cage'];
-
-let [user1, user2] = mortalKombat;
-
-console.log(user1, user2);
-// Scorpion
-// Liu Kang
-```
+{% gist 2271f2f884142224df2b1b040d9dbbc8 %}
 
 Ainda é possível, brincar um pouco mais:
 
-```js
-let mortalKombat = ['Scorpion', 'Liu Kang', 'Sub Zero', 'Johnny Cage'];
-
-let [userA, , userB] = mortalKombat;
-let [user, ...users] = mortalKombat;
-
-console.log(userA, userB);
-// Scorpion
-// Sub Zero
-
-console.log(user, users);
-// Scorpion
-// ['Liu Kang', 'Sub Zero', 'Johnny Cage']
-```
+{% gist d5cd3bfec872d581a0e87d2836115649 %}
 
 ## Usando ao importar arquivos
 
 Uma coisa muito legal de se usar o *mano* **destructuring assignment** é quando precisamos importar *coisas* para os nossos arquivos. Imaginemos que tenhamos um arquivo genérico, como um arquivo *helpers*, algo mais ou menos assim:
 
-```js
-// helpers.js
-export function getNext(arr) {
-  return (arr.length);
-};
-
-export function makeMoney() {
-  ...
-};
-...
-```
+{% gist fea8d5b641ddfca3676a4c0dca5e1ddb %}
 
 Legal! Agora em um outro arquivo, vamos imaginar que só iremos precisar dessas duas funções, e não do arquivo inteiro. Podemos fazer algo assim:
 
-```js
-import { getNext, makeMoney } from '../helpers';
-
-// Agora temos acesso as duas funções no nosso arquivo
-// getNext([1, 2, 3]);
-// makeMoney();
-```
+{% gist 009dda7f95d0ce2399613469cef4e117 %}
 
 ## Aplicando ao `forEach`
 
 Podemos também utilizar no famoso `forEach`. Imaginemos que tenhamos o seguinte cara:
 
-```js
-var movieStars = [
-  {
-    name: 'James Bond',
-    nickname: 'Bond',
-    profession: 'Federal Agent'
-  },
-  {
-    name: 'Dominic Toretto',
-    nickname: 'Toretto',
-    profession: 'Driver'
-  },
-  {
-    name: 'John Rambo',
-    nickname: 'Rambo',
-    profession: 'Killer'
-  }
-];
-```
+{% gist 5d3357bc4414754bc542dbb597535432 %}
 
 Com isso, poderíamos fazer algo assim:
 
-```js
-movieStars.forEach(function(star) {
-  console.log(star.nickname);
-});
-
-// Bond
-// Toreto
-// Rambo
-```
+{% gist 0f6bf72833c65ebc62c165c367cbf3ae %}
 
 Utilizando um combo de [arrow-functions](/es6-arrow-functions) e *destructuring*, poderíamos fazer algo assim: 
 
-```js
-movieStars.forEach( ({nickname}) => console.log(nickname) );
-
-// Bond
-// Toreto
-// Rambo
-```
+{% gist 2abae3213f2d8e50f263618f2276642c %}
 
 ## Criando objetos
 
 Podemos criar um objeto assim:
 
-```js
-let username = 'Raphael Fabeni';
-let nickname = 'Fabeni';
-
-var oldGuy =  {
-  username: username,
-  nickname: nickname
-};
-
-console.log(oldGuy);
-// {
-//   nickname: "Fabeni",
-//   username: "Raphael Fabeni"
-// }
-```
+{% gist ca845aa1bf2787f1e938ba74bf4b8022 %}
 
 Dá pra ficar mais legal. *◕‿◕*
 
-```js
-let username = 'Raphael Fabeni';
-let nickname = 'Fabeni';
-
-let newGuy = { username, nickname };
-
-console.log(newGuy);
-// {
-//   nickname: "Fabeni",
-//   username: "Raphael Fabeni"
-// }
-```
+{% gist 9bbee4b1a5352c57573b3bbb45118499 %}
 
 [Aqui](http://jsbin.com/qejoyo/edit?js,console) você encontra um JS Bin com os exemplos acima.
-
-Gostou? Escrevi alguma groselha? Quer melhorar? Abra uma [issue](https://github.com/raphaelfabeni/raphaelfabeni.github.io/issues) mencionando o post e vamos conversar.

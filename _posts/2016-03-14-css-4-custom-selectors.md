@@ -16,29 +16,13 @@ A possibilidade de armazenar valores em variáveis foi um dos pontos principais 
 
 É possível fazermos algo assim:
 
-```css
-@custom-selector :--button button, .btn, input[type="submit"];
-
-:--button {
-  /* css magic */ 
-}
-```
+{% gist 65ca91a81b95c884fabcc80a62704051 %}
 
 O que fizemos acima foi armazenar todos os elementos `button` e `input[type="submit"]` e também com a classe `btn` em `:--button`. Feito isso, declaramos as regras de estilo direto em `:--button`.
 
 Com base nisso, podemos brincar um pouco mais e fazermos algo do tipo:
 
-```css
-@custom-selector :--enter :hover, :focus, .is-hover;
-@custom-selector :--active :active, .is-active;
-
-:--button:--enter {
-  /* :hover, :focus and .is-hover styles */
-}
-
-:--button:--active {
-  /* :active and .is-active styles */
-}
+{% gist a2e1df1af8383bd1b1b600aef619ecd4 %}
 ```
 
 O que fizemos na brincadeira acima foi:
@@ -49,15 +33,7 @@ O que fizemos na brincadeira acima foi:
 
 Podíamos também chegar no mesmo resultado usando o nosso amigo [matches](/css-4-seletor-matches/):
 
-```css
-:--button:matches(:hover, :focus, .is-hover) {
-  /* :hover, :focus and .is-hover styles */
-}
-
-:--button:matches(:active, .is-active) {
-  /* :active and .is-active styles */  
-}
-```
+{% gist dc6c59ae5d85caf6d1f23543c3dbd484 %}
 
 A diferença, apontada pelo meu amigo [Rafael Rinaldi](https://twitter.com/rafaelrinaldi) é que o grande `custom selectors` é uma opção de *preset* se comparado com o `matches`, o que o deixa mais fácil de reutilizar.
 
@@ -66,7 +42,5 @@ A diferença, apontada pelo meu amigo [Rafael Rinaldi](https://twitter.com/rafae
 </figure>
 
 [Aqui](http://codepen.io/raphaelfabeni/pen/eZzjVw) é possível ver um exemplo com os códigos acima.
-
-Gostou? Escrevi alguma groselha? Quer melhorar? Abra uma [issue](https://github.com/raphaelfabeni/raphaelfabeni.github.io/issues) mencionando o post e vamos conversar.
 
 <script async src="//assets.codepen.io/assets/embed/ei.js"></script>

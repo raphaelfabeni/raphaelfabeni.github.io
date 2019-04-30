@@ -31,5 +31,3 @@ Você (e provavelmente seu cliente, caso freela) quer que seu projeto seja visto
 ## Ative os *permalinks*
 
 A estrutura de links padrão do WP é algo meio feio. Não é fácil de entender por uma pessoa normal e também não é nada bacana do ponto vista de SEO. Você já deve ter visto algo do tipo => *www.nomedosite.com.br/?p=123*. Não ficaria melhor algo como *www.nomedosite.com.br/sobre* ?
-
-Gostou? Escrevi alguma groselha? Quer melhorar? Abra uma [issue](https://github.com/raphaelfabeni/raphaelfabeni.github.io/issues) mencionando o post e vamos conversar.

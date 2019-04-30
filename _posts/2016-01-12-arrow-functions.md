@@ -18,130 +18,44 @@ The *arrow functions* at first might seem confusing (for me *(◕(◕)* ), but a
 
 Without *arrow functions*. 
 
-```js
-var oldWay = function(name, nickname) {
-  return 'My name is ' + nickname + ', ' + name;
-};
-
-console.log( oldWay('James Bond', 'Bond') );
-// My name is Bond, James Bond
-```
+{% gist 626c4a6b56ad2b62cbe4e0a7fe40716a %}
 
 With *arrow functions*.
 
-```js
-let newWay = (name, nickname) => {
-  return 'My name is ' + nickname + ', ' + name;
-};
-
-console.log( newWay('James Bond', 'Bond') );
-// My name is Bond, James Bond
-```
+{% gist 844f96371b682d794e1ca80dd21c7a21 %}
 
 Or in a shorter way.
 
-```js
-let newWay2 = (name, nickname) => 'My name is ' + nickname + ', ' + name;
-
-console.log( newWay2('James Bond', 'Bond') );
-// My name is Bond, James Bond
-```
+{% gist 8f4db1cf3552cc6dbcb21ebb066ce8db %}
 
 ## Only one parameter
 
 Without *arrow functions*.
 
-```js
-var one = function(what) {
-  return 'I ' + what + ' you';
-};
-
-console.log( one('hate') );
-// I hate you
-```
+{% gist a7c3c0afabebd5d052145e7ff9041261 %}
 
 With *arrow functions*.
 
-```js
-var oneNew = what => 'I ' + what + ' you';
-
-console.log( oneNew('hate') );
-// I hate you
-```
+{% gist 44471c6936134258786e1c49ae70293a %}
 
 ## Scope
 
 Without *arrow functions*.
 
-```js
-var sandwich = {
-  bread: 'integral',
-  cheese: 'white',
-  
-  prepare: function() {
-    return 'I want a sandwich with ' + this.bread + ' bread and ' + this.cheese + ' cheese';
-  },
-  
-  make: function() {
-    var that = this; // (◕︵◕)
-    window.setTimeout( function () {
-      console.log( that.prepare() );
-    }, 100 );
-  }
-  
-};
-
-// sandwich.make();
-// I want a sandwich with integral bread and white cheese
-```
+{% gist c7428936b07a20bdee21b06246c98277 %}
 
 With *arrow functions*.
 
-```js
-let newSandwich = {
-  bread: 'integral',
-  cheese: 'white',
-  
-  prepare: function() {
-    return 'I want a sandwich with ' + this.bread + ' bread and ' + this.cheese + ' cheese';
-  },
-  
-  make: function() {
-    window.setTimeout( () => console.log(this.prepare()), 100 );
-  }
-  
-};
-
-// newSandwich.make();
-// I want a sandwich with integral bread and white cheese
-```
+{% gist 135be9697afeda35c0fe965dd557cb14 %}
 
 ## Example with `map`
 
 Without *arrow functions*.
 
-```js
-var sample = [1, 2, 3, 4, 5];
-
-var double = sample.map(function(item) {
-  return item * 2;
-});
-
-// console.log(double);
-// [2, 4, 6, 8, 10]
-```
+{% gist 5d019f714f6bd025cc9a5b3764f659b7 %}
 
 With *arrow functions*.
 
-```js
-let sample = [1, 2, 3, 4, 5];
-
-let newDouble = sample.map(item => item * 2);
-
-// console.log(newDouble);
-// [2, 4, 6, 8, 10]
-```
+{% gist 0e54e7876eebb048034d0c40d16a61f8 %}
 
 [Here](http://jsbin.com/nogobe/edit?js,console) you can find an JS Bin with the examples.
-
-Do you like it? Did I write something stupid? Do you want to improve? Open an [issue](https://github.com/raphaelfabeni/raphaelfabeni.github.io/issues) mentioning the post and let's talk about it.

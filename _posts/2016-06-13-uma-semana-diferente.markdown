@@ -67,5 +67,3 @@ Até onde sei, deve vir algo por aí! **:)**
 * *Front in Sampa*
 * Um evento de desenvolvimento web que já pode ser considerado tradicional de São Paulo, chega a sua quinta edição e mantém sua tradição em trazer uma grade de palestras bem diversificada.
 * [Mais informações aqui.](http://frontinsampa.com.br/)
-
-Gostou? Escrevi alguma groselha? Quer melhorar? Abra uma [issue](https://github.com/raphaelfabeni/raphaelfabeni.github.io/issues) mencionando o post e vamos conversar.

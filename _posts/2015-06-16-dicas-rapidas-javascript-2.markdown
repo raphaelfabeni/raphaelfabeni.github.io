@@ -16,67 +16,33 @@ Alguém usa o construtor `new Array()`? Eu particularmente não uso, mas quando 
 
 Se criarmos um array através do `new Array()` passando argumentos entre os parênteses, temos um array com esses valores que foram passados. Algo assim:
 
-```js
-var megaSena = new Array(20, 29, 32, 45, 55, 58);
-```
+{% gist aa279b12ae1daeda1cd84d38d6a096eb %}
 
 Seria o mesmo caso fizéssemos isso:
 
-```js
-var megaSena = [20, 29, 32, 45, 55, 58];
-```
+{% gist 320c1d7a52da47003715fe7e89c0f380 %}
 
 E se passarmos apenas um valor como argumento? Teríamos um array com apenas um item, certo? *Mahomenos...* Aí que vem a pegadinha do *JavaScript* malandro. Se criarmos usando a sintaxe literal, realmente temos um array com apenas um item:
 
-```js
-var megaSena = [20];
-
-console.log(megaSena.length); // 1
-console.log(megaSena[0]); // 20
-```
+{% gist 30b4d87c4c60841391eaee494a09e2a5 %}
 
 Agora se criarmos usando `new Array()` o que acontece é que esse *único* valor passado como argumento vira o comprimento do array e não um item dele.
 
-```js
-var megaSena = new Array(20);
-
-console.log(megaSena.length); // 20
-console.log(megaSena[0]); // undefined
-```
+{% gist 700da6e447477d82691f5a77535c03c1 %}
 
 ## Funções imediatas e parâmetros
 
 Já ouvimos bastante a respeito de funções imediatas, correto? Recapitulando rapidamente, ela permite que uma função seja executada assim que seja definida. Isso é bom principalmente pelo fato de fornecer um escopo temporário para a mágica que você vai fazer, sem a necessidade de poluir seu escopo global.
 
-```js
-(function() {
-  // some magic
-}());
-```
+{% gist 44282b1c5dc3a846d8c0eb083b8d44ac %}
 
 Uma coisa bacana é que podemos passar argumentos para as funções imediatas. Podemos então ter algo assim:
 
-```js
-(function(name, hobby) {
-  console.log('Hi, my name is ' + name + ' and I like ' + hobby );
-}('Fabeni', 'to travel'));
-
-// "Hi, my name is Fabeni and I like to travel"
-```
+{% gist 08c5e9ab6de39dd276986d335b36aff2 %}
 
 Como [observado](https://github.com/raphaelfabeni/raphaelfabeni.github.io/pull/15) pelo [Mauricio Soares](https://twitter.com/omauriciosoares), uma grande vantagem de passar parâmetros para uma função imediata (IIFE), é que esse valor é passado como uma cópia, e não como uma referência... Isto significa que se alterarmos o valor desse parâmetro dentro da IIFE, esse valor não vai persistir fora dela... por exemplo:
 
-```js
-var myVar = true;
-
-(function(myVar) {
-  console.log(myVar); // true
-  myVar = false;
-  console.log(myVar); // false
-}(myVar));
-
-console.log(myVar); // true
-```
+{% gist 4d83c2e5ddc8c7aabad3822173e402bc %}
 
 Isso é bom para criarmos cópias de variaveis globais, e garantirmos que se alguem sobreescrever essa variável, isso não vai influenciar o módulo que criamos. Esse comportamento também é conhecido como Closure.
 
@@ -96,25 +62,7 @@ O que muda entre `call` e `apply` é a forma de como passar o segundo parâmetro
 
 *Para de falar Fabeni, mostra alguma coisa aí!*
 
-```js
-var mister = {
-  name: 'Val Valentino',
-  nickname: 'Mister M'
-};
-
-var hello = function(name, nickname) {
-  return 'My name is ' + (name || this.name) + ' but you can also call me ' + (nickname || this.nickname);
-};
-
-hello.call(mister);
-// "My name is Val Valentino but you can also call me Mister M"
-
-hello.call(null, 'Raphael Fabeni', 'Fabeni');
-// "My name is Raphael Fabeni but you can also call me Fabeni"
-
-hello.apply(null, ['Raphael Fabeni', 'Fabeni']);
-// "My name is Raphael Fabeni but you can also call me Fabeni"
-```
+{% gist 2e0b41ebcab0e485892945ac080c05e0 %}
 
 O que temos acima é mais ou menos o seguinte:
 
@@ -124,16 +72,7 @@ O que temos acima é mais ou menos o seguinte:
 
 Um outro exemplo que talvez possa ajudar: vamos imaginar que possamos ter uma função simples que vai iterar sobre os argumentos dessa função (o objeto `arguments`). Poderíamos pensar em algo assim:
 
-```js
-function something() {
-  var likeArray = arguments;
-  likeArray.forEach(function() {});
-
-  return likeArray;
-}
-
-something('a', 'b');
-```
+{% gist 472ac62b30b051c20af8062943bdabe1 %}
 
 Aí que vive o problema: vamos ter um erro se tentarmos algo assim.
 
@@ -141,19 +80,10 @@ Aí que vive o problema: vamos ter um erro se tentarmos algo assim.
 
 Isso acontece pois o nosso brother `arguments` é um objeto e não um *array*. Pra podermos conseguir usar o `forEach`, precisamos converter `arguments` em um *array* e conseguimos isso utilizando o método `slice`. No entanto, ele é um método que pertence ao `prototype` de `Array`. Daí que vem a pergunta: como fazemos então pra executar a função/método em um outro contexto (executar `slice` no contexto do objeto `arguments`)? A resposta meu caro amigo: `call` ou `apply`.
 
-```js
-function something() {
-  var likeArray = Array.prototype.slice.call(arguments);
-  likeArray.forEach(function() {});
-
-  return likeArray;
-}
-```
+{% gist af0998ce2a69363801bb3f6058b34677 %}
 
 No exemplo acima, alteramos a linha relacionada à variável `likeArray`, aplicando o método `slice` no contexto de `arguments` através do `call`.
 
 *Referências* => [Learning JavaScript](http://www.amazon.com/Learning-JavaScript-Edition-Shelley-Powers/dp/0596521871)
-
-Gostou? Escrevi alguma groselha? Quer melhorar? Abra uma [issue](https://github.com/raphaelfabeni/raphaelfabeni.github.io/issues) mencionando o post e vamos conversar.
 
 Deixo aqui meu muito obrigado ao [Mauricio Soares](https://twitter.com/omauriciosoares), ao [Weslley Araujo](https://twitter.com/_weslleyaraujo) e ao [Frederick Silva](https://github.com/fredericksilva) pela revisão e contribuição no texto.

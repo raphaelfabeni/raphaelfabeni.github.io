@@ -14,40 +14,18 @@ category: 'javascript'
 
 The *spread* guy allow us extract/expand data from an array make our lifes easier. Confused? I guess I could not explain. Go to practice. Imagine the following arrays:
 
-```js
-let mortalKombat = ['Scorpion', 'Sub Zero', 'Liu Kang'];
-let newCharacters = ['Reptile', 'Kitana'];
-```
+{% gist 4b303e0c106e0e66fceefad0ec9535b2 %}
 
 If we had to add the new *fighters* to the main *array*, we could try something like that:
 
-```js
-mortalKombat.push(newCharacters);
-
-console.log(mortalKombat);
-// ['Scorpion', 'Sub Zero', 'Liu Kang', ['Reptile', 'Kitana']]
-```
+{% gist f72ade99d07e090e372ba1da797463c1 %}
 
 The data is there, but not in the way that we want. So we need to manipulate it before:
 
-```js
-newCharacters.forEach(function(fighter) {
-  mortalKombat.push(fighter);
-});
-
-console.log(mortalKombat);
-// ['Scorpion', 'Sub Zero', 'Liu Kang', 'Reptile', 'Kitana']
-```
+{% gist 8b1589c552ebc70f6f7cbc0365027353 %}
 
 The operator *spread* arrives making magic and leaving everything beautiful.
 
-```js
-mortalKombat.push(...newCharacters);
-
-console.log(mortalKombat);
-// ['Scorpion', 'Sub Zero', 'Liu Kang', 'Reptile', 'Kitana']
-```
+{% gist c08fba8139fa4a17f781084e16f80959 %}
 
 [Here](http://jsbin.com/cubiko/edit?js,console) you can find an JS Bin with the examples.
-
-Do you like it? Did I write something stupid? Do you want to improve? Open an [issue](https://github.com/raphaelfabeni/raphaelfabeni.github.io/issues) mentioning the post and let's talk about it.

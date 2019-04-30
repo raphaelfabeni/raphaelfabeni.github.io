@@ -36,5 +36,3 @@ Resumindo: um dos documentos venceu e não percebi. Aí um belo dia fui tentar u
 **Mas o erro foi seu, não do aplicativo.** Sim, sem dúvidas. Mas, e se fôssemos um passo a frente? Já que o usuário é obrigado a colocar uma *data de vencimento*, não seria possível avisá-lo quando essa data estivesse próxima, melhorando assim um pouco a experiência? *Ei fulano, percebemos que seu documento está próximo da data de vencimento. Atualize-o e continue a usar nosso serviço.* Sei lá, algo do tipo, pra tentar passar a idéia de que o aplicativo/serviço está preocupado em manter os dados atualizados.
 
 Pode ser uma viagem minha com certeza, pois de fato o erro de não atualizar o documento foi meu, mas eu fiquei extremamente *p...* com a situação e a primeira coisa que pensei foi: *"Pô, eles não podiam ter me avisado?"*
-
-Gostou? Escrevi alguma groselha? Quer melhorar? Abra uma [issue](https://github.com/raphaelfabeni/raphaelfabeni.github.io/issues) mencionando o post e vamos conversar.

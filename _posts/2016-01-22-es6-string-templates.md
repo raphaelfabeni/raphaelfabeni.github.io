@@ -14,44 +14,14 @@ category: 'javascript'
 
 Play with *strings* can often be something a little bit painful (you can also read boring *இ_இ*). This is due mainly to the fact of having to concatenate words/phrases with variables.
 
-```js
-let author = 'Tiririca';
-let word = 'Worse';
-
-let oldMessage = word + ' than it is, it is impossible. - ' + author;
-
-console.log(oldMessage);
-// Worse than it is, it is impossible. - Tiririca
-```
+{% gist 6d18ae3324eb157f169d331040a3e1fe %}
 
 *Strings templates* for our [happiness](https://youtu.be/K02Cxo3fAC8?t=1m30s).
 
-```js
-let author = 'Tiririca';
-let word = 'Worse';
-
-let message = `${word} than it is, it is impossible. - ${author}`;
-
-console.log(message);
-// Worse than it is, it is impossible. - Tiririca
-```
+{% gist e7a21e701a2e2a20e78ec5451da58d85 %}
 
 My friend [Rafael Rinaldi](https://twitter.com/rafaelrinaldi) made a good point: you can use any kind of expression, not just variables.
 
-```js
-const obj = {
-  foo: 'bar'
-};
-
-const fn = foo => foo;
-
-console.log( `${obj.foo}` );
-// bar
-
-console.log( `${fn('aloha')}` );
-// aloha
-```
+{% gist 0aba5db33a47928f2b99f25d5d2c9229 %}
 
 [Here](http://jsbin.com/qovino/edit?js,console) you can find an JS Bin with the examples.
-
-Do you like it? Did I write something stupid? Do you want to improve? Open an [issue](https://github.com/raphaelfabeni/raphaelfabeni.github.io/issues) mentioning the post and let's talk about it.

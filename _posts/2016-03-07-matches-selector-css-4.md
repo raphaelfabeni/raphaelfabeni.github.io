@@ -16,37 +16,14 @@ CSS3 was already something really cool. Now, in version 4, or better saying, in 
 
 Using it, we could substitute something like that:
 
-```css
-div .highlight,
-footer .highlight {
-  color: blue;
-}
-```
+{% gist a7b5fc0e8c7d2f5edb983b791adef64d %}
 
 For that:
 
-```css
-:matches(div, footer) .highlight {
-  color: blue;
-}
-```
+{% gist eb85105186b637f39141eb60db5d6593 %}
 
 In other words, we get every `highlight` class that are children of a `div` or `footer`.
 
 We could even make the inverse way, as in the example below: we select all `p` elements that have the `success` class or that is `first-child`.
 
-```css
-p:matches(:first-child, .success) {
-  color: green;
-}
-```
-
-<figure class="text-center loading">
-  <p data-height="400" data-theme-id="4240" data-slug-hash="LNGZYx" data-default-tab="result" data-user="raphaelfabeni" class="codepen">See the Pen <a href="http://codepen.io/raphaelfabeni/pen/LNGZYx/">:matches selector</a> by Raphael Fabeni (<a href="http://codepen.io/raphaelfabeni">@raphaelfabeni</a>) on <a href="http://codepen.io">CodePen</a>.</p>
-</figure>
-
-[Here](http://codepen.io/raphaelfabeni/pen/LNGZYx/) the link with the example above.
-
-Do you like it? Did I write something stupid? Do you want to improve? Open an [issue](https://github.com/raphaelfabeni/raphaelfabeni.github.io/issues) mentioning the post and let's talk about it.
-
-<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
+{% gist 5d1e3a873bec33562147be84f0eab917 %}
