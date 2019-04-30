@@ -1,22 +1,22 @@
-sudo: false
-branches:
-  only:
-  - develop
-language: ruby
-rvm:
-- 2.6.2
-before_install:
-- bash ./start.bash
-install:
-- travis_retry bundle install
-before_script:
-- npm install
-script:
-- npm run build
-notifications:
-  email: rapha.fabeni@gmail.com
-  slack:
-    secure: E17iNpCaec2tU4AKqwMl12bk2E9EXchKZyq55Z95A0RIgxsnrCJO2MBtt1F66wye0EggwNK37UhK6itSM3faNXWbsczzBQlYV5ET1zSuFlv0ERbHJNbRlHlFhL/ym/yI7Zc7kUilRFxeBoijyhvwmzSZ43cUEZ9V9oGF89HxGmo=
-env:
-  global:
-    secure: mQD7tw5fQCMvcx3Tt2oM54dtnXL67CdFBSd12/82b66k94YLhRfnuyFKjS7avAovsGR95H9ZZ+Ix+sWMSjuzfu50Xrk1Bo8CL/aUqIphtK0C7wM4oGSUXFTYwcRTQZzYx3CcsH31roK8ViSVG8cLBJb0aJyYm/E7CuE/qqS725s=
+# sudo: false
+# branches:
+#   only:
+#   - develop
+# language: ruby
+# rvm:
+# - 2.6.2
+# before_install:
+# - bash ./start.bash
+# install:
+# - travis_retry bundle install
+# before_script:
+# - npm install
+# script:
+# - npm run build
+# notifications:
+#   email: rapha.fabeni@gmail.com
+#   slack:
+#     secure: E17iNpCaec2tU4AKqwMl12bk2E9EXchKZyq55Z95A0RIgxsnrCJO2MBtt1F66wye0EggwNK37UhK6itSM3faNXWbsczzBQlYV5ET1zSuFlv0ERbHJNbRlHlFhL/ym/yI7Zc7kUilRFxeBoijyhvwmzSZ43cUEZ9V9oGF89HxGmo=
+# env:
+#   global:
+#     secure: mQD7tw5fQCMvcx3Tt2oM54dtnXL67CdFBSd12/82b66k94YLhRfnuyFKjS7avAovsGR95H9ZZ+Ix+sWMSjuzfu50Xrk1Bo8CL/aUqIphtK0C7wM4oGSUXFTYwcRTQZzYx3CcsH31roK8ViSVG8cLBJb0aJyYm/E7CuE/qqS725s=
