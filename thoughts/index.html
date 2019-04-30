@@ -19,21 +19,18 @@ links:
 	<div class="tweet" data-tweet data-id="1062280907917324288"></div>
 	<div class="tweet" data-tweet data-id="1052602667707625472"></div>
 </div>
-
 <script src="http://platform.twitter.com/widgets.js"></script>
 <script>
 (function(){
 	const tweets = [].slice.call(document.querySelectorAll('[data-tweet]'));
 	for(var i = 0; i < tweets.length; i++) {
-		let id = tweets[i].getAttribute('data-id');
-
+		var id = tweets[i].getAttribute('data-id');
 		twttr.widgets.createTweet(
 			id, tweets[i], {
-				conversation : 'none',    // or all
-				cards        : 'hidden',  // or visible 
-				theme        : 'light'    // or dark
+				conversation : 'none',
+				cards        : 'hidden',
+				theme        : 'light'
 			});
 	}
-
 })();
 </script>
