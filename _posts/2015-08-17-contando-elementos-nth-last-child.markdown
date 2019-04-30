@@ -24,38 +24,15 @@ E, nesse caminho das pedras, uma hora ou outra teremos que trabalhar com um tipo
 
 Jogo rápido: imaginem uma lista disposta horizontalmente com *5 itens*. Podemos pensar então que em uma determinada resolução cada item teria *20%* de largura da lista e em um determinado *breakpoint* cada item ficaria com a largura total da lista (ou se formos pelo lado do *mobile first*, cada item teria por padrão a largura inteira da lista e, só a partir de um determinado *breakpoint* que ele ficaria com a nova largura de *20%*).
 
-```css
-.list li {
-  width: 20%;
-  float: left;
-}
-
-@media screen and (max-width: 768px) {
-  width: 100%;
-  float: none;
-}
-```
+{% gist 546d68dd0085fdbd67a1f23554c331e5 %}
 
 Ou, se pensarmos numa abordagem *mobile first* (apenas a encargo de exemplo):
 
-```css
-@media screen and (min-width: 768px) {
-  width: 20%;
-  float: left;
-}
-```
+{% gist a31f3bbac74b584936ff52bb192cbc7f %}
 
 Beleza, *matou*! Mas, e se a quantidade de itens variar? Por exemplo entre 3 e 5? Me deparei com uma situação semelhante alguns dias atrás e meu primeiro pensamento foi: antes da renderização dos elementos na página eu vejo quantos itens tem ali e, dependendo do resultado, coloco uma classe na lista. Algo mais ou menos assim:
 
-```css
-.list li {
-  float: left;
-}
-
-.list-3 li { width: 33.3%; }
-.list-4 li { width: 25%; }
-.list-5 li { width: 20%; }
-```
+{% gist 5c3da021c428ce52e0a386f8978d76de %}
 
 Resolve o problema? Resolve. Mas nem sempre temos essa opção, de contar por exemplo com o lado do servidor para nos retornar o número de itens. Aí nesse caso, uma outra solução seria via JavaScript, seguindo o mesmo pensamento: contar os elementos e de acordo com o resultado, aplicar uma classe na lista.
 
@@ -71,11 +48,7 @@ A idéia básica é através do CSS, descobrirmos quantos itens estão presentes
 
 Esse *brother* aí nada mais faz do que contar o elemento partindo do seu último item. Então se quiséssemos, por exemplo selecionar o segundo item da lista, mas iniciando a contagem do fim, faríamos algo assim:
 
-```css
-.list li:nth-last-child(2) {
-  border: solid 1px red;
-}
-```
+{% gist 25598b080e4a1c48a7d03c487937fcce %}
 
 Uma representação bem simples do item selecionado:
 
@@ -92,26 +65,11 @@ Tendo idéia de como selecionar um elemento, podemos estabelecer a seguinte linh
 
 Vamos por partes. Conseguimos matar o primeiro item utilizando o que vimos no exemplo anterior. Então, partindo de uma lista de 5 itens, poderíamos fazer algo assim:
 
-```css
-.list li:nth-last-child(5),
-.list li:nth-last-child(5) ~ li {
-  width: 20%;
-  // \o/
-}
-```
+{% gist 43e970b9b44956a0658bae82dc325fc4 %}
 
 *E shaaazam!* Conseguimos teoricamente *contar* quantos elementos temos na lista. Agora é só aplicarmos as demais variações.
 
-```css
-.list li:nth-last-child(3),
-.list li:nth-last-child(3) ~ li { width: 33.3%; }
-
-.list li:nth-last-child(4),
-.list li:nth-last-child(4) ~ li { width: 25%; }
-
-.list li:nth-last-child(5),
-.list li:nth-last-child(5) ~ li { width: 20%; }
-```
+{% gist 251d420b63f38d279b235d43d4069afd %}
 
 Fiz um exemplo rápido no *CodePen* com o que falamos aqui.
 
@@ -123,7 +81,5 @@ Algumas referências e links legais:
 
 * [Quantity ordering with CSS](http://www.smashingmagazine.com/2015/07/quantity-ordering-with-css/)
 * [Quantity queries](http://quantityqueries.com/)
-
-Gostou? Escrevi alguma groselha? Quer melhorar? Abra uma [issue](https://github.com/raphaelfabeni/raphaelfabeni.github.io/issues) mencionando o post e vamos conversar.
 
 <script async src="//assets.codepen.io/assets/embed/ei.js"></script>

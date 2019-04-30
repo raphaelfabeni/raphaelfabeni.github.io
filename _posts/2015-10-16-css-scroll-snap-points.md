@@ -43,7 +43,4 @@ Algumas referências e links legais:
 * [Sergey Gospodarets - Native CSS Scrol Snap](http://blog.gospodarets.com/css-scroll-snap/)
 * [treehouse -Thinking Ahead: CSS Scroll Snap Points](http://blog.teamtreehouse.com/css-scroll-snap-points)
 
-
-Gostou? Escrevi alguma groselha? Quer melhorar? Abra uma [issue](https://github.com/raphaelfabeni/raphaelfabeni.github.io/issues) mencionando o post e vamos conversar.
-
 <script async src="//assets.codepen.io/assets/embed/ei.js"></script>

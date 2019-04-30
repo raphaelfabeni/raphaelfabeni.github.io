@@ -18,44 +18,13 @@ Basicamente quando usamos *Jasmine* especificamos nos testes como nosso código 
 
 Imagine que temos uma brincadeira assim:
 
-```js
-function Sandwich() {
-    this.ingredients = [];
-}
-
-Sandwich.prototype.addIngredient = function (ingredient) {
-    this.ingredients.push(ingredient);
-};
-
-Sandwich.prototype.mySandwich = function() {
-  return this.ingredients;
-};
-```
+{% gist e0900d75e1f3076ce782b452d0d904c0 %}
 
 Acima, temos um construtor de *sanduíche ¯\\_(ツ)_/¯* e dois métodos: um que vai adicionar ingredientes ao nosso sanduíche e outro que irá retornar a lista com os ingredientes do sanduíche super gostoso.
 
 Agora, como testamos pra saber se os métodos estão funcionando do jeito que esperamos? Podemos começar com algo assim:
 
-```js
-describe('A Sandwich spy', function() {
-
-  var fabeni;
-
-  beforeEach(function() {
-    fabeni = new Sandwich();
-
-    spyOn(fabeni, 'addIngredient');
-
-    fabeni.addIngredient('bread');
-    fabeni.addIngredient('cheese');
-  });
-
-  it('tracks the spy for addIngredient method', function() {
-    expect(fabeni.addIngredient).toHaveBeenCalled();
-  });
-
-});
-```
+{% gist cda8e014105855a9b690e6474e60c6da %}
 
 O que fizemos no código acima foi o seguinte:
 
@@ -73,15 +42,7 @@ Assim, se rodarmos nosso teste, vamos ver que ele passou, ou seja, o método `ad
 
 Agora, se quisermos verificar se esse mesmo método está sendo chamado com os argumentos corretos poderíamos adicionar a seguinte *spec*:
 
-```js
-...
-
-it('tracks the spy for addIngredient method with the correct arguments', function() {
-    expect(fabeni.addIngredient).toHaveBeenCalledWith('bread');
-    expect(fabeni.addIngredient).toHaveBeenCalledWith('cheese');
-});
-...
-```
+{% gist 5517f832e13baa3817628a8395dd074f %}
 
 Nessa nova *spec* utilizamos do *matcher* `toHaveBeenCalledWith()` com o argumento que esperamos que tenha sido chamado (conforme a chamada que fizemos no `beforeEach`). Feito isso, ao rodarmos nossos testes:
 
@@ -91,24 +52,7 @@ Nessa nova *spec* utilizamos do *matcher* `toHaveBeenCalledWith()` com o argumen
 
 Resumidamente o `spyOn` substitui a função, interceptando assim as suas chamadas e acompanhando algumas informações importantes sobre ela para utilizarmos em nossas *specs*. Aí temos um ponto a se considerar: dessa maneira perdemos as capacidades da função original. Para resolver isso podemos usar o `andCallThrough()`. Vamos lá:
 
-```js
-describe('A Sandwich spy with call through', function() {
-
-  var fabeni, fabeniBurger;
-
-  beforeEach(function() {
-    fabeni = new Sandwich();
-
-    spyOn(fabeni, 'mySandwich').and.callThrough();
-
-    fabeni.addIngredient('bread');
-    fabeni.addIngredient('cheese');
-
-    fabeniBurger = fabeni.mySandwich();
-  });
-
-});
-```
+{% gist 5b679d86b7a6b2d35cf8d846b9fd8037 %}
 
 Acima, apenas preparamos o terreno:
 
@@ -120,19 +64,7 @@ Acima, apenas preparamos o terreno:
 
 Com isso então, podemos criar nossas *specs*:
 
-```js
-...
-
-it('tracks the spy for mySandwich method', function() {
-  expect(fabeni.mySandwich).toHaveBeenCalled();
-});
-
-it('returns my sandwich', function() {
-  expect(fabeniBurger).toEqual(['bread', 'cheese']);
-});
-
-...
-```
+{% gist 46ddec6e195ad4cfd82c3201a09a2d6e %}
 
 No exemplo acima, criamos duas *specs*:
 
@@ -146,10 +78,3 @@ Aí é só rodarmos nossos testes:
 </figure>
 
 Valeu ao grande [Weslley Araujo](https://twitter.com/_weslleyaraujo) pela ajuda na revisão do post.
-
-Gostou? Escrevi alguma groselha? Quer melhorar? Abra uma [issue](https://github.com/raphaelfabeni/raphaelfabeni.github.io/issues) com a hashtag *1postperweek* e vamos conversar.
-
-
-
-
-

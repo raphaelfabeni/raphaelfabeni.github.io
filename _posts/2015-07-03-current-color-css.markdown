@@ -24,26 +24,11 @@ O danado do `currentColor` funciona semelhante a uma variável salvo duas exceç
 
 Vamos supor que tenhamos o seguinte:
 
-```css
-body { color: green; }
-
-div {
-  color: currentColor;
-  box-shadow: 1px 1px 1px 1px currentColor;
-  outline: dotted 1px currentColor;
-}
-```
+{% gist 592a1767afdc5d1f510f7a2b176e06e0 %}
 
 No exemplo acima, simplesmente definimos uma cor verde para o `body` e a utilizamos nos elementos `div` através dos caras `currentColor`. *Mas Fabeni, tu tá me enrolando! Eu não precisava do `currentColor` aí!* Exatamente, não precisava. Se voltarmos para o exemplo, chegaríamos no mesmo resultado apenas assim:
 
-```css
-body { color: green; }
-
-div {
-  box-shadow: 1px 1px 1px 1px;
-  outline: dotted 1px;
-}
-```
+{% gist 878fc4f38de0f5eb81b1d7678c08a360 %}
 
 Algumas propriedades herdam o valor da propriedade `color` do elemento ou caso essa não tenha sido setada, seguem a cascata, até achar da onde vão herdar esse valor. Algumas dessas propriedades são:
 
@@ -71,14 +56,7 @@ Brincando um pouco, montei esse exemplo rápido, onde o `currentColor` é aplica
 
 A idéia para formar o triângulo é criar uma borda geral transparente e setar apenas o lado que você quer com o `currentColor`, formando assim o triângulo. Uma outra abordagem e, que chegaria no mesmo resultado seria fazer o processo inverso: setar uma borda geral com cor (no caso nem precisaria do `currentColor` pois ele herdaria a cor da propriedade `color`) e depois disso, tirar a borda dos lados que você não queira. Algo mais ou menos assim:
 
-```css
-.element:after {
-    border: 0.4em solid;
-    border-right-color: transparent;
-    border-top-color: transparent;
-    border-bottom-color: transparent;
-}
-```
+{% gist eb1d42bc7404811f8cc451d0c6bbdbe2 %}
 
 ### Outros usos
 
@@ -93,7 +71,5 @@ Só isso? Basicamente sim e não. Aqui que entra a nossa criativade e organizaç
 ## Mas eaí.. dá pra usar?
 
 O suporte é bem melhor do que eu imaginava.. IE9, Chrome, Firefox, Safari e por aí vai. Existe um pequeno [*bug* bem pontual, para Safari e iOS Safari 8](http://stackoverflow.com/questions/29400291/currentcolor-seems-to-get-stuck-in-safari) quando aplicado em `:after` e `:before`. [Dá pra ver mais informações no site do Can I Use](http://caniuse.com/#feat=currentcolor).
-
-Gostou? Escrevi alguma groselha? Quer melhorar? Abra uma [issue](https://github.com/raphaelfabeni/raphaelfabeni.github.io/issues) mencionando o post e vamos conversar.
 
 <script async src="//assets.codepen.io/assets/embed/ei.js"></script>

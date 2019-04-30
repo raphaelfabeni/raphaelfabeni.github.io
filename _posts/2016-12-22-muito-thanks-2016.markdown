@@ -26,13 +26,13 @@ E depois apareceu a **[Caelum](https://www.caelum.com.br/)**, super conhecida po
 ### Número total de participantes por edição
 
 <figure class="text-center">
-    <canvas id="myChart" width="400" height="400" style="max-height: 340px; padding: 20px 10px; background-color: rgba(0,0,0,.2);"></canvas>
+    <canvas id="myChart" width="400" height="400"></canvas>
 </figure>
 
 ### Número total de presenças x ausências por edição
 
 <figure class="text-center">
-    <canvas id="myChart2" width="400" height="400" style="max-height: 340px; padding: 20px 10px; background-color: rgba(0,0,0,.2);"></canvas>
+    <canvas id="myChart2" width="400" height="400"></canvas>
 </figure>
 
 ### Mais alguns números
@@ -59,9 +59,7 @@ E depois apareceu a **[Caelum](https://www.caelum.com.br/)**, super conhecida po
 
 ... seja um ano irado pra todos nós! Vou enviar mais propostas de talks pra eventos. Ou não. Vou pensar em novidades pro meetup. Ou não. Talvez viver a vida, momento a momento, seja a melhor coisa pra fazer.
 
-Gostou? Escrevi alguma groselha? Quer melhorar? Abra uma [issue](https://github.com/raphaelfabeni/raphaelfabeni.github.io/issues) mencionando o post e vamos conversar.
-
-<script src="/build/js/libs/Chart.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.js"></script>
 
 <script>
 window.onload = function() {
@@ -74,28 +72,28 @@ window.onload = function() {
                 label: '# de participantes',
                 data: [35, 20, 30, 30, 20, 40, 50, 25, 60, 60, 50, 50, 25, 35, 45, 30, 150, 30, 40, 45, 60, 60],
                 backgroundColor: [
-                    'rgba(255, 99, 132, 0.2)',
-                    'rgba(54, 162, 235, 0.2)',
-                    'rgba(255, 206, 86, 0.2)',
-                    'rgba(75, 192, 192, 0.2)',
-                    'rgba(153, 102, 255, 0.2)',
-                    'rgba(255, 159, 64, 0.2)',
-                    'rgba(255, 99, 132, 0.2)',
-                    'rgba(54, 162, 235, 0.2)',
-                    'rgba(255, 206, 86, 0.2)',
-                    'rgba(75, 192, 192, 0.2)',
-                    'rgba(153, 102, 255, 0.2)',
-                    'rgba(255, 159, 64, 0.2)',
-                    'rgba(255, 99, 132, 0.2)',
-                    'rgba(54, 162, 235, 0.2)',
-                    'rgba(255, 206, 86, 0.2)',
-                    'rgba(75, 192, 192, 0.2)',
-                    'rgba(153, 102, 255, 0.2)',
-                    'rgba(255, 159, 64, 0.2)',
-                    'rgba(255, 99, 132, 0.2)',
-                    'rgba(54, 162, 235, 0.2)',
-                    'rgba(255, 206, 86, 0.2)',
-                    'rgba(75, 192, 192, 0.2)'
+                    'rgba(255, 99, 132, 0.5)',
+                    'rgba(54, 162, 235, 0.5)',
+                    'rgba(255, 206, 86, 0.5)',
+                    'rgba(75, 192, 192, 0.5)',
+                    'rgba(153, 102, 255, 0.5)',
+                    'rgba(255, 159, 64, 0.5)',
+                    'rgba(255, 99, 132, 0.5)',
+                    'rgba(54, 162, 235, 0.5)',
+                    'rgba(255, 206, 86, 0.5)',
+                    'rgba(75, 192, 192, 0.5)',
+                    'rgba(153, 102, 255, 0.5)',
+                    'rgba(255, 159, 64, 0.5)',
+                    'rgba(255, 99, 132, 0.5)',
+                    'rgba(54, 162, 235, 0.5)',
+                    'rgba(255, 206, 86, 0.5)',
+                    'rgba(75, 192, 192, 0.5)',
+                    'rgba(153, 102, 255, 0.5)',
+                    'rgba(255, 159, 64, 0.5)',
+                    'rgba(255, 99, 132, 0.5)',
+                    'rgba(54, 162, 235, 0.5)',
+                    'rgba(255, 206, 86, 0.5)',
+                    'rgba(75, 192, 192, 0.5)'
                 ],
                 borderColor: [
                     'rgba(255,99,132,1)',
@@ -133,7 +131,7 @@ window.onload = function() {
             scales: {
                 xAxes: [{
                     ticks: {
-                        fontColor: '#fff'
+                        fontColor: '#666'
                     },
                     gridLines: {
                         display: false
@@ -141,7 +139,7 @@ window.onload = function() {
                 }],
                 yAxes: [{
                     ticks: {
-                        fontColor: '#fff',
+                        fontColor: '#666',
                         beginAtZero: true
                     },
                     gridLines: {
@@ -276,7 +274,7 @@ window.onload = function() {
                       display: false
                     },
                     ticks: {
-                        fontColor: '#fff'
+                        fontColor: '#666'
                     }
                 }],
                 yAxes: [{
@@ -285,7 +283,7 @@ window.onload = function() {
                       display: false
                     },
                     ticks: {
-                        fontColor: '#fff',
+                        fontColor: '#666',
                         beginAtZero: true
                     }
                 }]

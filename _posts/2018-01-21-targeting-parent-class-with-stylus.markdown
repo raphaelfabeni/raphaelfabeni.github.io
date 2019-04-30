@@ -16,27 +16,11 @@ Something I don't like is a pre-concept about some technology before I try it. F
 
 Imagine there is a superclass `.fabeni` and it has a child element and a modificator class (if you want to know more about BEM, [I wrote some stuff some time ago](bem-css-overview/) ). Something like that:
 
-```css
-.fabeni {
-	background-color: blue;
-}
-
-.fabeni__child-element {
-	border: solid 1px blue;
-}
-
-.fabeni--inverse {
-	background-color: green;
-}
-```
+{% gist 825928e16238207cdd3518ae09abd009 %}
 
  Here's the thing: let's say we want to target the child element of the modificator class, something like:
 
-```css
-.fabeni--inverse .fabeni__child-element {
-	border-color: green;
-}
-```
+{% gist 0ee8688543375828e43127e1ae0034f8 %}
 
 Using Stylus, I realized three different ways we could write it (probably there is more).
 
@@ -45,58 +29,19 @@ Using Stylus, I realized three different ways we could write it (probably there 
 I have to confess that I've already done that. It's ok! It's not so beautiful but it works.
 
 
-```stylus
-.fabeni
-	background blue
-
-	&__child-element
-		border solid 1px blue
-
-	&--inverse
-		background-color green
-
-		.fabeni__child-element
-			border-color green
-```
+{% gist 3845caad6009514cd748a2f7d271dff7 %}
 
 
 ### Holding the main class in a variable
 
 Using this preprocessor feature, easily we could reuse the class.
 
-```stylus
-myClass = 'fabeni'
-
-.{myClass}
-	background blue
-
-	&__child-element
-		border solid 1px blue
-
-	&--inverse
-		background-color green
-
-		.{myClass}__child-element
-			border-color green
-
-```
+{% gist b236e216a8ea80afe68f240e053be3e2 %}
 
 ### Targeting dynamically the parent class
 
 And _booom_! It's possible to target the parent class using the magic `^[0]`.
 
-```stylus
-.fabeni
-	background blue
-
-	&__child-element
-		border solid 1px blue
-
-	&--inverse
-		background-color green
-
-		& ^[0]__child-element
-	  		border-color green
-```
+{% gist 55163c8dac19ea0ead80f6cf1397925f %}
 
 I don't know exactly which Stylus' version supports it, but it's a good homework (I tested directly on the Stylus website).

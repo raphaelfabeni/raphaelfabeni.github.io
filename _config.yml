@@ -14,12 +14,13 @@ markdown: kramdown
 kramdown:
   input: GFM
   # syntax_highlighter: rouge
-
 source:      .
 destination: ./_site
 permalink:   /:title/
 gems:
   - jekyll-gist
+gist:
+  noscript: false
 collections:
   category:
     output: true
@@ -29,5 +30,3 @@ collections:
 # base16.dark
 # base16.solarized
 # gruvbox.light
-
-# rougify style github > src/styles/layout/syntax/_light.sass

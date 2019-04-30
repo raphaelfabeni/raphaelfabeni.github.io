@@ -2,9 +2,7 @@ options:
   formatter: stylish
 files:
   include: 'src/styles/**/*.s+(a|c)ss'
-  ignore:
-    - 'src/styles/layout/syntax/_dark.sass'
-    - 'src/styles/layout/syntax/_light.sass'
+  # ignore:
 rules:
   # Extends
   extends-before-declarations: 0

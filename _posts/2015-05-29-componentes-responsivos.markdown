@@ -36,20 +36,7 @@ Algum tempo atrás, tive um relampejo sobre esse tema, e pensei que seria bacana
 
 Dessa maneira, se tivéssemos um arquivo `fabeni-component.preprocessadorquevocequiser`, poderíamos ter algo assim:
 
-```css
-.fabeni {
-    /* estilos para resoluções até 600px */
-}
-
-/* Breakpoint */
-@media (min-width: 600px) {
-
-  .fabeni {
-    /* estilos para resoluções maiores que 600px */
-  }
-
-}
-```
+{% gist 52772869b9d32aa105e328900b6272cb %}
 
 No exemplo acima, usamos a idéia do *mobile first*, assim a classe tem um estilo inicial padrão e através das *media queries*, alteramos esse estilo para resoluções maiores que 600 pixels.
 
@@ -62,8 +49,3 @@ Claro que nem tudo são flores e na prática e na correria do dia a dia as coisa
 ## É a bala de prata isso?
 
 Claro que não, pois eu acho que isso não existe. O certo geralmente é aquilo que melhor se adequa a você ou ao seu time. Vale ressaltar aqui, que tudo que escrevi aqui foi de uma idéia que tive há algum tempo atrás e que com certeza, você possa já ter ouvido falar sobre algo semelhante por aí. Por fim, um último ponto é sobre a perfomance: será que em um projeto com muitos módulos, a presença das *media queries* dentro de vários arquivos não poderia aumentar o tamanho do arquivo? Talvez sim. Mas acredito que talvez alguma solução via *grunt* no processo de build, possa ajudar nisso (ou não).
-
-__
-
-Gostou? Escrevi alguma groselha? Quer melhorar? Abra uma [issue](https://github.com/raphaelfabeni/raphaelfabeni.github.io/issues) mencionando o post e vamos conversar.
-

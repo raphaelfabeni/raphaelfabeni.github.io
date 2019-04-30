@@ -34,5 +34,3 @@ A recompensa nada mais era do que alguns créditos para se usar em um dos estabe
 Entrei em contato e me posicionaram que estavam tomando as medidas necessárias e que pediam desculpas pelo ocorrido. Disse que achava um absurdo mas que acreditava ter dado muito azar e iria tentar novamente em outra região. Fiz isso e adivinhem? Estabelecimento todo fechado com placas de madeira (provavelmente para reforma/construção).
 
 Parece brincadeira certo? Mas não é. O que eu tiro disso tudo é que algo que a **experiência era pra ser ótima** pois estaria utilizando um *benefício/recompensa*, se tornou totalmente em algo totalmente oposto. Eu, como usuário, assim que utilizar o benefício (espero que logo), pretendo não mais voltar a usar os serviços da empresa.
-
-Gostou? Escrevi alguma groselha? Quer melhorar? Abra uma [issue](https://github.com/raphaelfabeni/raphaelfabeni.github.io/issues) mencionando o post e vamos conversar.

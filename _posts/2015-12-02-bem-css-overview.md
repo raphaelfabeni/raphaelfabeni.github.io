@@ -28,41 +28,19 @@ As can be noted, the basic idea is to have three things:
 
 Huh?! Imagine a list of items with an active item, something more like this:
 
-```html
-<ul class="list">
-  <li class="list-item active"></li>
-  <li class="list-item"></li>
-  <li class="list-item"></li>
-</ul>
-```
+{% gist d0160a9ac2a44f687c16a936c4ce7794 %}
 
-```css
-.list {}
-.list-item {}
-.list-item.active {}
-```
+{% gist 0cff30a4a26cd400ff465c86f3326cf0 %}
 
 Applying the *BEM*, we have something like this:
 
-```html
-<ul class="list">
-  <li class="list__item"></li>
-  <li class="list__item"></li>
-  <li class="list__item list__item--active"></li>
-</ul>
-```
+{% gist 891e8543949e0669cc81978e21942d13 %}
 
-```css
-.list {}
-  .list__item {}
-  .list__item--active {}
-```
+{% gist 64909d9f695c856d4483bb5b305afc4e %}
 
 I need to admit that some time ago when I discovered the **BEM** methodology I thought: *"This is so weird!"*. All those `__` and `--` were so strange . But now, that I know more about the idea, I can say that convinced me. Of course, like any others thoughts/methodologies, there are positive and negative points and it is up to you, give the final word.
 
 Only some topics that I realized using the **BEM** (but are just my opinions):
 
 * Easy *perception* of things: looking quickly to the HTML markup or CSS, you can understand what each thing does.
-* Easier reuse *components*.
-
-Do you like it? Did I write something stupid? Do you want to improve? Open an [issue](https://github.com/raphaelfabeni/raphaelfabeni.github.io/issues) mentioning the post and let's talk about it.
+* Easier reuse of *components*.

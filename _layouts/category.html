@@ -7,9 +7,6 @@ layout: blog
 
 <header class="category-header">
 	<h1 class="category-header__title">{{ page.category }} posts</h1>
-	<div class="category-header__language">
-		<button class="lang-button is-active" data-language="en">en</button> | <button class="lang-button" data-language="pt-br">pt-br</button>
-	</div>
 	<ul class="category-header__list">
 		<li><a href="/blog">all</a></li>
 		{% for category in site.categories %}

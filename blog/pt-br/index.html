@@ -1,8 +1,8 @@
 ---
 layout: blog
 title: Blog | Raphael Fabeni
-description: 'Some crazy thougths about web development, life and etc...'
-language: en
+description: 'Algumas idéias malucas sobre desenvolvimento web, vida saudável, etc...'
+language: pt-br
 links:
   left:
     text: Home
@@ -12,19 +12,19 @@ links:
     link: '/my-closet'
 ---
 
-{% assign englishPosts = site.posts | where: 'lang', 'en' %}
+{% assign portuguesePosts = site.posts | where: 'lang', 'pt-br' %}
 
 <header class="category-header">
-	<h1 class="category-header__title">Blog</h1>
-	<ul class="category-header__list">
+	<h1 class="category-header__title">Blog pt-br</h1>
+	<!-- <ul class="category-header__list">
 		<li><a class="active-category" href="/blog">all</a></li>
 		{% for category in site.categories %}
 		<li><a href='/category/{{ category[0] }}'>{{ category[0] | split: "-" | join: " " }}</a></li>
 		{% endfor %}
-	</ul>
+	</ul> -->
 </header>
-{% for post in englishPosts %}
-	<article class="post" data-post="en">
+{% for post in portuguesePosts %}
+	<article class="post" data-post="pt-br">
 		<figure class="post__thumb">
 			<img src="{{ post.image }}" alt="{{ post.alt }}">
 		</figure>

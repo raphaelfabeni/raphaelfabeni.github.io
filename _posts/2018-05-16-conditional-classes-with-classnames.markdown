@@ -10,43 +10,24 @@ url_en: /conditional-classes-with-classnames/
 category: 'javascript'
 ---
 
+<style>
+	pre {
+  -moz-tab-size: 4;
+  tab-size: 4;
+}
+</style>
+
 I'm not a React expert but I've been working with the framework in the last few months and I have to say that [classnames](https://github.com/JedWatson/classnames) is something that helps you a lot.
 
 Code is better than words. So, I used to do something like this
 
-```jsx
-const MyComponent = ({ condition }) => (
-	<div className={`myClass ${condition ? 'is-active' : ''}`}></div>
-)
-```
+{% gist 893c216dbc22d16138c47da1040c52d6 %}
 
 or...
 
-```jsx
-const MyComponent = ({ condition }) => {
-	const myComponentClass = condition ? 'is-active' : '';
-	return (
-		<div className={`myClass ${myComponentClass}`}></div>
-	)
-}
-```
+{% gist 5c26a6fb658f04d229a97e26acc894e8 %}
 
 It works! But for me, there was something it could be better and easier when the CSS classes' number starting to increase. Then, I found out this magic called _classnames_.
 
 
-```jsx
-import classnames from 'classnames';
-
-const MyComponent = ({ condition, anotherCondition }) => {
-
-	const myComponentClasses = classNames({
-		'myClass': true,
-		'is-active': condition,
-		'has-icon': anotherCondition
-	});
-
-	return (
-		<div className={myComponentClasses}></div>
-	)
-}
-```
+{% gist 2b4953792611320f0a27e07acbe03225 %}

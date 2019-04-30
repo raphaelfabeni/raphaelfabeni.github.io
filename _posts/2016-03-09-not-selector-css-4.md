@@ -14,19 +14,11 @@ category: 'css'
 
 In CSS3 it was possible *exclude* an element of a selection. Something like that:
 
-```css
-p:not(.highlight) {
-  color: blue;
-}
-```
+{% gist 5dfe772b22f356e3c714e0867baf6712 %}
 
 In the example above, we get all the `p` element except those which have the `highlight` class. It's so nice, right? But if we wanted apply one more *filter* in the negation? It's not possible. So, CSS level 4 give us this power.
 
-```css
-p:not(:first-child, :last-of-type, .highlight) {
-  color: blue;
-}
-```
+{% gist 666bae2a168154d4ce42d1e75f9318c6 %}
 
 In the example above, we can select all `p` elements excluding those which are `:first-child`, `:last-of-type` or that have the `highlight` class.
 
@@ -35,7 +27,5 @@ In the example above, we can select all `p` elements excluding those which are `
 </figure>
 
 [Here](http://codepen.io/raphaelfabeni/pen/grPBGm) the link with the example above.
-
-Do you like it? Did I write something stupid? Do you want to improve? Open an [issue](https://github.com/raphaelfabeni/raphaelfabeni.github.io/issues) mentioning the post and let's talk about it.
 
 <script async src="//assets.codepen.io/assets/embed/ei.js"></script>

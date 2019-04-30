@@ -67,10 +67,28 @@
 .post-content
 	margin-bottom: 35px
 
+	table
+		width: 100%
+		max-width: 100%
+		margin-bottom: 1rem
+		background-color: transparent
+		border: solid 1px #ddd
+		border-collapse: collapse
+
+		td
+			padding: 10px
+			border: solid 1px #ddd
+
+		tr:nth-child(even)
+			background-color: #f5f5f5
+
 	p,
-	ul
+	ul,
+	ol,
+	table
 		margin-bottom: 25px
 		line-height: 1.6
+		font-size: 18px
 
 	h2,
 	h3,
@@ -83,24 +101,54 @@
 		list-style-type: disc
 		list-style-position: inside
 
+	ol li
+		list-style: decimal-leading-zero
+		list-style-position: inside
+
 	figure
 		margin-bottom: 20px
+		text-align: center
+		display: table
+
+		&.text-center
+			margin-left: auto
+			margin-right: auto
+			width: 100%
+
+		&.thumb-left
+			float: left
+			margin-right: 20px
+
+			@include media(550px)
+				float: none
+				margin-right: auto
+				margin-left: auto
+
+		figcaption
+			padding: 10px
+			background-color: #f5f5f5
+			display: table-caption
+			caption-side: bottom 
+
 		iframe
 			width: 100%
 
 	/*----------  code  ----------*/
-	pre
-		font-size: 16px
-		font-weight: normal
-		text-indent: -6px
-		white-space: pre-wrap
-		word-wrap: break-word
-		margin: 5px 0 25px
-		background-color: #f5f5f5
-		padding: 10px
-		border: solid 1px #ddd
+	// pre
+	// 	font-size: 18px
+	// 	font-weight: normal
+	// 	text-indent: -6px
+	// 	white-space: pre-wrap
+	// 	word-wrap: break-word
+	// 	margin: 5px 0 25px
+	// 	background-color: #f5f5f5
+	// 	padding: 10px
+	// 	border: solid 1px #ddd
 
 	code
 		color: #f92672
 		padding: 2px 5px
 		background-color: #f5f5f5
+		border: solid 1px #ddd
+		font-size: 16px
+		white-space: nowrap

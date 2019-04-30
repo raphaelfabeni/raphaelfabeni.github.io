@@ -15,9 +15,9 @@ Contribute in *open source* projects is one of the coolest things in development
 
 It's common to be ashamed to contribute with some project, and one of the reasons for it is because you don't think you have something to contribute. And that's the point: you can start with anything: a simple revision of code or even a translation.
 
-## The proccess
+## The process
 
-As you get used to contribute, the proccess becomes automatic. But for a person who is going to contribute for the first time, some parts could be confusing.
+As you get used to contribute, the process becomes automatic. But for a person who is going to contribute for the first time, some parts could be confusing.
 
 A simple step by step could be something like that:
 
@@ -43,26 +43,16 @@ If you send your changes to GitHub and try to open a pull request, you are going
 
 Let's say you are contributing with my simple blog (the code is really old!). We add a *remote* based on the original version of the blog:
 
-```bash
-$ git remote add upstream https://github.com/raphaelfabeni/raphaelfabeni.github.io.git
-```
+{% gist 98964a4188b35181e27c8efab7945b40 %}
 
-After that, we have to update the *upstream*:
-
-```bash
-$ git fetch upstream
-```
+After that, we have to update the *upstream*: `$ git fetch upstream`
 
 With the *upstream* updated, we have to `merge/rebase` our local version (supposing you're on the `master` branch):
 
-```bash
-$ git merge upstream/master master
-```
+{% gist 449b8a7a0ebc08dc28daabcc36ceae69 %}
 
 Now if you want to update your Github repository with your local repository before making your changes and commit them, we do:
 
-```bash
-$ git push origin master
-```
+{% gist 5665e29e6499b749b6e35c45a42ac479 %}
 
 And that's it! Now our local project is sync and updated with the original version, and if you send the changes to GitHub, the pull request will be enabled.

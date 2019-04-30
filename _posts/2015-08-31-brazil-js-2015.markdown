@@ -55,6 +55,5 @@ Uma dica? Se você ainda não teve a oportunidade de ir a uma BrazilJS, **vá**.
 Minha opinião sincera: *é tudo aquilo mesmo que imaginava*.
 
 <blockquote class="twitter-tweet" lang="pt"><p lang="pt" dir="ltr">Primeira vez que fui no <a href="https://twitter.com/braziljs">@braziljs</a> e realmente é tudo o que falam! Disparado melhor evento que fui até hoje!</p>&mdash; Raphael Fabeni (@raphaelfabeni) <a href="https://twitter.com/raphaelfabeni/status/635814722378592256">24 agosto 2015</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-Gostou? Escrevi alguma groselha? Quer melhorar? Abra uma [issue](https://github.com/raphaelfabeni/raphaelfabeni.github.io/issues) mencionando o post e vamos conversar.
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>

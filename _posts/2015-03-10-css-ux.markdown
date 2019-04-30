@@ -50,12 +50,3 @@ Fiz um pequeno exemplo também, pra tentar demonstrar algumas das coisas que fal
 </figure>
 
 Já que estamos falando de CSS, em maio (dia 09) vai rolar a [Conferência CSS Brasil](http://www.conferenciacssbrasil.com.br) que é o primeiro evento nacional focado em CSS. Tem alguns nomes de peso já confirmados. [Corre lá e se inscreve](http://www.eventick.com.br/conferenciacssbrasil).
-
-Gostou? Escrevi alguma groselha? Quer melhorar? Abra uma [issue](https://github.com/raphaelfabeni/raphaelfabeni.github.io/issues) com a hashtag *1postperweek* e vamos conversar.
-
-
-
-
-
-
-
