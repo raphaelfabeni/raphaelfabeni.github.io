@@ -20,7 +20,7 @@ permalink:   /:title/
 gems:
   - jekyll-gist
 gist:
-  fallback: false
+  noscript: false
 collections:
   category:
     output: true
