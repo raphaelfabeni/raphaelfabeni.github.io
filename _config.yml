@@ -12,17 +12,21 @@ permalink: pretty
 markdown: kramdown
 kramdown:
   input: GFM
-  # syntax_highlighter: rouge
 source:      .
 destination: ./_site
 permalink:   /:title/
+
 gems:
   - jekyll-gist
+
+blog:
+  en: '/blog/'
+  pt-br: '/pt-br/blog/'
+
+
 gist:
   noscript: false
-collections:
-  category:
-    output: true
+
 compress_html:
   clippings: []
   comments: []

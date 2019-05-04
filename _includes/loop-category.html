@@ -1,0 +1,20 @@
+<ul class="category-header__list">
+	<li>
+		<a class="{% if page.layout == 'blog' %}active-category{% endif %}" href="/blog">
+			{% if page.language == 'en' %}
+				all
+			{% else %}
+				tudo
+			{% endif %}
+		</a>
+	</li>
+	{% for category in site.categories %}
+		{% if category[0] != 'pt-br' %}
+		<li>
+			<a class="{% if category[0] == page.category %}active-category{% endif %}" href='/category/{{ category[0] }}'>
+				{{ category[0] | split: "-" | join: " " }}
+			</a>
+		</li>
+		{% endif %}
+	{% endfor %}
+</ul>	

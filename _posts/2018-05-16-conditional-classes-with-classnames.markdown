@@ -8,6 +8,7 @@ alt: 'An S-shaped road, inside a forest.'
 lang: en
 url_en: /conditional-classes-with-classnames/
 category: 'javascript'
+permalink: '/teste'
 ---
 
 <style>

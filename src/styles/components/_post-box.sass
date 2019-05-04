@@ -20,13 +20,21 @@
 		overflow: hidden
 		position: relative
 
+		> a 
+			display: block
+			transition: opacity .3s ease
+
+			&:hover,
+			&:focus
+				opacity: .75
+
 		&:before
 			display: block
 			content: ''
 			width: 100%
 			padding-top: (21 / 40) * 100%
 
-		> img
+		img
 			position: absolute
 			width: 100%
 			left: 0

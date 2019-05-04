@@ -14,8 +14,6 @@ category: 'css'
 
 Scrolling effects always have been more related to touch devices, however, lately, many projects have used this feature, 
 
-Efeitos de *scroll* sempre foram mais relacionados a dispositivos *touch*, no entanto, ultimamente vários projetos tem incorporado esse item, enriching the user experience (of course, for everything there are exceptions).
-
 The solution to apply this effect, generally it was like a jQuery plugin or something similar and the basic idea was to divide the content into different areas which the user cold *scroll* into them, or *click* in some button and the page was responsible make the *scroll* automatic.
 
 So, the CSS guy says: "Take it easy boys! I'm comming with good news and we could do it only with CSS.

@@ -6,10 +6,12 @@
 	position: fixed
 	top: 50%
 	text-decoration: none
-	padding-top: 10px
 	z-index: $z-index--arrow
 	color: $color-green
 	display: inline-block
+	width: 30px
+	height: 30px
+	margin-top: -15px
 
 	@include media($grid--break-arrows)
 		display: none
@@ -20,52 +22,60 @@
 		&:after
 			opacity: 1
 
-		&:after
-			transform: translateY(0)
+		&:before
+			transform: translateX(0)
 
 	&:before,
 	&:after
-		transition: opacity .3s ease, transform .3s ease
+		transition: opacity .3s ease, transform .25s $ease3
 
-	&:before
+	&:after
+		position: absolute
+		width: 100%
+		height: 100%
 		content: ''
 		border: solid 3px currentColor
-		border-left: none
-		border-bottom: none
-		width: 30px
-		height: 30px
 		transform: rotate(45deg)
 		display: block
 		opacity: .75
-		margin-left: -8px
+		z-index: 2
 
-	&:after
+	&:before
 		content: attr(data-text)
 		color: currentColor
 		font-size: 14px
-		width: 100%
-		display: block
-		padding-top: 15px
-		opacity: 0
-		transform: translateY(10px)
-		transition-delay: .2s
+		// opacity: 0
+		position: fixed
+		height: 100vh
+		width: 200px
+		background-color: rgba(255, 255, 255, .95)
+		top: 0
+		display: flex
+		align-items: center
+		justify-content: center
+		padding: 0 20px
+		z-index: 1
 
 	&--left
 		left: 15px
 
-		&:before
-			border: solid 3px currentColor
+		&:after
 			border-right: none
 			border-top: none
-			transform: rotate(45deg) translateX(15px) translateY(-15px)
 
-		&:hover:before,
-		&:focus:before
-			transform: rotate(45deg) translateX(10px) translateY(-10px)
+		&:before
+			left: 0
+			box-shadow: 10px 0 10px 0 rgba(0, 0, 0, .15)
+			transform: translateX(calc(-100% - 20px))
 
 	&--right
 		right: 15px
 
-		&:hover:before,
-		&:focus:before
-			transform: rotate(45deg) translateX(5px) translateY(-5px)
+		&:after
+			border-left: none
+			border-bottom: none
+
+		&:before
+			right: 0
+			box-shadow: -10px 0 10px 0 rgba(0, 0, 0, .15)
+			transform: translateX(calc(100% + 20px))

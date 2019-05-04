@@ -3,16 +3,11 @@ layout: blog
 ---
 
 {% assign englishPosts = site.posts | where: 'lang', 'en' | where: 'category', page.category %}
-{% assign portuguesePosts = site.posts | where: 'lang', 'pt-br' | where: 'category', page.category %}
+<!-- {% assign portuguesePosts = site.posts | where: 'lang', 'pt-br' | where: 'category', page.category %} -->
 
 <header class="category-header">
 	<h1 class="category-header__title">{{ page.category }} posts</h1>
-	<ul class="category-header__list">
-		<li><a href="/blog">all</a></li>
-		{% for category in site.categories %}
-		<li><a class="{% if category[0] == page.category %}active-category{% endif %}" href='/category/{{ category[0] }}'>{{ category[0] | split: "-" | join: " " }}</a></li>
-		{% endfor %}
-	</ul>
+	{% include loop-category.html %}
 </header>
 
 {% if englishPosts.size > 0 %}
@@ -31,7 +26,7 @@ layout: blog
 		<h2><small>Ops... no post found!</small></h2>
 	</div>
 {% endif %}
-
+<!-- 
 {% if portuguesePosts.size > 0 %}
 	{% for post in portuguesePosts %}
 		<article class="post" data-post="pt-br" hidden>
@@ -47,4 +42,4 @@ layout: blog
 	<div data-post="pt-br" hidden>
 		<h2><small>Ops... nenhum post encontrado!</small></h2>
 	</div>
-{% endif %}
+{% endif %} -->
