@@ -4,7 +4,7 @@ name: Raphael Fabeni
 email: rapha.fabeni@gmail.com
 description: "A brazilian front-end developer who loves the web, electronic music and travels."
 baseurl: "/"
-url: "https://www.raphaelfabeni.com.br"
+url: "https://www.raphaelfabeni.com"
 exclude: ['node_modules', 'package.json', 'bin', 'README.md', 'script.bash', 'Gemfile.lock', 'Gemfile', 'start.bash', 'src']
 
 # Build settings
