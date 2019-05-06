@@ -16,7 +16,7 @@ source:      .
 destination: ./_site
 permalink:   /:title/
 
-gems:
+plugins:
   - jekyll-gist
 
 blog:
