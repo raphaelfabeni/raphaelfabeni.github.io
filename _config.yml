@@ -19,6 +19,7 @@ permalink:   /:title/
 plugins:
   - jekyll-gist
   - octopress-debugger
+  - jekyll-sitemap
 
 blog:
   en: '/blog/'
