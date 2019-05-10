@@ -8,6 +8,8 @@ image: 'https://cloud.githubusercontent.com/assets/1345662/8713520/ffe24dec-2b3f
 alt: 'Imagem de uma igreja ou estação de trem vista de uma perspectiva mostrando sua próxima do chão'
 lang: pt-br
 category: 'wordpress'
+permalink: 'dicas-rapidas-wordpress/'
+ref: 'dicas-wp'
 ---
 
 Você já fez algum projeto usando WordPress? Pois é! Eu também. Gostando ou não, você já deve ter se deparado com algum WP na sua vida. Seja num projeto no trabalho, *freela*, ou até mesmo aquele blog que você costuma ler, possa ter sido feito em WP.

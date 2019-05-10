@@ -6,8 +6,9 @@ type: Post
 image: 'https://user-images.githubusercontent.com/1345662/32815391-00071d56-c99b-11e7-9a91-898127f9ac8d.jpg'
 alt: 'Image showing a jellyfish in a blue sea.'
 lang: en
-url_en: /the-end-of-clearfix/
 category: 'css'
+permalink: 'the-end-of-clearfix/'
+ref: 'end-clearfix'
 ---
 
 Today we have a lot of different options to make grids system and complex interfaces. _Flexbox_ and _grid layouts_ are good examples of them. But, and before that, when we didn't have so many options unless the magnificent `float`.

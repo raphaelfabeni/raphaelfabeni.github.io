@@ -7,9 +7,9 @@ date: 2016-01-22
 image: "https://cloud.githubusercontent.com/assets/1345662/12072297/319f5c76-b0bf-11e5-94c3-838746ffca56.jpg"
 alt: "Foto mostra quatro caixas de jornais, provavelmente americanos, em bairro residencial"
 lang: pt-br
-url_en: /es6-string-templates/
-url_br: /es6-string-templates-pt-br/
 category: 'javascript'
+permalink: 'es6-template-strings/'
+ref: 'es6-string-templates'
 ---
 
 Brincar com *strings* muitas vezes pode ser algo um pouco trabalhoso (pode-se ler chato também *இ_இ*). Isso se deve ao fato principalmente de termos que concatenar palavras/frases com variáveis.

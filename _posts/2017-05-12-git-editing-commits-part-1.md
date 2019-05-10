@@ -6,9 +6,9 @@ type: Post
 image: 'https://cloud.githubusercontent.com/assets/1345662/11458148/a4df143e-96a1-11e5-8799-a9522faa7a66.jpg'
 alt: 'Two elderly people weaving wire in an old machine.'
 lang: en
-url_en: /git-editing-commits-part-1/
-url_br: /git-alterando-commits-parte-1/
 category: 'git'
+permalink: 'git-editing-commits-part-1/'
+ref: 'edit-commit-rebase'
 ---
 
 The more I work with git, more I realize how powerful it is. Sometime ago I discovered that there is a way to organize/edit your _commits_. For what? Some useful cases:

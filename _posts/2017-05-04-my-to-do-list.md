@@ -6,8 +6,9 @@ type: Post
 image: "https://cloud.githubusercontent.com/assets/1345662/25727664/ecae6f76-3100-11e7-890f-6d967793ac76.jpg"
 alt: "Picture of the a lemon pie with a strawberry above it."
 lang: en
-url: /my-to-do-list/
 category: 'tools'
+permalink: 'my-to-do-list/'
+ref: 'to-do-list'
 ---
 
 <figure class="thumb-left loading">

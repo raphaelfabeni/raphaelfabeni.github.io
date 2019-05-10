@@ -6,9 +6,9 @@ type: Post
 image: "https://cloud.githubusercontent.com/assets/1345662/16019150/ed21d430-317d-11e6-91e1-ff7ae317a617.jpg"
 alt: "Brinquedos de borracha em formato de patos de deslizando em uma corrente de água entre duas calçadas."
 lang: pt-br
-url_en: /a-different-week/
-url_br: /uma-semana-diferente/
 category: 'conferences'
+permalink: 'uma-semana-diferente/'
+ref: 'different-week'
 ---
 
 Há quase dois anos toco o meu querido [Meetup CSS](https://github.com/raphaelfabeni/css-sp) junto com o [Felipe Fialho](https://twitter.com/lfeh); foi em torno dessa data também que *criei coragem* e enviei a minha primeira proposta de palestra pra um evento.

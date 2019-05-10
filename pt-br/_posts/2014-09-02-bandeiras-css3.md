@@ -8,6 +8,8 @@ image: 'https://cloud.githubusercontent.com/assets/1345662/11458478/184eccba-96a
 alt: 'Montagem com bandeira de quatro países para mostrar o projeto Flags CSS3'
 lang: pt-br
 category: 'projects'
+permalink: 'bandeiras-css/'
+ref: 'bandeiras-css'
 ---
 
 

@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Preventing user error
+title: Avoiding user error
 description: Anticipate a possible user error and make the experience better.
 type: Post
 image: "https://cloud.githubusercontent.com/assets/1345662/14289662/365c31fe-fb32-11e5-9da0-20ff8216417e.jpg"
 alt: "Picture shows two feet of a person jumping in a puddle"
 lang: en
-url_en: /user-error-prevention/
-url_br: /prevencao-erro-usuario/
 category: 'user-experience'
+permalink: 'avoiding-user-error/'
+ref: 'avoiding-user-error'
 ---
 
 <figure class="thumb-right loading">

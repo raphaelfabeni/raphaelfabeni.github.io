@@ -6,8 +6,9 @@ type: Post
 image: 'https://user-images.githubusercontent.com/1345662/37011352-787c398a-20ce-11e8-9da1-679940a43c9d.jpg'
 alt: 'Orange and Gray Tunnel Painting'
 lang: en
-url_en: /front-in-campinas-logo-css/
 category: 'css'
+permalink: 'front-in-campinas-logo-css/'
+ref: 'front-campinas-logo'
 ---
 
 These last days I saw a tweet talking about [Front in Campinas](https://frontincampinas.com.br/). The conference has everything to be amazing, and I'm strongly thinking to send a talk's proposal.

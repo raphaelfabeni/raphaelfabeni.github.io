@@ -6,8 +6,9 @@ type: Post
 image: https://user-images.githubusercontent.com/1345662/35200425-3f63285c-fef5-11e7-8b44-14f470d8f4ba.jpg
 alt: A white boat in the sea.
 lang: en
-url_en: /targeting-parent-class-with-stylus/
 category: 'css'
+permalink: 'targeting-parent-class-with-stylus/'
+ref: 'parent-class-stylus'
 ---
 
 Something I don't like is a pre-concept about some technology before I try it. For a couple of months, I've been trying Stylus and I have to say I'm liking a lot. One type of CSS architecture I really like is BEM and these days I faced a simple problem that probably most of you resolved but as it was new for me I decided to post here.

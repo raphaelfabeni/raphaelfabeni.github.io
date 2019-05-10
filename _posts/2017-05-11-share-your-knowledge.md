@@ -6,9 +6,9 @@ type: Post
 image: 'https://cloud.githubusercontent.com/assets/1345662/11458135/66aaaade-96a1-11e5-9398-6f3e9a24f46c.jpg'
 alt: 'Children studying in an old classroom'
 lang: en
-url_en: /share-knowledge/
-url_br: /compartilhe-conhecimento/
 category: 'community'
+permalink: 'share-your-knowledge/'
+ref: 'share-knowledge'
 ---
 
 I always like to write: at school and college projects I always was responsible for this part and I was totally cool with that. When I decided to write on the internet, my initial idea was chose a subject, initially only techincal things but now everything, and try to write and learn more about it.

@@ -8,6 +8,8 @@ image: 'https://cloud.githubusercontent.com/assets/1345662/11458006/4663a796-969
 alt: 'Galera da primeira Confêrencia CSS Brasil'
 lang: pt-br
 category: 'conferences'
+permalink: 'conferencia-css-brasil/'
+ref: 'conf-css-brasil'
 ---
 
 Lembro como se fosse ontem: estava no TDC ([The Developers Conference](http://www.thedevelopersconference.com.br/)) de 2014 (diga-se de passagem bem nervoso, pois era a primeira vez que iria palestrar em um evento de tal porte)quando encontrei o [Jeff Prestes](https://twitter.com/jeffprestes) e o [Sérgio Nascimento](https://twitter.com/elvisdetona). Estávamos conversando a respeito do [Meetup CSS](http://www.meetup.com/CSS-SP/) pois em questão de dias iria acontecer a [primeira edição](https://github.com/raphaelfabeni/css-sp/blob/master/meetups/01.md) que foi patrocinada pelo [PayPal](https://twitter.com/paypal_br). Conversa vai, conversa vem e de repente surge a idéia: *"Quem sabe daqui um tempo, não teremos um evento só focado em CSS! Uma conferência CSS brasileira"*.

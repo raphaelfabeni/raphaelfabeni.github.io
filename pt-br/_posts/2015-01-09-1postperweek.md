@@ -8,6 +8,8 @@ image: 'https://cloud.githubusercontent.com/assets/1345662/11458219/27fb66d2-96a
 alt: 'Mesa com um notebook aberto em cima'
 lang: pt-br
 category: 'community'
+permalink: '1postperweek/'
+ref: '1postperweek'
 ---
 
 Esses dias navegando pela internet acabei caindo no [post](http://blog.da2k.com.br/2014/12/31/um-post-por-dia/) do grande [Fernando Daciuk](https://twitter.com/fdaciuk). No post ele se coloca uma meta que é escrever um post por dia que serão compartilhados com a hashtag *#1postperday*.

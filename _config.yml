@@ -18,11 +18,11 @@ permalink:   /:title/
 
 plugins:
   - jekyll-gist
+  - octopress-debugger
 
 blog:
   en: '/blog/'
   pt-br: '/pt-br/blog/'
-
 
 gist:
   noscript: false

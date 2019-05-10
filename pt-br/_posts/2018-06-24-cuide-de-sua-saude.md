@@ -6,8 +6,9 @@ type: Post
 image: 'https://user-images.githubusercontent.com/1345662/41825701-7f494e92-77f9-11e8-9d96-2863c03514f1.jpg'
 alt: 'Imagem de uma pessoa de costas fazendo exercício na academia.'
 lang: pt-br
-url_br: /cuide-de-sua-saude/
 category: 'life'
+permalink: 'cuide-de-sua-saude/'
+ref: 'cuide-saude'
 ---
 
 Adotar um estilo de vida saudável é algo que muito tem se falado hoje em dia e eu acho isso demais. O principal disso tudo, pra mim,  é que as pessoas tenham em mente que isso não deve ser algo temporário e sim um estilo de vida. Já vi algumas pessoas falando que trabalhar com tecnologia e levar uma vida saudável são coisas que não combinam e eu discordo totalmente. Já vi pela internet diversos relatos de pessoas que tiveram que tomar um susto pra reverter esse quadro e, assim como eu, passaram a não acreditar mais nesse oposição de tecnologia x saúde.

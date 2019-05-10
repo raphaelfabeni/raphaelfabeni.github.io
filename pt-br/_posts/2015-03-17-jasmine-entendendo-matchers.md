@@ -8,6 +8,8 @@ image: 'https://cloud.githubusercontent.com/assets/1345662/11458074/e50ba9de-969
 alt: 'Cadeado preso em uma grade'
 lang: pt-br
 category: 'javascript'
+permalink: 'jasmine-matchers/'
+ref: 'jasmine-matchers'
 ---
 
 Há algum tempo atrás escrevi umas groselhas sobre *Jasmine*, mais uma introdução sobre o *framework* e como escrever testes era algo intuitivo e fácil. Se você tem interesse, o post é o: [Brincando com Jasmine](/brincando-com-jasmine).

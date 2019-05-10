@@ -8,6 +8,8 @@ image: "https://cloud.githubusercontent.com/assets/1345662/11457941/ee3c42fe-969
 alt: 'Imagem mostra uma rua de uma cidade cheias de carros e com prédios altos de ambos os lados'
 lang: pt-br
 category: 'javascript'
+permalink: 'dicas-rapidas-javascript-parte-2/'
+ref: 'dicas-javascript-2'
 ---
 
 ## Criação de um array

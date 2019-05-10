@@ -7,9 +7,9 @@ date: 2016-03-07
 image: "https://cloud.githubusercontent.com/assets/1345662/13560552/4958f4e4-e3ff-11e5-8de4-20372d14ab0b.jpg"
 alt: "Uma caixa de madeira cheia de nozes"
 lang: pt-br
-url_en: /matches-selector-css-4/
-url_br: /css-4-seletor-matches/
 category: 'css'
+permalink: 'css-matches-selector/'
+ref: 'css-seletor-matches'
 ---
 
 CSS3 já era coisa fina. Agora, na sua versão 4, ou melhor dizendo, em seu *nível 4*, como será dividido a partir de agora, tem muita coisa bacana. Uma delas é o seletor `:matches`.

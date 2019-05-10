@@ -8,6 +8,8 @@ image: 'https://cloud.githubusercontent.com/assets/1345662/11458020/8dbf5630-969
 alt: 'Cadeira de madeira vermelha em um quintal coberto de neve'
 lang: pt-br
 category: 'javascript'
+permalink: 'dicas-rapidas-javascript/'
+ref: 'dicas-javascript'
 ---
 
 ## Guarde o tamanho do array

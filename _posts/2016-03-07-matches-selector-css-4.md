@@ -7,9 +7,9 @@ date: 2016-03-07
 image: "https://cloud.githubusercontent.com/assets/1345662/13560552/4958f4e4-e3ff-11e5-8de4-20372d14ab0b.jpg"
 alt: "A wooden box full of nuts"
 lang: en
-url_en: /matches-selector-css-4/
-url_br: /css-4-seletor-matches/
 category: 'css'
+permalink: 'css-matches/'
+ref: 'css-seletor-matches'
 ---
 
 CSS3 was already something really cool. Now, in version 4, or better saying, in *level 4*, as it will be divided from now, CSS has much more features. One of them is the `:matches` selector.

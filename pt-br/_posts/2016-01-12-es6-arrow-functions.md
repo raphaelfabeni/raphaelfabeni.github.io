@@ -10,6 +10,8 @@ lang: pt-br
 url_en: /arrow-functions/
 url_br: /es6-arrow-functions/
 category: 'javascript'
+permalink: 'es6-arrow-functions/'
+ref: 'es6-arrow-functions'
 ---
 
 As *arrow functions* a princípio podem parecer confusas (experiência própria *(◕︵◕)*), mas depois de um tempo, é possível entender sua sintaxe mais curta e a mágica do escopo do `this`.

@@ -8,6 +8,8 @@ image: 'https://cloud.githubusercontent.com/assets/1345662/11458108/85179d3e-96a
 alt: 'Imagem mostra relógios de uma máquina antiga de uma fábrica'
 lang: pt-br
 category: 'javascript'
+permalink: 'brincando-com-jasmine/'
+ref: 'jasmine'
 ---
 
 Você testa seu código **JS**?  Se a resposta foi não, nunca é tarde pra começar. Não vou me alongar aqui falando o porque tanta gente fala de fazer testes, existem milhares de posts sobre isso. Vou direto ao assunto: o brother *Jasmine*.

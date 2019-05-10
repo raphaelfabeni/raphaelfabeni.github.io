@@ -6,9 +6,9 @@ type: Post
 image: "https://cloud.githubusercontent.com/assets/1345662/16019150/ed21d430-317d-11e6-91e1-ff7ae317a617.jpg"
 alt: "Rubber toys in the shape of ducks gliding in a stream of water between two sidewalks.."
 lang: en
-url_en: /a-different-week/
-url_br: /uma-semana-diferente/
 category: 'conferences'
+permalink: 'a-different-week/'
+ref: 'different-week'
 ---
 
 Almost two years that I and [Felipe Fialho](https://twitter.com/lfeh) organize the [Meetup CSS](https://github.com/raphaelfabeni/css-sp); it was also around this time that I got courage and sent my first talk proposal.

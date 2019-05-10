@@ -7,9 +7,9 @@ date: 2016-01-06
 image: "https://cloud.githubusercontent.com/assets/1345662/12068674/5c23b1b6-aff9-11e5-8118-2d1b6ddbab78.jpg"
 alt: "A part of bed with some pillows and next to a small closet with an alarm clock on top."
 lang: en
-url_en: /es6-default-parameters/
-url_br: /es6-parametros-default/
 category: 'javascript'
+permalink: 'es6-default-parameters/'
+ref: 'es6-default-parameters/'
 ---
 
 We could pass some parameters in functions, right? Okay. With ES6 it is possible assign default values for them if they are not passed.

@@ -6,9 +6,9 @@ type: Post
 image: 'https://cloud.githubusercontent.com/assets/1345662/11458135/66aaaade-96a1-11e5-9398-6f3e9a24f46c.jpg'
 alt: 'Alunos em uma sala de aula antiga estudando'
 lang: pt-br
-url_en: /share-your-knowledge/
-url_br: /compartilhe-conhecimento/
 category: 'community'
+permalink: 'compartilhe-conhecimento/'
+ref: 'share-knowledge'
 ---
 
 Já conversei sobre isso com vários amigos meus e acho que é um tema que cada vez mais está em foco. Há algum tempo tinha em mente escrever algo relacionado e depois que abri a [issue](https://github.com/LFeh/poste-mais/issues/9) no projeto [poste-mais](https://github.com/LFeh/) e o tema foi discutido num [FEMUG](https://sp.femug.com/) resolvi acelerar o processo.

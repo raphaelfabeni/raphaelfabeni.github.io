@@ -8,6 +8,8 @@ image: 'https://cloud.githubusercontent.com/assets/1345662/11458128/0cfacf50-96a
 alt: 'Galera que palestrou no 7Masters - Diego Eis, Hugo Bessa, Rafael Lyra, Deivid Marques, Raphael Fabeni, Rafael Rinaldi e Bernard de Luna'
 lang: pt-br
 category: 'conferences'
+permalink: '7-masters-css/'
+ref: '7-masters-css'
 ---
 
 Ontem rolou mais uma edição do 7Masters do [iMasters](http://www.imasters.com.br). Pra quem não conhece trata-se de um evento onde 7 pessoas apresentam uma *talk* durante 7 minutos sobre um determinado assunto e depois é aberta a discussão entre os participantes. Essa edição em especial pra mim foi muito bacana por dois motivos: primeiro pois o tema geral era *CSS*, algo que gosto bastante e, segundo pois fui convidado para palestrar e falar umas *groselhas* lá pro pessoal.

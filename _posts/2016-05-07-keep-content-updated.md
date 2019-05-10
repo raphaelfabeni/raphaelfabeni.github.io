@@ -6,9 +6,9 @@ type: Post
 image: "https://cloud.githubusercontent.com/assets/1345662/15093504/8b460888-1460-11e6-9c31-1af2aeb34815.jpg"
 alt: "Two men shaking hands in front of an old car (probably the 20 or 30 decade)"
 lang: en
-url_en: /keep-content-updated/
-url_br: /matenha-conteudo-atualizado/
 category: 'user-experience'
+permalink: 'keep-content-updated/'
+ref: 'content-updated'
 ---
 
 A user, in most cases, access a website for a **objective**: searching the last numbers of lottery, print some medical results or even ask something to eat. It's your (or ours) objective to think in the best way/experience in how the user will do that.

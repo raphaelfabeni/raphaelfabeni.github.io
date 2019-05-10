@@ -7,9 +7,9 @@ date: 2016-01-29
 image: "https://cloud.githubusercontent.com/assets/1345662/12072840/6360f8ae-b0de-11e5-8584-b748798c95c3.jpg"
 alt: "Colorful fireworks in a dark sky"
 lang: en
-url_en: /es6-spread-operator/
-url_br: /es6-spread-operator-pt-br/
 category: 'javascript'
+permalink: 'spread-operator/'
+ref: 'es6-spread-operator'
 ---
 
 The *spread* guy allow us extract/expand data from an array make our lifes easier. Confused? I guess I could not explain. Go to practice. Imagine the following arrays:

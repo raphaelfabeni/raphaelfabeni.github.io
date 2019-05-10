@@ -8,6 +8,8 @@ image: 'https://cloud.githubusercontent.com/assets/1345662/9028292/d234a1e2-394a
 alt: 'Rua na China com trânsito de carros'
 lang: pt-br
 category: 'wordpress'
+permalink: 'dicas-rapidas-wordpress-parte-2/'
+ref: 'dicas-wp-2'
 ---
 
 Esse post é a continuação de um outro post que escrevi há uns dias atrás [sobre algumas dicas rápidas para projetos em WP](/dicas-rapidas-wordpress/).

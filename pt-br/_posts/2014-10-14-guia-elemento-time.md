@@ -8,6 +8,8 @@ image: 'https://cloud.githubusercontent.com/assets/1345662/11458306/77ace862-96a
 alt: 'Imagem mostra relógio de pulso segurado pela corda'
 lang: pt-br
 category: 'html'
+permalink: 'guia-elemento-time/'
+ref: 'guia-elemento-time'
 ---
 
 O HTML5 trouxe diversas coisas bacanas pra nós desenvolvedores. Uma das mais simples e que eu acho que são uma das mais legais é a questão da semântica com os novos elementos. O surgimento dessas tags deixaram nossos códigos mais semânticos e legíveis, tanto por nós como pelas máquinas.

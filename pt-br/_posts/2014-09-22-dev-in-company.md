@@ -8,6 +8,8 @@ image: 'https://cloud.githubusercontent.com/assets/1345662/11458353/29f55cfc-96a
 alt: 'Raphael Fabeni e os organizadores do evento Dev in Company'
 lang: pt-br
 category: 'conferences'
+permalink: 'dev-in-company/'
+ref: 'dev-in-company'
 ---
 
 Esse final de semana (dia 20) rolou o <a href="http://devincompany.org">Dev in Company</a> lá em Belo Horizonte. A idéia do evento é muito legal, e propõe um ótimo ambiente para fazer novas amizades na área, trocar experiências e claro, compartilhar conhecimento (o bom e velho <i>networking)</i>. A organização fica por conta do <a href="http://betomuniz.com/" target="_blank">Beto Muniz</a>, <a href="https://www.linkedin.com/in/lurimendes" target="_blank">Luiz Augusto</a>, <a href="https://www.linkedin.com/in/paulasfaria" target="_blank">Paula Faria</a> e <a href="http://rmdias.com/" target="_blank">Rodolfo Dias</a>.

@@ -8,6 +8,8 @@ image: 'https://cloud.githubusercontent.com/assets/1345662/11457969/79fb1d56-969
 alt: 'Vários relógios dourados presos a uma superfície e dispostos um ao lado do outro'
 lang: pt-br
 category: 'javascript'
+permalink: 'jasmine-spies/'
+ref: 'jasmine-spies'
 ---
 
 Há algum tempo atrás, escrevi umas groselhas sobre *Jasmine*: [um post foi mais uma introdução sobre o framework](/brincando-com-jasmine) e o [outro post foi sobre os matchers que o Jasmine nos oferece](/jasmine-entendendo-matchers).
