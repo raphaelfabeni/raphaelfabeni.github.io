@@ -63,7 +63,7 @@
     "babelify": "^7.3.0",
     "browser-sync": "^2.11.1",
     "browserify": "^14.4.0",
-    "eslint": "^1.10.3",
+    "eslint": "^4.18.2",
     "eslint-config-google": "^0.3.0",
     "image-min": "^0.3.2",
     "imagemin": "^5.3.1",
