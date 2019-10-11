@@ -1,5 +1,5 @@
 /node_modules
 /_site
 /bin
-
+yarn.lock
 Gemfile.lock
