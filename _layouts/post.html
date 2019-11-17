@@ -24,7 +24,7 @@ layout: compress
 		<div class="container container--small">
       <h1 class="post-title" data-post-title>{{ page.title }}</h1>
       {% if page.lang == "en" and alternatePosts.size == 1 %}
-      <section class="post-box">
+      <section class="post-box-info">
         Quer esse conteúdo em pt-br? <a href="https://github.com/raphaelfabeni/raphaelfabeni.github.io/issues/new?assignees=&labels=tradu%C3%A7%C3%A3o&template=traducao.md&title=Tradu%C3%A7%C3%A3o+de+um+post&body=Gostaria+de+pedir+a+tradução+do+post+_[{{ page.title }}]({{ site.url }}{{ page.url }})_+">Clique aqui</a>.
       </section>
       {% endif %}
