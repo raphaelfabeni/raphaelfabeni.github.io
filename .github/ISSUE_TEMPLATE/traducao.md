@@ -1,6 +1,7 @@
 ---
-name: "Tradução"
-about: "Solicitar uma tradução"
-title: "Tradução de um post"
-labels: "tradução"
+name: Tradução
+about: Solicitar a tradução de um post :)
+title: Tradução de um post
+labels: tradução
+assignees: ''
 ---
