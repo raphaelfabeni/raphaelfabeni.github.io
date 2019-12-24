@@ -18,7 +18,7 @@ ref: 'classnames'
 }
 </style>
 
-Não sou um _expert_ em React but tenho trabalhado com o framework nos últimos meses e posso dizer que o pacote [classnames](https://github.com/JedWatson/classnames) é algo que tem ajudado bastante.
+Não sou um _expert_ em React mas tenho trabalhado com o framework nos últimos meses e posso dizer que o pacote [classnames](https://github.com/JedWatson/classnames) é algo que tem ajudado bastante.
 
 Como código é melhor que palavras, vamos ao que interessa. Eu costumava a fazer algo assim:
 
