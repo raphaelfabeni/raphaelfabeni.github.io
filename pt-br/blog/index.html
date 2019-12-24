@@ -4,13 +4,6 @@ type: blog
 title: Blog | Raphael Fabeni
 description: 'Algumas idéias malucas sobre desenvolvimento web, vida saudável, etc...'
 language: pt-br
-links:
-  left:
-    text: Home
-    link: '/'
-  right:
-    text: Closet
-    link: '/my-closet'
 ---
 
 {% assign portuguesePosts = site.posts | where: 'lang', 'pt-br' %}
@@ -20,14 +13,9 @@ links:
 	<!-- {% include loop-category.html %} -->
 </header>
 {% for post in portuguesePosts %}
-	<article class="post" data-post="pt-br">
-		<figure class="post__thumb">
-			<a href="{{ post.url }}">
-				<img src="{{ post.image }}" alt="{{ post.alt }}">
-			</a>
-		</figure>
+	<article class="post" data-post="en">
 		<h2 class="post__title">
-			<a class="post__link" href="{{ post.url }}">{{ post.title }}</a>
+			<a class="post__link" href="{{ post.url }}">{{ post.title }}</a> | <span class="post__category">{{ post.category }}</span>
 		</h2>
 	</article>
 {% endfor %}

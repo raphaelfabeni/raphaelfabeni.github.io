@@ -1,65 +1,26 @@
 .post
 	width: 100%
-	max-width: 32.3%
-	position: relative
-	margin: 25px .5%
-	// min-height: 140px
-	display: flex
-	flex-direction: column
+	color: $color-gray
+	border-bottom: 1px solid #eee
+	padding-bottom: 10px
 
-	&[hidden]
-		display: none
-
-	@include media(900px)
-		max-width: calc(50% - 10px)
-
-	@include media(768px)
-		max-width: 100%
-
-	&__thumb
-		overflow: hidden
-		position: relative
-
-		> a 
-			display: block
-			transition: opacity .3s ease
-
-			&:hover,
-			&:focus
-				opacity: .75
-
-		&:before
-			display: block
-			content: ''
-			width: 100%
-			padding-top: (21 / 40) * 100%
-
-		img
-			position: absolute
-			width: 100%
-			left: 0
-			top: 0
-			height: 100%
+	&:first-of-type
+		margin-top: 20px
+		border-top: 1px solid #eee
 
 	&__title
-		font-size: 24px
-		flex: 1
-		display: flex
-		text-align: center
-		justify-content: center
-		align-items: center
+		font-size: 22px
+		font-weight: $font-weight--semibold
 
 	&__link
-		display: flex
-		align-items: center
-		justify-content: center
-		width: 100%
-		height: 100%
+		display: block
+		transition: color .3s ease
+		padding: 15px 0
 		text-decoration: none
-		padding: 20px 10px
-		box-shadow: 0 3px 15px 0 rgba(0, 0, 0, .1)
 
-		&:hover,
-		&:focus
-			color: $color-green
-			opacity: 1
+	&__category
+		color: $color-gray
+		opacity: .75
+		font-size: 16px
+		transform: translateY(-12px)
+		display: inline-block

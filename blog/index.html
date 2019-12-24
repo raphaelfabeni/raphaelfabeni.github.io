@@ -4,13 +4,6 @@ type: blog
 title: Blog | Raphael Fabeni
 description: 'Some crazy thougths about web development, life and etc...'
 language: en
-links:
-  left:
-    text: Home
-    link: '/'
-  right:
-    text: Closet
-    link: '/my-closet'
 ---
 
 {% assign englishPosts = site.posts | where: 'lang', 'en' %}
@@ -21,13 +14,9 @@ links:
 </header>
 {% for post in englishPosts %}
 	<article class="post" data-post="en">
-		<figure class="post__thumb">
-			<a href="{{ post.url }}">
-				<img src="{{ post.image }}" alt="{{ post.alt }}">
-			</a>
-		</figure>
 		<h2 class="post__title">
 			<a class="post__link" href="{{ post.url }}">{{ post.title }}</a>
 		</h2>
+		<span class="post__category">{{ post.category }}</span>
 	</article>
 {% endfor %}

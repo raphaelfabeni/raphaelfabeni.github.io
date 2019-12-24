@@ -25,6 +25,10 @@ blog:
   en: '/blog/'
   pt-br: '/pt-br/blog/'
 
+collections:
+  category:
+    output: true
+
 gist:
   noscript: false
 
