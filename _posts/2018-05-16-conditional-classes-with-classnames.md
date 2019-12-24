@@ -28,7 +28,7 @@ or...
 
 {% gist 5c26a6fb658f04d229a97e26acc894e8 %}
 
-It works! But for me, there was something it could be better and easier when the CSS classes' number starting to increase. Then, I found out this magic called _classnames_.
+It works... but thinking about the possibility of the number of CSS classes start to increase, this approach wouldn't be good enough. So, I found out this magic called _classnames_. 
 
 
 {% gist 2b4953792611320f0a27e07acbe03225 %}
