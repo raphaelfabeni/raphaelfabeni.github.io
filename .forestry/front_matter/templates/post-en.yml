@@ -5,6 +5,8 @@ fields:
 - type: text
   name: layout
   label: layout
+  default: post
+  hidden: true
 - type: text
   name: title
   label: title
@@ -14,6 +16,8 @@ fields:
 - type: text
   name: type
   label: type
+  default: post
+  hidden: true
 - type: datetime
   name: date
   label: date
@@ -26,6 +30,8 @@ fields:
 - type: text
   name: lang
   label: lang
+  default: en
+  hidden: true
 - type: text
   name: category
   label: category
