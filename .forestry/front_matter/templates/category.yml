@@ -1,0 +1,10 @@
+---
+label: Category
+hide_body: true
+fields:
+- type: text
+  name: layout
+  label: layout
+- type: text
+  name: category
+  label: category
