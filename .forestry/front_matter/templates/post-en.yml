@@ -8,16 +8,21 @@ fields:
   default: post
   hidden: true
 - type: text
+  name: type
+  label: type
+  default: Post
+  hidden: true
+- type: text
+  name: lang
+  label: lang
+  default: en
+  hidden: true
+- type: text
   name: title
   label: title
 - type: text
   name: description
   label: description
-- type: text
-  name: type
-  label: type
-  default: post
-  hidden: true
 - type: datetime
   name: date
   label: date
@@ -27,11 +32,6 @@ fields:
 - type: text
   name: alt
   label: alt
-- type: text
-  name: lang
-  label: lang
-  default: en
-  hidden: true
 - type: text
   name: category
   label: category
