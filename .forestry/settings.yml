@@ -23,6 +23,8 @@ sections:
   label: Category
   create: all
   match: "**/*"
+  templates:
+  - category
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
