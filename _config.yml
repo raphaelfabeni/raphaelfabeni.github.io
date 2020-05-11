@@ -1,37 +1,39 @@
-# Site settings
+---
 title: Raphael Fabeni
 name: Raphael Fabeni
 email: rapha.fabeni@gmail.com
-description: "A brazilian front-end developer who loves the web, electronic music and travels."
-baseurl: "/"
-url: "https://www.raphaelfabeni.com"
-exclude: ['node_modules', 'package.json', 'bin', 'README.md', 'script.bash', 'Gemfile.lock', 'Gemfile', 'start.bash', 'src']
-
-# Build settings
-permalink: pretty
+description: A brazilian front-end developer who loves the web, electronic music and
+  travels.
+baseurl: ''
+url: https://www.raphaelfabeni.com
+exclude:
+- node_modules
+- package.json
+- bin
+- README.md
+- script.bash
+- Gemfile.lock
+- Gemfile
+- start.bash
+- src
+permalink: "/:title/"
 markdown: kramdown
 kramdown:
   input: GFM
-source:      .
-destination: ./_site
-permalink:   /:title/
-
+source: "."
+destination: "./_site"
 plugins:
-  - jekyll-gist
-  - octopress-debugger
-  - jekyll-sitemap
-
+- jekyll-gist
+- octopress-debugger
+- jekyll-sitemap
 blog:
-  en: '/blog/'
-  pt-br: '/pt-br/blog/'
-
+  en: "/blog/"
+  pt-br: "/pt-br/blog/"
 collections:
   category:
     output: true
-
 gist:
   noscript: false
-
 compress_html:
   clippings: []
   comments: []
@@ -41,9 +43,3 @@ compress_html:
   blanklines: false
   profile: false
   startings: []
-
-
-# thankful_eyes
-# base16.dark
-# base16.solarized
-# gruvbox.light

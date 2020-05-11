@@ -4,6 +4,8 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
+- type: heading
+  label: Blog
 - type: directory
   path: _posts
   label: Posts (EN)
@@ -25,6 +27,8 @@ sections:
   match: "**/*"
   templates:
   - category
+- type: heading
+  label: Site
 - type: document
   path: _config.yml
   label: Config
