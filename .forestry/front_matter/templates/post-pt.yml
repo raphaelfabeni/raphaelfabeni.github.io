@@ -5,6 +5,18 @@ fields:
 - type: text
   name: layout
   label: layout
+  default: post
+  hidden: true
+- type: text
+  name: type
+  label: type
+  default: Post
+  hidden: true
+- type: text
+  name: lang
+  label: lang
+  default: pt-br
+  hidden: true
 - type: text
   name: title
   label: title
@@ -12,8 +24,8 @@ fields:
   name: description
   label: description
 - type: text
-  name: type
-  label: type
+  name: category
+  label: category
 - type: datetime
   name: date
   label: date
@@ -23,12 +35,6 @@ fields:
 - type: text
   name: alt
   label: alt
-- type: text
-  name: lang
-  label: lang
-- type: text
-  name: category
-  label: category
 - type: text
   name: permalink
   label: permalink
