@@ -1,0 +1,37 @@
+---
+label: Post (EN)
+hide_body: false
+fields:
+- type: text
+  name: layout
+  label: layout
+- type: text
+  name: title
+  label: title
+- type: text
+  name: description
+  label: description
+- type: text
+  name: type
+  label: type
+- type: datetime
+  name: date
+  label: date
+- type: file
+  name: image
+  label: image
+- type: text
+  name: alt
+  label: alt
+- type: text
+  name: lang
+  label: lang
+- type: text
+  name: category
+  label: category
+- type: text
+  name: permalink
+  label: permalink
+- type: text
+  name: ref
+  label: ref
