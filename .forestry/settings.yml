@@ -9,11 +9,15 @@ sections:
   label: Posts (EN)
   create: documents
   match: "*"
+  templates:
+  - post-en
 - type: directory
   path: pt-br/_posts
   label: Posts (PT)
   create: documents
   match: "*"
+  templates:
+  - post-pt
 - type: directory
   path: _category
   label: Category
