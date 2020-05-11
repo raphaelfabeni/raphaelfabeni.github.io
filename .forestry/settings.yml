@@ -4,14 +4,8 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
-- type: jekyll-pages
-  label: Pages
-  create: all
-- type: jekyll-posts
-  label: Posts
-  create: all
 - type: directory
-  path: "./_category"
+  path: _category
   label: Category
   create: all
   match: "**/*"
