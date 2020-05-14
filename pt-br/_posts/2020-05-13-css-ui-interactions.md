@@ -16,4 +16,4 @@ Se tem uma coisa que eu sempre gostei em aplicações web, sejam elas de qualque
 
 E quando se trabalha focado no desenvolvimento front-end, não é difícil de se escrever o mesmo código (ou algo muito similar) diversas vezes para diferentes projetos. E uma coisa que parei pra pensar, é que quanto mais simples é esse trecho de código, mais eu não queria ter que reescrevê-lo. Pensando nisso, e juntando meu interesse em CSS e interações que decidi criar algum tempo atrás o [ui interactions](https://raphaelfabeni.com/ui-interactions/).
 
-A idéia era ser algo simples e direto, tão simples quanto _copiar o código e sair usando_. Admito que o projeto está um pouco _empoeirado_, mas aos poucos e com novas idéias quero tentar voltar a atualizá-lo.
+A idéia era ser algo rápido e direto, tão simples quanto _copiar o código e sair usando_. Admito que o projeto está um pouco _empoeirado_, mas aos poucos e com novas idéias quero tentar voltar a atualizá-lo.
