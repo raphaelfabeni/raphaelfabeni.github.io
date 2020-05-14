@@ -12,7 +12,7 @@ ref: ui-interactions
 date: 2020-05-13 04:00:00 +0000
 
 ---
-Se tem uma coisa que eu sempre gostei em aplicações web, sejam elas de qualquet tipo, é a parte que envolve interações de interface. Informar pra pessoa, que está acessando o seu site, o que está acontecendo, não só como _efeitinho_, mas de forma funcional é a jogada pra mim aqui. 
+Se tem uma coisa que eu sempre gostei em aplicações web, sejam elas de qualquer tipo, é a parte que envolve interações de interface. Informar pra pessoa que está acessando o seu site o que está acontecendo, não só como _efeitinho_, mas de forma funcional é a jogada pra mim aqui.
 
 E quando se trabalha focado no desenvolvimento front-end, não é difícil de se escrever o mesmo código (ou algo muito similar) diversas vezes para diferentes projetos. E uma coisa que parei pra pensar, é que quanto mais simples é esse trecho de código, mais eu não queria ter que reescrevê-lo. Pensando nisso, e juntando meu interesse em CSS e interações que decidi criar algum tempo atrás o [ui interactions](https://raphaelfabeni.com/ui-interactions/).
 
