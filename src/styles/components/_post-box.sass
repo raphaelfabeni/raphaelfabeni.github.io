@@ -1,26 +1,55 @@
 .post
-	width: 100%
 	color: $color-gray
-	border-bottom: 1px solid #eee
-	padding-bottom: 10px
+	height: 220px
+	margin: 20px
+	background-color: #eee
+	width: calc(20% - 40px)
+	display: flex
+	overflow: hidden
 
-	&:first-of-type
-		margin-top: 20px
-		border-top: 1px solid #eee
+	@include media(1500px)
+		width: calc(25% - 40px)
+	
+	@include media(1200px)
+		width: calc(33.3% - 40px)
+	
+	@include media(950px)
+		width: calc(50% - 40px)
+	
+	@include media(750px)
+		width: 100%
+		margin: 20px 0
+		height: auto
 
 	&__title
 		font-size: 22px
 		font-weight: $font-weight--semibold
+		line-height: 1.4
 
 	&__link
-		display: block
-		transition: color .3s ease
-		padding: 15px 0
+		display: flex
+		padding: 20px
 		text-decoration: none
+		width: 100%
+		height: 100%
+		flex-direction: column
+		transition: background .3s ease, transform .3s ease
+
+		&:hover,
+		&focus
+			background-color: $color-green
+
+			.post__title
+				color: #fff
 
 	&__category
 		color: $color-gray
 		opacity: .75
 		font-size: 16px
-		transform: translateY(-12px)
-		display: inline-block
+		display: block
+		margin-top: auto
+		text-align: right
+
+		@include media(750px)
+			text-align: left
+			margin-top: 10px

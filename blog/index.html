@@ -14,9 +14,9 @@ language: en
 </header>
 {% for post in englishPosts %}
 	<article class="post" data-post="en">
-		<h2 class="post__title">
-			<a class="post__link" href="{{ post.url }}">{{ post.title }}</a>
-		</h2>
-		<span class="post__category">{{ post.category }}</span>
+		<a class="post__link" href="{{ post.url }}">
+			<h2 class="post__title">{{ post.title }}</h2>
+			<span class="post__category">{{ post.category }}</span>
+		</a>
 	</article>
 {% endfor %}
