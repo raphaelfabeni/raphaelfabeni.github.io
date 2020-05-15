@@ -29,10 +29,21 @@ fields:
   default: ''
   config:
     required: false
-    options: []
+    options:
+    - css
+    - wordpress
+    - tools
+    - user-experience
+    - projects
+    - life
+    - javascript
+    - html
+    - git
+    - conferences
+    - community
     source:
-      type: documents
-      section: category
+      type: simple
+      section: ''
       file: 
       path: 
   label: category
