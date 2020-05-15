@@ -10,8 +10,8 @@ image: https://user-images.githubusercontent.com/1345662/81883462-4c24c300-9563-
 alt: UI interactions project screenshout
 permalink: ui-interactions
 ref: ui-interactions
-
 ---
+
 If there is something that I like a lot in web applications, no matter what is the type of the project, is UI interactions. For me, the difference here is to show the user what is happening in the interface, not only as a simple animation but something functional.  
   
 When you work focused on front-end, it's not hard to happen, and this happens a lot with me to rewrite the same code or one that is similar a couple of times. And for me, as more straightforward as the code is, more significant is my desire to have something ready-to-use.  
