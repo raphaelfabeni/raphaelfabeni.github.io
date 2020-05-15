@@ -24,6 +24,18 @@ fields:
 - type: text
   name: description
   label: description
+- name: category
+  type: select
+  default: ''
+  config:
+    required: false
+    options: []
+    source:
+      type: pages
+      section: category
+      file: 
+      path: 
+  label: category
 - type: datetime
   name: date
   label: date
@@ -35,9 +47,6 @@ fields:
 - type: text
   name: alt
   label: alt
-- type: text
-  name: category
-  label: category
 - type: text
   name: permalink
   label: permalink
