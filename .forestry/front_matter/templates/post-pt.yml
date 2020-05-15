@@ -30,8 +30,10 @@ fields:
 - type: datetime
   name: date
   label: date
-- type: file
-  name: image
+- name: image
+  type: text
+  config:
+    required: true
   label: image
 - type: text
   name: alt
