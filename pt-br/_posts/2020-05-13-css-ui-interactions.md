@@ -6,7 +6,7 @@ type: Post
 image: https://user-images.githubusercontent.com/1345662/81883462-4c24c300-9563-11ea-868b-6e74bc3638b9.png
 alt: Screenshot da tela do projeto UI Interactions
 lang: pt-br
-category: css
+category: projects
 permalink: css-ui-interactions/
 ref: ui-interactions
 date: 2020-05-13 04:00:00 +0000
