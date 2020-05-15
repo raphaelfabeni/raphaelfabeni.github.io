@@ -21,12 +21,32 @@ fields:
 - type: text
   name: title
   label: title
+- name: category
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - css
+    - wordpress
+    - user-experience
+    - tools
+    - projects
+    - life
+    - javascript
+    - html
+    - git
+    - conferences
+    - community
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: category
 - type: text
   name: description
   label: description
-- type: text
-  name: category
-  label: category
 - type: datetime
   name: date
   label: date
