@@ -1,0 +1,12 @@
+I"b<p>We could pass some parameters in functions, right? Okay. With ES6 it is possible assign default values for them if they are not passed.</p>
+
+<p>When we create a function, we could verify that the values were passed or not, and maybe assign a value to it; something like that.</p>
+
+<script src="https://gist.github.com/96455864207807906742993e0ea00028.js"> </script>
+
+<p>Now, we could do something like that:</p>
+
+<script src="https://gist.github.com/8d70330a4fca5ae689a06890188c6869.js"> </script>
+
+<p><a href="http://jsbin.com/kofifu/edit?js,console">Here</a> you can find an JS Bin with the examples.</p>
+:ET

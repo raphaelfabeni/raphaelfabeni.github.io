@@ -7,7 +7,7 @@ date: 2015-01-09
 image: 'https://cloud.githubusercontent.com/assets/1345662/11458219/27fb66d2-96a3-11e5-962b-c2d7199fd190.jpg'
 alt: 'Mesa com um notebook aberto em cima'
 lang: pt-br
-category: 'community'
+category: 'comunidade'
 permalink: '1postperweek/'
 ref: '1postperweek'
 ---

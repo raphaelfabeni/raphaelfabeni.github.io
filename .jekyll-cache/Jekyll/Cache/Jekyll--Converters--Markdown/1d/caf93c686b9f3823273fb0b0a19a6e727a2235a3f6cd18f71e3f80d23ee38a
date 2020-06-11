@@ -1,0 +1,22 @@
+I";<style>
+	pre {
+  -moz-tab-size: 4;
+  tab-size: 4;
+}
+</style>
+
+<p>I’m not a React expert but I’ve been working with the framework in the last few months and I have to say that <a href="https://github.com/JedWatson/classnames">classnames</a> is something that helps you a lot.</p>
+
+<p>Code is better than words. So, I used to do something like this</p>
+
+<script src="https://gist.github.com/893c216dbc22d16138c47da1040c52d6.js"> </script>
+
+<p>or…</p>
+
+<script src="https://gist.github.com/5c26a6fb658f04d229a97e26acc894e8.js"> </script>
+
+<p>It works… but thinking about the possibility of the number of CSS classes start to increase, this approach wouldn’t be good enough. So, I found out this magic called <em>classnames</em>.</p>
+
+<script src="https://gist.github.com/2b4953792611320f0a27e07acbe03225.js"> </script>
+
+:ET

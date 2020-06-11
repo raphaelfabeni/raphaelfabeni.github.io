@@ -1,20 +1,13 @@
 <ul class="category-header__list">
 	<li>
-		<a class="{% if page.layout == 'blog' %}active-category{% endif %}" href="/blog">
-			{% if page.language == 'en' %}
-				all
-			{% else %}
-				tudo
-			{% endif %}
+		<a class="{% if page.layout == 'blog' %}active-category{% endif %}" href="{{ site.blog[page.lang] }}">
+			{{ site.dictionary[page.lang].all_categories }}
 		</a>
 	</li>
-	{% for category in site.categories %}
-		{% if category[0] != 'pt-br' %}
-		<li>
-			<a class="{% if category[0] == page.category %}active-category{% endif %}" href='/category/{{ category[0] }}'>
-				{{ category[0] | split: "-" | join: " " }}
-			</a>
-		</li>
-		{% endif %}
+	{% for item in site.categories_list[page.lang] %}
+	<li>
+		{% assign down = item[1].title | downcase | replace: 'ê', 'e' | replace: ' ', '-' %}
+		<a class="{% if down == page.category %}is-active{% endif %}" href="{{ item[1].permalink }}">{{ item[1].title }}</a>
+	</li>
 	{% endfor %}
 </ul>

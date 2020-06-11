@@ -1,0 +1,6 @@
+I"<p>Se tem uma coisa que eu sempre gostei em aplicações web, sejam elas de qualquer tipo, é a parte que envolve interações de interface. Informar pra pessoa que está acessando o seu site o que está acontecendo, não só como <em>efeitinho</em>, mas de forma funcional é a jogada pra mim aqui.</p>
+
+<p>E quando se trabalha focado no desenvolvimento front-end, não é difícil de se escrever o mesmo código (ou algo muito similar) diversas vezes para diferentes projetos. E uma coisa que parei pra pensar, é que quanto mais simples é esse trecho de código, mais eu não queria ter que reescrevê-lo. Pensando nisso, e juntando meu interesse em CSS e interações que decidi criar algum tempo atrás o <a href="https://raphaelfabeni.com/ui-interactions/">ui interactions</a>.</p>
+
+<p>A idéia era ser algo rápido e direto, tão simples quanto <em>copiar o código e sair usando</em>. Admito que o projeto está um pouco <em>empoeirado</em>, mas aos poucos e com novas idéias quero tentar voltar a atualizá-lo.</p>
+:ET

@@ -1,42 +1,28 @@
 ---
 layout: blog
-language: en
+type: archive
 ---
-
-{% assign englishPosts = site.posts | where: 'lang', 'en' | where: 'category', page.category %}
-<!-- {% assign portuguesePosts = site.posts | where: 'lang', 'pt-br' | where: 'category', page.category %} -->
-
 <header class="category-header">
-	<h1 class="category-header__title">{{ page.category }} posts</h1>
+	<figure class="category-header__icon">
+		<svg class="svg-icon" viewBox="0 0 20 20"><path fill="none" d="M18.208 2.958H8.875V1.792c0-.644-.522-1.167-1.167-1.167H1.875c-.644 0-1.167.522-1.167 1.167v16.333c0 .645.522 1.166 1.167 1.166h16.333c.645 0 1.167-.521 1.167-1.166v-14c0-.645-.522-1.167-1.167-1.167zm0 14.584a.583.583 0 01-.583.583H2.458a.582.582 0 01-.583-.583V6.458h16.333v11.084zm-.583-12.25H1.875V2.375c0-.323.261-.583.583-.583h4.667c.323 0 .583.261.583.583v1.75h9.917a.583.583 0 110 1.167z"/></svg>
+	</figure>
+	<h1 class="category-header__title">{{ page.title }} posts</h1>
 	{% include loop-category.html %}
 </header>
 
-{% if englishPosts.size > 0 %}
-	{% for post in englishPosts %}
-		<article class="post" data-post="en">
-			<h2 class="post__title">
-				<a class="post__link" href="{{ post.url }}">{{ post.title }}</a>
-			</h2>
-			<span class="post__category">{{ post.category }}</span>
-		</article>
+<sextion class="container container--full container--flex posts-container">
+{% assign hasPost = site.posts | where: 'lang', page.lang | where: 'category', page.category %}
+{% if hasPost.size > 0 %}
+	{% for post in site.categories[page.category] %}
+	{% if post.lang == page.lang %}
+		{% include block-post.html %}
+	{% endif %}  
 	{% endfor %}
 {% else %}
-	<div data-post="en">
-		<h2><small>Ops... no post found!</small></h2>
-	</div>
-{% endif %}
-
-<!-- {% if portuguesePosts.size > 0 %}
-	{% for post in portuguesePosts %}
-		<article class="post" data-post="en">
-			<h2 class="post__title">
-				<a class="post__link" href="{{ post.url }}">{{ post.title }}</a>
-			</h2>
-			<span class="post__category">{{ post.category }}</span>
-		</article>
-	{% endfor %}
-{% else %}
-	<div data-post="pt-br" hidden>
+	{% if page.lang == 'en' %}
+		<h2><small>Ops... no posts found!</small></h2>
+	{% else %}
 		<h2><small>Ops... nenhum post encontrado!</small></h2>
-	</div>
-{% endif %} -->
+	{% endif %}
+{% endif %}
+</sextion>

@@ -14,3 +14,7 @@
 	<link rel="alternate" hreflang="pt-br" href="{{ site.url }}{{ site.blog.pt-br }}" />
 	<link rel="alternate" hreflang="x-default" href="{{ site.url }}{{ site.blog.en }}" />
 {% endif %}
+{% if page.type == 'category' %}
+	<link rel="alternate" hreflang="en" href="{{ site.url }}{{ site.categories_list.en[page.category].permalink }}" />
+	<link rel="alternate" hreflang="pt-br" href="{{ site.url }}{{ site.categories_list.pt-br[page.category].permalink }}" />
+{% endif %}

@@ -1,0 +1,91 @@
+I"�<p>No <a href="/git-alterando-commits-parte-1/">post anterior</a>, vimos duas das coisas que são possíveis de se fazer com o <em>rebase</em> interativo:</p>
+
+<ul>
+  <li>alterar a ordem dos <em>commits</em>;</li>
+  <li>editar as mensagens.</li>
+</ul>
+
+<p>Nesse post vamos ver como mesclar dois <em>commits</em> em apenas um e, o processo inverso, de dividir um único <em>commit</em> em dois.</p>
+
+<h2 id="relembrando">Relembrando</h2>
+
+<p>Voltando ao exemplo do <a href="/git-alterando-commits-parte-1">post anterior</a> (recomendo que você leia, pra se atualizar com o fluxo), rodamos novamente o comando:</p>
+
+<script src="https://gist.github.com/677088afc36ee7fca209e725c6d3d3d5.js"> </script>
+
+<p>Após isso, caímos na tela abaixo:</p>
+
+<script src="https://gist.github.com/f8ad12e50462728e5cb9e85adc0bc250.js"> </script>
+
+<p>Até aqui nada de novo. Então vamos lá..</p>
+
+<h2 id="mesclando-commits">Mesclando <em>commits</em></h2>
+
+<p>Vamos mesclar os dois <em>commits</em> relacionados aos ajustes de CSS e JS do slideshow, que provavelmente mexeram coisas semelhantes (senão as mesmas coisas) e talvez tivesse mais sentido se ficassem juntos em apenas um <em>commit</em>.</p>
+
+<p>Para isso, digitamos <code class="highlighter-rouge">squash</code> em um <em>commit</em>. Fazendo isso o moço <em>git</em> entende que queremos mesclar esse <em>commit</em> marcado com o anterior (no caso, o de cima).</p>
+
+<script src="https://gist.github.com/c7b36e1f1afa44f89ded7fd2cffb3dfd.js"> </script>
+
+<p>Feito isso, caíremos numa tela que mostra as mensagens dos dois <em>commits</em>:</p>
+
+<script src="https://gist.github.com/b8fd1917b385e6d6d0f0e6da379ceb6c.js"> </script>
+
+<p>Agora é só apagarmos ou comentarmos as duas linhas de mensagens dos <em>commits</em> e inserirmos a nova mensagem:</p>
+
+<script src="https://gist.github.com/caf41b13d5fd7b44d64d108b26acc804.js"> </script>
+
+<p>E.. pronto! Agora se rodarmos um <em>log</em> dos commits, veremos algo similar a isso:</p>
+
+<script src="https://gist.github.com/6ede66fdabf8fb1cf0cd68d60c397aea.js"> </script>
+
+<h2 id="dividindo-um-commit">Dividindo um <em>commit</em></h2>
+
+<p>Sabe-se lá Deus por que, mas agora queremos reverter o processo anterior e dividir o <em>commit</em> que foi mesclado anteriormente (brincadeiras a parte, podemos fazer isso por exemplo, em <em>commit</em> que englobou muita alteração e que talvez pudéssemos querer dividir melhor o caminho que percorremos). Rodamos o <em>rebase</em>:</p>
+
+<script src="https://gist.github.com/0d4a974fb595ac86d7952788e99cf504.js"> </script>
+
+<p>Iremos cair nessa tela que já estamos acostumados, eaí trocamos o <em>pick</em> por <em>edit</em> no <em>commit</em> que quisermos editar.</p>
+
+<script src="https://gist.github.com/478b4c6e28f6fcd51dc6077a1dd154a1.js"> </script>
+
+<p>Saindo do modo de edição e continuando iremos chegar aqui:</p>
+
+<script src="https://gist.github.com/4bd75525f197eaffa66246fbd68e1f25.js"> </script>
+
+<p>Essa parte é legal. O que aconteceu aqui foi que o <em>rebase</em> parou no <em>commit</em> que especificamos. Temos agora três opções:</p>
+
+<ul>
+  <li><code class="highlighter-rouge">git commit --amend</code> =&gt; para editar o <em>commit</em> editando/adicionando um arquivo.</li>
+  <li><code class="highlighter-rouge">git rebase --continue</code> =&gt; para seguir em frente com o <em>rebase</em> e não fazer nada (use esse comando também após o anterior para continuar com o <em>rebase</em>).</li>
+  <li><code class="highlighter-rouge">git reset HEAD^</code> =&gt; Volta o <em>commit</em> em que estamos parados.</li>
+</ul>
+
+<p>Nesse ponto se rodarmos um <code class="highlighter-rouge">git status</code> veremos os arquivos que foram modificados nesse <em>commit</em> :</p>
+
+<script src="https://gist.github.com/d01f3892d76caa1de0db98ad7d73a377.js"> </script>
+
+<p>Agora podemos adicionar os arquivos e <em>commitar</em>. Aqui que teoricamente você faz a divisão dos <em>commits</em>. Para o nosso exemplo, poderíamos fazer algo assim:</p>
+
+<script src="https://gist.github.com/35a9c53385083edc504406a4e136d08f.js"> </script>
+
+<p>O que fizemos acima foi adicionar os arquivos por partes e fazer <em>commits</em>. Com tudo feito, é só continuarmos o <em>rebase</em>:</p>
+
+<script src="https://gist.github.com/1fabc06fb363a70685012dd0ff3332d9.js"> </script>
+
+<p>E… pronto! Se formos olhar o log, teríamos agora algo similar a isso:</p>
+
+<script src="https://gist.github.com/b66552be6fc0f2aad12ce622333e8f66.js"> </script>
+
+<h2 id="forçando-o-push">Forçando o push</h2>
+
+<p><a href="https://github.com/raphaelfabeni/raphaelfabeni.github.io/issues/9">Como bem lembrado</a> pelo <a href="https://github.com/ciceropablo">Cícero Pablo</a>, quando utilizamos o <em>rebase interativo</em>, caso você já tenha um repositório com uma <em>história de commits</em>, será preciso fazer <code class="highlighter-rouge">push</code> com a flag <code class="highlighter-rouge">--force</code>.</p>
+
+<p><strong>Obs</strong>.</p>
+
+<ul>
+  <li>Os nomes/estrutura dos arquivos e mensagens de <em>commit</em> são a títulos de exemplo.</li>
+  <li>Usei a palavra tela para referenciar cada retorno do terminal.</li>
+  <li>Uso por padrão como editor o <em>vim</em>, o que facilita a edição das <em>telas</em> que comentei no tópico anterior.</li>
+</ul>
+:ET

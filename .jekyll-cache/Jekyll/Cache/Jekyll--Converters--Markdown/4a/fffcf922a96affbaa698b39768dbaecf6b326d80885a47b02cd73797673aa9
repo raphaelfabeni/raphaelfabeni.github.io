@@ -1,0 +1,90 @@
+I"5<p>No último final de semana rolou em São José do Campos o <a href="http://www.frontinvale.com.br">Front in Vale</a> que é o primeiro evento focado em front-end do Vale do Paraíba e eu estive por lá falando <em>umas groselhas</em> sobre Cultura de Desenvolvimento.</p>
+
+<h2 id="o-evento">O evento</h2>
+
+<p>Particularmente o evento não deixou nada a desejar. Cheguei lá por volta das 8:30 da manhã, literalmente <em>varado</em> de fome, pois com receio de não me atrasar, acabei nem tomando café em São Paulo. Perguntei por uma padaria por perto e fui surpreendido pelo café do evento. <strong>\o/</strong> Um ponto que me surpreendeu, foi que o estacionamento do hotel que sediava o evento era <em>de graça</em>, coisa que dificilmente vemos aqui em São Paulo.</p>
+
+<p>O <em>timing</em> seguiu os horários propostos sem nenhum atraso; o que facilitou também foi a boa localização do hotel, já que havia um shopping literalmente em frente pra galera poder <em>rangar</em> na hora do almoço.</p>
+
+<h2 id="as-palestras">As palestras</h2>
+
+<h3 id="falando-um-pouco-sobre-cultura-de-desenvolvimento">Falando um pouco sobre Cultura de Desenvolvimento</h3>
+
+<p>Nascido de uma discussão de um <a href="https://sp.femug.com/">FEMUG</a>, a <a href="https://speakerdeck.com/raphaelfabeni/falando-sobre-cultura-de-desenvolvimento">talk</a> relaciona alguns conceitos relacionados à cultura de desenvolvimento e alguns itens praticados no dia a dia do time da Netshoes.</p>
+
+<figure class="text-center loading presentation">
+    <script async="" class="speakerdeck-embed" data-id="33f8bb34be314560b2e24737e1b6e5d5" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+</figure>
+
+<p><em><a href="https://speakerdeck.com/raphaelfabeni/falando-sobre-cultura-de-desenvolvimento">Link da palestra</a></em></p>
+
+<h3 id="dynamic-style-sheets">Dynamic Style Sheets</h3>
+
+<p>O <a href="https://twitter.com/_gui_souza">Guilherme Souza</a> mostrou nessa <a href="http://pt.slideshare.net/Guilherme5ouza/frontinvale">talk</a>, um pouco da sua trajetória e do seu novo projeto o DSS, que traz um poder gigante ao CSS (<a href="http://t.co/x2vUZH8ZJL">link de exemplo</a>).</p>
+
+<figure class="text-center loading presentation">
+    <iframe src="//pt.slideshare.net/slideshow/embed_code/key/2uog4PvRvvA0Qd" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen=""> </iframe>
+</figure>
+
+<p><em><a href="http://pt.slideshare.net/Guilherme5ouza/frontinvale">Link da palestra</a></em></p>
+
+<h3 id="material-design-lite">Material Design Lite</h3>
+
+<p>O <a href="https://twitter.com/nvasconcelos_">Nelson Vasconcelos</a>, que é um Google UI/UX expert, falou sobre o Material Design Lite. Ele passou por todos os pontos do projeto: desde a explição conceitual de cores, animações e tipografia até como podemos aplicá-lo na web.</p>
+
+<p><em>Aguardando link da talk</em></p>
+
+<h3 id="desenvolvimento-front-end-locaweb">Desenvolvimento Front-End Locaweb</h3>
+
+<p>Nessa <a href="http://deividmarques.github.io/palestra-frontinvale/#/">talk</a>, o <a href="https://twitter.com/deividmarques">Deivid Marques</a> mostrou um pouco do dia a dia e organização do time de front-end da Locaweb.</p>
+
+<figure class="text-center loading">
+    <iframe width="850" height="700" src="http://deividmarques.github.io/palestra-frontinvale/" frameborder="0" allowfullscreen=""></iframe>
+</figure>
+
+<p><em><a href="http://deividmarques.github.io/palestra-frontinvale/">Link da palestra</a></em></p>
+
+<h3 id="throttle--debounce-patterns-in-web-apps">Throttle &amp; Debounce Patterns in Web Apps</h3>
+
+<p>Essa <a href="https://speakerdeck.com/almirfilho/throttle-and-debounce-patterns-in-web-apps">palestra</a> é uma das melhores que já vi do <a href="https://twitter.com/almirfilho">Almir Filho</a> na minha opinião. Ele apresenta dois conceitos bem legais que nos ajudam a resolver alguns problemas de perfomance.</p>
+
+<figure class="text-center loading presentation">
+    <script async="" class="speakerdeck-embed" data-id="f3af8110f7580131223a568bbdf7fd4f" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+</figure>
+
+<p><em><a href="https://speakerdeck.com/almirfilho/throttle-and-debounce-patterns-in-web-apps">Link da palestra</a></em></p>
+
+<h3 id="angularjs-style-guide---melhorando-a-escalabilidade-legibilidade-e-pensando-no-futuro">AngularJS Style Guide - Melhorando a escalabilidade, legibilidade e pensando no futuro</h3>
+
+<p>O <a href="https://twitter.com/willian">Willian Fernandes</a> destrinchou uma estrutura que utilizou numa aplicação usando AngularJS e ES6 e mostrou como ela facilitou a manutenção/desenvolvimento e testes.</p>
+
+<figure class="text-center loading presentation">
+    <script async="" class="speakerdeck-embed" data-id="011909e4ffac469189676aab18f543bb" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
+</figure>
+
+<p><em><a href="https://speakerdeck.com/willian/angularjs-style-guide">Link da palestra</a></em></p>
+
+<h3 id="o-que-não-te-contaram-sobre-pré-processadores">O que não te contaram sobre pré-processadores</h3>
+
+<p>O grande <a href="https://twitter.com/eduardojmatos">Edu Matos</a> mostrou nessa <a href="https://speakerdeck.com/eduardojmatos/o-que-nao-te-contaram-sobre-pre-processadores">talk</a> como pré-processadores são ferramentas úteis mas que podem causar grandes danos senão forem usados com cuidado.</p>
+
+<figure class="text-center loading presentation">
+    <script async="" class="speakerdeck-embed" data-id="3c323f15fc2a4f989b21cd36d6c09132" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+</figure>
+
+<p><em><a href="https://speakerdeck.com/eduardojmatos/o-que-nao-te-contaram-sobre-pre-processadores">Link da palestra</a></em></p>
+
+<h3 id="grid-layout-e-flexbox-esqueça-o-float-e-seja-feliz">Grid Layout e Flexbox: esqueça o float e seja feliz</h3>
+
+<p>Essa era a talk que eu estava esperando pra ver. O mestre <a href="https://twitter.com/diegoeis">Diego Eis</a> mostrou como o <em>Grid Layout</em> vem (sabe-se lá quando) pra ajudar nossas vidas</p>
+
+<figure class="text-center loading presentation">
+    <iframe src="//pt.slideshare.net/slideshow/embed_code/key/usx7JlVmSOibdC" width="599" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen=""> </iframe>
+</figure>
+
+<p><em><a href="http://pt.slideshare.net/diegoeis/flexbox-to-the-people">Link da palestra</a></em></p>
+
+<h2 id="que-venha-o-próximo">Que venha o próximo…</h2>
+
+<p>Deixo aqui meu <strong>muito</strong> obrigado ao pessoal da organização em nome do <a href="https://twitter.com/palloi">Palloi</a> pelo convite. É isso galera! Nos vemos por aí! o/</p>
+:ET

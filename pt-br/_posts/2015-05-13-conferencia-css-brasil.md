@@ -7,7 +7,7 @@ date: 2015-05-13
 image: 'https://cloud.githubusercontent.com/assets/1345662/11458006/4663a796-969f-11e5-8b45-0dc215523de9.jpg'
 alt: 'Galera da primeira Confêrencia CSS Brasil'
 lang: pt-br
-category: 'conferences'
+category: 'conferencias'
 permalink: 'conferencia-css-brasil/'
 ref: 'conf-css-brasil'
 ---

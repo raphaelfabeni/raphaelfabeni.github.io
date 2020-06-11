@@ -7,7 +7,7 @@ date: 2014-11-04
 image: 'https://cloud.githubusercontent.com/assets/1345662/11458258/ad322016-96a3-11e5-85c0-80d05b95138a.jpg'
 alt: 'Raphael Fabeni durante evento Front in Sampa 2014'
 lang: pt-br
-category: 'conferences'
+category: 'conferencias'
 permalink: 'front-in-sampa-2014/'
 ref: 'front-in-sampa-2014'
 ---

@@ -7,7 +7,7 @@ date: 2014-09-22
 image: 'https://cloud.githubusercontent.com/assets/1345662/11458353/29f55cfc-96a5-11e5-9883-6858f60209f2.jpg'
 alt: 'Raphael Fabeni e os organizadores do evento Dev in Company'
 lang: pt-br
-category: 'conferences'
+category: 'conferencias'
 permalink: 'dev-in-company/'
 ref: 'dev-in-company'
 ---

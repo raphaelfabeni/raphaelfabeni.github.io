@@ -1,0 +1,17 @@
+I"Y<p>CSS3 já era coisa fina. Agora, na sua versão 4, ou melhor dizendo, em seu <em>nível 4</em>, como será dividido a partir de agora, tem muita coisa bacana. Uma delas é o seletor <code class="highlighter-rouge">:matches</code>.</p>
+
+<p>Com ele, podemos substituir por exemplo, uma marcação assim:</p>
+
+<script src="https://gist.github.com/a7b5fc0e8c7d2f5edb983b791adef64d.js"> </script>
+
+<p>Para algo assim:</p>
+
+<script src="https://gist.github.com/eb85105186b637f39141eb60db5d6593.js"> </script>
+
+<p>Ou seja, <code class="highlighter-rouge">atacamos</code> toda classe <code class="highlighter-rouge">highlight</code> que seja filha de uma <code class="highlighter-rouge">div</code> ou <code class="highlighter-rouge">footer</code>.</p>
+
+<p>Podemos ainda fazer da maneira inversa, como no exemplo abaixo: onde selecionamos todos elementos <code class="highlighter-rouge">p</code> que tenham a classe <code class="highlighter-rouge">success</code> ou que seja <code class="highlighter-rouge">":first-child</code>.</p>
+
+<script src="https://gist.github.com/5d1e3a873bec33562147be84f0eab917.js"> </script>
+
+:ET

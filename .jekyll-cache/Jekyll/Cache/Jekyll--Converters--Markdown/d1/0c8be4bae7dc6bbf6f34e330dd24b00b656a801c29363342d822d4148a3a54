@@ -1,0 +1,78 @@
+I"�%<p>Lembro como se fosse ontem: estava no TDC (<a href="http://www.thedevelopersconference.com.br/">The Developers Conference</a>) de 2014 (diga-se de passagem bem nervoso, pois era a primeira vez que iria palestrar em um evento de tal porte)quando encontrei o <a href="https://twitter.com/jeffprestes">Jeff Prestes</a> e o <a href="https://twitter.com/elvisdetona">Sérgio Nascimento</a>. Estávamos conversando a respeito do <a href="http://www.meetup.com/CSS-SP/">Meetup CSS</a> pois em questão de dias iria acontecer a <a href="https://github.com/raphaelfabeni/css-sp/blob/master/meetups/01.md">primeira edição</a> que foi patrocinada pelo <a href="https://twitter.com/paypal_br">PayPal</a>. Conversa vai, conversa vem e de repente surge a idéia: <em>“Quem sabe daqui um tempo, não teremos um evento só focado em CSS! Uma conferência CSS brasileira”</em>.</p>
+
+<p>Eu na hora imaginei o quão legal seria isso, mas estava tão nervoso pela palestra e tão ansioso pela dúvida de como seria a primeira edição do meetup de CSS que admito que a princípio não imaginei que pudesse acontecer. O primeiro encontro do meetup rolou e pra minha alegria o <em>feedback</em> foi bem positivo. Decidi então continuar a tocar o projeto da forma que conseguisse. O tempo foi passando e o projeto, pelo menos pra mim, foi ficando cada vez mais legal e tomando proporções cada vez maiores. <strong>o/</strong></p>
+
+<p>Lembro de uma vez que vieram falar comigo que os meetups eram pra poucas pessoas (geralmente entre 20 a 40/45 pessoas dependendo do local) e que devíamos fazer algo para mais gente, pensando por exemplo em um número próximo de 100 pessoas. Aí que as coisas começaram a ficar mais claras: as pessoas queriam participar de algo só de CSS a ponto até de se sentirem incomodadas de não conseguirem vaga nos meetups. Até que uns dias depois de me convidar pra palestrar no <a href="http://frontinsampa.com.br">Front in Sampa</a>, o Sérgio veio conversar comigo e com o <a href="http://twitter.com/lfeh">Fialho</a> sobre a possibilidade de juntarmos Meetup CSS e Front in Sampa e tentarmos fazer algo voltado para CSS. Por que não, certo?</p>
+
+<h2 id="os-preparativos">Os preparativos</h2>
+
+<p>Eu imaginei que daria trabalho, mas não imaginei que seria tanto. Fico pensando por exemplo como deve ser organizar um evento do tamanho da <a href="http://www.braziljs.com">BrazilJS</a>. <a href="https://twitter.com/danielfilho">Daniel</a>, <a href="https://twitter.com/jaydson">Jaydson</a> e <a href="https://twitter.com/felipenmoura">Felipe</a> estão de parabéns.</p>
+
+<p>Organizar uma conferência é <strong>bem</strong> diferente de organizar um meetup. Ambos são importantes, mas os pesos e proporções são bem diferentes. Sérgio e <a href="https://twitter.com/deividmarques">Deivid</a> que já tinham bagagem do Front in Sampa me ajudaram muito em várias pontos.</p>
+
+<p>É normal durante o percurso algumas pessoas reclamarem do valor do convite. Eu também já reclamei de achar algo caro, principalmente no Brasil (o Play 4 por exemplo). No entanto, quando você passa de participante para organizador, começa a entender os gastos necessários (que não são poucos) e faz as contas de um valor de ingresso que ajude a pagar o evento para que a organição não tenha que colocar dinheiro do próprio bolso. <em>Gastos? Quais?</em> Alguns poucos: <em>coffee break</em>, aluguel do espaço, infra estrutura, passagem e hotel dos palestrantes, credenciamento, material gráfico e por aí vai. A nossa idéia na conferência sempre foi que o evento se pagasse. Não era nossa idéia ganhar dinheiro com isso, e sim fazer algo bacana e que a própria comunidade já havia pedido.</p>
+
+<p>Conforme o tempo ia passando confesso que a ansiedade e preocupação ia aumentando. Minha vontade era de que tudo saísse como planejado e que não tivéssemos que correr atrás de nada na última hora. Se valeu a pena, acho que nem preciso dizer né?!</p>
+
+<h2 id="as-talks">As talks</h2>
+
+<p><strong>Zeh Fernandes</strong> - <em>Motions UI com CSS</em></p>
+
+<figure class="text-center loading presentation">
+    <script async="" class="speakerdeck-embed" data-id="b53ee0496acc41e8be44385562030a25" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+</figure>
+
+<p><strong>Eduardo Shiota</strong> - <em>Dominando a tipografia na web</em></p>
+
+<figure class="text-center loading presentation">
+    <iframe src="//www.slideshare.net/slideshow/embed_code/key/dkjCKyc19YNiqi" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen=""> </iframe>
+</figure>
+
+<p><strong>Eduardo Matos</strong> - <em>Testando seu CSS</em></p>
+
+<figure class="text-center loading presentation">
+    <iframe src="//pt.slideshare.net/slideshow/embed_code/key/Cr7H2PjVSEQBi5" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen=""> </iframe>
+</figure>
+
+<p><strong>Lourdes Montano</strong> - <em>CSS Preprocessors: SASS 101</em></p>
+
+<figure class="text-center loading">
+    <iframe src="//pt.slideshare.net/slideshow/embed_code/key/HeYgLY2h2WIur" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen=""> </iframe>
+</figure>
+
+<p><strong>Bernard de Luna</strong> - <em>The BGs</em></p>
+
+<figure class="text-center loading">
+    <iframe src="//www.slideshare.net/slideshow/embed_code/key/5fpvpvOOQF09kP" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen=""> </iframe>
+</figure>
+
+<p><strong>Almir Filho e Caio Gondim</strong> - <em>256 shades of R, G and B</em></p>
+
+<figure class="text-center loading presentation">
+    <script async="" class="speakerdeck-embed" data-id="de110b2e1ca443489b3350921915ae79" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
+</figure>
+
+<p><strong>Diego Eis</strong> - <em>Flexbox to the people</em></p>
+
+<figure class="text-center loading">
+    <iframe src="//www.slideshare.net/slideshow/embed_code/key/usx7JlVmSOibdC" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen=""> </iframe>
+</figure>
+
+<h2 id="muito-obrigado">Muito obrigado!</h2>
+
+<p>Um evento não acontece sozinho, e sim a partir da ajuda de outras pessoas e empresas e eu tenho muito a agradecer a uma <em>penca</em> de gente que ajudou a fazer a primeira Conferência CSS Brasil.</p>
+
+<ul>
+  <li>Ao pessoal da <a href="http://www.fastcommerce.com.br/">FastCommerce</a> em especial ao <a href="https://twitter.com/vhmendrone">Vitor</a> e a Patrícia Furlan que desde o início apoiou o Meetup CSS e embarcou junto na Conferência CSS.</li>
+  <li>Ao pessoal da <a href="http://www.matera.com/br/">Matera Systems</a> em especial para a Patricia que manteve contato conosco e nos surpreendeu com o seu empenho em ajudar a comunidade web.</li>
+  <li>Ao <a href="http://www.w3c.br/Home/WebHome">W3C Brasil</a> em nome da Selma e do <a href="https://twitter.com/reinaldoferraz">Reinaldo</a> pela força que nos deram na reta final dos preparativos.</li>
+  <li>Ao Daniel Filho que sempre me tirava umas dúvidas durante o dia de trabalho e que aceitou ser o apresentador do evento e nos ajudou muito.</li>
+  <li>Ao <a href="http://diogorodrigues.com.br/">Diogo Rodrigues</a> que nos ajudou com a parte gráfica e ficava nos aguentando com e-mails e mensagens até tarde da noite.</li>
+  <li>A galera do <a href="https://www.twitter.com/zofepod">ZOFE</a> que se propôs a fazer um episódio ao vivo no encerramento do evento.</li>
+  <li>A galera da Netshoes em especial ao <a href="https://twitter.com/rafaelrinaldi">Rinaldi</a>, <a href="https://twitter.com/_weslleyaraujo">Weslley</a>, <a href="https://twitter.com/omauriciosoares">Mauricio</a> e <a href="https://twitter.com/igorapa">Igor</a> que se propuseram a ajudar no que precisasse.</li>
+  <li>Aos palestrantes que aceitaram os convites e alguns que até saíram de <strong>bem longe</strong> e fizeram esforços em relação a horários para estarem na conferência. Valeu <a href="https://twitter.com/zehf">Zeh Fernandes</a>, <a href="https://twitter.com/bernarddeluna">Bernard</a>, <a href="https://twitter.com/almirfilho">Almir Filho</a>, <a href="https://twitter.com/caio_gondim">Caio Gondim</a>, <a href="https://twitter.com/diegoeis">Diego Eis</a>, <a href="https://twitter.com/shiota">Shiota</a>, <a href="https://twitter.com/eduardojmatos">Edu Matos</a>, <a href="https://twitter.com/loumontano">Lourdes Montano</a> e <a href="https://twitter.com/danielfilho">Daniel Filho</a>.</li>
+  <li>E claro, não podia deixar de citar a minha namorada, <a href="https://twitter.com/cristinamansur">Cristina Mansur</a> que desde o começo me incentivou e ajudou no que precisasse e que levou numa boa 300 pessoas me zuando por tirar foto com uma ganhadora dos prêmios sorteados no evento.</li>
+</ul>
+
+<p>Enfim, são muitos obrigados.. mas acho que o principal vai pra todo mundo que esteve presente lá e fez o evento acontecer. E os eventos continuam: esse ano ainda tem <a href="http://braziljs.com.br/">BrazilJS</a>, <a href="http://conferenciaweb.w3c.br/">Web.br</a> e é hora de retomar o Meetup CSS!</p>
+:ET

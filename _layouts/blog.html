@@ -14,8 +14,27 @@ layout: compress
 
   {% include header.html %}
 
-  <main role="main" id="content" class="container container--full container--flex">
-    {{ content }}
+  <main role="main" id="content" class="container container--full">
+    {% if page.type == 'blog' %}
+      <header class="category-header">
+        <figure class="category-header__icon">
+          <svg class="svg-icon" viewBox="0 0 20 20">
+            <path fill="none" d="M5.029 1.734h10.935a.575.575 0 000-1.151H5.029a.576.576 0 000 1.151zM1 5.188V19h18.417V5.188H1zm17.266 12.661H2.151V6.338h16.115v11.511zM2.727 4.036H17.69a.575.575 0 000-1.151H2.727a.575.575 0 100 1.151z"/>
+          </svg>
+        </figure>
+        <h1 class="category-header__title">Blog</h1>
+        {% include loop-category.html %}
+      </header>
+      <section class="container container--full container--flex  posts-container">
+        {% for post in site.posts %}
+          {% if post.lang == page.lang %}
+            {% include block-post.html %}
+            {% endif %}
+        {% endfor %}
+      </section>
+    {% else %}
+      {{ content }}
+    {% endif %}
   </main>
 
   {% include scripts.html %}

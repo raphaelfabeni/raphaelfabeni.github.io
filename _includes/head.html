@@ -1,9 +1,7 @@
 <head>
 		<meta charset="utf-8">
-		{% if page.type == 'Post' %}
+		{% if page.type == 'Post' or page.type == 'category' %}
 			<title>{{ page.title }} - Blog | Raphael Fabeni</title>
-		{% elsif page.layout == 'category' %}
-			<title>{{ page.category }} - Blog | Raphael Fabeni</title>
 		{% elsif page.layout == 'blog' %}
 			<title>Blog | Raphael Fabeni</title>
 		{% else %}
@@ -12,10 +10,6 @@
 
 		{% include alternate.html %}
 
-		{% if page.layout == 'category' %}
-			<meta name="robots" content="noindex">
-		{% endif %}
-
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" />
 
@@ -23,7 +17,9 @@
 		<meta property="fb:app_id" content="588516207935765" />
 		<meta property="fb:admins" content="100000808831074" />
 		<meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" />
-		<meta property="og:title" content="{{ page.title }}{% if page.path contains '_posts' %} - Blog | Raphael Fabeni{% endif %}" />
+		<meta property="og:title" content="{{ page.title }}
+			{% if page.path contains '_posts' or page.type == 'blog' or page.type == 'category'  %} - Blog | Raphael Fabeni{% endif %}"
+		/>
 		<meta property="og:site_name" content="Raphael Fabeni" />
 		<meta property="og:url" content="{{ site.url }}{{ page.url }}" />
 		<meta property="og:type" content="{% if page.path contains '_posts' %}article{% else %}website{% endif %}" />
@@ -42,7 +38,7 @@
 		<meta name="twitter:creator" content="@raphaelfabeni">
 		<meta name="twitter:site" content="@raphaelfabeni">
 		<meta name="twitter:domain" content="{{ site.url }}">
-		<meta name="twitter:title" content="{{ page.title }}{% if page.path contains '_posts' %} - Blog | Raphael Fabeni{% endif %}">
+		<meta name="twitter:title" content="{{ page.title }}{% if page.path contains '_posts' or page.type == 'blog' or page.type == 'category'  %} - Blog | Raphael Fabeni{% endif %}">
 		<meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
 
 		<link rel="canonical" href="{{ site.url }}{{ page.url }}">

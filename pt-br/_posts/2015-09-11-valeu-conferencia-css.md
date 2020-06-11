@@ -7,7 +7,7 @@ date: 2015-09-11
 image: "https://cloud.githubusercontent.com/assets/1345662/9822466/013fcdc0-5897-11e5-9f00-6fab4f57a40e.jpg"
 alt: "Surfista caminhando em uma praia segurando uma prancha com o por do sol ao fundo"
 lang: pt-br
-category: 'conferences'
+category: 'conferencias'
 permalink: 'valeu-conferencia-css-brasil/'
 ref: 'valeu-conf-css-brasil'
 ---

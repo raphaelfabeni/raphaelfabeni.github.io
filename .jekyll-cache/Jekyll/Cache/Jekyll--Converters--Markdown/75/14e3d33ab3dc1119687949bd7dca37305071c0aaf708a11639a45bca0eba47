@@ -1,0 +1,101 @@
+I"[<p>Há algum tempo atrás escrevi umas groselhas sobre <em>Jasmine</em>, mais uma introdução sobre o <em>framework</em> e como escrever testes era algo intuitivo e fácil. Se você tem interesse, o post é o: <a href="/brincando-com-jasmine">Brincando com Jasmine</a>.</p>
+
+<p>Uma parte legal do <em>Jasmine</em> e que adianta muito o nosso lado são os <em>matchers</em>: de um modo resumido e direto, um <em>matcher</em> implementa uma comparação <em>booleana</em> entre o valor atual e o valor esperado. É responsável em passar para o <em>Jasmine</em> se o que <em>esperamos</em> através do nosso teste é <em>verdadeiro</em> ou falso. Com base nisso, o <em>Jasmine</em> vai passar ou falhar a <em>spec</em>.</p>
+
+<h2 id="toequal"><code class="highlighter-rouge">toEqual</code></h2>
+
+<p>Esse talvez seja o mais básico e um dos que mais iremos usar. Simplemente verifica se duas coisas são iguais (e não necessariamente o mesmo objeto). Por exemplo, as seguintes <em>expects</em> iriam passar:</p>
+
+<script src="https://gist.github.com/0ed590603db82693056f13ee8a4dc1d8.js"> </script>
+
+<p>Da mesma forma, as seguintes iriam falhar:</p>
+
+<script src="https://gist.github.com/2062c35a23d77460f96e08b749f25a69.js"> </script>
+
+<h2 id="tobe"><code class="highlighter-rouge">toBe</code></h2>
+
+<p>O <em>matcher</em> <code class="highlighter-rouge">toBe</code> a princípio parece ser igual ao anterior <em>toEqual</em>. A diferença é que <code class="highlighter-rouge">toBe</code> verifica não só se os dois valores são iguais, mas também como se eles são do mesmo objeto.</p>
+
+<p>Pra podermos ver a diferença entre os dois:</p>
+
+<script src="https://gist.github.com/fdd87cbc383c2de7148857bb666b283d.js"> </script>
+
+<p>Apesar de <em>bob</em> e <em>john</em> serem similares, eles não são o mesmo objeto, o que faz a <em>spec</em> passar se for usado o <em>matcher</em> <code class="highlighter-rouge">toEqual</code> mas falha se for usado o <em>matcher</em> <code class="highlighter-rouge">toBe</code>. O mesmo acontece para arrays:</p>
+
+<script src="https://gist.github.com/7bfb7f562da2ad4d3765a33ad1ee771f.js"> </script>
+
+<h2 id="tobetruthy-e-tobefalsy"><code class="highlighter-rouge">toBeTruthy</code> e <code class="highlighter-rouge">toBeFalsy</code></h2>
+
+<p>Para testar se algum valor é avaliado commo <em>true</em> ou <em>false</em>, podemos usar respectivamente os <em>matchers</em> <code class="highlighter-rouge">toBeTruthy</code> e <code class="highlighter-rouge">toBeFalsy</code>:</p>
+
+<script src="https://gist.github.com/df8a309583c544ee08aa0b5400a0b495.js"> </script>
+
+<p>Se pararmos pra olhar com calma o exemplo anterior podemos notar que a avaliação dos <em>matchers</em> <code class="highlighter-rouge">toBeTruthy</code> e <code class="highlighter-rouge">toBeFalsy</code> é idêntica ao <em>JavaScript</em>. Então temos alguns valores específicos que são considerados <em>falsy</em> e todo o restante é avaliado como <em>truthy</em>. Pra nossa referência, uma lista dos valores que são avaliados como <em>falsy</em> pelo <em>Jasmine</em>:</p>
+
+<ul>
+  <li><code class="highlighter-rouge">false</code></li>
+  <li><code class="highlighter-rouge">0</code></li>
+  <li><code class="highlighter-rouge">""</code></li>
+  <li><code class="highlighter-rouge">undefined</code></li>
+  <li><code class="highlighter-rouge">null</code></li>
+  <li><code class="highlighter-rouge">NaN</code></li>
+</ul>
+
+<h2 id="not"><code class="highlighter-rouge">not</code></h2>
+
+<p>Muitas vezes podemos inverter um <em>matcher</em> pra termos certeza de que ele não é um valor <code class="highlighter-rouge">true</code>. Podemos fazer isso facilmente adicionando o prefixo <code class="highlighter-rouge">.not</code>:</p>
+
+<script src="https://gist.github.com/31b988ec613c51afccc5329d0d8a4735.js"> </script>
+
+<h2 id="tocontain"><code class="highlighter-rouge">toContain</code></h2>
+
+<p>Conseguimos também verificar se um elemento <em>está contido</em> em um <em>array</em> ou <em>string</em> por exemplo, como o <em>matcher</em> <code class="highlighter-rouge">toContain</code>.</p>
+
+<script src="https://gist.github.com/d2af91591cbba1cdbfe6cd83f71b4f2f.js"> </script>
+
+<h2 id="tobedefined-e-tobeundefined"><code class="highlighter-rouge">toBeDefined</code> e <code class="highlighter-rouge">toBeUndefined</code></h2>
+
+<p>Da mesma maneira que vimos os <em>matchers</em> <code class="highlighter-rouge">toBeTruthy</code> e <code class="highlighter-rouge">toBeFalsy</code>, <em>Jasmine</em> também nos oferece os benditos <code class="highlighter-rouge">toBeDefined</code> e <code class="highlighter-rouge">toBeUndefined</code> que verificam se um valor é <code class="highlighter-rouge">defined</code> ou <code class="highlighter-rouge">undefined</code>.</p>
+
+<script src="https://gist.github.com/9e01001b8aaa88493b9f2d8cf15a899b.js"> </script>
+
+<h2 id="tobenull"><code class="highlighter-rouge">toBeNull</code></h2>
+
+<p>Direto ao ponto, esse brother simplesmente avalia se um valor é <code class="highlighter-rouge">null</code>:</p>
+
+<script src="https://gist.github.com/40cd8f155fceb59aa91db997f20ab0da.js"> </script>
+
+<h2 id="tobenan"><code class="highlighter-rouge">toBeNaN</code></h2>
+
+<p>Sem muitas delongas, esse <em>matcher</em> verifica se um valor é <code class="highlighter-rouge">NaN</code>:</p>
+
+<script src="https://gist.github.com/d63e167ca15f2ea60730b83f5ef92cf5.js"> </script>
+
+<h2 id="tobegreatherthan-e-tobelessthan"><code class="highlighter-rouge">toBeGreatherThan</code> e <code class="highlighter-rouge">toBeLessThan</code></h2>
+
+<p>Esses dois <em>matchers</em> verificam se um valor é maior ou menor que um outro valor passado.</p>
+
+<script src="https://gist.github.com/8172467bb0a3b7b7f3b1d15221f8bd3f.js"> </script>
+
+<h2 id="tobecloseto"><code class="highlighter-rouge">toBeCloseTo</code></h2>
+
+<p>Esse <em>matcher</em> permite que possamos verificar se um certo número está próximo de um outro número, dado uma certa precisão decimal como segundo argumento. Poderíamos por exemplo, verificar se um número é próximo de <code class="highlighter-rouge">25.23</code> com um ponto decimal, poderíamos fazer algo assim:</p>
+
+<script src="https://gist.github.com/10b010faa42859dee0a9812f3bdcd12e.js"> </script>
+
+<h2 id="tomatch"><code class="highlighter-rouge">toMatch</code></h2>
+
+<p>Esse cara verifica se algum valor está de acordo com base em uma expressão regular.</p>
+
+<script src="https://gist.github.com/e254fcabfe1a49f7788dfc99aefebc79.js"> </script>
+
+<h2 id="tothrow"><code class="highlighter-rouge">toThrow</code></h2>
+
+<p>Esse <em>matcher</em> permite que verifiquemos se uma função lançou um erro. Como exemplo, vamos imaginar que temos uma função <code class="highlighter-rouge">onlyNumbers</code> que deve <em>lançar uma exceção</em> caso o argumento passado seja uma <em>string</em> e não um número. Podemos usar aqui uma <em>função anônima</em> para nos facilitar a vida:</p>
+
+<script src="https://gist.github.com/c542efc7c428aa10694286e4e0efa704.js"> </script>
+
+<h2 id="ufa">Ufa…</h2>
+
+<p>Deu pra ver que o <em>framework</em> nos oferece um monte de opção para utilizarmos em nossos testes. É ainda é possível fazer nossos <em>matchers</em> customizados, mas vou deixar isso para um próximo post. Se você se interessar mais pelo assunto, recomendo o livro <a href="http://shop.oreilly.com/product/0636920028277.do">JavaScript Testing with Jasmine</a> que inclusive li recentemente e tive a idéia de escrever o post.</p>
+:ET

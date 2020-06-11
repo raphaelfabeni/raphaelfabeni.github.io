@@ -1,0 +1,40 @@
+I"O<p>Scrolling effects always have been more related to touch devices, however, lately, many projects have used this feature,</p>
+
+<p>The solution to apply this effect, generally it was like a jQuery plugin or something similar and the basic idea was to divide the content into different areas which the user cold <em>scroll</em> into them, or <em>click</em> in some button and the page was responsible make the <em>scroll</em> automatic.</p>
+
+<p>So, the CSS guy says: “Take it easy boys! I’m comming with good news and we could do it only with CSS.</p>
+
+<h2 id="css-scroll-snap">CSS Scroll Snap</h2>
+
+<p>Basically we can control the behavior of a content inside of a <em>scroll container</em> setting snaps in x and y axis. With these <em>snaps</em>, the <em>wrapper</em> will jump to each of these snaps after the user has made the <em>scroll</em> action. It’s something like: <em>when the user once, go to this snap! After go to next snap.. and goes on…</em></p>
+
+<h2 id="stop-talking">Stop talking…</h2>
+
+<p>Let’s write a little bit and check this beautiful thing. But, first I’ll need to alert you that currently the <a href="http://caniuse.com/#feat=css-snappoints">support according Can I Use</a> is not so good, so I recommend the Firefox.</p>
+
+<p>Basically what we are going to do is: create a wrapper element that will hold the content and we set some properties like <code class="highlighter-rouge">overflow</code>, <code class="highlighter-rouge">width</code> e <code class="highlighter-rouge">height</code>. The magic happens here:</p>
+
+<ul>
+  <li><code class="highlighter-rouge">scroll-snap-type</code> =&gt; here we set that we will use the <em>snap points</em>.</li>
+  <li><code class="highlighter-rouge">scroll-snap-points-x</code> or <code class="highlighter-rouge">scroll-snap-points-y</code> =&gt; here we set the <em>snap points</em> on the x or y axis.</li>
+  <li><code class="highlighter-rouge">repeat(value)</code> =&gt; we set this for the last property above, to repeat the <em>snap points</em> in each <em>value</em>.</li>
+</ul>
+
+<p>So, with that, we can create some stuffs like that:</p>
+
+<p data-height="483" data-theme-id="4240" data-slug-hash="zvEdRy" data-default-tab="result" data-user="raphaelfabeni" class="codepen">See the Pen <a href="http://codepen.io/raphaelfabeni/pen/zvEdRy/">CSS Snap Points</a> by Raphael Fabeni (<a href="http://codepen.io/raphaelfabeni">@raphaelfabeni</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+
+<p data-height="434" data-theme-id="4240" data-slug-hash="RWLZBa" data-default-tab="result" data-user="raphaelfabeni" class="codepen">See the Pen <a href="http://codepen.io/raphaelfabeni/pen/RWLZBa/">CSS Snap Points</a> by Raphael Fabeni (<a href="http://codepen.io/raphaelfabeni">@raphaelfabeni</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+
+<p>Some references and links:</p>
+
+<ul>
+  <li><a href="http://blog.gospodarets.com/css-scroll-snap/">Sergey Gospodarets - Native CSS Scrol Snap</a></li>
+  <li><a href="http://blog.teamtreehouse.com/css-scroll-snap-points">treehouse -Thinking Ahead: CSS Scroll Snap Points</a></li>
+</ul>
+
+<p>Do you like it? Did I write something stupid? Do you want to improve? Open an <a href="https://github.com/raphaelfabeni/raphaelfabeni.github.io/issues">issue</a> mentioning the post and let’s talk about it.</p>
+
+<script async="" src="//assets.codepen.io/assets/embed/ei.js"></script>
+
+:ET

@@ -32,6 +32,7 @@ blog:
 collections:
   category:
     output: true
+    permalink: /:title/
 gist:
   noscript: false
 compress_html:
@@ -43,3 +44,71 @@ compress_html:
   blanklines: false
   profile: false
   startings: []
+dictionary:
+  en:
+    all_categories: 'All'
+  pt-br:
+    all_categories: 'Tudo'
+categories_list:
+  en:
+    css:
+      title: "CSS"
+      permalink: /en/css/
+    js:
+      title: "JavaScript"
+      permalink: /en/javascript/
+    git:
+      title: "Git"
+      permalink: /en/git/
+    html:
+      title: "HTML"
+      permalink: /en/html/
+    dev-life:
+      title: "Dev Life"
+      permalink: /en/dev-life/
+    user-experience:
+      title: "User Experience"
+      permalink: /en/user-experience/
+    wordpress:
+      title: "WordPress"
+      permalink: /en/wordpress/
+    conferences:
+      title: "Conferences"
+      permalink: /en/conferences/
+    community:
+      title: "Community"
+      permalink: /en/community/
+    projects:
+      title: "Projects"
+      permalink: /en/projects/
+  pt-br:
+    css:
+      title: "CSS"
+      permalink: /pt-br/css/
+    js:
+      title: "JavaScript"
+      permalink: /pt-br/javascript/
+    git:
+      title: "Git"
+      permalink: /pt-br/git/
+    html:
+      title: "HTML"
+      permalink: /pt-br/html/
+    dev-life:
+      title: "Dev Life"
+      permalink: /pt-br/dev-life/
+    user-experience:
+      title: "User Experience"
+      permalink: /pt-br/user-experience/
+    wordpress:
+      title: "WordPress"
+      permalink: /pt-br/wordpress/
+    conferencias:
+      title: "Conferências"
+      permalink: /pt-br/conferencias/
+    comunidade:
+      title: "Comunidade"
+      permalink: /pt-br/comunidade/
+    projetos:
+      title: "Projetos"
+      permalink: /pt-br/projetos/

@@ -1,0 +1,67 @@
+I"�<p>Variáveis no <strong>CSS</strong>? Em um futuro não muito distante (ou talvez sim) poderemos usar nossas variáveis muito doidas diretamente no CSS, mas enquanto o sol não raia pra nós, conseguimos simular esse recurso através de pré-processadores. Pra mim, o uso de variáveis são umas das principais e, acho que uma das poucas, <em>features</em> que uso dos pré-processadores, mas isso foge um pouco do assunto do post (boa idéia para um próximo).</p>
+
+<h2 id="variáveis-são-legais">Variáveis são legais</h2>
+
+<p>Se você está acostumado a utilizar um <em>Sass</em> ou <em>LESS</em> da vida, sabe o quão legal e útil pode ser utilizar variáveis quando falamos de estilo. Uma coisa útil é que variáveis nos ajudam a evitar repetições e nos auxiliam e muito principalmente em projetos grandes onde a possibilidade, de por exemplo, ter uma repetição de uma cor específica é bem grande.</p>
+
+<p>Um bom caso de aplicação de variáveis é na questão de temas ou variações de um componente ou até de um projeto inteiro. Criar e gerenciar esquemas de cores com variáveis fica bem mais fácil: podemos criar por exemplo, uma variável chamada <code class="highlighter-rouge">main-color</code> e declarar a cor <code class="highlighter-rouge">red</code> pra ela. Assim, se em uma manutenção futura, precisarmos mudar essa cor, alteramos apenas na declaração da variável e não em todos os casos onde ela é utilizada. Claro que tudo depende de como estruturamos a <em>coisa toda</em>, pois uma pequena alteração de cor pode te dar alguns problemas.</p>
+
+<h2 id="o-tal-do-currentcolor">O tal do <code class="highlighter-rouge">currentColor</code></h2>
+
+<p>O danado do <code class="highlighter-rouge">currentColor</code> funciona semelhante a uma variável salvo duas exceções: só podemos utilizá-lo onde um valor de cor é esperado e, diferente de uma variável comum, não podemos <code class="highlighter-rouge">setar</code> o seu valor, e sim, isso é herdado do valor atual da propriedade <code class="highlighter-rouge">color</code> que está sendo usado no elemento e claro, seguindo a cascata. Ficou confuso? Eu também! Vamos lá!</p>
+
+<p>Vamos supor que tenhamos o seguinte:</p>
+
+<script src="https://gist.github.com/592a1767afdc5d1f510f7a2b176e06e0.js"> </script>
+
+<p>No exemplo acima, simplesmente definimos uma cor verde para o <code class="highlighter-rouge">body</code> e a utilizamos nos elementos <code class="highlighter-rouge">div</code> através dos caras <code class="highlighter-rouge">currentColor</code>. <em>Mas Fabeni, tu tá me enrolando! Eu não precisava do <code class="highlighter-rouge">currentColor</code> aí!</em> Exatamente, não precisava. Se voltarmos para o exemplo, chegaríamos no mesmo resultado apenas assim:</p>
+
+<script src="https://gist.github.com/878fc4f38de0f5eb81b1d7678c08a360.js"> </script>
+
+<p>Algumas propriedades herdam o valor da propriedade <code class="highlighter-rouge">color</code> do elemento ou caso essa não tenha sido setada, seguem a cascata, até achar da onde vão herdar esse valor. Algumas dessas propriedades são:</p>
+
+<ul>
+  <li>o elemento texto em si;</li>
+  <li>a borda do elemento;</li>
+  <li>o <code class="highlighter-rouge">outline</code>;</li>
+  <li><code class="highlighter-rouge">box-shadow</code>;</li>
+  <li><em>bullets</em> de uma lista.</li>
+</ul>
+
+<p>No exemplo abaixo, é possível ver que alterando a cor do <code class="highlighter-rouge">body</code>, todos os elementos que herdam essa cor, sofrem modificação de estilo.</p>
+
+<figure class="text-center loading">
+    <p data-height="360" data-theme-id="4240" data-slug-hash="vOWKVm" data-default-tab="result" data-user="raphaelfabeni" class="codepen">See the Pen <a href="http://codepen.io/raphaelfabeni/pen/vOWKVm/">Color inherited</a> by Raphael Fabeni (<a href="http://codepen.io/raphaelfabeni">@raphaelfabeni</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+</figure>
+
+<p>Mas então, você deve estar perguntando: qual a real utilidade disso, certo? Agora que as coisas começam a ficar legais e, dependendo da sua criatividade e organição dá pra fazer algumas coisas bem bacanas.</p>
+
+<p>É possível usar por exemplo em animações, svg, gradientes.. e por aí vai. Fuçando pela <em>interwebs</em> da vida, achei esse <a href="http://codepen.io/scottkellum/pen/Fhxql">exemplo que, através de uma animação, altera a cor do elemento <code class="highlighter-rouge">body</code>, mudando assim o <code class="highlighter-rouge">currentColor</code> usado em outro elemento</a>.</p>
+
+<p>Brincando um pouco, montei esse exemplo rápido, onde o <code class="highlighter-rouge">currentColor</code> é aplicado no <code class="highlighter-rouge">:after</code> do elemento.</p>
+
+<figure class="text-center loading">
+    <p data-height="300" data-theme-id="4240" data-slug-hash="aOVERw" data-default-tab="result" data-user="raphaelfabeni" class="codepen">See the Pen <a href="http://codepen.io/raphaelfabeni/pen/aOVERw/">Simple buttons using currentColor</a> by Raphael Fabeni (<a href="http://codepen.io/raphaelfabeni">@raphaelfabeni</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+</figure>
+
+<p>A idéia para formar o triângulo é criar uma borda geral transparente e setar apenas o lado que você quer com o <code class="highlighter-rouge">currentColor</code>, formando assim o triângulo. Uma outra abordagem e, que chegaria no mesmo resultado seria fazer o processo inverso: setar uma borda geral com cor (no caso nem precisaria do <code class="highlighter-rouge">currentColor</code> pois ele herdaria a cor da propriedade <code class="highlighter-rouge">color</code>) e depois disso, tirar a borda dos lados que você não queira. Algo mais ou menos assim:</p>
+
+<script src="https://gist.github.com/eb1d42bc7404811f8cc451d0c6bbdbe2.js"> </script>
+
+<h3 id="outros-usos">Outros usos</h3>
+
+<p>É possível usar nosso camarada em SVGs. Fiz um exemplo rápido (abaixo) onde o SVG herda a cor da propriedade color do elemento pai (a classe <code class="highlighter-rouge">.alert</code>).</p>
+
+<figure class="text-center loading">
+  <p data-height="300" data-theme-id="4240" data-slug-hash="rVJVOM" data-default-tab="result" data-user="raphaelfabeni" class="codepen">See the Pen <a href="http://codepen.io/raphaelfabeni/pen/rVJVOM/">CSS currentColor in SVG</a> by Raphael Fabeni (<a href="http://codepen.io/raphaelfabeni">@raphaelfabeni</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+</figure>
+
+<p>Só isso? Basicamente sim e não. Aqui que entra a nossa criativade e organização em tirar proveito do que o <code class="highlighter-rouge">currentColor</code> nos oferece.</p>
+
+<h2 id="mas-eaí-dá-pra-usar">Mas eaí.. dá pra usar?</h2>
+
+<p>O suporte é bem melhor do que eu imaginava.. IE9, Chrome, Firefox, Safari e por aí vai. Existe um pequeno <a href="http://stackoverflow.com/questions/29400291/currentcolor-seems-to-get-stuck-in-safari"><em>bug</em> bem pontual, para Safari e iOS Safari 8</a> quando aplicado em <code class="highlighter-rouge">:after</code> e <code class="highlighter-rouge">:before</code>. <a href="http://caniuse.com/#feat=currentcolor">Dá pra ver mais informações no site do Can I Use</a>.</p>
+
+<script async="" src="//assets.codepen.io/assets/embed/ei.js"></script>
+
+:ET

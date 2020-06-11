@@ -8,7 +8,7 @@ category: projects
 date: 2020-05-14 04:00:00 +0000
 image: https://user-images.githubusercontent.com/1345662/81883462-4c24c300-9563-11ea-868b-6e74bc3638b9.png
 alt: UI interactions project screenshout
-permalink: ui-interactions-project
+permalink: ui-interactions-project/
 ref: ui-interactions
 
 ---

@@ -7,7 +7,7 @@ date: 2015-02-27
 image: 'https://cloud.githubusercontent.com/assets/1345662/11458128/0cfacf50-96a1-11e5-857b-54d3ca621ba1.jpg'
 alt: 'Galera que palestrou no 7Masters - Diego Eis, Hugo Bessa, Rafael Lyra, Deivid Marques, Raphael Fabeni, Rafael Rinaldi e Bernard de Luna'
 lang: pt-br
-category: 'conferences'
+category: 'conferencias'
 permalink: '7-masters-css/'
 ref: '7-masters-css'
 ---

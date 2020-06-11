@@ -6,7 +6,7 @@ type: Post
 image: 'https://user-images.githubusercontent.com/1345662/41825701-7f494e92-77f9-11e8-9d96-2863c03514f1.jpg'
 alt: 'Imagem de uma pessoa de costas fazendo exercício na academia.'
 lang: pt-br
-category: 'life'
+category: 'dev-life'
 permalink: 'cuide-de-sua-saude/'
 ref: 'cuide-saude'
 ---

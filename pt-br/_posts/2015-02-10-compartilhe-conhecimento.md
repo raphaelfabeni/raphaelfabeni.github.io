@@ -6,7 +6,7 @@ type: Post
 image: 'https://cloud.githubusercontent.com/assets/1345662/11458135/66aaaade-96a1-11e5-9398-6f3e9a24f46c.jpg'
 alt: 'Alunos em uma sala de aula antiga estudando'
 lang: pt-br
-category: 'community'
+category: 'comunidade'
 permalink: 'compartilhe-conhecimento/'
 ref: 'share-knowledge'
 ---

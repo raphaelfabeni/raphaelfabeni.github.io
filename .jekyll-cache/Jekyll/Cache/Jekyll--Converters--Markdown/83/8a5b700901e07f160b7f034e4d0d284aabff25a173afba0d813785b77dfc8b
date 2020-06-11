@@ -1,0 +1,38 @@
+I"�
+<p>A possibilidade de armazenar valores em variáveis foi um dos pontos principais pontos dentre outros, na minha opinião, para o crescimento da adoção dos pré processadores. E se pudéssemos armazenar seletores? Sim, vou chorar. ʘ‿ʘ</p>
+
+<p>É possível fazermos algo assim:</p>
+
+<script src="https://gist.github.com/65ca91a81b95c884fabcc80a62704051.js"> </script>
+
+<p>O que fizemos acima foi armazenar todos os elementos <code class="highlighter-rouge">button</code> e <code class="highlighter-rouge">input[type="submit"]</code> e também com a classe <code class="highlighter-rouge">btn</code> em <code class="highlighter-rouge">:--button</code>. Feito isso, declaramos as regras de estilo direto em <code class="highlighter-rouge">:--button</code>.</p>
+
+<p>Com base nisso, podemos brincar um pouco mais e fazermos algo do tipo:</p>
+
+<script src="https://gist.github.com/a2e1df1af8383bd1b1b600aef619ecd4.js"> </script>
+
+<p>```</p>
+
+<p>O que fizemos na brincadeira acima foi:</p>
+
+<ul>
+  <li>Armazenar os estados <code class="highlighter-rouge">:hover</code>, <code class="highlighter-rouge">:focus</code> e os elementos com classe <code class="highlighter-rouge">is-hover</code> em <code class="highlighter-rouge">:--enter</code>.</li>
+  <li>Armazenar o estados <code class="highlighter-rouge">:active</code> e os elementos com a classe <code class="highlighter-rouge">.is-active</code> em <code class="highlighter-rouge">:--active</code>.</li>
+  <li>Juntamos <em>tudão</em>: tudo que haviámos armazenado em <code class="highlighter-rouge">:--button</code> com <code class="highlighter-rouge">:--enter</code> e <code class="highlighter-rouge">:--active</code>.</li>
+</ul>
+
+<p>Podíamos também chegar no mesmo resultado usando o nosso amigo <a href="/css-4-seletor-matches/">matches</a>:</p>
+
+<script src="https://gist.github.com/dc6c59ae5d85caf6d1f23543c3dbd484.js"> </script>
+
+<p>A diferença, apontada pelo meu amigo <a href="https://twitter.com/rafaelrinaldi">Rafael Rinaldi</a> é que o grande <code class="highlighter-rouge">custom selectors</code> é uma opção de <em>preset</em> se comparado com o <code class="highlighter-rouge">matches</code>, o que o deixa mais fácil de reutilizar.</p>
+
+<figure class="text-center loading">
+  <p data-height="145" data-theme-id="4240" data-slug-hash="eZzjVw" data-default-tab="result" data-user="raphaelfabeni" class="codepen">See the Pen <a href="http://codepen.io/raphaelfabeni/pen/eZzjVw/">:not selector</a> by Raphael Fabeni (<a href="http://codepen.io/raphaelfabeni">@raphaelfabeni</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+</figure>
+
+<p><a href="http://codepen.io/raphaelfabeni/pen/eZzjVw">Aqui</a> é possível ver um exemplo com os códigos acima.</p>
+
+<script async="" src="//assets.codepen.io/assets/embed/ei.js"></script>
+
+:ET

@@ -1,0 +1,40 @@
+I"�<p>Semana passada rolou o primeiro meetup de CSS SP. Há algum tempo atrás o <a href="https://twitter.com/lfeh">Felipe Fialho</a> teve a idéia e entrei no barco para ajudar na organização. Não sabíamos o alcance e nem se teria adesão um meetup de CSS mas resolvemos arriscar.</p>
+
+<p>Criamos o grupo no site do meetup e começamos a divulgar. No começo, confesso que a entrada da galera foi meio tímida e por um momento pensei que não daria certo. <strong>Ainda bem</strong> que estava errado. De repente, começou a aparecer gente e mais gente. Decidimos então que era hora de procurar o local para o primeiro evento.</p>
+
+<p>Queríamos um lugar legal e que pudesse comportar um número um pouco maior de pessoas, até pelo fato de ser o Meetup de abertura. Alguns dias depois, apareceu a Digital Garden, uma agência que fica ali na Vila Madalena. O Fialho cravou a data em 08 de agosto com o pessoal da agência e estava marcado.</p>
+
+<p>Agora era hora de divulgar. Nesse momento tínhamos por volta de 60 pessoas inscritas. O lugar tinha dois espaços: um externo bem grande e um interno menor. Apostamos no externo e fechamos em 30 pessoas.</p>
+
+<p>O próximo passo era buscar algum auxílio para o coffee break. Apesar de muitas pessoas me dizerem que não era obrigatório, eu achava bacana ter algo no primeiro encontro. Por isso estava disposto até em pagar do bolso, nem que fossem algumas pizzas e refrigerantes. Mas aí que venho a notícia boa: graças a ajuda de dois amigos: o grande <a href="https://twitter.com/elvisdetona">Elvis Detona</a> e o cara das <em>arias</em> <a href="https://twitter.com/deividmarques">Deivid Marques</a>, o <a href="https://twitter.com/br_paypaldev">PayPal</a> entrou no meio e nos patrocinou (um imenso obrigado ao <a href="https://twitter.com/jeffprestes">Jeff Prestes</a>).</p>
+
+<h2 class="subtitle">A Estréia</h2>
+
+<figure class="text-center loading">
+    <a class="hover" href="https://speakerdeck.com/raphaelfabeni/bem-vindos-ao-meetp-css" target="_blank"><img src="https://cloud.githubusercontent.com/assets/1345662/11458568/97107d54-96a9-11e5-8a26-aff1aa2afb5c.jpg" alt="Imagem de capa de mensagem de boas vindas para o primeiro Meetup CSS SP" /></a>
+</figure>
+
+<p>Tinha chegado o grande dia! O coffee e o local estavam fechados! No entanto, logo as 7 da manhã toca meu celular: <em>“Sr Raphael? Já chegamos aqui com a encomenda do senhor!”</em> Sim! Eles haviam confundido o horário e entregado errado. Passado o susto, conversei com o pessoal da padaria e remarquei a entrega para noite.</p>
+
+<p>A Digital Garden tem um espaço fantástico. A única coisa que não nos ajudou foi o tempo. Mas, estamos em São Paulo e pra variar não podemos depender dele. Precisamos de última hora, mudar toda organização para o espaço interno. Admito que ficou apertado, mas mesmo assim achei que foi bem bacana para a primeira versão.</p>
+
+<figure class="text-center loading">
+    <img src="https://cloud.githubusercontent.com/assets/1345662/11458566/970db22c-96a9-11e5-9321-e950d936ec87.jpg" alt="Imagem mostra discussão no primeiro Meetup CSS SP" />
+</figure>
+
+<figure class="text-center loading">
+    <img src="https://cloud.githubusercontent.com/assets/1345662/11458567/970ee2aa-96a9-11e5-88db-b47303255667.jpg" alt="Imagem mostra discussão no primeiro Meetup CSS SP" />
+</figure>
+
+<p>Falando do evento em si, nesse primeira versão, tivemos algumas talks rápidas para discussão de um assunto. Eu falei de <a href="https://speakerdeck.com/raphaelfabeni/organizando-o-css">Organização de CSS</a>, o Fialho falou de <a href="http://www.felipefialho.com/talk-css-components-14-08-08/#/">CSS Components</a> e o Suissa falou de <a href="http://www.slideshare.net/suissapg/atomic-design-37762390">Atomic Design</a>.</p>
+
+<figure class="loading">
+    <script async="" class="speakerdeck-embed" data-id="9bd9c1d0019c013285b92abb871a81a5" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+</figure>
+
+<p>No geral acho que foi positivo, com o tempo vamos acertando algumas coisas mas o primeiro passo foi dado. Achei legal que nesse primeiro, algumas pessoas que eu considero referência na área apareceram por lá como <a href="https://twitter.com/osuissa">Suissa</a>, <a href="https://twitter.com/zenorocha">Zeno Rocha</a>, <a href="https://twitter.com/lucasmazza">Lucas Mazza</a>, <a href="https://twitter.com/ycamara">Yuri Camara</a>, <a href="https://twitter.com/tanure">Tanure</a> entre outros; e receber o elogio desses caras foi bem bacana.</p>
+
+<p>Quem se interessar, tem o <a href="https://github.com/raphaelfabeni/css-sp">repositório com todas as informações sobre o Meetup</a> (links, fotos, etc). E que venham os próximos!</p>
+
+<p>Obs. Aqui registro o agradeçimento ao Suissa pela talk de última hora.</p>
+:ET
