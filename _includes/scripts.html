@@ -3,3 +3,7 @@
 {% if page.type == 'Post' %}
 <script src="/dist/scripts/post.min.js"></script>
 {% endif %}
+
+{% if page.type == 'blog' or page.type == 'category' %}
+<script src="/dist/scripts/blog.min.js"></script>
+{% endif %}

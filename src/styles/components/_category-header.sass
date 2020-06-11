@@ -3,9 +3,27 @@
 	display: flex
 	align-items: center
 	justify-content: flex-start
-	padding-left: 5px
-	padding-right: 5px
 	flex-wrap: wrap
+
+	&__button
+		display: none
+		@include media(800px)
+			display: block
+			width: 100%
+			margin: 20px 0
+			color: $color-blue
+			border: solid 1px
+			background-color: transparent
+			padding: 15px
+			font-family: $font-family--default
+			cursor: pointer
+
+			&:hover,
+			&:focus,
+			&:active,
+			&.is-active
+				color: #fff
+				background-color: $color-blue
 
 	&__icon
 		margin-right: 15px
@@ -19,6 +37,25 @@
 		flex-wrap: wrap
 		padding-bottom: 5px
 		padding-top: 15px
+
+		li
+			margin: 0 10px 10px 0
+		
+		@include media(800px)
+			display: none
+
+			li
+				margin: 0
+				width: 50%
+				padding-right: 20px
+
+			&.is-visible
+				display: flex
+		
+		@include media(350px)
+			li
+				width: 100%
+				padding-right: 0
 
 		a
 			opacity: .7
@@ -53,6 +90,3 @@
 				border: solid 1px
 				&:after
 					display: none
-
-		li
-			margin: 0 10px 10px 0
