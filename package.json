@@ -55,7 +55,7 @@
     "watch:js": "chokidar 'src/scripts/*' -c 'npm run eslint && npm run babel && npm run uglify:home && npm run uglify:post && npm run uglify:blog && npm run update:js && browser-sync reload'",
     "serve": "browser-sync start -w --server _site",
     "start": "npm run build && concurrently \"npm run serve\" \"npm run watch:jekyll\" \"npm run watch:css\" \"npm run watch:js\"",
-    "after": "rm -rf _site/scripts/temp"
+    "after": "rm -rf _site/scripts/temp && cp _redirects _site/"
   },
   "devDependencies": {
     "autoprefixer": "^6.3.1",
