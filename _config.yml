@@ -72,9 +72,6 @@ categories_list:
     wordpress:
       title: "WordPress"
       permalink: /en/wordpress/
-    conferences:
-      title: "Conferences"
-      permalink: /en/conferences/
     community:
       title: "Community"
       permalink: /en/community/
@@ -103,9 +100,6 @@ categories_list:
     wordpress:
       title: "WordPress"
       permalink: /pt-br/wordpress/
-    conferencias:
-      title: "Conferências"
-      permalink: /pt-br/conferencias/
     comunidade:
       title: "Comunidade"
       permalink: /pt-br/comunidade/
