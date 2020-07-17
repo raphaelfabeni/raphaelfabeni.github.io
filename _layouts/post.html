@@ -15,10 +15,11 @@ layout: compress
 
   {% include header.html %}
 
-  <div class="header-post">
-  	<img class="header-post__image" src="{{ page.image }}" alt="{{ page.alt }}">
-  	<button class="header-post__arrow" data-post-arrow></button>
-	</div>
+  <div class="container container--full-np">
+    <div class="header-post" style="background-image: url({{page.image}});">
+      <button class="header-post__arrow" data-post-arrow></button>
+    </div>
+  </div>
 
 	<div class="full">
 		<div class="container container--small">
