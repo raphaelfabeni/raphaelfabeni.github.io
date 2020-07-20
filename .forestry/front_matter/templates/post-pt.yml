@@ -39,9 +39,9 @@ fields:
     - conferences
     - community
     source:
-      type: documents
+      type: pages
       section: category
-      file: _category/en/css.md
+      file: 
       path: 
   label: category
 - type: text
