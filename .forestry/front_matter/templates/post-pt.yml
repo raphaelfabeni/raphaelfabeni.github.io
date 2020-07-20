@@ -23,7 +23,7 @@ fields:
   label: title
 - name: category
   type: select
-  default: []
+  default: ''
   config:
     required: false
     options:
@@ -39,9 +39,9 @@ fields:
     - conferences
     - community
     source:
-      type: simple
-      section: 
-      file: 
+      type: documents
+      section: category
+      file: _category/en/css.md
       path: 
   label: category
 - type: text
