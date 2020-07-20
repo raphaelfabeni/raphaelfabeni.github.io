@@ -30,16 +30,13 @@ fields:
     - css
     - wordpress
     - user-experience
-    - tools
     - projects
-    - life
     - javascript
     - html
     - git
-    - conferences
-    - community
+    - dev-life
     source:
-      type: pages
+      type: simple
       section: category
       file: 
       path: 
