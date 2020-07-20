@@ -72,9 +72,6 @@ categories_list:
     wordpress:
       title: "WordPress"
       permalink: /en/wordpress/
-    community:
-      title: "Community"
-      permalink: /en/community/
     projects:
       title: "Projects"
       permalink: /en/projects/
@@ -100,9 +97,6 @@ categories_list:
     wordpress:
       title: "WordPress"
       permalink: /pt-br/wordpress/
-    comunidade:
-      title: "Comunidade"
-      permalink: /pt-br/comunidade/
     projetos:
       title: "Projetos"
       permalink: /pt-br/projetos/

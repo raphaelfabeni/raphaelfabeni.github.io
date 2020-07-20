@@ -7,7 +7,7 @@ date: 2015-03-25
 image: 'https://cloud.githubusercontent.com/assets/1345662/11458061/beb028d2-969f-11e5-98d6-68b3538369e3.jpg'
 alt: 'Imagem mostrando o espaço cheio de estrelas'
 lang: pt-br
-category: 'comunidade'
+category: 'dev-life'
 permalink: 'o-dia-que-a-comunidade-mostrou-sua-forca/'
 ref: 'comunidade-forca'
 ---
