@@ -32,15 +32,13 @@ fields:
     options:
     - css
     - wordpress
-    - tools
     - user-experience
     - projects
     - life
     - javascript
     - html
     - git
-    - conferences
-    - community
+    - dev-life
     source:
       type: simple
       section: ''

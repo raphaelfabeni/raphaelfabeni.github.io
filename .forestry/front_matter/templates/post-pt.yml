@@ -23,24 +23,21 @@ fields:
   label: title
 - name: category
   type: select
-  default: []
+  default: ''
   config:
     required: false
     options:
     - css
     - wordpress
     - user-experience
-    - tools
     - projects
-    - life
     - javascript
     - html
     - git
-    - conferences
-    - community
+    - dev-life
     source:
       type: simple
-      section: 
+      section: category
       file: 
       path: 
   label: category
