@@ -9,7 +9,7 @@ description: Vivemos uma situação delicada e difícil e por isso devemos redob
 date: 2020-08-04 01:25:00 +0000
 image: https://user-images.githubusercontent.com/1345662/89242510-bd5a9c00-d5cf-11ea-8a52-d91a5656f361.jpg
 alt: Foto de várias árvores com raios de sol passando sobre elas
-permalink: quarentena-saude
+permalink: quarentena-saude/
 ref: saude-mental
 
 ---

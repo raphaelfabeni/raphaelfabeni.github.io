@@ -32,38 +32,3 @@ var Arrow = function () {
 }();
 
 Arrow.init();
-
-// Back link for post page
-var BackLink = function () {
-
-	function isPostPage() {
-		return document.querySelector('body').classList.contains('post-page');
-	}
-
-	function init() {
-		if (!isPostPage()) {
-			return;
-		}
-
-		bindEvents();
-	}
-
-	function bindEvents() {
-		var back = document.querySelector('[data-back-link]');
-		var halfPage = window.outerHeight / 2;
-
-		window.addEventListener('scroll', function () {
-			if (window.pageYOffset > halfPage) {
-				back.classList.remove('is-hidden');
-			} else {
-				back.classList.add('is-hidden');
-			}
-		});
-	}
-
-	return {
-		init: init
-	};
-}();
-
-BackLink.init();
