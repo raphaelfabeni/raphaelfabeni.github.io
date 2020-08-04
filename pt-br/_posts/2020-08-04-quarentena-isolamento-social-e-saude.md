@@ -6,14 +6,13 @@ title: Quarentena, isolamento social e saúde
 category: dev-life
 description: Vivemos uma situação delicada e difícil e por isso devemos redobrar a
   atenção para que consigamos nos manter saudáveis mentalmente e fisicamente.
-date: 2020-08-04 01:25:00 +0000
+date: 2020-08-04T01:25:00.000+00:00
 image: https://user-images.githubusercontent.com/1345662/89242510-bd5a9c00-d5cf-11ea-8a52-d91a5656f361.jpg
 alt: Foto de várias árvores com raios de sol passando sobre elas
-permalink: quarentena-saude/
+permalink: quarentena-e-saude/
 ref: saude-mental
 
 ---
-
 Eu nunca fui muito fã de trabalhar de casa mas é a situação atual! Quer você goste ou não, há grandes chances de que sua rotina tenha mudado drasticamente nesses últimos meses e que essa nova situação e a incerteza do futuro possa interferir diretamente no seu dia a dia.
 
 Coisas como ansiedade e burnouts estão cada vez mais em tona e, é primordial que falemos sobre isso e que, acima de tudo, consigamos nos cuidar e passar por esse momento tão difícil e louco! Não sou médico, nem coach, muito menos psicólogo, mas aqui vou listar algumas coisas que tem funcionado pra mim!

@@ -61,5 +61,3 @@ fields:
 - type: text
   name: ref
   label: ref
-pages:
-- pt-br/_posts/quarentena-isolamento-social-e-saude.md
