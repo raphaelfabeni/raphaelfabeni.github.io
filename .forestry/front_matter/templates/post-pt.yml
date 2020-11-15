@@ -61,3 +61,5 @@ fields:
 - type: text
   name: ref
   label: ref
+pages:
+- pt-br/_posts/google-web-vitals-cls.md
