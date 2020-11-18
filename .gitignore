@@ -3,3 +3,4 @@
 /bin
 yarn.lock
 Gemfile.lock
+/.jekyll-cache
