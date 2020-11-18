@@ -1,0 +1,18 @@
+I"¨<p>The <em>spread</em> guy allow us extract/expand data from an array make our lifes easier. Confused? I guess I could not explain. Go to practice. Imagine the following arrays:</p>
+
+<script src="https://gist.github.com/4b303e0c106e0e66fceefad0ec9535b2.js"> </script>
+
+<p>If we had to add the new <em>fighters</em> to the main <em>array</em>, we could try something like that:</p>
+
+<script src="https://gist.github.com/f72ade99d07e090e372ba1da797463c1.js"> </script>
+
+<p>The data is there, but not in the way that we want. So we need to manipulate it before:</p>
+
+<script src="https://gist.github.com/8b1589c552ebc70f6f7cbc0365027353.js"> </script>
+
+<p>The operator <em>spread</em> arrives making magic and leaving everything beautiful.</p>
+
+<script src="https://gist.github.com/c08fba8139fa4a17f781084e16f80959.js"> </script>
+
+<p><a href="http://jsbin.com/cubiko/edit?js,console">Here</a> you can find an JS Bin with the examples.</p>
+:ET

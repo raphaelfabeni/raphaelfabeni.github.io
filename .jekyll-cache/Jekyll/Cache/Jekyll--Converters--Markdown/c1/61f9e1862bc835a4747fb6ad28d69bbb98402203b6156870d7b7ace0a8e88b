@@ -1,0 +1,48 @@
+I"�<h2 id="guarde-o-tamanho-do-array">Guarde o tamanho do array</h2>
+
+<p>Com nossos brothers loops <code class="highlighter-rouge">for</code>, conseguimos iterar em arrays ou também em objetos semelhantes a arrays. Semelhantes? Como assim!? Por exemplo os objetos <code class="highlighter-rouge">arguments</code> e <code class="highlighter-rouge">HTMLCollection</code>. Provavelmente você já deve ter se deparado com um loop <code class="highlighter-rouge">for</code> (já deve ter escrito alguns):</p>
+
+<script src="https://gist.github.com/0ca8ca025a463069c69cb945a63622c4.js"> </script>
+
+<p>De bate pronto, conseguimos perceber algo não tão bacana no código acima. O comprimento (<code class="highlighter-rouge">length</code>) do array é acessado em toda iteração do loop. Isso não fica tão legal quando por exemplo, o objeto é um <code class="highlighter-rouge">HTMLCollection</code>. Lembra o que são esses caras? Eles que são retornados quando a gente chama:</p>
+
+<ul>
+  <li><code class="highlighter-rouge">getElementsByName()</code></li>
+  <li><code class="highlighter-rouge">getElementsByClassName()</code></li>
+  <li><code class="highlighter-rouge">getElementsByTagName()</code></li>
+</ul>
+
+<p>Tá! Legal! Mas eaí né?! A zica mesmo é que toda vez que a gente itera sobre esses caras significa que estamos consultando o nosso <em>DOM</em> ao vivo e a cores, e a <em>toda hora</em>, o que não é nada bacana.</p>
+
+<p>Com base nisso, uma solução que podemos chegar seria <em>guardarmos</em> o comprimento do array; algo parecido com isso:</p>
+
+<script src="https://gist.github.com/ceb6159c8ef9cc3f212951c8070bdaab.js"> </script>
+
+<p>O que fizemos acima foi armazenar o valor da propriedade <code class="highlighter-rouge">length</code>, evitando assim ter que calculá-la a cada iteração do loop.</p>
+
+<h2 id="verifique-se-a-propriedade-pertence-àquele-objeto">Verifique se a propriedade pertence àquele objeto</h2>
+
+<p>Além do nosso amigo do exemplo anterior temos o loop <code class="highlighter-rouge">for-in</code> que usamos pra iterar em objetos. Uma coisa bacana de se fazer e que pode evitar que algo que você não queira aconteça, é usar o método <code class="highlighter-rouge">hasOwnProperty()</code>. Esse método simplesmente vai filtrar apenas as propriedades do objeto em si, excluindo as propriedades herdadas pelo <code class="highlighter-rouge">prototype</code>.</p>
+
+<p>Um exemplo rápido:</p>
+
+<script src="https://gist.github.com/9939db18667534ec5e3f706418f87a80.js"> </script>
+
+<p>Aí em uma parte obscura, aparece algo que adiciona uma propriedade a todos os objetos.</p>
+
+<script src="https://gist.github.com/a690c84ae4728f8c16dc42052761816b.js"> </script>
+
+<p>O que aconteceu acima foi que verificamos se existe a propriedade <code class="highlighter-rouge">feijao</code> em <code class="highlighter-rouge">Object</code> e, caso ela não exista definimos ela com o valor <code class="highlighter-rouge">preto</code>. Aí que está o negócio da coisa, nosso objeto <code class="highlighter-rouge">burger</code>, já herda a propriedade <code class="highlighter-rouge">feijao</code> via <code class="highlighter-rouge">prototype</code>.</p>
+
+<p>Com isso, para evitarmos que <code class="highlighter-rouge">feijao</code> apareça quando listarmos as propriedades de <code class="highlighter-rouge">burger</code> (até porque feijão, na minha opinião, não combina muito com hamburguer), fazemos o seguinte:</p>
+
+<script src="https://gist.github.com/0b4271fe4b9ccf8090d7de3872593b75.js"> </script>
+
+<p>Do contrário, caso não fizéssemos essa verificação, teríamos algo assim:</p>
+
+<script src="https://gist.github.com/6204a86627b272f6a83b5ff0bfd3e0e4.js"> </script>
+
+<p><em>Referências</em> =&gt; <a href="http://www.amazon.com/Learning-JavaScript-Edition-Shelley-Powers/dp/0596521871">Learning JavaScript</a></p>
+
+<p>Obs. Queria deixar aqui meu <em>muito obrigado</em> ao <a href="https://github.com/ftonato">Ademílson Tonato</a> pela ajuda na correção do post.</p>
+:ET

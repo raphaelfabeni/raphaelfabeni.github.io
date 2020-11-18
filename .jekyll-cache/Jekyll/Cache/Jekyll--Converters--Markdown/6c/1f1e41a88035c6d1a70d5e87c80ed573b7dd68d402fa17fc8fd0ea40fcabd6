@@ -1,0 +1,22 @@
+I"d<p>Você já fez algum projeto usando WordPress? Pois é! Eu também. Gostando ou não, você já deve ter se deparado com algum WP na sua vida. Seja num projeto no trabalho, <em>freela</em>, ou até mesmo aquele blog que você costuma ler, possa ter sido feito em WP.</p>
+
+<p>Acredito que o WordPress seja tão popular pelo fácil aprendizado de ambos os lados: cliente e desenvolvedor. Falando do lado do cliente, acredito que seja a plataforma pra blog mais conhecida e admito que já ouvi falar (inclusive já aconteceu comigo) de falarem que tal pessoa precisava de um <em>wordpress</em>. Do lado do desenvolvedor, acredito eu que ele seja uma solução escolhida principalmente pela facilidade em se criar coisas; talvez você não precise de um conhecimento tão avançado em programação para conseguir o que você queira (talvez isso não seja algo bom, da mesma maneira que já vi alguns programadores não falando muito bem do <em>core</em> do WP, mas isso pode ficar pra depois).</p>
+
+<p>Da mesma maneira que é fácil de <em>construir</em> qualquer coisa com WP, surgem também muitas aberturas a falhas no projeto que lá na frente podem trazer sérias dores de cabeça.</p>
+
+<h2 id="tenha-uma-cópia-do-projeto-assets-e-banco">Tenha uma cópia do projeto (<em>assets</em> e banco)</h2>
+
+<p>Sempre tenha uma cópia do seu projeto, tanto dos <em>assets</em> como do banco de dados. Para os assets, acredito que a já estamos acostumados com um <a href="https://www.github.com">GitHub</a> ou <a href="https://www.bitbucket.org">BitBucket</a> da vida. Para o banco, existem alguns plugins como <a href="https://managewp.com/">ManageWP</a> e o <a href="https://wordpress.org/plugins/wp-db-backup/">WP DB Backup</a> onde é possível gerenciar e agendar rotinas de backup. Acredite, é importante! Só daremos importância a isso quando perdemos tudo!</p>
+
+<h2 id="tenha-cautela-nas-atualizações">Tenha cautela nas atualizações</h2>
+
+<p>Principalmente quando seu projeto não é pessoal e uma outra pessoa (provavelmente um cliente) que administra o site. Atualizações saem quase que semanalmente, e a ansiedade por ter tudo <em>atualizado</em> geralmente é grande. Por isso é natural, que muitas vezes, a pessoa que administra o site clique para fazer todas as atualizações <em>sem dó</em>. Aí que temos que tomar cuidado pois muitas vezes aquele <em>plugin</em> mega legal que você está usando não foi testado com a nova versão do WP eaí lascou! Quebra tudo e em produção! Acho que a melhor saída talvez seja tirar essa opção de atualização para determinados usuários do projeto e, que só uma pessoa (provavelmente o <em>dev</em>) tenha o poder de fazer essas atualizações (e mesmo assim recomendo sempre fazer uma boa homologação antes).</p>
+
+<h2 id="capriche-no-seo">Capriche no SEO</h2>
+
+<p>Você (e provavelmente seu cliente, caso freela) quer que seu projeto seja visto, correto? Uma das táticas, e que é <em>grátis</em>, para atacar é o SEO. Tem um cara chamado <a href="https://wordpress.org/plugins/wordpress-seo/">WordPress SEO by Yoast</a> que é bem famoso. Ele te ajuda a configurar praticamente tudo: <code class="highlighter-rouge">title</code>, <code class="highlighter-rouge">meta tags</code>, detalhes de compartilhamento e por aí vai.</p>
+
+<h2 id="ative-os-permalinks">Ative os <em>permalinks</em></h2>
+
+<p>A estrutura de links padrão do WP é algo meio feio. Não é fácil de entender por uma pessoa normal e também não é nada bacana do ponto vista de SEO. Você já deve ter visto algo do tipo =&gt; <em>www.nomedosite.com.br/?p=123</em>. Não ficaria melhor algo como <em>www.nomedosite.com.br/sobre</em> ?</p>
+:ET

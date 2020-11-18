@@ -1,0 +1,197 @@
+I", <style>
+.bar {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  margin-bottom: 25px;
+}
+
+.bar__item {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.bar__item:after {
+	content: attr(data-value);
+	color: #fff;
+  font-size: 16px;
+  position: absolute;
+  top: 50%;
+  min-width: 90px;
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, .5);
+  transform: translateY(-50%);
+}
+
+@media (max-width: 600px) {
+	.bar__item:after {
+		min-width: 10px;
+		width: 55px;
+	}
+}
+
+.bar__item--first:after {
+	left: 10px;
+	text-align: left;
+}
+
+.bar__item--last:after {
+	right: 10px;
+	text-align: right;
+}
+
+.bar__item--middle:after {
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+}
+
+.is-positive { background-color: #3f7ad5; }
+.is-negative { background-color: #d74642; }
+.is-neutral { background-color: #619e52; }
+</style>
+
+<p>Em torno de 3 ou 4 anos atrás depois de um meetup, senão me engano um <a href="https://www.meetup.com/pt-BR/femugsp/">FEMUG-SP</a>, o tema <em>cultura de desenvolvimento</em> começou a me chamar atenção. Até que recebi um convite pra palestrar em um evento, e foi <em>a deixa</em> para me enfiar de cabeça no tema e comecar a estudar mais sobre. O resultado <a href="https://speakerdeck.com/raphaelfabeni/falando-sobre-cultura-de-desenvolvimento">foi essa apresentação</a>.</p>
+
+<h2 id="a-saga-continua">A saga continua</h2>
+
+<p>Sempre mantive o interesse pelo tema, e esse ano apareceu uma nova oportunidade de revisitá-lo. Pra tentar entender um pouco de como está o cenário da comunidade web em relação à cultura de desenvolvimento, deixei uma pesquisa rolando por alguns dias. A pesquisa era totalmente anônima e tinha como objetivo coletar respostas sobre alguns dos pontos que fazem parte do tema.</p>
+
+<h2 id="os-números-da-pesquisa">Os números da pesquisa</h2>
+
+<p><strong>31</strong> dias e <strong>394</strong> respostas.</p>
+
+<h3 id="se-você-tivesse-que-dar-uma-nota-para-o-quão-boa-é-a-cultura-de-desenvolvimento-no-local-que-trabalha-qual-seria">Se você tivesse que dar uma nota para o quão boa é a cultura de desenvolvimento no local que trabalha, qual seria?</h3>
+
+<ul>
+  <li><strong>16.3%</strong> - nota maior que 8.</li>
+  <li><strong>51.9%</strong> - nota entre 6 e 8.</li>
+  <li><strong>31.8%</strong> - nota menor que 6.</li>
+</ul>
+
+<h3 id="de-acordo-com-a-sua-nota-a-empresa-estaria-de-recuperação-por-que-você-acha-isso">De acordo com a sua nota, a empresa estaria de “recuperação”. Por que você acha isso?</h3>
+
+<p><em>Não existe esse conceito de cultura e por isso não temos espaço/tempo para fazer as coisas do time</em>
+Presente em <strong>66%</strong> das respostas</p>
+
+<p><em>Não temos nenhum auxílio para atividades extras como cursos e eventos.</em>
+Presente em <strong>63.7%</strong> das respostas</p>
+
+<p><em>Não temos hoje uma pessoa que possa organizar e liderar isso (ou até mesmo iniciar).</em>
+Presente em <strong>49.7%</strong> das respostas</p>
+
+<ul>
+  <li>Falta de tempo - <strong>4.6%</strong></li>
+  <li>Falta de apoio da empresa - <strong>4.6%</strong></li>
+  <li>Cultura de apagar incêndio - <strong>2.3%</strong></li>
+  <li>Gestão não acredita na idéia - <strong>2.3%</strong></li>
+  <li>Falta de adoção do time - <strong>1.7%</strong></li>
+</ul>
+
+<h3 id="você-tem-algum-tipo-de-auxíliobolsa-para-cursos-e-eventos">Você tem algum tipo de auxílio/bolsa para cursos e eventos?</h3>
+
+<ul>
+  <li><em>Sim</em> - <strong>37.15%</strong></li>
+  <li><em>Não</em> - <strong>62.85%</strong></li>
+</ul>
+
+<div class="bar">
+  <div class="bar__item bar__item--first is-positive" style="width: 37.15%;" data-value="Sim (37.15%)"></div>
+  <div class="bar__item bar__item--last is-negative" style="width: 62.85%;" data-value="Não (62.85%)"></div>
+</div>
+
+<h3 id="você-tem-feedbacks-sobre-o-progresso-da-sua-carreira">Você tem feedbacks sobre o progresso da sua carreira?</h3>
+
+<ul>
+  <li><em>Sim</em> - <strong>52.9%</strong></li>
+  <li><em>Não</em> - <strong>47.1%</strong></li>
+</ul>
+
+<div class="bar">
+  <div class="bar__item bar__item--first is-positive" style="width: 52.9%;" data-value="Sim (52.9%)"></div>
+  <div class="bar__item bar__item--last is-negative" style="width: 47.1%;" data-value="Não (47.1%)"></div>
+</div>
+
+<h3 id="caso-queira-resolver-um-problema-fazendo-pair-programming-existe-essa-possibilidadeliberdade-onde-trabalha">Caso queira resolver um problema fazendo pair programming, existe essa possibilidade/liberdade onde trabalha?</h3>
+
+<ul>
+  <li><em>Sim</em> - <strong>77.9%</strong></li>
+  <li><em>Não</em> - <strong>22.1%</strong></li>
+</ul>
+
+<div class="bar">
+  <div class="bar__item bar__item--first is-positive" style="width: 77.9%;" data-value="Sim (77.9%)"></div>
+  <div class="bar__item bar__item--last is-negative" style="width: 22.1%;" data-value="Não (22.1%)"></div>
+</div>
+
+<h3 id="e-se-seu-time-decidir-comecar-a-incentivarapoiar-open-source-sua-empresa-apoiaria">E se seu time decidir comecar a incentivar/apoiar open source. Sua empresa apoiaria?</h3>
+
+<ul>
+  <li><em>Sim</em> - <strong>41.5%</strong></li>
+  <li><em>Talvez</em> - <strong>39.2%</strong></li>
+  <li><em>Não</em> - <strong>19.3%</strong></li>
+</ul>
+
+<div class="bar">
+  <div class="bar__item bar__item--first is-positive" style="width: 41.5%;" data-value="Sim (41.5%)"></div>
+  <div class="bar__item bar__item--middle is-neutral" style="width: 39.2%;" data-value="Talvez (39.2%)"></div>
+  <div class="bar__item bar__item--last is-negative" style="width: 19.3%;" data-value="Não (19.3%)"></div>
+</div>
+
+<h3 id="você-tem-a-opção-de-remoto-na-sua-empresa">Você tem a opção de remoto na sua empresa?</h3>
+
+<ul>
+  <li><em>Sim</em> - <strong>49.6%</strong></li>
+  <li><em>Não</em> - <strong>50.4%</strong></li>
+</ul>
+
+<div class="bar">
+  <div class="bar__item bar__item--first is-positive" style="width: 49.6%;" data-value="Sim (49.6%)"></div>
+  <div class="bar__item bar__item--last is-negative" style="width: 50.4%;" data-value="Não (50.4%)"></div>
+</div>
+
+<h3 id="o-que-é-mais-importante-na-hora-de-tomar-uma-decisão-para-aceitar-um-emprego">O que é mais importante na hora de tomar uma decisão para aceitar um emprego?</h3>
+
+<ul>
+  <li>Atividades como pair programming, reuniões de time, workshops, etc - <strong>23.9%</strong></li>
+  <li>Feedbacks de carreira - <strong>19.8%</strong></li>
+  <li>Remoto - <strong>17.3%</strong></li>
+  <li>Outros - <strong>15.5%</strong></li>
+  <li>Oportunidade exterior - <strong>10.9%</strong></li>
+  <li>Auxílio em cursos e eventos - <strong>10.4%</strong></li>
+  <li>
+    <p>Incentivo open source - <strong>2.3%</strong></p>
+  </li>
+  <li>Para quase <strong>1/4</strong> das pessoas, o principal ponto é o <strong>salário</strong>.</li>
+  <li><strong>Qualidade de vida</strong> é a escolha de aproximadamente <strong>12%</strong> das pessoas.</li>
+  <li><strong>Salário, Cultura e Carreira</strong> juntos somam em torno de <strong>60%</strong> das escolhas.</li>
+  <li><strong>2%</strong> das pessoas querem saber é do <strong>café</strong>.</li>
+</ul>
+
+<h3 id="no-processo-seletivo-para-o-seu-time-existe-alguém-do-time-técnico-participando-do-processo">No processo seletivo para o seu time, existe alguém do time técnico participando do processo?</h3>
+
+<ul>
+  <li><em>Sim</em> - <strong>79.9%</strong></li>
+  <li><em>Não</em> - <strong>20.1%</strong></li>
+</ul>
+
+<div class="bar">
+  <div class="bar__item bar__item--first is-positive" style="width: 79.9%;" data-value="Sim (79.9%)"></div>
+  <div class="bar__item bar__item--last is-negative" style="width: 20.1%;" data-value="Não (20.1%)"></div>
+</div>
+
+<h3 id="você-já-participu-de-algum-processo-e-não-teve-feedback">Você já participu de algum processo e não teve feedback?</h3>
+
+<ul>
+  <li><em>Sim</em> - <strong>81.7%</strong></li>
+  <li><em>Não</em> - <strong>18.3%</strong></li>
+</ul>
+
+<div class="bar">
+  <div class="bar__item bar__item--first is-negative" style="width: 81.7%;" data-value="Sim (81.7%)"></div>
+  <div class="bar__item bar__item--last is-positive" style="width: 18.3%;" data-value="Não (18.3%)"></div>
+</div>
+
+<p>Os slides das palestras <a href="https://speakerdeck.com/raphaelfabeni/cultura-de-desenvolvimento">estão aqui</a>.</p>
+:ET

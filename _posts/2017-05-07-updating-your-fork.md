@@ -30,7 +30,7 @@ A simple step by step could be something like that:
 
 Believe it: doing is easier than writing. The step four was the most confuse for me. And that's why I decided to show here.
 
-## The *upstram* guy
+## The *upstream* guy
 
 Let's suppose that we *foked* the project *2017-is-awesome* to our GitHub user account. So, at this moment, the *original project* and your *fork* are at the same point and equal.
 

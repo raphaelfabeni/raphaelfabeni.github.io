@@ -1,0 +1,54 @@
+I"�<p>Contribuir em projetos <em>open source</em> é uma das coisas mais legais da área de desenvolvimento. Ano passado, senão me engano no Intercon WP do iMasters, rolou um FEMUG dentro do evento e, um dos temas abordados foi exatamente esse: a contribuição em projetos.</p>
+
+<p>Muitas vezes (senão a maioria) é normal termos receio em contribuir em algum projeto pelo simples fato de achar que não podemos contribuir em nada com o que está ali. E foi exatamente aí que o FEMUG cutucou, incentivando a todos que estavam ali a começar a contribuir, seja com código, ou até mesmo revisão/tradução.</p>
+
+<h2 id="o-processo">O processo</h2>
+
+<p>Pra quem já está acostumado, o processo de contribuição acaba se tornando automático. Já pra quem ainda está iniciando, algumas partes podem parecer confusas, mas aqui cito uma frase que ouvi do <a href="http://twitter.com/danielfilho">Daniel Filho</a> que trabalha comigo na Netshoes que é a seguinte: “<em>Tudo é mais fácil do que parece…</em>”. E é verdade!</p>
+
+<p>O processo de contribuição basicamente é o seguinte:</p>
+
+<ol>
+  <li><em>Fork</em> do projeto para o seu usuário.</li>
+  <li><em>Clone</em> do projeto <em>forkado</em> na sua máquina.</li>
+  <li><em>Taca-le pau</em> ..</li>
+  <li>Atualização do seu projeto com o projeto original.</li>
+  <li><em>Commitar</em> e enviar suas alterações para o seu GitHub.</li>
+  <li>Abrir um <em>pull request</em> para o projeto original.</li>
+</ol>
+
+<p>Acho que é isso basicamente! Fazendo é muito mais fácil do que escrevendo (acredite!). Um item que me perdi um pouco logo quando comecei a contribuir em projetos foi o item 4. E é por isso que queria mostrar aqui rapidamente pra que outras pessoas possam pular essa parte que patinei no começo.</p>
+
+<h2 id="o-cara-upstream">O cara <em>upstream</em></h2>
+
+<p>Vamos supor que forkamos um projeto chamado <em>2015-rocks</em> para nossa conta pessoal. Então nesse momento temos tanto o <strong>projeto original</strong> como o <strong>fork</strong> no mesmo ponto, idênticos.</p>
+
+<p>Aí começamos a <em>meter bronca</em> no projeto local e fazemos um <em>commit</em> com essas alterações! Ao mesmo tempo, percebemos que no projeto original, um <em>pull request</em> foi aceito. Nesse ponto, os projetos já não são mais iguais; pelo contrário, eles se diferenciam bastante:</p>
+
+<ul>
+  <li>o seu projeto <strong>local</strong> contém todas as mágicas novas que você adicionou;</li>
+  <li>e a versão <strong>original</strong> do projeto agora tem uns paranauês novos que vieram do <em>PR</em> que foi aceito.</li>
+</ul>
+
+<p>Se você enviar suas alterações para o Github e tentar fazer um <em>pull request</em> ele irá notificar que não é possível fazer o <em>merge</em> do repositório. Pra isso, precisamos atualizar nosso projeto local de acordo com a versão original. E é aí que entra o tal do <em>upstream</em>.</p>
+
+<p>Digamos que você esteja contribuindo para este humilde blog (Valeu <a href="https://github.com/juliobitencourt">Julio Bitencourt</a> pela <a href="https://github.com/raphaelfabeni/raphaelfabeni.github.io/pull/8">dica</a>) \o/</p>
+
+<p>Adicionamos um remote com base na versão original do blog:</p>
+
+<script src="https://gist.github.com/98964a4188b35181e27c8efab7945b40.js"> </script>
+
+<p>Após feito isso precisamos atualizar o <em>upstream</em>: <code class="highlighter-rouge">$ git fetch upstream</code></p>
+
+<p>Com o <em>upstream</em> atualizado, supondo que estamos no <em>branch master</em> do nosso projeto local, fazemos o <em>merge</em>:</p>
+
+<script src="https://gist.github.com/449b8a7a0ebc08dc28daabcc36ceae69.js"> </script>
+
+<p>Como lembrado pelo <a href="https://twitter.com/lucasmazza">Lucas Mazza</a>, aqui podemos também usar o <code class="highlighter-rouge">rebase</code>, evitando assim a mensagem do <em>merge</em>.</p>
+
+<p>Agora caso queira atualizar seu repositório do Github com seu reposítório local antes de fazer suas mudanças e dar seu commit, fazemos:</p>
+
+<script src="https://gist.github.com/5665e29e6499b749b6e35c45a42ac479.js"> </script>
+
+<p>Pronto! Agora nosso projeto local e remoto está sincronizado e atualizado com a versão original e, após enviar suas alterações para o GitHub, conseguimos fazer o <em>pull request</em> e torcer para ser aceito.</p>
+:ET

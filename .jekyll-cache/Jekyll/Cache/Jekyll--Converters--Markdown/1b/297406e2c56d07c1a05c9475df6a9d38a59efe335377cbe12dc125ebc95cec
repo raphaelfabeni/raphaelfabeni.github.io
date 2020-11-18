@@ -1,0 +1,95 @@
+I"\<p>The more I work with git, more I realize how powerful it is. Sometime ago I discovered that there is a way to organize/edit your <em>commits</em>. For what? Some useful cases:</p>
+
+<ul>
+  <li>the commit message is wrong or it doesn’t make sense.</li>
+  <li>the order of the <em>commits</em> is not nice regarding to GitHub history.</li>
+  <li>there are more than one commit which make similar changes (or even the same thing).</li>
+  <li>a commit grouped a lot of different code and it makes sense divide it in smaller <em>commits</em>.</li>
+</ul>
+
+<h2 id="a-quick-example">A quick example</h2>
+
+<p>A simple example: let’s imagine that in your project you did a change and made a commit:</p>
+
+<script src="https://gist.github.com/6a0aafc048a4416d0c464033d9410d54.js"> </script>
+
+<p>So, you just remembered that you needed to update the <code class="highlighter-rouge">README</code>.</p>
+
+<script src="https://gist.github.com/f2b857c5122658327bb38117f93ad914.js"> </script>
+
+<p>So, you went to get a cup of coffee and when you were returning to your desk, you remembered a last CSS adjustment that you have to do. So you do it, and make a new commit:</p>
+
+<script src="https://gist.github.com/c21ef19c51750057b8a8cbbe4f834641.js"> </script>
+
+<p>A simple log to see the <em>commits</em> would show something like that (the last 3):</p>
+
+<script src="https://gist.github.com/67794fc3684410b64f45258895d37c33.js"> </script>
+
+<p>If it’s a small or even personal project, we could say that is okay to let the <em>commits</em> this way. However, if you are working with other people in a big project, it could be weird three <em>commits</em> for the same and small change. For help us, there is the interactive rebase: using it we could change the <em>commits</em> in a branch.</p>
+
+<h2 id="how-i-do-it">How I do it?</h2>
+
+<script src="https://gist.github.com/3c311e78b1ea83e571956ea06d3f642c.js"> </script>
+
+<p>About the code above:</p>
+
+<ul>
+  <li><code class="highlighter-rouge">-i</code> =&gt; interactive mode</li>
+  <li><code class="highlighter-rouge">-3</code> =&gt;number of <em>commits</em> we want to target.</li>
+</ul>
+
+<p>Running that comand, a screen like this below will show (it will open in your default editor like Vim):</p>
+
+<script src="https://gist.github.com/72bafbf63ab01783cb06aa67ea295a1f.js"> </script>
+
+<h2 id="reordering-commits">Reordering <em>commits</em></h2>
+
+<p>In example above we could change the <em>commits</em>’ order.</p>
+
+<script src="https://gist.github.com/0a7fe1f8d01845bdc7135289dc4b9129.js"> </script>
+
+<p>And.. it’s done! If everything is ok, a message like that will appear:</p>
+
+<script src="https://gist.github.com/d873a435ff7954d18a9f171ca4a7df80.js"> </script>
+
+<p>Some conflicts could happen, and in this case the <code class="highlighter-rouge">rebase</code> command will stop untill you resolve the conflicts. After that you only need to run <code class="highlighter-rouge">git rebase --continue</code> to continue or <code class="highlighter-rouge">git rebase --abort</code> to quite and abort the process.</p>
+
+<h2 id="editing-messages">Editing messages</h2>
+
+<p>Other thing really cool is the possibility to edit the message of the commit. In the previous examples, now we want to change message of the commit which updates the <code class="highlighter-rouge">README</code> file.</p>
+
+<p>So, we run again the <code class="highlighter-rouge">rebase</code>.</p>
+
+<script src="https://gist.github.com/82690be5a679bbaba53f8e6f955fbef3.js"> </script>
+
+<p>And the same screen with the <em>commits</em> list will show for us. Now we change the <code class="highlighter-rouge">pick</code> word to <code class="highlighter-rouge">reword</code> in the commit which we want to change the message.</p>
+
+<script src="https://gist.github.com/6c7a588a264656c634e6babf796cecc3.js"> </script>
+
+<p>Doing that, a new screen will show for us:</p>
+
+<script src="https://gist.github.com/cb7c957694ebb25359d0c88ff1564b1e.js"> </script>
+
+<p>We just need to type the new message.</p>
+
+<script src="https://gist.github.com/bf18f891ed37f855c262c00106056fc2.js"> </script>
+
+<p>And it’s done! If we run a simple <em>log</em>, we will see the <em>commits</em> list with the message updated:</p>
+
+<script src="https://gist.github.com/b867b5986d25ebdb0ebe4db5eaa75bb4.js"> </script>
+
+<h2 id="forcing-the-push">Forcing the push</h2>
+
+<p>As reminded by <a href="https://github.com/ciceropablo">Cicero Pablo</a>, when we use the <em>interactive rebase</em>, if you already have a repository with a <em>history of commits</em>, you will have to use the <code class="highlighter-rouge">push</code> command with the <code class="highlighter-rouge">--force</code> flag.</p>
+
+<h2 id="there-is-more">There is more…</h2>
+
+<p>You can read <a href="/en/git-editing-commits-part-2/">the second part of this article</a> that we talk about <code class="highlighter-rouge">merge</code> and <code class="highlighter-rouge">split</code> <em>commits</em>.</p>
+
+<p>Some points:</p>
+
+<ul>
+  <li>The names/structure of the files and message of <em>commits</em> are only for example.</li>
+  <li>I used the word <em>screen</em> to make reference to every return of terminal after a command.</li>
+</ul>
+:ET

@@ -1,0 +1,16 @@
+I"´<p>Today we have a lot of different options to make grids system and complex interfaces. <em>Flexbox</em> and <em>grid layouts</em> are good examples of them. But, and before that, when we didnâ€™t have so many options unless the magnificent <code class="highlighter-rouge">float</code>.</p>
+
+<p>I see a lot of people complaining about <code class="highlighter-rouge">float</code> but they usually forget it saved our life a lot of times, mainly for grid systems. For me, the main problem about <code class="highlighter-rouge">float</code> is about the container element lose the height. And to fix that we have some <em>alternative solutions</em>.</p>
+
+<p>One of them is to use <code class="highlighter-rouge">overflow: hidden</code> on the container element and magically it recovers the height. But, on the other hand, if you have some specific design to do, it could be hard as we just hid everything that overflow the container.</p>
+
+<p>Other alternative is the famous <code class="highlighter-rouge">clearfix</code> solution: basically a simple technique that uses the <code class="highlighter-rouge">:after</code> pseudoelement to <em>clear</em> the <code class="highlighter-rouge">float</code> flow. Something like:</p>
+
+<script src="https://gist.github.com/ae6c80efdaa34827bf055c1fd4f00aec.js"> </script>
+
+<h2 id="the-new-float-solution">The new float solution</h2>
+
+<script src="https://gist.github.com/786077683955be9793a5288b4ae43469.js"> </script>
+
+<p>This is awesome! And according to docs:<em>It always establishes a new block formatting context for its contents.</em> <a href="https://caniuse.com/#feat=flow-root">The support is not so good yet</a>, but we can test/use in some browsers already.</p>
+:ET

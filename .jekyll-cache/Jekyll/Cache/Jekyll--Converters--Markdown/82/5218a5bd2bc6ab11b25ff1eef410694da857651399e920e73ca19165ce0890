@@ -1,0 +1,18 @@
+I"�<p>O carinha <em>spread</em> nos permite extrair/expandir dados de um array agilizando a nossa vida. Confuso? Acho que não consegui explicar. Vamos à prática. Imaginemos os seguintes arrays:</p>
+
+<script src="https://gist.github.com/4b303e0c106e0e66fceefad0ec9535b2.js"> </script>
+
+<p>Se tivéssemos que adicionar os novos <em>lutadores</em> ao <em>array</em> principal, poderíamos tentar algo assim:</p>
+
+<script src="https://gist.github.com/f72ade99d07e090e372ba1da797463c1.js"> </script>
+
+<p>Adicionou mas não ficou do jeito que queríamos. Teríamos então que tratar isso antes, algo mais ou menos assim:</p>
+
+<script src="https://gist.github.com/8b1589c552ebc70f6f7cbc0365027353.js"> </script>
+
+<p>O operador <em>spread</em> chega <em>chutando a porta</em> e deixando tudo bonitão.</p>
+
+<script src="https://gist.github.com/c08fba8139fa4a17f781084e16f80959.js"> </script>
+
+<p><a href="http://jsbin.com/cubiko/edit?js,console">Aqui</a> você encontra um JS Bin com os exemplos acima.</p>
+:ET

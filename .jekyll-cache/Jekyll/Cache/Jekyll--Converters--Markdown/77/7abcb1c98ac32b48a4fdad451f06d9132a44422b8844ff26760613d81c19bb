@@ -1,0 +1,48 @@
+I"�<p>As <em>arrow functions</em> a princípio podem parecer confusas (experiência própria <em>(◕︵◕)</em>), mas depois de um tempo, é possível entender sua sintaxe mais curta e a mágica do escopo do <code class="highlighter-rouge">this</code>.</p>
+
+<h2 id="vários-parâmetros">Vários parâmetros</h2>
+
+<p>Sem <em>arrow functions</em>.</p>
+
+<script src="https://gist.github.com/626c4a6b56ad2b62cbe4e0a7fe40716a.js"> </script>
+
+<p>Com <em>arrow functions</em>.</p>
+
+<script src="https://gist.github.com/844f96371b682d794e1ca80dd21c7a21.js"> </script>
+
+<p>Ou de uma maneira um pouco mais curta.</p>
+
+<script src="https://gist.github.com/8f4db1cf3552cc6dbcb21ebb066ce8db.js"> </script>
+
+<h2 id="apenas-um-parâmetro">Apenas um parâmetro</h2>
+
+<p>Sem <em>arrow functions</em>.</p>
+
+<script src="https://gist.github.com/a7c3c0afabebd5d052145e7ff9041261.js"> </script>
+
+<p>Com <em>arrow functions</em>.</p>
+
+<script src="https://gist.github.com/44471c6936134258786e1c49ae70293a.js"> </script>
+
+<h2 id="escopo">Escopo</h2>
+
+<p>Sem <em>arrow functions</em>.</p>
+
+<script src="https://gist.github.com/c7428936b07a20bdee21b06246c98277.js"> </script>
+
+<p>Com <em>arrow functions</em>.</p>
+
+<script src="https://gist.github.com/135be9697afeda35c0fe965dd557cb14.js"> </script>
+
+<h2 id="exemplo-com-map">Exemplo com <code class="highlighter-rouge">map</code></h2>
+
+<p>Sem <em>arrow functions</em>.</p>
+
+<script src="https://gist.github.com/5d019f714f6bd025cc9a5b3764f659b7.js"> </script>
+
+<p>Com <em>arrow functions</em>.</p>
+
+<script src="https://gist.github.com/0e54e7876eebb048034d0c40d16a61f8.js"> </script>
+
+<p><a href="http://jsbin.com/nogobe/edit?js,console">Aqui</a> você encontra um JS Bin com os exemplos acima.</p>
+:ET

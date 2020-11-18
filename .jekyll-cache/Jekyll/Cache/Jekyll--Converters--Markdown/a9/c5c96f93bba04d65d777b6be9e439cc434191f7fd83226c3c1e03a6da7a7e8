@@ -1,0 +1,60 @@
+I"�<p>Conheci o grande <em>destructuring assignment</em> através do meu brother <a href="https://twitter.com/_weslleyaraujo">Weslley Araujo</a>, e confesso que achei coisa linda. Ele nada mais é que uma expressão que nos permite <em>pegar</em> dados de <em>objetos</em> ou <em>arrays</em> de uma maneira bem mais simples.</p>
+
+<p>Para pegarmos uma propriedade de um objeto, poderíamos fazer algo assim:</p>
+
+<script src="https://gist.github.com/eb197d540533622a63ce90c26bd725bd.js"> </script>
+
+<p>Com o mano novo, podemos fazer algo assim:</p>
+
+<script src="https://gist.github.com/7a17dc39fcc58c42fe407e343900dc82.js"> </script>
+
+<h2 id="com-arrays">Com arrays</h2>
+
+<p>Se quiséssemos, por exemplo, pegar o primeiro item do <code class="highlighter-rouge">array</code>, poderíamos fazer algo do tipo:</p>
+
+<script src="https://gist.github.com/5d04833fa61c5e9bbbe1685f8e163ad5.js"> </script>
+
+<p>Com o mano <em>destructuring</em>, podemos fazer algo assim:</p>
+
+<script src="https://gist.github.com/2271f2f884142224df2b1b040d9dbbc8.js"> </script>
+
+<p>Ainda é possível, brincar um pouco mais:</p>
+
+<script src="https://gist.github.com/d5cd3bfec872d581a0e87d2836115649.js"> </script>
+
+<h2 id="usando-ao-importar-arquivos">Usando ao importar arquivos</h2>
+
+<p>Uma coisa muito legal de se usar o <em>mano</em> <strong>destructuring assignment</strong> é quando precisamos importar <em>coisas</em> para os nossos arquivos. Imaginemos que tenhamos um arquivo genérico, como um arquivo <em>helpers</em>, algo mais ou menos assim:</p>
+
+<script src="https://gist.github.com/fea8d5b641ddfca3676a4c0dca5e1ddb.js"> </script>
+
+<p>Legal! Agora em um outro arquivo, vamos imaginar que só iremos precisar dessas duas funções, e não do arquivo inteiro. Podemos fazer algo assim:</p>
+
+<script src="https://gist.github.com/009dda7f95d0ce2399613469cef4e117.js"> </script>
+
+<h2 id="aplicando-ao-foreach">Aplicando ao <code class="highlighter-rouge">forEach</code></h2>
+
+<p>Podemos também utilizar no famoso <code class="highlighter-rouge">forEach</code>. Imaginemos que tenhamos o seguinte cara:</p>
+
+<script src="https://gist.github.com/5d3357bc4414754bc542dbb597535432.js"> </script>
+
+<p>Com isso, poderíamos fazer algo assim:</p>
+
+<script src="https://gist.github.com/0f6bf72833c65ebc62c165c367cbf3ae.js"> </script>
+
+<p>Utilizando um combo de <a href="/es6-arrow-functions">arrow-functions</a> e <em>destructuring</em>, poderíamos fazer algo assim:</p>
+
+<script src="https://gist.github.com/2abae3213f2d8e50f263618f2276642c.js"> </script>
+
+<h2 id="criando-objetos">Criando objetos</h2>
+
+<p>Podemos criar um objeto assim:</p>
+
+<script src="https://gist.github.com/ca845aa1bf2787f1e938ba74bf4b8022.js"> </script>
+
+<p>Dá pra ficar mais legal. <em>◕‿◕</em></p>
+
+<script src="https://gist.github.com/9bbee4b1a5352c57573b3bbb45118499.js"> </script>
+
+<p><a href="http://jsbin.com/qejoyo/edit?js,console">Aqui</a> você encontra um JS Bin com os exemplos acima.</p>
+:ET

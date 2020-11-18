@@ -1,0 +1,113 @@
+I"� <p>Você testa seu código <strong>JS</strong>?  Se a resposta foi não, nunca é tarde pra começar. Não vou me alongar aqui falando o porque tanta gente fala de fazer testes, existem milhares de posts sobre isso. Vou direto ao assunto: o brother <em>Jasmine</em>.</p>
+
+<h2 id="o-tal-do-jasmine">O tal do <strong>Jasmine</strong></h2>
+
+<p><strong>Jasmine</strong> é um framework <em>behavior-driven development</em> para testar nossos paranauês em <em>JavaScript.</em> Uma das coisas legais que particularmente achei dele é que a sintaxe é bem intuitiva o que faz com que escrever testes se torne uma tarefa fácil.</p>
+
+<h3 id="na-prática">Na prática..</h3>
+
+<p>Mostrar na prática é bem melhor que só teoria. Então vamos lá.. Primeiro faça o download da <a href="https://github.com/jasmine/jasmine/releases">última versão do Jasmine</a> (recomendo seguir o <a href="https://github.com/jasmine/jasmine#installation">passo a passo deles no GitHub</a>, super tranquilo).</p>
+
+<p>Pra essa brincadeira criei duas pastas: uma com o nome <code class="highlighter-rouge">jasmine</code> onde joguei todos os arquivos do <em>framework</em> e outra chamada <code class="highlighter-rouge">hello</code> onde vamos jogar os arquivos desse primeiro exemplo rápido. Dentro dessa pasta vamos criar uma pasta chamada <code class="highlighter-rouge">spec</code> onde deixaremos os arquivos relacionados aos testes. Nossa pasta <code class="highlighter-rouge">hello</code> seria assim:</p>
+
+<ul>
+  <li><em>hello.js</em> =&gt; nossa mágica;</li>
+  <li><em>spec/index.html</em> =&gt; para podermos visualizar o resultado dos nossos testes;</li>
+  <li><em>spec/hello.spec.js</em> =&gt; nossos testes.</li>
+</ul>
+
+<p>E a estrutura completa ficaria assim:</p>
+
+<script src="https://gist.github.com/1313a915f45ebcbcfd84f815813a2db9.js"> </script>
+
+<p><strong>Um adendo:</strong> essa foi uma organização só a fim de exemplo.</p>
+
+<p>Então temos nosso menino <code class="highlighter-rouge">spec/index.html</code>:</p>
+
+<script src="https://gist.github.com/1804dffb87943bdf8f2148f8b99c0cdd.js"> </script>
+
+<p>Aí temos um exemplo simples de arquivo <code class="highlighter-rouge">JavaScript</code>:</p>
+
+<script src="https://gist.github.com/9ffbcf759aa578a9d23763f0c44bbb1d.js"> </script>
+
+<p>Observando o arquivo anterior, conseguimos já visualizar o que acontece certo? Mentalmente já esperamos que ao criarmos um <strong>objeto</strong> utilizando <code class="highlighter-rouge">Hello</code> e chamarmos o <strong>método</strong> <code class="highlighter-rouge">sayHy</code>, deve-se retornar uma <strong>string</strong> específica com o <strong>argumento</strong> que passarmos.</p>
+
+<p>Passando pra parte testável da coisa. Vamos lá, poderíamos implementar nosso teste assim:</p>
+
+<script src="https://gist.github.com/d28a0c3976b88646396eeda691388fa9.js"> </script>
+
+<p>Destrinchando nosso arquivo de teste:</p>
+
+<ul>
+  <li><code class="highlighter-rouge">describe</code> =&gt; é o que chamamos de <em>suite</em>. Seu nome, no caso <em>Hello</em>, geralmente define um componente da sua aplicação (pode ser uma <em>classe</em>, uma função ou qualquer outra coisa). Aceita 2 argumentos: uma <em>string</em> que é o nome da <em>suite</em> e uma função que é o bloco de código que implementamos o teste.</li>
+  <li><code class="highlighter-rouge">it()</code> =&gt; resumidamente é uma função que diz o que um pequeno pedaço do seu componente deve fazer. No exemplo, demos uma descrição do teste (<em>says my name</em>), e esperamos (analogia com o <em>expect</em>) que o método <code class="highlighter-rouge">sayHi</code>, quando chamado com o argumento <em>Fabeni</em>, retorne uma determinada <em>string</em> (<em>my name is Fabeni and I’m learning Jasmine!</em>).</li>
+</ul>
+
+<p>Poderíamos também mudar algumas coisas na organização do código e adicionarmos a função <code class="highlighter-rouge">beforeEach</code>:</p>
+
+<script src="https://gist.github.com/05b6347183553c3ddf81b25f293950cd.js"> </script>
+
+<p>A função <code class="highlighter-rouge">beforeEach</code> como o próprio nome diz, roda uma vez antes de cada <code class="highlighter-rouge">spec</code> do <code class="highlighter-rouge">describe</code> e, também existe o <code class="highlighter-rouge">afterEach</code> que tem o papel inverso e roda uma vez depois de cada <code class="highlighter-rouge">spec</code>.</p>
+
+<p>Se abrirmos nosso <code class="highlighter-rouge">index.html</code> para rodarmos nossos testes, teremos algo assim:</p>
+
+<figure class="loading">
+    <img src="https://cloud.githubusercontent.com/assets/1345662/11458112/851b776a-96a0-11e5-9702-2a887ca36753.png" alt="Print da tela mostrando que o teste passou" />
+    <figcaption>Nosso teste passou! \o/</figcaption>
+</figure>
+
+<p>É possível também usar o <em>Jasmine</em> para fazer testes em aplicações com <em>Node.js</em> através do <a href="https://github.com/mhevery/jasmine-node">Jasmine Node</a>. Depois de instalado, precisaríamos fazer pequenos ajustes no nosso código para testá-lo:</p>
+
+<p>Nosso arquivo <code class="highlighter-rouge">hello.js</code> ficaria assim:</p>
+
+<script src="https://gist.github.com/14451fa6ba86d9484a7e0724ec286dc3.js"> </script>
+
+<p>E nosso arquivo de testes <code class="highlighter-rouge">hello.spec.js</code> ficaria assim:</p>
+
+<script src="https://gist.github.com/ec699d7a7f35753b89a4376c50331148.js"> </script>
+
+<p>Eaí é só rodarmos nosso teste via terminal:</p>
+
+<figure class="loading">
+  <img src="https://cloud.githubusercontent.com/assets/1345662/11458110/85197528-96a0-11e5-97a2-c6dfed6589d2.gif" alt="Gif animado mostrando o teste do jasmine node" />
+</figure>
+
+<h2 id="testes-antes">Testes antes?</h2>
+
+<p>No exemplo anterior primeiro desenvolvemos nosso código e depois escrevemos nosso teste. No <em>TDD</em> ocorre o inverso: primeiro escreveríamos os testes e depois o nosso código. Achou estranho? Vamos tentar brincar.</p>
+
+<p>Comecemos de algo básico: imagine que queremos ter uma função simples que aceita 2 números como argumentos e nos retorna o resultado da adição de ambos. Poderíamos fazer um teste simples assim:</p>
+
+<script src="https://gist.github.com/37a5c6a5cd391643af20efecd1ed6268.js"> </script>
+
+<p>No teste acima, quebramos nosso componente em 2 testes específicos:</p>
+
+<ul>
+  <li>primeiro esperamos que ao passarmos os números <em>5</em> e <em>3</em>, ele nos retorne <em>8</em>, fazendo a soma normalmente.</li>
+  <li>segundo, esperamos que se apenas um argumento for passado, esse argumento seja somado a ele mesmo, ou seja, se apenas o número <em>5</em> for passado, o resultado deve ser <em>10</em>, vindo da operação <em>5 + 5</em>.</li>
+</ul>
+
+<p><strong>Obs.:</strong> Poderíamos ter mais um monte de testes, como verificar se o argumento passado é realmente um número, mas deixemos apenas esses 2 para o exemplo.</p>
+
+<p>Tendo isso em mente, podemos partir pro nosso código:</p>
+
+<script src="https://gist.github.com/c36997a8b364e113d947793fc2fb8b33.js"> </script>
+
+<p>Com certeza, de cara já poderíamos imaginar algo assim certo? No entanto como é de se esperar isso vai nos retornar um erro quando rodarmos os testes.</p>
+
+<figure class="loading">
+  <img src="https://cloud.githubusercontent.com/assets/1345662/11458111/851a90d4-96a0-11e5-919b-322f79dcc44c.png" alt="Print da tela mostrando que os testes quebraram" />
+</figure>
+
+<p>Nossos testes quebraram e conseguimos ver exatamente onde: <em>Calc 1 argument - should calculate the addition using the argument twice</em>. Isso acontece pois não fizemos nenhum tratamento na nossa função caso recebessemos apenas um argumento. Vamos lá então:</p>
+
+<script src="https://gist.github.com/e6a949aca6edf5b102ea96f578cab27b.js"> </script>
+
+<p>Agora se rodarmos os testes novamente:</p>
+
+<figure class="loading">
+  <img src="https://cloud.githubusercontent.com/assets/1345662/11458109/8519037c-96a0-11e5-8e85-2c36af470449.png" alt="Print da tela mostrando que os testes passaram" />
+</figure>
+
+<p>Acho que é isso. No próximo post, vou tentar escrever um pouco sobre os <em>matchers</em> do <em>Jasmine</em> que é uma outra parte bem legal do framework. Deixo aqui meu <strong>valeu</strong> ao <a href="https://twitter.com/_weslleyaraujo">Weslley Araujo</a> pela revisão do conteúdo!</p>
+:ET

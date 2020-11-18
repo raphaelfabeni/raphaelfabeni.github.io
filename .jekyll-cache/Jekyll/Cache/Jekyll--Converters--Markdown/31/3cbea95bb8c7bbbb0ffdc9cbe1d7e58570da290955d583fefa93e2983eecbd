@@ -1,0 +1,37 @@
+I"<p>CSS é fácil de aprender? A princípio muitos dirão que sim, principalmente pela sua facilidade e a possibilidade de se ver rapidamente o que se está fazendo. No entanto, <em>como nem tudo na vida são flores</em>, é claro que existem os pontos negativos e, quando falamos nisso, um dos principais pontos são a manutenção/organização do CSS.</p>
+
+<p>Abrir um arquivo e sair escrevendo CSS é muito fácil e rápido, porém dar manutenção, organizá-lo e escalá-lo não são coisas triviais. Conforme seu projeto cresce, a tendência de você começar a perder a paciência com CSS ou de <em>quebrar janelas</em> vai ficando cada vez maior. Uma boa dica de leitura pra esse assunto é o artigo <a href="https://medium.com/@shankarcabus/css-escalavel-parte-1-41e7e863799e#.4hmtk7tuv">CSS escalável</a> do <a href="https://twitter.com/shankarcabus?lang=pt">Shankar Cabus</a>.</p>
+
+<h2 id="bem-css">BEM css</h2>
+
+<p>Existem diversas alternativas/pensamentos/metodologias que tentam corrigir e auxiliar nessa questão de como organizar e estruturar o CSS de um projeto. Uma delas é o <strong>BEM</strong> (<em>Block Element Modifier</em>), que foi criado pelo pessoal do <strong>Yandex</strong>, um site de buscas russo.</p>
+
+<p>Como pode-se notar a idéia básica é termos três itens:</p>
+
+<ul>
+  <li><em>bloco</em> =&gt; pode-se dizer que seria relativo a um componente.</li>
+  <li><em>elemento</em> =&gt; parte(s) que forma(m) um bloco;</li>
+  <li><em>modificador</em> =&gt; estado de um dos dois itens anteriores.</li>
+</ul>
+
+<p>Ahn?! Imaginemos uma lista de itens, com um item ativo, algo mais ou menos assim:</p>
+
+<script src="https://gist.github.com/d0160a9ac2a44f687c16a936c4ce7794.js"> </script>
+
+<script src="https://gist.github.com/0cff30a4a26cd400ff465c86f3326cf0.js"> </script>
+
+<p>Aplicando o <em>BEM</em>, teríamos algo assim:</p>
+
+<script src="https://gist.github.com/891e8543949e0669cc81978e21942d13.js"> </script>
+
+<script src="https://gist.github.com/64909d9f695c856d4483bb5b305afc4e.js"> </script>
+
+<p>Confesso que há algum tempo atrás quando conheci o <strong>BEM</strong> fui influenciado pelo <em>pré</em>conceito e achei muito estranho/feio usar esses <code class="highlighter-rouge">__</code> e <code class="highlighter-rouge">--</code>. Mas, agora, mais por dentro da idéia, posso admitir que me convenceu. Claro, que como qualquer outro pensamento/metodologia, existem seus pontos negativos e positivos e cabe a ti, dar a palavra final.</p>
+
+<p>Algumas coisas que percebi com a utilização do <strong>BEM</strong> (mas são apenas minhas opiniões):</p>
+
+<ul>
+  <li>Fácil percepção <em>das coisas</em>: batendo o olho rapidamente ou na marcação HTML ou no CSS, é possível entender o que cada coisa faz.</li>
+  <li>Mais fácil de reutilizar <em>componentes</em>.</li>
+</ul>
+:ET

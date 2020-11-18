@@ -1,0 +1,34 @@
+I""<p>A <em>keyword</em> <code class="highlighter-rouge">let</code> permite criarmos escopos de bloco no JavaScript. Sem muito <em>bláblá</em>, vamos direto ao ponto.</p>
+
+<h2 id="escopo-de-bloco">Escopo de bloco</h2>
+
+<p>Utilizando <code class="highlighter-rouge">var</code>.</p>
+
+<script src="https://gist.github.com/601c1522707571c103a1a22325493867.js"> </script>
+
+<p>Utilizando <code class="highlighter-rouge">let</code>.</p>
+
+<script src="https://gist.github.com/b70e636ba5819f968151ad152067c8e4.js"> </script>
+
+<h2 id="loops">Loops</h2>
+
+<p>Utilizando <code class="highlighter-rouge">var</code>.</p>
+
+<script src="https://gist.github.com/a6dd4054ee2eb308eee13f9f7a5a807c.js"> </script>
+
+<p>Utilizando <code class="highlighter-rouge">let</code>.</p>
+
+<script src="https://gist.github.com/c5f2e77dc249402ac1a253f134e48605.js"> </script>
+
+<h2 id="variáveis-duplicadas">Variáveis duplicadas</h2>
+
+<p>Utilizando <code class="highlighter-rouge">var</code>.</p>
+
+<script src="https://gist.github.com/55e955bb302221ffb4ed5caa12039f38.js"> </script>
+
+<p>Utilizando <code class="highlighter-rouge">let</code>.</p>
+
+<script src="https://gist.github.com/a461fe56e0434b711735b196fb3db0b3.js"> </script>
+
+<p><a href="https://jsbin.com/nifetib/edit?js,console">Aqui</a> você encontra um JS Bin com os exemplos acima.</p>
+:ET

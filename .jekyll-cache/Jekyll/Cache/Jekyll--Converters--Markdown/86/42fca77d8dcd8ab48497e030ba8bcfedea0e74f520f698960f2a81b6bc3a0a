@@ -1,0 +1,75 @@
+I"�<p>Há algum tempo atrás, escrevi umas groselhas sobre <em>Jasmine</em>: <a href="/brincando-com-jasmine">um post foi mais uma introdução sobre o framework</a> e o <a href="/jasmine-entendendo-matchers">outro post foi sobre os matchers que o Jasmine nos oferece</a>.</p>
+
+<h2 id="o-que-são-os-spies">O que são os <code class="highlighter-rouge">spies</code>?</h2>
+
+<p>Basicamente quando usamos <em>Jasmine</em> especificamos nos testes como nosso código deve (ou deveria) funcionar. Ao usar um <code class="highlighter-rouge">spy</code> conseguimos fazer com que ele <em>fique de olho</em> em partes do nosso programa, assim essa parte pode ser substituída por um <code class="highlighter-rouge">spy</code> (que pode ser uma <em>função</em> ou <em>objeto</em>). Assim, conseguimos testar se determinada função está sendo chamada e se está sendo chamada com os argumentos esperados. Confuso? Vamos lá…</p>
+
+<p>Imagine que temos uma brincadeira assim:</p>
+
+<script src="https://gist.github.com/e0900d75e1f3076ce782b452d0d904c0.js"> </script>
+
+<p>Acima, temos um construtor de <em>sanduíche ¯\_(ツ)_/¯</em> e dois métodos: um que vai adicionar ingredientes ao nosso sanduíche e outro que irá retornar a lista com os ingredientes do sanduíche super gostoso.</p>
+
+<p>Agora, como testamos pra saber se os métodos estão funcionando do jeito que esperamos? Podemos começar com algo assim:</p>
+
+<script src="https://gist.github.com/cda8e014105855a9b690e6474e60c6da.js"> </script>
+
+<p>O que fizemos no código acima foi o seguinte:</p>
+
+<ul>
+  <li>criamos uma variável <code class="highlighter-rouge">fabeni</code>;</li>
+  <li>através do nosso <code class="highlighter-rouge">beforeEach</code>, antes de cada <code class="highlighter-rouge">spec</code> é criado um novo <code class="highlighter-rouge">Sandwich</code> e atrelado à <code class="highlighter-rouge">fabeni</code>;</li>
+  <li>criamos um <code class="highlighter-rouge">spy</code> no método <code class="highlighter-rouge">addIngredient</code>,  para ser utilizado nas <em>specs</em> (através do <code class="highlighter-rouge">spyOn</code>, passamos como primeiro parâmetro o objeto relacionado e como segundo parâmetro o método que vamos espionar);</li>
+  <li>adicionamos 2 ingredientes no <em>sanduíche</em> através do método <code class="highlighter-rouge">addIngredient</code>;</li>
+  <li>criamos uma primeira <code class="highlighter-rouge">spec</code> que <em>espera</em> que o método <code class="highlighter-rouge">addIngredient</code> tenha sido chamado (através do <em>matcher</em> <code class="highlighter-rouge">toHaveBeenCalled()</code>).</li>
+</ul>
+
+<p>Assim, se rodarmos nosso teste, vamos ver que ele passou, ou seja, o método <code class="highlighter-rouge">addIngredient</code> está sendo chamado perfeitamente.</p>
+
+<figure class="loading">
+    <img src="https://cloud.githubusercontent.com/assets/1345662/11457980/ab42d886-969e-11e5-8e52-ba892aef800a.png" alt="Print da tela mostrando que o teste passou" />
+</figure>
+
+<p>Agora, se quisermos verificar se esse mesmo método está sendo chamado com os argumentos corretos poderíamos adicionar a seguinte <em>spec</em>:</p>
+
+<script src="https://gist.github.com/5517f832e13baa3817628a8395dd074f.js"> </script>
+
+<p>Nessa nova <em>spec</em> utilizamos do <em>matcher</em> <code class="highlighter-rouge">toHaveBeenCalledWith()</code> com o argumento que esperamos que tenha sido chamado (conforme a chamada que fizemos no <code class="highlighter-rouge">beforeEach</code>). Feito isso, ao rodarmos nossos testes:</p>
+
+<figure class="loading">
+    <img src="https://cloud.githubusercontent.com/assets/1345662/11457981/ab4446d0-969e-11e5-823b-286b2deb0db7.png" alt="Print da tela mostrando que o teste passou" />
+</figure>
+
+<p>Resumidamente o <code class="highlighter-rouge">spyOn</code> substitui a função, interceptando assim as suas chamadas e acompanhando algumas informações importantes sobre ela para utilizarmos em nossas <em>specs</em>. Aí temos um ponto a se considerar: dessa maneira perdemos as capacidades da função original. Para resolver isso podemos usar o <code class="highlighter-rouge">andCallThrough()</code>. Vamos lá:</p>
+
+<script src="https://gist.github.com/5b679d86b7a6b2d35cf8d846b9fd8037.js"> </script>
+
+<p>Acima, apenas preparamos o terreno:</p>
+
+<ul>
+  <li>criamos duas variáveis <code class="highlighter-rouge">fabeni</code> e <code class="highlighter-rouge">fabeniBurger</code>;</li>
+  <li>novamente utilizamos o <code class="highlighter-rouge">beforeEach</code> para fazermos algumas coisas antes de cada <em>spec</em>;</li>
+  <li>criamos um <code class="highlighter-rouge">spy</code> no método <code class="highlighter-rouge">addIngredient</code>,  para ser utilizado nas <em>specs</em> e encadeamos o <code class="highlighter-rouge">.and.callThrough()</code> para transmitirmos as chamadas a ele através da função original;</li>
+  <li>adicionamos 2 ingredientes no <em>sanduíche</em> através do método <code class="highlighter-rouge">addIngredient</code>;</li>
+  <li>referenciamos em <code class="highlighter-rouge">fabeniBurger</code> o valor de retorno do método <code class="highlighter-rouge">mySandwich()</code> de <code class="highlighter-rouge">fabeni</code>.</li>
+</ul>
+
+<p>Com isso então, podemos criar nossas <em>specs</em>:</p>
+
+<script src="https://gist.github.com/46ddec6e195ad4cfd82c3201a09a2d6e.js"> </script>
+
+<p>No exemplo acima, criamos duas <em>specs</em>:</p>
+
+<ul>
+  <li>a primeira simplesmente verifica se o método <code class="highlighter-rouge">mySandWich</code> foi chamado;</li>
+  <li>e a segunda verifica se o valor retornado desse mesmo método (no caso referenciado na variável <code class="highlighter-rouge">fabeniBurger</code>) é igual ao que esperamos (de acordo com o que foi <em>setado</em> no <code class="highlighter-rouge">beforeEach</code>).</li>
+</ul>
+
+<p>Aí é só rodarmos nossos testes:</p>
+
+<figure class="loading">
+    <img src="https://cloud.githubusercontent.com/assets/1345662/11457979/ab42215c-969e-11e5-81a4-0652003ae440.png" alt="Print da tela mostrando que o teste passou" />
+</figure>
+
+<p>Valeu ao grande <a href="https://twitter.com/_weslleyaraujo">Weslley Araujo</a> pela ajuda na revisão do post.</p>
+:ET

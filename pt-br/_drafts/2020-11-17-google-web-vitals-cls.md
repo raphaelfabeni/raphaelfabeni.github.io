@@ -4,15 +4,14 @@ type: Post
 lang: pt-br
 title: 'Google Web Vitals: CLS'
 category: user-experience
-description: Entenda um pouco mais sobre CLS, uma das novas métricas do Google Web
-  Vitals.
-date: 
+description: Entenda um pouco mais sobre CLS, uma das novas métricas do Google Web Vitals.
+date: 2020-11-17
 image: https://user-images.githubusercontent.com/1345662/99195028-37fb9180-2751-11eb-9551-a40efe970757.jpg
 alt: Foto tirada de um drone de uma estrada com neve.
-permalink: google-web-vitals-cls
+permalink: google-web-vitals-cls/
 ref: web-vitals-cls
-
 ---
+
 Há algum tempo o Google lançou uma iniciativa chamada _Web Vitals_ que tem como objetivo principal fornecer métricas para que possamos melhorar a optimizar a qualidade das nossas aplicações web. Até aí, tudo certo né? Nada muito diferente do velho e famoso _Lighthouse_. Pois é, o pulo do gato aqui é que eles começaram a levar a **experiência do usuário em conta**.
 
 Senão me engano, recentemente o Google ainda anunciou que vai considerar essas métricas como um dos fatores que podem influenciar no rankeamento das páginas a partir de maio de 2021. Para um contexto maior, o [web.dev](https://web.dev/) define _Web Vitals_ da seguinte maneira:

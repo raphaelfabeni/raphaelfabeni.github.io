@@ -1,0 +1,26 @@
+I"�<figure class="thumb-right loading">
+    <img src="https://cloud.githubusercontent.com/assets/1345662/14282421/9b6c48c2-fb14-11e5-8823-08ce793e60e1.png" alt="Print de prevenção de erro do usuário no Gmail, onde ao escrever a palavra anexo no corpo de texto e tentar enviar o e-mail, o Gmail alerta sobre um possível erro." />
+</figure>
+
+<p>Mesmo que você não tenha trabalhado ou trabalhe com tecnologia ou projetos digitais, o que for, pode já ter ouvido falar das <em>10 heurísticas de usabilidade de Jakob Nielsen</em>. Resumidamente são 10 itens para a avaliação da usabilidade de um site com o objetivo de evitar erros comuns.</p>
+
+<p>Um desses caras, e pra mim um dos mais legais, é o que aborda a questão da <em>prevenção de erros</em>. De forma direta: é ótimo existir uma mensagem de erro ou algo do tipo, mas imagina <em>que da hora</em> se pudéssemos evitar esses erros.</p>
+
+<p>Um que me veio na cabeça e que já me ajudou diversas vezes é ao escrever um e-mail no <em>Gmail</em>. Caso tenhamos escrito a palavra <em>anexo</em> no corpo do texto e tentarmos enviar o e-mail sem nenhum arquivo anexo, um <em>alerta</em> é mostrado, perguntando se talvez tenhamos esquecido de anexar o arquivo.</p>
+
+<p>Partindo desse pensamento, podemos viajar e pensar em várias coisas legais, principalmente quando lidamos com formulários e diversas validações.</p>
+
+<h2 id="indo-mais-além">Indo mais além</h2>
+
+<p>Até aí falamos principalmente de ações quase que em tempo real, onde o usuário realiza determinada ação e o sistema já responde imediatamente, seja evitando o erro ou conduzindo o usuário para o caminho certo.</p>
+
+<p>Mas e se pensarmos a longo prazo, quando temos por exemplo, já alguns usuários cadastrados em um sistema, app, o que for. Será que não conseguimos preveni-los de possíveis ações a serem feitas? <em>Ahn?! O que você tá falando cara?</em></p>
+
+<p>Vamos lá, nada melhor que exemplificar com um caso real e que aconteceu comigo na semana passada. Utilizo um aplicativo que pede o cadastro de alguns documentos. Ao cadastrar alguns deles, é necessário colocar uma <em>data de vencimento</em> relacionada ao documento. Até aí tudo bem. No entanto, acredito que já tenha acontecido com a maioria das pessoas, de esquecer uma possível data de vencimento ou de se atentar a ela, próxima do dia.</p>
+
+<p>Resumindo: um dos documentos venceu e não percebi. Aí um belo dia fui tentar utilizar o aplicativo e não consegui justamente por isso. Atualizei o documento na hora, pois já tinha a nova versão, só não tinha cadastrado ainda. No entanto, não consegui usar o aplicativo pois demorou um tempo até que a ação do cadastro fosse validada.</p>
+
+<p><strong>Mas o erro foi seu, não do aplicativo.</strong> Sim, sem dúvidas. Mas, e se fôssemos um passo a frente? Já que o usuário é obrigado a colocar uma <em>data de vencimento</em>, não seria possível avisá-lo quando essa data estivesse próxima, melhorando assim um pouco a experiência? <em>Ei fulano, percebemos que seu documento está próximo da data de vencimento. Atualize-o e continue a usar nosso serviço.</em> Sei lá, algo do tipo, pra tentar passar a idéia de que o aplicativo/serviço está preocupado em manter os dados atualizados.</p>
+
+<p>Pode ser uma viagem minha com certeza, pois de fato o erro de não atualizar o documento foi meu, mas eu fiquei extremamente <em>p…</em> com a situação e a primeira coisa que pensei foi: <em>“Pô, eles não podiam ter me avisado?”</em></p>
+:ET
