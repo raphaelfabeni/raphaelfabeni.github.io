@@ -23,4 +23,11 @@ Uma dessas métricas é chamada **CLS** (**c**umulative **l**ayout **s**hift) e 
 
 ## Entendendo o CLS
 
-De uma forma bem clara, a métrica _CLS_ é totalmente relacionada à **estabilidade visual**. Um exemplo clássico que você provavelmente já presenciou e quis jogar o celular no chão ou dar um soco na tela (ok, exagerei!): você está lendo um artigoo e **do nada a tela dá aquela sambada**, e você precisa achar onde estava. Isso acontece, geralmente porque algum conteúdo, localizado entre partes do texto que você estava lendo, terminou de ser carregado e **por não ter um tamanho prévio definido**, empurrou parte do conteúdo para baixo.
+De uma forma bem clara, a métrica _CLS_ é totalmente relacionada à **estabilidade visual**. Um exemplo clássico que você provavelmente já presenciou e quis jogar o celular no chão ou dar um soco na tela (ok, exagerei!): você está lendo um artigoo e **do nada a tela dá aquela sambada**, e você precisa achar onde estava. Isso acontece, geralmente porque algum conteúdo, localizado entre partes do texto que você estava lendo, terminou de ser carregado e **por não ter um tamanho prévio definido**, empurrou parte do conteúdo para baixo.  
+
+<figure>
+<video autoplay="" controls="" loop="" muted="" class="w-screenshot" poster="https://storage.googleapis.com/web-dev-assets/layout-instability-api/layout-instability-poster.png" width="658" height="510">
+    <source src="https://storage.googleapis.com/web-dev-assets/layout-instability-api/layout-instability2.webm" type="video/webm; codecs=vp8">
+    <source src="https://storage.googleapis.com/web-dev-assets/layout-instability-api/layout-instability2.mp4" type="video/mp4; codecs=h264">
+  </video>
+</figure>
