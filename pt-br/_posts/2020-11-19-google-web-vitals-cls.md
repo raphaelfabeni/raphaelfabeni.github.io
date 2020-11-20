@@ -6,12 +6,11 @@ title: 'Google Web Vitals: CLS'
 category: user-experience
 description: Entenda um pouco mais sobre CLS, uma das novas métricas do Google Web
   Vitals.
-date: 2020-11-17
+date: 2020-11-19
 image: https://user-images.githubusercontent.com/1345662/99195028-37fb9180-2751-11eb-9551-a40efe970757.jpg
 alt: Foto tirada de um drone de uma estrada com neve.
 permalink: google-web-vitals-cls/
 ref: web-vitals-cls
-published: false
 
 ---
 Há algum tempo o Google lançou uma iniciativa chamada _Web Vitals_ que tem como objetivo principal fornecer métricas para que possamos melhorar a optimizar a qualidade das nossas aplicações web. Até aí, tudo certo né? Nada muito diferente do velho e famoso _Lighthouse_. Pois é, o pulo do gato aqui é que eles começaram a levar a **experiência do usuário em conta**.
@@ -31,7 +30,7 @@ De uma forma bem clara, a métrica _CLS_ é totalmente relacionada à **estabili
 <source src="https://storage.googleapis.com/web-dev-assets/layout-instability-api/layout-instability2.webm" type="video/webm; codecs=vp8">
 <source src="https://storage.googleapis.com/web-dev-assets/layout-instability-api/layout-instability2.mp4" type="video/mp4; codecs=h264">
 </video>  
-<figcaption>Vídeo mostra uma pessoa clicando no botão errado devido à pagina web se mover (retirado do site web.dev).</figure>
+<figcaption>Vídeo mostra uma pessoa clicando no botão errado devido à pagina web se mover (retirado do site web.dev).</figcaption></figure>
 
 ## Evitando e corrigindo o CLS
 

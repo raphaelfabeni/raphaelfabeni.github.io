@@ -34,9 +34,13 @@ Basicamente o que vamos fazer é o seguinte: criar um elemento pra servir como *
 
 Eaí, podemos chegar em umas brincadeiras mais ou menos assim:
 
+<figure>
 <p data-height="483" data-theme-id="4240" data-slug-hash="zvEdRy" data-default-tab="result" data-user="raphaelfabeni" class='codepen'>See the Pen <a href='http://codepen.io/raphaelfabeni/pen/zvEdRy/'>CSS Snap Points</a> by Raphael Fabeni (<a href='http://codepen.io/raphaelfabeni'>@raphaelfabeni</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+</figure>
 
+<figure>
 <p data-height="434" data-theme-id="4240" data-slug-hash="RWLZBa" data-default-tab="result" data-user="raphaelfabeni" class='codepen'>See the Pen <a href='http://codepen.io/raphaelfabeni/pen/RWLZBa/'>CSS Snap Points</a> by Raphael Fabeni (<a href='http://codepen.io/raphaelfabeni'>@raphaelfabeni</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+</figure>
 
 Algumas referências e links legais:
 

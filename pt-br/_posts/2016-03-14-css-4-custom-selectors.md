@@ -23,7 +23,6 @@ O que fizemos acima foi armazenar todos os elementos `button` e `input[type="sub
 Com base nisso, podemos brincar um pouco mais e fazermos algo do tipo:
 
 {% gist a2e1df1af8383bd1b1b600aef619ecd4 %}
-```
 
 O que fizemos na brincadeira acima foi:
 
