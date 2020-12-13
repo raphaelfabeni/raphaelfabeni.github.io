@@ -41,6 +41,14 @@ Uma das _dores_ apontadas pelo time técnico nesse _novo normal_, foi o tempo ga
 
 ## Reuniões técnicas e não técnicas do time
 
+No Brasil, temos uma reunião voltada só para o time técnico chamada de _Weekly:_ a idéia é apresentar sobre algum tema, discutir algum tópico ou simplesmente juntar o time para bater um papo.
+
+Nos Estados Unidos, o time técnico já tinha uma reunião semanal agendada, mas com a pandemia, adicionamos algumas coisas novas. Entre reuniões técnicas e não técnicas, temos o seguinte:
+
+* **Happy Hours:** acontece três vezes na semana e tem a duração de 30 minutos. No nosso caso, fazemos mais para o final da tarde. É totalmente opcional e tentamos não falar sobre assuntos do trabalho.
+* **Show & Tell:** essa era uma reunião que o time já fazia. Como o próprio nome diz, tem como objetivo que uma pessoa do time apresente algo novo: seja algo que ela esteja estudando ou trabalhando. Acontece uma vez por semana durante uma hora.
+* **Live Coding Session:**
+
 ## Tarefas L&D
 
 Tentei procurar a melhor tradução parar _Learning and Development_ mas todas me soaram estranhas (aceito sugestões). Mas, enfim, esse tópico nada mais é do que garantir que as pessoas do time terão um espaço na _sprint_ (ou na semana, enfim, depende de como o seu time se organiza) para uma tarefa que é voltada totalmente para o desenvolvimento profissional da pessoa.
