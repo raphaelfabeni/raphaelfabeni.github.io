@@ -39,6 +39,10 @@ Uma das _dores_ apontadas pelo time técnico nesse _novo normal_, foi o tempo ga
 * para o time técnico porque é um canal único de comunicação, e todo o time (não só o técnico) fica ciente de possíveis novos tópicos, problemas, etc.
 * para o time de negócios porque agora uma possível dúvida não precisa ser respondida especificamente por uma pessoa do time técnico e, sim, por qualquer pessoa que esteja nesse canal.
 
-## Reuniões do time
+## Reuniões técnicas e não técnicas do time
 
 ## Tarefas L&D
+
+Tentei procurar a melhor tradução parar _Learning and Development_ mas todas me soaram estranhas (aceito sugestões). Mas, enfim, esse tópico nada mais é do que garantir que as pessoas do time terão um espaço na _sprint_ (ou na semana, enfim, depende de como o seu time se organiza) para uma tarefa que é voltada totalmente para o desenvolvimento profissional da pessoa.
+
+Geralmente, o tópico é discutido e acordado com o líder/gerente e está ligado ao próximo passo da pessoa na carreira ou a alguma tecnologia nova que a pessoa tem interesse em aprender e pode ser aplicada na realidade do time.
