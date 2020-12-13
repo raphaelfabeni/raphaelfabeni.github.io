@@ -4,10 +4,11 @@ type: Post
 lang: pt-br
 title: Cultura tech em tempos de pandemia
 category: dev-life
-description: ''
-date: 
-image: https://user-images.githubusercontent.com/1345662/99195028-37fb9180-2751-11eb-9551-a40efe970757.jpg
-alt: ''
+description: Pequenas mudanças que fizemos na rotina e cultura do time tech durante
+  a pandemia!
+date: 2020-12-13 22:00:00 +0000
+image: https://user-images.githubusercontent.com/1345662/102024962-ee5b9200-3d62-11eb-84d5-3a77c034f3c1.jpg
+alt: Mesa de trabalho com um notebook, uma luminária e um caderno.
 permalink: cultura-tech-pandemia/
 ref: cultura-tech-pandemia
 
@@ -47,7 +48,7 @@ Nos Estados Unidos, o time técnico já tinha uma reunião semanal agendada, mas
 
 * **Happy Hours:** acontece três vezes na semana e tem a duração de 30 minutos. No nosso caso, fazemos mais para o final da tarde. É totalmente opcional e tentamos não falar sobre assuntos do trabalho.
 * **Show & Tell:** essa era uma reunião que o time já fazia. Como o próprio nome diz, tem como objetivo que uma pessoa do time apresente algo novo: seja algo que ela esteja estudando ou trabalhando. Acontece uma vez por semana durante uma hora.
-* **Live Coding Session:**
+* **Live Coding Session:** adicionamos essa reunião para complementar a anterior. A idéia é trabalharmos juntos em algo dentro do projeto que seja um pouco mais complexo ou que talvez não seja um conhecimento tão compartilhado entre as pessoas do time. Tem um formato parecido com _pair programming_ e acontece uma vez por semana com duração de uma hora.
 
 ## Tarefas L&D
 
