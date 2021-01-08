@@ -1,18 +1,18 @@
 ---
 layout: post
-title:  "CSS level 4: matches selector"
-description: "Based on a list of arguments, selecting elements easier."
+title: 'CSS level 4: matches selector'
+description: Based on a list of arguments, selecting elements easier.
 type: Post
 date: 2016-03-07
-image: "https://cloud.githubusercontent.com/assets/1345662/13560552/4958f4e4-e3ff-11e5-8de4-20372d14ab0b.jpg"
-alt: "A wooden box full of nuts"
+image: https://cloud.githubusercontent.com/assets/1345662/13560552/4958f4e4-e3ff-11e5-8de4-20372d14ab0b.jpg
+alt: A wooden box full of nuts
 lang: en
-category: 'css'
-permalink: 'css-matches/'
-ref: 'css-seletor-matches'
----
+category: css
+permalink: css-matches/
+ref: css-seletor-matches
 
-CSS3 was already something really cool. Now, in version 4, or better saying, in *level 4*, as it will be divided from now, CSS has much more features. One of them is the `:matches` selector.
+---
+CSS3 was already something really cool. In version 4, or better saying, in _level 4_, as it will be divided from now, CSS has many more features. One of them is the `:matches` selector.
 
 Using it, we could substitute something like that:
 
