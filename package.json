@@ -70,7 +70,7 @@
     "image-min": "^0.3.2",
     "imagemin": "^5.3.1",
     "imagemin-cli": "^3.0.0",
-    "node-sass": "^3.13.1",
+    "node-sass": "^4.13.1",
     "postcss": "^5.0.14",
     "postcss-cli": "^2.5.0",
     "sass-lint": "^1.11.1",
