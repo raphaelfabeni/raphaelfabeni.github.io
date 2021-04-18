@@ -4,19 +4,11 @@ title: Thoughts | Raphael Fabeni
 description: 'Some stuff I wrote on Twitter.'
 lang: en
 ---
-<a href="https://twitter.com/raphaelfabeni?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @raphaelfabeni</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<a href="https://twitter.com/raphaelfabeni?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false"></a>
 <div class="hold-tweets">
-	<div class="tweet" data-tweet data-id="1207101490604720128"></div>
-	<div class="tweet" data-tweet data-id="1207275570519785474"></div>
-	<div class="tweet" data-tweet data-id="1125578118155128832"></div>
-	<div class="tweet" data-tweet data-id="1080618176004743168"></div>
-	<div class="tweet" data-tweet data-id="1081957819220459524"></div>
-	<div class="tweet" data-tweet data-id="1073889052905082880"></div>
-	<div class="tweet" data-tweet data-id="1072125029687660545"></div>
-	<div class="tweet" data-tweet data-id="1063376525440049154"></div>
-	<div class="tweet" data-tweet data-id="1062770723129868289"></div>
-	<div class="tweet" data-tweet data-id="1062280907917324288"></div>
-	<div class="tweet" data-tweet data-id="1052602667707625472"></div>
+	{% for tweet in site.data.tweets %}
+		<div class="tweet" data-tweet data-id="{{ tweet.tweetId }}"></div>
+	{% endfor %}
 </div>
 
 <script src="https://platform.twitter.com/widgets.js"></script>
@@ -28,7 +20,6 @@ lang: en
 		twttr.widgets.createTweet(
 			id, tweets[i], {
 				conversation : 'none',
-				cards        : 'hidden',
 				theme        : 'light'
 			});
 	}

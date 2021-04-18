@@ -50,7 +50,7 @@
     "build:images": "npm run imagemin && cp -r src/images/favicon dist/images/favicon",
     "prepare": "mkdir -p dist dist/images dist/scripts dist/styles && mkdir -p _site _site/dist/images _site/dist/scripts _site/dist/scripts/temp _site/dist/styles",
     "build": "npm run clean && npm run prepare && npm run build:images && npm run build:js && npm run build:css && npm run build:jekyll && npm run critical && npm run after",
-    "watch:jekyll": "chokidar 'index.html' '_includes/*.html' '_layouts/*.html' '_posts/*' '_category/**/*' 'blog/*' 'thoughts/*' 'my-closet/*' 'pt-br/**/*' '_config.yml' -c 'npm run build:jekyll && npm run sass:_site && browser-sync reload'",
+    "watch:jekyll": "chokidar 'index.html' '_includes/*.html' '_layouts/*.html' '_posts/*' '_data/*' '_category/**/*' 'blog/*' 'thoughts/*' 'my-closet/*' 'pt-br/**/*' '_config.yml' -c 'npm run build:jekyll && npm run sass:_site && browser-sync reload'",
     "watch:css": "chokidar ${npm_package_config_styles_all} -c 'npm run lint:css && npm run sass:_site && browser-sync reload'",
     "watch:js": "chokidar 'src/scripts/*' -c 'npm run eslint && npm run babel && npm run uglify:home && npm run uglify:post && npm run uglify:blog && npm run update:js && browser-sync reload'",
     "serve": "browser-sync start -w --server _site",
