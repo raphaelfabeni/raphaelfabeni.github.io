@@ -7,7 +7,7 @@ date: 2016-03-14
 image: "https://cloud.githubusercontent.com/assets/1345662/13733793/fd6e4256-e975-11e5-8498-ff80c382917d.jpg"
 alt: "Dois cachorros quase em pé olhando para a foto"
 lang: pt-br
-category: 'css'
+category: 'tech'
 permalink: 'css-custom-selectors/'
 ref: 'css-custom-selectors'
 ---

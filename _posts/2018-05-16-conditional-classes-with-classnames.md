@@ -6,7 +6,7 @@ type: Post
 image: https://user-images.githubusercontent.com/1345662/40094697-e29d52e2-589e-11e8-8d9b-25ab842482d4.jpg
 alt: An S-shaped road, inside a forest.
 lang: en
-category: javascript
+category: tech
 permalink: conditional-classes-with-classnames/
 ref: classnames
 

@@ -3,7 +3,7 @@ layout: post
 type: Post
 lang: pt-br
 title: 'Google Web Vitals: CLS'
-category: user-experience
+category: tech
 description: Entenda um pouco mais sobre CLS, uma das novas métricas do Google Web
   Vitals.
 date: 2020-11-19

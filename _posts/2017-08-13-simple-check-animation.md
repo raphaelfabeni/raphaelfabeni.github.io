@@ -6,7 +6,7 @@ type: Post
 image: https://user-images.githubusercontent.com/1345662/29245728-fa2e38a4-7fb9-11e7-9581-655628e53093.jpg
 alt: Photograph of View of J. Edgar Hoover FBI Building from National Archives Roof
 lang: en
-category: css
+category: tech
 permalink: css-check-animation/
 ref: css-check-animation
 

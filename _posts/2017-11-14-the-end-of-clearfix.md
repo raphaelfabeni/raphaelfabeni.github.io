@@ -6,7 +6,7 @@ type: Post
 image: https://user-images.githubusercontent.com/1345662/32815391-00071d56-c99b-11e7-9a91-898127f9ac8d.jpg
 alt: Image showing a jellyfish in a blue sea.
 lang: en
-category: css
+category: tech
 permalink: the-end-of-clearfix/
 ref: end-clearfix
 

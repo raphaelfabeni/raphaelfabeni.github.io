@@ -1,0 +1,13 @@
+---
+en:
+- title: Tech
+  permalink: "/en/tech"
+- title: Culture
+  permalink: "/en/culture"
+pt-br:
+- title: Tech
+  permalink: "/pt-br/tech"
+- title: Cultura
+  permalink: "/pt-br/cultura"
+- title: Esportes
+  permalink: "/pt-br/esportes"

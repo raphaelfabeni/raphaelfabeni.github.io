@@ -6,7 +6,7 @@ type: Post
 image: https://cloud.githubusercontent.com/assets/1345662/15093504/8b460888-1460-11e6-9c31-1af2aeb34815.jpg
 alt: Two men shaking hands in front of an old car (probably the 20 or 30 decade)
 lang: en
-category: user-experience
+category: culture
 permalink: keep-content-updated/
 ref: content-updated
 

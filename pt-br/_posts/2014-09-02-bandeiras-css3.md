@@ -7,7 +7,7 @@ date: 2014-09-03
 image: 'https://cloud.githubusercontent.com/assets/1345662/11458478/184eccba-96a8-11e5-8d6b-998fe8d02696.png'
 alt: 'Montagem com bandeira de quatro países para mostrar o projeto Flags CSS3'
 lang: pt-br
-category: 'projetos'
+category: cultura
 permalink: 'bandeiras-css/'
 ref: 'bandeiras-css'
 ---

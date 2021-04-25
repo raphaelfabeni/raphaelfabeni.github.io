@@ -6,7 +6,7 @@ type: Post
 image: 'https://user-images.githubusercontent.com/1345662/43672243-3b60a9ea-9780-11e8-816e-aa70213ebe7d.jpg'
 alt: 'Vista de dentro de um barco de madeira em alto mar para uma montanha.'
 lang: pt-br
-category: 'dev-life'
+category: cultura
 permalink: 'cultura-de-desenvolvimento/'
 ref: 'cultura-desenvolvimento'
 ---

@@ -4,7 +4,7 @@ type: Post
 lang: en
 title: UI interactions
 description: A quick overview about the UI interactions project
-category: projects
+category: culture
 date: 2020-05-14T04:00:00.000+00:00
 image: https://user-images.githubusercontent.com/1345662/81883462-4c24c300-9563-11ea-868b-6e74bc3638b9.png
 alt: UI interactions project screenshout

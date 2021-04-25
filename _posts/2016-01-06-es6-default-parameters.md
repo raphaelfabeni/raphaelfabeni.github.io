@@ -8,7 +8,7 @@ image: https://cloud.githubusercontent.com/assets/1345662/12068674/5c23b1b6-aff9
 alt: A part of bed with some pillows and next to a small closet with an alarm clock
   on top.
 lang: en
-category: javascript
+category: tech
 permalink: es6-default-parameters/
 ref: es6-default-parameters/
 

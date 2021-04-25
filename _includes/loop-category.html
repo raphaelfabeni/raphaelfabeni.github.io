@@ -1,14 +1,14 @@
 <button type="button" class="category-header__button" data-categories-button>Categorias</button>
 <ul class="category-header__list" data-categories-list>
 	<li>
-		<a class="{% if page.layout == 'blog' %}active-category{% endif %}" href="{{ site.blog[page.lang] }}">
+		<a class="{% if page.layout == 'blog' %}is-active{% endif %}" href="{{ site.blog[page.lang] }}">
 			{{ site.dictionary[page.lang].all_categories }}
 		</a>
 	</li>
-	{% for item in site.categories_list[page.lang] %}
+	{% for item in site.data.categories[page.lang] %}
 	<li>
-		{% assign down = item[1].title | downcase | replace: 'ê', 'e' | replace: ' ', '-' %}
-		<a class="{% if down == page.category %}is-active{% endif %}" href="{{ item[1].permalink }}">{{ item[1].title }}</a>
+		{% assign down = item.title | downcase | replace: 'ê', 'e' | replace: ' ', '-' %}
+		<a class="{% if down == page.category %}is-active{% endif %}" href="{{item.permalink}}">{{ item.title }}</a>
 	</li>
 	{% endfor %}
 </ul>

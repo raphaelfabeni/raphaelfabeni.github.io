@@ -7,7 +7,7 @@ date: 2015-07-16
 image: 'https://cloud.githubusercontent.com/assets/1345662/8713520/ffe24dec-2b3f-11e5-9899-662498a8a3f5.jpg'
 alt: 'Imagem de uma igreja ou estação de trem vista de uma perspectiva mostrando sua próxima do chão'
 lang: pt-br
-category: 'wordpress'
+category: 'tech'
 permalink: 'dicas-rapidas-wordpress/'
 ref: 'dicas-wp'
 ---

@@ -7,7 +7,7 @@ type: Post
 image: https://cloud.githubusercontent.com/assets/1345662/11458149/a4fe99da-96a1-11e5-8d30-0f4938603dcc.jpg
 alt: Two elderly gentlemen playing golf at a country club
 lang: en
-category: git
+category: tech
 permalink: git-editing-commits-part-2/
 ref: edit-commit-rebase-2
 

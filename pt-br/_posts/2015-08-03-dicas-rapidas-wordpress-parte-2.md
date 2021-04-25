@@ -7,7 +7,7 @@ date: 2015-08-03
 image: 'https://cloud.githubusercontent.com/assets/1345662/9028292/d234a1e2-394a-11e5-9fac-32b03a8231fe.jpg'
 alt: 'Rua na China com trânsito de carros'
 lang: pt-br
-category: 'wordpress'
+category: 'tech'
 permalink: 'dicas-rapidas-wordpress-parte-2/'
 ref: 'dicas-wp-2'
 ---

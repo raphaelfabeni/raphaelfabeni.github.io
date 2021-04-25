@@ -9,7 +9,7 @@ alt: Two dogs almost standing looking at the picture
 lang: en
 url_en: "/custom-selectors-css-4/"
 url_br: "/css-4-custom-selectors/"
-category: css
+category: tech
 permalink: custom-selectors-css/
 ref: css-custom-selectors
 

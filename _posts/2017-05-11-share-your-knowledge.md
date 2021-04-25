@@ -7,7 +7,7 @@ type: Post
 image: https://cloud.githubusercontent.com/assets/1345662/11458135/66aaaade-96a1-11e5-9398-6f3e9a24f46c.jpg
 alt: Children studying in an old classroom
 lang: en
-category: dev-life
+category: culture
 permalink: share-your-knowledge/
 ref: share-knowledge
 

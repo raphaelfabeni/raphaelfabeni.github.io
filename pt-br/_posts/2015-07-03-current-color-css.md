@@ -7,7 +7,7 @@ date: 2015-07-03
 image: 'https://cloud.githubusercontent.com/assets/1345662/8460452/1660a1cc-1ffb-11e5-9ff1-5f01cb55a529.jpg'
 alt: 'Imagem mostra um controle de xbox segurado por uma pessoa'
 lang: pt-br
-category: 'css'
+category: 'tech'
 permalink: 'css-current-color/'
 ref: 'current-color'
 ---

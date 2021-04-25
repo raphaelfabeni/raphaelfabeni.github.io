@@ -3,7 +3,7 @@ layout: post
 type: Post
 lang: pt-br
 title: Cultura tech em tempos de pandemia
-category: dev-life
+category: cultura
 description: Pequenas mudanças que fizemos na rotina e cultura do time tech durante
   a pandemia!
 date: 2020-12-13 21:50:00 +0000

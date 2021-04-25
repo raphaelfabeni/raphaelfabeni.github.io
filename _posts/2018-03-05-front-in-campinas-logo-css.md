@@ -6,7 +6,7 @@ type: Post
 image: https://user-images.githubusercontent.com/1345662/37011352-787c398a-20ce-11e8-9da1-679940a43c9d.jpg
 alt: Orange and Gray Tunnel Painting
 lang: en
-category: css
+category: tech
 permalink: front-in-campinas-logo-css/
 ref: front-campinas-logo
 

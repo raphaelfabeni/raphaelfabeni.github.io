@@ -6,7 +6,7 @@ type: Post
 image: https://user-images.githubusercontent.com/1345662/32051918-37313570-ba35-11e7-9f41-7debc4a660d5.jpg
 alt: An elderly man sitting in a small seat drawing in a notebook.
 lang: en
-category: css
+category: tech
 permalink: front-in-floripa-logo-css/
 ref: front-floripa-logo
 

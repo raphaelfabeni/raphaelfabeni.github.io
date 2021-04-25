@@ -6,7 +6,7 @@ type: Post
 image: "https://cloud.githubusercontent.com/assets/1345662/15093504/8b460888-1460-11e6-9c31-1af2aeb34815.jpg"
 alt: "Dois homens se cumprimentando em frente a um carro antigo (provavelmente década de 20 ou 30"
 lang: pt-br
-category: 'user-experience'
+category: cultura
 permalink: 'mantenha-conteudo-atualizado/'
 ref: 'content-updated'
 ---

@@ -7,7 +7,7 @@ date: 2015-03-17
 image: 'https://cloud.githubusercontent.com/assets/1345662/11458074/e50ba9de-969f-11e5-9983-999042edf9c0.jpg'
 alt: 'Cadeado preso em uma grade'
 lang: pt-br
-category: 'javascript'
+category: 'tech'
 permalink: 'jasmine-matchers/'
 ref: 'jasmine-matchers'
 ---

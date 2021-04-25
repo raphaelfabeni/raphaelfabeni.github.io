@@ -7,7 +7,7 @@ date: 2016-01-22
 image: "https://cloud.githubusercontent.com/assets/1345662/12072297/319f5c76-b0bf-11e5-94c3-838746ffca56.jpg"
 alt: "Foto mostra quatro caixas de jornais, provavelmente americanos, em bairro residencial"
 lang: pt-br
-category: 'javascript'
+category: 'tech'
 permalink: 'es6-template-strings/'
 ref: 'es6-string-templates'
 ---

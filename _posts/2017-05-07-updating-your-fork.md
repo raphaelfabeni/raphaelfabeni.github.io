@@ -7,7 +7,7 @@ type: Post
 image: https://cloud.githubusercontent.com/assets/1345662/11458213/fff34934-96a2-11e5-9c4d-af162bc71a92.jpg
 alt: Wooden table top view, full of tools
 lang: en
-category: git
+category: tech
 permalink: updating-your-fork/
 ref: fork-update
 

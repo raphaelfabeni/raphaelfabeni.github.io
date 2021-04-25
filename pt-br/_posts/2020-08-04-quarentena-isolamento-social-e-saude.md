@@ -3,7 +3,7 @@ layout: post
 type: Post
 lang: pt-br
 title: Quarentena, isolamento social e saúde
-category: dev-life
+category: cultura
 description: Vivemos uma situação delicada e difícil e por isso devemos redobrar a
   atenção para que consigamos nos manter saudáveis mentalmente e fisicamente.
 date: 2020-08-04T01:25:00.000+00:00

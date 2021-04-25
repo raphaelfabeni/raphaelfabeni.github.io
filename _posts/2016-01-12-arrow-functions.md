@@ -7,7 +7,7 @@ date: 2016-01-12
 image: https://cloud.githubusercontent.com/assets/1345662/12060339/882c0d30-af54-11e5-9f10-79da8f4f1f50.jpg
 alt: Way of a road covered with snow around
 lang: en
-category: javascript
+category: tech
 permalink: arrow-functions/
 ref: es6-arrow-functions
 

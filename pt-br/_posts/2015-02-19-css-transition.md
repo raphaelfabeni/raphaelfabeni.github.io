@@ -6,7 +6,7 @@ type: Post
 date: 2015-02-19
 image: 'https://cloud.githubusercontent.com/assets/1345662/11458131/46a52002-96a1-11e5-9b37-f86a9419d8ee.jpg'
 lang: pt-br
-category: 'css'
+category: 'tech'
 permalink: 'css-transition/'
 ref: 'css-transition'
 ---

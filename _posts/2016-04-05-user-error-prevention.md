@@ -6,7 +6,7 @@ type: Post
 image: https://cloud.githubusercontent.com/assets/1345662/14289662/365c31fe-fb32-11e5-9da0-20ff8216417e.jpg
 alt: Picture shows two feet of a person jumping in a puddle
 lang: en
-category: user-experience
+category: culture
 permalink: avoiding-user-error/
 ref: avoiding-user-error
 

@@ -7,7 +7,7 @@ date: 2016-03-07
 image: "https://cloud.githubusercontent.com/assets/1345662/13560552/4958f4e4-e3ff-11e5-8de4-20372d14ab0b.jpg"
 alt: "Uma caixa de madeira cheia de nozes"
 lang: pt-br
-category: 'css'
+category: 'tech'
 permalink: 'css-matches-selector/'
 ref: 'css-seletor-matches'
 ---

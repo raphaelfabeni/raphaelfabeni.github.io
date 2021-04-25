@@ -8,7 +8,7 @@ image: https://cloud.githubusercontent.com/assets/1345662/11520648/792ca134-988c
 alt: White wall of a house with several windows with details in gray, and two of them
   in orange
 lang: en
-category: css
+category: tech
 permalink: bem-css-overview/
 ref: bem-css
 

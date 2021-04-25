@@ -6,7 +6,7 @@ type: Post
 image: 'https://cloud.githubusercontent.com/assets/1345662/11458148/a4df143e-96a1-11e5-8799-a9522faa7a66.jpg'
 alt: 'Dois idosos tecendo fio em uma máquina antiga'
 lang: pt-br
-category: 'git'
+category: 'tech'
 permalink: 'git-alterando-commits-parte-1/'
 ref: 'edit-commit-rebase'
 ---

@@ -7,7 +7,7 @@ date: 2015-06-16
 image: "https://cloud.githubusercontent.com/assets/1345662/11457941/ee3c42fe-969d-11e5-9ded-c9bb7bf2616b.jpg"
 alt: 'Imagem mostra uma rua de uma cidade cheias de carros e com prédios altos de ambos os lados'
 lang: pt-br
-category: 'javascript'
+category: 'tech'
 permalink: 'dicas-rapidas-javascript-parte-2/'
 ref: 'dicas-javascript-2'
 ---

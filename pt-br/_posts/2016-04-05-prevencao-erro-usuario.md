@@ -6,7 +6,7 @@ type: Post
 image: "https://cloud.githubusercontent.com/assets/1345662/14289662/365c31fe-fb32-11e5-9da0-20ff8216417e.jpg"
 alt: "Imagem mostra dois pé de uma pessoa pulando em uma poça de água"
 lang: pt-br
-category: 'user-experience'
+category: cultura
 permalink: 'prevenir-erro-usuario/'
 ref: 'avoiding-user-error'
 ---

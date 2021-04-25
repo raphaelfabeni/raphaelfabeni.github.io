@@ -6,7 +6,7 @@ type: Post
 image: https://cloud.githubusercontent.com/assets/1345662/11458148/a4df143e-96a1-11e5-8799-a9522faa7a66.jpg
 alt: Two elderly people weaving wire in an old machine.
 lang: en
-category: git
+category: tech
 permalink: git-editing-commits-part-1/
 ref: edit-commit-rebase
 

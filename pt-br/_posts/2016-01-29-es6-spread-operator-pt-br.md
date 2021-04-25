@@ -7,7 +7,7 @@ date: 2016-01-29
 image: "https://cloud.githubusercontent.com/assets/1345662/12072840/6360f8ae-b0de-11e5-8584-b748798c95c3.jpg"
 alt: "Fogos de artifício coloridos em um céu escuro"
 lang: pt-br
-category: 'javascript'
+category: 'tech'
 permalink: 'es6-spread-operator/'
 ref: 'es6-spread-operator'
 ---

@@ -7,7 +7,7 @@ date: 2014-10-14
 image: 'https://cloud.githubusercontent.com/assets/1345662/11458306/77ace862-96a4-11e5-8d7f-669a8591c360.jpg'
 alt: 'Imagem mostra relógio de pulso segurado pela corda'
 lang: pt-br
-category: 'html'
+category: 'tech'
 permalink: 'guia-elemento-time/'
 ref: 'guia-elemento-time'
 ---

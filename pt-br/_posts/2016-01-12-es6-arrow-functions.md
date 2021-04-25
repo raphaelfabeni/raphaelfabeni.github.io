@@ -9,7 +9,7 @@ alt: "Caminho de uma estrada coberta de neve em volta"
 lang: pt-br
 url_en: /arrow-functions/
 url_br: /es6-arrow-functions/
-category: 'javascript'
+category: 'tech'
 permalink: 'es6-arrow-functions/'
 ref: 'es6-arrow-functions'
 ---

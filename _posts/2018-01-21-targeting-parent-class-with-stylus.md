@@ -7,7 +7,7 @@ type: Post
 image: https://user-images.githubusercontent.com/1345662/35200425-3f63285c-fef5-11e7-8b44-14f470d8f4ba.jpg
 alt: A white boat in the sea.
 lang: en
-category: css
+category: tech
 permalink: targeting-parent-class-with-stylus/
 ref: parent-class-stylus
 

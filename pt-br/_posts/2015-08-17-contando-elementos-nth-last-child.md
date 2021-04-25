@@ -7,7 +7,7 @@ date: 2015-08-17
 image: "https://cloud.githubusercontent.com/assets/1345662/9317504/74f362ec-4512-11e5-8482-c09480c791cf.jpg"
 alt: "Imagem mostra um grupo de artistas em posando para a foto em frente a uma casa de shows em uma época antiga"
 lang: pt-br
-category: 'css'
+category: 'tech'
 permalink: 'contando-elementos-nth-last-child/'
 ref: 'contando-nth-last-child'
 ---

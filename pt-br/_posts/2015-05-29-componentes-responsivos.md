@@ -7,7 +7,7 @@ date: 2015-05-29
 image: 'https://cloud.githubusercontent.com/assets/1345662/11457956/32c0b946-969e-11e5-8fe0-d65ce3647453.jpg'
 alt: 'Foto mostra uma parte de uma roda gigante'
 lang: pt-br
-category: 'css'
+category: 'tech'
 permalink: 'componentes-responsivos/'
 ref: 'componentes-responsivos'
 ---

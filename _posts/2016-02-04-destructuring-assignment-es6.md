@@ -7,7 +7,7 @@ date: 2016-02-04
 image: https://cloud.githubusercontent.com/assets/1345662/12071845/13d407d4-b0a9-11e5-8a14-95a3bac85cf1.jpg
 alt: Foosball viewed from above with players in black and yellow.
 lang: en
-category: javascript
+category: tech
 permalink: destructuring-assignment/
 ref: es6-destructuring-assignment
 

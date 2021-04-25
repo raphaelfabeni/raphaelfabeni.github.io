@@ -7,7 +7,7 @@ date: 2015-02-02
 image: 'https://cloud.githubusercontent.com/assets/1345662/11458149/a4fe99da-96a1-11e5-8d30-0f4938603dcc.jpg'
 alt: 'Dois senhores idosos jogando golf em um clube de campo'
 lang: pt-br
-category: 'git'
+category: 'tech'
 permalink: 'git-alterando-commits-parte-2/'
 ref: 'edit-commit-rebase-2'
 ---

@@ -7,7 +7,7 @@ date: 2016-03-09
 image: "https://cloud.githubusercontent.com/assets/1345662/13589836/ccd512d4-e4b9-11e5-8f57-505c86b526ea.jpg"
 alt: "Vários pedaços de madeira empilhados"
 lang: pt-br
-category: 'css'
+category: 'tech'
 permalink: 'css-not-selector/'
 ref: 'css-not'
 ---

@@ -7,7 +7,7 @@ date: 2015-01-20
 image: 'https://cloud.githubusercontent.com/assets/1345662/11458198/72f7ffe8-96a2-11e5-839e-3ecf51e82068.jpg'
 alt: 'Detalhe de um adorno em, aparenteente, parece ser uma porta de madeira'
 lang: pt-br
-category: 'css'
+category: 'tech'
 permalink: 'organizando-css-com-regex/'
 ref: 'organizando-css-com-regex'
 ---

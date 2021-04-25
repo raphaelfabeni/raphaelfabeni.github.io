@@ -7,7 +7,7 @@ date: 2015-05-22
 image: 'https://cloud.githubusercontent.com/assets/1345662/11457969/79fb1d56-969e-11e5-8326-aa50572ae52d.jpg'
 alt: 'Vários relógios dourados presos a uma superfície e dispostos um ao lado do outro'
 lang: pt-br
-category: 'javascript'
+category: 'tech'
 permalink: 'jasmine-spies/'
 ref: 'jasmine-spies'
 ---

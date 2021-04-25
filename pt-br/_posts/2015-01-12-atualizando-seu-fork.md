@@ -9,7 +9,7 @@ alt: 'Mesa de madeira vista de cima, cheia de ferramentas'
 lang: pt-br
 url_en: /updating-your-fork/
 url_br: /atualizando-seu-fork/
-category: 'git'
+category: 'tech'
 permalink: 'atualizando-seu-fork/'
 ref: 'fork-update'
 ---
