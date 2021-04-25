@@ -26,17 +26,9 @@ fields:
   default: ''
   config:
     required: false
-    options:
-    - css
-    - wordpress
-    - user-experience
-    - projects
-    - javascript
-    - html
-    - git
-    - dev-life
+    options: []
     source:
-      type: simple
+      type: pages
       section: category
       file: 
       path: 
