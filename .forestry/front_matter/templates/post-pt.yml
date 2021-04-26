@@ -29,7 +29,7 @@ fields:
     options: []
     source:
       type: pages
-      section: posts-en
+      section: config-8531dc66-01ee-492e-a78b-b06930edc1b2
       file: 
       path: 
   label: category
