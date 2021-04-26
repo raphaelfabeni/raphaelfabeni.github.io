@@ -29,7 +29,7 @@ fields:
     options: []
     source:
       type: pages
-      section: category
+      section: posts-en
       file: 
       path: 
   label: category
