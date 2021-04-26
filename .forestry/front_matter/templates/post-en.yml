@@ -40,8 +40,8 @@ fields:
     - git
     - dev-life
     source:
-      type: simple
-      section: ''
+      type: pages
+      section: category
       file: 
       path: 
   label: category
