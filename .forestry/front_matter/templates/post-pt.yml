@@ -28,7 +28,7 @@ fields:
     required: false
     options: []
     source:
-      type: documents
+      type: pages
       section: category
       file: 
       path: 
