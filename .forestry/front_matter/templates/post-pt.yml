@@ -26,9 +26,12 @@ fields:
   default: ''
   config:
     required: true
-    options: []
+    options:
+    - tech
+    - cultura
+    - esportes
     source:
-      type: documents
+      type: simple
       section: category
       file: 
       path: 
