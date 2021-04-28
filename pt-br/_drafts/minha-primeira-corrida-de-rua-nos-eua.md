@@ -3,7 +3,7 @@ layout: post
 type: Post
 lang: pt-br
 title: Minha primeira corrida de rua nos EUA
-category: category/pt-br/esportes.md
+category: esportes
 description: Um pouco da minha preparação e experiência na minha primeira corrida
   de rua nos EUA!
 date: 2021-04-27 04:00:00 +0000
