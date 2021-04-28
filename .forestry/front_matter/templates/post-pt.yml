@@ -28,7 +28,7 @@ fields:
     required: true
     options: []
     source:
-      type: pages
+      type: documents
       section: category
       file: 
       path: 
@@ -55,4 +55,3 @@ fields:
   label: ref
 pages:
 - pt-br/_posts/2020-12-13-cultura-tech-em-tempos-de-pandemia.md
-- pt-br/_posts/minha-primeira-corrida-de-rua-nos-eua.md
