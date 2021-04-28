@@ -45,8 +45,10 @@ fields:
 - name: image
   type: text
   config:
-    required: true
+    required: false
   label: image
+  showOnly:
+    value: tech
 - type: text
   name: alt
   label: alt
