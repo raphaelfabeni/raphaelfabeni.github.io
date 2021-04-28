@@ -30,17 +30,10 @@ fields:
   config:
     required: false
     options:
-    - css
-    - wordpress
-    - user-experience
-    - projects
-    - life
-    - javascript
-    - html
-    - git
-    - dev-life
+    - tech
+    - culture
     source:
-      type: pages
+      type: simple
       section: category
       file: 
       path: 
