@@ -55,5 +55,3 @@ fields:
 - type: text
   name: ref
   label: ref
-pages:
-- _posts/test-en.md
