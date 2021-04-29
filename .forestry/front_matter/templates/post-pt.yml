@@ -58,6 +58,3 @@ fields:
 - type: text
   name: ref
   label: ref
-pages:
-- pt-br/_posts/2020-12-13-cultura-tech-em-tempos-de-pandemia.md
-- pt-br/_posts/draft-test-pt.md
