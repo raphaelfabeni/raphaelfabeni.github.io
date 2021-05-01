@@ -11,6 +11,9 @@ var Navigation = function () {
 	}
 
 	function bindEvents() {
+		if (!navButton || !closeButton || !navigation) {
+			return;
+		}
 		navButton.addEventListener('click', function () {
 			return navigation.classList.add('is-active');
 		});

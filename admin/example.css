@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600&display=swap');
+@import url("../dist/styles/main.min.css");
+
+body {
+  padding: 20px;
+}
+
+img {
+  max-width: 100%;
+}
+
+.preview-cover {
+  margin-bottom: 25px;
+}

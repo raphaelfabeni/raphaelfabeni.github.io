@@ -9,6 +9,9 @@ var Navigation = (function() {
 	}
 
 	function bindEvents() {
+		if(!navButton || !closeButton || !navigation) {
+			return;
+		}
 		navButton.addEventListener('click', () => navigation.classList.add('is-active'));
 		closeButton.addEventListener('click', () => navigation.classList.remove('is-active'));
 		navigation.addEventListener('click', () => navigation.classList.remove('is-active'));

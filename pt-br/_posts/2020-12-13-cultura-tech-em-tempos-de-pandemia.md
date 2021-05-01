@@ -4,8 +4,7 @@ type: Post
 lang: pt-br
 title: Cultura tech em tempos de pandemia
 category: cultura
-description: Pequenas mudanças que fizemos na rotina e cultura do time tech durante
-  a pandemia!
+description: Pequenas mudanças que fizemos na rotina e cultura do time tech durante a pandemia!
 date: 2020-12-13 21:50:00 +0000
 image: https://user-images.githubusercontent.com/1345662/102024962-ee5b9200-3d62-11eb-84d5-3a77c034f3c1.jpg
 alt: Mesa de trabalho com um notebook, uma luminária e um caderno.

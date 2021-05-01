@@ -3,10 +3,37 @@
 backend:
   name: git-gateway
   branch: master # Branch to update (optional; defaults to master)
-media_folder: 'assets/uploads'
+media_folder: 'src/images'
 collections:
   - name: 'blog'
     label: 'Blog'
     folder: 'pt-br/_posts/'
+    sort: "date:asc" # Default is title:asc
+    create: true # Allow users to create new documents in this collection
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
-      - { name: Title }
+      - { label: "Layout", name: "layout", widget: "hidden", default: "post" }
+      - { label: "Type", name: "type", widget: "hidden", default: "post" }
+      - { label: "Lang", name: "lang", widget: "hidden", default: "pt-br" }
+      - { label: "Title", name: "title", widget: "string", tagname: "h1" }
+      - { label: 'Draft', name: 'draft', widget: 'boolean', default: false }
+      - { label: "Description", name: "description", widget: "string" }
+      - { label: 'Category', name: "category", widget: 'select', options: ['tech', 'cultura', 'esportes'] }
+      - { label: "Permalink", name: "permalink", widget: "string" }
+      - { label: "Ref", name: "ref", widget: "string" }
+      - {
+          label: 'Publish Date',
+          name: 'date',
+          widget: 'datetime',
+          date_format: 'YYYY-MM-DD',
+          time_format: 'HH:mm',
+          format: 'YYYY-MM-DD HH:mm',
+        }
+      - label: 'Cover Image'
+        name: 'image'
+        widget: 'image'
+        required: false
+        tagname: ''
+      - { label: "Alt image", name: "alt", widget: "string" }
+
+      - { label: 'Body', name: 'body', widget: 'markdown', hint: 'Main content goes here.' }
