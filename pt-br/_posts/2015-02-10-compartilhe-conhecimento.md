@@ -1,16 +1,16 @@
 ---
 layout: post
-title: Compartilhe seu conhecimento
-description: 'Bote na cabeça uma coisa: algo que muitas vezes pode ser considerado
-  simples ou bobo, pode ajudar e muito outras pessoas!'
 type: Post
-image: https://cloud.githubusercontent.com/assets/1345662/11458135/66aaaade-96a1-11e5-9398-6f3e9a24f46c.jpg
-alt: Alunos em uma sala de aula antiga estudando
 lang: pt-br
+title: Compartilhe seu conhecimento
+description: "Bote na cabeça uma coisa: algo que muitas vezes pode ser
+  considerado simples ou bobo, pode ajudar e muito outras pessoas!"
 category: cultura
 permalink: compartilhe-conhecimento/
 ref: share-knowledge
-
+date: 2015-02-10 22:12
+image: https://cloud.githubusercontent.com/assets/1345662/11458135/66aaaade-96a1-11e5-9398-6f3e9a24f46c.jpg
+alt: Alunos em uma sala de aula antiga estudando
 ---
 Já conversei sobre isso com vários amigos meus e acho que é um tema que cada vez mais está em foco. Sempre gostei de escrever: nos trabalhos do colégio e da faculdade acabava ficando responsável pela maior parte teórica e nem por isso reclamava. Quando decidi escrever na _internet_, minha idéia inicial era pegar um assunto que queria entender um pouco mais e me forçar a pesquisar a respeito.
 
