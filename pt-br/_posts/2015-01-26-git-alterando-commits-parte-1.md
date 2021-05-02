@@ -9,7 +9,7 @@ description: Muitas vezes acabamos fazendo commits que acabam não tendo muito
 category: tech
 permalink: git-alterando-commits-parte-1/
 ref: edit-commit-rebase
-date: 2019-05-06 22:02
+date: 2015-02-01 22:02
 image: https://cloud.githubusercontent.com/assets/1345662/11458148/a4df143e-96a1-11e5-8799-a9522faa7a66.jpg
 alt: Dois idosos tecendo fio em uma máquina antiga
 ---
