@@ -1,14 +1,16 @@
 ---
 layout: post
-title:  Cultura de desenvolvimento - a saga continua!
-description: 'Números da pesquisa sobre Cultura de Desenvolvimento, realizada no primeiro semestre de 2018.'
 type: Post
-image: 'https://user-images.githubusercontent.com/1345662/43672243-3b60a9ea-9780-11e8-816e-aa70213ebe7d.jpg'
-alt: 'Vista de dentro de um barco de madeira em alto mar para uma montanha.'
 lang: pt-br
+title: Cultura de desenvolvimento - a saga continua!
+description: Números da pesquisa sobre Cultura de Desenvolvimento, realizada no
+  primeiro semestre de 2018.
 category: cultura
-permalink: 'cultura-de-desenvolvimento/'
-ref: 'cultura-desenvolvimento'
+permalink: cultura-de-desenvolvimento/
+ref: cultura-desenvolvimento
+date: 2018-07-28 22:14
+image: https://user-images.githubusercontent.com/1345662/43672243-3b60a9ea-9780-11e8-816e-aa70213ebe7d.jpg
+alt: Vista de dentro de um barco de madeira em alto mar para uma montanha.
 ---
 
 <style>
