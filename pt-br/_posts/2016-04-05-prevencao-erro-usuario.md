@@ -1,14 +1,15 @@
 ---
 layout: post
+type: Post
+lang: pt-br
 title: Prevenindo o erro do usuário
 description: Antecipe um possível erro do usuário e torne a experiência mais agradável
-type: Post
-image: "https://cloud.githubusercontent.com/assets/1345662/14289662/365c31fe-fb32-11e5-9da0-20ff8216417e.jpg"
-alt: "Imagem mostra dois pé de uma pessoa pulando em uma poça de água"
-lang: pt-br
 category: cultura
-permalink: 'prevenir-erro-usuario/'
-ref: 'avoiding-user-error'
+permalink: prevenir-erro-usuario/
+ref: avoiding-user-error
+date: 2016-04-05 22:12
+image: https://cloud.githubusercontent.com/assets/1345662/14289662/365c31fe-fb32-11e5-9da0-20ff8216417e.jpg
+alt: Imagem mostra dois pé de uma pessoa pulando em uma poça de água
 ---
 
 <figure class="loading">

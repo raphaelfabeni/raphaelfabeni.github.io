@@ -1,14 +1,16 @@
 ---
 layout: post
-title: Mantenha seu conteúdo atualizado
-description: "O usuário procura conteúdo, por que você o deixaria desatualizado?"
 type: Post
-image: "https://cloud.githubusercontent.com/assets/1345662/15093504/8b460888-1460-11e6-9c31-1af2aeb34815.jpg"
-alt: "Dois homens se cumprimentando em frente a um carro antigo (provavelmente década de 20 ou 30"
 lang: pt-br
+title: Mantenha seu conteúdo atualizado
+description: O usuário procura conteúdo, por que você o deixaria desatualizado?
 category: cultura
-permalink: 'mantenha-conteudo-atualizado/'
-ref: 'content-updated'
+permalink: mantenha-conteudo-atualizado/
+ref: content-updated
+date: 2016-05-07 22:13
+image: https://cloud.githubusercontent.com/assets/1345662/15093504/8b460888-1460-11e6-9c31-1af2aeb34815.jpg
+alt: Dois homens se cumprimentando em frente a um carro antigo (provavelmente
+  década de 20 ou 30
 ---
 
 Um usuário, na grande maioria das vezes, acessa um site com um **determinado objetivo**: seja buscar os números do último concurso da loteria, imprimir os resultados de um exame médico ou até pedir algo pra comer. Cabe a você, (ou a nós) pensar na melhor maneira/experiência em como ele vai fazer isso.
