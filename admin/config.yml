@@ -4,11 +4,13 @@ backend:
   name: git-gateway
   branch: master # Branch to update (optional; defaults to master)
 media_folder: 'src/images'
+publish_mode: editorial_workflow
 collections:
   - name: 'blog'
     label: 'Blog'
     folder: 'pt-br/_posts/'
     sort: "date:asc" # Default is title:asc
+    sortable_fields: ['date']
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
@@ -16,7 +18,7 @@ collections:
       - { label: "Type", name: "type", widget: "hidden", default: "post" }
       - { label: "Lang", name: "lang", widget: "hidden", default: "pt-br" }
       - { label: "Title", name: "title", widget: "string", tagname: "h1" }
-      - { label: 'Draft', name: 'draft', widget: 'boolean', default: false }
+      - { label: 'Draft', name: 'draft', widget: 'boolean', default: false, required: false }
       - { label: "Description", name: "description", widget: "string" }
       - { label: 'Category', name: "category", widget: 'select', options: ['tech', 'cultura', 'esportes'] }
       - { label: "Permalink", name: "permalink", widget: "string" }
