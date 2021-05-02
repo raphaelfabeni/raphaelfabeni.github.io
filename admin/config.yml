@@ -18,7 +18,6 @@ collections:
       - { label: "Type", name: "type", widget: "hidden", default: "post" }
       - { label: "Lang", name: "lang", widget: "hidden", default: "pt-br" }
       - { label: "Title", name: "title", widget: "string", tagname: "h1" }
-      - { label: 'Draft', name: 'draft', widget: 'boolean', default: false, required: false }
       - { label: "Description", name: "description", widget: "string" }
       - { label: 'Category', name: "category", widget: 'select', options: ['tech', 'cultura', 'esportes'] }
       - { label: "Permalink", name: "permalink", widget: "string" }

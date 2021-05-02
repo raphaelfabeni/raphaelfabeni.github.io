@@ -12,6 +12,7 @@ permalink: cultura-tech-pandemia/
 ref: cultura-tech-pandemia
 
 ---
+
 Mal sabia eu que iria mudar de país no meio de uma pandemia e, além de ter o desafio de me virar uma nova língua, teria também que encarar os desafios de liderar um time trabalhando de forma remota.
 
 Obs. Tenho quase certeza de que muita coisa irei escrever aqui não é novidade pra muita gente, ainda mais para aquelas pessoas que tem experiência em trabalho remoto, mas a reação à esse [tweet](https://twitter.com/raphaelfabeni/status/1336263682628722689 "Link de um tweet falando sobre a minha idéia ed escrever sobre o dia a dia do time em época de pandemia.") me motivou.

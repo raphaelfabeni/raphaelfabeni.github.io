@@ -13,6 +13,37 @@
     <script>
       CMS.registerEditorComponent({
         // Internal id of the component
+        id: "box",
+        // Visible label
+        label: "Box",
+        // Fields the user need to fill out when adding an instance of the component
+        fields: [{name: 'id', label: 'text', widget: 'text'}],
+        // Pattern to identify a block as being an instance of this component
+        pattern: /^box (.*)$/,
+        // Function to extract data elements from the regexp match
+        fromBlock: function(match) {
+          console.log('match', match);
+          return {
+            id: match[1]
+          };
+        },
+        // Function to create a text block from an instance of this component
+        toBlock: function(obj) {
+          console.log('obj', obj);
+          return 'box ' + obj.id;
+        },
+        // Preview output for this component. Can either be a string or a React component
+        // (component gives better render performance)
+        toPreview: function(obj) {
+          return (
+            '<div class="post-detail">' + obj.id + '</div>'
+          );
+        }
+      });
+      //
+      //
+      CMS.registerEditorComponent({
+        // Internal id of the component
         id: "strava",
         // Visible label
         label: "Strava",

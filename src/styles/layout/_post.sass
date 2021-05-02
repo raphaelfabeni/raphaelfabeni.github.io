@@ -78,6 +78,21 @@
 .post-content
 	margin-bottom: 35px
 
+	.post-detail
+		background-color: lighten($color-gray, 68)
+		padding: 20px
+	
+	b,
+	strong
+		font-weight: 600
+		display: inline-block
+		vertical-align: baseline
+
+	blockquote
+		border-left: solid 10px lighten($color-gray, 68)
+		padding-left: 20px
+		font-style: italic
+
 	table
 		width: 100%
 		max-width: 100%
@@ -97,17 +112,20 @@
 	ul,
 	ol,
 	table,
-	figure
-		margin-bottom: 25px
+	figure,
+	> div
+		margin-bottom: 30px
 		line-height: 1.6
 		font-size: 18px
 
 	h2,
 	h3,
 	h4
-		margin-bottom: 15px
-		margin-top: 15px
+		margin-bottom: 20px
+		padding-bottom: 20px
+		margin-top: 20px
 		line-height: 1.4
+		border-bottom: solid 1px #eee
 
 	ul li
 		list-style-type: disc
