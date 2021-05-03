@@ -15,7 +15,7 @@ collections:
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - { label: "Layout", name: "layout", widget: "hidden", default: "post" }
-      - { label: "Type", name: "type", widget: "hidden", default: "post" }
+      - { label: "Type", name: "type", widget: "hidden", default: "Post" }
       - { label: "Lang", name: "lang", widget: "hidden", default: "pt-br" }
       - { label: "Title", name: "title", widget: "string", tagname: "h1" }
       - { label: "Description", name: "description", widget: "string" }

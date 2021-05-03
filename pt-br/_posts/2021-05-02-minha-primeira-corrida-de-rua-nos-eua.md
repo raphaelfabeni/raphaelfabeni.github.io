@@ -1,7 +1,6 @@
 ---
-draft: false
 layout: post
-type: post
+type: Post
 lang: pt-br
 title: Minha primeira corrida de rua nos EUA
 description: Um pouco da preparação e experiência na minha primeira corrida de rua nos EUA!
