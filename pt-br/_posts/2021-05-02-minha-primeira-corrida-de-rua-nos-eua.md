@@ -22,7 +22,7 @@ Lembro que nos meus últimos treinos antes da corrida vinha tentando manter uum 
 
 ## A prova
 
-instagram CAwHAXaBAZO
+<style>.embed-container {position: relative; padding-bottom: 120%; height: 0; overflow: hidden;} .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><figure class="text-center"><div class="embed-container"><iframe src="https://www.instagram.com/p/CAwHAXaBAZO/embed/" frameborder="0" scrolling="no" allowtransparency="true"></iframe></div></figure>
 
 A distância da prova era de 4 milhas (em torno de 6.4km) e acontecia dentro de um local chamado *Greenway* que é um dos lugares mais bonitos que já fui (e poder treinar ainda por lá, é demais)!
 
@@ -55,7 +55,9 @@ A minha largada era as 7:20 da manhã e o plano era:
 
 Como dá pra ver na tabela acima, eu já comecei muito mais forte do que deveria e isso é um erro comum, principalmente de quem está começando no esporte. Se fosse uma prova mais longa, com certeza não aguentaria o ritmo, mas felizmente, nessa apesar de notavelmente não ter mantido o ritmo inicial, consegui correr mais forte do que o planejado.
 
-strava 5141478800/embed/66072ed847b5875cb1535db9f766f48fcb29374a
+No Strava:
+
+{% include strava.html strava.id=5141478800/embed/66072ed847b5875cb1535db9f766f48fcb29374a %}
 
 ## A recompensa inesperada
 
@@ -65,7 +67,7 @@ Alguns dias depois da prova, entrei no site para ver se tinham tirado alguma fot
 
 Uns 10 dias depois da prova, peguei o meu *award*: esse certificado abaixo, um cupom de $15 pra usar em uma loja de corrida e um par de meias específicos para corrida! Um prêmio modesto mas que o que realmente conta é o significadoo. Mas pra ser sincero o que me deixou mais feliz é poder ver o progresso passo a passo e meu corpo respondendo a treinos cada vez mais desafiadores.
 
-instagram COTKdnBBSGo
+<style>.embed-container {position: relative; padding-bottom: 120%; height: 0; overflow: hidden;} .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><figure class="text-center"><div class="embed-container"><iframe src="https://www.instagram.com/p/COTKdnBBSGo/embed/" frameborder="0" scrolling="no" allowtransparency="true"></iframe></div></figure>
 
 ## O pós
 
