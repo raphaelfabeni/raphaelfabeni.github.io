@@ -55,7 +55,9 @@ A minha largada era as 7:20 da manhã e o plano era:
 
 Como dá pra ver na tabela acima, eu já comecei muito mais forte do que deveria e isso é um erro comum, principalmente de quem está começando no esporte. Se fosse uma prova mais longa, com certeza não aguentaria o ritmo, mas felizmente, nessa apesar de notavelmente não ter mantido o ritmo inicial, consegui correr mais forte do que o planejado.
 
-{% include strava.html stravaId=5141478800/embed/66072ed847b5875cb1535db9f766f48fcb29374a %}
+No Strava:
+
+{% include strava.html stravaId="5141478800/embed/66072ed847b5875cb1535db9f766f48fcb29374a" %}
 
 ## A recompensa inesperada
 
