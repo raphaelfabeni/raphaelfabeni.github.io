@@ -59,9 +59,7 @@
         },
         // Function to create a text block from an instance of this component
         toBlock: function(obj) {
-          return (
-            '<figure class="text-center"><iframe class="strava" height="355" width="800" frameborder="0" allowtransparency="true" scrolling="no" src="https://www.strava.com/activities/' + obj.id + '"></iframe></figure>'
-          );
+          return '{% include strava.html strava.id=' + obj.id + ' %}';
         },
         // Preview output for this component. Can either be a string or a React component
         // (component gives better render performance)
