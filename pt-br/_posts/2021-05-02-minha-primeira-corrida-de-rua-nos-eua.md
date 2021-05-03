@@ -43,14 +43,14 @@ A minha largada era as 7:20 da manhã e o plano era:
 
 ## Um pouco dos números
 
-| KM      | Pace |
-| ----------- | ----------- |
-| 1 | 3:48 |
-| 2 | 4:07 |
-| 3 | 4:18 |
-| 4 | 4:11 |
-| 5 | 4:09 |
-| 6 | 4:09 |
+| KM   | Pace |
+| ---- | ---- |
+| 1    | 3:48 |
+| 2    | 4:07 |
+| 3    | 4:18 |
+| 4    | 4:11 |
+| 5    | 4:09 |
+| 6    | 4:09 |
 | 0.54 | 4:22 |
 
 Como dá pra ver na tabela acima, eu já comecei muito mais forte do que deveria e isso é um erro comum, principalmente de quem está começando no esporte. Se fosse uma prova mais longa, com certeza não aguentaria o ritmo, mas felizmente, nessa apesar de notavelmente não ter mantido o ritmo inicial, consegui correr mais forte do que o planejado.
@@ -69,6 +69,6 @@ instagram COTKdnBBSGo
 
 ## O pós
 
-O nosso corpo _entende das coisas_! Apesar de ter me sentido o cansaço muscular pós prova, a princípio não tinha notado nada de diferente. Eis que, na semana seguinte, no meu primeiro treino de corrida comecei a sentir um incômodo na panturrilha direita. Provavelmente por ter feito um esforço maior do que estava acostumado.
+O nosso corpo *entende das coisas*! Apesar de ter me sentido o cansaço muscular pós prova, a princípio não tinha notado nada de diferente. Eis que, na semana seguinte, no meu primeiro treino de corrida comecei a sentir um incômodo na panturrilha direita. Provavelmente por ter feito um esforço maior do que estava acostumado.
 
 Por sorte, logo após isso entrei em uma semana mais leve de treinos e junto com fisioterapia, gelo e alongamento consegui me recuperar 100%!
