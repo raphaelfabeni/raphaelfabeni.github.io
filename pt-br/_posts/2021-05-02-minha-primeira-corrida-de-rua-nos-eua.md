@@ -37,11 +37,23 @@ No dia anterior não fiz nada de diferente do que o vinha fazendo. Tive o day of
 A minha largada era as 7:20 da manhã e o plano era:
 
 * tomar meu café da manhã normal em torno de 2 horas antes. 
-* chegar no local da prova entre 40 minutos a 1 hora antes da largada para poder começar o aquecimento e fazer o último _check_ de temperatura.
+* chegar no local da prova entre 40 minutos a 1 hora antes da largada para poder começar o aquecimento e fazer o último *check* de temperatura.
 * 30 minutos antes ingerir uma dose extra de carboidrato.
 * fazer um aquecimento bem leve de 2km.
 
 ## Um pouco dos números
+
+| KM      | Pace |
+| ----------- | ----------- |
+| 1 | 3:48 |
+| 2 | 4:07 |
+| 3 | 4:18 |
+| 4 | 4:11 |
+| 5 | 4:09 |
+| 6 | 4:09 |
+| 0.54 | 4:22 |
+
+Como dá pra ver na tabela acima, eu já comecei muito mais forte do que deveria e isso é um erro comum, principalmente de quem está começando no esporte. Se fosse uma prova mais longa, com certeza não aguentaria o ritmo, mas felizmente, nessa apesar de notavelmente não ter mantido o ritmo inicial, consegui correr mais forte do que o planejado.
 
 strava 5141478800/embed/66072ed847b5875cb1535db9f766f48fcb29374a
 
@@ -49,8 +61,14 @@ strava 5141478800/embed/66072ed847b5875cb1535db9f766f48fcb29374a
 
 Alguns dias depois da prova, entrei no site para ver se tinham tirado alguma foto legal de registro e, pra minha surpresa vi meu nome na lista de *awards* e quando comecei a pesquisar vi que tinha ficado em 9º lugar geral da prova e em 1º no meu *age group*.
 
-box A maioria das provas separa as categorias amadoras em *age groups*: geralmente, 20-24, 25-29, 30-34, etc.
+box A maioria das provas separa as categorias amadoras em <i>age groups</i>: geralmente, 20-24, 25-29, 30-34, etc.
 
 Uns 10 dias depois da prova, peguei o meu *award*: esse certificado abaixo, um cupom de $15 pra usar em uma loja de corrida e um par de meias específicos para corrida! 
 
 instagram COTKdnBBSGo
+
+## O pós
+
+O nosso corpo _entende das coisas_! Apesar de ter me sentido o cansaço muscular pós prova, a princípio não tinha notado nada de diferente. Eis que, na semana seguinte, no meu primeiro treino de corrida comecei a sentir um incômodo na panturrilha direita. Provavelmente por ter feito um esforço maior do que estava acostumado.
+
+Por sorte, logo após isso entrei em uma semana mais leve de treinos e junto com fisioterapia, gelo e alongamento consegui me recuperar 100%!
