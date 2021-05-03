@@ -16,7 +16,7 @@ Voltei a treinar com acompanhamento há alguns poucos meses e em uma das planilh
 
 Dei uma olhada e se tratava de uma corrida curta (em torno de 6km)! Sem pensar muito fui lá e fiz a inscrição! O tempo começou a passar e na minha rotina de treinos começaram a aparecer algumas observações para fazer partes dos treinos no *pace* que estava planejando para corrida.
 
-box Pace, de uma maneira bem direta ao ponto é o seu ritmo, ou seja, quanto tempo você demora para percorrer 1km. Um pace de 5, significa que a cada 5 minutos, você completa 1 km.
+box De uma maneira bem direta ao ponto, pace é o seu ritmo, ou seja, quanto tempo você demora para percorrer 1km. Um pace de 5, significa que a cada 5 minutos, você completa 1  km.
 
 Lembro que nos meus últimos treinos antes da corrida vinha tentando manter uum pace de *4:30* min/km nos trechos que tinha que correr a pace de corrida. Pode parecer pouco, mas pra mim já é um ritmo forte, e minha frequência cardíaca pulava pras alturas super rápido.
 
@@ -43,14 +43,14 @@ A minha largada era as 7:20 da manhã e o plano era:
 
 ## Um pouco dos números
 
-| KM      | Pace |
-| ----------- | ----------- |
-| 1 | 3:48 |
-| 2 | 4:07 |
-| 3 | 4:18 |
-| 4 | 4:11 |
-| 5 | 4:09 |
-| 6 | 4:09 |
+| KM   | Pace |
+| ---- | ---- |
+| 1    | 3:48 |
+| 2    | 4:07 |
+| 3    | 4:18 |
+| 4    | 4:11 |
+| 5    | 4:09 |
+| 6    | 4:09 |
 | 0.54 | 4:22 |
 
 Como dá pra ver na tabela acima, eu já comecei muito mais forte do que deveria e isso é um erro comum, principalmente de quem está começando no esporte. Se fosse uma prova mais longa, com certeza não aguentaria o ritmo, mas felizmente, nessa apesar de notavelmente não ter mantido o ritmo inicial, consegui correr mais forte do que o planejado.
@@ -69,6 +69,6 @@ instagram COTKdnBBSGo
 
 ## O pós
 
-O nosso corpo _entende das coisas_! Apesar de ter me sentido o cansaço muscular pós prova, a princípio não tinha notado nada de diferente. Eis que, na semana seguinte, no meu primeiro treino de corrida comecei a sentir um incômodo na panturrilha direita. Provavelmente por ter feito um esforço maior do que estava acostumado.
+O nosso corpo *entende das coisas*! Apesar de ter me sentido o cansaço muscular pós prova, a princípio não tinha notado nada de diferente. Eis que, na semana seguinte, no meu primeiro treino de corrida comecei a sentir um incômodo na panturrilha direita. Provavelmente por ter feito um esforço maior do que estava acostumado.
 
 Por sorte, logo após isso entrei em uma semana mais leve de treinos e junto com fisioterapia, gelo e alongamento consegui me recuperar 100%!
