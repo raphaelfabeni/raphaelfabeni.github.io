@@ -22,9 +22,9 @@ Lembro que nos meus últimos treinos antes da corrida vinha tentando manter uum 
 
 ## A prova
 
-A distância da prova era de 4 milhas (em torno de 6.4km) e acontecia dentro de um local chamado *Greenway* que é um dos lugares mais bonitos que já fui (e poder treinar ainda por lá, é demais)!
-
 instagram CAwHAXaBAZO
+
+A distância da prova era de 4 milhas (em torno de 6.4km) e acontecia dentro de um local chamado *Greenway* que é um dos lugares mais bonitos que já fui (e poder treinar ainda por lá, é demais)!
 
 Como as coisas ainda estão em processo de reabertura aqui, eles fizeram a largada por etapas, sempre com um número máximo de pessoas saindo a cada 20 minutos. Na hora da inscrição era possível escolher um desses horários.
 
