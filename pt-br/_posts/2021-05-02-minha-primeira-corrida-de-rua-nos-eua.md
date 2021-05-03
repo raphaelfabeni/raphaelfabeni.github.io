@@ -22,7 +22,7 @@ Lembro que nos meus últimos treinos antes da corrida vinha tentando manter uum 
 
 ## A prova
 
-A distância da prova era de 4 milhas e acontecia dentro de um local chamado *Greenway* e é um dos lugares mais bonitos que já fui (e treinar ainda, é demais)!
+A distância da prova era de 4 milhas e acontecia dentro de um local chamado *Greenway* que é um dos lugares mais bonitos que já fui (e poder treinar ainda por lá, é demais)!
 
 instagram CAwHAXaBAZO
 
@@ -32,7 +32,7 @@ Como as coisas ainda estão em processo de reabertura aqui, eles fizeram a larga
 
 Apesar de ser uma prova menor (em termos de distância) que muitos dos meus treinos, fazia tempo que não tentava manter um pace mais baixo que o normal por um período maior de tempo. Por isso, tentei me preparar *um pouco* para o dia da prova. 
 
-No dia anterior não fiz nada de diferente do que o vinha fazendo. Tive o day off de treino mas tentei seguir a alimentação de sempre, sem a famosa macarronada no dia anterior.
+No dia anterior não fiz nada de diferente do que já vinha fazendo. Tive o day off de treino mas tentei seguir a alimentação de sempre, sem a famosa macarronada no dia anterior.
 
 A minha largada era as 7:20 da manhã e o plano era:
 
@@ -63,7 +63,7 @@ Alguns dias depois da prova, entrei no site para ver se tinham tirado alguma fot
 
 box A maioria das provas separa as categorias amadoras em <i>age groups</i>: geralmente, 20-24, 25-29, 30-34, etc.
 
-Uns 10 dias depois da prova, peguei o meu *award*: esse certificado abaixo, um cupom de $15 pra usar em uma loja de corrida e um par de meias específicos para corrida! 
+Uns 10 dias depois da prova, peguei o meu *award*: esse certificado abaixo, um cupom de $15 pra usar em uma loja de corrida e um par de meias específicos para corrida! Um prêmio modesto mas que o que realmente conta é o significadoo. Mas pra ser sincero o que me deixou mais feliz é poder ver o progresso passo a passo e meu corpo respondendo a treinos cada vez mais desafiadores.
 
 instagram COTKdnBBSGo
 
