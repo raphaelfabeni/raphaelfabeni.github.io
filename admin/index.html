@@ -22,7 +22,6 @@
         pattern: /^box (.*)$/,
         // Function to extract data elements from the regexp match
         fromBlock: function(match) {
-          console.log('match', match);
           return {
             id: match[1]
           };
@@ -60,7 +59,9 @@
         },
         // Function to create a text block from an instance of this component
         toBlock: function(obj) {
-          return 'strava ' + obj.id;
+          return (
+            '<figure class="text-center"><iframe class="strava" height="355" width="800" frameborder="0" allowtransparency="true" scrolling="no" src="https://www.strava.com/activities/' + obj.id + '"></iframe></figure>'
+          );
         },
         // Preview output for this component. Can either be a string or a React component
         // (component gives better render performance)
@@ -88,7 +89,9 @@
         },
         // Function to create a text block from an instance of this component
         toBlock: function(obj) {
-          return 'instagram ' + obj.id;
+          return (
+            '<style>.embed-container {position: relative; padding-bottom: 120%; height: 0; overflow: hidden;} .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><figure class="text-center"><div class="embed-container"><iframe src="https://www.instagram.com/p/' +  obj.id + '/embed/" frameborder="0" scrolling="no" allowtransparency="true"></iframe></div></figure>'
+          );
         },
         // Preview output for this component. Can either be a string or a React component
         // (component gives better render performance)
