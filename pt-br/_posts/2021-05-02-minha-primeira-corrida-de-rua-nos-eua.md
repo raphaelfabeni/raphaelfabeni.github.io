@@ -16,7 +16,7 @@ Voltei a treinar com acompanhamento há alguns poucos meses e em uma das planilh
 
 Dei uma olhada e se tratava de uma corrida curta (em torno de 6km)! Sem pensar muito fui lá e fiz a inscrição! O tempo começou a passar e na minha rotina de treinos começaram a aparecer algumas observações para fazer partes dos treinos no *pace* que estava planejando para corrida.
 
-box Pace, de uma maneira bem direta ao ponto é o seu ritmo, ou seja, quanto tempo você demora para percorrer 1km. Um pace de 5, significa que a cada 5 minutos, você completa 1 km.
+box De uma maneira bem direta ao ponto, pace é o seu ritmo, ou seja, quanto tempo você demora para percorrer 1km. Um pace de 5, significa que a cada 5 minutos, você completa 1  km.
 
 Lembro que nos meus últimos treinos antes da corrida vinha tentando manter uum pace de *4:30* min/km nos trechos que tinha que correr a pace de corrida. Pode parecer pouco, mas pra mim já é um ritmo forte, e minha frequência cardíaca pulava pras alturas super rápido.
 
