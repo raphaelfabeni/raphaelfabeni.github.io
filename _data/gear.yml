@@ -79,6 +79,11 @@
       image:
         small: https://user-images.githubusercontent.com/1345662/115172126-8d3a2700-a092-11eb-9944-974a3f86e5a6.jpg
         big: https://user-images.githubusercontent.com/1345662/115172123-8ca19080-a092-11eb-833e-802678509ee2.jpg
+    -
+      name: Quintana Roo Hydrosix
+      image:
+        small: https://user-images.githubusercontent.com/1345662/117590580-35756580-b0fe-11eb-86d3-015c4a8c4d29.jpg
+        big: https://user-images.githubusercontent.com/1345662/117590582-360dfc00-b0fe-11eb-8754-cf2e7d17b31f.jpg
 
 - title: Monitoramento
   icon: 📉
