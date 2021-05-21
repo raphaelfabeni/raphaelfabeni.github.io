@@ -11,7 +11,7 @@ date: 2021-05-16 22:15
 image: https://user-images.githubusercontent.com/1345662/118426567-6ecb4980-b699-11eb-92a3-a3c7896fb313.jpg
 alt: Raphael Fabeni correndo em uma estrada.
 ---
-Cá estava eu abrindo a minha planilha nova de treinos, quando vejo uma prova marcada no meu calendário pra três semanas pra frente. Logo em seguida, recebo um e-mail da minha coach: "Hey Fabeni! O que acha de se inscrever pra essa prova? Eu acho que você está pronto!"
+Cá estava eu abrindo a minha planilha nova de treinos, quando vejo uma prova marcada no meu calendário pra três semanas pra frente. Logo em seguida, recebo um e-mail da minha coach: "Hey Fabeni! O que acha de se inscrever pra essa prova? Eu acho que você está pronto!" Eu não pensava da mesma maneira mas resolvi considerar a idéia!
 
 ## O drama das águas abertas
 
@@ -32,9 +32,9 @@ No dia anterior tentei me manter bem hidratado e alinhei como a minha nutri pequ
 * por volta das 7:30 ingerir mais água e carboidrato.
 * então iniciar aquecimento.
 
-## A prova
+## A prova e a dúvida
 
-A prova aconteceu no [Lake Norman](https://www.visitlakenorman.org/), um lugar super legal aqui em Charlotte, em torno de 1 hora da onde estamos. Fiz a inscrição mas o que não esperava é que durante a semana, [72% dos postos de gasolina na Carolina do Norte estariam sem combustível](https://www.foxbusiness.com/markets/north-carolina-gas-stations-without-fuel). Na quinta-feira a situação começou a melhorar e a organização confirmou a prova. 🙌
+A prova aconteceu no [Lake Norman](https://www.visitlakenorman.org/), um lugar super legal aqui em Charlotte, em torno de 1 hora da onde estamos. Fiz a inscrição mas o que não esperava é que durante a semana, [72% dos postos de gasolina na Carolina do Norte estariam sem combustível](https://www.foxbusiness.com/markets/north-carolina-gas-stations-without-fuel). Mantive a sequência de treinos e não vou mentir que fiquei numa mistura de ansiedade e preocupação em saber o que ia acontecer. Na quinta-feira a situação começou a melhorar e a organização confirmou a prova. 🙌
 
 A distância era um sprint mas eles acabaram fazendo uma alteração na parte do ciclismo: 750 metros de natação, 28.8 km de ciclismoo e 5 km de corrida.
 
@@ -60,6 +60,6 @@ Essa judiou! Talvez por não estar esperando tanta subida! No último km quando 
 
 ## A experiência
 
-Muita coisa aprendida, mais ainda por vir e bastante coisa a se treinar! E, se tem uma coisa que encaro nessa jornada toda é só competir contra mim mesmo! Um passo de cada vez tentando sempre evoluir.
+Muita coisa aprendida, mais ainda por vir e bastante coisa a se treinar! E, se tem uma coisa que encaro nessa jornada toda é só competir contra mim mesmo! Nada de se comparar: cada pessoa é diferente e esquentar a cabeça com isso eu aprendi que não me leva a lugar nenhum!
 
 {% include instagram.html instagramId="CO6HyqahizQ" %}
