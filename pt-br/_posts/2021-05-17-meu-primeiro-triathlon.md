@@ -25,4 +25,18 @@ A prova foi no [Lake Norman](https://www.visitlakenorman.org/), um lugar super l
 
 A distância era um sprint mas eles acabaram fazenddo uma alteração na parte do ciclismo: 750 metros de natação, 28.8 km de ciclismoo e 5 km de corrida.
 
-## 
+### A natação
+
+Meu plano era na natação era simplesmente me sentir confortável e terminar confiante! No geral foi bem, estranhei um pouco ter tanta gente ao meu redor e dar e receber uns tapas, mas me senti bem mantendo o pace de `1:58`.
+
+### A t1
+
+Essa foi a pior parte da prova pra mim! Além de ter um belo caminho entre a água e a área dde transição, cai na besteira de não prender meu número no início da prova e deixar para a t1: erro gigante (vou escrever sobre isso depois). Fora isso, tudo saiu como imaginei mas perdi em torno de 5 minutos aqui.
+
+### A bike
+
+Pra mim essa foi a melhor e mais divertida parte da prova. O percurso era na maioria plano, com algumas leves subidas, porém a parte final judiou com umas belas ladeiras! Mas, consegui manter uma velocídade média de `33.9km/h`.
+
+### A t2
+
+Cometi mais um pequeno deslize na transição que vou comentar em um próximo texto mas, noo geral saiu o planejado: tênis no pé, 
