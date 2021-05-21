@@ -19,6 +19,14 @@ Natação de longe é a modalidade que mais tenho dificuldade. Não que eu seja 
 
 Como resolver isso? Nadando em águas abertas! No final de semana anterior ao da prova, agendei um treino em um rio aqui em Charlotte com um time de mergulho e **saiu**! Vou tentar escrever sobre isso em um outro post!
 
+## A preparação
+
+No dia anterior tentei me manter bem hidratado e alinhei como a minha nutri pequenas alterações na dieta para não ter nenhuma surpresa e nem fazer nada extravagante. A prova estava marcada para iniciar as 8 da manhã, então o plano foi o  seguinte:
+
+* deixar tudo pronto na noite anterior (fiz uma lista com exatamente cada coisa que precisava levar).
+* acordei por volta das 5 da manhã pra
+
+
 ## A prova
 
 A prova aconteceu no [Lake Norman](https://www.visitlakenorman.org/), um lugar super legal aqui em Charlotte, em torno de 1 hora da onde estamos. Fiz a inscrição mas o que não esperava é que durante a semana, [72% dos postos de gasolina na Carolina do Norte estariam sem combustível](https://www.foxbusiness.com/markets/north-carolina-gas-stations-without-fuel). Na quinta-feira a situação começou a melhorar e a organização confirmou a prova. 🙌
