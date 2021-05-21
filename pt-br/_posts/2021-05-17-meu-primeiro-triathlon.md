@@ -21,11 +21,16 @@ Como resolver isso? Nadando em águas abertas! No final de semana anterior ao da
 
 ## A preparação
 
-No dia anterior tentei me manter bem hidratado e alinhei como a minha nutri pequenas alterações na dieta para não ter nenhuma surpresa e nem fazer nada extravagante. A prova estava marcada para iniciar as 8 da manhã, então o plano foi o  seguinte:
+No dia anterior tentei me manter bem hidratado e alinhei como a minha nutri pequenas alterações na dieta para não ter nenhuma surpresa e nem fazer nada extravagante. A prova estava marcada para iniciar as 8 da manhã, então o plano foi o seguinte (executado com sucesso 😂):
 
 * deixar tudo pronto na noite anterior (fiz uma lista com exatamente cada coisa que precisava levar).
-* acordei por volta das 5 da manhã pra
-
+* acordar por volta das 5 da manhã pra começar a colocar as coisas no carro e me trocar.
+* 5:30 da manhã fazer uma refeição líquida (um belo shake, diga-se de passagem).
+* por volta das 6 da manhã, com tudo no carro, seguir viagem até o local.
+* assim que chegar no local, fazer check-in e preparar a área de transição.
+* ir no banheiro pela última vez.
+* por volta das 7:30 ingerir mais água e carboidrato.
+* então iniciar aquecimento.
 
 ## A prova
 
