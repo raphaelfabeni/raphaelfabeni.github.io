@@ -15,9 +15,9 @@ Cá estava eu abrindo a minha planilha nova de treinos, quando vejo uma corrida 
 
 ## O drama das águas abertas
 
-Natação de longe é a modalidade que mais tenho dificuldade. Não que seja um baita corredor ou ciclista. E, nadar em um mar, lago ou rio (ou qualquer coisa que não tenha uma raia) é quase que outra modalidade quando comparada com nadar em uma piscina. E eu tinha zero experiência! Então, a minha primeira resposta foi um: _Talvez_!
+Natação de longe é a modalidade que mais tenho dificuldade. Não que seja um baita corredor ou ciclista. E, nadar em um mar, lago ou rio (ou qualquer coisa que não tenha uma raia) é quase que outra modalidade quando comparada com nadar em uma piscina. E eu tinha zero experiência! Então, a minha primeira resposta foi um: *Talvez*!
 
-Como resolver isso? Nadando em águas abertas! No final de semana anterior, agendei um treino em rio aqui em Charlotte com um time de mergulho e __saiu__! Vou tentar escrever sobre isso em um outro post!
+Como resolver isso? Nadando em águas abertas! No final de semana anterior, agendei um treino em rio aqui em Charlotte com um time de mergulho e **saiu**! Vou tentar escrever sobre isso em um outro post!
 
 ## A prova
 
@@ -49,3 +49,4 @@ Essa judiou! Talvez por não estar esperando tanta subida! No último km quando 
 
 Muita coisa aprendida, mais ainda por vir e bastante coisa a se treinar! E, se tem uma coisa que encaro nessa jornada toda é só competir contra miim mesmo! Um passo de cada vez tentando sempre evoluir.
 
+{% include instagram.html instagramId="CO6HyqahizQ" %}
