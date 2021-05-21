@@ -60,6 +60,6 @@ Essa judiou! Talvez por não estar esperando tanta subida! No último km quando 
 
 ## A experiência
 
-Muita coisa aprendida, mais ainda por vir e bastante coisa a se treinar! E, se tem uma coisa que encaro nessa jornada toda é só competir contra mim mesmo! Nada de se comparar: cada pessoa é diferente e esquentar a cabeça com isso eu aprendi que não me leva a lugar nenhum!
+Muita coisa aprendida, mais ainda por vir e bastante coisa a se treinar! Se tem uma coisa que aprendi nessa rotina de treinos, madrugar e várias outras coisas é **aproveitar a jornada**! Nada de ficar se comparando com outras pessoas, porque isso não vai me levar a lugar nenhum! O negócio é competir contra mim mesmo, e sempre tentar evoluir!
 
 {% include instagram.html instagramId="CO6HyqahizQ" %}
