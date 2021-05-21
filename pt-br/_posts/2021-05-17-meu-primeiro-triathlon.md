@@ -15,7 +15,7 @@ Cá estava eu abrindo a minha planilha nova de treinos, quando vejo uma prova ma
 
 ## O drama das águas abertas
 
-Natação de longe é a modalidade que mais tenho dificuldade. Não que seja um baita corredor ou ciclista. E, nadar em um mar, lago ou rio (ou qualquer coisa que não tenha uma raia) é quase que outra modalidade quando comparada com nadar em uma piscina. E eu tinha zero experiência! Então, a minha primeira resposta foi um: *Talvez*!
+Natação de longe é a modalidade que mais tenho dificuldade. Não que eu seja um baita corredor ou ciclista. E, nadar em um mar, lago ou rio (ou qualquer coisa que não tenha uma raia) é quase que outra modalidade quando comparada com nadar em uma piscina. E eu tinha zero experiência! Então, a minha primeira resposta foi um: *Talvez*!
 
 Como resolver isso? Nadando em águas abertas! No final de semana anterior ao da prova, agendei um treino em um rio aqui em Charlotte com um time de mergulho e **saiu**! Vou tentar escrever sobre isso em um outro post!
 
@@ -23,7 +23,7 @@ Como resolver isso? Nadando em águas abertas! No final de semana anterior ao da
 
 A prova aconteceu no [Lake Norman](https://www.visitlakenorman.org/), um lugar super legal aqui em Charlotte, em torno de 1 hora da onde estamos. Fiz a inscrição mas o que não esperava é que durante a semana, [72% dos postos de gasolina na Carolina do Norte estariam sem combustível](https://www.foxbusiness.com/markets/north-carolina-gas-stations-without-fuel). Na quinta-feira a situação começou a melhorar e a organização confirmou a prova. 🙌
 
-A distância era um sprint mas eles acabaram fazenddo uma alteração na parte do ciclismo: 750 metros de natação, 28.8 km de ciclismoo e 5 km de corrida.
+A distância era um sprint mas eles acabaram fazendo uma alteração na parte do ciclismo: 750 metros de natação, 28.8 km de ciclismoo e 5 km de corrida.
 
 ### A natação
 
@@ -35,11 +35,11 @@ Essa foi a pior parte da prova pra mim! Além de ter um belo caminho entre a ág
 
 ### A bike
 
-Pra mim essa foi a melhor e mais divertida parte da prova. O percurso era na maioria plano, com algumas leves subidas, porém a parte final judiou com umas ladeiras de desanimar! Mas, consegui manter uma velocídade média de `34.8km/h` que pra mim é ótimo.
+Pra mim essa foi a melhor e mais divertida parte da prova. O percurso era na maioria plano, com algumas leves subidas, porém a parte final judiou com umas ladeiras de desanimar! Mas, consegui manter uma velocidade média de `34.8km/h` que pra mim é ótimo.
 
 ### A t2
 
-Cometi mais um pequeno deslize na transição que vou comentar em um próximo texto mas, no geral tudoo saiu como planejado: tênis no pé e bora pra corrida! Gastei aqui um pouco mais que 2 minutos aqui.
+Cometi mais um pequeno deslize na transição que vou comentar em um próximo texto mas, no geral tudo saiu como planejado: tênis no pé e bora pra corrida! Gastei aqui um pouco mais que 2 minutos aqui.
 
 ### A corrida
 
