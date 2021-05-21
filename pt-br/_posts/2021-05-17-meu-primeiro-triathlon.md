@@ -27,7 +27,7 @@ A distância era um sprint mas eles acabaram fazenddo uma alteração na parte d
 
 ### A natação
 
-Meu plano era na natação era simplesmente me sentir confortável e terminar confiante! No geral foi bem, estranhei um pouco ter tanta gente ao meu redor e dar e receber uns tapas, mas me senti bem mantendo o pace de `1:58`.
+Meu plano era na natação era simplesmente me sentir confortável e terminar confiante! No geral foi bem, estranhei um pouco ter tanta gente ao meu redor e dar e receber uns tapas, mas me senti bem mantendo o pace de `1:58/100m`.
 
 ### A t1
 
@@ -35,8 +35,17 @@ Essa foi a pior parte da prova pra mim! Além de ter um belo caminho entre a ág
 
 ### A bike
 
-Pra mim essa foi a melhor e mais divertida parte da prova. O percurso era na maioria plano, com algumas leves subidas, porém a parte final judiou com umas belas ladeiras! Mas, consegui manter uma velocídade média de `33.9km/h`.
+Pra mim essa foi a melhor e mais divertida parte da prova. O percurso era na maioria plano, com algumas leves subidas, porém a parte final judiou com umas belas ladeiras! Mas, consegui manter uma velocídade média de `34.8km/h`.
 
 ### A t2
 
-Cometi mais um pequeno deslize na transição que vou comentar em um próximo texto mas, noo geral saiu o planejado: tênis no pé, 
+Cometi mais um pequeno deslize na transição que vou comentar em um próximo texto mas, no geral saiu o planejado: tênis no pé e bora pra corrida! Gastei aqui um poucoo mais que 2 minutos.
+
+### A corrida
+
+Essa judiou! Talvez por não estar esperando tanta subida! No último km quando sem perceber comecei a diminuir o ritmo, estava passando por uma área de camping, quando uma senhora com seus cabelos brancos, batendo palma e sentada em uma mesa na frente do seu trailer gritou: "Isso aí! Não para! Eu queria poder fazer isso também!" Era o empurrão que me faltava pra terminar! Acabei fechando em um pace de `4:13/km`.
+
+## A experiência
+
+Muita coisa aprendida, mais ainda por vir e bastante coisa a se treinar! E, se tem uma coisa que encaro nessa jornada toda é só competir contra miim mesmo! Um passo de cada vez tentando sempre evoluir.
+
