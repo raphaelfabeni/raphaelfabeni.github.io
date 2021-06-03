@@ -1,0 +1,127 @@
+items:
+  -
+    src: ["amariobranco-01.png", "amariobranco-02.png"]
+    title: "Armário Branco com prateleiras"
+    sold: false
+  -
+    src: ["armariobrancomenor-01.png","armariobrancomenor02.png"]
+    title: "Armário com 2 portas, 1 gaveta e 2 cestos"
+    sold: false
+  -
+    src: ["armariomadeira-01.png", "armariomadeira-02.png"]
+    title: "Armário com prateleiras e porta pasta"
+    sold: false
+  -
+    src: ["barzinho-01.png", "barzinho-02.png"]
+    title: "Barzinho de canto de madeira com espelhos no fundo e porta copos"
+    sold: false
+  -
+    src: ["buffet-01.png", "buffet-02.png"]
+    title: "Buffet de madeira com 3 portas"
+    sold: false
+  -
+    src: ["cadeira-01.png", "cadeira-02.png"]
+    title: "Jogo de cadeiras pretas"
+    sold: false
+  -
+    src: ["colchao-01.png", "colchao-02.png", "colchao-03.png"]
+    title: "Colchão de solteiro em espuma 25 cm de altura e densidade 33"
+    sold: false
+  -
+    src: ["comodamadeira-01.png", "comodamadeira-02.png"]
+    title: "Cômoda em madeira com 5 gavetas"
+    sold: false
+  -
+    src: ["comodapreta-01.png", "comodapreta-02.png"]
+    title: "Cômoda com 5 gavetas"
+    sold: false
+  -
+    src: ["cortina-01.png", "cortina-02.png"]
+    title: "Cortina Blackout Marrom"
+    sold: false
+  -
+    src: ["Cristaleira-01.png", "Cristaleira-02.png"]
+    title: "Cristaleira de madeira com portas de vidro"
+    sold: false
+  -
+    src: ["enfeiteplanta-01.png", "enfeiteplanta-02.png"]
+    title: "Enfeite de plantas artificiais"
+    sold: false
+  -
+    src: ["espelho-01.png"]
+    title: "Espelho de 54cm de diâmetro"
+    sold: false
+  -
+    src: ["espelho-02.png"]
+    title: "Espelho de 54cm de diâmetro"
+    title: ""
+    sold: false
+  -
+    src: ["espelho-03.png"]
+    title: "Espelho oval"
+    title: ""
+    sold: false
+  -
+    src: ["espelho1.png", "espelho2.png"]
+    title: "Espelho com moldura em madeira"
+    sold: false
+  -
+    src: ["estante1.png","estante2.png"]
+    title: "Estante de madeira com dois gavetões"
+    sold: false
+  -
+    src: ["FOGAO-01.png", "FOGAO-02.png"]
+    title: "Fogão brastemp 4 bocas com timer e 2 grades no forno"
+    sold: false
+  -
+    src: ["frigobar-01.png", "frigobar-02.png"]
+    title: "Frigobar Eterny"
+    sold: false
+  -
+    src: ["hidro-01.png", "hidro-02.png"]
+    title: "Hidro para os pés Techline Foot 500"
+    sold: false
+  -
+    src: ["mesagrande-01.png", "mesagrande-02.png"]
+    title: "Mesa em madeira com 2 gavetas (formato L)"
+    sold: false
+  -
+    src: ["mesamadeira.png", "mesamadeira2.png", "mesamadeira3.png"]
+    title: "Mesa extensível de madeira com 6 cadeiras"
+    sold: false
+  -
+    src: ["mesaprincipal1.png","mesaprincipal2.png", "mesaprincipal3.png"]
+    title: "Mesa de vidro com 6 cadeiras de madeira"
+    sold: false
+  -
+    src: ["mesavidro1.png", "mesavidro2.png"]
+    title: "Mesa de vidro com furo central para guarda-sol"
+    sold: false
+  -
+    src: ["mesinhavidro.png", "mesinhavidro2.png"]
+    title: "Trio de mesinhas de madeira com vidro"
+    sold: false
+  -
+    src: ["poltrona1.png", "poltrona2.png"]
+    title: "Poltrona com acabamento em madeira"
+    sold: false
+  -
+    src: ["quadro1.png", "quadro2.png"]
+    title: "Quadro decorativo"
+    sold: false
+  -
+    src: ["quadro3.png", "quadro4.png"]
+    title: "Quadro decorativo"
+    sold: false
+  -
+    src: ["quadro5.png"]
+    title: "Quadro decorativo"
+    sold: false
+  -
+    src: ["sapateira-01.png", "sapateira-02.png", "sapateira-03.png"]
+    title: "Sapateiras em madeira"
+    sold: false
+  -
+    src: ["som.png", "som1.png"]
+    title: "Aparelho de som Philips 6500W FW M589"
+    sold: false
