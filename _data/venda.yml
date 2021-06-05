@@ -10,7 +10,7 @@ items:
   -
     src: ["armariomadeira-01.png", "armariomadeira-02.png"]
     title: "Armário com prateleiras e porta pasta"
-    sold: false
+    sold: true
   -
     src: ["barzinho-01.png", "barzinho-02.png"]
     title: "Barzinho de canto de madeira com espelhos no fundo e porta copos"
@@ -50,17 +50,17 @@ items:
   -
     src: ["espelho-01.png"]
     title: "Espelho de 54cm de diâmetro"
-    sold: false
+    sold: true
   -
     src: ["espelho-02.png"]
     title: "Espelho de 54cm de diâmetro"
     title: ""
-    sold: false
+    sold: true
   -
     src: ["espelho-03.png"]
     title: "Espelho oval"
     title: ""
-    sold: false
+    sold: true
   -
     src: ["espelho1.png", "espelho2.png"]
     title: "Espelho com moldura em madeira"
@@ -68,7 +68,7 @@ items:
   -
     src: ["estante1.png","estante2.png"]
     title: "Estante de madeira com dois gavetões"
-    sold: false
+    sold: true
   -
     src: ["FOGAO-01.png", "FOGAO-02.png"]
     title: "Fogão brastemp 4 bocas com timer e 2 grades no forno"
@@ -124,4 +124,4 @@ items:
   -
     src: ["som.png", "som1.png"]
     title: "Aparelho de som Philips 6500W FW M589"
-    sold: false
+    sold: true
