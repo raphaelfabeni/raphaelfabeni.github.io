@@ -1,5 +1,20 @@
 items:
   -
+    src: ["barzinho-01.png", "barzinho-02.png"]
+    title: "Barzinho de canto de madeira com espelhos no fundo e porta copos"
+    sold: false
+    extra: "RS 450,00"
+  -
+    src: ["cadeira-01.png", "cadeira-02.png"]
+    title: "Jogo de cadeiras pretas"
+    sold: false
+    extra: "RS 50,00"
+  -
+    src: ["colchao-01.png", "colchao-02.png", "colchao-03.png"]
+    title: "Colchão de solteiro em espuma 25 cm de altura e densidade 33"
+    sold: false
+    extra: "RS 220,00"
+  -
     src: ["amariobranco-01.png", "amariobranco-02.png"]
     title: "Armário Branco com prateleiras"
     sold: true
@@ -12,21 +27,9 @@ items:
     title: "Armário com prateleiras e porta pasta"
     sold: true
   -
-    src: ["barzinho-01.png", "barzinho-02.png"]
-    title: "Barzinho de canto de madeira com espelhos no fundo e porta copos"
-    sold: false
-  -
     src: ["buffet-01.png", "buffet-02.png"]
     title: "Buffet de madeira com 3 portas"
     sold: true
-  -
-    src: ["cadeira-01.png", "cadeira-02.png"]
-    title: "Jogo de cadeiras pretas"
-    sold: false
-  -
-    src: ["colchao-01.png", "colchao-02.png", "colchao-03.png"]
-    title: "Colchão de solteiro em espuma 25 cm de altura e densidade 33"
-    sold: false
   -
     src: ["comodamadeira-01.png", "comodamadeira-02.png"]
     title: "Cômoda em madeira com 5 gavetas"
@@ -38,7 +41,7 @@ items:
   -
     src: ["cortina-01.png", "cortina-02.png"]
     title: "Cortina Blackout Marrom"
-    sold: false
+    sold: true
   -
     src: ["Cristaleira-01.png", "Cristaleira-02.png"]
     title: "Cristaleira de madeira com portas de vidro"
@@ -84,7 +87,7 @@ items:
   -
     src: ["mesagrande-01.png", "mesagrande-02.png"]
     title: "Mesa em madeira com 2 gavetas (formato L)"
-    sold: false
+    sold: true
   -
     src: ["mesamadeira.png", "mesamadeira2.png", "mesamadeira3.png"]
     title: "Mesa extensível de madeira com 6 cadeiras"

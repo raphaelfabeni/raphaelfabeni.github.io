@@ -62,6 +62,19 @@ imageExternal: true
   .venda a:focus {
     background: darkblue;
   }
+
+  .extra {
+    font-weight: bold;
+    padding-left: 15px;
+  }
+
+  .extra span {
+    background-color: lightgreen;
+    color: black;
+    padding: 10px 15px;
+    display: inline-block;
+    font-size: 24px;
+  }
 </style>
 <h1 class="post-title">Vendinha aberta</h1>
 
@@ -78,6 +91,9 @@ Mais infos, por whatsapp! <a href="https://api.whatsapp.com/send?phone=559917416
     {% if item.sold %}
     {% else %}
     <div>
+      {% if item.extra %}
+        <div class="extra">Novo preço: <span>{{ item.extra }}</span></div>
+      {% endif %}
       <a href="https://api.whatsapp.com/send?phone=55991741629&text=Ol%C3%A1!%20Tenho%20interesse%20no%20{{ item.title }}">Eu quero!</a>
     </div>
     {% endif %}
