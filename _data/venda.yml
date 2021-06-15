@@ -3,12 +3,12 @@ items:
     src: ["barzinho-01.png", "barzinho-02.png"]
     title: "Barzinho de canto de madeira com espelhos no fundo e porta copos"
     sold: false
-    extra: "RS 450,00"
+    extra: "RS 440,00"
   -
     src: ["cadeira-01.png", "cadeira-02.png"]
     title: "Jogo de cadeiras pretas"
     sold: false
-    extra: "RS 50,00"
+    extra: "RS 35,00"
   -
     src: ["colchao-01.png", "colchao-02.png", "colchao-03.png"]
     title: "Colchão de solteiro em espuma 25 cm de altura e densidade 33"
