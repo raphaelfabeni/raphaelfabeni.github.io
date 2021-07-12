@@ -23,7 +23,7 @@ Lembro que nos meus últimos treinos antes da corrida vinha tentando manter uum 
 
 A distância da prova era de 4 milhas (em torno de 6.4km) e acontecia dentro de um local chamado *Greenway* que é um dos lugares mais bonitos que já fui (e poder treinar ainda por lá, é demais)!
 
-<style>.embed-container {position: relative; padding-bottom: 120%; height: 0; overflow: hidden;} .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><figure class="text-center"><div class="embed-container"><iframe src="https://www.instagram.com/p/CAwHAXaBAZO/embed/" frameborder="0" scrolling="no" allowtransparency="true"></iframe></div></figure>
+{% include instagram.html instagramId="CAwHAXaBAZO" %}
 
 Como as coisas ainda estão em processo de reabertura aqui, eles fizeram a largada por etapas, sempre com um número máximo de pessoas saindo a cada 20 minutos. Na hora da inscrição era possível escolher um desses horários.
 
