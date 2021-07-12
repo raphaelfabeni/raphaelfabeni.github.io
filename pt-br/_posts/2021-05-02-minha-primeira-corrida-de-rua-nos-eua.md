@@ -66,7 +66,7 @@ Alguns dias depois da prova, entrei no site para ver se tinham tirado alguma fot
 
 Uns 10 dias depois da prova, peguei o meu *award*: esse certificado abaixo, um cupom de $15 pra usar em uma loja de corrida e um par de meias específicos para corrida! Um prêmio modesto mas que o que realmente conta é o significadoo. Mas pra ser sincero o que me deixou mais feliz é poder ver o progresso passo a passo e meu corpo respondendo a treinos cada vez mais desafiadores.
 
-<style>.embed-container {position: relative; padding-bottom: 120%; height: 0; overflow: hidden;} .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><figure class="text-center"><div class="embed-container"><iframe src="https://www.instagram.com/p/COTKdnBBSGo/embed/" frameborder="0" scrolling="no" allowtransparency="true"></iframe></div></figure>
+{% include instagram.html instagramId="COTKdnBBSGo" %}
 
 ## O pós
 
