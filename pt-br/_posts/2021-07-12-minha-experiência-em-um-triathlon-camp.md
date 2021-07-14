@@ -7,7 +7,7 @@ description: Um relato de como foi o meu primeiro camp de triathlon
 category: esportes
 permalink: triathlon-camp-first-bourn/
 ref: triathlon-camp-first-bourn
-date: 2021-07-16 22:00
+date: 2021-07-13 22:15
 image: https://user-images.githubusercontent.com/1345662/125220050-07dea100-e294-11eb-9b6e-b72bf2e5dbfc.png
 alt: Bicicleta de ciclismo apoiada em uma elevação de pedras.
 ---
