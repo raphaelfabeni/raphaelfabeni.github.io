@@ -17,6 +17,10 @@ Algum tempo atrás, recebi um e-mail do grupo de triathlon que treino citando um
 
 ## O local
 
+Fomos o primeiro grupo a se hospedar no local. Chama *First Bourn* e o conceito do espaço é muito legal! Uma casa, na verdade são duas, destinadas a atletas e grupos de treinamento se hospedarem e poderem defrutar ao máximo dos treinos nas montanhas.
+
+![Vista da casa que ficamos hospedados durante o training camp.](https://user-images.githubusercontent.com/1345662/125877150-8199d395-afe2-4eb3-82b0-17ec765de242.png "Vista da casa que ficamos hospedados durante o training camp.")
+
 ## Dia 1
 
 O primeiro dia começou com um treino em águas abertas. Quem me conhece sabe o quão ruim eu sou na natação, mas venho me forçando a me dedicar cada vez mais, e por incrível que possa parecer, eu adorei o treino. 
@@ -39,6 +43,8 @@ Voltando para casa, pra fechar o *sofrimento*, subimos correndo um trecho de 23%
 
 Na parte da tarde fizemos uma trilha pra recuperar um pouco as penas do treino da manhã.  😅 E, na parte da noite, tivemos uma palestra sobre como treinar o lado mental é super importante não só no triathlon mas em qualquer esporte.
 
+![Vista do alto da montanha durante a trilha.](https://user-images.githubusercontent.com/1345662/125877432-2fe2d18b-4e16-4f68-8d90-aa09a8634b47.png "Vista do alto da montanha durante a trilha.")
+
 ## Dia 3
 
 Começamos o dia cedo com mais um treino em águas abertas. E, na parte da tarde teve um treino de transição que chamamos de *brick*. Nada maiis é que fazer o pedal e a corrida logo na sequência. Mas tinha um plus: eram 4x e as distâncias ou tempos eram surpresas. Digamos que foi *divertido* e *doloroso*! 😂 Especimanete por ser no meio das montanhas, era raro achar uma parte plana para se manter um pouco mais confortável na bike. Mas, como dizem, o que não te mata te faz mais forte, certo?
@@ -48,3 +54,9 @@ Na parte da noite, teve a última palestra sobre estratégias de nutrição em p
 ## Dia 4
 
 No último dia, logo cedo tivemos um treino de ativação de core e glúteos e, na sequência fomos de novo pro meio das montanhas para fazer um treino de longo de corrida em uma estrada *gravel*. A divisão do treino era bem bacana, com a intensidade de cada série aumentando à medida que o tempo diminuia, mas é claro, novamente o que deixou a coisa um pouco mais *doloriida* foram as subidas.
+
+## A experiência
+
+![Vista da sacada da casa que fiquei hospedado no training camp.](https://user-images.githubusercontent.com/1345662/125877514-fa852d4e-9c99-484e-9480-bcac6d3e036e.png "Vista da sacada da casa que fiquei hospedado no training camp.")
+
+Voltaria? **Com certeza!** 4 dias de treinos, comida boa e aprendizado! Valeu muito a pena! Espero poder voltar aqui em breve contando do próximo! 🤓
