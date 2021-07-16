@@ -123,6 +123,12 @@
 		margin-bottom: 30px
 		line-height: 1.6
 		font-size: 18px
+	
+	.image-full
+		@include media-min(785px)
+			margin-left: calc(-1 * (100vw - 745px) / 2)
+			max-width: none
+			width: 100vw
 
 	h2,
 	h3,
