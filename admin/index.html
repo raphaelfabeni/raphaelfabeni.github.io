@@ -11,6 +11,44 @@
     <!-- Include the script that builds the page and powers Netlify CMS -->
     <script src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script>
     <script>
+
+      CMS.registerEditorComponent({
+        // Internal id of the component
+        id: "image-full",
+        // Visible label
+        label: "Image Full",
+        // Fields the user need to fill out when adding an instance of the component
+        fields: [
+          {name: 'url-image', label: 'URL', widget: 'string'},
+          {name: 'alt-image', label: 'Alt', widget: 'string'}
+        ],
+        // Pattern to identify a block as being an instance of this component
+        pattern: /^image-full (.*)$/,
+        // Function to extract data elements from the regexp match
+        fromBlock: function(match) {
+          return {
+            id: match[1]
+          };
+        },
+        // Function to create a text block from an instance of this component
+        toBlock: function(obj) {
+          return (
+            '<figure class="image-full"><img src="' + obj['url-image'] + '" alt="' + obj['alt-image'] + '" /></figure>'
+          );
+        },
+        // Preview output for this component. Can either be a string or a React component
+        // (component gives better render performance)
+        toPreview: function(obj) {
+          return (
+            '<figure class="image-full"><img src="' + obj['url-image'] + '" alt="' + obj['alt-image'] + '" /></figure>'
+          );
+        }
+      });
+
+      //
+      //
+      //
+      //
       CMS.registerEditorComponent({
         // Internal id of the component
         id: "box",
