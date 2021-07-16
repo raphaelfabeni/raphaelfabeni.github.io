@@ -35,7 +35,7 @@ Na parte da noite, tivemos nossa primeira palestra sobre como se adaptar e ter u
 
 O segundo dia começou com um treino de ciclismo subindo o *Mt. Mitchell,* o pico mais alto a leste do Mississippi. Foram algumas horas de pedal que valeram muito a pena! Tenho que admitir, sei que eles devem ajudar, mas não sou fã de treinos em subida. 😅
 
-{% include strava.html stravaId="5587061984" %}
+{% include strava.html stravaId="5587061984/embed/6366d16066c5c6133c3dbc3d9f6a44fef51f2156" %}
 
 Voltando para casa, pra fechar o *sofrimento*, subimos correndo um trecho de 23% de inclinação. Literalmente senti meu coração quase saindo pela boca.
 
