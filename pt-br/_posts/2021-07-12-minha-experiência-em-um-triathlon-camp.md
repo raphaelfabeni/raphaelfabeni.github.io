@@ -57,6 +57,6 @@ No último dia, logo cedo tivemos um treino de ativação de core e glúteos e, 
 
 ## A experiência
 
-![Vista da sacada da casa que fiquei hospedado no training camp.](https://user-images.githubusercontent.com/1345662/125877514-fa852d4e-9c99-484e-9480-bcac6d3e036e.png "Vista da sacada da casa que fiquei hospedado no training camp.")
+<figure class="image-full"><img src="https://user-images.githubusercontent.com/1345662/125877514-fa852d4e-9c99-484e-9480-bcac6d3e036e.png" alt="Vista da sacada da casa que fiquei hospedado no training camp." /></figure>
 
 Voltaria? **Com certeza!** 4 dias de treinos, comida boa e aprendizado! Valeu muito a pena! Espero poder voltar aqui em breve contando do próximo! 🤓
