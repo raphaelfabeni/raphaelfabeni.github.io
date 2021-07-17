@@ -39,7 +39,7 @@ O segundo dia começou com um treino de ciclismo subindo o *Mt. Mitchell,* o pic
 
 Voltando para casa, pra fechar o *sofrimento*, subimos correndo um trecho de 23% de inclinação. Literalmente senti meu coração quase saindo pela boca.
 
-<figure class="image-full"><img src="https://user-images.githubusercontent.com/1345662/125549201-8a75d6b1-80c1-4a53-b663-1a6b5c519fd0.png" alt="Raphael e mais duas atletas subindo correndo uma elevação." /><figcpation>undefined</figcaption></figure>
+<figure class="image-full"><img src="https://user-images.githubusercontent.com/1345662/125549201-8a75d6b1-80c1-4a53-b663-1a6b5c519fd0.png" alt="Raphael e mais duas atletas subindo correndo uma elevação." /><figcpation>23% de elevação e o coração na boca!</figcaption></figure>
 
 Na parte da tarde fizemos uma trilha pra recuperar um pouco as penas do treino da manhã.  😅 E, na parte da noite, tivemos uma palestra sobre como treinar o lado mental é super importante não só no triathlon mas em qualquer esporte.
 
