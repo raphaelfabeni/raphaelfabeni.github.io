@@ -25,7 +25,7 @@ Fomos o primeiro grupo a se hospedar no local. Chama *First Bourn* e o conceito 
 
 O primeiro dia começou com um treino em águas abertas. Quem me conhece sabe o quão ruim eu sou na natação, mas venho me forçando a me dedicar cada vez mais, e por incrível que possa parecer, eu adorei o treino. 
 
-<figure class="image-full"><img src="https://user-images.githubusercontent.com/1345662/125548423-31fc8de5-2680-48b9-8459-16c9d1e07cc1.png" alt="Raphael em um treino em águas abertas." /></figure>
+full-image url="https://user-images.githubusercontent.com/1345662/125548423-31fc8de5-2680-48b9-8459-16c9d1e07cc1.png" alt="Raphael em um treino em águas abertas." caption=""
 
 Saindo do treino, fizemos uma corrida de trilha bem leve, pra começar a preparar as pernas para o que estava por vir nos próximos dias. E, por fim, pra finalizar o dia, fizemos um treino de velocidade, com alguns tiros de alta intensidade em uma subida leve.
 
@@ -39,7 +39,7 @@ O segundo dia começou com um treino de ciclismo subindo o *Mt. Mitchell,* o pic
 
 Voltando para casa, pra fechar o *sofrimento*, subimos correndo um trecho de 23% de inclinação. Literalmente senti meu coração quase saindo pela boca.
 
-<figure class="image-full"><img src="https://user-images.githubusercontent.com/1345662/125549201-8a75d6b1-80c1-4a53-b663-1a6b5c519fd0.png" alt="Raphael e mais duas atletas subindo correndo uma elevação." /><figcaption>23% de elevação e o coração na boca!</figcaption></figure>
+full-image url="https://user-images.githubusercontent.com/1345662/125549201-8a75d6b1-80c1-4a53-b663-1a6b5c519fd0.png" alt="Raphael e mais duas atletas subindo correndo uma elevação." caption="23% de elevação e o coração na boca!"
 
 Na parte da tarde fizemos uma trilha pra recuperar um pouco as penas do treino da manhã.  😅 E, na parte da noite, tivemos uma palestra sobre como treinar o lado mental é super importante não só no triathlon mas em qualquer esporte.
 
@@ -57,6 +57,6 @@ No último dia, logo cedo tivemos um treino de ativação de core e glúteos e, 
 
 ## A experiência
 
-<figure class="image-full"><img src="https://user-images.githubusercontent.com/1345662/125877514-fa852d4e-9c99-484e-9480-bcac6d3e036e.png" alt="Vista da sacada da casa que fiquei hospedado no training camp." /></figure>
+full-image url="https://user-images.githubusercontent.com/1345662/125877514-fa852d4e-9c99-484e-9480-bcac6d3e036e.png" alt="Vista da sacada da casa que fiquei hospedado no training camp." caption=""
 
 Voltaria? **Com certeza!** 4 dias de treinos, comida boa e aprendizado! Valeu muito a pena! Espero poder voltar aqui em breve contando do próximo! 🤓
