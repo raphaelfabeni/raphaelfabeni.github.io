@@ -25,7 +25,7 @@ Fomos o primeiro grupo a se hospedar no local. Chama *First Bourn* e o conceito 
 
 O primeiro dia começou com um treino em águas abertas. Quem me conhece sabe o quão ruim eu sou na natação, mas venho me forçando a me dedicar cada vez mais, e por incrível que possa parecer, eu adorei o treino. 
 
-full-image url="https://user-images.githubusercontent.com/1345662/125548423-31fc8de5-2680-48b9-8459-16c9d1e07cc1.png" alt="Raphael em um treino em águas abertas." caption="undefined"
+full-image url="https://user-images.githubusercontent.com/1345662/125548423-31fc8de5-2680-48b9-8459-16c9d1e07cc1.png" alt="Raphael em um treino em águas abertas." caption=""
 
 Saindo do treino, fizemos uma corrida de trilha bem leve, pra começar a preparar as pernas para o que estava por vir nos próximos dias. E, por fim, pra finalizar o dia, fizemos um treino de velocidade, com alguns tiros de alta intensidade em uma subida leve.
 
