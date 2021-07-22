@@ -12,6 +12,46 @@
     <script src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script>
     <script>
       CMS.registerEditorComponent({
+      // Internal id of the component
+        id: "full-image",
+        // Visible label
+        label: "Full image",
+        // Fields the user need to fill out when adding an instance of the component
+        fields: [
+          {name: 'id', label: 'URL image', widget: 'string'},
+          {name: 'alt', label: 'Alt image', widget: 'string'},
+          {name: 'caption', label: 'Caption image', widget: 'string'}
+        ],
+        // Pattern to identify a block as being an instance of this component
+        pattern: /^full-image url="(.*)" alt="(.*)" caption="(.*)"/,
+        // Function to extract data elements from the regexp match
+        fromBlock: function(match) {
+          return {
+            id: match[1],
+            alt: match[2],
+            caption: match[3]
+          };
+        },
+        // Function to create a text block from an instance of this component
+        toBlock: function(obj) {
+          return `full-image url="${obj.id}" alt="${obj.alt}" caption="${obj.caption}"`;
+        },
+        // Preview output for this component. Can either be a string or a React component
+        // (component gives better render performance)
+        toPreview: function(obj) {
+          const caption = obj.caption && obj.caption.length > 0 
+            ? `<figcaption>${obj['caption']}</figcaption>`
+            : '';
+          return (
+            `<figure class="image-full"><img src="${obj['id']}" alt="${obj['alt']}" />${caption}</figure>`
+          );
+        }
+      });
+      //
+      //
+      //
+      //
+      CMS.registerEditorComponent({
         // Internal id of the component
         id: "box",
         // Visible label
@@ -28,9 +68,7 @@
         },
         // Function to create a text block from an instance of this component
         toBlock: function(obj) {
-          return (
-            '<div class="post-detail">' + obj.id + '</div>'
-          );
+          return 'box ' + obj.id;
         },
         // Preview output for this component. Can either be a string or a React component
         // (component gives better render performance)
