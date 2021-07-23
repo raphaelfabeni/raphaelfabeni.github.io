@@ -11,11 +11,9 @@ date: 2021-07-22 22:06
 image: https://user-images.githubusercontent.com/1345662/125220050-07dea100-e294-11eb-9b6e-b72bf2e5dbfc.png
 alt: Bicicleta de ciclismo apoiada em uma elevação de pedras.
 ---
-{% include box.html boxContent="teste" %}
-
 Algum tempo atrás, recebi um e-mail do grupo de triathlon que treino citando um camp que iria acontecer em algumas semanas. Eu estava meio assim em participar pelo fato de estar apenas começando nesse mundo e, de repente ficar meio perdido ou *muito pra trás* durante os treinos. Mas, depois de pensar mais sobre o assunto, resolvi deixar isso de lado e fazer o que gosto: **me divertir e treinar**!
 
-<div class="post-detail">Um camp nada mais é do que uma imersão no mundo (nesse caso) do triathlon. Geralmente são treinos diferentes do que estamos acostumados, que nos fazem sair um pouco da zona de conforto e evoluir. Um outro ponto legal é a troca de experiências com outro(a)s atletas, que faz com que você "aumente sua bagagem" no esporte.</div>
+{% include box.html boxContent="Um camp nada mais é do que uma imersão no mundo (nesse caso) do triathlon. Geralmente são treinos diferentes do que estamos acostumados, que nos fazem sair um pouco da zona de conforto e evoluir. Um outro ponto legal é a troca de experiências com outro(a)s atletas, que faz com que você "aumente sua bagagem" no esporte." %}
 
 ## O local
 
