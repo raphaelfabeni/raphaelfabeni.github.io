@@ -5,9 +5,9 @@ lang: pt-br
 title: Minha experiência em um training camp
 description: Um relato de como foi o meu primeiro training camp
 category: esportes
-permalink: triathlon-camp-first-bourn/
-ref: triathlon-camp-first-bourn
-date: 2021-07-13 22:15
+permalink: meu-primeiro-training-camp/
+ref: meu-primeiro-training-camp
+date: 2021-07-22 22:06
 image: https://user-images.githubusercontent.com/1345662/125220050-07dea100-e294-11eb-9b6e-b72bf2e5dbfc.png
 alt: Bicicleta de ciclismo apoiada em uma elevação de pedras.
 ---
