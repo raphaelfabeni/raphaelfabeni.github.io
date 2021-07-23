@@ -11,7 +11,7 @@ date: 2021-07-22 22:06
 image: https://user-images.githubusercontent.com/1345662/125220050-07dea100-e294-11eb-9b6e-b72bf2e5dbfc.png
 alt: Bicicleta de ciclismo apoiada em uma elevação de pedras.
 ---
-Algum tempo atrás, recebi um e-mail do grupo de triathlon que treino citando um camp que iria acontecer em algumas semanas. Eu estava meio assim em participar pelo fato de estar apenas começando nesse mundo e, de repente ficar meio perdido ou *muito pra trás* durante os treinos. Mas, depois de pensar mais sobre o assunto, ressolvi deixar isso de lado e fazer o que gosto: me divertir e treinar!
+Algum tempo atrás, recebi um e-mail do grupo de triathlon que treino citando um camp que iria acontecer em algumas semanas. Eu estava meio assim em participar pelo fato de estar apenas começando nesse mundo e, de repente ficar meio perdido ou *muito pra trás* durante os treinos. Mas, depois de pensar mais sobre o assunto, resolvi deixar isso de lado e fazer o que gosto: **me divertir e treinar**!
 
 <div class="post-detail">Um camp nada mais que uma imersão no mundo (nesse caso) do triathlon. Geralmente são treinos diferentes do que estamos acostumados, que nos fazem sair um pouco da zona de conforto e evoluir. Um outro ponto legal é a troca de experiências com outro(a)s atletas, que faz com que você "aumente sua bagagem" no esporte.</div>
 
@@ -29,7 +29,7 @@ O primeiro dia começou com um treino em águas abertas. Quem me conhece sabe o 
 
 Saindo do treino, fizemos uma corrida de trilha bem leve, pra começar a preparar as pernas para o que estava por vir nos próximos dias. E, por fim, pra finalizar o dia, fizemos um treino de velocidade, com alguns tiros de alta intensidade em uma subida leve.
 
-Na parte da noite, tivemos nossa primeira palestra sobre como se adaptar e ter uma boa performance nos treinos e provas no calor.
+Na parte da noite, tivemos nossa primeira palestra sobre como se adaptar e ter uma boa performance nos treinos e provas em altas temperaturas.
 
 ## Dia 2
 
@@ -47,9 +47,9 @@ Na parte da tarde fizemos uma trilha pra recuperar um pouco as penas do treino d
 
 ## Dia 3
 
-Começamos o dia cedo com mais um treino em águas abertas. E, na parte da tarde teve um treino de transição que chamamos de *brick*. Nada maiis é que fazer o pedal e a corrida logo na sequência. Mas tinha um plus: eram 4x e as distâncias ou tempos eram surpresas. Digamos que foi *divertido* e *doloroso*! 😂 Especimanete por ser no meio das montanhas, era raro achar uma parte plana para se manter um pouco mais confortável na bike. Mas, como dizem, o que não te mata te faz mais forte, certo?
+Começamos o dia cedo com mais um treino em águas abertas. O treino foi dividido em sériess focadas em técnica, velocidade e resistência. E, na parte da tarde teve um treino de transição que chamamos de *brick*. Nada maiis é que fazer o pedal e a corrida logo na sequência. Mas tinha um plus: **eram 4x** **e as distâncias ou tempos eram surpresas**. Digamos que foi *divertido* e *doloroso*! 😂 Especimanete por ser no meio das montanhas, era raro achar uma parte plana para se manter um pouco mais confortável na bike. Mas, como dizem, o que não te mata te faz mais forte, certo?
 
-Na parte da noite, teve a última palestra sobre estratégias de nutrição em provas.
+Na parte da noite, teve a última palestra do camp e foi sobre estratégias de nutrição em provas.
 
 ## Dia 4
 
