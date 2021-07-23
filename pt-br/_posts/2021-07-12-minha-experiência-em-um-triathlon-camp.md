@@ -25,7 +25,7 @@ Fomos o primeiro grupo a se hospedar no local. Chama *First Bourn* e o conceito 
 
 O primeiro dia começou com um treino em águas abertas. Quem me conhece sabe o quão ruim eu sou na natação, mas venho me forçando a me dedicar cada vez mais, e por incrível que possa parecer, eu adorei o treino. 
 
-<figure class="image-full"><img src="https://user-images.githubusercontent.com/1345662/125548423-31fc8de5-2680-48b9-8459-16c9d1e07cc1.png" alt="Raphael em um treino em águas abertas." /></figure>
+{% include full-image.html src="https://user-images.githubusercontent.com/1345662/125548423-31fc8de5-2680-48b9-8459-16c9d1e07cc1.png" alt="Raphael em um treino em águas abertas." caption="undefined"  %}
 
 Saindo do treino, fizemos uma corrida de trilha bem leve, pra começar a preparar as pernas para o que estava por vir nos próximos dias. E, por fim, pra finalizar o dia, fizemos um treino de velocidade, com alguns tiros de alta intensidade em uma subida leve.
 
@@ -57,6 +57,6 @@ No último dia, logo cedo tivemos um treino de ativação de core e glúteos e, 
 
 ## A experiência
 
-<figure class="image-full"><img src="https://user-images.githubusercontent.com/1345662/125877514-fa852d4e-9c99-484e-9480-bcac6d3e036e.png" alt="Vista da sacada da casa que fiquei hospedado no training camp." /></figure>
+{% include full-image.html src="https://user-images.githubusercontent.com/1345662/125877514-fa852d4e-9c99-484e-9480-bcac6d3e036e.png" alt="Vista da sacada da casa que fiquei hospedado no training camp." caption="undefined"  %}
 
 Voltaria? **Com certeza!** 4 dias de treinos, comida boa e aprendizado! Valeu muito a pena! Espero poder voltar aqui em breve contando do próximo! 🤓
