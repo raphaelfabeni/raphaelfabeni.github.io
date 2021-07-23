@@ -2,7 +2,7 @@
 layout: post
 type: Post
 lang: pt-br
-title: Minha experiência em um training camp
+title: Minha experiência em um training campa
 description: Um relato de como foi o meu primeiro training camp
 category: esportes
 permalink: meu-primeiro-training-camp/
