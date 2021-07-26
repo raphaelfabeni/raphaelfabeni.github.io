@@ -47,5 +47,7 @@ compress_html:
 dictionary:
   en:
     all_categories: 'All'
+    more_posts: 'More posts'
   pt-br:
     all_categories: 'Tudo'
+    more_posts: 'Ver mais posts'

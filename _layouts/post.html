@@ -2,7 +2,6 @@
 type: post
 layout: compress
 ---
-
 <!doctype html>
   {% if page.lang == "pt-br" %}
     <html lang="pt-br">
@@ -19,11 +18,11 @@ layout: compress
     <div class="header-post" style="background-image: url({{page.image}});">
       <button class="header-post__arrow" data-post-arrow></button>
     </div>
+    <h1 class="post-title" data-post-title>{{ page.title }}</h1>
   </div>
 
 	<div class="full">
 		<div class="container container--small container--spacing">
-      <h1 class="post-title" data-post-title>{{ page.title }}</h1>
       {% if page.lang == "en" and alternatePosts.size == 1 %}
       <section class="post-box-info">
         Quer esse conteúdo em pt-br? <a href="https://github.com/raphaelfabeni/raphaelfabeni.github.io/issues/new?assignees=&labels=tradu%C3%A7%C3%A3o&template=traducao.md&title=Tradu%C3%A7%C3%A3o+de+um+post&body=Gostaria+de+pedir+a+tradução+do+post+_[{{ page.title }}]({{ site.url }}{{ page.url }})_+">Clique aqui</a>.
@@ -32,7 +31,7 @@ layout: compress
 	  	<article role="main" class="post-content">
 	    	{{ content }}
 	  	</article>
-  		<a href="/blog" class="button button--default button--big button--center">See all posts...</a>
+  		<a href="{{ site.blog[page.lang] }}" class="button button--default button--big button--center">{{ site.dictionary[page.lang].more_posts }}</a>
   	</div>
   </div>
 
