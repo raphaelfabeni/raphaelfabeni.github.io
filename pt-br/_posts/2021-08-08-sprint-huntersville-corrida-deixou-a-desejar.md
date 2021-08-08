@@ -31,7 +31,11 @@ Eu vinha me sentindo muito bem nos treinos, principalmente os de corrida. No ent
 
 Tentei ao máximo controlar todas as outras coisas que estavam ao meu alcance como sono, dieta e trabalho (organizei minha agenda ao máximo para poder fazer minhas pausas durante o dia para as refeições e para um dia ou outro que precisava ficar offline durante uma parte do dia para resolver algo).
 
+Em paralelo, na sexta-feira pré-prova (que era domingo) tinha o dia off de treinos e aproveitei para agendar uma sessão de quiropraxia e de massagem de liberação muscular para dar um jeito na carcaça. 
 
+## A natação
+
+Eu não sei ainda se gostei da prova ser dentro de uma piscina. Com certeza um ponto positivo era não ter que se preocupar com a navegação, que é um dos desafios em se nadar em águas abertas. No entanto, ficar mudando de raia vamos dizer que foi um pequeno desafio e sim, bati minha cabeça em uma daquelas cordas que fazem a separação das raias.
 
 ## A corrida
 
