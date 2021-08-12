@@ -39,7 +39,7 @@
         // Preview output for this component. Can either be a string or a React component
         // (component gives better render performance)
         toPreview: function(obj) {
-          const caption = obj.caption && obj.caption.length > 0 
+          var caption = obj.caption && obj.caption.length > 0 
             ? `<figcaption>${obj['caption']}</figcaption>`
             : '';
           return (
@@ -48,6 +48,52 @@
         }
       });
       //
+      //
+      CMS.registerEditorComponent({
+      // Internal id of the component
+        id: "video",
+        // Visible label
+        label: "Video",
+        // Fields the user need to fill out when adding an instance of the component
+        fields: [
+          {name: 'src', label: 'Video URL', widget: 'string'},
+          {name: 'poster', label: 'Video Poster', widget: 'string'},
+          {name: 'width', label: 'Video Widht', widget: 'string'},
+          {name: 'height', label: 'Video Height', widget: 'string'}
+        ],
+        // Pattern to identify a block as being an instance of this component
+        pattern: /^{% include video.html src="(.*)" poster="(.*)" width="(.*)" height="(.*)"  %}/,
+        // Function to extract data elements from the regexp match
+        fromBlock: function(match) {
+          return {
+            src: match[1],
+            poster: match[2],
+            width: match[3],
+            height: match[4]
+          };
+        },
+        // Function to create a text block from an instance of this component
+        toBlock: function(obj) {
+          return `{% include video.html src="${obj.src}" poster="${obj.poster}" width="${obj.width}" height="${obj.height}"  %}`;
+        },
+        // Preview output for this component. Can either be a string or a React component
+        // (component gives better render performance)
+        toPreview: function(obj) {
+          var hasWidth = obj.width && obj.width.length > 0 && obj.width !== 'undefined'
+            ? `width="${obj.width}"`
+            : '';
+          var hasHeight = obj.height && obj.height.length > 0 && obj.height !== 'undefined'
+            ? `height="${obj.height}"`
+            : '';
+          return (
+            `<div class="post-video">
+              <video preload="auto" poster="${obj['poster']}" controls="controls" src="${obj['src']}" ${hasWidth} ${hasHeight}>
+                Putz, acho que seu navegador não suporta o vídeo! Foi mal! :(
+              </video>
+            </div>`
+          );
+        }
+      });
       //
       //
       //
