@@ -35,9 +35,15 @@ Em paralelo, na sexta-feira pré-prova (que era domingo) tinha o dia off de trei
 
 ## A natação
 
-Eu não sei ainda se gostei da prova ser dentro de uma piscina. Com certeza um ponto positivo era não ter que se preocupar com a navegação, que é um dos desafios em se nadar em águas abertas. No entanto, ficar mudando de raia vamos dizer que foi um pequeno desafio e sim, bati minha cabeça em uma daquelas cordas que fazem a separação das raias.
+Eu não sei ainda se gostei da prova ser dentro de uma piscina. Com certeza um ponto positivo era não ter que se preocupar com a navegação, que é um dos desafios em se nadar em águas abertas. No entanto, ficar mudando de raia foi um pequeno desafio e sim, bati minha cabeça em uma daquelas cordas que fazem a separação das raias.
 
 {% include video.html src="https://user-images.githubusercontent.com/1345662/128648418-348695e5-023c-4a4e-8896-35e54d41ffe7.mp4" poster="https://user-images.githubusercontent.com/1345662/129127094-067d6c6d-684d-46c2-be41-f3f552c3919b.png" width="350" height="623"  %}
+
+## O ciclismo
+
+Saí da piscina meio tonto! Sim, mais que o normal! 😂 A princípio pensei que poderia ser por ter saído da piscina muito rápido e ter toda a mudança de direção do corpo, mas quando subi na bike percebi que não ainda não estava 100%.
+
+
 
 ## A corrida
 
