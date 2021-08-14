@@ -1,1 +1,2 @@
 src/media/2021-sprint-huntersville-bike.mp4 filter=lfs diff=lfs merge=lfs -text
+dist/media/2021-sprint-huntersville-bike.mp4 filter=lfs diff=lfs merge=lfs -text
