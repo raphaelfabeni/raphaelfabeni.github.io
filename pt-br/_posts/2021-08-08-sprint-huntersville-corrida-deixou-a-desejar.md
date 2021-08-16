@@ -51,4 +51,6 @@ Apesar de tudo, estava conseguindo manter uma média legal acima dos 34 km/h. Ea
 
 ## A corrida
 
+{% include video.html src="https://user-images.githubusercontent.com/1345662/129497557-9b692333-2844-431f-8f28-b4249bb010f6.mp4" poster="https://user-images.githubusercontent.com/1345662/129497601-66f48ddd-0196-4461-b1f7-9df2df88c9af.png" width="350" height="623"  %}
+
 E é aqui que mora a frustração da prova!
