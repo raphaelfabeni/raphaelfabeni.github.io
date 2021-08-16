@@ -103,7 +103,7 @@
         // Visible label
         label: "Box",
         // Fields the user need to fill out when adding an instance of the component
-        fields: [{name: 'id', label: 'text', widget: 'text'}],
+        fields: [{name: 'id', label: 'text', widget: 'markdown'}],
         // Pattern to identify a block as being an instance of this component
         pattern: /^{% include box.html boxContent="(.*)" %}$/,
         // Function to extract data elements from the regexp match
