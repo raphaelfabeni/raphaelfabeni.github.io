@@ -37,13 +37,17 @@ Em paralelo, na sexta-feira pré-prova (que era domingo) tinha o dia off de trei
 
 Eu não sei ainda se gostei da prova ser dentro de uma piscina. Com certeza um ponto positivo era não ter que se preocupar com a navegação, que é um dos desafios em se nadar em águas abertas. No entanto, ficar mudando de raia foi um pequeno desafio e sim, bati minha cabeça em uma daquelas cordas que fazem a separação das raias.
 
-{% include video.html src="https://user-images.githubusercontent.com/1345662/128648418-348695e5-023c-4a4e-8896-35e54d41ffe7.mp4" poster="https://user-images.githubusercontent.com/1345662/129127094-067d6c6d-684d-46c2-be41-f3f552c3919b.png" width="350" height="623"  %}
+{% include video.html src="https://user-images.githubusercontent.com/1345662/129496169-a966b046-a859-4845-9d9e-e1293219ee4e.mp4" poster="https://user-images.githubusercontent.com/1345662/129127094-067d6c6d-684d-46c2-be41-f3f552c3919b.png" width="350" height="623"  %}
 
 ## O ciclismo
 
-Saí da piscina meio tonto! Sim, mais que o normal! 😂 A princípio pensei que poderia ser por ter saído da piscina muito rápido e ter toda a mudança de direção do corpo, mas quando subi na bike percebi que não ainda não estava 100%.
+Saí da piscina meio tonto! Sim, mais que o normal! 😂  A princípio pensei que poderia ser por ter saído da piscina muito rápido e ter toda a mudança de direção do corpo, mas quando subi na bike percebi que não ainda não estava 100%.
 
+{% include video.html src="https://user-images.githubusercontent.com/1345662/129496166-01635667-0e2c-46d6-b930-9a951f2b9bc6.mp4" poster="https://user-images.githubusercontent.com/1345662/129497109-b3efafb8-bbdd-4e15-92fc-b21c3d802af6.png" width="350" height="623"  %}
 
+O plano na bike era me divertir e fazer o máximo de força possível. Na parte da nutrição, assim que estivesse em um ritmo bom no pedal, tinha que começar a ingerir o *combo* que tinha na garrafa. Aí que veio o problema: mesmo antes de tentar, por algumas vezes me eu quase vomitei. Mesmo assim, esperei alguns kms, respirei fundo e comecei a tomar pois sabia que senão me alimentasse poderia pagar a recompensa mais pro final da prova.
+
+Apesar de tudo, estava conseguindo manter uma média legal acima dos 34 km/h. Eaí, a cereja do bolo:mais pro final do pedal,comecei a sentir que precisava fazer cada vez mais força pra pedalar e manter a mesma velocidade. Na hora, claro, o que pensei foi que pelo fato de não estar me sentindo bem, não tava mais pesado, eu que não estava com a disposição e energia de sempre. Algumas hora depois, após a prova ter terminado, fui pegar a minha bike pra colocar no carro e adivinhem: **pneu furado!** Pedalei os últimos kms da prova com o pneu traseiro totalmente no chão (chuto que foram entre 2 e 3 kms).
 
 ## A corrida
 
