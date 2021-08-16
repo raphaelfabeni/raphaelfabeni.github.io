@@ -56,3 +56,5 @@ Apesar de tudo, estava conseguindo manter uma média legal acima dos 34 km/h. Ea
 E é aqui que mora a frustração da prova! Há algumas semanas vinha notando uma melhora na corrida, não que estava muito mais veloz, mas parecia que estava mais confortável ao correr. Coloquei uma meta agressiva, tentar termimar abaixo dos 22 minutos, o que pra muitos não é nada demais, mas pra mim seria um feito enorme.
 
 No plano nutricional, precisava ingerir um gel entre o final do ciclismo e a T2, mas antes da corrida. Mas, devido ao fato de não estar me sentindo bem, decidi por não ingerir o gel. Comecei a prova num ritmo bem mais forte do que deveria, e esse e alguns outros erros que cometi, são tópicos que quero abordar em um próximo post.
+
+Foi questão de minutos que como uma avalanche meu corpo inteiro começou a reclamar: até a famosa dor de facão eu tive.
