@@ -57,4 +57,6 @@ E é aqui que mora a frustração da prova! Há algumas semanas vinha notando um
 
 No plano nutricional, precisava ingerir um gel entre o final do ciclismo e a T2, mas antes da corrida. Mas, devido ao fato de não estar me sentindo bem, decidi por não ingerir o gel. Comecei a prova num ritmo bem mais forte do que deveria, e esse e alguns outros erros que cometi, são tópicos que quero abordar em um próximo post.
 
+{% include box.html boxContent="**T1** e **T2** são termos que utilizamos para se referir à transição 1 e 2, que respectivamente são respectivamente quando você sai da natação e se organiza pra iniciar o ciclismo e, quando você chega do trajeto do ciclismo, desde da bike e começa a se organizar para sair para a corrida." %}
+
 Foi questão de minutos que como uma avalanche meu corpo inteiro começou a reclamar: até a famosa dor de facão eu tive.
