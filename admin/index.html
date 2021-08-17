@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Content Manager</title>
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/dompurify/2.3.1/purify.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
   </head>
   <body>
     <!-- Include the script that builds the page and powers Netlify CMS -->
@@ -120,7 +123,7 @@
         // (component gives better render performance)
         toPreview: function(obj) {
           return (
-            '<div class="post-detail">' + obj.id + '</div>'
+            '<div class="post-detail">' + DOMPurify.sanitize( marked(obj.id) ) + '</div>'
           );
         }
       });
