@@ -59,4 +59,4 @@ No plano nutricional, precisava ingerir um gel entre o final do ciclismo ou na T
 
 {% include box.html boxContent="**T1** e **T2** são termos que utilizamos para se referir à transição; 1 e 2 no caso, que respectivamente são quando você sai da natação e se organiza pra iniciar o ciclismo (1) e, quando você chega do trajeto do ciclismo, desde da bike e começa a se organizar para sair para a corrida (2)." %}
 
-Foi questão de minutos que como uma avalanche, meu corpo inteiro começou a reclamar: até a famosa dor de facão eu tive. Comecei a reduzir o ritmo até simplesmente optar por andar por alguns metros e tentar fazer um *reboot.*
+Foi questão de minutos que como uma avalanche, meu corpo inteiro começou a reclamar: até a famosa *dor de facão* eu tive. Comecei a reduzir o ritmo até simplesmente não ter opção senão andar por alguns metros e tentar fazer um *reboot da máquina.* Passsei por um posto de reabastecimento, peguei um copo de agua e dsdsdsds, ,
