@@ -55,8 +55,8 @@ Apesar de tudo, estava conseguindo manter uma média legal acima dos 34 km/h. A�
 
 Aqui que mora a frustração da prova! Há algumas semanas vinha notando uma melhora na corrida: não que estava muito mais veloz, mas parecia que me sentia mais confortável ao correr. Coloquei uma meta agressiva, tentar termimar abaixo dos 22 minutos, o que pra muitos não é nada demais, mas pra mim seria um feito enorme.
 
-No plano nutricional, precisava ingerir um gel entre o final do ciclismo ou na T2. Mas, devido ao fato de não estar me sentindo bem, decidi por não ingerir o gel e seguir. Comecei a prova num ritmo bem mais forte do que deveria, e esse e alguns outros erros que cometi, são tópicos que **quero abordar em um próximo post**.
+No plano nutricional, precisava ingerir um gel entre o final do ciclismo ou na T2. Mas, devido ao fato de não estar me sentindo bem, decidi por não ingerir o gel e seguir. Comecei a prova num ritmo bem mais forte do que deveria, e esse e alguns outros erros que cometi, são tópicos que *quero abordar em um próximo post*.
 
-{% include box.html boxContent="**T1** e **T2** são termos que utilizamos para se referir à transição 1 e 2, que respectivamente são respectivamente quando você sai da natação e se organiza pra iniciar o ciclismo e, quando você chega do trajeto do ciclismo, desde da bike e começa a se organizar para sair para a corrida." %}
+{% include box.html boxContent="**T1** e **T2** são termos que utilizamos para se referir à transição; 1 e 2 no caso, que respectivamente são quando você sai da natação e se organiza pra iniciar o ciclismo (1) e, quando você chega do trajeto do ciclismo, desde da bike e começa a se organizar para sair para a corrida (2)." %}
 
-Foi questão de minutos que como uma avalanche meu corpo inteiro começou a reclamar: até a famosa dor de facão eu tive.
+Foi questão de minutos que como uma avalanche, meu corpo inteiro começou a reclamar: até a famosa dor de facão eu tive. Comecei a reduzir o ritmo até simplesmente optar por andar por alguns metros e tentar fazer um *reboot.*
