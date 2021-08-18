@@ -59,4 +59,8 @@ No plano nutricional, precisava ingerir um gel entre o final do ciclismo ou na T
 
 {% include box.html boxContent="**T1** e **T2** são termos que utilizamos para se referir à transição; 1 e 2 no caso, que respectivamente são quando você sai da natação e se organiza pra iniciar o ciclismo (1) e, quando você chega do trajeto do ciclismo, desde da bike e começa a se organizar para sair para a corrida (2)." %}
 
-Foi questão de minutos que como uma avalanche, meu corpo inteiro começou a reclamar: até a famosa *dor de facão* eu tive. Comecei a reduzir o ritmo até simplesmente não ter opção senão andar por alguns metros e tentar fazer um *reboot da máquina.* Passsei por um posto de reabastecimento, peguei um copo de agua e dsdsdsds, ,
+Foi questão de minutos que como uma avalanche, meu corpo inteiro começou a reclamar: até a famosa *dor de facão* eu tive. Comecei a reduzir o ritmo até simplesmente não ter opção senão andar por alguns metros e tentar fazer um *reboot da máquina.* Passei por um posto de reabastecimento, peguei um copo de água, dei aquela respirada funda e comecei a pensar em tudo que tinha feito de treino nas úlimas semanas; estava ali pra me divertir mas queria dar o meu melhor, e foi aí que comecei a me senttir melhor e voltei a correr; até consegui ainda *apertar um pouco o passo* nos úlimos minutos.
+
+## No geral
+
+O resultado foi muito melhor que imaginava: 19º geral e 1º na categoria estreantes. Feliz? Claro! Mas com a certeza que tem muito a se melhorar, especialmente nas transições e na natação. Agora é cabeça de volta nos treinos, começar a treinar mais o que preciso melhorar e já pensar na próxima.
