@@ -2,12 +2,12 @@
 layout: post
 type: Post
 lang: pt-br
-title: "Sprint Huntersville: "
-description: Preparação, experiência e feedbacks da prova sprint em Huntersville
+title: "Prova: Triathlon Sprint Huntersville"
+description: Um pouco da preparação e feedbacks da prova sprint em Huntersville
 category: esportes
-permalink: sprint-huntersville/
-ref: sprint-huntersville
-date: 2021-08-07 19:17
+permalink: sprint-triathlon-huntersville/
+ref: sprint-triathlon-huntersville
+date: 2021-08-18 10:06
 image: https://user-images.githubusercontent.com/1345662/128647262-e8b0cbd4-4922-4e7e-9d15-e3cbe19fff41.jpg
 alt: Raphael empurrando sua bicicleta para área de transição da prova de triathlon.
 ---
