@@ -32,24 +32,27 @@ const Arrow = (function(){
 
 Arrow.init();
 
-// const loadScriptAsync = (url, label = '', callback = null) => {
+const loadScriptAsync = (url, label = '', callback = null) => {
 
-// 	const script = document.createElement('script');
-// 	script.src = url;
-// 	script.async = true;
-// 	script.onload = () => {
-// 		console.log('loaded');
-// 		if (callback) {
-// 			callback();
-// 		}
-// 	};
-// 	script.onerror = () => console.log(`Error loading ${label} script!`);
-// 	const wrapper = document.body;
-// 	wrapper.appendChild(script);
-// };
+	const script = document.createElement('script');
+	script.src = url;
+	script.async = true;
+	script.onload = () => {
+		console.log(label + ' loaded' );
+		if (callback) {
+			callback();
+		}
+	};
+	script.onerror = () => console.log(`Error loading ${label} script!`);
+	const wrapper = document.body;
+	wrapper.appendChild(script);
+};
 
-// document.addEventListener('DOMContentLoaded', () => {
-// 	window.setTimeout(() => {
-// 		loadScriptAsync('https://platform-api.sharethis.com/js/sharethis.js#property=5fb7c760aaef1000126fdf46&product=sticky-share-buttons', 'Share this');
-// 	}, 3000);
-// });
+const instagramSelector = document.querySelectorAll('.instagram-media');
+if(instagramSelector) {
+	document.addEventListener('DOMContentLoaded', () => {
+		window.setTimeout(() => {
+			loadScriptAsync('//www.instagram.com/embed.js', 'Insta Embed');
+		}, 2000);
+	});
+}
