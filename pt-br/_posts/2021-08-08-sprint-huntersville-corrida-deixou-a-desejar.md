@@ -2,7 +2,7 @@
 layout: post
 type: Post
 lang: pt-br
-title: "Prova: Triathlon Sprint Huntersville"
+title: "Prova: Sprint Huntersville"
 description: Um pouco da preparação e feedbacks da prova sprint em Huntersville
 category: esportes
 permalink: sprint-triathlon-huntersville/
@@ -64,5 +64,7 @@ Foi questão de minutos que como uma avalanche, meu corpo inteiro começou a rec
 ## No geral
 
 O resultado foi muito melhor que imaginava: 19º geral e 1º na categoria estreantes. Feliz? Claro! Mas com a certeza que tem muito a se melhorar, especialmente nas transições e na natação. Agora é cabeça de volta nos treinos, começar a treinar mais o que preciso melhorar e já pensar na próxima. 
+
+A Cris fez um vídeo super bacana sobre a prova na *visão dela.* Compartilhei na minha conta do Instagram abaixo*.*
 
 {% include instagram.html instagramId="CSG8a8hgpDC" %}
