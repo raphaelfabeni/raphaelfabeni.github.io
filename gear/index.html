@@ -13,7 +13,7 @@ imageExternal: true
 			<h2 class="gear__title"><span>{{ sport.icon }}</span>{{ sport.title }}</h2>
 			<ul class="gear__list">
 			{% for sportItem in sport.items %}
-				<li class="gear__list-item">
+				<li class="gear__list-item  {% if sportItem.retired %} is-retired{% endif %}">
 					<h3 class="gear__list-title">{{ sportItem.name }}</h3>
 					<img src="{{ sportItem.image.small }}" srcset="{{ sportItem.image.big }} 2x" alt="{{ sportItem.name }}">
 				</li>

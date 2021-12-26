@@ -2,22 +2,35 @@
   icon: 🏃‍♂️
   items:
     -
+      name: Hoka One One Carbon X2
+      image:
+        small: https://user-images.githubusercontent.com/1345662/147418625-2ce91ec4-07e4-4743-89af-a5b65eb6b4cf.jpg
+        big: https://user-images.githubusercontent.com/1345662/147418624-a165dba4-577f-4662-a2dd-75e8dca86868.jpg
+    -
+      name: Hoka One One Clifton 8
+      image:
+        small: https://user-images.githubusercontent.com/1345662/147418626-6551349d-69ae-456a-87a3-b2d63c26c173.jpg
+        big: https://user-images.githubusercontent.com/1345662/147418628-9e9e02ab-7a30-4bcb-a661-6e1efdeed9d2.jpg
+    -
       name: Nike Zoom Fly SP
       image:
         small: https://user-images.githubusercontent.com/1345662/115168336-87d7df00-a088-11eb-8745-a7ffbebb1a14.jpg
         big: https://user-images.githubusercontent.com/1345662/115168338-88707580-a088-11eb-8404-4c45b41d181d.jpg
     -
       name: Nike Zoom Gravity
+      retired: true
       image:
         small: https://user-images.githubusercontent.com/1345662/115169167-3f6df080-a08b-11eb-9305-79afd19c66af.jpg
         big: https://user-images.githubusercontent.com/1345662/115169098-206f5e80-a08b-11eb-9e03-af01aeaa37f8.jpg
     -
       name: Nike Zoom Winflo
+      retired: true
       image:
         small: https://user-images.githubusercontent.com/1345662/115169462-0e41f000-a08c-11eb-80a4-8cc950d1be4c.jpg
         big: https://user-images.githubusercontent.com/1345662/115169464-0e41f000-a08c-11eb-9626-ddd596dcf6a7.jpg
     -
       name: Diadora Mythos Blushield Volo
+      retired: true
       image:
         small: https://user-images.githubusercontent.com/1345662/115322249-a22abf00-a153-11eb-961f-affc19b62b78.jpg
         big: https://user-images.githubusercontent.com/1345662/115322247-a1922880-a153-11eb-8658-d84b3e407904.jpg
@@ -35,6 +48,11 @@
       image:
         small: https://user-images.githubusercontent.com/1345662/115169683-b8217c80-a08c-11eb-88b2-42ec5c6e2041.jpg
         big: https://user-images.githubusercontent.com/1345662/115169686-b8217c80-a08c-11eb-980d-b091745fcad3.jpg
+    -
+      name: Garmin Vector 3S
+      image:
+        small: https://user-images.githubusercontent.com/1345662/147418736-15c0ead4-7904-4684-963d-1c8cda2f67c3.jpg
+        big: https://user-images.githubusercontent.com/1345662/147418737-61644b8d-e0c3-4bf6-bbf6-b6f9b9d03f5d.jpg
     -
       name: Garmin Edge 530
       image:
