@@ -13,6 +13,7 @@
         big: https://user-images.githubusercontent.com/1345662/152707957-56e29035-1fc9-40b7-abe5-f9ad7ba7d77e.jpg
     -
       name: Nike Zoom Fly SP
+      retired: true
       image:
         small: https://user-images.githubusercontent.com/1345662/115168336-87d7df00-a088-11eb-8745-a7ffbebb1a14.jpg
         big: https://user-images.githubusercontent.com/1345662/115168338-88707580-a088-11eb-8404-4c45b41d181d.jpg
@@ -43,6 +44,11 @@
 - title: Ciclismo
   icon: 🚴‍♂️
   items:
+    -
+      name: QuintanaRoo PRFiveDisc2
+      image:
+        small: https://user-images.githubusercontent.com/1345662/157787835-de7e25a5-86da-41cc-aef5-25233d167d3e.jpg
+        big: https://user-images.githubusercontent.com/1345662/157787834-61782ef2-1a2f-489a-b028-a82b08820ea1.jpg
     -
       name: Trek Emonda SL5 Disc
       image:
