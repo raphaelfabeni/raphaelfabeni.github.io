@@ -70,7 +70,13 @@
         small: https://user-images.githubusercontent.com/1345662/115169816-1babaa00-a08d-11eb-8929-b6fac3679bd1.jpg
         big: https://user-images.githubusercontent.com/1345662/115169815-1b131380-a08d-11eb-8be2-22b3d9a356a3.jpg
     -
+      name: Tacx Neo 2T
+      image:
+        small: https://user-images.githubusercontent.com/1345662/175779978-855b6757-82fb-4065-a291-a27e64765d4c.jpg
+        big: https://user-images.githubusercontent.com/1345662/175779976-5187a626-a527-46ab-b8fd-0760bf321a88.jpg
+    -
       name: Wahoo Kickr Snap
+      retired: true
       image:
         small: https://user-images.githubusercontent.com/1345662/115174001-6bdb3a00-a096-11eb-81b1-6a61349aba52.jpg
         big: https://user-images.githubusercontent.com/1345662/115174004-6bdb3a00-a096-11eb-8f8b-eb3230b061fa.jpg
