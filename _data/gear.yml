@@ -12,6 +12,11 @@
         small: https://user-images.githubusercontent.com/1345662/152707956-c26d90bf-ace4-4b38-9584-9bc8d07f96e5.jpg
         big: https://user-images.githubusercontent.com/1345662/152707957-56e29035-1fc9-40b7-abe5-f9ad7ba7d77e.jpg
     -
+      name: Nike Air Zoom Pegasus
+      image:
+        small: https://user-images.githubusercontent.com/1345662/175778832-97c96d1e-f2c3-44ff-affd-4081cd25799f.jpg
+        big: https://user-images.githubusercontent.com/1345662/175778831-db2f3d8f-0151-4d8d-bb20-d9f3952608dd.jpg
+    -
       name: Nike Zoom Fly SP
       retired: true
       image:
@@ -80,10 +85,20 @@
         small: https://user-images.githubusercontent.com/1345662/115311714-1ce8df80-a13e-11eb-99dc-c63de53bac21.jpg
         big: https://user-images.githubusercontent.com/1345662/115311715-1d817600-a13e-11eb-9d5f-399b97afd99c.jpg
     -
+      name: Giro Aerohead
+      image:
+        small: https://user-images.githubusercontent.com/1345662/175779244-de9ee6c9-eaed-4abf-97fb-4b46b7a44d36.jpg
+        big: https://user-images.githubusercontent.com/1345662/175779243-def5c6d7-d625-4b13-a924-9d9cceebb186.jpg
+    -
       name: Bontrager Circuit Road Shoe
       image:
         small: https://user-images.githubusercontent.com/1345662/115311876-620d1180-a13e-11eb-96b7-a6b82b528659.jpg
         big: https://user-images.githubusercontent.com/1345662/115311875-61747b00-a13e-11eb-8b3c-6dce9efb36d2.jpg
+    -
+      name: Mavic Cosmic SL Ultimate
+      image:
+        small: https://user-images.githubusercontent.com/1345662/175779246-5ba7b1e0-a997-4f63-96f5-b1e11ef691c4.jpg
+        big: https://user-images.githubusercontent.com/1345662/175779245-35283512-48a3-4c06-9fa7-ec74945992ac.jpg
 
 - title: Natação
   icon: 🏊‍♂️
