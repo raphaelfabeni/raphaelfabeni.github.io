@@ -109,7 +109,13 @@
         small: https://user-images.githubusercontent.com/1345662/125878604-2d7d13c4-b83a-4da4-b229-317562c41757.png
         big: https://user-images.githubusercontent.com/1345662/125878577-3585571f-34ac-4acb-89fa-de54578cfc81.png
     -
+      name: TheMagic5 Blue
+      image:
+        small: https://user-images.githubusercontent.com/1345662/175779801-e2b65152-ceb5-4969-bc14-5dea14db21a9.jpg
+        big: https://user-images.githubusercontent.com/1345662/175779799-01e809aa-230d-4faf-b8e0-819209627efb.jpg
+    -
       name: TheMagic5 Purple Edition
+      retired: true
       image:
         small: https://user-images.githubusercontent.com/1345662/115171868-06854a00-a092-11eb-877e-62bb84bc4f44.jpg
         big: https://user-images.githubusercontent.com/1345662/115171870-06854a00-a092-11eb-8aab-4fa23b238cef.jpg
