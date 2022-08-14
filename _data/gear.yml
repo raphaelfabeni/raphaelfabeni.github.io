@@ -2,20 +2,38 @@
   icon: 🏃‍♂️
   items:
     -
+      name: Nike Air Zoom Alphafly NEXT% Flyknit Ekiden
+      image:
+        small: https://user-images.githubusercontent.com/1345662/184550688-3cfe3558-dd54-4273-84d4-1bf610904c77.jpg
+        big: https://user-images.githubusercontent.com/1345662/184550687-d60ba94a-0aa5-48f0-8e9d-c6ab54cb4c2b.jpg
+    -
+    -
+      name: Nike Air Zoom Alphafly NEXT% Flyknit Ekiden
+      image:
+        small: https://user-images.githubusercontent.com/1345662/184550686-067ff39e-02b2-4c72-a5e9-f7a3f4d0cba7.jpg
+        big: https://user-images.githubusercontent.com/1345662/184550685-56643685-dea7-40f8-8c59-cd7124c6da4b.jpg
+    -
+    -
+      name: Nike ZoomX Vaporfly Next% 2
+      image:
+        small: https://user-images.githubusercontent.com/1345662/184550545-c9d97d80-55d1-49ae-9ea2-480c00de0233.jpg
+        big: https://user-images.githubusercontent.com/1345662/184550543-80615afd-58d6-4b0c-b694-379246336b01.jpg
+    -
       name: Adidas Adizero Adios Pro 2
       image:
         small: https://user-images.githubusercontent.com/1345662/152707953-2c59d9ee-acec-4683-af35-d14811622421.jpg
         big: https://user-images.githubusercontent.com/1345662/152707955-4a21a32d-6b2f-48bb-a6e7-0608ce8fd3c1.jpg
     -
-      name: Nike Air Zoom Tempo NEXT%
-      image:
-        small: https://user-images.githubusercontent.com/1345662/152707956-c26d90bf-ace4-4b38-9584-9bc8d07f96e5.jpg
-        big: https://user-images.githubusercontent.com/1345662/152707957-56e29035-1fc9-40b7-abe5-f9ad7ba7d77e.jpg
-    -
       name: Nike Air Zoom Pegasus
       image:
         small: https://user-images.githubusercontent.com/1345662/175778832-97c96d1e-f2c3-44ff-affd-4081cd25799f.jpg
         big: https://user-images.githubusercontent.com/1345662/175778831-db2f3d8f-0151-4d8d-bb20-d9f3952608dd.jpg
+    -
+      name: Nike Air Zoom Tempo NEXT%
+      retired: true
+      image:
+        small: https://user-images.githubusercontent.com/1345662/152707956-c26d90bf-ace4-4b38-9584-9bc8d07f96e5.jpg
+        big: https://user-images.githubusercontent.com/1345662/152707957-56e29035-1fc9-40b7-abe5-f9ad7ba7d77e.jpg
     -
       name: Nike Zoom Fly SP
       retired: true
