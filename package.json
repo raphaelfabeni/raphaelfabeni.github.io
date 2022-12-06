@@ -63,7 +63,7 @@
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.6.0",
     "babelify": "^7.3.0",
-    "browser-sync": "^2.11.1",
+    "browser-sync": "^2.26.7",
     "browserify": "^14.4.0",
     "concurrently": "^5.2.0",
     "eslint": "^6.5.1",
@@ -79,12 +79,12 @@
     "watch": "^0.17.1"
   },
   "dependencies": {
-    "a11y": "^0.4.0",
+    "a11y": "^0.5.1",
     "chokidar": "1.4.2",
     "chokidar-cli": "1.2.0",
-    "critical": "^0.7.0",
+    "critical": "^0.7.3",
     "global": "^4.3.2",
     "grunt": "^1.0.1",
-    "psi": "^2.0.2"
+    "psi": "^4.1.0"
   }
 }
