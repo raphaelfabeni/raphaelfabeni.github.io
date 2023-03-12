@@ -2,6 +2,21 @@
   icon: 🏃‍♂️
   items:
     -
+      name: Nike Zoom Fly 5
+      image:
+        small: https://user-images.githubusercontent.com/1345662/224575456-96a473d5-55ff-4ed5-8754-f4c4f98ba6cf.jpg
+        big: https://user-images.githubusercontent.com/1345662/224575454-c559592b-db87-4b96-81f1-52eb1f663040.jpg
+    -
+      name: Nike Air Zoom Tempo NEXT%
+      image:
+        small: https://user-images.githubusercontent.com/1345662/224575626-07aa6a20-e86e-4fe5-8a0e-9383bd0bd97b.jpg
+        big: https://user-images.githubusercontent.com/1345662/224575627-c618b7f4-f310-4c3c-8fb9-7c05516f6175.jpg
+    -
+      name: Hoka Clifton Edge
+      image:
+        small: https://user-images.githubusercontent.com/1345662/224575452-577e3e9a-c8b9-42c7-a530-a8ffbadbd030.jpg
+        big: https://user-images.githubusercontent.com/1345662/224575453-ae00684c-2bac-4805-8192-91afecd157ed.jpg
+    -
       name: Nike Air Zoom Alphafly NEXT% Flyknit Ekiden
       image:
         small: https://user-images.githubusercontent.com/1345662/184550686-067ff39e-02b2-4c72-a5e9-f7a3f4d0cba7.jpg
@@ -19,6 +34,7 @@
         big: https://user-images.githubusercontent.com/1345662/152707955-4a21a32d-6b2f-48bb-a6e7-0608ce8fd3c1.jpg
     -
       name: Nike Air Zoom Pegasus
+      retired: true
       image:
         small: https://user-images.githubusercontent.com/1345662/175778832-97c96d1e-f2c3-44ff-affd-4081cd25799f.jpg
         big: https://user-images.githubusercontent.com/1345662/175778831-db2f3d8f-0151-4d8d-bb20-d9f3952608dd.jpg
