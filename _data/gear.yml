@@ -29,6 +29,7 @@
         big: https://user-images.githubusercontent.com/1345662/184550543-80615afd-58d6-4b0c-b694-379246336b01.jpg
     -
       name: Adidas Adizero Adios Pro 2
+      retired: true
       image:
         small: https://user-images.githubusercontent.com/1345662/152707953-2c59d9ee-acec-4683-af35-d14811622421.jpg
         big: https://user-images.githubusercontent.com/1345662/152707955-4a21a32d-6b2f-48bb-a6e7-0608ce8fd3c1.jpg
