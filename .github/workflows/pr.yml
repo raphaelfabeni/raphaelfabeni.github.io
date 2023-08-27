@@ -19,7 +19,7 @@ jobs:
         if: ${{ steps.regex-match.outputs.match != '' }}
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          labels: ${{ steps.regex-match.outputs.group1 }}
+          labels: ${{ steps.regex-match.outputs.match }}
 
 
 
