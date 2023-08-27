@@ -13,7 +13,7 @@ jobs:
         id: regex-match
         with:
           text: ${{ github.event.pull_request.title }}
-          regex: '^/2023\s*(.*?)\s*$'
+          regex: '\d{2,4}\.\d{1,2}\.\d{1,2}'
 
       - uses: actions-ecosystem/action-add-labels@v1
         if: ${{ steps.regex-match.outputs.match != '' }}
