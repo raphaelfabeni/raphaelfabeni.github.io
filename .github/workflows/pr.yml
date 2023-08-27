@@ -1,0 +1,14 @@
+name: PR label
+on:
+  pull_request:
+    types: [opened]
+
+jobs:
+  label_prs:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Label PRs
+      if: github.event.action == 'opened'
+      uses: ffittschen/pr-branch-labeler@v1
+      with:
+        repo-token: ${{ secrets.GITHUB_TOKEN }}
