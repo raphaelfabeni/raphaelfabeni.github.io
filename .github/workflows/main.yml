@@ -1,18 +1,12 @@
 name: PR label
 on:
   pull_request:
-    branches:
-      - master
-      - test/*
+    types: [opened]
+
 jobs:
-  add_label:
+  pr-labeler:
     runs-on: ubuntu-latest
     steps:
-      - name: checkout
-        uses: actions/checkout@v2
-
-      - name: add label
-        uses: actions-ecosystem/action-add-labels@v1
-        if: ${{ startsWith(github.event.comment.body, '/add-labels') }}
+      - uses: TimonVS/pr-labeler-action@v3
         with:
-          labels: bug
+          configuration-path: .github/pr-labeler.yml
