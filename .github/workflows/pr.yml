@@ -12,8 +12,8 @@ jobs:
       - uses: KyoriPowered/action-regex-match@v3
         id: regex-match
         with:
-          text: ${{ github.event.comment.body }}
-          regex: '^/label\s*(.*?)\s*$'
+          text: ${{ github.event.pull_request.title }}
+          regex: '^/2023\s*(.*?)\s*$'
 
       - uses: actions-ecosystem/action-add-labels@v1
         if: ${{ steps.regex-match.outputs.match != '' }}
