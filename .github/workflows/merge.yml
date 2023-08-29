@@ -1,19 +1,44 @@
-name: Cascading Merge
+name: Merge branch
 on:
   push:
     branches:
-      - master
-      - qa-main
-
+      - 'master'
 jobs:
-  cascading-merge:
-    name: Cascading Merge
+  merge-branch:
     runs-on: ubuntu-latest
     steps:
-      - name: Cascading Merge
-        uses: mheap/cascading-merge-action@v1
+      - uses: actions/checkout@master
+
+      - name: Merge master -> qa/main
+        uses: devmasx/merge-branch@master
         with:
-          # Changes to `branch-1` will automatically be merged into `branch-2` and `branch-3`
-          branches: |
-            master
-            qa-main
+          type: now
+          target_branch: qa/main
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+
+
+
+
+
+
+
+
+# name: Cascading Merge
+# on:
+#   push:
+#     branches:
+#       - master
+#       - qa-main
+
+# jobs:
+#   cascading-merge:
+#     name: Cascading Merge
+#     runs-on: ubuntu-latest
+#     steps:
+#       - name: Cascading Merge
+#         uses: mheap/cascading-merge-action@v1
+#         with:
+#           # Changes to `branch-1` will automatically be merged into `branch-2` and `branch-3`
+#           branches: |
+#             master
+#             qa-main
