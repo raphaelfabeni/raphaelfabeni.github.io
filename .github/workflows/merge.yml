@@ -10,10 +10,9 @@ jobs:
     name: Cascading Merge
     runs-on: ubuntu-latest
     steps:
-      - name: Cascading Merge
+      - name: Merging
         uses: mheap/cascading-merge-action@v1
         with:
-          # Changes to `branch-1` will automatically be merged into `branch-2` and `branch-3`
           branches: |
             master
             qa-main
