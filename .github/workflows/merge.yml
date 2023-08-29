@@ -3,6 +3,7 @@ on:
   push:
     branches:
       - 'master'
+
 jobs:
   merge-branch:
     runs-on: ubuntu-latest
