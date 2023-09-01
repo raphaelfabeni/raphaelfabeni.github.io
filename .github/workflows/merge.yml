@@ -1,18 +1,51 @@
-name: Cascading Merge
+name: Update Test Branch
+
 on:
   push:
-    branches:
-      - master
-      - qa-main
+    branches: [master]
+    
+permissions: 
+  contents: write
 
 jobs:
-  cascading-merge:
-    name: Cascading Merge
+  sync:
     runs-on: ubuntu-latest
     steps:
-      - name: Merging
-        uses: mheap/cascading-merge-action@v1
+      - name: Checkout
+        uses: actions/checkout@v3
         with:
-          branches: |
-            master
-            qa-main
+          fetch-depth: 0
+
+      - name: Setup Git User
+        run: |
+          git config user.name "GitHub Action"
+
+      - name: Update Test Branch
+        run: |
+          git checkout master
+          git fetch origin
+          git checkout qa-main
+          git pull
+          git merge origin/master
+          git push origin qa-main
+
+
+
+# name: Cascading Merge
+# on:
+#   push:
+#     branches:
+#       - master
+#       - qa-main
+
+# jobs:
+#   cascading-merge:
+#     name: Cascading Merge
+#     runs-on: ubuntu-latest
+#     steps:
+#       - name: Merging
+#         uses: mheap/cascading-merge-action@v1
+#         with:
+#           branches: |
+#             master
+#             qa-main
