@@ -1,0 +1,63 @@
+name: PR label
+on:
+  pull_request:
+    types: [opened, reopened]
+    branches:
+      - 'qa/release-**'
+
+jobs:
+  # one:
+  #   runs-on: ubuntu-latest
+  #   steps:
+  #     - name: Dump GitHub context
+  #       env:
+  #         GITHUB_CONTEXT: ${{ toJson(github) }}
+  #       run: echo "$GITHUB_CONTEXT"
+
+  label_prs:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - uses: KyoriPowered/action-regex-match@v3
+        id: regex-match
+        with:
+          text: ${{ github.base_ref }}
+          regex: '\d{2,4}\-\d{1,2}\-\d{1,2}'
+
+      - uses: mad9000/actions-find-and-replace-string@3
+        id: findandreplace
+        if: ${{ steps.regex-match.outputs.match != '' }}
+        with:
+          source: ${{ steps.regex-match.outputs.match }}
+          find: '-'
+          replace: '.'
+          replaceAll: true
+          
+      - uses: actions/github-script@v6
+        with:
+          script: |
+            const { data: pullRequest } = await github.rest.pulls.get({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              pull_number: context.payload.pull_request.number
+            });
+
+            const labels = pullRequest.labels.map(label => label.name);
+            console.log(labels);
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+            
+
+      # - uses: actions-ecosystem/action-add-labels@v1
+      #   if: ${{ steps.regex-match.outputs.match != '' }}
+      #   with:
+      #     github_token:  ${{ secrets.GITHUB_TOKEN }}
+      #     labels: 🚀 Release ${{ steps.findandreplace.outputs.value }}
+
+# github.rest.issues.createLabel({
+            #   owner: context.repo.owner,
+            #   repo: context.repo.repo,
+            #   name: 'Test',
+            #   color: 'ff0000'
+            # })
