@@ -68,7 +68,7 @@
 
 		<!-- CSS -->
 		{% if page.critical %}
-			<style>
+			<!-- <style>
 				{% include css/critical.css %}
 			</style>
 			<script defer>
@@ -79,10 +79,10 @@
 				var godefer = document.getElementsByTagName('link')[0];
 				godefer.parentNode.insertBefore(linkElement, godefer);
 			</script>
-			<noscript><link rel="stylesheet" href="/dist/styles/main.min.css"></noscript>
+			<noscript><link rel="stylesheet" href="/dist/styles/main.min.css"></noscript> -->
 		{% else %}
-			<link rel="stylesheet" href="/dist/styles/main.min.css?var=1">
 		{% endif %}
+		<link rel="stylesheet" href="/dist/styles/main.min.css?var=1">
 
 
 	<!-- Google tag (gtag.js) -->
