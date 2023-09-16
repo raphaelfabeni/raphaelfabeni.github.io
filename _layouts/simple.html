@@ -10,9 +10,11 @@ layout: compress
   {% endif %}
 
   {% include head.html %}
-<body data-hold class="simple">
-
-  {% include header.html %}
+<body data-hold class="simple {% if page.bodyClass %}body-{{page.bodyClass}}{% endif %}">
+  {% if page.noHeader == true %}
+  {% else %}
+    {% include header.html %}
+  {% endif %}
 
   <main role="main" id="content" class="container container--full">
     {{ content }}

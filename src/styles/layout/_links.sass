@@ -1,0 +1,86 @@
+$color-button: darken($color-blue, 20%)
+$color-orange: #f67729
+
+.body-links
+	background: linear-gradient(to bottom, #0072ff, #00c6ff)
+
+.links
+	width: 100%
+	margin: 50px auto
+	text-align: center
+
+	&__thumb
+		width: 105px
+		border: solid 5px $color-orange
+		border-radius: 50%
+		overflow: hidden
+		display: block
+		margin: 0 auto 20px
+
+	&__title
+		color: #fff
+		text-shadow: 1px 1px 1px rgba(0, 0, 0, .2)
+		font-size: 28px
+	
+	&__list
+		margin: 25px 0 0
+
+		li
+			margin: 0 0 25px
+
+		a
+			color: #000
+			position: relative
+			display: block
+			cursor: pointer
+			border: 0
+			background: #fff
+			padding: 20px
+			text-decoration: none
+			font-weight: bold
+			box-shadow: $color-button 16px 8px 0 0
+			transition: transform 0.1s linear 0s, box-shadow 0.1s linear 0s
+			backface-visibility: hidden
+			border-radius: 0
+
+			&:active
+				color: $color-orange
+				transform: translate(calc(17px), calc(9px))
+				box-shadow: rgb(0, 0, 0) 0 0 0 0
+
+				&::before
+					border: 0
+					left: -1px
+					bottom: calc(-5px)
+
+				&::after
+					width: 0
+					border-right: 0
+
+			&:before,
+			&:after
+				position: absolute
+				content: ''
+				z-index: 1
+				transition: all 0.1s linear 0s
+				backface-visibility: hidden
+
+			&:before
+				inset: auto auto calc(-8px) -1px
+				border-left: 16px solid transparent
+				border-right: 16px solid transparent
+				border-top: 8px solid $color-button
+			
+			&:after
+				top: -1px
+				left: calc(100% + 1px)
+				height: calc(100% + 2px)
+				width: 16px
+				transform: matrix(1, 0.5, 0, 1, 0, 0)
+				transform-origin: left top
+				border-width: 1px 1px 1px 0
+				border-style: solid solid solid
+				border-color: $color-button $color-button $color-button
+				border-image: initial
+				border-left: 0
+				background: $color-button
