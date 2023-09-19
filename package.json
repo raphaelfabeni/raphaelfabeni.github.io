@@ -19,6 +19,8 @@
     }
   },
   "scripts": {
+    "start": "jekyll serve -w -l --config _config.yml --trace JEKYLL_LOG_LEVEL=info",
+    "build": "jekyll build --config _config.yml"
   },
   "devDependencies": {
   },

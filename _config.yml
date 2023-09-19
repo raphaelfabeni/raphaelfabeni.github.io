@@ -17,6 +17,8 @@ exclude:
 - start.bash
 - src
 permalink: "/:title/"
+sass:
+  style: compressed
 markdown: kramdown
 kramdown:
   input: GFM
@@ -26,6 +28,7 @@ plugins:
 - jekyll-gist
 - octopress-debugger
 - jekyll-sitemap
+- jekyll-sass-converter
 blog:
   en: "/blog/"
   pt-br: "/pt-br/blog/"
