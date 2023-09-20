@@ -10,11 +10,17 @@
 
 body {
   font-size: 16px;
+  line-height: 20px;
   font-family: $font-family--loaded;
+  color: $color-gray;
 }
 
 img,
 iframe {
   width: auto;
 	max-width: 100%;
+}
+
+a {
+  color: $color-orange;
 }

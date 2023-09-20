@@ -2,7 +2,7 @@
 .cover {
 
   &-hold {
-    height: 200vw;
+    height: 200vh;
   }
 
   clip: rect(0, auto, auto, 0);
@@ -76,4 +76,45 @@
       letter-spacing: -1vw;
     }
   }
+}
+
+.info {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #fff;
+
+  &__section {
+    position: sticky;
+    height: 100vh;
+    margin: 0 auto 10vh 0;
+    top: 0;
+    overflow: hidden;
+    background-color: #fff;
+    width: calc( 50% + 1px);
+    padding: 40px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+
+    &:nth-child(1),
+    &:nth-child(2) {
+      width: 50%;
+      margin: 0 0 10vh 0;
+    }
+
+    &:nth-of-type(odd):not(:nth-child(1)) {
+      margin: 0 0 10vh auto;
+    }
+
+    &:nth-of-type(even):not(:nth-child(2)) {
+      margin: 0 auto 10vh 0;
+    }
+  }
+
+  &__text {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  
 }
