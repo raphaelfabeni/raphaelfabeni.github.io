@@ -1,0 +1,42 @@
+.header {
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  z-index: 10;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+
+  &__title {
+    color: $color-blue;
+    font-size: 32px;
+    text-decoration: none;
+    transition: color .3s ease;
+    font-weight: 700;
+
+    &:hover,
+    &:focus {
+      color: $color-orange;
+    }
+  }
+
+  .navigation {
+    margin: 0 auto;
+
+    a {
+      text-decoration: none;
+      text-transform: uppercase;
+      color: #999;
+      display: inline-block;
+      padding: 12px;
+      transition: color .3s ease;
+      font-size: 14px;
+
+      &:hover,
+      &:focus {
+        color: $color-orange;
+      }
+    }
+  }
+}

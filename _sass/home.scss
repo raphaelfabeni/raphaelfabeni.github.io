@@ -19,7 +19,6 @@
 
     p {
       background: url("../images/raphael-fabeni-tt-large.jpg");
-      // background-size: cover;
       background-position: center;
       text-fill-color: transparent;
       -webkit-text-fill-color: transparent;
@@ -142,6 +141,7 @@
   &__text {
     font-size: 28px;
     line-height: 36px;
+    font-weight: 400;
   }
   
 }
