@@ -10,33 +10,20 @@ layout: compress
   {% endif %}
 
   {% include head.html %}
-<body data-hold class="post-page">
+  <body class="{% if page.type %}{{page.type | downcase}}{% endif %}">
 
-  {% include header.html %}
+    {% include header.html %}
 
-  <div class="container container--full-np">
-    <div class="header-post" style="background-image: url({{page.image}});">
-      <button class="header-post__arrow" data-post-arrow></button>
+    <div class="post-header">
+      <h1 class="post-header__title" data-post-title>{{ page.title }}</h1>
+      <div class="post-header__image" style="background-image: url({{page.image}});"></div>
     </div>
-    <h1 class="post-title" data-post-title>{{ page.title }}</h1>
-  </div>
 
-	<div class="full">
-		<div class="container container--small container--spacing">
-      {% if page.lang == "en" and alternatePosts.size == 1 %}
-      <section class="post-box-info">
-        Quer esse conteúdo em pt-br? <a href="https://github.com/raphaelfabeni/raphaelfabeni.github.io/issues/new?assignees=&labels=tradu%C3%A7%C3%A3o&template=traducao.md&title=Tradu%C3%A7%C3%A3o+de+um+post&body=Gostaria+de+pedir+a+tradução+do+post+_[{{ page.title }}]({{ site.url }}{{ page.url }})_+">Clique aqui</a>.
-      </section>
-      {% endif %}
-	  	<article role="main" class="post-content">
-	    	{{ content }}
-	  	</article>
-  		<a href="{{ site.blog[page.lang] }}" class="button button--default button--big button--center">{{ site.dictionary[page.lang].more_posts }}</a>
-  	</div>
-  </div>
-
-  <a rel="author" class="sr-only" href="https://plus.google.com/u/0/+RaphaelFabeni">Raphael Fabeni</a>
-
-  {% include scripts.html %}
-</body>
+    <article role="main" class="post-content">
+      <div class="post-content__container">
+        {{ content }}
+      </div>
+      <a href="{{ site.blog[page.lang] }}" class="post-content__more">{{ site.dictionary[page.lang].more_posts }}</a>
+    </article>
+  </body>
 </html>

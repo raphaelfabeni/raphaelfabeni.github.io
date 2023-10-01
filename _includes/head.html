@@ -8,10 +8,12 @@
 			<title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
 		{% endif %}
 
-		{% if page.type == 'home' %}
+		{% if page.type == 'Home' %}
 		<link rel="stylesheet" href="/assets/css/styles.css">
+		{% elsif page.type == 'blog' %}
+		<link rel="stylesheet" href="/assets/css/blog-styles.css">
 		{% else %}
-		<link rel="stylesheet" href="/assets/css/blog-post.css">
+		<link rel="stylesheet" href="/assets/css/post-styles.css">
 		{% endif %}
 
 		{% include alternate.html %}

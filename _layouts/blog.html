@@ -1,4 +1,5 @@
 ---
+type: blog
 layout: compress
 ---
 
@@ -10,34 +11,35 @@ layout: compress
   {% endif %}
 
   {% include head.html %}
-<body data-hold class="blog">
 
-  {% include header.html %}
+  <body class="page-container {% if page.type %}{{page.type | downcase}}{% endif %}">
 
-  <main role="main" id="content" class="blog-container">
-    {% if page.type == 'blog' %}
-      <header class="blog-container__header">
-        <h1 class="blog-container__header-title">
-          {% if page.lang == 'en' %}
-          Articles. Stories. And more.
-          {% else %}
-          Artigos. Histórias. E mais.
-          {% endif %}
-        </h1>
-        <p class="blog-container__header-desc">{{ page.description }}</p>
-        <!-- {% include loop-category.html %} -->
-      </header>
-      <section class="blog-container__list">
-        {% for post in site.posts %}
-          {% if post.lang == page.lang %}
-            {% include block-post.html %}
+    {% include header.html %}
+
+    <main role="main" class="blog-container">
+      {% if page.type == 'blog' %}
+        <header class="blog-container__header">
+          <h1 class="blog-container__header-title">
+            {% if page.lang == 'en' %}
+            Articles. Stories. And more.
+            {% else %}
+            Artigos. Histórias. E mais.
             {% endif %}
-        {% endfor %}
-      </section>
-    {% else %}
-      {{ content }}
-    {% endif %}
-  </main>
+          </h1>
+          <p class="blog-container__header-desc">{{ page.description }}</p>
+          <!-- {% include loop-category.html %} -->
+        </header>
+        <section class="blog-container__list">
+          {% for post in site.posts %}
+            {% if post.lang == page.lang %}
+              {% include block-post.html %}
+              {% endif %}
+          {% endfor %}
+        </section>
+      {% else %}
+        {{ content }}
+      {% endif %}
+    </main>
 
   {% include scripts.html %}
 </body>
