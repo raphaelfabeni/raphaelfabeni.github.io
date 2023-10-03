@@ -4,7 +4,7 @@ name: Raphael Fabeni
 email: rapha.fabeni@gmail.com
 description: An amateur triathlete, currently working as Engineering Manager at Red Ventures.
 baseurl: ''
-url: https://www.raphaelfabeni.com
+url: https://raphaelfabeni.com
 exclude:
 - node_modules
 - package.json
