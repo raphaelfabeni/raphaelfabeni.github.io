@@ -14,76 +14,16 @@
   },
   "config": {
     "styles": {
-      "all": "src/styles/**/*",
-      "src": "src/styles/main.sass",
-      "dist": "dist/styles/main.min.css",
-      "critical": "_includes/css/critical.css"
     },
     "images": {
-      "src": "src/images/*",
-      "dist": "dist/images/"
     }
   },
   "scripts": {
-    "eslint:dist": "eslint src/scripts/*.js",
-    "eslint": "npm run eslint:dist",
-    "lint:css": "sass-lint -v -q",
-    "libs": "cp -R src/scripts/libs dist/scripts/libs",
-    "babel": "babel src/scripts --out-dir dist/scripts/temp",
-    "uglify:home": "uglifyjs dist/scripts/temp/libs/fontface-observer.js dist/scripts/temp/fonts.js dist/scripts/temp/navigation.js -o dist/scripts/home.min.js",
-    "uglify:post": "uglifyjs dist/scripts/temp/arrow.js -o dist/scripts/arrow.min.js",
-    "uglify:blog": "uglifyjs dist/scripts/temp/blog.js -o dist/scripts/blog.min.js",
-    "update:js": "cp -R dist/scripts _site/dist",
-    "uglify": "npm run uglify:home && npm run uglify:post && npm run uglify:blog",
-    "clean": "rm -rf dist && rm -rf _site",
-    "prefix": "postcss --use autoprefixer -b 'last 3 versions' --output ${npm_package_config_styles_dist} ${npm_package_config_styles_dist}",
-    "sass:dist": "node-sass --output-style compressed ${npm_package_config_styles_src} ${npm_package_config_styles_dist}",
-    "sass:_site": "node-sass --output-style compressed ${npm_package_config_styles_src} _site/${npm_package_config_styles_dist}",
-    "sass": "npm run sass:dist",
-    "critical": "critical _site/index.html --base _site --minify --css _site/${npm_package_config_styles_dist} > ${npm_package_config_styles_critical}",
-    "imagemin": "imagemin ${npm_package_config_images_src} -o=${npm_package_config_images_dist}",
-    "pagespeed": "psi tony-jones.github.io/jekyll-starter-kit/ --strategy=mobile",
-    "accessibility": "a11y tony-jones.github.io/jekyll-starter-kit/",
-    "build:jekyll": "bundle exec jekyll build -- drafts --config _config.yml",
-    "build:js": "npm run eslint && npm run babel && npm run uglify && npm run libs",
-    "build:css": "npm run sass && npm run prefix",
-    "build:images": "npm run imagemin && cp -r src/images/favicon dist/images/favicon",
-    "build:media": "cp -r src/media dist/media",
-    "prepare": "mkdir -p dist dist/images dist/scripts dist/styles && mkdir -p _site _site/dist/images _site/dist/scripts _site/dist/scripts/temp _site/dist/styles",
-    "build": "npm run clean && npm run prepare && npm run build:images && npm run build:js && npm run build:css && npm run build:jekyll && npm run after",
-    "watch:jekyll": "chokidar 'index.html' '_includes/*.html' '_layouts/*.html' '_posts/*' '_data/*' '_category/**/*' 'blog/*' 'thoughts/*' 'links/*' 'my-closet/*' 'gear/*' 'venda/*' 'pt-br/**/*' '_config.yml' 'admin/*' -c 'npm run build:jekyll && npm run sass:_site && browser-sync reload'",
-    "watch:css": "chokidar ${npm_package_config_styles_all} -c 'npm run lint:css && npm run sass:_site && browser-sync reload'",
-    "watch:js": "chokidar 'src/scripts/*' -c 'npm run eslint && npm run babel && npm run uglify:home && npm run uglify:post && npm run uglify:blog && npm run update:js && browser-sync reload'",
-    "serve": "browser-sync start -w --server _site",
-    "start": "npm run build && concurrently \"npm run serve\" \"npm run watch:jekyll\" \"npm run watch:css\" \"npm run watch:js\"",
-    "after": "rm -rf _site/scripts/temp && cp _redirects _site/"
+    "start": "jekyll serve -w -l --config _config.yml --trace JEKYLL_LOG_LEVEL=info",
+    "build": "jekyll build --config _config.yml"
   },
   "devDependencies": {
-    "autoprefixer": "^6.3.1",
-    "babel-cli": "^6.26.0",
-    "babel-preset-env": "^1.6.0",
-    "babelify": "^7.3.0",
-    "browser-sync": "^2.11.1",
-    "browserify": "^14.4.0",
-    "concurrently": "^5.2.0",
-    "eslint": "^6.5.1",
-    "eslint-config-google": "^0.3.0",
-    "image-min": "^0.3.2",
-    "imagemin": "^5.3.1",
-    "imagemin-cli": "^3.0.0",
-    "node-sass": "^4.13.1",
-    "postcss": "^5.0.14",
-    "postcss-cli": "^2.5.0",
-    "sass-lint": "^1.11.1",
-    "uglify-js": "^3.1.2",
-    "watch": "^0.17.1"
   },
   "dependencies": {
-    "a11y": "^0.4.0",
-    "chokidar": "1.4.2",
-    "chokidar-cli": "1.2.0",
-    "global": "^4.3.2",
-    "grunt": "^1.0.1",
-    "psi": "^2.0.2"
   }
 }

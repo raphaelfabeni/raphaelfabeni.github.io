@@ -2,6 +2,6 @@
 layout: blog
 type: blog
 title: Blog | Raphael Fabeni
-description: 'Algumas idéias malucas sobre desenvolvimento web, vida saudável, etc...'
+description: 'Aqui você vai encontrar alguns artigoes sobre desenvolvimento web, carreira tech e claro, minha jornada no triathlon.'
 lang: pt-br
 ---

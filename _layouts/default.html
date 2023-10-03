@@ -11,14 +11,7 @@ layout: compress
 
   {% include head.html %}
 
-	<!-- <style>
-		{% include css/critical.css %}
-	</style> -->
-
-<body class="has-cover is-center home" data-hold>
-
-	<div data-cover class="cover"></div>
-
+<body class="{% if page.type %}{{page.type | downcase}}{% endif %}">
   {% include header.html %}
 
   <main role="main" id="content" class="container container--full">

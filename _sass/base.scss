@@ -1,0 +1,29 @@
+*,
+*:after,
+*:before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+	vertical-align: middle;
+}
+
+body {
+  font-size: 16px;
+  font-family: $font-family--loaded;
+  color: $color-gray;
+}
+
+img,
+iframe {
+  width: auto;
+	max-width: 100%;
+}
+
+iframe {
+  width: 100%;
+}
+
+a {
+  color: $color-orange;
+}
