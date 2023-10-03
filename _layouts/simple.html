@@ -10,7 +10,7 @@ layout: compress
   {% endif %}
 
   {% include head.html %}
-<body data-hold class="simple {% if page.bodyClass %}body-{{page.bodyClass}}{% endif %}">
+  <body class="{% if page.type %}{{page.type | downcase}}{% endif %}">
   {% if page.noHeader == true %}
   {% else %}
     {% include header.html %}

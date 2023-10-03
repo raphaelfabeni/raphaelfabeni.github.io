@@ -2,3 +2,12 @@
   margin-top: 80px;
   padding: 0 24px 24px;
 }
+
+@keyframes movedown {
+  0% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
