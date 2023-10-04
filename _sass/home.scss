@@ -16,10 +16,12 @@
   &--solid {
     background: black;
     top: 0;
+    z-index: 2;
 
     p {
-      background: url("../images/raphael-fabeni-tt-large.jpg");
+      background-image: url("../images/raphael-fabeni-tt-large.jpg");
       background-position: center;
+      background-repeat: no-repeat;
       text-fill-color: transparent;
       -webkit-text-fill-color: transparent;
       background-clip: text;
@@ -34,10 +36,16 @@
 
   &--image {
     background-image: url("../images/raphael-fabeni-tt-large.jpg");
-    background-size: cover;
+    // background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
     background-attachment: fixed;
-    top: 100vh;
+    top: 1;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
 
     @media (max-width: 650px) {
       background-position: 70% center;
@@ -81,6 +89,8 @@
   display: flex;
   flex-wrap: wrap;
   background-color: #fff;
+  position: relative;
+  z-index: 3;
 
   &__section {
     width: 100%;
@@ -149,6 +159,9 @@
 .contact {
   padding: 40px;
   text-align: center;
+  position: relative;
+  z-index: 3;
+  background-color: #fff;
 
   @media (max-width: 840px) {
     padding: 20px;
