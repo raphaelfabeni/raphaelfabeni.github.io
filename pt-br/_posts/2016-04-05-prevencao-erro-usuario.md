@@ -14,7 +14,7 @@ alt: Imagem mostra dois pé de uma pessoa pulando em uma poça de água
 
 <figure class="loading">
     <img src="https://cloud.githubusercontent.com/assets/1345662/14282421/9b6c48c2-fb14-11e5-8823-08ce793e60e1.png" alt="Print de prevenção de erro do usuário no Gmail, onde ao escrever a palavra anexo no corpo de texto e tentar enviar o e-mail, o Gmail alerta sobre um possível erro.">
-    <figcaption>Prompt do Gogle Chrome alertando o usuário sobre sobre anexo.</figcaption>
+    <figcaption>Prompt do Google Chrome alertando o usuário sobre sobre anexo.</figcaption>
 </figure>
 
 Mesmo que você não tenha trabalhado ou trabalhe com tecnologia ou projetos digitais, o que for, pode já ter ouvido falar das *10 heurísticas de usabilidade de Jakob Nielsen*. Resumidamente são 10 itens para a avaliação da usabilidade de um site com o objetivo de evitar erros comuns.
