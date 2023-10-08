@@ -33,7 +33,7 @@ blog:
   pt-br: "/pt-br/blog/"
 collections:
   category:
-    output: true
+    output: false
     permalink: /:title/
 gist:
   noscript: false
