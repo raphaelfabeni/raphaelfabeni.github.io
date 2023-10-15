@@ -38,6 +38,11 @@
       font-size: 14px;
       align-items: center;
 
+      @media(max-width: 768px) {
+        font-size: 16px;
+        margin-right: 8px;
+      }
+
       > span {
         margin-right: 8px;
       }
